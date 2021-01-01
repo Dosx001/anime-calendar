@@ -1,3 +1,18 @@
 .selector-for-some-widget {
     box-sizing: content-box;
 }
+
+.time {
+  border: 1px solid #dddddd;
+  padding: 1rem;
+}
+
+.date {
+  border: 1px solid #dddddd;
+  padding: 1rem;
+}
+
+.slot {
+  border: 1px solid #dddddd;
+  padding: 1rem;
+}
