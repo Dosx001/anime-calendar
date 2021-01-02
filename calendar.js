@@ -26,19 +26,16 @@ $(document).ready(function() {
 })
 
 $(function() {
-    //dates.forEach(async function(date) {
-    //    send += '<div>' + date + '</div>';
-    //})
     $("body").append(calendar(getDates()));
 })
 
 function calendar(dates) {
     times = getTime();
     var calendar = '<div id="calendar">';
-    for (var time = 0; time < 25; time++) {
+    times.forEach(async function(time) {
         calendar += '<div class="row">'
         for  (var day = 0; day < 8; day++) {
-            if (time == 0) {
+            if (time == null) {
                 var date = dates[day]
                 if (day != 0) {
                     calendar += '<div class="col-sm date">'
@@ -52,14 +49,14 @@ function calendar(dates) {
                 }
             }
             else if (day == 0) {
-                calendar += '<div class="col-sm time">' + times[time] + '</div>'
+                calendar += '<div class="col-sm time">' + time + '</div>'
             }
             else {
                 calendar += '<div class="col-sm slot">content</div>'
             }
         }
         calendar += '</div>'
-    }
+    })
     var element = document.getElementById('month');
     if (dates[1].getMonth() == dates[7].getMonth()) {
         element.innerHTML = dates[1].toLocaleDateString("en-US",{ month: 'long' })
@@ -74,13 +71,15 @@ function calendar(dates) {
 
 function getTime() {
     var times = [null];
-    for (var i = 0; i < 24; i++) {
+    for (var i = 11; i < 35; i++) {
         var time = i % 12 + 1;
-        if (i < 12 ) {
-            times.push(time + " AM");
+        if (i < 23 ) {
+            times.push(time + ":00 AM");
+            times.push(time + ":30 AM");
         }
         else {
-            times.push(time + " PM");
+            times.push(time + ":00 PM");
+            times.push(time + ":30 PM");
         }
     }
     return times
@@ -94,25 +93,25 @@ function getDates(offset = 0) {
     var year = date.getFullYear();
     switch(date.getDay()) {
         case 0:
-            day += offset - 9;
-            break;
-        case 1:
-            day += offset - 8;
-            break;
-        case 2:
-            day += offset - 7;
-            break;
-        case 3:
             day += offset - 6;
             break;
+        case 1:
+            day += offset;
+            break;
+        case 2:
+            day += offset - 1;
+            break;
+        case 3:
+            day += offset - 2;
+            break;
         case 4:
-            day += offset - 5;
+            day += offset - 3;
             break;
         case 5:
             day += offset - 4;
             break;
         case 6:
-            day += offset - 3;
+            day += offset - 5;
             break;
     }
     for (i = 0; i < 7; i++) {
