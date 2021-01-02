@@ -1,13 +1,40 @@
+$(document).ready(function() {
+    $('#left').click(function() {
+        $('#calendar').remove();
+        if ($("#right")[0].style.display == "") {
+            $("#left").hide();
+            $("body").append(calendar(getDates(-7)));
+        }
+        else {
+            $("#right").show();
+            $("#left").show();
+            $("body").append(calendar(getDates()));
+        }
+    })
+    $('#right').click(function() {
+        $('#calendar').remove();
+        if ($("#left")[0].style.display == "") {
+            $("#right").hide();
+            $("body").append(calendar(getDates(+7)));
+        }
+        else {
+            $("#right").show();
+            $("#left").show();
+            $("body").append(calendar(getDates()));
+        }
+    })
+})
+
 $(function() {
     //dates.forEach(async function(date) {
     //    send += '<div>' + date + '</div>';
     //})
-    $("body").append(testing(getDates()));
+    $("body").append(calendar(getDates()));
 })
 
-function testing(dates) {
+function calendar(dates) {
     times = getTime();
-    var calendar = '<div>';
+    var calendar = '<div id="calendar">';
     for (var time = 0; time < 25; time++) {
         calendar += '<div class="row">'
         for  (var day = 0; day < 8; day++) {
@@ -33,6 +60,15 @@ function testing(dates) {
         }
         calendar += '</div>'
     }
+    var element = document.getElementById('month');
+    if (dates[1].getMonth() == dates[7].getMonth()) {
+        element.innerHTML = dates[1].toLocaleDateString("en-US",{ month: 'long' })
+    }
+    else {
+        element.innerHTML = dates[1].toLocaleDateString("en-US",{ month: 'long' })
+            + " to "
+            + dates[7].toLocaleDateString("en-US",{ month: 'long' })
+    }
     return calendar
 }
 
@@ -50,7 +86,7 @@ function getTime() {
     return times
 }
 
-function getDates() {
+function getDates(offset = 0) {
     var dates = [null]
     var date = new Date();
     var day = date.getDate();
@@ -58,31 +94,29 @@ function getDates() {
     var year = date.getFullYear();
     switch(date.getDay()) {
         case 0:
-            day -= 14;
+            day += offset - 9;
             break;
         case 1:
-            day -= 13;
+            day += offset - 8;
             break;
         case 2:
-            day -= 12;
+            day += offset - 7;
             break;
         case 3:
-            day -= 11;
+            day += offset - 6;
             break;
         case 4:
-            day -= 10;
+            day += offset - 5;
             break;
         case 5:
-            day -= 9;
+            day += offset - 4;
             break;
         case 6:
-            day -= 7;
+            day += offset - 3;
             break;
     }
-    day += 7
     for (i = 0; i < 7; i++) {
         dates.push(new Date(year, month, day + i))
     }
     return dates
 }
-

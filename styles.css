@@ -2,6 +2,17 @@
     box-sizing: content-box;
 }
 
+.arrow {
+    font-size: 3rem;
+    background-color: #ffffff00;
+    border: #ffffff00;
+    cursor: pointer;
+}
+
+.arrow:focus {
+    outline:none;
+}
+
 .time {
   border: 1px solid #dddddd;
   padding: 1rem;
@@ -9,7 +20,6 @@
 
 .date {
   border: 1px solid #dddddd;
-  padding: 1rem;
 }
 
 .slot {
