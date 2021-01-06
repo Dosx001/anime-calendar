@@ -1,0 +1,59 @@
+title: 'One Piece'
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/00021/One_Piece'
+  anilist: 'https://anilist.co/anime/21/One-Piece/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=69'
+  kitsu: 'https://kitsu.io/anime/one-piece'
+  animeplanet: 'https://www.anime-planet.com/anime/one-piece'
+  official: 'http://www.toei-anim.co.jp/tv/onep/'
+  subreddit: '/r/OnePiece'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/one-piece'
+  funimation|Funimation: 'https://www.funimation.com/shows/one-piece/'
+  animelab|AnimeLab: 'https://www.animelab.com/shows/one-piece'
+  vrv|VRV: 'https://vrv.co/series/GRMG8ZQZR/One-Piece'
+  nyaa: 'One Piece'
+---
+title: 'Yu-Gi-Oh! VRAINS'
+alias: ['Yu☆Gi☆Oh! VRAINS', 'Yuu Gi Ou: Vrains']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/34866/Yu%E2%98%86Gi%E2%98%86Oh_VRAINS'
+  anilist: 'https://anilist.co/anime/98231/YuGiOh-VRAINS/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=12659'
+  kitsu: 'https://kitsu.io/anime/yu-gi-oh-vrains'
+  animeplanet: 'https://www.anime-planet.com/anime/yu-gi-oh-vrains'
+  official: 'http://www.tv-tokyo.co.jp/anime/yugioh-vrains/'
+  subreddit: '/r/yugioh'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/yu-gi-oh-vrains'
+  vrv|VRV: 'https://vrv.co/series/GRGGX7K1R'
+---
+title: 'Pokémon (2019)'
+alias: ['Pocket Monsters 2019', 'Pokemon 2019', 'Pokemon (Shin Series)', 'Pokemon Journeys: The Series']
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/40351/'
+  anilist: 'https://anilist.co/anime/112153/Pocket-Monsters-2019/'
+  anidb: 'https://anidb.net/anime/15067'
+  kitsu: 'https://kitsu.io/anime/pokemon-shin-series'
+  animeplanet: 'https://www.anime-planet.com/anime/pokemon-2019'
+  official: 'https://www.pokemon.com/us/pokemon-episodes/pokemon-tv-seasons/'
+  subreddit: '/r/pokemon'
+streams:
+  nyaa: '[Some-Stuffs]_Pocket_Monsters_(2019)'
+---
+title: 'Detective Conan'
+alias: ['Meitantei Conan', 'Case Closed']
+has_source: true
+info:
+  mal: 'https://myanimelist.net/anime/235/Detective_Conan'
+  anilist: 'https://anilist.co/anime/235/Meitantei-Conan/'
+  anidb: 'https://anidb.net/perl-bin/animedb.pl?show=anime&aid=266'
+  kitsu: 'https://kitsu.io/anime/detective-conan'
+  animeplanet: 'https://www.anime-planet.com/anime/detective-conan'
+  official: 'http://www.ytv.co.jp/conan/'
+  subreddit: '/r/OneTruthPrevails'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/case-closed'
