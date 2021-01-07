@@ -15,7 +15,7 @@ with open('code.html') as f:
     source = f.readlines()
 
 shows = {}
-with open('output.json', 'w') as file:
+with open('shows.json', 'w') as file:
     Bool = False
     for line in source:
         if Bool == True:
