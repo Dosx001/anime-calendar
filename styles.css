@@ -26,3 +26,8 @@
   border: 1px solid #dddddd;
   padding: 1rem;
 }
+
+.show {
+    background-color: #ffffff00;
+    cursor: pointer;
+}

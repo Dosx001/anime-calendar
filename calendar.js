@@ -27,6 +27,17 @@ $(document).ready(function() {
 
 $(function() {
     $("body").append(calendar(getDates()));
+    fetch("./shows/shows.json")
+        .then(function(resp) {
+            return resp.json();
+        })
+        .then(function(data) {
+            for (key in data) {
+                $('#' + ider(data[key]["day"], data[key]["time"])).append('<button class="show">'
+                    + key
+                    + '</button>')
+            }
+        });
 })
 
 function calendar(dates) {
@@ -35,8 +46,8 @@ function calendar(dates) {
     times.forEach(async function(time) {
         calendar += '<div class="row">'
         for  (var day = 0; day < 8; day++) {
+            var date = dates[day]
             if (time == null) {
-                var date = dates[day]
                 if (day != 0) {
                     calendar += '<div class="col-sm date">'
                         + date.getDate()
@@ -52,7 +63,9 @@ function calendar(dates) {
                 calendar += '<div class="col-sm time">' + time + '</div>'
             }
             else {
-                calendar += '<div class="col-sm slot">content</div>'
+                calendar += '<div class="col-sm slot" id="'
+                    + ider(date.toLocaleDateString("en-US",{ weekday: 'long' }), time)
+                    + '"></div>'
             }
         }
         calendar += '</div>'
@@ -118,4 +131,20 @@ function getDates(offset = 0) {
         dates.push(new Date(year, month, day + i))
     }
     return dates
+}
+
+function ider(day, time) {
+    const days = {Monday:1, Tuesday:2, Wednesday:3, Thursday:4, Friday:5, Saturday:6, Sunday:7}
+    var id = days[day] * 10000
+    if (time.substring(1,2) == ":") {
+        id += parseInt(time.substring(0,1)) * 100
+        id += parseInt(time.substring(2,4))
+        id = id.toString() + time.substring(5,6)
+    }
+    else {
+        id += parseInt(time.substring(0,2)) * 100
+        id += parseInt(time.substring(3,5))
+        id = id.toString() + time.substring(6,7)
+    }
+    return id
 }
