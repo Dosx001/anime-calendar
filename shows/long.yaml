@@ -81,3 +81,10 @@ streams:
   amazon|Amazon US: ''
   amazon_uk|Amazon UK: ''
   primevideo|Prime Video International: ''
+---
+title: 'Boruto: Naruto Next Generations'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/boruto-naruto-next-generations'
+  animelab|AnimeLab: 'https://www.animelab.com/shows/boruto-naruto-next-generations'
+  vrv|VRV: 'https://vrv.co/series/GR75Q020Y/BORUTO-NARUTO-NEXT-GENERATIONS'
+  hulu|Hulu: 'https://www.hulu.com/series/boruto-naruto-next-generations-e567be4f-2fd8-4127-bc08-580baad908e3'

@@ -10,7 +10,7 @@ $(document).ready(function() {
             $("#left").show();
             $("body").append(calendar(getDates()));
         }
-        test()
+        shows()
     })
     $('#right').click(function() {
         $('#calendar').remove();
@@ -23,16 +23,16 @@ $(document).ready(function() {
             $("#left").show();
             $("body").append(calendar(getDates()));
         }
-        test()
+        shows()
     })
 })
 
 $(function() {
     $("body").append(calendar(getDates()));
-    test()
+    shows()
 })
 
-function test() {
+function shows() {
     fetch("./shows/shows.json")
         .then(function(resp) {
             return resp.json();
@@ -58,11 +58,9 @@ function test() {
                             var streams = '<table class="table table-hover"><tbody><tr><td>'
                                 + show + '</td></tr>'
                             for (stream in data[show]['streams']) {
-                                if (data[show]['streams'][stream] != null) {
-                                    streams += '<tr><td><a href="'
-                                    streams += data[show]['streams'][stream]
-                                    streams += '">' + stream + '</a></td>'
-                                }
+                                streams += '<tr><td><a href="'
+                                streams += data[show]['streams'][stream]
+                                streams += '">' + stream + '</a></td>'
                             }
                             $("#content").append('<h3 id="show">'
                                 + '<div style="float:left;display:inline-block;"><img src="'
@@ -108,6 +106,7 @@ function calendar(dates) {
         }
         calendar += '</div>'
     })
+    calendar += '<div id="content"></div>'
     var element = document.getElementById('month');
     if (dates[1].getMonth() == dates[7].getMonth()) {
         element.innerHTML = dates[1].toLocaleDateString("en-US",{ month: 'long' })
@@ -117,7 +116,6 @@ function calendar(dates) {
             + " to "
             + dates[7].toLocaleDateString("en-US",{ month: 'long' })
     }
-    calendar += '<div id="content"></div>'
     return calendar
 }
 

@@ -35,6 +35,7 @@ with open('shows.json', 'w') as file:
             try:
                 if "Suppose" in title[1]:
                     title[1] = "Suppose"
+                    title = title[1::]
             except IndexError:
                 pass
             title = " ".join(title)
@@ -54,30 +55,35 @@ with open('shows.json', 'w') as file:
             if winner < .5:
                 streams = None
             else:
-                try:
-                    for link in streams:
-                        if streams[link] == "":
-                            streams[link] = None
-                    streams['funimation'] = streams.pop('funimation|Funimation')
-                    streams['animelab'] = streams.pop('animelab|AnimeLab')
-                    streams['vrv'] = streams.pop('vrv|VRV')
-                    streams['wakanim'] = streams.pop('wakanim|Wakanim')
-                    streams['hulu'] = streams.pop('hulu|Hulu')
-                    streams.pop('amazon|Amazon US')
-                    streams.pop('amazon_uk|Amazon UK')
-                    streams.pop('primevideo|Prime Video International')
-                    if streams['crunchyroll_nsfw|Crunchyroll'] != None:
-                        streams['crunchyroll'] = streams.pop('crunchyroll_nsfw|Crunchyroll')
-                    else:
-                        streams.pop('crunchyroll_nsfw|Crunchyroll')
-                except KeyError:
-                    pass
+                get_streams = {}
+                for link in streams:
+                    if streams[link] != "":
+                        if link == 'funimation|Funimation':
+                            get_streams.update({'Funimation': streams[link]})
+                        elif link == 'animelab|AnimeLab':
+                            get_streams.update({'AnimeLab': streams[link]})
+                        elif link == 'vrv|VRV':
+                            get_streams.update({'VRV': streams[link]})
+                        elif link == 'wakanim|Wakanim':
+                            get_streams.update({'Wakanim': streams[link]})
+                        elif link == 'hulu|Hulu':
+                            get_streams.update({'Hulu': streams[link]})
+                        elif link == 'crunchyroll_nsfw|Crunchyroll' or link == 'crunchyroll':
+                            get_streams.update({'Crunchyroll': streams[link]})
+                        elif link == 'crunchyroll_nsfw|Crunchyroll' or link == 'crunchyroll':
+                            get_streams.update({'Crunchyroll': streams[link]})
+                        elif link == 'hidive':
+                            get_streams.update({'Hidive': streams[link]})
+                        elif link == 'anione':
+                            get_streams.update({'YouTube': streams[link]})
+                        elif link != "" and link != 'nyaa':
+                            get_streams.update({link: streams[link]})
             content = {
                 'day': day,
                 'time': time,
                 'cover': cover,
                 #'score': winner,
-                'streams': streams
+                'streams': get_streams
             }
             shows.update({title: content})
     json.dump(shows, file, indent=4)
