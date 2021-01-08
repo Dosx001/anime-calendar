@@ -1,6 +1,8 @@
 import yaml
 import json
 from difflib import SequenceMatcher
+import html.parser as htmlparser
+parser = htmlparser.HTMLParser()
 
 with open('winter_2021.yaml', 'r') as f:
     data = list(yaml.load_all(f))
@@ -85,5 +87,5 @@ with open('shows.json', 'w') as file:
                 #'score': winner,
                 'streams': get_streams
             }
-            shows.update({title: content})
+            shows.update({parser.unescape(title): content})
     json.dump(shows, file, indent=4)

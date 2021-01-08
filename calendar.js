@@ -67,7 +67,6 @@ function shows() {
                                     streams += '">' + stream + '</a></td>'
                                 }
                             }
-                            console.log(data[show]['streams'])
                             $("#content").append('<h3 id="show">'
                                 + '<div style="float:inherit;display:inline-block;"><img src="'
                                 + data[show]['cover']
