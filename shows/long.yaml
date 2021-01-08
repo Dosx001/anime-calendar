@@ -13,7 +13,6 @@ streams:
   funimation|Funimation: 'https://www.funimation.com/shows/one-piece/'
   animelab|AnimeLab: 'https://www.animelab.com/shows/one-piece'
   vrv|VRV: 'https://vrv.co/series/GRMG8ZQZR/One-Piece'
-  nyaa: 'One Piece'
 ---
 title: 'Yu-Gi-Oh! VRAINS'
 alias: ['Yu☆Gi☆Oh! VRAINS', 'Yuu Gi Ou: Vrains']
@@ -42,7 +41,6 @@ info:
   official: 'https://www.pokemon.com/us/pokemon-episodes/pokemon-tv-seasons/'
   subreddit: '/r/pokemon'
 streams:
-  nyaa: '[Some-Stuffs]_Pocket_Monsters_(2019)'
 ---
 title: 'Detective Conan'
 alias: ['Meitantei Conan', 'Case Closed']
@@ -57,3 +55,29 @@ info:
   subreddit: '/r/OneTruthPrevails'
 streams:
   crunchyroll: 'https://www.crunchyroll.com/case-closed'
+---
+title: 'Digimon Adventure:'
+alias: ['Digimon Adventure (2020)']
+has_source: false
+info:
+  mal: 'https://myanimelist.net/anime/41074/Digimon_Adventure_'
+  anilist: 'https://anilist.co/anime/114811/Digimon-Adventure/'
+  anidb: 'https://anidb.net/anime/15358'
+  kitsu: 'https://kitsu.io/anime/digimon-adventure-2020'
+  animeplanet: 'https://www.anime-planet.com/anime/digimon-adventure'
+  official: 'http://www.toei-anim.co.jp/tv/digimon/'
+  subreddit: '/r/digimon'
+streams:
+  crunchyroll: 'https://www.crunchyroll.com/digimon-adventure-2020'
+  museasia: ''
+  funimation|Funimation: ''
+  wakanim|Wakanim: ''
+  hidive: ''
+  animelab|AnimeLab: 'https://www.animelab.com/shows/digimon-adventure'
+  crunchyroll_nsfw|Crunchyroll: ''
+  vrv|VRV: 'https://vrv.co/series/GYEX24PV6'
+  hulu|Hulu: 'https://www.hulu.com/series/digimon-adventure-40fb1770-5066-4335-a10e-055f85573edc'
+  youtube: ''
+  amazon|Amazon US: ''
+  amazon_uk|Amazon UK: ''
+  primevideo|Prime Video International: ''

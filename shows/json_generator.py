@@ -59,9 +59,9 @@ with open('shows.json', 'w') as file:
                         if streams[link] == "":
                             streams[link] = None
                     streams['funimation'] = streams.pop('funimation|Funimation')
-                    streams['wakanim'] = streams.pop('wakanim|Wakanim')
                     streams['animelab'] = streams.pop('animelab|AnimeLab')
                     streams['vrv'] = streams.pop('vrv|VRV')
+                    streams['wakanim'] = streams.pop('wakanim|Wakanim')
                     streams['hulu'] = streams.pop('hulu|Hulu')
                     streams.pop('amazon|Amazon US')
                     streams.pop('amazon_uk|Amazon UK')
