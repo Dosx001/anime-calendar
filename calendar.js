@@ -10,6 +10,7 @@ $(document).ready(function() {
             $("#left").show();
             $("body").append(calendar(getDates()));
         }
+        test()
     })
     $('#right').click(function() {
         $('#calendar').remove();
@@ -22,11 +23,16 @@ $(document).ready(function() {
             $("#left").show();
             $("body").append(calendar(getDates()));
         }
+        test()
     })
 })
 
 $(function() {
     $("body").append(calendar(getDates()));
+    test()
+})
+
+function test() {
     fetch("./shows/shows.json")
         .then(function(resp) {
             return resp.json();
@@ -34,11 +40,43 @@ $(function() {
         .then(function(data) {
             for (key in data) {
                 $('#' + ider(data[key]["day"], data[key]["time"])).append('<button class="show">'
+                    + '<a href="#content">'
                     + key
-                    + '</button>')
+                    + '</a></button>'
+                )
             }
+            $('html').append(
+                `<script>$(document).ready(function() {
+                fetch("./shows/shows.json")
+                    .then(function(resp) {
+                        return resp.json();
+                    })
+                    .then(function(data) {
+                        $(".show").click(function() {
+                            $("#show").remove()
+                            var show = $(this)[0].innerText
+                            var streams = '<table class="table table-hover"><tbody><tr><td>'
+                                + show + '</td></tr>'
+                            for (stream in data[show]['streams']) {
+                                if (data[show]['streams'][stream] != null) {
+                                    streams += '<tr><td><a href="'
+                                    streams += data[show]['streams'][stream]
+                                    streams += '">' + stream + '</a></td>'
+                                }
+                            }
+                            $("#content").append('<h3 id="show">'
+                                + '<div style="float:left;display:inline-block;"><img src="'
+                                + data[show]['cover']
+                                + '" width="300" height="400"></div><div style="float:left;display:inline-block;width: 70%;">'
+                                + streams
+                                + '</div>'
+                            )
+                        })
+                    })
+                })`
+            )
         });
-})
+}
 
 function calendar(dates) {
     times = getTime();
@@ -79,6 +117,7 @@ function calendar(dates) {
             + " to "
             + dates[7].toLocaleDateString("en-US",{ month: 'long' })
     }
+    calendar += '<div id="content"></div>'
     return calendar
 }
 
