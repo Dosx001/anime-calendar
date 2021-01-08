@@ -57,13 +57,19 @@ function shows() {
                             var show = $(this)[0].innerText
                             var streams = '<table class="table table-hover"><tbody><tr><td>'
                                 + show + '</td></tr>'
-                            for (stream in data[show]['streams']) {
-                                streams += '<tr><td><a href="'
-                                streams += data[show]['streams'][stream]
-                                streams += '">' + stream + '</a></td>'
+                            if (Object.keys(data[show]['streams']) == 0) {
+                                streams += '<tr><td>Streams not available</td>'
                             }
+                            else {
+                                for (stream in data[show]['streams']) {
+                                    streams += '<tr><td><a href="'
+                                    streams += data[show]['streams'][stream]
+                                    streams += '">' + stream + '</a></td>'
+                                }
+                            }
+                            console.log(data[show]['streams'])
                             $("#content").append('<h3 id="show">'
-                                + '<div style="float:left;display:inline-block;"><img src="'
+                                + '<div style="float:inherit;display:inline-block;"><img src="'
                                 + data[show]['cover']
                                 + '" width="300" height="400"></div><div style="float:left;display:inline-block;width: 70%;">'
                                 + streams
@@ -106,7 +112,6 @@ function calendar(dates) {
         }
         calendar += '</div>'
     })
-    calendar += '<div id="content"></div>'
     var element = document.getElementById('month');
     if (dates[1].getMonth() == dates[7].getMonth()) {
         element.innerHTML = dates[1].toLocaleDateString("en-US",{ month: 'long' })
