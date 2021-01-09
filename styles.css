@@ -1,3 +1,15 @@
+html {
+    scroll-padding-top: 5rem; /* height of sticky header */
+}
+
+body {
+    padding-top: 3rem;
+}
+
+nav {
+    background: black;
+}
+
 .selector-for-some-widget {
     box-sizing: content-box;
 }

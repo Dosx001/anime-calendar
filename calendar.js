@@ -30,6 +30,7 @@ $(document).ready(function() {
 $(function() {
     $("body").append(calendar(getDates()));
     shows()
+    $("#nav").load("nav.html");
 })
 
 function shows() {
