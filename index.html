@@ -18,11 +18,24 @@
     <div id="nav"></div>
     <div class="container">
       <div id="content"></div>
-      <div class="row">
+      <div class="row" id="center">
         <div class="col-7">
           <button type="button" class="arrow" id="left"> < </button>
           <text id="month"></text>
           <button type="button" class="arrow" id="right"> > </button>
+        </div>
+        <div class="col-5" id="input">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label class="input-group-text" for="settings">Settings</label>
+            </div>
+            <select class="custom-select" id="settings">
+              <option value="0">Calendar - Full</option>
+              <option value="1">Calendar - Cutoff</option>
+              <option value="2">Calendar - Compact</option>
+              <option value="3">Daily</option>
+            </select>
+          </div>
         </div>
       </div>
     </div>

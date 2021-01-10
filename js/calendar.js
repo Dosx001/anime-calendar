@@ -1,4 +1,5 @@
 $(function() {
+    document.getElementById('settings').selectedIndex = parseInt(localStorage.getItem('option'))
     $("body").append(calendar(getDates()));
     shows()
     $("#nav").load("nav.html");
@@ -30,6 +31,9 @@ $(document).ready(function() {
             $("body").append(calendar(getDates()));
         }
         shows()
+    })
+    $('select').change(function() {
+        localStorage.setItem('option', $(this)[0].value)
     })
 })
 
