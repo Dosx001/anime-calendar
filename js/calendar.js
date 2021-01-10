@@ -1,3 +1,9 @@
+$(function() {
+    $("body").append(calendar(getDates()));
+    shows()
+    $("#nav").load("nav.html");
+})
+
 $(document).ready(function() {
     $('#left').click(function() {
         $('#calendar').remove();
@@ -25,12 +31,6 @@ $(document).ready(function() {
         }
         shows()
     })
-})
-
-$(function() {
-    $("body").append(calendar(getDates()));
-    shows()
-    $("#nav").load("nav.html");
 })
 
 function shows() {
@@ -69,9 +69,9 @@ function shows() {
                                 }
                             }
                             $("#content").append('<h3 id="show">'
-                                + '<div style="float:inherit;display:inline-block;"><img src="'
+                                + '<div id="cover"><img src="'
                                 + data[show]['cover']
-                                + '" width="300" height="400"></div><div style="float:left;display:inline-block;width: 70%;">'
+                                + '" width="300" height="400"></div><div id="streams">'
                                 + streams
                                 + '</div>'
                             )
