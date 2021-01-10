@@ -52,30 +52,33 @@ function shows() {
 
 function calendar(dates) {
     times = getTime();
-    var calendar = '<div id="calendar">';
+    var calendar = '<div id="calendar" class="container-fluid">';
     times.forEach(async function(time) {
-        calendar += '<div class="row">'
+        calendar += '<div class="row"><div class="col-2"></div>'
         for  (var day = 0; day < 8; day++) {
             var date = dates[day]
             if (time == null) {
                 if (day != 0) {
-                    calendar += '<div class="col-sm date">'
+                    calendar += '<div class="col date">'
                         + date.getDate()
                         + ' '
                         + date.toLocaleDateString("en-US",{ weekday: 'long' })
                         + '</div>'
                 }
                 else {
-                    calendar += '<div class="col-sm slot"></div>'
+                    calendar += '<div class="col slot"></div>'
                 }
             }
             else if (day == 0) {
-                calendar += '<div class="col-sm time">' + time + '</div>'
+                calendar += '<div class="col time">' + time + '</div>'
             }
             else {
-                calendar += '<div class="col-sm slot" id="'
+                calendar += '<div class="col slot" id="'
                     + ider(date.toLocaleDateString("en-US",{ weekday: 'long' }), time)
                     + '"></div>'
+            }
+            if (day == 7) {
+                calendar += '<div class="col-2"></div>'
             }
         }
         calendar += '</div>'
