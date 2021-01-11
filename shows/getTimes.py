@@ -4,8 +4,6 @@ from time import strftime, strptime
 with open('shows.json') as f:
     data = json.load(f)
 
-data['Digimon Adventure:']['time'] = "2:30 AM"
-
 def getTimes(times):
     for i in range(len(times)):
         time = strftime("%I:%M %p", times[i])
