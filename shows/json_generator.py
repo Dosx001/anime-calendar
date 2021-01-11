@@ -58,7 +58,7 @@ with open('shows.json', 'w') as file:
                 streams = None
             else:
                 get_streams = {}
-                for link in streams:
+                for link in sorted(streams):
                     if streams[link] != "":
                         if link == 'funimation|Funimation':
                             get_streams.update({'Funimation': streams[link]})
@@ -80,6 +80,10 @@ with open('shows.json', 'w') as file:
                             get_streams.update({'YouTube': streams[link]})
                         elif link != "" and link != 'nyaa':
                             get_streams.update({link: streams[link]})
+                try:
+                    get_streams['YouTube'] = get_streams.pop('YouTube')
+                except KeyError:
+                    pass
             content = {
                 'day': day,
                 'time': time,
