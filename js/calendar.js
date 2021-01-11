@@ -63,13 +63,43 @@ function shows() {
                             var streams = '<table class="table table-hover"><tbody><tr><td>'
                                 + show + '</td></tr>'
                             if (Object.keys(data[show]['streams']) == 0) {
-                                streams += '<tr><td>Streams not available</td>'
+                                streams += '<tr><td>Streams not available</td></tr><tr><td>'
+                                    + '<img id="cry"'
+                                    + 'src="https://giffiles.alphacoders.com/349/34979.gif">'
+                                    + '</td></tr>'
                             }
                             else {
                                 for (stream in data[show]['streams']) {
                                     streams += '<tr><td><a href="'
                                     streams += data[show]['streams'][stream]
-                                    streams += '">' + stream + '</a></td>'
+                                    streams += '" target="_blank">'
+                                    switch(stream) {
+                                        case "Crunchyroll":
+                                            streams += '<img class="image" src="https://animeschedule.s3.amazonaws.com/production/assets/public/img/logos/crunchyroll-5cbb55eafe.svg">'
+                                            break;
+                                        case "Funimation":
+                                            streams += '<img class="image" src="https://animeschedule.s3.amazonaws.com/production/assets/public/img/logos/funimation-462779f3a7.svg">'
+                                            break;
+                                        case "VRV":
+                                            streams += '<img class="image" src="https://animeschedule.s3.amazonaws.com/production/assets/public/img/logos/vrv-bf6ed46045.svg">'
+                                            break;
+                                        case "AnimeLab":
+                                            streams += '<img class="image" src="https://animeschedule.s3.amazonaws.com/production/assets/public/img/logos/animelab-c94f1496fd.svg">'
+                                            break;
+                                        case "Hulu":
+                                            streams += '<img class="image" src="https://animeschedule.s3.amazonaws.com/production/assets/public/img/logos/hulu-f98114256c.svg">'
+                                            break;
+                                        case "Hidive":
+                                            streams += '<img class="image" src="https://animeschedule.s3.amazonaws.com/production/assets/public/img/logos/hidive-52e3526fbf.svg">'
+                                            break;
+                                        case "Wakanim":
+                                            streams += '<img class="image" src="https://animeschedule.s3.amazonaws.com/production/assets/public/img/logos/wakanim-4c57bba81f.svg">'
+                                            break;
+                                        case "YouTube":
+                                            streams += '<img class="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1280px-YouTube_full-color_icon_%282017%29.svg.png">'
+                                            break;
+                                    }
+                                    streams += ' ' + stream + '</a></td>'
                                 }
                             }
                             $("#content").append('<h3 id="show">'
