@@ -56,10 +56,7 @@
         "day": "Tuesday",
         "time": "11:00 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/shadowverse-4116ddca7e.jpg",
-        "streams": {
-            "Crunchyroll": "https://www.crunchyroll.com/mr-osomatsu",
-            "VRV": "https://vrv.co/series/GYQ4Q3DP6"
-        }
+        "streams": {}
     },
     "Black Clover": {
         "day": "Tuesday",
@@ -151,10 +148,7 @@
         "day": "Wednesday",
         "time": "3:55 PM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/beastars-2-1cfc1b9dec.jpg",
-        "streams": {
-            "Crunchyroll": "https://www.crunchyroll.com/rezero-starting-life-in-another-world-",
-            "VRV": "https://vrv.co/series/GRGG9798R"
-        }
+        "streams": {}
     },
     "I\u2605Chu: Halfway Through the Idol": {
         "day": "Wednesday",
@@ -443,21 +437,13 @@
         "day": "Sunday",
         "time": "1:00 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/kiratto-pri-chan-season-3-4609acb127.jpg",
-        "streams": {
-            "AnimeLab": "https://www.animelab.com/shows/log-horizon",
-            "Funimation": "https://www.funimation.com/shows/log-horizon/",
-            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1155"
-        }
+        "streams": {}
     },
     "Healin' Good\u2661Precure": {
         "day": "Sunday",
         "time": "1:30 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/healin-good-precure-2cb2478052.jpg",
-        "streams": {
-            "AnimeLab": "https://www.animelab.com/shows/log-horizon",
-            "Funimation": "https://www.funimation.com/shows/log-horizon/",
-            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1155"
-        }
+        "streams": {}
     },
     "One Piece": {
         "day": "Sunday",
@@ -550,9 +536,7 @@
         "day": "Sunday",
         "time": "6:45 PM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/kingdom-3-c3f0ed5d4d.jpg",
-        "streams": {
-            "Crunchyroll": "https://www.crunchyroll.com/ex-arm"
-        }
+        "streams": {}
     },
     "Yami Shibai 8": {
         "day": "Sunday",

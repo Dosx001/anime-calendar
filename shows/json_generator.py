@@ -56,8 +56,8 @@ with open('shows.json', 'w') as file:
                     if winner < score:
                         winner = score
                         streams = item['streams']
-            if winner < .5:
-                streams = None
+            if winner < .5 or title == "Kiratto Pri\u2606chan Season 3":
+                get_streams = {}
             else:
                 get_streams = {}
                 for link in sorted(streams):
