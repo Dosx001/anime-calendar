@@ -122,3 +122,13 @@ a:hover {
     width: 15rem;
     height: 15rem;
 }
+
+::-webkit-scrollbar {
+    background: #000;
+    -web-border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: grey;
+    -webkit-border-radius: 10px;
+}
