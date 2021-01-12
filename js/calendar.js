@@ -31,6 +31,11 @@ $(document).ready(function() {
         localStorage.setItem('option', $(this)[0].value)
         TheBigBang();
     })
+    $("#clear").click(function() {
+        $('#clear').css({"visibility": "hidden"})
+        $("#show").remove()
+        $('#calendar').css({"height": "50rem"})
+    })
 })
 
 function TheBigBang(offset) {
@@ -52,6 +57,9 @@ function TheBigBang(offset) {
         })
         .then(function(data) {
             $("body").append(calendar(getDates(offset), data));
+            if (Object.keys($("#show")) != 0) {
+                $('#calendar').css({"height": "25rem"})
+            }
         })
     shows()
 }
@@ -164,8 +172,9 @@ function shows() {
                     + '</a></button>'
                 )
             }
+            $("#script").remove()
             $('html').append(
-                `<script>$(document).ready(function() {
+                `<script id="script">$(document).ready(function() {
                 fetch("./shows/shows.json")
                     .then(function(resp) {
                         return resp.json();
@@ -223,11 +232,11 @@ function shows() {
                                 + streams
                                 + '</div>'
                             )
+                            $('#calendar').css({"height": "25rem"})
+                            $('#clear').css({"visibility": "visible"})
                         })
                     })
                 })`
             )
         });
 }
-
-

@@ -47,29 +47,28 @@ a:hover {
     appearance: none;
 }
 
-.arrow, .show, .stream {
+.arrow, .show, .stream, #clear {
     background: black;
     border: 2px solid grey;
     border-radius: 20px;
     color: purple;
+    cursor: pointer;
 }
 
-.arrow:focus, .show:focus, .stream:focus {
+.arrow:focus, .show:focus, .stream:focus, #clear:focus {
     outline: none;
 }
 
-.show:hover, .arrow:hover, .stream:hover {
+.show:hover, .arrow:hover, .stream:hover, #clear:hover {
     box-shadow: 0px 0px 25px red;
 }
 
 .show {
-    cursor: pointer;
     width: 10rem;
 }
 
 .arrow {
     font-size: 2rem;
-    cursor: pointer;
     padding: 0px 0px;
 }
 
@@ -83,6 +82,7 @@ a:hover {
 
 .date, .time, .slot {
     border: 2px solid black;
+    background: #27002b;
 }
 
 .image {
@@ -107,6 +107,16 @@ a:hover {
     height: 50rem;
 }
 
+::-webkit-scrollbar {
+    background: #000;
+    -webkit-border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: grey;
+    -webkit-border-radius: 10px;
+}
+
 #cover {
     float:inherit;
     display:inline-block;
@@ -123,12 +133,9 @@ a:hover {
     height: 15rem;
 }
 
-::-webkit-scrollbar {
-    background: #000;
-    -web-border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-    background: grey;
-    -webkit-border-radius: 10px;
+#clear {
+    visibility: hidden;
+    margin: 1rem 0px;
+    background: #27002b;
+    color: purple;
 }
