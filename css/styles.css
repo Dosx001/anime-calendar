@@ -5,11 +5,20 @@ html {
 body {
     background: #181a1b;
     padding-top: 4rem;
-    color:darkgrey;
+    color: darkgrey;
 }
 
 nav {
     background: black;
+}
+
+a {
+    color: purple;
+}
+
+a:hover {
+    color: purple;
+    text-decoration: none;
 }
 
 .input-group-text {
@@ -38,34 +47,48 @@ nav {
     appearance: none;
 }
 
-.arrow {
-    font-size: 3rem;
-    background-color: #ffffff00;
-    border: #ffffff00;
-    cursor: pointer;
+.arrow, .show, .stream {
+    background: black;
+    border: 2px solid grey;
+    border-radius: 20px;
+    color: purple;
 }
 
-.arrow:focus {
-    outline:none;
+.arrow:focus, .show:focus, .stream:focus {
+    outline: none;
 }
 
-.time {
-    border: 2px solid black;
-    padding: 1rem;
-}
-
-.date {
-    border: 2px solid black;
-}
-
-.slot {
-    border: 2px solid black;
-    padding: 1rem;
+.show:hover, .arrow:hover, .stream:hover {
+    box-shadow: 0px 0px 25px red;
 }
 
 .show {
-    background-color: #ffffff00;
     cursor: pointer;
+    width: 10rem;
+}
+
+.arrow {
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0px 0px;
+}
+
+.stream {
+    padding: 5px 10px 10px 5px;
+}
+
+.time, .slot {
+    padding: 1rem;
+}
+
+.date, .time, .slot {
+    border: 2px solid black;
+}
+
+.image {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
 }
 
 #input {
@@ -90,18 +113,12 @@ nav {
 }
 
 #streams {
-    float:left;
-    display:inline-block;
+    float: right;
+    display: inline-block;
     width: 70%;
 }
 
 #cry {
     width: 15rem;
     height: 15rem;
-}
-
-.image {
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
 }

@@ -184,7 +184,7 @@ function shows() {
                             }
                             else {
                                 for (stream in data[show]['streams']) {
-                                    streams += '<tr><td><a href="'
+                                    streams += '<tr><td><a class="stream" href="'
                                     streams += data[show]['streams'][stream]
                                     streams += '" target="_blank">'
                                     switch(stream) {
