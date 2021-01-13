@@ -18,20 +18,15 @@ with open('code.html') as f:
 
 shows = {}
 with open('shows.json', 'w') as file:
-    Bool = False
     for line in source:
-        if Bool == True:
-            time = line.replace("\n", "")
-            if time[0] == " ":
-                time = time[1::]
-            if time != "":
-                Bool = False
         if "timetable-column-day" in line:
             day = line[73:-6]
         elif "show-air-time" in line:
-            Bool = True
+            time = line[28:-8]
         elif 'show-poster' in line and not 'lazy' in line:
             cover = line.split()[1][5:-13]
+            if "nanatsu" in cover:
+                cover = cover[0:-2]
         elif "show-title-bar" in line:
             title = line.split()[1::]
             title[0] = title[0][23::]
