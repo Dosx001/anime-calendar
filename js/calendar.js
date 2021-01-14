@@ -166,10 +166,11 @@ function shows() {
         })
         .then(function(data) {
             for (key in data) {
-                $('#' + ider(data[key]["day"], data[key]["time"])).append('<button class="show">'
-                    + '<a href="#content">'
+                $('#' + ider(data[key]["day"], data[key]["time"])).append('<a href="#' + key + '">'
+                    + '<button id="'
+                    + key + '" class="show">'
                     + key
-                    + '</a></button>'
+                    + '</button></a>'
                 )
             }
             $("#script").remove()
@@ -180,7 +181,12 @@ function shows() {
                         return resp.json();
                     })
                     .then(function(data) {
-                        $(".show").click(function() {
+                        $(".show").click(function(e) {
+                            if ($("#cover").length == 1) {
+                                console.log("fdas")
+                                e.preventDefault();
+                            }
+                            $(this).css({"background": "black"})
                             $("#show").remove()
                             var show = $(this)[0].innerText
                             var streams = '<table class="table table-hover"><tbody><tr><td>'
