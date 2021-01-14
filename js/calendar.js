@@ -69,30 +69,21 @@ function TheBigBang(offset) {
 }
 
 function calendar(dates, times) {
-    var calendar = '<div id="calendar">'
-        + '<table>'
-        + '<thead><tr>'
+    var calendar = '<div id="calendar"><table><thead><tr><td class="date"/>'
     dates.forEach(async function(date) {
-        if (date != null) {
-            calendar += '<td class="date">' + date.getDate() + ' '
-            calendar += date.toLocaleDateString("en-US",{ weekday: 'long' }) + '</td>'
-        }
-        else {
-            calendar += '<td class="date"></th>'
-        }
+        calendar += '<td class="date">' + date.getDate() + ' '
+            + date.toLocaleDateString("en-US",{ weekday: 'long' }) + '</td>'
     })
     calendar += '</tr></thead><tbody>'
     times.forEach(async function(time) {
-        if (time != null) {
-            calendar += '<tr><td class="time">' + time + '</td>'
-            for  (var day = 1; day < 8; day++) {
-                var date = dates[day]
-                calendar += '<td class="slot" id="'
-                    + ider(date.toLocaleDateString("en-US",{ weekday: 'long' }), time)
-                    + '"></td>'
-            }
-            calendar += '</tr>'
+        calendar += '<tr><td class="time">' + time + '</td>'
+        for  (var day = 1; day < 8; day++) {
+            var date = dates[day]
+            calendar += '<td class="slot" id="'
+                + ider(date.toLocaleDateString("en-US",{ weekday: 'long' }), time)
+                + '"></td>'
         }
+        calendar += '</tr>'
     })
     calendar += '</tbody></table></div>'
     var element = document.getElementById('month');
@@ -100,8 +91,7 @@ function calendar(dates, times) {
         element.innerHTML = dates[1].toLocaleDateString("en-US",{ month: 'long' })
     }
     else {
-        element.innerHTML = dates[1].toLocaleDateString("en-US",{ month: 'long' })
-            + " to "
+        element.innerHTML = dates[1].toLocaleDateString("en-US",{ month: 'long' }) + " to "
             + dates[7].toLocaleDateString("en-US",{ month: 'long' })
     }
     return calendar
@@ -165,11 +155,9 @@ function shows() {
         })
         .then(function(data) {
             for (key in data) {
-                $('#' + ider(data[key]["day"], data[key]["time"])).append('<a href="#' + key + '">'
-                    + '<button id="'
-                    + key + '" class="show">'
-                    + key
-                    + '</button></a>'
+                $('#' + ider(data[key]["day"], data[key]["time"])).append(
+                    '<a href="#' + key + '"><button id="' + key
+                    + '" class="show">' + key + '</button></a>'
                 )
             }
             $("#script").remove()

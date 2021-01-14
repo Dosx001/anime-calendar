@@ -19,7 +19,7 @@ high = times[-1]
 getTimes(times)
 
 with open('compact.json', 'w') as file:
-    json.dump([None] + times, file, indent=4)
+    json.dump(times, file, indent=4)
 
 times = set(times)
 for time in range(1, 13):
@@ -34,11 +34,11 @@ full = list(times)
 getTimes(times)
 
 with open('full.json', 'w') as file:
-    json.dump([None] + times, file, indent=4)
+    json.dump(times, file, indent=4)
 
 times = [time for time in full if low <= time <= high]
 
 getTimes(times)
 
 with open('cutoff.json', 'w') as file:
-    json.dump([None] + times, file, indent=4)
+    json.dump(times, file, indent=4)
