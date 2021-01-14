@@ -21,6 +21,10 @@ a:hover {
     text-decoration: none;
 }
 
+td {
+    width: 10rem;
+}
+
 .input-group-text {
     background-color: black;
     color: darkgrey;
@@ -28,23 +32,11 @@ a:hover {
 }
 
 .custom-select {
-    display: inline-block;
-    width: 100%;
-    height: calc(2.25rem + 2px);
-    padding: .375rem 1.75rem .375rem .75rem;
-    line-height: 1.5;
-    color: #495057;
-    vertical-align: middle;
     background:
         black
         url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E")
         no-repeat right .75rem center;
     background-size: 8px 10px;
-    border: 1px solid #ced4da;
-    border-radius: .25rem;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
 }
 
 .arrow, .show, .stream, #clear {
@@ -65,6 +57,7 @@ a:hover {
 
 .show {
     width: 10rem;
+    margin-bottom: 2px;
 }
 
 .arrow {
@@ -83,6 +76,10 @@ a:hover {
 .date, .time, .slot {
     border: 2px solid black;
     background: #27002b;
+}
+
+.slot, .date {
+    text-align: center;
 }
 
 .image {
@@ -107,6 +104,20 @@ a:hover {
     width: 100%;
     height: 50rem;
 }
+
+#calendar thead {
+    position: sticky;
+    top: 0;
+}
+
+#calendar table {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
 
 ::-webkit-scrollbar {
     background: #000;

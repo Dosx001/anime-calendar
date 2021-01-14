@@ -65,37 +65,32 @@ function TheBigBang(offset) {
 }
 
 function calendar(dates, times) {
-    var calendar = '<div id="calendar" class="container-fluid">';
-    times.forEach(async function(time) {
-        calendar += '<div class="row"><div class="col-2"></div>'
-        for  (var day = 0; day < 8; day++) {
-            var date = dates[day]
-            if (time == null) {
-                if (day != 0) {
-                    calendar += '<div class="col date">'
-                        + date.getDate()
-                        + ' '
-                        + date.toLocaleDateString("en-US",{ weekday: 'long' })
-                        + '</div>'
-                }
-                else {
-                    calendar += '<div class="col slot"></div>'
-                }
-            }
-            else if (day == 0) {
-                calendar += '<div class="col time">' + time + '</div>'
-            }
-            else {
-                calendar += '<div class="col slot" id="'
-                    + ider(date.toLocaleDateString("en-US",{ weekday: 'long' }), time)
-                    + '"></div>'
-            }
-            if (day == 7) {
-                calendar += '<div class="col-2"></div>'
-            }
+    var calendar = '<div id="calendar">'
+        + '<table lass="table table-bordered">'
+        + '<thead><tr>'
+    dates.forEach(async function(date) {
+        if (date != null) {
+            calendar += '<td class="date">' + date.getDate() + ' '
+            calendar += date.toLocaleDateString("en-US",{ weekday: 'long' }) + '</td>'
         }
-        calendar += '</div>'
+        else {
+            calendar += '<td class="date"></th>'
+        }
     })
+    calendar += '</tr></thead><tbody>'
+    times.forEach(async function(time) {
+        if (time != null) {
+            calendar += '<tr><td class="time">' + time + '</td>'
+            for  (var day = 1; day < 8; day++) {
+                var date = dates[day]
+                calendar += '<td class="slot" id="'
+                    + ider(date.toLocaleDateString("en-US",{ weekday: 'long' }), time)
+                    + '"></td>'
+            }
+            calendar += '</tr>'
+        }
+    })
+    calendar += '</tbody></table></div>'
     var element = document.getElementById('month');
     if (dates[1].getMonth() == dates[7].getMonth()) {
         element.innerHTML = dates[1].toLocaleDateString("en-US",{ month: 'long' })
