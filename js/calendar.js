@@ -65,46 +65,38 @@ function TheBigBang(offset) {
 }
 
 function calendar(dates, times) {
-    var calendar = '<div id="calendar">'
-        + '<table lass="table table-bordered">'
-        + '<thead><tr>'
+    var calendar = '<div id="calendar"><table lass="table table-bordered">'
+        + '<thead><tr><td class="date"></th>'
     dates.forEach(async function(date) {
-        if (date != null) {
             calendar += '<td class="date">' + date.getDate() + ' '
             calendar += date.toLocaleDateString("en-US",{ weekday: 'long' }) + '</td>'
-        }
-        else {
-            calendar += '<td class="date"></th>'
-        }
     })
     calendar += '</tr></thead><tbody>'
     times.forEach(async function(time) {
-        if (time != null) {
-            calendar += '<tr><td class="time">' + time + '</td>'
-            for  (var day = 1; day < 8; day++) {
-                var date = dates[day]
-                calendar += '<td class="slot" id="'
-                    + ider(date.toLocaleDateString("en-US",{ weekday: 'long' }), time)
-                    + '"></td>'
-            }
-            calendar += '</tr>'
+        calendar += '<tr><td class="time">' + time + '</td>'
+        for  (var day = 0; day < 7; day++) {
+            var date = dates[day]
+            calendar += '<td class="slot" id="'
+                + ider(date.toLocaleDateString("en-US",{ weekday: 'long' }), time)
+                + '"></td>'
         }
+        calendar += '</tr>'
     })
     calendar += '</tbody></table></div>'
     var element = document.getElementById('month');
-    if (dates[1].getMonth() == dates[7].getMonth()) {
-        element.innerHTML = dates[1].toLocaleDateString("en-US",{ month: 'long' })
+    if (dates[0].getMonth() == dates[6].getMonth()) {
+        element.innerHTML = dates[0].toLocaleDateString("en-US",{ month: 'long' })
     }
     else {
-        element.innerHTML = dates[1].toLocaleDateString("en-US",{ month: 'long' })
+        element.innerHTML = dates[0].toLocaleDateString("en-US",{ month: 'long' })
             + " to "
-            + dates[7].toLocaleDateString("en-US",{ month: 'long' })
+            + dates[6].toLocaleDateString("en-US",{ month: 'long' })
     }
     return calendar
 }
 
 function getDates(offset = 0) {
-    var dates = [null]
+    var dates = []
     var date = new Date();
     var day = date.getDate();
     var month = date.getMonth();
@@ -162,10 +154,8 @@ function shows() {
         .then(function(data) {
             for (key in data) {
                 $('#' + ider(data[key]["day"], data[key]["time"])).append('<a href="#' + key + '">'
-                    + '<button id="'
-                    + key + '" class="show">'
-                    + key
-                    + '</button></a>'
+                    + '<button id="'+ key + '" class="show">'
+                    + key + '</button></a>'
                 )
             }
             $("#script").remove()
@@ -178,10 +168,8 @@ function shows() {
                     .then(function(data) {
                         $(".show").click(function(e) {
                             if ($("#cover").length == 1) {
-                                console.log("fdas")
                                 e.preventDefault();
                             }
-                            $(this).css({"background": "black"})
                             $("#show").remove()
                             var show = $(this)[0].innerText
                             var streams = '<table class="table table-hover"><tbody><tr><td>'
