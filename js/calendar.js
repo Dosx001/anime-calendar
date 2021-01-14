@@ -153,7 +153,8 @@ function shows() {
         })
         .then(function(data) {
             for (key in data) {
-                $('#' + ider(data[key]["day"], data[key]["time"])).append('<a href="#' + key + '">'
+                var id = "#" + ider(data[key]["day"], data[key]["time"])
+                $(id).append('<a href="' + id + '">'
                     + '<button id="'+ key + '" class="show">'
                     + key + '</button></a>'
                 )
