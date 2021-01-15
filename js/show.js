@@ -10,7 +10,7 @@ $(document).ready(function() {
                     }
                     $("#show").remove()
                     var show = $(this)[0].innerText
-                    var streams = '<table class="table table-hover"><tbody><tr><td>'
+                    var streams = '<table class="table table-hover"><tbody><tr><td id="title">'
                         + show + '</td></tr>'
                     if (Object.keys(data[show]['streams']) == 0) {
                         streams += '<tr><td>Streams not available</td></tr><tr><td>'
@@ -53,14 +53,17 @@ $(document).ready(function() {
                         }
                     }
                     $("#content").append('<h3 id="show">'
+                        + '<button id="add" class="setter">&#x2713;</button>'
+                        + '<button id="sub" class="setter">&#x2715;</button>'
                         + '<div id="cover"><img src="'
-                        + data[show]['cover']
-                        + '" width="300" height="400"></div><div id="streams">'
-                        + streams
-                        + '</div>'
+                        + data[show]['cover'] + '" width="300" height="400">'
+                        + '</div><div id="streams">'
+                        + streams + '</div>'
                     )
                     $('#calendar').css({"height": "25rem"})
                     $('#clear').css({"visibility": "visible"})
+                    $('#list-js').remove()
+                    $('html').append('<script id="list-js" src="js/list.js"></script>')
                 })
         })
 })
