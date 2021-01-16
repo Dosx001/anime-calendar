@@ -1,10 +1,10 @@
 $(function() {
+    $("#nav").load("nav.html");
     document.getElementById('settings').selectedIndex = parseInt(localStorage.getItem('option'))
     if (localStorage.getItem('list') != null) {
         document.getElementById('list').innerHTML = localStorage.getItem('list')
     }
     TheBigBang();
-    $("#nav").load("nav.html");
 })
 
 $(document).ready(function() {
@@ -75,7 +75,12 @@ function TheBigBang(offset) {
                 $('#calendar').css({"height": "25rem"})
             }
         })
-    shows()
+    if (document.getElementById('list').innerHTML == "Your List") {
+        shows(true)
+    }
+    else {
+        shows(false)
+    }
 }
 
 function calendar(dates, times) {
@@ -160,24 +165,20 @@ function ider(day, time) {
     return id
 }
 
-function shows() {
-    if (document.getElementById('list').innerHTML == "Your List") {
-        fetch("./shows/shows.json")
-            .then(function(resp) {
-                return resp.json();
-            })
-            .then(function(data) {
-                for (key in data) {
-                    var id = "#" + ider(data[key]["day"], data[key]["time"])
-                    $(id).append('<a href="' + id + '">'
-                        + '<button id="'+ key + '" class="show">'
-                        + key + '</button></a>'
-                    )
-                }
-                $("#show-js").remove()
-                $('html').append('<script id="show-js" src="js/show.js"></script>')
-            });
-    }
-    else {
-    }
+function shows(Bool) {
+    fetch("./shows/shows.json")
+        .then(function(resp) {
+            return resp.json();
+        })
+        .then(function(data) {
+            for (show in (Bool) ? data:JSON.parse(localStorage.getItem("shows"))) {
+                var id = "#" + ider(data[show]["day"], data[show]["time"])
+                $(id).append('<a href="' + id + '">'
+                    + '<button id="'+ show + '" class="show">'
+                    + show + '</button></a>'
+                )
+            }
+            $("#show-js").remove()
+            $('html').append('<script id="show-js" src="js/show.js"></script>')
+        })
 }
