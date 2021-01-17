@@ -85,6 +85,11 @@ button:focus {
     text-align: center;
 }
 
+.date {
+    position: sticky;
+    top: 0;
+}
+
 .image {
     border-radius: 50%;
     height: 40px;
@@ -106,11 +111,6 @@ button:focus {
     scrollbar-color: #4d4b4b black;
     width: 100%;
     height: 50rem;
-}
-
-#calendar thead {
-    position: sticky;
-    top: 0;
 }
 
 #calendar table {
