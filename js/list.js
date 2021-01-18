@@ -21,7 +21,7 @@ $(document).ready(function() {
                     }
                     shows[title] = null
                 }
-                else if (title in shows) {
+                else if (shows != null && title in shows) {
                     delete shows[title]
                     if (Object.keys(shows).length == 1) {
                         var show = Object.keys(shows)[0]
@@ -34,7 +34,7 @@ $(document).ready(function() {
                         if (title == min[0]) {
                             min = new Date("2001")
                             for (show in shows) {
-                                var other = new Date("2000 " + data[show]['time'])
+                                var other = new Date("2000/1/1 " + data[show]['time'])
                                 if (other < min) {
                                     min = other
                                     var New = show
@@ -45,9 +45,9 @@ $(document).ready(function() {
                         }
                         var max = JSON.parse(localStorage.getItem('max'))
                         if (title == max[0]) {
-                            max = new Date("1999 ")
+                            max = new Date("1999")
                             for (show in shows) {
-                                var other = new Date("2000 " + data[show]['time'])
+                                var other = new Date("2000/1/1 " + data[show]['time'])
                                 if (max < other) {
                                     max = other
                                     var New = show
@@ -64,7 +64,7 @@ $(document).ready(function() {
 })
 
 function minMax(foo, bar) {
-    if (new Date("2000 " + foo[1]) < new Date("2000 " + bar[1])) {
+    if (new Date("2000/1/1 " + foo[1]) < new Date("2000/1/1 " + bar[1])) {
         return [foo, bar]
     }
     return [bar, foo]

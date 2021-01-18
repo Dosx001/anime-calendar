@@ -67,9 +67,10 @@ More coming soon!
 * :white_check_mark: fix flickering
     * loading .js file is taxing
     * appending ```'<script src="filename.js"></script>'``` is faster
+* :white_check_mark: list.js breaks in Firefox but works in Chromium browsers
+    * ```new date("%Y %I:%M %p")``` is an Invalid Date in Firefox
+    * change to ```new date("%Y/%m/%d %I:%M %p")```
 
 <b id="invest">Investigating</b>
 
-
 * :black_square_button: Shows() randomly doesn\'t run
-* :black_square_button: list.js breaks in Firefox but works in Chromium browsers
