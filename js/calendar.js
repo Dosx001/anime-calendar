@@ -55,7 +55,8 @@ $(document).ready(function() {
 function TheBigBang(offset) {
     $('#calendar').remove();
     var file
-    switch(localStorage.getItem('option')) {
+    var option = localStorage.getItem('option')
+    switch(option) {
         case "1":
             file = "./shows/cutoff.json"
             break;
@@ -70,17 +71,26 @@ function TheBigBang(offset) {
             return resp.json();
         })
         .then(function(data) {
-            $("body").append(calendar(getDates(offset), data));
+            var min = JSON.parse(localStorage.getItem('min'))
+            if (localStorage.getItem('list') == "Your List" || option == "0" || min == null) {
+                $("body").append(calendar(getDates(offset), data));
+            }
+            else if (option == "1") {
+                $("body").append(calendar(getDates(offset), cutoff(data)));
+            }
+            else {
+                compact(data, offset)
+            }
             if (Object.keys($("#show")) != 0) {
                 $('#calendar').css({"height": "25rem"})
             }
+            if (document.getElementById('list').innerHTML == "Your List") {
+                shows(true)
+            }
+            else {
+                shows(false)
+            }
         })
-    if (document.getElementById('list').innerHTML == "Your List") {
-        shows(true)
-    }
-    else {
-        shows(false)
-    }
 }
 
 function calendar(dates, times) {
@@ -180,5 +190,44 @@ function shows(Bool) {
             }
             $("#show-js").remove()
             $('html').append('<script id="show-js" src="js/show.js"></script>')
+        })
+}
+
+function cutoff(times) {
+    var min = JSON.parse(localStorage.getItem('min'))
+    var max = JSON.parse(localStorage.getItem('max'))
+    for (const [index, time] of times.entries()){
+        if (min[1] == time) {
+            min = index
+        }
+        if (max[1] == time) {
+            max = index + 1
+            break
+        }
+    }
+    return times.slice(min, max)
+}
+
+function compact(times, offset) {
+    fetch("./shows/shows.json")
+        .then(function(resp) {
+            return resp.json();
+        })
+        .then(function(data) {
+            var New = []
+            var shows = JSON.parse(localStorage.getItem('shows'))
+            for (time in times) {
+                for (show in shows) {
+                    if (data[show]['time'] == times[time]) {
+                        New.push(times[time])
+                        delete shows[show]
+                        break
+                    }
+                }
+                if (shows.length == 0) {
+                    break
+                }
+            }
+            $("body").append(calendar(getDates(offset), New));
         })
 }

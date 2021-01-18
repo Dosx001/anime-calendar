@@ -23,13 +23,17 @@ $(document).ready(function() {
                 }
                 else if (shows != null && title in shows) {
                     delete shows[title]
-                    if (Object.keys(shows).length == 1) {
+                    if (Object.keys(shows).length == 0) {
+                        localStorage.removeItem('min');
+                        localStorage.removeItem('max');
+                    }
+                    else if (Object.keys(shows).length == 1) {
                         var show = Object.keys(shows)[0]
                         var New = [show, data[show]['time']]
                         localStorage.setItem('min', JSON.stringify(New))
                         localStorage.setItem('max', JSON.stringify(New))
                     }
-                    else if (Object.keys(shows).length != 0) {
+                    else {
                         var min = JSON.parse(localStorage.getItem('min'))
                         if (title == min[0]) {
                             min = new Date("2001")
@@ -58,7 +62,7 @@ $(document).ready(function() {
                         }
                     }
                 }
-            localStorage.setItem('shows', JSON.stringify(shows))
+                localStorage.setItem('shows', JSON.stringify(shows))
             })
         })
 })

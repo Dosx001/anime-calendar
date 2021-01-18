@@ -35,19 +35,22 @@ More coming soon!
 * :white_check_mark: user can create their custom list of anime
 * :white_check_mark: resize calender when user pressing a show
 * :white_check_mark: calendar jumps to the show press when calendar resize
+* :white_check_mark: adjust .times for Your List
 
 <b id="HP">High Priority</b>
 
-* :black_square_button: adjust .times for Your List
-* :black_square_button: record and display watch history
+* :black_square_button: calendar updates when user removes or add a show
+* :black_square_button: standardize .slot size
+* :black_square_button: record and display users\' watch history
 
 <b id="MP">Medium Priority</b>
 
+* :black_square_button: search bar for shows
 * :black_square_button: create a daily setting for calendar
 * :black_square_button: allow users to switch between Japanese and English titles
-* :black_square_button: allow to switch from b .show button to cover art .show buttons
-* :black_square_button: standardize .slot size
-* :black_square_button: create a aside for #show
+* :black_square_button: allow users to switch .show buttons between titles and cover art
+* :black_square_button: user feedback when adding or removing shows
+* :black_square_button: create a aside for \#show
 * :black_square_button: center scrollbar
 
 <b id="LP">Low Priority</b>
@@ -70,7 +73,9 @@ More coming soon!
 * :white_check_mark: list.js breaks in Firefox but works in Chromium browsers
     * ```new date("%Y %I:%M %p")``` is an Invalid Date in Firefox
     * change to ```new date("%Y/%m/%d %I:%M %p")```
+* :white_check_mark: Shows() randomly doesn\'t run
+    * Put shows() in a fetch promise
 
 <b id="invest">Investigating</b>
 
-* :black_square_button: Shows() randomly doesn\'t run
+* :black_square_button: calendar resizes when \#show is displaying, and Your List and compact settings are picked
