@@ -36,6 +36,7 @@ More coming soon!
 * :white_check_mark: resize calender when user pressing a show
 * :white_check_mark: calendar jumps to the show press when calendar resize
 * :white_check_mark: adjust .times for Your List
+* :white_check_mark: give users feedback when adding or removing shows
 
 <b id="HP">High Priority</b>
 
@@ -49,7 +50,6 @@ More coming soon!
 * :black_square_button: create a daily setting for calendar
 * :black_square_button: allow users to switch between Japanese and English titles
 * :black_square_button: allow users to switch .show buttons between titles and cover art
-* :black_square_button: user feedback when adding or removing shows
 * :black_square_button: create a aside for \#show
 * :black_square_button: center scrollbar
 
