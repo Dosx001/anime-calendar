@@ -81,9 +81,7 @@ function TheBigBang(offset) {
             else {
                 compact(data, offset)
             }
-            if (Object.keys($("#show")) != 0) {
-                $('#calendar').css({"height": "25rem"})
-            }
+            resizeCalendar()
             if (document.getElementById('list').innerHTML == "Your List") {
                 shows(true)
             }
@@ -214,12 +212,12 @@ function compact(times, offset) {
             return resp.json();
         })
         .then(function(data) {
-            var New = []
+            var times_comp = []
             var shows = JSON.parse(localStorage.getItem('shows'))
             for (time in times) {
                 for (show in shows) {
                     if (data[show]['time'] == times[time]) {
-                        New.push(times[time])
+                        times_comp.push(times[time])
                         delete shows[show]
                         break
                     }
@@ -228,6 +226,13 @@ function compact(times, offset) {
                     break
                 }
             }
-            $("body").append(calendar(getDates(offset), New));
+            $("body").append(calendar(getDates(offset), times_comp));
+            resizeCalendar()
         })
+}
+
+function resizeCalendar() {
+    if (Object.keys($("#show")) != 0) {
+        $('#calendar').css({"height": "25rem"})
+    }
 }

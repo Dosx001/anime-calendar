@@ -75,7 +75,9 @@ More coming soon!
     * change to ```new date("%Y/%m/%d %I:%M %p")```
 * :white_check_mark: Shows() randomly doesn\'t run
     * Put shows() in a fetch promise
+* :white_check_mark: calendar resizes when \#show is displaying, and Your List and compact settings are picked
+    * For resizing calendar when user has Compact and Your List settings resize the calendar inside compact() fetch promise instead
 
 <b id="invest">Investigating</b>
 
-* :black_square_button: calendar resizes when \#show is displaying, and Your List and compact settings are picked
+No bugs!!! For now...
