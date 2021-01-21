@@ -53,7 +53,10 @@ $(document).ready(function() {
                         }
                     }
                     var shows = JSON.parse(localStorage.getItem('shows'))
-                    var but = (show in shows) ? 
+                    if (shows == null) {
+                        shows = {}
+                    }
+                    var but = (show in shows) ?
                         '<button id="sub" class="setter">Remove from Your List</button>':
                         '<button id="add" class="setter">Add to Your List</button>'
                     $("#content").append('<h3 id="show">'
