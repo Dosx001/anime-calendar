@@ -52,9 +52,12 @@ $(document).ready(function() {
                             streams += ' ' + stream + '</a></td>'
                         }
                     }
+                    var shows = JSON.parse(localStorage.getItem('shows'))
+                    var but = (show in shows) ? 
+                        '<button id="sub" class="setter">Remove from Your List</button>':
+                        '<button id="add" class="setter">Add to Your List</button>'
                     $("#content").append('<h3 id="show">'
-                        + '<button id="add" class="setter">&#x2713;</button>'
-                        + '<button id="sub" class="setter">&#x2715;</button>'
+                        + but
                         + '<div id="cover"><img src="'
                         + data[show]['cover'] + '" width="300" height="400">'
                         + '</div><div id="streams">'

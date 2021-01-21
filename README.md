@@ -36,7 +36,9 @@ More coming soon!
 * :white_check_mark: resize calender when user pressing a show
 * :white_check_mark: calendar jumps to the show press when calendar resize
 * :white_check_mark: adjust .times for Your List
-* :white_check_mark: give users feedback when adding or removing shows
+* :white_check_mark: ~~give users feedback when adding or removing shows~~
+    * Merge add and remove
+    * Button updates base on users' Your List
 
 <b id="HP">High Priority</b>
 
@@ -75,9 +77,10 @@ More coming soon!
     * change to ```new date("%Y/%m/%d %I:%M %p")```
 * :white_check_mark: Shows() randomly doesn\'t run
     * Put shows() in a fetch promise
-* :white_check_mark: calendar resizes when \#show is displaying, and Your List and compact settings are picked
-    * For resizing calendar when user has Compact and Your List settings resize the calendar inside compact() fetch promise instead
+* :white_check_mark: If user changes their setting to Your List and Compact, when \#show is displaying then calendar will resize when it shouldn't
+    * Resize calendar inside Compact()'s fetch promise 
 
 <b id="invest">Investigating</b>
 
-No bugs!!! For now...
+* :black_square_button: Some shows don't have their correct streams
+* :black_square_button: Some shows' steam urls have some mistakes

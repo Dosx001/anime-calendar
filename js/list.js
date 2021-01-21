@@ -19,8 +19,9 @@ $(document).ready(function() {
                         localStorage.setItem('min', JSON.stringify(minMax(show, JSON.parse(localStorage.getItem('min')))[0]))
                         localStorage.setItem('max', JSON.stringify(minMax(show, JSON.parse(localStorage.getItem('max')))[1]))
                     }
+                    $(this)[0].innerHTML = "Remove from Your List"
+                    $(this)[0].id = "sub"
                     shows[title] = null
-                    Alert(title + '</text> has been added to')
                 }
                 else if (shows != null && title in shows) {
                     delete shows[title]
@@ -62,7 +63,8 @@ $(document).ready(function() {
                             localStorage.setItem('max', JSON.stringify(show))
                         }
                     }
-                    Alert(title + '</text> has been removed from ')
+                    $(this)[0].innerHTML = "Add to Your List"
+                    $(this)[0].id = "add"
                 }
                 localStorage.setItem('shows', JSON.stringify(shows))
             })
@@ -74,15 +76,4 @@ function minMax(foo, bar) {
         return [foo, bar]
     }
     return [bar, foo]
-}
-
-function Alert(msg) {
-    setTimeout(function() {
-        $('.alert').remove()
-    }, 2000)
-    $('#pop').append(
-        '<div class="alert container"><text class="title">'
-        + msg
-        + '<text class="title">Your List</text></div>'
-    )
 }
