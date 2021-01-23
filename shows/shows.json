@@ -6,7 +6,8 @@
         "streams": {
             "AnimeLab": "https://www.animelab.com/shows/suppose-a-kid-from-the-last-dungeon-boonies-moved-to-a-starter-town",
             "Funimation": "https://www.funimation.com/shows/suppose-a-kid-from-the-last-dungeon-boonies-moved-to-a-starter-town/",
-            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1157"
+            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1157/suppose-a-kid-from-the-last-dungeon-boonies-moved-to-a-starter-town",
+            "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3X-zEFf3ZnYgu6MuUIO9q3"
         }
     },
     "Ura Sekai Picnic": {
@@ -16,7 +17,8 @@
         "streams": {
             "AnimeLab": "https://www.animelab.com/shows/otherside-picnic",
             "Funimation": "https://www.funimation.com/shows/otherside-picnic/",
-            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1195"
+            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1195/otherside-picnic",
+            "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhuqqXxuJ3FjDyQ0ISzzBZ7"
         }
     },
     "Uma Musume: Pretty Derby 2": {
@@ -25,7 +27,7 @@
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/uma-musume-pretty-derby-2-1c7726f615.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/umamusume-pretty-derby",
-            "VRV": "https://vrv.co/series/GR79P2816"
+            "VRV": "https://vrv.co/series/GR79P2816/Umamusume-Pretty-Derby"
         }
     },
     "Shin Chuuka Ichiban! 2nd Season": {
@@ -34,7 +36,7 @@
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/shin-chuuka-ichiban-2-596ca2b542.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/true-cooking-master-boy",
-            "VRV": "https://vrv.co/series/G64PK5X3R"
+            "VRV": "https://vrv.co/series/G64PK5X3R/True-Cooking-Master-Boy"
         }
     },
     "Osomatsu-san 3": {
@@ -50,22 +52,27 @@
         "day": "Monday",
         "time": "11:30 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/wave-surfing-yappe-e55f58a476.jpg",
-        "streams": {}
+        "streams": {
+            "Crunchyroll": "https://www.crunchyroll.com/wave-lets-go-surfing-"
+        }
     },
     "Shadowverse": {
         "day": "Tuesday",
         "time": "3:00 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/shadowverse-4116ddca7e.jpg",
-        "streams": {}
+        "streams": {
+            "Crunchyroll": "https://www.crunchyroll.com/shadowverse",
+            "VRV": "https://vrv.co/series/GYEX244X6/Shadowverse"
+        }
     },
     "Black Clover": {
         "day": "Tuesday",
         "time": "3:25 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/black-clover-a94ee82aaa.jpg",
         "streams": {
-            "AnimeLab": "https://www.animelab.com/shows/back-arrow",
-            "Funimation": "https://www.funimation.com/shows/back-arrow/",
-            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1211"
+            "AnimeLab": "https://www.AnimeLab.com/shows/black-clover",
+            "Crunchyroll": "https://www.crunchyroll.com/black-clover",
+            "Funimation": "https://www.funimation.com/shows/black-clover/"
         }
     },
     "Gekidol": {
@@ -75,7 +82,7 @@
         "streams": {
             "AnimeLab": "https://www.animelab.com/shows/gekidol",
             "Funimation": "https://www.funimation.com/shows/gekidol/",
-            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1231"
+            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1231/gekidol"
         }
     },
     "Wonder Egg Priority": {
@@ -83,48 +90,52 @@
         "time": "7:00 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/wonder-egg-priority-0e44377ddc.jpg",
         "streams": {
-            "AnimeLab": "https://www.animelab.com/shows/wonder-egg-priority",
             "Funimation": "https://www.funimation.com/shows/wonder-egg-priority/",
-            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1223"
+            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1223/wonder-egg-priority"
         }
     },
     "Bungou Stray Dogs Wan!": {
         "day": "Tuesday",
         "time": "7:30 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/bungou-stray-dogs-wan-323dc30b50.jpg",
-        "streams": {}
+        "streams": {
+            "Crunchyroll": "https://www.crunchyroll.com/bungo-stray-dogs-wan"
+        }
     },
     "World Witches Hasshin Shimasu!": {
         "day": "Tuesday",
         "time": "7:45 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/world-witches-hasshin-shimasu-8dd2b2719d.jpg",
-        "streams": {}
+        "streams": {
+            "Crunchyroll": "https://www.crunchyroll.com/strike-witches-501st-joint-fighter-wing-take-off",
+            "VRV": "https://vrv.co/series/GYNVWW73R/Strike-Witches-501st-JOINT-FIGHTER-WING-Take-Off"
+        }
     },
     "Tensei Shitara Slime Datta Ken 2nd Season": {
         "day": "Tuesday",
         "time": "8:00 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/tensei-shitara-slime-datta-ken-2nd-season-40bb77fbc1.jpg",
         "streams": {
-            "AnimeLab": "https://www.animelab.com/shows/that-time-i-got-reincarnated-as-a-slime",
             "Crunchyroll": "https://www.crunchyroll.com/that-time-i-got-reincarnated-as-a-slime",
             "Funimation": "https://www.funimation.com/shows/that-time-i-got-reincarnated-as-a-slime/",
-            "VRV": "https://vrv.co/series/GYZJ43JMR"
+            "VRV": "https://vrv.co/series/GYZJ43JMR/That-Time-I-Got-Reincarnated-as-a-Slime"
         }
     },
     "Nanatsu no Taizai: Fundo no Shinpan": {
         "day": "Wednesday",
         "time": "12:55 AM",
-        "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/nanatsu-no-taizai-fundo-no-shinpan-cc5dfa1b6a.jpg?h",
-        "streams": {}
+        "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/nanatsu-no-taizai-fundo-no-shinpan-cc5dfa1b6a.jpg",
+        "streams": {
+            "Netflix": "https://www.netflix.com/title/80050063"
+        }
     },
     "Log Horizon: Entaku Houkai": {
         "day": "Wednesday",
         "time": "4:00 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/log-horizon-entaku-houkai-269297f5e3.jpg",
         "streams": {
-            "AnimeLab": "https://www.animelab.com/shows/log-horizon",
             "Funimation": "https://www.funimation.com/shows/log-horizon/",
-            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1155"
+            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1155/log-horizon-destruction-of-the-round-table"
         }
     },
     "Kaifuku Jutsushi no Yarinaoshi": {
@@ -132,7 +143,7 @@
         "time": "6:30 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/kaifuku-jutsushi-no-yarinaoshi-11b3bd2350.jpg",
         "streams": {
-            "Hidive": "https://www.hidive.com/tv/redo-of-healer"
+            "HiDive": "https://www.hidive.com/tv/redo-of-healer"
         }
     },
     "Re:Zero kara Hajimeru Isekai Seikatsu 2 Part 2": {
@@ -141,29 +152,35 @@
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/re-zero-kara-hajimeru-isekai-seikatsu-2-part-2-c84add9606.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/rezero-starting-life-in-another-world-",
-            "VRV": "https://vrv.co/series/GRGG9798R"
+            "VRV": "https://vrv.co/series/GRGG9798R/ReZERO-Starting-Life-in-Another-World-"
         }
     },
     "BEASTARS 2": {
         "day": "Wednesday",
         "time": "7:55 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/beastars-2-1cfc1b9dec.jpg",
-        "streams": {}
+        "streams": {
+            "Netflix": "https://www.netflix.com/title/81054847"
+        }
     },
     "I\u2605Chu: Halfway Through the Idol": {
         "day": "Wednesday",
         "time": "8:00 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/i-chu-halfway-through-the-idol-044a76d32d.jpg",
-        "streams": {}
+        "streams": {
+            "Crunchyroll": "https://www.crunchyroll.com/ichu",
+            "VRV": "https://vrv.co/series/G8DHV7KWX/ICHU",
+            "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3lkMqeu3M0PaNttQM0cWka"
+        }
     },
     "Soukou Musume Senki": {
         "day": "Wednesday",
         "time": "8:30 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/soukou-musume-senki-63516370d9.jpg",
         "streams": {
-            "AnimeLab": "https://www.animelab.com/shows/lbx-girls",
+            "AnimeLab": "https://www.animelab.com/shows/LBX-girls",
             "Funimation": "https://www.funimation.com/shows/lbx-girls/",
-            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1236"
+            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1236/lbx-girls"
         }
     },
     "Hortensia Saga": {
@@ -172,8 +189,8 @@
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/hortensia-saga-a900c2d1a8.jpg",
         "streams": {
             "AnimeLab": "https://www.animelab.com/shows/hortensia-saga",
-            "Funimation": "https://www.funimation.com/shows/hortensia-saga/",
-            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1219"
+            "Funimation": "https://www.funimation.com/shows/hortensia-saga/?qid=",
+            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1219/hortensia-saga"
         }
     },
     "Dr. Stone: Stone Wars": {
@@ -181,17 +198,20 @@
         "time": "5:30 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/dr-stone-stone-wars-6f4d9b37de.jpg",
         "streams": {
-            "AnimeLab": "https://www.animelab.com/shows/dr-stone",
             "Crunchyroll": "https://www.crunchyroll.com/dr-stone",
             "Funimation": "https://www.funimation.com/shows/dr-stone/",
-            "VRV": "https://vrv.co/series/GYEXQKJG6"
+            "VRV": "https://vrv.co/series/GYEXQKJG6/Dr-STONE"
         }
     },
     "Show by Rock!! Stars!!": {
         "day": "Thursday",
         "time": "6:00 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/show-by-rock-stars-e85accf2a9.jpg",
-        "streams": {}
+        "streams": {
+            "AnimeLab": "https://www.animelab.com/shows/show-by-rock",
+            "Funimation": "https://www.funimation.com/shows/show-by-rock-mashumairesh/",
+            "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jg-H3LCLflZvXPqNzBBcgPe"
+        }
     },
     "Yuru Camp\u25b3 2": {
         "day": "Thursday",
@@ -199,7 +219,8 @@
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/yuru-camp-2-7e4b8bdfec.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/laid-back-camp",
-            "VRV": "https://vrv.co/series/GRWEW95KR"
+            "VRV": "https://vrv.co/series/GRWEW95KR/Laid-Back-Camp",
+            "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhsFhLkiHzyfMeO5unNiOEc"
         }
     },
     "Yakusoku no Neverland 2nd Season": {
@@ -210,7 +231,7 @@
             "AnimeLab": "https://www.animelab.com/shows/the-promised-neverland",
             "Funimation": "https://www.funimation.com/shows/the-promised-neverland/",
             "Hulu": "https://www.hulu.com/series/the-promised-neverland-3ef087c6-d967-4495-9730-b5ff54ded8e0",
-            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/437"
+            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/437/the-promised-neverland/season/2460/season-2"
         }
     },
     "Tenchi Souzou Design-bu": {
@@ -218,7 +239,9 @@
         "time": "8:30 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/tenchi-souzou-design-bu-8290e43a61.jpg",
         "streams": {
-            "Crunchyroll": "https://www.crunchyroll.com/heavens-design-team"
+            "Crunchyroll": "https://www.crunchyroll.com/heavens-design-team",
+            "VRV": "https://vrv.co/series/G0XHWMV4G/Heavens-Design-Team",
+            "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2EXwI9aJdqU567z6f3UUzU"
         }
     },
     "Higurashi no Naku Koro ni (2020)": {
@@ -229,7 +252,7 @@
             "AnimeLab": "https://www.animelab.com/shows/higurashi-when-they-cry--new",
             "Funimation": "https://www.funimation.com/shows/higurashi-when-they-cry-new/",
             "Hulu": "https://www.hulu.com/series/higurashi-when-they-cry-eebf8a07-1977-4045-9ee9-f9d2f0799634",
-            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/950/higurashi-when-they-cry-new",
+            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/950/higurashi-when-they-cry-gou",
             "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jj1KDCcoLBqT6tpeSjzbFN9"
         }
     },
@@ -240,7 +263,7 @@
         "streams": {
             "AnimeLab": "https://www.animelab.com/shows/cells-at-work",
             "Funimation": "https://www.funimation.com/shows/cells-at-work/",
-            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/374"
+            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/374/cells-at-work/season/2418/season-2"
         }
     },
     "2.43: Seiin Koukou Danshi Volley-bu": {
@@ -250,7 +273,7 @@
         "streams": {
             "AnimeLab": "https://www.animelab.com/shows/243-seiin-high-school-boys-volleyball-team",
             "Funimation": "https://www.funimation.com/shows/243-seiin-high-school-boys-volleyball-team/",
-            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1215"
+            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1215/243-seiin-high-school-boys-volleyball-team"
         }
     },
     "Cells at Work! Code Black": {
@@ -259,8 +282,8 @@
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/cells-at-work-code-black-6c7224e9ac.jpg",
         "streams": {
             "AnimeLab": "https://www.animelab.com/shows/cells-at-work-code-black",
-            "Funimation": "https://www.funimation.com/shows/cells-at-work-code-black/",
-            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1183"
+            "Funimation": "https://www.funimation.com/shows/cells-at-work-code-black/?qid=",
+            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1183/cells-at-work-code-black"
         }
     },
     "Go-Toubun no Hanayome 2": {
@@ -271,7 +294,7 @@
             "AnimeLab": "https://www.animelab.com/shows/the-quintessential-quintuplets",
             "Crunchyroll": "https://www.crunchyroll.com/the-quintessential-quintuplets",
             "Funimation": "https://www.funimation.com/shows/the-quintessential-quintuplets/",
-            "VRV": "https://vrv.co/series/GY4PD7Z06"
+            "VRV": "https://vrv.co/series/GY4PD7Z06/The-Quintessential-Quintuplets"
         }
     },
     "Jaku-Chara Tomozaki-kun": {
@@ -281,7 +304,7 @@
         "streams": {
             "AnimeLab": "https://www.animelab.com/shows/bottom-tier-character-tomozaki",
             "Funimation": "https://www.funimation.com/shows/bottom-tier-character-tomozaki/",
-            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1226"
+            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1226/bottom-tier-character-tomozaki"
         }
     },
     "D4DJ: First Mix": {
@@ -291,7 +314,11 @@
         "streams": {
             "AnimeLab": "https://www.animelab.com/shows/d4dj-first-mix",
             "Crunchyroll": "https://www.crunchyroll.com/d4dj-first-mix",
-            "Hidive": "https://www.hidive.com/tv/d4dj-first-mix"
+            "Funimation": "https://www.funimation.com/shows/d4dj-first-mix/",
+            "HiDive": "https://www.hidive.com/tv/d4dj-first-mix",
+            "VRV": "https://vrv.co/series/GYGVN57EY/D4DJ-First-Mix",
+            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1138/d4dj-first-mix",
+            "YouTube": "https://www.youtube.com/c/D4DJEnglishChannel"
         }
     },
     "Kumo Desu ga, Nani ka?": {
@@ -299,14 +326,19 @@
         "time": "6:30 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/kumo-desu-ga-nani-ka-dfae70d507.jpg",
         "streams": {
-            "Crunchyroll": "https://www.crunchyroll.com/so-im-a-spider-so-what"
+            "Crunchyroll": "https://www.crunchyroll.com/so-im-a-spider-so-what",
+            "VRV": "https://vrv.co/series/G79H23G0D/So-Im-a-Spider-So-What",
+            "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jh0Urq4XJv3SkmYTq-goyCo"
         }
     },
     "Idolls!": {
         "day": "Friday",
         "time": "8:00 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/idolls-30f77e4e83.jpg",
-        "streams": {}
+        "streams": {
+            "Crunchyroll": "https://www.crunchyroll.com/idolls",
+            "VRV": "https://vrv.co/series/GVDHX83JZ/Idolls"
+        }
     },
     "Back Arrow": {
         "day": "Friday",
@@ -314,8 +346,8 @@
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/back-arrow-73003099e6.jpg",
         "streams": {
             "AnimeLab": "https://www.animelab.com/shows/back-arrow",
-            "Funimation": "https://www.funimation.com/shows/back-arrow/",
-            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1211"
+            "Funimation": "https://www.funimation.com/shows/back-arrow",
+            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1211/back-arrow"
         }
     },
     "King's Raid: Ishi wo Tsugumono-tachi": {
@@ -331,7 +363,10 @@
         "day": "Friday",
         "time": "9:30 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/wixoss-diva-a-live-1f091b749c.jpg",
-        "streams": {}
+        "streams": {
+            "Crunchyroll": "https://www.crunchyroll.com/wixoss-divaalive",
+            "VRV": "https://vrv.co/series/GP5HJ83E1/WIXOSS-DIVAALIVE"
+        }
     },
     "Project Scard: Praeter no Kizu": {
         "day": "Friday",
@@ -340,7 +375,8 @@
         "streams": {
             "AnimeLab": "https://www.animelab.com/shows/scar-on-the-praeter",
             "Funimation": "https://www.funimation.com/shows/scar-on-the-praeter/",
-            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1163"
+            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1163/scar-on-the-praeter",
+            "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2AAB1zAh5bCOdsxuBznXFl"
         }
     },
     "Jujutsu Kaisen": {
@@ -348,7 +384,8 @@
         "time": "10:45 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/jujutsu-kaisen-bf9266be58.jpg",
         "streams": {
-            "Crunchyroll": "https://www.crunchyroll.com/jujutsu-kaisen"
+            "Crunchyroll": "https://www.crunchyroll.com/jujutsu-kaisen",
+            "VRV": "https://vrv.co/series/GRDV0019R/JUJUTSU-KAISEN"
         }
     },
     "Inu to Neko Docchi mo Katteru to Mainichi Tanoshii": {
@@ -356,7 +393,8 @@
         "time": "11:00 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/inu-to-neko-docchi-mo-katteru-to-mainichi-tanoshii-e0398c162a.jpg",
         "streams": {
-            "Crunchyroll": "https://www.crunchyroll.com/with-a-dog-and-a-cat-every-day-is-fun"
+            "Crunchyroll": "https://www.crunchyroll.com/with-a-dog-and-a-cat-every-day-is-fun",
+            "VRV": "https://vrv.co/series/G6PP7W7V6/With-a-Dog-AND-a-Cat-Every-Day-is-Fun"
         }
     },
     "Ore dake Haireru Kakushi Dungeon": {
@@ -364,7 +402,8 @@
         "time": "11:25 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/ore-dake-haireru-kakushi-dungeon-2f12010b97.jpg",
         "streams": {
-            "Crunchyroll": "https://www.crunchyroll.com/the-hidden-dungeon-only-i-can-enter"
+            "Crunchyroll": "https://www.crunchyroll.com/the-hidden-dungeon-only-i-can-enter",
+            "VRV": "https://vrv.co/series/G3KHEV5QQ/The-Hidden-Dungeon-Only-I-Can-Enter"
         }
     },
     "Dragon Quest: Dai no Daibouken (2020)": {
@@ -374,7 +413,7 @@
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/dragon-quest-the-adventure-of-dai",
             "Hulu": "https://www.hulu.com/series/dragon-quest-the-adventure-of-dai-33732b5e-eac3-4c6e-a467-8ae8b9a393cf",
-            "VRV": "https://vrv.co/series/GYXM79M56"
+            "VRV": "https://vrv.co/series/GYXM79M56/Dragon-Quest-The-Adventure-of-Dai"
         }
     },
     "Hanyou no Yashahime: Sengoku Otogizoushi": {
@@ -385,6 +424,8 @@
             "AnimeLab": "https://www.animelab.com/shows/yashahime-princess-half-demon",
             "Crunchyroll": "https://www.crunchyroll.com/yashahime-princess-half-demon",
             "Funimation": "https://www.funimation.com/shows/yashahime-princess-half-demon/",
+            "Hulu": "https://www.hulu.com/series/yashahime-princess-half-demon-75a9075a-938e-485a-8d60-88c8d6c6817f",
+            "VRV": "https://vrv.co/series/G63W41KD6/Yashahime-Princess-Half-Demon",
             "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jjdk5R3iXkWIAGBMZ8Tugot"
         }
     },
@@ -393,7 +434,9 @@
         "time": "4:30 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/detective-conan-8e35c43f9e.jpg",
         "streams": {
-            "Crunchyroll": "https://www.crunchyroll.com/case-closed"
+            "Crunchyroll": "https://www.crunchyroll.com/case-closed",
+            "Hulu": "http://www.hulu.com/case-closed",
+            "Netflix": "https://www.netflix.com/title/80090370"
         }
     },
     "Horimiya": {
@@ -402,8 +445,9 @@
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/horimiya-510da93afb.jpg",
         "streams": {
             "AnimeLab": "https://www.animelab.com/shows/horimiya",
-            "Funimation": "https://www.funimation.com/shows/horimiya/",
-            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1203"
+            "Funimation": "https://www.funimation.com/shows/horimiya",
+            "Hulu": "https://www.hulu.com/series/horimiya-b76b37a3-c529-4967-ab5c-bc734b79132d",
+            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1203/horimiya"
         }
     },
     "Kai Byoui Ramune": {
@@ -411,7 +455,8 @@
         "time": "10:00 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/kai-byoui-ramune-10140cbdbd.jpg",
         "streams": {
-            "Crunchyroll": "https://www.crunchyroll.com/dr-ramune-mysterious-disease-specialist-"
+            "Crunchyroll": "https://www.crunchyroll.com/dr-ramune-mysterious-disease-specialist-",
+            "VRV": "https://vrv.co/series/GG5H5XK0J"
         }
     },
     "SK8 the Infinity": {
@@ -421,7 +466,7 @@
         "streams": {
             "AnimeLab": "https://www.animelab.com/shows/sk8-the-infinity",
             "Funimation": "https://www.funimation.com/shows/sk8-the-infinity/",
-            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1206"
+            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1206/sk8-the-infinity"
         }
     },
     "World Trigger 2": {
@@ -430,7 +475,7 @@
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/world-trigger-2-23e67a1805.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/world-trigger",
-            "VRV": "https://vrv.co/series/GR757DMKY"
+            "VRV": "https://vrv.co/series/GR757DMKY/World-Trigger"
         }
     },
     "Kiratto Pri\u2606chan Season 3": {
@@ -443,7 +488,9 @@
         "day": "Saturday",
         "time": "5:30 PM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/healin-good-precure-2cb2478052.jpg",
-        "streams": {}
+        "streams": {
+            "Crunchyroll": "https://www.crunchyroll.com/healin-good-pretty-cure"
+        }
     },
     "One Piece": {
         "day": "Saturday",
@@ -453,6 +500,7 @@
             "AnimeLab": "https://www.animelab.com/shows/one-piece",
             "Crunchyroll": "https://www.crunchyroll.com/one-piece",
             "Funimation": "https://www.funimation.com/shows/one-piece/",
+            "Netflix": "https://www.netflix.com/title/80107103",
             "VRV": "https://vrv.co/series/GRMG8ZQZR/One-Piece"
         }
     },
@@ -472,7 +520,7 @@
         "time": "1:00 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/boruto-naruto-next-generations-1a0ee72f86.jpg",
         "streams": {
-            "AnimeLab": "https://www.animelab.com/shows/boruto-naruto-next-generations",
+            "AnimeLab": "https://www.AnimeLab.com/shows/boruto-naruto-next-generations",
             "Crunchyroll": "https://www.crunchyroll.com/boruto-naruto-next-generations",
             "Hulu": "https://www.hulu.com/series/boruto-naruto-next-generations-e567be4f-2fd8-4127-bc08-580baad908e3",
             "VRV": "https://vrv.co/series/GR75Q020Y/BORUTO-NARUTO-NEXT-GENERATIONS"
@@ -482,13 +530,19 @@
         "day": "Sunday",
         "time": "4:54 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/yatogame-chan-kansatsu-nikki-3-satsume-728c70db8f.jpg",
-        "streams": {}
+        "streams": {
+            "Crunchyroll": "https://www.crunchyroll.com/yatogame-chan-kansatsu-nikki",
+            "VRV": "https://vrv.co/series/G64PX8N1R/Yatogame-chan-Kansatsu-Nikki"
+        }
     },
     "Kemono Jihen": {
         "day": "Sunday",
         "time": "5:30 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/kemono-jihen-a066fbc443.jpg",
-        "streams": {}
+        "streams": {
+            "AnimeLab": "https://www.animelab.com/shows/kemono-jihen",
+            "Funimation": "https://www.funimation.com/shows/kemono-jihen/"
+        }
     },
     "Skate-Leading\u2606Stars": {
         "day": "Sunday",
@@ -497,14 +551,18 @@
         "streams": {
             "AnimeLab": "https://www.animelab.com/shows/skate-leading-stars",
             "Funimation": "https://www.funimation.com/shows/skate-leading-stars/",
-            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1167"
+            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1167/skate-leading-stars",
+            "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhI_jQt9Ivtl_N_rDOaSQyU"
         }
     },
     "Idoly Pride": {
         "day": "Sunday",
         "time": "6:30 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/idoly-pride-f1d47f722c.jpg",
-        "streams": {}
+        "streams": {
+            "AnimeLab": "https://www.animelab.com/shows/idoly-pride",
+            "Funimation": "https://www.funimation.com/shows/idoly-pride/"
+        }
     },
     "Mushoku Tensei: Isekai Ittara Honki Dasu": {
         "day": "Sunday",
@@ -513,7 +571,7 @@
         "streams": {
             "AnimeLab": "https://www.animelab.com/shows/mushoku-tensei-jobless-reincarnation",
             "Funimation": "https://www.funimation.com/shows/mushoku-tensei-jobless-reincarnation/",
-            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1170"
+            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1170/mushoku-tensei-jobless-reincarnation"
         }
     },
     "Non Non Biyori Nonstop": {
@@ -521,7 +579,9 @@
         "time": "9:50 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/non-bon-biyori-nonstop-948f3a7764.jpg",
         "streams": {
-            "Hidive": "https://www.hidive.com/tv/non-non-biyori-nonstop"
+            "Crunchyroll": "https://www.crunchyroll.com/non-non-biyori",
+            "HiDive": "https://www.hidive.com/tv/non-non-biyori-nonstop",
+            "VRV": "https://vrv.co/series/G63VW2VWY/Non-Non-Biyori"
         }
     },
     "Ex-Arm": {
@@ -536,15 +596,19 @@
         "day": "Sunday",
         "time": "10:45 AM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/kingdom-3-c3f0ed5d4d.jpg",
-        "streams": {}
+        "streams": {
+            "AnimeLab": "https://www.animelab.com/shows/kingdom",
+            "Funimation": "https://www.funimation.com/shows/kingdom/"
+        }
     },
     "Yami Shibai 8": {
         "day": "Sunday",
         "time": "12:30 PM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/yami-shibai-8-df233ab22b.jpg",
         "streams": {
-            "Crunchyroll": "https://www.crunchyroll.com/yamishibai",
-            "VRV": "https://vrv.co/series/G6WEM1V36"
+            "Crunchyroll": "https://www.crunchyroll.com/yamishibai-japanese-ghost-stories",
+            "Funimation": "https://www.crunchyroll.com/yamishibai-japanese-ghost-stories",
+            "VRV": "https://vrv.co/series/G6WEM1V36/Yamishibai-Japanese-Ghost-Stories"
         }
     },
     "Shingeki no Kyojin: The Final Season": {
@@ -552,8 +616,12 @@
         "time": "12:45 PM",
         "cover": "https://cdn.statically.io/img/animeschedule.s3.amazonaws.com/production/assets/public/img/shows/default/shingeki-no-kyojin-the-final-season-068bc27e5b.jpg",
         "streams": {
-            "Crunchyroll": "https://www.crunchyroll.com/attack-on-titan|59",
-            "Funimation": "https://www.funimation.com/shows/attack-on-titan/"
+            "AnimeLab": "https://www.animelab.com/shows/attack-on-titan",
+            "Crunchyroll": "https://www.crunchyroll.com/attack-on-titan",
+            "Funimation": "https://www.funimation.com/shows/attack-on-titan",
+            "Hulu": "https://www.hulu.com/series/attack-on-titan-9c91ffa3-dc20-48bf-8bc5-692e37c76d88",
+            "VRV": "https://vrv.co/series/GR751KNZY/Attack-on-Titan",
+            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/381/attack-on-titan/season/2319/final-season"
         }
     }
 }

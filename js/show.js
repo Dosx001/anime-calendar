@@ -39,7 +39,7 @@ $(document).ready(function() {
                                 case "Hulu":
                                     streams += '<img class="image" src="https://animeschedule.s3.amazonaws.com/production/assets/public/img/logos/hulu-f98114256c.svg">'
                                     break;
-                                case "Hidive":
+                                case "HiDive":
                                     streams += '<img class="image" src="https://animeschedule.s3.amazonaws.com/production/assets/public/img/logos/hidive-52e3526fbf.svg">'
                                     break;
                                 case "Wakanim":
@@ -47,6 +47,9 @@ $(document).ready(function() {
                                     break;
                                 case "YouTube":
                                     streams += '<img class="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1280px-YouTube_full-color_icon_%282017%29.svg.png">'
+                                    break;
+                                case "Netflix":
+                                    streams += '<img class="image" src="https://cdn.animeschedule.net/production/assets/public/img/logos/netflix-e5a2a9907e.svg">'
                                     break;
                             }
                             streams += ' ' + stream + '</a></td>'

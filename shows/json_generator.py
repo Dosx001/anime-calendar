@@ -18,6 +18,7 @@ with open('code.html') as f:
 
 shows = {}
 with open('shows.json', 'w') as file:
+    streams = {}
     for line in source:
         if "timetable-column-day" in line:
             day = line[73:-6]
@@ -26,7 +27,10 @@ with open('shows.json', 'w') as file:
         elif 'show-poster' in line and not 'lazy' in line:
             cover = line.split()[1][5:-13]
             if "nanatsu" in cover:
-                cover = cover[0:-2]
+                cover = cover[0:-4]
+        elif 'class="stream-link"' in line and 'title' in line:
+            stream = line.split()
+            streams.update({stream[6][7:-1]:stream[1][6:-1]})
         elif "show-title-bar" in line:
             title = line.split()[1::]
             title[0] = title[0][23::]
@@ -38,55 +42,13 @@ with open('shows.json', 'w') as file:
             except IndexError:
                 pass
             title = " ".join(title)
-            winner = 0
-            scores = []
-            for item in data + old + Long:
-                scores.append(SequenceMatcher(None, item['title'], title).ratio())
-                try:
-                    for name in item['alias']:
-                        scores.append(SequenceMatcher(None, name, title).ratio())
-                except KeyError:
-                    pass
-                for score in scores:
-                    if winner < score:
-                        winner = score
-                        streams = item['streams']
-            if winner < .5 or title == "Kiratto Pri\u2606chan Season 3":
-                get_streams = {}
-            else:
-                get_streams = {}
-                for link in sorted(streams):
-                    if streams[link] != "":
-                        if link == 'funimation|Funimation':
-                            get_streams.update({'Funimation': streams[link]})
-                        elif link == 'animelab|AnimeLab':
-                            get_streams.update({'AnimeLab': streams[link]})
-                        elif link == 'vrv|VRV':
-                            get_streams.update({'VRV': streams[link]})
-                        elif link == 'wakanim|Wakanim':
-                            get_streams.update({'Wakanim': streams[link]})
-                        elif link == 'hulu|Hulu':
-                            get_streams.update({'Hulu': streams[link]})
-                        elif link == 'crunchyroll_nsfw|Crunchyroll' or link == 'crunchyroll':
-                            get_streams.update({'Crunchyroll': streams[link]})
-                        elif link == 'crunchyroll_nsfw|Crunchyroll' or link == 'crunchyroll':
-                            get_streams.update({'Crunchyroll': streams[link]})
-                        elif link == 'hidive':
-                            get_streams.update({'Hidive': streams[link]})
-                        elif link == 'anione':
-                            get_streams.update({'YouTube': streams[link]})
-                        elif link != "" and link != 'nyaa':
-                            get_streams.update({link: streams[link]})
-                try:
-                    get_streams['YouTube'] = get_streams.pop('YouTube')
-                except KeyError:
-                    pass
             content = {
                 'day': day,
                 'time': time,
                 'cover': cover,
                 #'score': winner,
-                'streams': get_streams
+                'streams': dict(sorted(streams.items(), key = lambda show: show[0]))
             }
             shows.update({parser.unescape(title): content})
+            streams = {}
     json.dump(shows, file, indent=4)
