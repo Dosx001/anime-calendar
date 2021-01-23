@@ -33,6 +33,7 @@ button:focus {
     outline: none;
 }
 
+/* Bootstrap */
 .input-group-text {
     background-color: black;
     color: darkgrey;
@@ -47,6 +48,30 @@ button:focus {
     background-size: 8px 10px;
 }
 
+/* jQuery UI */
+.ui-autocomplete {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1040;
+    float: left;
+    padding: 4px 0;
+    background: black;
+    border: 1px solid gray;
+    max-height: 25vh;
+    overflow-y: auto;
+}
+
+.ui-autocomplete-input {
+    background: #27002b;
+    color: gray;
+}
+
+.ui-state-hover, .ui-state-active {
+    background: #27002b;
+}
+
+/* Anime Calendar */
 .table td, .table th {
     padding: .6rem;
 }
