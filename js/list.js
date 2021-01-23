@@ -67,6 +67,9 @@ $(document).ready(function() {
                     $(this)[0].id = "add"
                 }
                 localStorage.setItem('shows', JSON.stringify(shows))
+                if ($("#list")[0].innerHTML == "Full List") {
+                    TheBigBang()
+                }
             })
         })
 })
