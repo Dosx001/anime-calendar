@@ -47,6 +47,10 @@ button:focus {
     background-size: 8px 10px;
 }
 
+.table td, .table th {
+    padding: .6rem;
+}
+
 .arrow, .show, .stream, .setter, #clear, #list {
     background: black;
     border: 2px solid grey;
@@ -69,7 +73,7 @@ button:focus {
 }
 
 .stream {
-    padding: 5px 10px 10px 5px;
+    padding: 0px 10px 0px 10px;
 }
 
 .time, .slot {
@@ -92,8 +96,9 @@ button:focus {
 
 .image {
     border-radius: 50%;
-    height: 40px;
-    width: 40px;
+    height: 33px;
+    width: 33px;
+    margin-top: -8px;
 }
 
 .setter {

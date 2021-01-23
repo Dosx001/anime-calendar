@@ -38,7 +38,9 @@ with open('shows.json', 'w') as file:
             try:
                 if "Suppose" in title[1]:
                     title[1] = "Suppose"
+                    title[-1] = "Town?"
                     title = title[1::]
+                    print(title)
             except IndexError:
                 pass
             title = " ".join(title)
