@@ -63,7 +63,6 @@ button:focus {
 }
 
 .ui-autocomplete-input {
-    background: #27002b;
     color: gray;
 }
 
@@ -218,4 +217,8 @@ button:focus {
 
 #sub {
     margin-left: 0rem;
+}
+
+#search {
+    background: #27002b;
 }

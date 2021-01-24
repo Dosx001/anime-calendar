@@ -38,22 +38,23 @@ More coming soon!
 * :white_check_mark: adjust .times for Your List
 * :white_check_mark: ~~give users feedback when adding or removing shows~~
     * Merge add and remove
-    * Button updates base on users' Your List
+    * Button updates base on users\' Your List
+* :white_check_mark: calendar updates when user removes or adds a show
+* :white_check_mark: search bar for shows
 
 <b id="HP">High Priority</b>
 
-* :black_square_button: calendar updates when user removes or add a show
-* :black_square_button: standardize .slot size
+* :black_square_button: create a daily setting for calendar
 * :black_square_button: record and display users\' watch history
+* :black_square_button: fixed center content
 
 <b id="MP">Medium Priority</b>
 
-* :black_square_button: search bar for shows
-* :black_square_button: create a daily setting for calendar
-* :black_square_button: allow users to switch between Japanese and English titles
-* :black_square_button: allow users to switch .show buttons between titles and cover art
 * :black_square_button: create a aside for \#show
+* :black_square_button: allow users to switch .show buttons between titles and cover art
+* :black_square_button: allow users to switch between Japanese and English titles
 * :black_square_button: center scrollbar
+* :black_square_button: standardize .slot size
 
 <b id="LP">Low Priority</b>
 
@@ -77,10 +78,11 @@ More coming soon!
     * change to ```new date("%Y/%m/%d %I:%M %p")```
 * :white_check_mark: Shows() randomly doesn\'t run
     * Put shows() in a fetch promise
-* :white_check_mark: If user changes their setting to Your List and Compact, when \#show is displaying then calendar will resize when it shouldn't
-    * Resize calendar inside Compact()'s fetch promise 
+* :white_check_mark: If user changes their setting to Your List and Compact, when \#show is displaying then calendar will resize when it shouldn\'t
+    * Resize calendar inside Compact()\'s fetch promise
+* :white_check_mark: Some shows don\'t have their correct streams & some shows\' steam urls have some mistakes
+    * Tweaked json_generator.py
 
 <b id="invest">Investigating</b>
 
-* :black_square_button: Some shows don't have their correct streams
-* :black_square_button: Some shows' steam urls have some mistakes
+* No bugs!!! For now...

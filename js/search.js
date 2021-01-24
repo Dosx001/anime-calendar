@@ -3,9 +3,9 @@ $(function() {
         <div class="navbar-nav">
             <div class="input-group ui-widget">
                 <div class="input-group-prepend">
-                    <label class="input-group-text" for="tags">Search</label>
+                    <label class="input-group-text" for="search">Search</label>
                 </div>
-                <input id="tags" size="30">
+                <input id="search" size="30">
             </div>
         </div>`
     )
@@ -14,14 +14,26 @@ $(function() {
             return resp.json();
         })
         .then(function(data) {
-            $("#tags").autocomplete({
+            $("#search").autocomplete({
                 source: Object.keys(data)
             })
         })
 })
 
 $(document).ready(function() {
-    $('#tags').on('input', function() {
+    $('#search').on('input', function() {
         $(".ui-helper-hidden-accessible").remove();
     });
+    fetch("./shows/shows.json")
+        .then(function(resp) {
+            return resp.json();
+        })
+        .then(function(data) {
+            $('input').keyup(function(e) {
+                if(e.keyCode == 13)
+                {
+                    streamInfo(data, $(this)[0].value)
+                }
+            })
+        });
 })
