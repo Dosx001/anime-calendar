@@ -5,9 +5,9 @@ Anime Calendar is a website that allows users to create their own custom calenda
 * [Features](#features)
 * [To-Do List](#to-do-list)
     * [Done](#done)
-    * [High Priority](#HP)
-    * [Medium Priority](#MP)
-    * [Low Priority](#LP)
+    * [High Priority](#high-priority)
+    * [Medium Priority](#medium-priority)
+    * [Low Priority](#low-priority)
 * [Bugs](#bugs)
     * [Fixed](#fixed)
     * [Investigating](#invest)
@@ -22,7 +22,7 @@ More coming soon!
 
 # To-Do List
 
-<b id="done">Done</b>
+### Done
 
 * :white_check_mark: create generic calendar
 * :white_check_mark: generate current dates for the calendar
@@ -43,27 +43,27 @@ More coming soon!
 * :white_check_mark: search bar for shows
 * :white_check_mark: center calendar scrollbar
 
-<b id="HP">High Priority</b>
+### High Priority
 
 * :black_square_button: create a daily setting for calendar
 * :black_square_button: record and display users\' watch history
 * :black_square_button: fixed center content
 
-<b id="MP">Medium Priority</b>
+### Medium Priority
 
 * :black_square_button: create a aside for \#show
 * :black_square_button: allow users to switch .show buttons between titles and cover art
 * :black_square_button: allow users to switch between Japanese and English titles
 * :black_square_button: standardize .slot size
 
-<b id="LP">Low Priority</b>
+### Low Priority
 
 * :black_square_button: connect to Google Calendar API to push notifications to user
 * :black_square_button: connect to Google Drive API to save user custom list on the cloud
 
 # Bugs
 
-<b id="fixed">Fixed</b>
+### Fixed
 
 * :white_check_mark: fix escpaing html
     * Use HTMLParser() to convert
@@ -83,6 +83,6 @@ More coming soon!
 * :white_check_mark: Some shows don\'t have their correct streams & some shows\' steam urls have some mistakes
     * Tweaked json_generator.py
 
-<b id="invest">Investigating</b>
+### Investigating
 
 * No bugs!!! For now...
