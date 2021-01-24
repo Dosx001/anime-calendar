@@ -41,6 +41,7 @@ More coming soon!
     * Button updates base on users\' Your List
 * :white_check_mark: calendar updates when user removes or adds a show
 * :white_check_mark: search bar for shows
+* :white_check_mark: center calendar scrollbar
 
 <b id="HP">High Priority</b>
 
@@ -53,7 +54,6 @@ More coming soon!
 * :black_square_button: create a aside for \#show
 * :black_square_button: allow users to switch .show buttons between titles and cover art
 * :black_square_button: allow users to switch between Japanese and English titles
-* :black_square_button: center scrollbar
 * :black_square_button: standardize .slot size
 
 <b id="LP">Low Priority</b>
