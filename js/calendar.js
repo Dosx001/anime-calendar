@@ -105,7 +105,7 @@ function calendar(dates, times) {
         for  (var day = 0; day < 7; day++) {
             var date = dates[day]
             calendar += '<td class="slot" id="'
-                + ider(date.toLocaleDateString("en-US",{ weekday: 'long' }), time)
+                + ider_slot(date.toLocaleDateString("en-US",{ weekday: 'long' }), time)
                 + '"></td>'
         }
         calendar += '</tr>'
@@ -158,7 +158,7 @@ function getDates(offset = 0) {
     return dates
 }
 
-function ider(day, time) {
+function ider_slot(day, time) {
     const days = {Monday:1, Tuesday:2, Wednesday:3, Thursday:4, Friday:5, Saturday:6, Sunday:7}
     var id = days[day] * 10000
     if (time.substring(1,2) == ":") {
@@ -174,16 +174,29 @@ function ider(day, time) {
     return id
 }
 
+function ider_show(title) {
+    var id = title.length
+    words = title.split(" ")
+    id += words.length.toString()
+    id += words[words.length - 1]
+    return id
+}
+
 function shows(Bool) {
     fetch("./shows/shows.json")
         .then(function(resp) {
             return resp.json();
         })
         .then(function(data) {
-            for (show in (Bool) ? data:JSON.parse(localStorage.getItem("shows"))) {
-                var id = "#" + ider(data[show]["day"], data[show]["time"])
+            const shows = JSON.parse(localStorage.getItem("shows"))
+            for (show in (Bool) ? data:shows) {
+                style = ''
+                if (shows != null && show in shows && shows[show]) {
+                    style = ' style="color: green;" '
+                }
+                var id = "#" + ider_slot(data[show]["day"], data[show]["time"])
                 $(id).append('<a href="' + id + '">'
-                    + '<button id="'+ show + '" class="show">'
+                    + '<button id="'+ ider_show(show) + '" class="show"' + style + '>'
                     + show + '</button></a>'
                 )
             }

@@ -21,7 +21,7 @@ $(document).ready(function() {
                     }
                     $(this)[0].innerHTML = "Remove from Your List"
                     $(this)[0].id = "sub"
-                    shows[title] = null
+                    shows[title] = false
                 }
                 else if (shows != null && title in shows) {
                     delete shows[title]
@@ -70,6 +70,15 @@ $(document).ready(function() {
                 if ($("#list")[0].innerHTML == "Full List") {
                     TheBigBang()
                 }
+            })
+            $(".stream").click(function() {
+                var title = $("#title")[0].textContent
+                var shows = JSON.parse(localStorage.getItem("shows"))
+                if (title in shows) {
+                    shows[title] = true
+                    $("#" + ider_show(title)).css({"color": "green"})
+                }
+                localStorage.setItem('shows', JSON.stringify(shows))
             })
         })
 })
