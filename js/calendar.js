@@ -253,31 +253,31 @@ function streamInfo(data, show) {
             streams += '" target="_blank">'
             switch(stream) {
                 case "Crunchyroll":
-                    streams += '<img class="image" src="https://animeschedule.s3.amazonaws.com/production/assets/public/img/logos/crunchyroll-5cbb55eafe.svg">'
+                    streams += '<img class="image" src="assets/crunchyroll.svg">'
                     break;
                 case "Funimation":
-                    streams += '<img class="image" src="https://animeschedule.s3.amazonaws.com/production/assets/public/img/logos/funimation-462779f3a7.svg">'
+                    streams += '<img class="image" src="assets/funimation.svg">'
                     break;
                 case "VRV":
-                    streams += '<img class="image" src="https://animeschedule.s3.amazonaws.com/production/assets/public/img/logos/vrv-bf6ed46045.svg">'
+                    streams += '<img class="image" src="assets/vrv.svg">'
                     break;
                 case "AnimeLab":
-                    streams += '<img class="image" src="https://animeschedule.s3.amazonaws.com/production/assets/public/img/logos/animelab-c94f1496fd.svg">'
+                    streams += '<img class="image" src="assets/animelab.svg">'
                     break;
                 case "Hulu":
-                    streams += '<img class="image" src="https://animeschedule.s3.amazonaws.com/production/assets/public/img/logos/hulu-f98114256c.svg">'
+                    streams += '<img class="image" src="assets/hulu.svg">'
                     break;
                 case "HiDive":
-                    streams += '<img class="image" src="https://animeschedule.s3.amazonaws.com/production/assets/public/img/logos/hidive-52e3526fbf.svg">'
+                    streams += '<img class="image" src="assets/hidive.svg">'
                     break;
                 case "Wakanim":
-                    streams += '<img class="image" src="https://animeschedule.s3.amazonaws.com/production/assets/public/img/logos/wakanim-4c57bba81f.svg">'
+                    streams += '<img class="image" src="assets/wakanim.svg">'
                     break;
                 case "YouTube":
-                    streams += '<img class="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1280px-YouTube_full-color_icon_%282017%29.svg.png">'
+                    streams += '<img class="image" src="assets/youtube.svg">'
                     break;
                 case "Netflix":
-                    streams += '<img class="image" src="https://cdn.animeschedule.net/production/assets/public/img/logos/netflix-e5a2a9907e.svg">'
+                    streams += '<img class="image" src="assets/netflix.svg">'
                     break;
             }
             streams += ' ' + stream + '</a></td>'
@@ -293,7 +293,7 @@ function streamInfo(data, show) {
     $("#content").append('<h3 id="show">'
         + but
         + '<div id="cover"><img src="'
-        + data[show]['cover'] + '" width="300" height="400">'
+        + data[show]['cover'] + '" width="340" height="440">'
         + '</div><div id="streams">'
         + streams + '</div>'
     )

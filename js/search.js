@@ -30,7 +30,7 @@ $(document).ready(function() {
         })
         .then(function(data) {
             $('input').keyup(function(e) {
-                if(e.keyCode == 13)
+                if(e.keyCode == 13 && $(this)[0].value in data)
                 {
                     streamInfo(data, $(this)[0].value)
                 }
