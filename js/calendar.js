@@ -296,15 +296,18 @@ function streamInfo(data, show) {
             streams += ' ' + stream + '</a></td>'
         }
     }
-    var shows = JSON.parse(localStorage.getItem('shows'))
+    const shows = JSON.parse(localStorage.getItem('shows'))
     if (shows == null) {
         shows = {}
     }
-    var but = (show in shows) ?
+    const but = (show in shows) ?
         '<button id="sub" class="setter">Remove from Your List</button>':
         '<button id="add" class="setter">Add to Your List</button>'
+    const reset = (shows[show]) ?
+        '<button id="reset" style="visibility: visible;">Reset</button>':
+        '<button id="reset" style="visibility: hidden;">Reset</button>'
     $("#content").append('<h3 id="show">'
-        + but
+        + but + reset
         + '<div id="cover"><img src="'
         + data[show]['cover'] + '" width="340" height="440">'
         + '</div><div id="streams">'

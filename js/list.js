@@ -77,7 +77,16 @@ $(document).ready(function() {
                 if (title in shows) {
                     shows[title] = true
                     $("#" + ider_show(title)).css({"color": "green"})
+                    $('#reset').css({"visibility": "visible"})
                 }
+                localStorage.setItem('shows', JSON.stringify(shows))
+            })
+            $("#reset").click(function() {
+                var title = $("#title")[0].textContent
+                var shows = JSON.parse(localStorage.getItem("shows"))
+                shows[title] = false
+                $("#" + ider_show(title)).css({"color": "purple"})
+                $($(this)).css({"visibility": "hidden"})
                 localStorage.setItem('shows', JSON.stringify(shows))
             })
         })

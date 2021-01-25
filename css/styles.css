@@ -75,14 +75,16 @@ button:focus {
     padding: .6rem;
 }
 
-.arrow, .show, .stream, .setter, #clear, #list {
+.arrow, .show, .stream, .setter,
+    #clear, #list, #reset {
     background: black;
     border: 2px solid grey;
     border-radius: 20px;
     color: purple;
 }
 
-.show:hover, .arrow:hover, .stream:hover, .setter:hover, #clear:hover, #list:hover {
+.show:hover, .arrow:hover, .stream:hover, .setter:hover,
+    #clear:hover, #list:hover, #reset:hover {
     box-shadow: 0px 0px 25px red;
 }
 
@@ -220,4 +222,9 @@ button:focus {
 
 #search {
     background: #27002b;
+}
+
+#reset {
+    position: absolute;
+    margin: 0rem;
 }
