@@ -13,7 +13,7 @@ with open('fall_2020.yaml', 'r') as f:
 with open('long.yaml', 'r') as f:
     Long = list(yaml.load_all(f))
 
-with open('code.html') as f:
+with open('new.html') as f:
     source = f.readlines()
 
 shows = {}
@@ -26,7 +26,8 @@ with open('shows.json', 'w') as file:
             time = line[28:-8]
         elif 'show-poster' in line and not 'lazy' in line:
             cover = line.split()[1][5:-13]
-            if "nanatsu" in cover:
+            #if "nanatsu" in cover:
+            if "suppose" in cover:
                 cover = cover[0:-4]
         elif 'class="stream-link"' in line and 'title' in line:
             stream = line.split()
@@ -40,7 +41,6 @@ with open('shows.json', 'w') as file:
                     title[1] = "Suppose"
                     title[-1] = "Town?"
                     title = title[1::]
-                    print(title)
             except IndexError:
                 pass
             title = " ".join(title)
