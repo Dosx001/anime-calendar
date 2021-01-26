@@ -21,7 +21,7 @@ $(document).ready(function() {
                     }
                     $(this)[0].innerHTML = "Remove from Your List"
                     $(this)[0].id = "sub"
-                    shows[title] = false
+                    shows[title] = [false, false]
                 }
                 else if (shows != null && title in shows) {
                     delete shows[title]
@@ -75,7 +75,7 @@ $(document).ready(function() {
                 var title = $("#title")[0].textContent
                 var shows = JSON.parse(localStorage.getItem("shows"))
                 if (title in shows) {
-                    shows[title] = true
+                    setter(shows, title, true)
                     $("#" + ider_show(title)).css({"color": "green"})
                     $('#reset').css({"visibility": "visible"})
                 }
@@ -84,7 +84,7 @@ $(document).ready(function() {
             $("#reset").click(function() {
                 var title = $("#title")[0].textContent
                 var shows = JSON.parse(localStorage.getItem("shows"))
-                shows[title] = false
+                setter(shows, title, false)
                 $("#" + ider_show(title)).css({"color": "purple"})
                 $($(this)).css({"visibility": "hidden"})
                 localStorage.setItem('shows', JSON.stringify(shows))
@@ -97,4 +97,13 @@ function minMax(foo, bar) {
         return [foo, bar]
     }
     return [bar, foo]
+}
+
+function setter(shows, title, Bool) {
+    if ($('#left')[0].style[0] == null) {
+        shows[title][0] = Bool
+    }
+    else {
+        shows[title][1] = Bool
+    }
 }

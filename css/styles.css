@@ -228,3 +228,7 @@ button:focus {
     position: absolute;
     margin: 0rem;
 }
+
+#soon {
+    font-size: 5rem;
+}

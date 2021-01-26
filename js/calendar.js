@@ -15,6 +15,7 @@ $(document).ready(function() {
             TheBigBang(-7);
         }
         else {
+            $('#soon').remove();
             $("#right").show();
             $("#left").show();
             TheBigBang();
@@ -23,7 +24,12 @@ $(document).ready(function() {
     $('#right').click(function() {
         if ($("#left")[0].style.display == "") {
             $("#right").hide();
-            TheBigBang(+7);
+            $('#calendar').remove()
+            document.getElementById('month').textContent = "Spring 2021"
+            $('body').append(
+                '<div id="soon" class="content" align="center">'
+                + 'Coming Soon</div>'
+            )
         }
         else {
             $("#right").show();
@@ -54,6 +60,7 @@ $(document).ready(function() {
 })
 
 function TheBigBang(offset) {
+    //console.log(getWeek(offset))
     $('#calendar').remove();
     var file
     var option = localStorage.getItem('option')
@@ -190,8 +197,9 @@ function shows(Bool) {
         .then(function(data) {
             const shows = JSON.parse(localStorage.getItem("shows"))
             for (show in (Bool) ? data:shows) {
-                style = ''
-                if (shows != null && show in shows && shows[show]) {
+                var style = ''
+                if (shows != null && show in shows &&
+                    ($('#left')[0].style[0] == null) ? shows[show][0]:shows[show][1]) {
                     style = ' style="color: green;" '
                 }
                 var id = "#" + ider_slot(data[show]["day"], data[show]["time"])
@@ -303,7 +311,7 @@ function streamInfo(data, show) {
     const but = (show in shows) ?
         '<button id="sub" class="setter">Remove from Your List</button>':
         '<button id="add" class="setter">Add to Your List</button>'
-    const reset = (shows[show]) ?
+    const reset = (($('#left')[0].style[0] == null) ? shows[show][0]:shows[show][1]) ?
         '<button id="reset" style="visibility: visible;">Reset</button>':
         '<button id="reset" style="visibility: hidden;">Reset</button>'
     $("#content").append('<h3 id="show">'
