@@ -90,12 +90,7 @@ function TheBigBang(offset) {
                 compact(data, offset)
             }
             resizeCalendar()
-            if (document.getElementById('list').innerHTML == "Your List") {
-                shows(true)
-            }
-            else {
-                shows(false)
-            }
+            shows()
         })
 }
 
@@ -189,18 +184,18 @@ function ider_show(title) {
     return id
 }
 
-function shows(Bool) {
+function shows() {
     fetch("./shows/shows.json")
         .then(function(resp) {
             return resp.json();
         })
         .then(function(data) {
             const shows = JSON.parse(localStorage.getItem("shows"))
-            for (show in (Bool) ? data:shows) {
+            for (show in (document.getElementById('list').innerHTML == "Your List") ? data:shows) {
                 var style = ''
                 if (shows != null && show in shows &&
-                    ($('#left')[0].style[0] == null) ? shows[show][0]:shows[show][1]) {
-                    style = ' style="color: green;" '
+                    (($('#left')[0].style[0] == null) ? shows[show][0]:shows[show][1])) {
+                        style = ' style="color: green;" '
                 }
                 var id = "#" + ider_slot(data[show]["day"], data[show]["time"])
                 $(id).append('<a href="' + id + '">'
@@ -214,6 +209,9 @@ function shows(Bool) {
 }
 
 function cutoff(times) {
+    if (JSON.parse(localStorage.getItem('shows')) == null) {
+        return times
+    }
     var min = JSON.parse(localStorage.getItem('min'))
     var max = JSON.parse(localStorage.getItem('max'))
     for (const [index, time] of times.entries()){
@@ -236,19 +234,24 @@ function compact(times, offset) {
         .then(function(data) {
             var times_comp = []
             var shows = JSON.parse(localStorage.getItem('shows'))
-            for (time in times) {
-                for (show in shows) {
-                    if (data[show]['time'] == times[time]) {
-                        times_comp.push(times[time])
-                        delete shows[show]
+            if (shows == null) {
+                $("body").append(calendar(getDates(offset), times));
+            }
+            else {
+                for (time in times) {
+                    for (show in shows) {
+                        if (data[show]['time'] == times[time]) {
+                            times_comp.push(times[time])
+                            delete shows[show]
+                            break
+                        }
+                    }
+                    if (shows.length == 0) {
                         break
                     }
                 }
-                if (shows.length == 0) {
-                    break
-                }
+                $("body").append(calendar(getDates(offset), times_comp));
             }
-            $("body").append(calendar(getDates(offset), times_comp));
             resizeCalendar()
         })
 }
@@ -304,16 +307,17 @@ function streamInfo(data, show) {
             streams += ' ' + stream + '</a></td>'
         }
     }
-    const shows = JSON.parse(localStorage.getItem('shows'))
+    var shows = JSON.parse(localStorage.getItem('shows'))
     if (shows == null) {
         shows = {}
     }
     const but = (show in shows) ?
         '<button id="sub" class="setter">Remove from Your List</button>':
         '<button id="add" class="setter">Add to Your List</button>'
-    const reset = (($('#left')[0].style[0] == null) ? shows[show][0]:shows[show][1]) ?
-        '<button id="reset" style="visibility: visible;">Reset</button>':
-        '<button id="reset" style="visibility: hidden;">Reset</button>'
+    var reset = '<button id="reset" style="visibility: hidden;">Reset</button>'
+    if (show in shows && (($('#left')[0].style[0] == null) ? shows[show][0]:shows[show][1])) {
+        reset = '<button id="reset" style="visibility: visible;">Reset</button>'
+    }
     $("#content").append('<h3 id="show">'
         + but + reset
         + '<div id="cover"><img src="'

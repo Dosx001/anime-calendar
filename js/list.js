@@ -25,6 +25,8 @@ $(document).ready(function() {
                 }
                 else if (shows != null && title in shows) {
                     delete shows[title]
+                    console.log($('#reset'))
+                    $('#reset').css({"visibility": "hidden"})
                     if (Object.keys(shows).length == 0) {
                         localStorage.removeItem('min');
                         localStorage.removeItem('max');
