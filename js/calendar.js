@@ -180,7 +180,7 @@ function ider_show(title) {
     var id = title.length
     words = title.split(" ")
     id += words.length.toString()
-    id += words[words.length - 1]
+    id += words[words.length - 1].replace(/\W/g, '')
     return id
 }
 
