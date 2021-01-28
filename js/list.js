@@ -13,6 +13,7 @@ $(document).ready(function() {
                         show = [title, data[title]['time']]
                         localStorage.setItem('min', JSON.stringify(show))
                         localStorage.setItem('max', JSON.stringify(show))
+                        localStorage.setItem('time', JSON.stringify(timestamp()))
                     }
                     else {
                         var show = [title, data[title]['time']]

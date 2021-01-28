@@ -60,8 +60,8 @@ $(document).ready(function() {
 })
 
 function TheBigBang(offset) {
-    //console.log(getWeek(offset))
     $('#calendar').remove();
+    updateTime()
     var file
     var option = localStorage.getItem('option')
     switch(option) {
@@ -233,7 +233,7 @@ function compact(times, offset) {
         })
         .then(function(data) {
             var times_comp = []
-            var shows = JSON.parse(localStorage.getItem('shows'))
+            const shows = JSON.parse(localStorage.getItem('shows'))
             if (shows == null) {
                 $("body").append(calendar(getDates(offset), times));
             }
@@ -308,17 +308,17 @@ function streamInfo(data, show) {
             streams += ' ' + stream + '</a></td>'
         }
     }
-    var shows = JSON.parse(localStorage.getItem('shows'))
+    const shows = JSON.parse(localStorage.getItem('shows'))
     if (shows == null) {
         shows = {}
     }
     const but = (show in shows) ?
         '<button id="sub" class="setter">Remove from Your List</button>':
         '<button id="add" class="setter">Add to Your List</button>'
-    var reset = '<button id="reset" style="visibility: hidden;">Reset</button>'
-    if (show in shows && (($('#left')[0].style[0] == null) ? shows[show][0]:shows[show][1])) {
-        reset = '<button id="reset" style="visibility: visible;">Reset</button>'
-    }
+    const reset = (show in shows && (($('#left')[0].style[0] == null) ?
+        shows[show][0]:shows[show][1])) ?
+        '<button id="reset" style="visibility: visible;">Reset</button>':
+        '<button id="reset" style="visibility: hidden;">Reset</button>'
     $("#content").append('<h3 id="show">'
         + but + reset
         + '<div id="cover"><img src="'
@@ -330,4 +330,30 @@ function streamInfo(data, show) {
     $('#clear').css({"visibility": "visible"})
     $('#list-js').remove()
     $('html').append('<script id="list-js" src="js/list.js"></script>')
+}
+
+function timestamp(offset = 0) {
+    var date = new Date()
+    const year = date.getFullYear()
+    date.setDate(date.getDate() + offset)
+    date.setUTCDate(date.getUTCDate() + 4 - date.getUTCDay() || 7);
+    const week = Math.ceil((((date - new Date(date.getUTCFullYear(), 0, 1)) / 86400000) + 1) / 7)
+    return [week, year]
+}
+
+function updateTime() {
+    var time = JSON.parse(localStorage.getItem("time"))
+    if (time != null) {
+        const now = timestamp()
+        if (time[0] != now[0] || time[1] != now[1]) {
+            localStorage.setItem('time', JSON.stringify(now))
+            var shows = JSON.parse(localStorage.getItem("shows"))
+            if (shows != null) {
+                for (show in shows) {
+                    [shows[show][0], shows[show][1]] = [false, shows[show][0]]
+                }
+                localStorage.setItem('shows', JSON.stringify(shows))
+            }
+        }
+    }
 }
