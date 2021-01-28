@@ -25,7 +25,6 @@ $(document).ready(function() {
                 }
                 else if (shows != null && title in shows) {
                     delete shows[title]
-                    console.log($('#reset'))
                     $('#reset').css({"visibility": "hidden"})
                     if (Object.keys(shows).length == 0) {
                         localStorage.removeItem('min');
@@ -90,6 +89,22 @@ $(document).ready(function() {
                 $("#" + ider_show(title)).css({"color": "purple"})
                 $($(this)).css({"visibility": "hidden"})
                 localStorage.setItem('shows', JSON.stringify(shows))
+            })
+            $(".arrow").on('click.arrow', function() {
+                var show = $("#title")[0]
+                var shows = JSON.parse(localStorage.getItem("shows"))
+                if ($('#right')[0].style[0] != null) {
+                    $('#reset').css({"visibility": "hidden"})
+                }
+                else if (show != null && shows != null && show.textContent in shows) {
+                    show = show.textContent
+                    if (($('#left')[0].style[0] == null) ? shows[show][0]:shows[show][1]) {
+                        $('#reset').css({"visibility": "visible"})
+                    }
+                    else {
+                        $('#reset').css({"visibility": "hidden"})
+                    }
+                }
             })
         })
 })

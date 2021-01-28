@@ -264,6 +264,7 @@ function resizeCalendar() {
 
 function streamInfo(data, show) {
     $("#show").remove()
+    $('.arrow').off('click.arrow')
     var streams = '<table class="table table-hover"><tbody><tr><td id="title">'
         + show + '</td></tr>'
     if (Object.keys(data[show]['streams']) == 0) {
