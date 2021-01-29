@@ -78,7 +78,7 @@ $(document).ready(function() {
                 var shows = JSON.parse(localStorage.getItem("shows"))
                 if (title in shows) {
                     setter(shows, title, true)
-                    $("#" + ider_show(title)).css({"color": "green"})
+                    $("#" + ider_show(title)).css({"color": "#4f4f4f"})
                     $('#reset').css({"visibility": "visible"})
                 }
                 localStorage.setItem('shows', JSON.stringify(shows))

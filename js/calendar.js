@@ -195,7 +195,7 @@ function shows() {
                 var style = ''
                 if (shows != null && show in shows &&
                     (($('#left')[0].style[0] == null) ? shows[show][0]:shows[show][1])) {
-                        style = ' style="color: green;" '
+                        style = ' style="color: #4f4f4f;" '
                 }
                 var id = "#" + ider_slot(data[show]["day"], data[show]["time"])
                 $(id).append('<a href="' + id + '">'
