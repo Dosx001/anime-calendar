@@ -8,7 +8,7 @@ $(document).ready(function() {
                 var title = $("#title")[0].textContent
                 var shows = JSON.parse(localStorage.getItem("shows"))
                 if ($(this)[0].id == "add") {
-                    if (shows == null || Object.keys(shows).length == 0) {
+                    if (Object.keys(shows).length == 0) {
                         shows = {}
                         show = [title, data[title]['time']]
                         localStorage.setItem('min', JSON.stringify(show))

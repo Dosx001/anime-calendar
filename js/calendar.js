@@ -5,6 +5,9 @@ $(function() {
     if (localStorage.getItem('list') != null) {
         document.getElementById('list').innerHTML = localStorage.getItem('list')
     }
+    if (localStorage.getItem('shows') == null) {
+        localStorage.setItem('shows', JSON.stringify({}))
+    }
     TheBigBang();
 })
 
@@ -62,7 +65,6 @@ $(document).ready(function() {
 function TheBigBang(offset) {
     $('#calendar').remove();
     updateTime()
-    var file
     var option = localStorage.getItem('option')
     switch(option) {
         case "1":
@@ -230,24 +232,19 @@ function compact(times, offset) {
         .then(function(data) {
             var times_comp = []
             const shows = JSON.parse(localStorage.getItem('shows'))
-            if (shows == null) {
-                $("body").append(calendar(getDates(offset), times));
-            }
-            else {
-                for (time in times) {
-                    for (show in shows) {
-                        if (data[show]['time'] == times[time]) {
-                            times_comp.push(times[time])
-                            delete shows[show]
-                            break
-                        }
-                    }
-                    if (shows.length == 0) {
+            for (time in times) {
+                for (show in shows) {
+                    if (data[show]['time'] == times[time]) {
+                        times_comp.push(times[time])
+                        delete shows[show]
                         break
                     }
                 }
-                $("body").append(calendar(getDates(offset), times_comp));
+                if (shows.length == 0) {
+                    break
+                }
             }
+            $("body").append(calendar(getDates(offset), times_comp));
             resizeCalendar()
         })
 }
@@ -305,9 +302,6 @@ function streamInfo(data, show) {
         }
     }
     var shows = JSON.parse(localStorage.getItem('shows'))
-    if (shows == null) {
-        shows = {}
-    }
     const but = (show in shows) ?
         '<button id="sub" class="setter">Remove from Your List</button>':
         '<button id="add" class="setter">Add to Your List</button>'
