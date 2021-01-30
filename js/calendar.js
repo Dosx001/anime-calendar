@@ -166,22 +166,16 @@ function ider_slot(day, time) {
     if (time.substring(1,2) == ":") {
         id += parseInt(time.substring(0,1)) * 100
         id += parseInt(time.substring(2,4))
-        id = id.toString() + time.substring(5,6)
+        return id + time.substring(5,6)
     }
-    else {
-        id += parseInt(time.substring(0,2)) * 100
-        id += parseInt(time.substring(3,5))
-        id = id.toString() + time.substring(6,7)
-    }
-    return id
+    id += parseInt(time.substring(0,2)) * 100
+    id += parseInt(time.substring(3,5))
+    return id + time.substring(6,7)
 }
 
 function ider_show(title) {
-    var id = title.length
     words = title.split(" ")
-    id += words.length.toString()
-    id += words[words.length - 1].replace(/\W/g, '')
-    return id
+    return title.length + words.length.toString() + words[words.length - 1].replace(/\W/g, '')
 }
 
 function shows() {
@@ -193,9 +187,11 @@ function shows() {
             const shows = JSON.parse(localStorage.getItem("shows"))
             for (show in (document.getElementById('list').innerHTML == "Your List") ? data:shows) {
                 var style = ''
-                if (shows != null && show in shows &&
-                    (($('#left')[0].style[0] == null) ? shows[show][0]:shows[show][1])) {
-                        style = ' style="color: #4f4f4f;" '
+                if (shows != null && show in shows) {
+                    style = ' style="border-color: #4f004f;" '
+                    if (($('#left')[0].style[0] == null) ? shows[show][0]:shows[show][1]) {
+                        style = ' style="border-color: #4f004f; color: #4f4f4f;" '
+                    }
                 }
                 var id = "#" + ider_slot(data[show]["day"], data[show]["time"])
                 $(id).append('<a href="' + id + '">'
@@ -308,7 +304,7 @@ function streamInfo(data, show) {
             streams += ' ' + stream + '</a></td>'
         }
     }
-    const shows = JSON.parse(localStorage.getItem('shows'))
+    var shows = JSON.parse(localStorage.getItem('shows'))
     if (shows == null) {
         shows = {}
     }

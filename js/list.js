@@ -20,6 +20,7 @@ $(document).ready(function() {
                         localStorage.setItem('min', JSON.stringify(minMax(show, JSON.parse(localStorage.getItem('min')))[0]))
                         localStorage.setItem('max', JSON.stringify(minMax(show, JSON.parse(localStorage.getItem('max')))[1]))
                     }
+                    $('#' + ider_show(title)).css({"border-color": "#4f004f"})
                     $(this)[0].innerHTML = "Remove from Your List"
                     $(this)[0].id = "sub"
                     shows[title] = [false, false]
@@ -65,6 +66,7 @@ $(document).ready(function() {
                             localStorage.setItem('max', JSON.stringify(show))
                         }
                     }
+                    $('#' + ider_show(title)).css({"border-color": "grey", "color": "#4f004f"})
                     $(this)[0].innerHTML = "Add to Your List"
                     $(this)[0].id = "add"
                 }
