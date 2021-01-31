@@ -42,11 +42,11 @@ More coming soon!
 * :white_check_mark: calendar updates when user removes or adds a show
 * :white_check_mark: search bar for shows
 * :white_check_mark: center calendar scrollbar
+* :white_check_mark: record and display users\' watch history
 
 ### High Priority
 
 * :black_square_button: create a daily setting for calendar
-* :black_square_button: record and display users\' watch history
 * :black_square_button: fixed center content
 
 ### Medium Priority

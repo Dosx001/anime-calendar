@@ -26,21 +26,20 @@ with open('shows.json', 'w') as file:
             time = line[28:-8]
         elif 'show-poster' in line and not 'lazy' in line:
             cover = line.split()[1][5:-13]
-            #if "nanatsu" in cover:
-            if "suppose" in cover:
+            if "Tatoeba" in cover:
                 cover = cover[0:-4]
         elif 'class="stream-link"' in line and 'title' in line:
             stream = line.split()
-            streams.update({stream[6][7:-1]:stream[1][6:-1]})
+            if stream[6][7:-1] != "Netflix":
+                streams.update({stream[6][7:-1]:stream[1][6:-1]})
         elif "show-title-bar" in line:
             title = line.split()[1::]
             title[0] = title[0][23::]
             title[-1] = title[-1][0:-5]
             try:
-                if "Suppose" in title[1]:
-                    title[1] = "Suppose"
-                    title[-1] = "Town?"
-                    title = title[1::]
+                if "Tatoeba" in title[1]:
+                    title[1] = "Tatoeba"
+                    title = title[1:-1]
             except IndexError:
                 pass
             title = " ".join(title)
@@ -53,4 +52,4 @@ with open('shows.json', 'w') as file:
             }
             shows.update({parser.unescape(title): content})
             streams = {}
-    json.dump(shows, file, indent=4)
+    json.dump(shows, file, indent = 4)
