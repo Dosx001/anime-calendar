@@ -1,6 +1,4 @@
 $(function() {
-    $("body").append($("<div>").load("nav.html"));
-    $('html').append('<script src="js/search.js"></script>')
     document.getElementById('settings').selectedIndex = parseInt(localStorage.getItem('option'))
     if (localStorage.getItem('list') != null) {
         document.getElementById('list').innerHTML = localStorage.getItem('list')
@@ -9,6 +7,7 @@ $(function() {
         localStorage.setItem('shows', JSON.stringify({}))
     }
     TheBigBang();
+    $('html').append('<script src="js/search.js"></script>')
 })
 
 $(document).ready(function() {
