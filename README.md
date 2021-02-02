@@ -43,6 +43,7 @@ More coming soon!
 * :white_check_mark: search bar for shows
 * :white_check_mark: center calendar scrollbar
 * :white_check_mark: record and display users\' watch history
+* :white_check_mark: Add English titles
 
 ### High Priority
 
@@ -53,7 +54,6 @@ More coming soon!
 
 * :black_square_button: create a aside for \#show
 * :black_square_button: allow users to switch .show buttons between titles and cover art
-* :black_square_button: allow users to switch between Japanese and English titles
 * :black_square_button: standardize .slot size
 
 ### Low Priority
