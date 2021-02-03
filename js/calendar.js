@@ -321,28 +321,30 @@ function streamInfo(data, show) {
     $('html').append('<script id="list-js" src="js/list.js"></script>')
 }
 
-function timestamp(offset = 0) {
-    var date = new Date()
-    const year = date.getFullYear()
-    date.setDate(date.getDate() + offset)
-    date.setUTCDate(date.getUTCDate() + 4 - date.getUTCDay() || 7);
-    const week = Math.ceil((((date - new Date(date.getUTCFullYear(), 0, 1)) / 86400000) + 1) / 7)
-    return [week, year]
+Date.prototype.getWeek = function(){
+    const date = new Date(Date.UTC(this.getFullYear(), this.getMonth(), this.getDate()))
+    date.setDate(date.getDate() - (date.getDay() || 7));
+    return Math.ceil((((date - new Date(date.getFullYear(), 0, 1)) / 86400000) + 1) / 7)
 }
 
 function updateTime() {
-    var time = JSON.parse(localStorage.getItem("time"))
+    const time = JSON.parse(localStorage.getItem("time"))
     if (time != null) {
-        const now = timestamp()
-        if (time[0] != now[0] || time[1] != now[1]) {
-            localStorage.setItem('time', JSON.stringify(now))
-            var shows = JSON.parse(localStorage.getItem("shows"))
-            if (shows != null) {
-                for (show in shows) {
-                    [shows[show][0], shows[show][1]] = [false, shows[show][0]]
-                }
-                localStorage.setItem('shows', JSON.stringify(shows))
+        var shows = JSON.parse(localStorage.getItem("shows"))
+        var now = new Date()
+        now = [now.getWeek(), now.getFullYear()]
+        if ((now[0] - time[0] == 1 && now[1] == time[1]) ||
+            (now[1] - time[1] == 1 && now[0] == 52)) {
+            for (show in shows) {
+                [shows[show][0], shows[show][1]] = [false, shows[show][0]]
             }
         }
+        else if (now[0] != time[0] || now[1] != time[1]) {
+            for (show in shows) {
+                [shows[show][0], shows[show][1]] = [false, false]
+            }
+        }
+        localStorage.setItem('time', JSON.stringify(now))
+        localStorage.setItem('shows', JSON.stringify(shows))
     }
 }

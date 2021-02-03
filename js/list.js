@@ -13,7 +13,8 @@ $(document).ready(function() {
                         show = [title, data[title]['time']]
                         localStorage.setItem('min', JSON.stringify(show))
                         localStorage.setItem('max', JSON.stringify(show))
-                        localStorage.setItem('time', JSON.stringify(timestamp()))
+                        const now = new Date()
+                        localStorage.setItem('time', JSON.stringify([now.getWeek, now.getFullYear]))
                     }
                     else {
                         var show = [title, data[title]['time']]
