@@ -8,7 +8,15 @@ $(document).ready(function() {
                 if ($("#cover").length == 1) {
                     e.preventDefault();
                 }
-                streamInfo(data, $(this)[0].innerText)
+                if (localStorage.getItem('info') == "0") {
+                    streamInfo(data, $(this)[0].innerText)
+                }
+                else {
+                    console.log(1)
+                }
             })
-    })
+            $('#info').change(function() {
+                localStorage.setItem('info', $(this)[0].value)
+            })
+        })
 })

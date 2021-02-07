@@ -37,29 +37,40 @@
             </div>
         </div>
     </nav>
+    <div id="settings" align="center">
+      <div id="settings-title">Settings</div>
+      <div class="input-group" align="center">
+        <div class="input-group-prepend">
+          <label class="input-group-text" for="format">Format</label>
+        </div>
+        <select class="custom-select" id="format">
+          <option value="0">Calendar - Full</option>
+          <option value="1">Calendar - Cutoff</option>
+          <option value="2">Calendar - Compact</option>
+          <option value="3">Daily</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <label class="input-group-text" for="info">Stream Info</label>
+        </div>
+        <select class="custom-select" id="info">
+          <option value="0">Full</option>
+          <option value="1">Compact</option>
+        </select>
+      </div>
+    </div>
     <div class="container">
       <div id="content"></div>
       <div class="row" id="center">
-        <div class="col-7">
+        <div class="col-9">
           <button type="button" class="arrow" id="left"> &#9665; </button>
           <text id="month"></text>
           <button type="button" class="arrow" id="right"> &#9655; </button>
         </div>
         <button id="clear" class="col-1">Clear</button>
+        &emsp;
         <button id="list" class="col-1">Your List</button>
-        <div class="col-3" id="input">
-          <div class="input-group">
-            <div class="input-group-prepend">
-              <label class="input-group-text" for="settings">Settings</label>
-            </div>
-            <select class="custom-select" id="settings">
-              <option value="0">Calendar - Full</option>
-              <option value="1">Calendar - Cutoff</option>
-              <option value="2">Calendar - Compact</option>
-              <option value="3">Daily</option>
-            </select>
-          </div>
-        </div>
       </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

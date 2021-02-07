@@ -46,6 +46,7 @@ button:focus {
         url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E")
         no-repeat right .75rem center;
     background-size: 8px 10px;
+    color: purple;
 }
 
 /* jQuery UI */
@@ -151,9 +152,19 @@ button:focus {
     color: purple;
 }
 
-#input {
-    position: relative;
-    bottom: -1rem;
+#settings {
+    position: absolute;
+    width: 17%;
+    margin-top: 4rem;
+}
+
+#settings .input-group {
+    padding-bottom: .2rem;
+    width: 90%;
+}
+
+#settings-title {
+    font-size: 2rem;
 }
 
 #month {

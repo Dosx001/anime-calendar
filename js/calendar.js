@@ -1,5 +1,5 @@
 $(function() {
-    document.getElementById('settings').selectedIndex = parseInt(localStorage.getItem('option'))
+    document.getElementById('format').selectedIndex = parseInt(localStorage.getItem('option'))
     if (localStorage.getItem('list') != null) {
         document.getElementById('list').innerHTML = localStorage.getItem('list')
     }
@@ -39,8 +39,8 @@ $(document).ready(function() {
             TheBigBang();
         }
     })
-    $('select').change(function() {
-        localStorage.setItem('option', $(this)[0].value)
+    $('#format').change(function() {
+        localStorage.setItem('format', $(this)[0].value)
         TheBigBang();
     })
     $("#clear").click(function() {
