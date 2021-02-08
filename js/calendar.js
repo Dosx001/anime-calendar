@@ -270,31 +270,31 @@ function streamInfo(data, show) {
             streams += '" target="_blank">'
             switch(stream) {
                 case "Crunchyroll":
-                    streams += '<img class="image" src="assets/crunchyroll.svg">'
+                    streams += '<img class="icon" src="assets/crunchyroll.svg">'
                     break;
                 case "Funimation":
-                    streams += '<img class="image" src="assets/funimation.svg">'
+                    streams += '<img class="icon" src="assets/funimation.svg">'
                     break;
                 case "VRV":
-                    streams += '<img class="image" src="assets/vrv.svg">'
+                    streams += '<img class="icon" src="assets/vrv.svg">'
                     break;
                 case "AnimeLab":
-                    streams += '<img class="image" src="assets/animelab.svg">'
+                    streams += '<img class="icon" src="assets/animelab.svg">'
                     break;
                 case "Hulu":
-                    streams += '<img class="image" src="assets/hulu.svg">'
+                    streams += '<img class="icon" src="assets/hulu.svg">'
                     break;
                 case "HiDive":
-                    streams += '<img class="image" src="assets/hidive.svg">'
+                    streams += '<img class="icon" src="assets/hidive.svg">'
                     break;
                 case "Wakanim":
-                    streams += '<img class="image" src="assets/wakanim.svg">'
+                    streams += '<img class="icon" src="assets/wakanim.svg">'
                     break;
                 case "YouTube":
-                    streams += '<img class="image" src="assets/youtube.svg">'
+                    streams += '<img class="icon" src="assets/youtube.svg">'
                     break;
                 case "Netflix":
-                    streams += '<img class="image" src="assets/netflix.svg">'
+                    streams += '<img class="icon" src="assets/netflix.svg">'
                     break;
             }
             streams += ' ' + stream + '</a></td>'

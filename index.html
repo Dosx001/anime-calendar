@@ -37,28 +37,30 @@
             </div>
         </div>
     </nav>
-    <div id="settings" align="center">
-      <div id="settings-title">Settings</div>
-      <div class="input-group" align="center">
-        <div class="input-group-prepend">
-          <label class="input-group-text" for="format">Format</label>
+    <div align="center">
+      <aside>
+        <div id="settings-title">Settings</div>
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <label class="input-group-text" for="format">Format</label>
+          </div>
+          <select class="custom-select" id="format">
+            <option value="0">Calendar - Full</option>
+            <option value="1">Calendar - Cutoff</option>
+            <option value="2">Calendar - Compact</option>
+            <option value="3">Daily</option>
+          </select>
         </div>
-        <select class="custom-select" id="format">
-          <option value="0">Calendar - Full</option>
-          <option value="1">Calendar - Cutoff</option>
-          <option value="2">Calendar - Compact</option>
-          <option value="3">Daily</option>
-        </select>
-      </div>
-      <div class="input-group">
-        <div class="input-group-prepend">
-          <label class="input-group-text" for="info">Stream Info</label>
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <label class="input-group-text" for="info">Stream Info</label>
+          </div>
+          <select class="custom-select" id="info">
+            <option value="0">Top View</option>
+            <option value="1">Side View</option>
+          </select>
         </div>
-        <select class="custom-select" id="info">
-          <option value="0">Full</option>
-          <option value="1">Compact</option>
-        </select>
-      </div>
+      </aside>
     </div>
     <div class="container">
       <div id="content"></div>
