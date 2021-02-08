@@ -43,7 +43,16 @@ aside button, aside a {
     font-size: 1.5rem;
 }
 
+aside #title{
+    line-height: 2rem;
+}
+
 /* Bootstrap */
+aside .input-group {
+    padding-bottom: .2rem;
+    width: 90%;
+}
+
 .input-group-text {
     background-color: black;
     color: darkgrey;
@@ -57,6 +66,7 @@ aside button, aside a {
         no-repeat right .75rem center;
     background-size: 8px 10px;
     color: purple;
+    border: 1px solid darkgrey;
 }
 
 /* jQuery UI */
@@ -83,10 +93,11 @@ aside button, aside a {
 
 /* Anime Calendar */
 .table td, .table th {
+    border-top: 1px solid darkgrey;
     padding: .6rem;
 }
 
-.arrow, .show, .stream, .setter, .setter-aside,
+.arrow, .show, .stream, .setter,
     #clear, #list, #reset {
     background: black;
     border: 2px solid grey;
@@ -94,7 +105,7 @@ aside button, aside a {
     color: purple;
 }
 
-.show:hover, .arrow:hover, .stream:hover, .setter:hover, .setter-aside:hover,
+.show:hover, .arrow:hover, .stream:hover, .setter:hover,
     #clear:hover, #list:hover, #reset:hover {
     box-shadow: 0px 0px 25px red;
 }
@@ -133,21 +144,7 @@ aside button, aside a {
 
 .icon {
     border-radius: 20%;
-    height: 2rem;
-    width: 2rem;
     margin-top: -.5rem;
-}
-
-.icon-compact {
-    height: 1.5rem;
-    width: 1.5rem;
-    margin-top: -.5rem;
-}
-
-.setter {
-    position: absolute;
-    margin-top: 24rem;
-    padding: 2px 10px;
 }
 
 .alert {
@@ -172,15 +169,6 @@ aside button, aside a {
     position: absolute;
     width: 17%;
     margin-top: 4rem;
-}
-
-aside .input-group {
-    padding-bottom: .2rem;
-    width: 90%;
-}
-
-#settings-title {
-    font-size: 2rem;
 }
 
 #month {
@@ -239,21 +227,8 @@ aside .input-group {
     color: purple;
 }
 
-#add {
-    margin-left: 4rem;
-}
-
-#sub {
-    margin-left: 1rem;
-}
-
 #search {
     background: #27002b;
-}
-
-#reset {
-    position: absolute;
-    margin: 0rem;
 }
 
 #soon {
@@ -265,8 +240,4 @@ aside .input-group {
     width: 17%;
     font-size: 2rem;
     line-height: 2.5rem;
-}
-
-aside #title{
-    line-height: 2rem;
 }

@@ -1,5 +1,5 @@
 $(function() {
-    document.getElementById('format').selectedIndex = parseInt(localStorage.getItem('option'))
+    document.getElementById('format').selectedIndex = parseInt(localStorage.getItem('format'))
     if (localStorage.getItem('list') != null) {
         document.getElementById('list').innerHTML = localStorage.getItem('list')
     }
@@ -249,8 +249,11 @@ function compact(times, offset) {
 }
 
 function resizeCalendar() {
-    if (Object.keys($("#show")) != 0) {
+    if (Object.keys($("#show")) != 0 && localStorage.getItem('info') == "0") {
         $('#calendar').css({"height": "25rem"})
+    }
+    else {
+        $('#calendar').css({"height": "50rem"})
     }
 }
 
@@ -308,14 +311,30 @@ function streamInfo(data, show) {
         shows[show][0]:shows[show][1])) ?
         '<button id="reset" style="visibility: visible;">Reset</button>':
         '<button id="reset" style="visibility: hidden;">Reset</button>'
-    $("#content").append('<h3 id="show">'
-        + but + reset
-        + '<div id="cover"><img src="'
-        + data[show]['cover'] + '" width="340" height="440">'
-        + '</div><div id="streams">'
-        + streams + '</div>'
-    )
-    $('#calendar').css({"height": "25rem"})
+    if (localStorage.getItem('info') == "0") {
+        $("#content").append('<h3 id="show">'
+            + but + reset
+            + '<div id="cover"><img src="'
+            + data[show]['cover'] + '" width="340" height="440">'
+            + '</div><div id="streams">'
+            + streams + '</div>'
+        )
+        $('#reset').css({"position": "absolute"})
+        $('#add').css({"margin-left": "4rem"})
+        $('#sub').css({"margin-left": "1rem"})
+        $('.icon').css({"height": "2rem", "width": "2rem"})
+        $('.setter').css({"margin-top": "24rem", "position": "absolute", "padding": "2px 10px"})
+    }
+    else {
+        $("#content").append('<aside id="show"><h2>'
+            + streams
+            + '</h2>'
+            + '</aside>'
+        )
+        $('#show').append(but + reset)
+        $('.icon').css({"height": "1.5rem", "width": "1.5rem"})
+    }
+    resizeCalendar()
     $('#clear').css({"visibility": "visible"})
     $('#list-js').remove()
     $('html').append('<script id="list-js" src="js/list.js"></script>')
