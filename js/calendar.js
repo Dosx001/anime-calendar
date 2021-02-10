@@ -1,5 +1,6 @@
 $(function() {
     document.getElementById('format').selectedIndex = parseInt(localStorage.getItem('format'))
+    document.getElementById('info').selectedIndex = parseInt(localStorage.getItem('info'))
     if (localStorage.getItem('list') != null) {
         document.getElementById('list').innerHTML = localStorage.getItem('list')
     }
@@ -206,9 +207,6 @@ function shows() {
 }
 
 function cutoff(times) {
-    if (JSON.parse(localStorage.getItem('shows')) == null) {
-        return times
-    }
     var min = JSON.parse(localStorage.getItem('min'))
     var max = JSON.parse(localStorage.getItem('max'))
     for (const [index, time] of times.entries()){
@@ -312,6 +310,7 @@ function streamInfo(data, show) {
         '<button id="reset" style="visibility: visible;">Reset</button>':
         '<button id="reset" style="visibility: hidden;">Reset</button>'
     switch(localStorage.getItem('info')) {
+        case null:
         case "0":
             $("#content").append('<h3 id="show">'
                 + but + reset
@@ -330,7 +329,7 @@ function streamInfo(data, show) {
             $('#show').append(but + reset)
             break;
         case "2":
-            $("#content").append('<h3 id="show" class="window">'
+            $("#content").append('<h3 id="show" class="window container">'
                 + but + reset
                 + '<div id="cover"><img src="'
                 + data[show].cover + '" width="340" height="440">'
@@ -340,11 +339,10 @@ function streamInfo(data, show) {
             break;
     }
     switch(localStorage.getItem('info')) {
+        case null:
         case "2":
         case "0":
             $('#reset').css({"position": "absolute"})
-            $('#add').css({"margin-left": "4rem"})
-            $('#sub').css({"margin-left": "1rem"})
             $('.icon').css({"height": "2rem", "width": "2rem"})
             $('.setter').css({"margin-top": "24rem", "position": "absolute", "padding": "2px 10px"})
             break;

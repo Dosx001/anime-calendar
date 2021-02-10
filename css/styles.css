@@ -223,6 +223,14 @@ aside .input-group {
     width: 68%;
 }
 
+#add {
+    margin-left: 4rem;
+}
+
+#sub {
+    margin-left: 1rem;
+}
+
 #cry {
     width: 15rem;
     height: 15rem;
