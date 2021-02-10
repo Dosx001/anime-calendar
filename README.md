@@ -4,23 +4,40 @@ Anime Calendar is a website that allows users to create their own custom calenda
 # Table of Contents
 * [Features](#features)
 * [To-Do List](#to-do-list)
-    * [Done](#done)
     * [High Priority](#high-priority)
     * [Medium Priority](#medium-priority)
     * [Low Priority](#low-priority)
+    * [Done](#done)
 * [Bugs](#bugs)
+    * [Investigating](#investigating)
     * [Fixed](#fixed)
-    * [Investigating](#invest)
 
 # Features
 More coming soon!
 <p align="center">
-    <a href="https://dosx001.github.io/anime-calendar/">dosx001.github.io/anime-calendar</a>
+    <a href="https://animecalendar.github.io/">AnimeCalendar.github.io</a>
 </p>
 
 ![pity counter](https://i.imgur.com/Q6auM0V.png)
 
 # To-Do List
+
+### High Priority
+
+* :black_square_button: create a window option for streamInfo()
+* :black_square_button: create a daily setting for calendar
+* :black_square_button: fixed center content
+
+### Medium Priority
+
+* :black_square_button: allow users to switch between English and Romaji titles
+* :black_square_button: allow users to switch .show buttons between titles and cover art
+* :black_square_button: standardize .slot size
+
+### Low Priority
+
+* :black_square_button: connect to Google Calendar API to push notifications to user
+* :black_square_button: connect to Google Drive API to save user custom list on the cloud
 
 ### Done
 
@@ -44,24 +61,13 @@ More coming soon!
 * :white_check_mark: center calendar scrollbar
 * :white_check_mark: record and display users\' watch history
 * :white_check_mark: Add English titles
-
-### High Priority
-
-* :black_square_button: create a daily setting for calendar
-* :black_square_button: fixed center content
-
-### Medium Priority
-
-* :black_square_button: create a aside for \#show
-* :black_square_button: allow users to switch .show buttons between titles and cover art
-* :black_square_button: standardize .slot size
-
-### Low Priority
-
-* :black_square_button: connect to Google Calendar API to push notifications to user
-* :black_square_button: connect to Google Drive API to save user custom list on the cloud
+* :white_check_mark: create a aside for \#show
 
 # Bugs
+
+### Investigating
+
+* :black_square_button: When user removes a show from thier list font color turns dark
 
 ### Fixed
 
@@ -82,7 +88,3 @@ More coming soon!
     * Resize calendar inside Compact()\'s fetch promise
 * :white_check_mark: Some shows don\'t have their correct streams & some shows\' steam urls have some mistakes
     * Tweaked json_generator.py
-
-### Investigating
-
-* No bugs!!! For now...

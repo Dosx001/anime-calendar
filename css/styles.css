@@ -49,7 +49,7 @@ aside #title{
 
 /* Bootstrap */
 aside .input-group {
-    padding-bottom: .2rem;
+    padding-bottom: .5rem;
     width: 90%;
 }
 
@@ -147,6 +147,17 @@ aside .input-group {
     margin-top: -.5rem;
 }
 
+.window {
+    z-index: 1;
+    position: absolute;
+    background: black;
+    width: 67%;
+    border: 2px solid purple;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 7rem;
+}
+
 .alert {
     position: absolute;
     color: gray;
@@ -209,7 +220,7 @@ aside .input-group {
 #streams {
     float: right;
     display: inline-block;
-    width: 69%;
+    width: 68%;
 }
 
 #cry {

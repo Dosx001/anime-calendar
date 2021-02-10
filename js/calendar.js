@@ -64,7 +64,7 @@ $(document).ready(function() {
 function TheBigBang(offset) {
     $('#calendar').remove();
     updateTime()
-    var option = localStorage.getItem('option')
+    var option = localStorage.getItem('format')
     switch(option) {
         case "1":
             file = "./shows/cutoff.json"
@@ -194,7 +194,7 @@ function shows() {
                         style = ' style="border-color: #4f004f; color: #4f4f4f;" '
                     }
                 }
-                var id = "#" + ider_slot(data[show]["day"], data[show]["time"])
+                var id = "#" + ider_slot(data[show].day, data[show].time)
                 $(id).append('<a href="' + id + '">'
                     + '<button id="'+ ider_show(show) + '" class="show"' + style + '>'
                     + show + '</button></a>'
@@ -233,7 +233,7 @@ function compact(times, offset) {
             const shows = JSON.parse(localStorage.getItem('shows'))
             for (time in times) {
                 for (show in shows) {
-                    if (data[show]['time'] == times[time]) {
+                    if (data[show].time == times[time]) {
                         times_comp.push(times[time])
                         delete shows[show]
                         break
@@ -262,14 +262,14 @@ function streamInfo(data, show) {
     $('.arrow').off('click.arrow')
     var streams = '<table class="table table-hover"><tbody><tr><td id="title">'
         + show + '</td></tr>'
-    if (Object.keys(data[show]['streams']) == 0) {
+    if (Object.keys(data[show].streams) == 0) {
         streams += '<tr><td>Streams not available</td></tr><tr><td>'
             + '<img id="cry"src="https://giffiles.alphacoders.com/349/34979.gif"></td></tr>'
     }
     else {
-        for (stream in data[show]['streams']) {
+        for (stream in data[show].streams) {
             streams += '<tr><td><a class="stream" href="'
-            streams += data[show]['streams'][stream]
+            streams += data[show].streams[stream]
             streams += '" target="_blank">'
             switch(stream) {
                 case "Crunchyroll":
@@ -311,28 +311,46 @@ function streamInfo(data, show) {
         shows[show][0]:shows[show][1])) ?
         '<button id="reset" style="visibility: visible;">Reset</button>':
         '<button id="reset" style="visibility: hidden;">Reset</button>'
-    if (localStorage.getItem('info') == "0") {
-        $("#content").append('<h3 id="show">'
-            + but + reset
-            + '<div id="cover"><img src="'
-            + data[show]['cover'] + '" width="340" height="440">'
-            + '</div><div id="streams">'
-            + streams + '</div>'
-        )
-        $('#reset').css({"position": "absolute"})
-        $('#add').css({"margin-left": "4rem"})
-        $('#sub').css({"margin-left": "1rem"})
-        $('.icon').css({"height": "2rem", "width": "2rem"})
-        $('.setter').css({"margin-top": "24rem", "position": "absolute", "padding": "2px 10px"})
+    switch(localStorage.getItem('info')) {
+        case "0":
+            $("#content").append('<h3 id="show">'
+                + but + reset
+                + '<div id="cover"><img src="'
+                + data[show].cover + '" width="340" height="440">'
+                + '</div><div id="streams">'
+                + streams + '</div>'
+            )
+            break;
+        case "1":
+            $("#content").append('<aside id="show"><h2>'
+                + streams
+                + '</h2>'
+                + '</aside>'
+            )
+            $('#show').append(but + reset)
+            break;
+        case "2":
+            $("#content").append('<h3 id="show" class="window">'
+                + but + reset
+                + '<div id="cover"><img src="'
+                + data[show].cover + '" width="340" height="440">'
+                + '</div><div id="streams">'
+                + streams + '</div>'
+            )
+            break;
     }
-    else {
-        $("#content").append('<aside id="show"><h2>'
-            + streams
-            + '</h2>'
-            + '</aside>'
-        )
-        $('#show').append(but + reset)
-        $('.icon').css({"height": "1.5rem", "width": "1.5rem"})
+    switch(localStorage.getItem('info')) {
+        case "2":
+        case "0":
+            $('#reset').css({"position": "absolute"})
+            $('#add').css({"margin-left": "4rem"})
+            $('#sub').css({"margin-left": "1rem"})
+            $('.icon').css({"height": "2rem", "width": "2rem"})
+            $('.setter').css({"margin-top": "24rem", "position": "absolute", "padding": "2px 10px"})
+            break;
+        case "1":
+            $('.icon').css({"height": "1.5rem", "width": "1.5rem"})
+            break;
     }
     resizeCalendar()
     $('#clear').css({"visibility": "visible"})
