@@ -17,7 +17,9 @@ $(document).ready(function() {
             })
             $('#info').change(function() {
                 localStorage.setItem('info', $(this)[0].value)
-                streamInfo(data, $('#title')[0].innerText)
+                if ($('#title')[0] != null) {
+                    streamInfo(data, $('#title')[0].innerText)
+                }
             })
         })
 })

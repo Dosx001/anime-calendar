@@ -24,7 +24,6 @@ More coming soon!
 
 ### High Priority
 
-* :black_square_button: create hotkeys
 * :black_square_button: create a daily setting for calendar
 * :black_square_button: fixed center content
 
@@ -41,6 +40,7 @@ More coming soon!
 
 ### Done
 
+* :white_check_mark: create hotkeys
 * :white_check_mark: create a window option for streamInfo()
 * :white_check_mark: create a aside for \#show
 * :white_check_mark: Add English titles

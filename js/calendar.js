@@ -13,54 +13,100 @@ $(function() {
 
 $(document).ready(function() {
     $('#left').click(function() {
-        if ($("#right")[0].style.display == "") {
-            $("#left").hide();
-            TheBigBang(-7);
-        }
-        else {
-            $('#soon').remove();
-            $("#right").show();
-            $("#left").show();
-            TheBigBang();
-        }
+        left()
     })
     $('#right').click(function() {
-        if ($("#left")[0].style.display == "") {
-            $("#right").hide();
-            $('#calendar').remove()
-            document.getElementById('month').textContent = "Spring 2021"
-            $('body').append(
-                '<div id="soon" class="content" align="center">'
-                + 'Coming Soon</div>'
-            )
-        }
-        else {
-            $("#right").show();
-            $("#left").show();
-            TheBigBang();
-        }
+        right()
     })
     $('#format').change(function() {
         localStorage.setItem('format', $(this)[0].value)
         TheBigBang();
     })
     $("#clear").click(function() {
-        $('#clear').css({"visibility": "hidden"})
-        $("#show").remove()
-        $('#calendar').css({"height": "50rem"})
+        clear()
     })
     $("#list").click(function() {
-        if ($(this)[0].innerHTML == "Full List") {
-            $(this)[0].innerHTML = "Your List"
-            localStorage.setItem('list', "Your List")
+        list()
+    })
+    $('body').keyup(function(e) {
+        if (e.target.id != 'search') {
+            switch(e.keyCode) {
+                case 67:
+                    clear()
+                    break;
+                case 70:
+                    $('#format').focus()
+                    break;
+                case 73:
+                    $('#info').focus()
+                    break;
+                case 76:
+                    list()
+                    break;
+                case 77:
+                    $('#calendar').focus()
+                    break;
+                case 78:
+                    right()
+                    break;
+                case 80:
+                    left()
+                    break;
+                case 83:
+                    $('#search').focus()
+                    break;
+            }
         }
-        else {
-            $(this)[0].innerHTML = "Full List"
-            localStorage.setItem('list', "Full List")
-        }
-        TheBigBang();
     })
 })
+
+function clear() {
+    $('#clear').css({"visibility": "hidden"})
+    $("#show").remove()
+    $('#calendar').css({"height": "50rem"})
+}
+
+function list() {
+    if ($('#list')[0].innerHTML == "Full List") {
+        $('#list')[0].innerHTML = "Your List"
+        localStorage.setItem('list', "Your List")
+    }
+    else {
+        $('#list')[0].innerHTML = "Full List"
+        localStorage.setItem('list', "Full List")
+    }
+    TheBigBang();
+}
+
+function left() {
+    if ($("#right")[0].style.display == "") {
+        $("#left").hide();
+        TheBigBang(-7);
+    }
+    else {
+        $('#soon').remove();
+        $("#right").show();
+        $("#left").show();
+        TheBigBang();
+    }
+}
+
+function right() {
+    if ($("#left")[0].style.display == "") {
+        $("#right").hide();
+        $('#calendar').remove()
+        document.getElementById('month').textContent = "Spring 2021"
+        $('body').append(
+            '<div id="soon" class="content" align="center">'
+            + 'Coming Soon</div>'
+        )
+    }
+    else {
+        $("#right").show();
+        $("#left").show();
+        TheBigBang();
+    }
+}
 
 function TheBigBang(offset) {
     $('#calendar').remove();
@@ -100,8 +146,8 @@ function calendar(dates, times) {
     var calendar = '<div id="calendar"><table>'
         + '<thead><tr><td class="date"></th>'
     dates.forEach(async function(date) {
-            calendar += '<td class="date">' + date.getDate() + ' '
-            calendar += date.toLocaleDateString("en-US",{ weekday: 'long' }) + '</td>'
+        calendar += '<td class="date">' + date.getDate() + ' '
+        calendar += date.toLocaleDateString("en-US",{ weekday: 'long' }) + '</td>'
     })
     calendar += '</tr></thead><tbody>'
     times.forEach(async function(time) {
@@ -258,6 +304,7 @@ function resizeCalendar() {
 function streamInfo(data, show) {
     $("#show").remove()
     $('.arrow').off('click.arrow')
+    $('body').off('keyup.list')
     var streams = '<table class="table table-hover"><tbody><tr><td id="title">'
         + show + '</td></tr>'
     if (Object.keys(data[show].streams) == 0) {
@@ -265,10 +312,15 @@ function streamInfo(data, show) {
             + '<img id="cry"src="https://giffiles.alphacoders.com/349/34979.gif"></td></tr>'
     }
     else {
-        for (stream in data[show].streams) {
-            streams += '<tr><td><a class="stream" href="'
-            streams += data[show].streams[stream]
-            streams += '" target="_blank">'
+        for (const [index, [stream, link]] of Object.entries(Object.entries(data[show].streams))) {
+            const num = parseInt(index) + 1
+            streams += '<tr><td>'
+                + num
+                + ' <a id="'
+                + index
+                + '"class="stream" href="'
+                + link
+                + '" target="_blank">'
             switch(stream) {
                 case "Crunchyroll":
                     streams += '<img class="icon" src="assets/crunchyroll.svg">'
