@@ -44,10 +44,14 @@ $(document).ready(function() {
         $('#calendar').focus()
     });
     Mousetrap.bind('n', function() {
-        right()
+        if ($("#right")[0].style.display == "") {
+            right()
+        }
     });
     Mousetrap.bind('p', function() {
-        left()
+        if ($("#left")[0].style.display == "") {
+            left()
+        }
     });
     Mousetrap.bind('s', function() {
         $('#search').focus()
