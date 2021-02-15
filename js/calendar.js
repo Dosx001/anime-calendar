@@ -57,7 +57,7 @@ $(document).ready(function() {
         $('#search').focus()
     });
     $('body').keyup(function(e) {
-        if (e.keyCode == 13) {
+        if (e.keyCode == 13 && e.target.localName == "select") {
             e.target.blur()
         }
     })
