@@ -29,7 +29,6 @@ $(document).ready(function() {
                 {
                     streamInfo(data, $(this)[0].value)
                     $(this)[0].value = ""
-                    $(this).blur()
                 }
             })
         });

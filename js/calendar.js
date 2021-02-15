@@ -28,34 +28,33 @@ $(document).ready(function() {
     $("#list").click(function() {
         list()
     })
+    Mousetrap.bind('f', function() {
+        $('#format').focus()
+    });
+    Mousetrap.bind('i', function() {
+        $('#info').focus()
+    });
+    Mousetrap.bind('c', function() {
+        clear()
+    });
+    Mousetrap.bind('l', function() {
+        list()
+    });
+    Mousetrap.bind('m', function() {
+        $('#calendar').focus()
+    });
+    Mousetrap.bind('n', function() {
+        right()
+    });
+    Mousetrap.bind('p', function() {
+        left()
+    });
+    Mousetrap.bind('s', function() {
+        $('#search').focus()
+    });
     $('body').keyup(function(e) {
-        if (e.target.id != 'search') {
-            switch(e.keyCode) {
-                case 67:
-                    clear()
-                    break;
-                case 70:
-                    $('#format').focus()
-                    break;
-                case 73:
-                    $('#info').focus()
-                    break;
-                case 76:
-                    list()
-                    break;
-                case 77:
-                    $('#calendar').focus()
-                    break;
-                case 78:
-                    right()
-                    break;
-                case 80:
-                    left()
-                    break;
-                case 83:
-                    $('#search').focus()
-                    break;
-            }
+        if (e.keyCode == 13) {
+            e.target.blur()
         }
     })
 })
@@ -304,7 +303,6 @@ function resizeCalendar() {
 function streamInfo(data, show) {
     $("#show").remove()
     $('.arrow').off('click.arrow')
-    $('body').off('keyup.list')
     var streams = '<table class="table table-hover"><tbody><tr><td id="title">'
         + show + '</td></tr>'
     if (Object.keys(data[show].streams) == 0) {

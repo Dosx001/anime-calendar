@@ -7,62 +7,9 @@ $(document).ready(function() {
             $(".setter").click(function() {
                 setter(data)
             })
-            $('body').on('keyup.list', function(e) {
-                if (e.target.id != 'search') {
-                    switch(e.keyCode) {
-                        case 49:
-                        case 97:
-                            link('#0')
-                            break;
-                        case 50:
-                        case 98:
-                            link('#1')
-                            break;
-                        case 51:
-                        case 99:
-                            link('#2')
-                            break;
-                        case 52:
-                        case 100:
-                            link('#3')
-                            break;
-                        case 53:
-                        case 101:
-                            link('#4')
-                            break;
-                        case 54:
-                        case 102:
-                            link('#5')
-                            break;
-                        case 55:
-                        case 103:
-                            link('#6')
-                            break;
-                        case 56:
-                        case 104:
-                            link('#7')
-                            break;
-                        case 57:
-                        case 105:
-                            link('#8')
-                            break;
-                        case 58:
-                        case 106:
-                            link('#9')
-                            break;
-                        case 65:
-                            setter(data)
-                            break;
-                        case 78:
-                        case 80:
-                            arrow()
-                            break;
-                        case 82:
-                            reset()
-                            break;
-                    }
-                }
-            })
+            Mousetrap.bind('a', function() {
+                setter(data)
+            });
         })
     $(".stream").click(function() {
         stream()
@@ -73,6 +20,39 @@ $(document).ready(function() {
     $(".arrow").on('click.arrow', function() {
         arrow()
     })
+    Mousetrap.bind(['n', 'p'], function() {
+        arrow()
+    });
+    Mousetrap.bind('r', function() {
+        reset()
+    });
+    Mousetrap.bind('1', function() {
+        link('#0')
+    });
+    Mousetrap.bind('2', function() {
+        link('#1')
+    });
+    Mousetrap.bind('3', function() {
+        link('#2')
+    });
+    Mousetrap.bind('4', function() {
+        link('#3')
+    });
+    Mousetrap.bind('5', function() {
+        link('#4')
+    });
+    Mousetrap.bind('6', function() {
+        link('#5')
+    });
+    Mousetrap.bind('7', function() {
+        link('#6')
+    });
+    Mousetrap.bind('8', function() {
+        link('#7')
+    });
+    Mousetrap.bind('9', function() {
+        link('#8')
+    });
 })
 
 function minMax(foo, bar) {
