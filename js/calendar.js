@@ -408,8 +408,8 @@ function streamInfo(data, show) {
 
 Date.prototype.getWeek = function(){
     const date = new Date(Date.UTC(this.getFullYear(), this.getMonth(), this.getDate()))
-    date.setDate(date.getDate() - (date.getDay() || 7));
-    return Math.ceil((((date - new Date(date.getFullYear(), 0, 1)) / 86400000) + 1) / 7)
+    date.setDate(date.getDate() - date.getDay());
+    return Math.ceil((((date - new Date(date.getFullYear(), 0, 1)) / 86400000)) / 7)
 }
 
 function updateTime() {
