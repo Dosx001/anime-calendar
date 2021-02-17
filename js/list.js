@@ -20,7 +20,13 @@ $(document).ready(function() {
     $(".arrow").on('click.arrow', function() {
         arrow()
     })
-    Mousetrap.bind(['n', 'p'], function() {
+    Mousetrap.bind(['n', 'p'], function(e) {
+        if (e.key == 'n') {
+            left()
+        }
+        else {
+            right()
+        }
         arrow()
     });
     Mousetrap.bind('r', function() {

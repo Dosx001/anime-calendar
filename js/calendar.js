@@ -44,14 +44,10 @@ $(document).ready(function() {
         $('#calendar').focus()
     });
     Mousetrap.bind('n', function() {
-        if ($("#right")[0].style.display == "") {
-            right()
-        }
+        right()
     });
     Mousetrap.bind('p', function() {
-        if ($("#left")[0].style.display == "") {
-            left()
-        }
+        left()
     });
     Mousetrap.bind('s', function() {
         $('#search').focus()
@@ -82,32 +78,36 @@ function list() {
 }
 
 function left() {
-    if ($("#right")[0].style.display == "") {
-        $("#left").hide();
-        TheBigBang(-7);
-    }
-    else {
-        $('#soon').remove();
-        $("#right").show();
-        $("#left").show();
-        TheBigBang();
+    if ($("#left")[0].style.display == "") {
+        if ($("#right")[0].style.display == "") {
+            $("#left").hide();
+            TheBigBang(-7);
+        }
+        else {
+            $('#soon').remove();
+            $("#right").show();
+            $("#left").show();
+            TheBigBang();
+        }
     }
 }
 
 function right() {
-    if ($("#left")[0].style.display == "") {
-        $("#right").hide();
-        $('#calendar').remove()
-        document.getElementById('month').textContent = "Spring 2021"
-        $('body').append(
-            '<div id="soon" class="content" align="center">'
-            + 'Coming Soon</div>'
-        )
-    }
-    else {
-        $("#right").show();
-        $("#left").show();
-        TheBigBang();
+    if ($("#right")[0].style.display == "") {
+        if ($("#left")[0].style.display == "") {
+            $("#right").hide();
+            $('#calendar').remove()
+            document.getElementById('month').textContent = "Spring 2021"
+            $('body').append(
+                '<div id="soon" class="content" align="center">'
+                + 'Coming Soon</div>'
+            )
+        }
+        else {
+            $("#right").show();
+            $("#left").show();
+            TheBigBang();
+        }
     }
 }
 
