@@ -27,8 +27,8 @@ def main():
                 stream = line.split()
                 streams.update({stream[6][7:-1]:stream[1][6:-1]})
             elif "show-title-bar" in line:
-                for stream in streams:
-                    if stream in getTitle:
+                for stream in getTitle:
+                    if stream in streams:
                         title = getTitle[stream](streams[stream])
                         break
                 else:
