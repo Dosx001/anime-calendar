@@ -236,6 +236,16 @@
             "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhsFhLkiHzyfMeO5unNiOEc"
         }
     },
+    "Heaven's Design Team": {
+        "day": "Thursday",
+        "time": "8:30 AM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/tenchi-souzou-design-bu-16431bacb6.jpg",
+        "streams": {
+            "Crunchyroll": "https://www.crunchyroll.com/heavens-design-team",
+            "VRV": "https://vrv.co/series/G0XHWMV4G/Heavens-Design-Team",
+            "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2EXwI9aJdqU567z6f3UUzU"
+        }
+    },
     "Higurashi: When They Cry - New": {
         "day": "Thursday",
         "time": "8:30 AM",
@@ -246,16 +256,6 @@
             "Hulu": "https://www.hulu.com/series/higurashi-when-they-cry-eebf8a07-1977-4045-9ee9-f9d2f0799634",
             "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/950/higurashi-when-they-cry-gou",
             "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jj1KDCcoLBqT6tpeSjzbFN9"
-        }
-    },
-    "Heaven's Design Team": {
-        "day": "Thursday",
-        "time": "8:30 AM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/tenchi-souzou-design-bu-16431bacb6.jpg",
-        "streams": {
-            "Crunchyroll": "https://www.crunchyroll.com/heavens-design-team",
-            "VRV": "https://vrv.co/series/G0XHWMV4G/Heavens-Design-Team",
-            "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2EXwI9aJdqU567z6f3UUzU"
         }
     },
     "Cells at Work!": {
@@ -318,20 +318,6 @@
             "AnimeLab": "https://www.animelab.com/shows/bottom-tier-character-tomozaki",
             "Funimation": "https://www.funimation.com/shows/bottom-tier-character-tomozaki/",
             "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1226/bottom-tier-character-tomozaki"
-        }
-    },
-    "D4DJ First Mix": {
-        "day": "Friday",
-        "time": "6:00 AM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/d4dj-first-mix-34808a5e83.jpg",
-        "streams": {
-            "AnimeLab": "https://www.animelab.com/shows/d4dj-first-mix",
-            "Crunchyroll": "https://www.crunchyroll.com/d4dj-first-mix",
-            "Funimation": "https://www.funimation.com/shows/d4dj-first-mix/",
-            "HiDive": "https://www.hidive.com/tv/d4dj-first-mix",
-            "VRV": "https://vrv.co/series/GYGVN57EY/D4DJ-First-Mix",
-            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1138/d4dj-first-mix",
-            "YouTube": "https://www.youtube.com/c/D4DJEnglishChannel"
         }
     },
     "So I'm a Spider, So What?": {
@@ -457,6 +443,15 @@
             "Hulu": "http://www.hulu.com/case-closed"
         }
     },
+    "VLAD LOVE": {
+        "day": "Saturday",
+        "time": "8:50 AM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/vlad-love-aae3240eec.jpg",
+        "streams": {
+            "Crunchyroll": "https://www.crunchyroll.com/vlad-love",
+            "VRV": "https://vrv.co/series/GEXH3W5WN/VLAD-LOVE"
+        }
+    },
     "Horimiya": {
         "day": "Saturday",
         "time": "9:00 AM",
@@ -478,6 +473,15 @@
             "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2ZFZlTclIzJrxs74_7Nb47"
         }
     },
+    "World Trigger": {
+        "day": "Saturday",
+        "time": "10:30 AM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/world-trigger-2-2e227e0247.jpg",
+        "streams": {
+            "Crunchyroll": "https://www.crunchyroll.com/world-trigger",
+            "VRV": "https://vrv.co/series/GR757DMKY/World-Trigger"
+        }
+    },
     "SK8 the infinity": {
         "day": "Saturday",
         "time": "10:30 AM",
@@ -486,15 +490,6 @@
             "AnimeLab": "https://www.animelab.com/shows/sk8-the-infinity",
             "Funimation": "https://www.funimation.com/shows/sk8-the-infinity/",
             "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1206/sk8-the-infinity"
-        }
-    },
-    "World Trigger": {
-        "day": "Saturday",
-        "time": "10:30 AM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/world-trigger-2-2e227e0247.jpg",
-        "streams": {
-            "Crunchyroll": "https://www.crunchyroll.com/world-trigger",
-            "VRV": "https://vrv.co/series/GR757DMKY/World-Trigger"
         }
     },
     "Kiratto Pri\u2606Chan 3": {
@@ -551,6 +546,7 @@
         "streams": {
             "AnimeLab": "https://www.animelab.com/shows/kemono-jihen",
             "Funimation": "https://www.funimation.com/shows/kemono-jihen/",
+            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1189/kemono-jihen",
             "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1YS_pINBRcstuSCSgO4EGj"
         }
     },

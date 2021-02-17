@@ -17,11 +17,11 @@ def main():
         streams = {}
         for line in source:
             if "timetable-column-day" in line:
-                day = line[73:-6]
+                day = line[75:-6]
             elif "show-air-time" in line:
-                time = line[28:-8]
+                time = line[30:-8]
             elif 'show-poster' in line and not 'lazy' in line:
-                cover = line.split()[1][5:-13]
+                cover = line.split()[1][5:-12]
                 if cover[-3::] != "jpg":
                     cover = cover[0:-4]
             elif 'class="stream-link"' in line and 'title' in line:
