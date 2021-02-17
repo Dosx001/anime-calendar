@@ -40,7 +40,11 @@ def main():
                 try:
                     streams.pop("Netflix")
                 except KeyError:
-                    pass
+                    if title == "rkness-yamishib":
+                        streams.pop("Funimation")
+                        title = "Theatre of Darkness: Yamishibai"
+                    elif title == "KING&amp;#x27;s RAID: Successors of the Will":
+                        title = "KING's RAID: Successors of the Will"
                 content = {
                     'day': day,
                     'time': time,
@@ -48,34 +52,27 @@ def main():
                     #'score': winner,
                     'streams': dict(sorted(streams.items(), key = lambda show: show[0]))
                 }
-                try:
-                    shows.update({unescape(title): content})
-                except:
-                    shows.update({"Theatre of Darkness: Yamishibai": content})
+                shows.update({unescape(title): content})
                 streams = {}
         json.dump(shows, file, indent = 4)
 
 def getData(url):
-    return popen(f"curl -k {url} -H 'User-Agent: Firefox/60.0'").read().split("\n")
+    return popen(f"curl -k {url} -H 'User-Agent: Firefox/60.'").read().split("\n")
 
 def AnimeLab(url):
+    Bools = [False, False]
     for line in getData(url):
-        if "show-title" in line:
-            line = line.split()[1::]
-            line[0] = line[0][19::]
-            line[-1] = line[-1][0:-5]
-            return " ".join(line)
+        if Bools[0]:
+            if Bools[1]:
+                return line[1::]
+            Bools[1] = True
+        if "title" in line:
+            Bools[0] = True
 
 def Crunchyroll(url):
-    Bool = False
     for line in getData(url):
-        if Bool:
-            line = line.split()
-            line[0] = line[0][6::]
-            line[-1] = line[-1][0:-7]
-            return " ".join(line)
-        elif "ellipsis" in line:
-            Bool = True
+        if "title" in line:
+            return line[70:-10]
 
 def HiDive(url):
     for line in getData(url):
