@@ -9,6 +9,7 @@ def main():
     getTitle = {
         'AnimeLab': lambda url: AnimeLab(url),
         'Crunchyroll': lambda url: Crunchyroll(url),
+        'HiDive': lambda url: HiDive(url),
         'Netflix': lambda url: Netflix(url),
     }
     shows = {}
@@ -57,6 +58,14 @@ def main():
 def getData(url):
     return popen(f"curl -k {url} -H 'User-Agent: Firefox/60.0'").read().split("\n")
 
+def AnimeLab(url):
+    for line in getData(url):
+        if "show-title" in line:
+            line = line.split()[1::]
+            line[0] = line[0][19::]
+            line[-1] = line[-1][0:-5]
+            return " ".join(line)
+
 def Crunchyroll(url):
     Bool = False
     for line in getData(url):
@@ -68,13 +77,10 @@ def Crunchyroll(url):
         elif "ellipsis" in line:
             Bool = True
 
-def AnimeLab(url):
+def HiDive(url):
     for line in getData(url):
-        if "show-title" in line:
-            line = line.split()[1::]
-            line[0] = line[0][19::]
-            line[-1] = line[-1][0:-5]
-            return " ".join(line)
+        if "title" in line:
+            return line[35:-14]
 
 def Netflix(url):
     title = []
