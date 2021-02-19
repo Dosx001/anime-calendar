@@ -1,6 +1,14 @@
+@use 'base';
+
 $DarkPurple: #27002b;
 
-@use 'base';
+@mixin box($back_color, $bord_color, $radius: null) {
+    background: $back_color;
+    border: 2px solid $bord_color;
+    @if $radius != null {
+        border-radius: $radius;
+    }
+}
 
 td {
     width: 10rem;
@@ -68,31 +76,33 @@ aside .input-group {
     padding: .6rem;
 }
 
-.arrow, .show, .stream, .setter,
-#clear, #list, #reset {
-    background: black;
-    border: 2px solid grey;
-    border-radius: 20px;
+%buttons {
+    @include box(black, grey, 20px);
     color: purple;
-}
-
-.show:hover, .arrow:hover, .stream:hover, .setter:hover,
-#clear:hover, #list:hover, #reset:hover {
-    box-shadow: 0px 0px 25px red;
+    &:hover {
+        box-shadow: 0px 0px 25px red;
+    }
 }
 
 .show {
+    @extend %buttons;
     width: 8rem;
     margin-bottom: 2px;
 }
 
 .arrow {
+    @extend %buttons;
     font-size: 2rem;
     padding: 0px 0px;
 }
 
 .stream {
+    @extend %buttons;
     padding: 0px 10px 0px 10px;
+}
+
+.setter {
+    @extend %buttons;
 }
 
 .time, .slot {
@@ -100,8 +110,7 @@ aside .input-group {
 }
 
 .date, .time, .slot {
-    border: 2px solid black;
-    background: $DarkPurple;
+    @include box($DarkPurple, black);
 }
 
 .slot, .date {
@@ -119,18 +128,12 @@ aside .input-group {
 }
 
 .window {
+    @include box(black, purple, 20px);
     z-index: 1;
     position: absolute;
-    background: black;
     width: 67%;
-    border: 2px solid purple;
-    border-radius: 20px;
     padding: 20px;
     margin-top: 7rem;
-}
-
-.title {
-    color: purple;
 }
 
 #settings {
@@ -191,7 +194,12 @@ aside .input-group {
     height: 15rem;
 }
 
+#reset {
+    @extend %buttons;
+}
+
 #clear, #list {
+    @extend %buttons;
     margin: 1rem 0px;
 }
 

@@ -14,17 +14,15 @@ nav {
 
 a {
     color: purple;
-}
-
-a:hover {
-    color: purple;
-    text-decoration: none;
+    &:hover {
+        color: purple;
+        text-decoration: none;
+    }
 }
 
 button {
     cursor: pointer;
-}
-
-button:focus {
-    outline: none;
+    &:focus {
+        outline: none;
+    }
 }

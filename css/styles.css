@@ -15,7 +15,6 @@ nav {
 a {
   color: purple;
 }
-
 a:hover {
   color: purple;
   text-decoration: none;
@@ -24,7 +23,6 @@ a:hover {
 button {
   cursor: pointer;
 }
-
 button:focus {
   outline: none;
 }
@@ -92,16 +90,13 @@ aside .input-group {
   padding: 0.6rem;
 }
 
-.arrow, .show, .stream, .setter,
-#clear, #list, #reset {
+#clear, #list, #reset, .setter, .stream, .arrow, .show {
   background: black;
   border: 2px solid grey;
   border-radius: 20px;
   color: purple;
 }
-
-.show:hover, .arrow:hover, .stream:hover, .setter:hover,
-#clear:hover, #list:hover, #reset:hover {
+#clear:hover, #list:hover, #reset:hover, .setter:hover, .stream:hover, .arrow:hover, .show:hover {
   box-shadow: 0px 0px 25px red;
 }
 
@@ -124,8 +119,8 @@ aside .input-group {
 }
 
 .date, .time, .slot {
-  border: 2px solid black;
   background: #27002b;
+  border: 2px solid black;
 }
 
 .slot, .date {
@@ -143,18 +138,14 @@ aside .input-group {
 }
 
 .window {
-  z-index: 1;
-  position: absolute;
   background: black;
-  width: 67%;
   border: 2px solid purple;
   border-radius: 20px;
+  z-index: 1;
+  position: absolute;
+  width: 67%;
   padding: 20px;
   margin-top: 7rem;
-}
-
-.title {
-  color: purple;
 }
 
 #settings {
