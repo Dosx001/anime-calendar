@@ -1,262 +1,241 @@
 html {
-    scroll-padding-top: 5rem;
+  scroll-padding-top: 5rem;
 }
 
 body {
-    background: #181a1b;
-    padding-top: 4rem;
-    color: darkgrey;
+  background: #181a1b;
+  padding-top: 4rem;
+  color: darkgrey;
 }
 
 nav {
-    background: black;
+  background: black;
 }
 
 a {
-    color: purple;
+  color: purple;
 }
 
 a:hover {
-    color: purple;
-    text-decoration: none;
-}
-
-td {
-    width: 10rem;
+  color: purple;
+  text-decoration: none;
 }
 
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 button:focus {
-    outline: none;
+  outline: none;
+}
+
+td {
+  width: 10rem;
 }
 
 aside {
-    position: fixed;
-    margin-top: 4rem;
-    width: 18%
+  position: fixed;
+  margin-top: 4rem;
+  width: 18%;
 }
-
 aside button, aside a {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
-
-aside #title{
-    line-height: 2rem;
+aside #title {
+  line-height: 2rem;
 }
 
 /* Bootstrap */
 aside .input-group {
-    padding-bottom: .5rem;
-    width: 90%;
+  padding-bottom: 0.5rem;
+  width: 90%;
 }
 
 .input-group-text {
-    background-color: black;
-    color: darkgrey;
-    border: 1px solid darkgrey;
+  background-color: black;
+  color: darkgrey;
+  border: 1px solid darkgrey;
 }
 
 .custom-select {
-    background:
-        black
-        url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E")
-        no-repeat right .75rem center;
-    background-size: 8px 10px;
-    color: purple;
-    border: 1px solid darkgrey;
+  background: black url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right 0.75rem center;
+  background-size: 8px 10px;
+  color: purple;
+  border: 1px solid darkgrey;
 }
 
 /* jQuery UI */
 .ui-autocomplete {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1040;
-    float: left;
-    padding: 4px 0;
-    background: black;
-    border: 1px solid gray;
-    max-height: 25vh;
-    overflow-y: auto;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1040;
+  float: left;
+  padding: 4px 0;
+  background: black;
+  border: 1px solid gray;
+  max-height: 25vh;
+  overflow-y: auto;
 }
 
 .ui-autocomplete-input {
-    color: gray;
+  color: gray;
 }
 
 .ui-state-hover, .ui-state-active {
-    background: #27002b;
+  background: #27002b;
 }
 
 /* Anime Calendar */
 .table td, .table th {
-    border-top: 1px solid darkgrey;
-    padding: .6rem;
+  border-top: 1px solid darkgrey;
+  padding: 0.6rem;
 }
 
 .arrow, .show, .stream, .setter,
-    #clear, #list, #reset {
-    background: black;
-    border: 2px solid grey;
-    border-radius: 20px;
-    color: purple;
+#clear, #list, #reset {
+  background: black;
+  border: 2px solid grey;
+  border-radius: 20px;
+  color: purple;
 }
 
 .show:hover, .arrow:hover, .stream:hover, .setter:hover,
-    #clear:hover, #list:hover, #reset:hover {
-    box-shadow: 0px 0px 25px red;
+#clear:hover, #list:hover, #reset:hover {
+  box-shadow: 0px 0px 25px red;
 }
 
 .show {
-    width: 8rem;
-    margin-bottom: 2px;
+  width: 8rem;
+  margin-bottom: 2px;
 }
 
 .arrow {
-    font-size: 2rem;
-    padding: 0px 0px;
+  font-size: 2rem;
+  padding: 0px 0px;
 }
 
 .stream {
-    padding: 0px 10px 0px 10px;
+  padding: 0px 10px 0px 10px;
 }
 
 .time, .slot {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .date, .time, .slot {
-    border: 2px solid black;
-    background: #27002b;
+  border: 2px solid black;
+  background: #27002b;
 }
 
 .slot, .date {
-    text-align: center;
+  text-align: center;
 }
 
 .date {
-    position: sticky;
-    top: 0;
+  position: sticky;
+  top: 0;
 }
 
 .icon {
-    border-radius: 20%;
-    margin-top: -.5rem;
+  border-radius: 20%;
+  margin-top: -0.5rem;
 }
 
 .window {
-    z-index: 1;
-    position: absolute;
-    background: black;
-    width: 67%;
-    border: 2px solid purple;
-    border-radius: 20px;
-    padding: 20px;
-    margin-top: 7rem;
-}
-
-.alert {
-    position: absolute;
-    color: gray;
-    font-size: 3rem;
-    background: black;
-    border: solid purple;
-    border-radius: 10px;
-    padding: 0rem 1rem 0rem 1rem;
-    z-index: 1;
-    margin: 15rem 15rem;
-    width: 35rem;
-    height: auto;
+  z-index: 1;
+  position: absolute;
+  background: black;
+  width: 67%;
+  border: 2px solid purple;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 7rem;
 }
 
 .title {
-    color: purple;
+  color: purple;
 }
 
 #settings {
-    position: absolute;
-    width: 17%;
-    margin-top: 4rem;
+  position: absolute;
+  width: 17%;
+  margin-top: 4rem;
 }
 
 #month {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 #calendar {
-    scroll-padding-top: 2rem;
-    overflow: auto;
-    scrollbar-color: #4d4b4b black;
-    height: 50rem;
-    width: 65%;
-    margin: auto;
-    display: grid;
+  scroll-padding-top: 2rem;
+  overflow: auto;
+  scrollbar-color: #4d4b4b black;
+  height: 50rem;
+  width: 65%;
+  margin: auto;
+  display: grid;
 }
-
 #calendar table {
-    border-collapse: separate;
-    border-spacing: 0;
+  border-collapse: separate;
+  border-spacing: 0;
 }
-
 
 ::-webkit-scrollbar {
-    background: #000;
-    -webkit-border-radius: 10px;
+  background: #000;
+  -webkit-border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: grey;
-    -webkit-border-radius: 10px;
+  background: grey;
+  -webkit-border-radius: 10px;
 }
 
 #cover {
-    float:inherit;
-    display:inline-block;
+  float: inherit;
+  display: inline-block;
 }
 
 #streams {
-    float: right;
-    display: inline-block;
-    width: 68%;
+  float: right;
+  display: inline-block;
+  width: 68%;
 }
 
 #add {
-    margin-left: 4rem;
+  margin-left: 4rem;
 }
 
 #sub {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 
 #cry {
-    width: 15rem;
-    height: 15rem;
+  width: 15rem;
+  height: 15rem;
 }
 
 #clear, #list {
-    margin: 1rem 0px;
+  margin: 1rem 0px;
 }
 
 #clear {
-    visibility: hidden;
-    background: #27002b;
-    color: purple;
+  visibility: hidden;
+  background: #27002b;
+  color: purple;
 }
 
 #search {
-    background: #27002b;
+  background: #27002b;
 }
 
 #soon {
-    font-size: 5rem;
+  font-size: 5rem;
 }
 
 #content aside {
-    right: 0;
-    width: 17%;
-    font-size: 2rem;
-    line-height: 2.5rem;
+  right: 0;
+  width: 17%;
+  font-size: 2rem;
+  line-height: 2.5rem;
 }

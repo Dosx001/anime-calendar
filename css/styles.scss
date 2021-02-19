@@ -1,0 +1,217 @@
+$DarkPurple: #27002b;
+
+@use 'base';
+
+td {
+    width: 10rem;
+}
+
+aside {
+    position: fixed;
+    margin-top: 4rem;
+    width: 18%;
+    button, a {
+        font-size: 1.5rem;
+    }
+    #title{
+        line-height: 2rem;
+    }
+}
+
+/* Bootstrap */
+aside .input-group {
+    padding-bottom: .5rem;
+    width: 90%;
+}
+
+.input-group-text {
+    background-color: black;
+    color: darkgrey;
+    border: 1px solid darkgrey;
+}
+
+.custom-select {
+    background:
+    black
+    url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E")
+    no-repeat right .75rem center;
+    background-size: 8px 10px;
+    color: purple;
+    border: 1px solid darkgrey;
+}
+
+/* jQuery UI */
+.ui-autocomplete {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1040;
+    float: left;
+    padding: 4px 0;
+    background: black;
+    border: 1px solid gray;
+    max-height: 25vh;
+    overflow-y: auto;
+}
+
+.ui-autocomplete-input {
+    color: gray;
+}
+
+.ui-state-hover, .ui-state-active {
+    background: $DarkPurple;
+}
+
+/* Anime Calendar */
+.table td, .table th {
+    border-top: 1px solid darkgrey;
+    padding: .6rem;
+}
+
+.arrow, .show, .stream, .setter,
+#clear, #list, #reset {
+    background: black;
+    border: 2px solid grey;
+    border-radius: 20px;
+    color: purple;
+}
+
+.show:hover, .arrow:hover, .stream:hover, .setter:hover,
+#clear:hover, #list:hover, #reset:hover {
+    box-shadow: 0px 0px 25px red;
+}
+
+.show {
+    width: 8rem;
+    margin-bottom: 2px;
+}
+
+.arrow {
+    font-size: 2rem;
+    padding: 0px 0px;
+}
+
+.stream {
+    padding: 0px 10px 0px 10px;
+}
+
+.time, .slot {
+    padding: 1rem;
+}
+
+.date, .time, .slot {
+    border: 2px solid black;
+    background: $DarkPurple;
+}
+
+.slot, .date {
+    text-align: center;
+}
+
+.date {
+    position: sticky;
+    top: 0;
+}
+
+.icon {
+    border-radius: 20%;
+    margin-top: -.5rem;
+}
+
+.window {
+    z-index: 1;
+    position: absolute;
+    background: black;
+    width: 67%;
+    border: 2px solid purple;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 7rem;
+}
+
+.title {
+    color: purple;
+}
+
+#settings {
+    position: absolute;
+    width: 17%;
+    margin-top: 4rem;
+}
+
+#month {
+    font-size: 3rem;
+}
+
+#calendar {
+    scroll-padding-top: 2rem;
+    overflow: auto;
+    scrollbar-color: #4d4b4b black;
+    height: 50rem;
+    width: 65%;
+    margin: auto;
+    display: grid;
+    table {
+        border-collapse: separate;
+        border-spacing: 0;
+    }
+}
+
+::-webkit-scrollbar {
+    background: #000;
+    -webkit-border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: grey;
+    -webkit-border-radius: 10px;
+}
+
+#cover {
+    float:inherit;
+    display:inline-block;
+}
+
+#streams {
+    float: right;
+    display: inline-block;
+    width: 68%;
+}
+
+#add {
+    margin-left: 4rem;
+}
+
+#sub {
+    margin-left: 1rem;
+}
+
+#cry {
+    width: 15rem;
+    height: 15rem;
+}
+
+#clear, #list {
+    margin: 1rem 0px;
+}
+
+#clear {
+    visibility: hidden;
+    background: $DarkPurple;
+    color: purple;
+}
+
+#search {
+    background: $DarkPurple;
+}
+
+#soon {
+    font-size: 5rem;
+}
+
+#content aside {
+    right: 0;
+    width: 17%;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
