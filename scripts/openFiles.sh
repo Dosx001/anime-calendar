@@ -1,3 +1,3 @@
 #!/bin/bash
-vim index.html js/list.js js/search.js js/show.js css/styles.css -p \
-    "+vs js/calendar.js"
+vim index.html ts/list.ts ts/search.ts ts/show.ts css/styles.scss -p \
+    "+vs ts/calendar.ts"
