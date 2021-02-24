@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "allowJs": true,
+        "target": "ES2020",
+        "outDir": "js/"
+    },
+    "files": [
+        "ts/calendar.ts",
+        "ts/list.ts",
+        "ts/show.ts",
+        "ts/search.ts"
+    ]
+}
