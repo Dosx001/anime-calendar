@@ -17,9 +17,9 @@ def main():
         streams = {}
         for line in source:
             if "timetable-column-day" in line:
-                day = line[75:-6]
+                day = line[77:-6]
             elif "show-air-time" in line:
-                time = line[30:-8]
+                time = line[32:-8]
             elif 'show-poster' in line and not 'lazy' in line:
                 cover = line.split()[1][5:-12]
                 if cover[-3::] != "jpg":
@@ -45,16 +45,19 @@ def main():
                         title = "Theatre of Darkness: Yamishibai"
                     elif title == "KING&amp;#x27;s RAID: Successors of the Will":
                         title = "KING's RAID: Successors of the Will"
+                    elif title == "World Trigger":
+                        time = time[1::]
                 content = {
                     'day': day,
                     'time': time,
                     'cover': cover,
-                    #'score': winner,
                     'streams': dict(sorted(streams.items(), key = lambda show: show[0]))
                 }
                 shows.update({unescape(title): content})
                 streams = {}
-        json.dump(shows, file, indent = 4)
+        json.dump(shows, file, separators=(',', ':'))
+        with open('indent.json', 'w') as file:
+            json.dump(shows, file, indent = 4)
 
 def getData(url):
     return popen(f"curl -k {url} -H 'User-Agent: Firefox/60.'").read().split("\n")
