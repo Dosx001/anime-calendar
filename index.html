@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
   <script src="lib/mousetrap.min.js"></script>
   <script src="js/calendar.min.js"></script>
 
@@ -18,24 +18,24 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
-        <div class="container">
-          <a class="navbar-brand mr-4" href=".">Anime Calendar</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarToggle">
-            <div class="navbar-nav mr-auto">
-              <a class="nav-item nav-link" href="./help">Help</a>
-              <a class="nav-item nav-link" href="./about">About</a>
+      <div class="container">
+        <a class="navbar-brand mr-4" href=".">Anime Calendar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggle">
+          <div class="navbar-nav mr-auto">
+            <a class="nav-item nav-link" href="./help">Help</a>
+            <a class="nav-item nav-link" href="./about">About</a>
+          </div>
+          <div class="navbar-nav">
+            <div class="input-group ui-widget">
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="search">Search</label>
+              </div>
+              <input id="search" size="30">
             </div>
-            <div class="navbar-nav">
-                <div class="input-group ui-widget">
-                    <div class="input-group-prepend">
-                        <label class="input-group-text" for="search">Search</label>
-                    </div>
-                    <input id="search" size="30">
-                </div>
-            </div>
+          </div>
         </div>
     </nav>
     <div align="center">
