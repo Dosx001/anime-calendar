@@ -299,7 +299,7 @@ function compact(times, offset) {
 }
 
 function resizeCalendar() {
-    if (Object.keys($("#show")).length != 0 && localStorage.getItem('info') == "0") {
+    if (Object.keys($("#show")).length != 0 && ($('#info')[0] as HTMLSelectElement).value == "0") {
         $('#calendar').css({"height": "25rem"})
     }
     else {
