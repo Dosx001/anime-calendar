@@ -22,10 +22,10 @@ $(document).ready(function () {
     });
     Mousetrap.bind(['n', 'p'], function (e) {
         if (e.key == 'n') {
-            left();
+            right();
         }
         else {
-            right();
+            left();
         }
         arrow();
     });
