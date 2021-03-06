@@ -240,11 +240,13 @@ function shows() {
         .then(function(data) {
             const shows = JSON.parse(localStorage.getItem("shows"))
             for (let show in (document.getElementById('list').innerHTML == "Your List") ? data:shows) {
-                var style = ''
+                let style:string
                 if (shows != null && show in shows) {
-                    style = ' style="border-color: #4f004f;" '
                     if (($('#left')[0].style[0] == null) ? shows[show][0]:shows[show][1]) {
                         style = ' style="border-color: #4f004f; color: #4f4f4f;" '
+                    }
+                    else {
+                        style = ' style="border-color: #4f004f;" '
                     }
                 }
                 var id = "#" + ider_slot(data[show].day, data[show].time)
