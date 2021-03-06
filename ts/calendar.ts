@@ -10,7 +10,7 @@ $(function() {
         localStorage.setItem('shows', JSON.stringify({}))
     }
     TheBigBang();
-    $('html').append('<script src="js/search.js"></script>')
+    $('html').append('<script src="js/search.min.js"></script>')
 })
 
 $(document).ready(function() {
@@ -254,7 +254,7 @@ function shows() {
                 )
             }
             $("#show-js").remove()
-            $('html').append('<script id="show-js" src="js/show.js"></script>')
+            $('html').append('<script id="show-js" src="js/show.min.js"></script>')
         })
 }
 
