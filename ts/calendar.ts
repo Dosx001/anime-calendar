@@ -9,6 +9,17 @@ $(function() {
     if (localStorage.getItem('shows') == null) {
         localStorage.setItem('shows', JSON.stringify({}))
     }
+    let VERSION = "21.0.0"
+    if (localStorage.getItem('ver') != VERSION) {
+        localStorage.setItem('ver', VERSION)
+        fetch("./shows/shows.json")
+            .then(function(resp) {
+                return resp.json();
+            })
+            .then(function(data) {
+                localStorage.setItem('storage', JSON.stringify(data))
+            })
+    }
     TheBigBang();
     $('html').append('<script src="js/search.min.js"></script>')
 })
@@ -233,31 +244,26 @@ function ider_show(title) {
 }
 
 function shows() {
-    fetch("./shows/shows.json")
-        .then(function(resp) {
-            return resp.json();
-        })
-        .then(function(data) {
-            const shows = JSON.parse(localStorage.getItem("shows"))
-            for (let show in (document.getElementById('list').innerHTML == "Your List") ? data:shows) {
-                let style:string
-                if (shows != null && show in shows) {
-                    if (($('#left')[0].style[0] == null) ? shows[show][0]:shows[show][1]) {
-                        style = ' style="border-color: #4f004f; color: #4f4f4f;" '
-                    }
-                    else {
-                        style = ' style="border-color: #4f004f;" '
-                    }
-                }
-                var id = "#" + ider_slot(data[show].day, data[show].time)
-                $(id).append('<a href="' + id + '">'
-                    + '<button id="'+ ider_show(show) + '" class="show"' + style + '>'
-                    + show + '</button></a>'
-                )
+    let data = JSON.parse(localStorage.getItem("storage"))
+    const shows = JSON.parse(localStorage.getItem("shows"))
+    for (let show in (document.getElementById('list').innerHTML == "Your List") ? data:shows) {
+        let style:string
+        if (shows != null && show in shows) {
+            if (($('#left')[0].style[0] == null) ? shows[show][0]:shows[show][1]) {
+                style = ' style="border-color: #4f004f; color: #4f4f4f;" '
             }
-            $("#show-js").remove()
-            $('html').append('<script id="show-js" src="js/show.min.js"></script>')
-        })
+            else {
+                style = ' style="border-color: #4f004f;" '
+            }
+        }
+        var id = "#" + ider_slot(data[show].day, data[show].time)
+        $(id).append('<a href="' + id + '">'
+            + '<button id="'+ ider_show(show) + '" class="show"' + style + '>'
+            + show + '</button></a>'
+        )
+    }
+    $("#show-js").remove()
+    $('html').append('<script id="show-js" src="js/show.min.js"></script>')
 }
 
 function cutoff(times) {
@@ -276,28 +282,23 @@ function cutoff(times) {
 }
 
 function compact(times, offset) {
-    fetch("./shows/shows.json")
-        .then(function(resp) {
-            return resp.json();
-        })
-        .then(function(data) {
-            var times_comp = []
-            const shows = JSON.parse(localStorage.getItem('shows'))
-            for (let time in times) {
-                for (let show in shows) {
-                    if (data[show].time == times[time]) {
-                        times_comp.push(times[time])
-                        delete shows[show]
-                        break
-                    }
-                }
-                if (shows.length == 0) {
-                    break
-                }
+    let data = JSON.parse(localStorage.getItem("storage"))
+    var times_comp = []
+    const shows = JSON.parse(localStorage.getItem('shows'))
+    for (let time in times) {
+        for (let show in shows) {
+            if (data[show].time == times[time]) {
+                times_comp.push(times[time])
+                delete shows[show]
+                break
             }
-            $("body").append(calendar(getDates(offset), times_comp));
-            resizeCalendar()
-        })
+        }
+        if (shows.length == 0) {
+            break
+        }
+    }
+    $("body").append(calendar(getDates(offset), times_comp));
+    resizeCalendar()
 }
 
 function resizeCalendar() {

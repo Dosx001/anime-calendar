@@ -1,16 +1,10 @@
 $(document).ready(function() {
-    fetch("./shows/shows.json")
-        .then(function(resp) {
-            return resp.json();
-        })
-        .then(function(data) {
-            $(".setter").click(function() {
-                setter(data)
-            })
-            Mousetrap.bind('a', function() {
-                setter(data)
-            });
-        })
+    $(".setter").click(function() {
+        setter()
+    })
+    Mousetrap.bind('a', function() {
+        setter()
+    });
     $(".stream").click(function() {
         stream()
     })
@@ -121,9 +115,10 @@ function arrow() {
     }
 }
 
-function setter(data) {
+function setter() {
     var title = $("#title")[0].textContent
     var shows = JSON.parse(localStorage.getItem("shows"))
+    let data = JSON.parse(localStorage.getItem("storage"))
     if ($('.setter')[0].id == "add") {
         if (Object.keys(shows).length == 0) {
             shows = {}
