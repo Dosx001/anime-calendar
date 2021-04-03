@@ -11,10 +11,16 @@ $(function () {
     if (localStorage.getItem('ver') != VERSION) {
         localStorage.setItem('ver', VERSION);
         set("./shows/shows.json", "storage");
-        set("./shows/past_shows.json", "past");
+        set("./shows/past_shows.json", "past")
+            .then(resp => {
+            TheBigBang();
+            $('html').append('<script src="js/search.min.js"></script>');
+        });
     }
-    TheBigBang();
-    $('html').append('<script src="js/search.min.js"></script>');
+    else {
+        TheBigBang();
+        $('html').append('<script src="js/search.min.js"></script>');
+    }
 });
 $(document).ready(function () {
     $('#left').click(function () {
@@ -109,14 +115,10 @@ function right() {
         }
     }
 }
-function set(file, key) {
-    fetch(file)
-        .then(function (resp) {
-        return resp.json();
-    })
-        .then(function (data) {
-        localStorage.setItem(key, JSON.stringify(data));
-    });
+async function set(file, key) {
+    const resp = await fetch(file);
+    const data = await resp.json();
+    localStorage.setItem(key, JSON.stringify(data));
 }
 function TheBigBang(offset = 0) {
     $('#calendar').remove();
@@ -138,7 +140,7 @@ function TheBigBang(offset = 0) {
                 data = data['full'];
                 break;
         }
-        if (localStorage.getItem('list') == "Your List" || option == "0") {
+        if (localStorage.getItem('list') == "Your List" || Object.keys(JSON.parse(localStorage.getItem('shows'))).length == 0 || option == "0") {
             $("body").append(calendar(getDates(offset), data));
         }
         else if (option == "1") {
