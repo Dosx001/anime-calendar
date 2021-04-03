@@ -15,6 +15,17 @@ $(function() {
         set("./shows/shows.json", "storage")
         set("./shows/past_shows.json", "past")
             .then(resp => {
+                let shows = JSON.parse(localStorage.getItem('shows'))
+                let store = JSON.parse(localStorage.getItem('storage'))
+                let past = JSON.parse(localStorage.getItem('past'))
+                for (let show in shows) {
+                    if (!(show in store) || !(show in past)) {
+                        delete shows[show]
+                    }
+                }
+                localStorage.setItem('shows', JSON.stringify(shows))
+            })
+            .then(resp => {
                 TheBigBang()
                 $('html').append('<script src="js/search.min.js"></script>')
             })
