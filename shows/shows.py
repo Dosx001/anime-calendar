@@ -50,7 +50,7 @@ class shows:
 
     def update(self):
         if len(self.changes) != 0 or len(self.new) != 0 or len(self.static) != len(self.keys):
-            system("cp shows.json last.json")
+            system("cp shows.json past_last.json")
             for show in [show for show in self.keys if not (show in self.changes or show in self.static)]:
                 self.shows.pop(self.keys.pop(show))
             for show in self.changes:
@@ -59,7 +59,7 @@ class shows:
                 self.shows[self.keys[show]] = self.changes[show]
             getTitle = {
                 'AnimeLab': lambda url: self.AnimeLab(url),
-                'Crunchyroll': lambda url: self.Crunchyroll(url),
+                #'Crunchyroll': lambda url: self.Crunchyroll(url),
                 'HiDive': lambda url: self.HiDive(url),
                 'Netflix': lambda url: self.Netflix(url),
             }

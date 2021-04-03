@@ -7,16 +7,11 @@ $(function () {
     if (localStorage.getItem('shows') == null) {
         localStorage.setItem('shows', JSON.stringify({}));
     }
-    let VERSION = "21.0.0";
+    let VERSION = "21.0.1";
     if (localStorage.getItem('ver') != VERSION) {
         localStorage.setItem('ver', VERSION);
-        fetch("./shows/shows.json")
-            .then(function (resp) {
-            return resp.json();
-        })
-            .then(function (data) {
-            localStorage.setItem('storage', JSON.stringify(data));
-        });
+        set("./shows/shows.json", "storage");
+        set("./shows/past_shows.json", "past");
     }
     TheBigBang();
     $('html').append('<script src="js/search.min.js"></script>');
@@ -114,38 +109,46 @@ function right() {
         }
     }
 }
-function TheBigBang(offset = 0) {
-    $('#calendar').remove();
-    updateTime();
-    var option = localStorage.getItem('format');
-    let file;
-    switch (option) {
-        case "1":
-            file = "./shows/cutoff.json";
-            break;
-        case "2":
-            file = "./shows/compact.json";
-            break;
-        default:
-            file = "./shows/full.json";
-    }
+function set(file, key) {
     fetch(file)
         .then(function (resp) {
         return resp.json();
     })
         .then(function (data) {
-        var min = JSON.parse(localStorage.getItem('min'));
-        if (localStorage.getItem('list') == "Your List" || option == "0" || min == null) {
+        localStorage.setItem(key, JSON.stringify(data));
+    });
+}
+function TheBigBang(offset = 0) {
+    $('#calendar').remove();
+    updateTime();
+    var option = localStorage.getItem('format');
+    fetch((offset == 0) ? "./shows/time.json" : "./shows/past_time.json")
+        .then(function (resp) {
+        return resp.json();
+    })
+        .then(function (data) {
+        switch (option) {
+            case "1":
+                data = data['cutoff'];
+                break;
+            case "2":
+                data = data['compact'];
+                break;
+            default:
+                data = data['full'];
+                break;
+        }
+        if (localStorage.getItem('list') == "Your List" || option == "0") {
             $("body").append(calendar(getDates(offset), data));
         }
         else if (option == "1") {
-            $("body").append(calendar(getDates(offset), cutoff(data)));
+            $("body").append(calendar(getDates(offset), cutoff(data, offset)));
         }
         else {
             compact(data, offset);
         }
         resizeCalendar();
-        shows();
+        shows((offset == 0) ? "storage" : "past");
     });
 }
 function calendar(dates, times) {
@@ -228,35 +231,58 @@ function ider_show(title) {
     let words = title.split(" ");
     return title.length + words.length.toString() + words[words.length - 1].replace(/\W/g, '');
 }
-function shows() {
-    let data = JSON.parse(localStorage.getItem("storage"));
+function shows(storage) {
+    let data = JSON.parse(localStorage.getItem(storage));
     const shows = JSON.parse(localStorage.getItem("shows"));
     for (let show in (document.getElementById('list').innerHTML == "Your List") ? data : shows) {
-        let style;
-        if (shows != null && show in shows) {
-            if (($('#left')[0].style[0] == null) ? shows[show][0] : shows[show][1]) {
-                style = ' style="border-color: #4f004f; color: #4f4f4f;" ';
+        if (show in data) {
+            let style;
+            if (shows != null && show in shows) {
+                if (($('#left')[0].style[0] == null) ? shows[show][0] : shows[show][1]) {
+                    style = ' style="border-color: #4f004f; color: #4f4f4f;" ';
+                }
+                else {
+                    style = ' style="border-color: #4f004f;" ';
+                }
             }
-            else {
-                style = ' style="border-color: #4f004f;" ';
-            }
+            var id = "#" + ider_slot(data[show].day, data[show].time);
+            $(id).append('<a href="' + id + '">'
+                + '<button id="' + ider_show(show) + '" class="show"' + style + '>'
+                + show + '</button></a>');
         }
-        var id = "#" + ider_slot(data[show].day, data[show].time);
-        $(id).append('<a href="' + id + '">'
-            + '<button id="' + ider_show(show) + '" class="show"' + style + '>'
-            + show + '</button></a>');
     }
     $("#show-js").remove();
     $('html').append('<script id="show-js" src="js/show.min.js"></script>');
 }
-function cutoff(times) {
-    var min = JSON.parse(localStorage.getItem('min'));
-    var max = JSON.parse(localStorage.getItem('max'));
+function minMax(t1, t2) {
+    if (new Date("2000/1/1 " + t1) < new Date("2000/1/1 " + t2)) {
+        return [t1, t2];
+    }
+    return [t2, t1];
+}
+function cutoff(times, offset) {
+    let shows = JSON.parse(localStorage.getItem('shows'));
+    let data = JSON.parse(localStorage.getItem((offset == 0) ? "storage" : "past"));
+    let max = "12:00 AM";
+    let min = "11:59 PM";
+    switch (shows.length) {
+        case 0:
+            return times;
+        case 1:
+            return data[Object.keys(shows)[0]].time;
+        default:
+            Object.keys(shows).forEach(async function (show) {
+                if (show in data) {
+                    max = minMax(max, data[show].time)[1];
+                    min = minMax(min, data[show].time)[0];
+                }
+            });
+    }
     for (const [index, time] of times.entries()) {
-        if (min[1] == time) {
+        if (min == time) {
             min = index;
         }
-        if (max[1] == time) {
+        if (max == time) {
             max = index + 1;
             break;
         }
@@ -264,15 +290,18 @@ function cutoff(times) {
     return times.slice(min, max);
 }
 function compact(times, offset) {
-    let data = JSON.parse(localStorage.getItem("storage"));
+    let data = JSON.parse(localStorage.getItem((offset == 0) ? "storage" : "past"));
     var times_comp = [];
     const shows = JSON.parse(localStorage.getItem('shows'));
     for (let time in times) {
         for (let show in shows) {
-            if (data[show].time == times[time]) {
+            if (show in data && data[show].time == times[time]) {
                 times_comp.push(times[time]);
                 delete shows[show];
                 break;
+            }
+            else if (!(show in data)) {
+                delete shows[show];
             }
         }
         if (shows.length == 0) {

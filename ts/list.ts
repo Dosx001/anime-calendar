@@ -15,12 +15,7 @@ $(document).ready(function() {
         arrow()
     })
     Mousetrap.bind(['n', 'p'], function(e) {
-        if (e.key == 'n') {
-            right()
-        }
-        else {
-            left()
-        }
+        (e.key == 'n') ? right():left();
         arrow()
     });
     Mousetrap.bind('r', function() {
@@ -54,13 +49,6 @@ $(document).ready(function() {
         link('#8')
     });
 })
-
-function minMax(foo, bar) {
-    if (new Date("2000/1/1 " + foo[1]) < new Date("2000/1/1 " + bar[1])) {
-        return [foo, bar]
-    }
-    return [bar, foo]
-}
 
 function link(id) {
     if ($(id)[0] != null) {
@@ -116,23 +104,13 @@ function arrow() {
 }
 
 function setter() {
-    var title = $("#title")[0].textContent
+    let title = $("#title")[0].textContent
     var shows = JSON.parse(localStorage.getItem("shows"))
     let data = JSON.parse(localStorage.getItem("storage"))
+    if (!(title in data)) {
+        data = JSON.parse(localStorage.getItem("past"))
+    }
     if ($('.setter')[0].id == "add") {
-        if (Object.keys(shows).length == 0) {
-            shows = {}
-            show = [title, data[title].time]
-            localStorage.setItem('min', JSON.stringify(show))
-            localStorage.setItem('max', JSON.stringify(show))
-            let now: any = new Date()
-            localStorage.setItem('time', JSON.stringify([now.getWeek, now.getFullYear]))
-        }
-        else {
-            var show = [title, data[title].time]
-            localStorage.setItem('min', JSON.stringify(minMax(show, JSON.parse(localStorage.getItem('min')))[0]))
-            localStorage.setItem('max', JSON.stringify(minMax(show, JSON.parse(localStorage.getItem('max')))[1]))
-        }
         $('#' + ider_show(title)).css({"border-color": "#4f004f"})
         $('.setter')[0].innerHTML = "Remove from Your List"
         $('.setter')[0].id = "sub"
@@ -141,48 +119,12 @@ function setter() {
     else if (shows != null && title in shows) {
         delete shows[title]
         $('#reset').css({"visibility": "hidden"})
-        if (Object.keys(shows).length == 0) {
-            localStorage.removeItem('min');
-            localStorage.removeItem('max');
-        }
-        else if (Object.keys(shows).length == 1) {
-            let show = Object.keys(shows)[0]
-            localStorage.setItem('min', JSON.stringify([show, data[show].time]))
-            localStorage.setItem('max', JSON.stringify([show, data[show].time]))
-        }
-        else {
-            var min = JSON.parse(localStorage.getItem('min'))
-            if (title == min[0]) {
-                min = new Date("2001")
-                for (let show in shows) {
-                    var other = new Date("2000/1/1 " + data[show].time)
-                    if (other < min) {
-                        min = other
-                        var New = show
-                    }
-                }
-                localStorage.setItem('min', JSON.stringify([New, data[New].time]))
-            }
-            var max = JSON.parse(localStorage.getItem('max'))
-            if (title == max[0]) {
-                max = new Date("1999")
-                for (let show in shows) {
-                    var other = new Date("2000/1/1 " + data[show].time)
-                    if (max < other) {
-                        max = other
-                        var New = show
-                    }
-                }
-                show = [New, data[New].time]
-                localStorage.setItem('max', JSON.stringify(show))
-            }
-        }
         $('#' + ider_show(title)).css({"border-color": "grey", "color": "purple"})
         $('.setter')[0].innerHTML = "Add to Your List"
         $('.setter')[0].id = "add"
     }
     localStorage.setItem('shows', JSON.stringify(shows))
     if ($("#list")[0].innerHTML == "Full List") {
-        TheBigBang()
+        ($("#left")[0].style.display == "") ? TheBigBang():TheBigBang(-7)
     }
 }
