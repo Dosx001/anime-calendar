@@ -9,7 +9,7 @@ $(function() {
     if (localStorage.getItem('shows') == null) {
         localStorage.setItem('shows', JSON.stringify({}))
     }
-    let VERSION = "21.0.1"
+    let VERSION = "21.1.0"
     if (localStorage.getItem('ver') != VERSION) {
         localStorage.setItem('ver', VERSION)
         set("./shows/shows.json", "storage")
@@ -122,7 +122,7 @@ function right() {
         if ($("#left")[0].style.display == "") {
             $("#right").hide();
             $('#calendar').remove()
-            document.getElementById('month').textContent = "Spring 2021"
+            document.getElementById('month').textContent = "Summmer 2021"
             $('body').append(
                 '<div id="soon" class="content" align="center">'
                 + 'Coming Soon</div>'
