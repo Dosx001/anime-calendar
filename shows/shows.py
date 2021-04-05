@@ -85,7 +85,9 @@ class shows:
                 else:
                     print(show)
                     print(self.new[show]['streams'])
-                    title = input('title? ')
+                    In = input('title? ')
+                    if In != "":
+                        title = In
                 self.shows.update({title: self.new[show]})
                 self.keys.update({show: title})
             with open('keys.json', 'w') as file:

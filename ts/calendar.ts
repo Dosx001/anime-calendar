@@ -122,7 +122,7 @@ function right() {
         if ($("#left")[0].style.display == "") {
             $("#right").hide();
             $('#calendar').remove()
-            document.getElementById('month').textContent = "Summmer 2021"
+            document.getElementById('month').textContent = "Summer 2021"
             $('body').append(
                 '<div id="soon" class="content" align="center">'
                 + 'Coming Soon</div>'
