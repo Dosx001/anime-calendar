@@ -43,7 +43,7 @@ $(document).ready(function() {
     })
     $('#format').change(function() {
         localStorage.setItem('format', ($(this)[0] as HTMLInputElement).value)
-        TheBigBang();
+        $("#left")[0].style.display == "" ? TheBigBang():TheBigBang(-7)
     })
     $("#clear").click(function() {
         clear()
@@ -97,7 +97,7 @@ function list() {
         $('#list')[0].innerHTML = "Full List"
         localStorage.setItem('list', "Full List")
     }
-    TheBigBang();
+    $("#left")[0].style.display == "" ? TheBigBang():TheBigBang(-7)
 }
 
 function left() {
