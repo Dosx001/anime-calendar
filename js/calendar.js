@@ -13,17 +13,15 @@ $(function () {
         set("./shows/shows.json", "storage");
         set("./shows/past_shows.json", "past")
             .then(resp => {
-            let shows = JSON.parse(localStorage.getItem('shows'));
-            let store = JSON.parse(localStorage.getItem('storage'));
             let past = JSON.parse(localStorage.getItem('past'));
+            let store = JSON.parse(localStorage.getItem('storage'));
+            let shows = JSON.parse(localStorage.getItem('shows'));
             for (let show in shows) {
                 if (!(show in store) || !(show in past)) {
                     delete shows[show];
                 }
             }
             localStorage.setItem('shows', JSON.stringify(shows));
-        })
-            .then(resp => {
             TheBigBang();
             $('html').append('<script src="js/search.min.js"></script>');
         });
@@ -149,16 +147,21 @@ function TheBigBang(offset = 0) {
                 break;
             default:
                 data = data['full'];
-                break;
         }
-        if (localStorage.getItem('list') == "Your List" || Object.keys(JSON.parse(localStorage.getItem('shows'))).length == 0 || option == "0") {
+        if (localStorage.getItem('list') == "Your List" || Object.keys(JSON.parse(localStorage.getItem('shows'))).length == 0) {
             $("body").append(calendar(getDates(offset), data));
         }
-        else if (option == "1") {
-            $("body").append(calendar(getDates(offset), cutoff(data, offset)));
-        }
         else {
-            compact(data, offset);
+            switch (option) {
+                case "1":
+                    $("body").append(calendar(getDates(offset), cutoff(data, offset)));
+                    break;
+                case "2":
+                    $("body").append(calendar(getDates(offset), compact(data, offset)));
+                    break;
+                default:
+                    $("body").append(calendar(getDates(offset), full(data, offset)));
+            }
         }
         resizeCalendar();
         shows((offset == 0) ? "storage" : "past");
@@ -267,6 +270,34 @@ function shows(storage) {
     $("#show-js").remove();
     $('html').append('<script id="show-js" src="js/show.min.js"></script>');
 }
+function full(times, offset) {
+    const shows = JSON.parse(localStorage.getItem('shows'));
+    const data = JSON.parse(localStorage.getItem((offset == 0) ? "storage" : "past"));
+    let output = [];
+    for (let time in times) {
+        if (!(times[time].includes("00") || times[time].includes("30"))) {
+            for (let show in shows) {
+                if (show in data) {
+                    if (data[show].time.includes("00") || data[show].time.includes("30")) {
+                        delete shows[show];
+                    }
+                    else if (times[time] == data[show].time) {
+                        output.push(times[time]);
+                        delete shows[show];
+                        break;
+                    }
+                }
+                else {
+                    delete shows[show];
+                }
+            }
+        }
+        else {
+            output.push(times[time]);
+        }
+    }
+    return output;
+}
 function minMax(t1, t2) {
     if (new Date("2000/1/1 " + t1) < new Date("2000/1/1 " + t2)) {
         return [t1, t2];
@@ -274,8 +305,8 @@ function minMax(t1, t2) {
     return [t2, t1];
 }
 function cutoff(times, offset) {
-    let shows = JSON.parse(localStorage.getItem('shows'));
-    let data = JSON.parse(localStorage.getItem((offset == 0) ? "storage" : "past"));
+    const shows = JSON.parse(localStorage.getItem('shows'));
+    const data = JSON.parse(localStorage.getItem((offset == 0) ? "storage" : "past"));
     let max = "12:00 AM";
     let min = "11:59 PM";
     switch (shows.length) {
@@ -284,32 +315,55 @@ function cutoff(times, offset) {
         case 1:
             return data[Object.keys(shows)[0]].time;
         default:
-            Object.keys(shows).forEach(async function (show) {
+            for (let show in shows) {
                 if (show in data) {
                     max = minMax(max, data[show].time)[1];
                     min = minMax(min, data[show].time)[0];
+                    if (data[show].time.includes("00") || data[show].time.includes("30")) {
+                        delete shows[show];
+                    }
                 }
-            });
+                else {
+                    delete shows[show];
+                }
+            }
     }
-    for (const [index, time] of times.entries()) {
-        if (min == time) {
-            min = index;
+    let output = [];
+    let bool = false;
+    for (let time in times) {
+        if (min == times[time]) {
+            output.push(times[time]);
+            bool = true;
         }
-        if (max == time) {
-            max = index + 1;
+        else if (max == times[time]) {
+            output.push(times[time]);
             break;
         }
+        else if (bool) {
+            if (times[time].includes("00") || times[time].includes("30")) {
+                output.push(times[time]);
+            }
+            else {
+                for (let show in shows) {
+                    if (times[time] == data[show].time) {
+                        output.push(times[time]);
+                        delete shows[show];
+                        break;
+                    }
+                }
+            }
+        }
     }
-    return times.slice(min, max);
+    return output;
 }
 function compact(times, offset) {
-    let data = JSON.parse(localStorage.getItem((offset == 0) ? "storage" : "past"));
-    var times_comp = [];
+    const data = JSON.parse(localStorage.getItem((offset == 0) ? "storage" : "past"));
     const shows = JSON.parse(localStorage.getItem('shows'));
+    let output = [];
     for (let time in times) {
         for (let show in shows) {
             if (show in data && data[show].time == times[time]) {
-                times_comp.push(times[time]);
+                output.push(times[time]);
                 delete shows[show];
                 break;
             }
@@ -321,8 +375,7 @@ function compact(times, offset) {
             break;
         }
     }
-    $("body").append(calendar(getDates(offset), times_comp));
-    resizeCalendar();
+    return output;
 }
 function resizeCalendar() {
     if (Object.keys($("#show")).length != 0 && $('#info')[0].value == "0") {
