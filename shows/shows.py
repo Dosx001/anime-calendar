@@ -75,13 +75,14 @@ class shows:
                 for stream in getTitle:
                     if stream in self.new[show]['streams']:
                         title = getTitle[stream](self.new[show]['streams'][stream])
-                        while title != unescape(title):
-                            title = unescape(title)
-                        try:
-                            self.new[show]['streams'].pop("Netflix")
-                        except KeyError:
-                            pass
-                        break
+                        if title != None:
+                            while title != unescape(title):
+                                title = unescape(title)
+                            try:
+                                self.new[show]['streams'].pop("Netflix")
+                            except KeyError:
+                                pass
+                            break
                 else:
                     print(show)
                     print(self.new[show]['streams'])
@@ -185,3 +186,14 @@ class shows:
                         Bools[1] = True
             elif "</script>" in line:
                 Bools[0] = True
+
+    def rebase(self):
+        for show in self.changes:
+            self.shows[self.keys[show]]['streams'] = self.changes[show]['streams']
+        with open('shows.json', 'w') as file:
+            json.dump(self.shows, file, separators=(',', ':'))
+        with open('indent.json', 'w') as file:
+            json.dump(self.shows, file, indent = 4)
+
+
+
