@@ -22,6 +22,8 @@ class shows:
                 day = line[77:-6]
             elif "show-air-time" in line:
                 time = line[32:-8]
+                if len(time) == 9:
+                    time = time[1::]
                 if time[0] == "0":
                     time = time[1::]
             elif 'show-poster' in line and not 'lazy' in line:

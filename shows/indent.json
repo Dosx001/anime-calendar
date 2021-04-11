@@ -109,7 +109,7 @@
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kyuukyoku-shinkashita-full-dive-rpg-ga-genjitsu-yori-mo-kusoge-dattara-37a7b0993c.jpg",
         "streams": {
             "AnimeLab": "https://www.animelab.com/shows/full-dive-this-ultimate-next-gen-full-dive-rpg-is-even-shittier-than-real-life",
-            "Funimation": "https://www.funimation.com/shows/full-dive-this-ultimate-nextgen-full-dive-rpg-is-even-shittier-than-real-life/",
+            "Funimation": "https://www.funimation.com/shows/full-dive-this-ultimate-next-gen-full-dive-rpg-is-even-shittier-than-real-life/",
             "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1293"
         }
     },
@@ -123,7 +123,7 @@
         }
     },
     "Hetalia": {
-        "day": "Wednesday",
+        "day": "Thursday",
         "time": "9:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/hetalia-world-stars-a339fd0555.jpg",
         "streams": {
@@ -316,12 +316,6 @@
             "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1bLUFrbGuwsVRTjgIvhVzS"
         }
     },
-    "The Way of the Househusband": {
-        "day": "Wednesday",
-        "time": "5:01 PM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/gokushufudou-792de7cd7e.jpg",
-        "streams": {}
-    },
     "Fairy Ranmaru": {
         "day": "Thursday",
         "time": "8:00 AM",
@@ -385,7 +379,7 @@
     },
     "86: Eighty Six": {
         "day": "Saturday",
-        "time": "8:00 AM",
+        "time": "9:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/86-eighty-six-ce79951318.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/86-eighty-six"
@@ -401,7 +395,7 @@
     },
     "Battle Athletes Victory ReSTART!": {
         "day": "Saturday",
-        "time": "9:30 AM",
+        "time": "9:31 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/battle-athletes-daiundoukai-restart-b67f033d45.jpg",
         "streams": {
             "AnimeLab": "https://www.animelab.com/shows/battle-athletes-victory-restart",
@@ -411,7 +405,7 @@
     },
     "Tokyo Revengers": {
         "day": "Saturday",
-        "time": "10:08 AM",
+        "time": "12:00 PM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/tokyo-revengers-e5301eeec9.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/tokyo-revengers",
@@ -437,7 +431,7 @@
         }
     },
     "Edens Zero": {
-        "day": "Monday",
+        "day": "Sunday",
         "time": "8:55 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/edens-zero-cf6bc3b3a3.jpg",
         "streams": {}
@@ -477,17 +471,6 @@
             "VRV": "https://vrv.co/series/G4PH0WPV2/ODDTAXI"
         }
     },
-    "SD Gundam World Heroes": {
-        "day": "Thursday",
-        "time": "3:01 AM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/sd-gundam-world-heroes-797fe089f4.jpg",
-        "streams": {
-            "AnimeLab": "https://www.animelab.com/shows/sd-gundam-world-heroes",
-            "Crunchyroll": "https://www.crunchyroll.com/sd-gundam-world-heroes",
-            "Funimation": "https://www.funimation.com/shows/sd-gundam-world-heroes/",
-            "VRV": "https://vrv.co/series/G9VHN9W0V/SD-GUNDAM-WORLD-HEROES"
-        }
-    },
     "Zombie Land Saga": {
         "day": "Thursday",
         "time": "8:30 AM",
@@ -519,5 +502,39 @@
             "Funimation": "https://www.funimation.com/shows/ssssdynazenon/",
             "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1265"
         }
+    },
+    "To Your Eternity": {
+        "day": "Monday",
+        "time": "6:50 AM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/fumetsu-no-anata-e-ebc840a035.jpg",
+        "streams": {
+            "Crunchyroll": "https://www.crunchyroll.com/to-your-eternity"
+        }
+    },
+    "Osamake: Romcom Where The Childhood Friend Won't Lose": {
+        "day": "Wednesday",
+        "time": "5:00 AM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/osananajimi-ga-zettai-ni-makenai-love-comedy-237368e3fc.jpg",
+        "streams": {
+            "Crunchyroll": "https://www.crunchyroll.com/osamake-romcom-where-the-childhood-friend-wont-lose"
+        }
+    },
+    "Cestvs: The Roman Fighter": {
+        "day": "Wednesday",
+        "time": "9:55 AM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/cestvs-the-roman-fighter-ab521664f7.jpg",
+        "streams": {}
+    },
+    "clean": {
+        "day": "Thursday",
+        "time": "5:00 PM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/detective-conan-movie-24-hiiro-no-dangan-a9c7f609a4.jpg",
+        "streams": {}
+    },
+    "Welcome to Demon School! Iruma-kun": {
+        "day": "Saturday",
+        "time": "1:35 AM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/mairimashita-iruma-kun-2-2776567891.jpg",
+        "streams": {}
     }
 }
