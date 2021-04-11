@@ -6,8 +6,10 @@ def main():
     sh.html()
     if len(argv) == 1:
         sh.update()
+    elif argv[1] == "n":
+        sh.rename()
     else:
-        sh.rebase()
+        sh.updateStreams()
 
 if __name__ == "__main__":
     main()

@@ -1,14 +1,14 @@
-import json
 from time import strftime, strptime
-from os import popen, system
+from json import dump, load
 from html import unescape
+from os import popen, system
 
 class shows:
     def __init__(self):
         with open('shows.json') as f:
-            self.shows = json.load(f)
+            self.shows = load(f)
         with open('keys.json') as f:
-            self.keys = json.load(f)
+            self.keys = load(f)
         self.static = {}
         self.changes = {}
         self.new = {}
@@ -45,8 +45,6 @@ class shows:
                 streams = {}
                 if title in self.keys:
                     try:
-                        if title == "Yami Shibai 8":
-                            content['streams'].pop("Funimation")
                         content['streams'].pop("Netflix")
                     except KeyError:
                         pass
@@ -87,16 +85,15 @@ class shows:
                     print(show)
                     print(self.new[show]['streams'])
                     In = input('title? ')
-                    if In != "":
-                        title = In
+                    title = In if In != "" else show
                 self.shows.update({title: self.new[show]})
                 self.keys.update({show: title})
             with open('keys.json', 'w') as file:
-                json.dump(self.keys, file, indent=4)
+                dump(self.keys, file, indent = 4)
             with open('shows.json', 'w') as file:
-                json.dump(self.shows, file, separators=(',', ':'))
+                dump(self.shows, file, separators=(',', ':'))
             with open('indent.json', 'w') as file:
-                json.dump(self.shows, file, indent = 4)
+                dump(self.shows, file, indent = 4)
             self.time()
 
     def time(self):
@@ -121,8 +118,7 @@ class shows:
         self.getTimes(times)
         output.update({"cutoff": times})
         with open('time.json', 'w') as file:
-            json.dump(output, file,separators=(',', ':'))
-
+            dump(output, file,separators=(',', ':'))
 
     def getTimes(self, times):
         for i in range(len(times)):
@@ -187,13 +183,24 @@ class shows:
             elif "</script>" in line:
                 Bools[0] = True
 
-    def rebase(self):
+    def updateStreams(self):
         for show in self.changes:
             self.shows[self.keys[show]]['streams'] = self.changes[show]['streams']
         with open('shows.json', 'w') as file:
-            json.dump(self.shows, file, separators=(',', ':'))
+            dump(self.shows, file, separators=(',', ':'))
         with open('indent.json', 'w') as file:
-            json.dump(self.shows, file, indent = 4)
+            dump(self.shows, file, indent = 4)
 
-
-
+    def rename(self):
+        with open('names.json') as f:
+            names = load(f)
+        for name in names:
+            if names[name] != self.keys[name]:
+                self.shows.update({names[name] : self.shows.pop(self.keys[name])})
+                self.keys[name] = names[name]
+        with open('keys.json', 'w') as file:
+            dump(self.keys, file, indent = 4)
+        with open('shows.json', 'w') as file:
+            dump(self.shows, file, separators=(',', ':'))
+        with open('indent.json', 'w') as file:
+            dump(self.shows, file, indent = 4)
