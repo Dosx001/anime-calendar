@@ -391,8 +391,8 @@ function streamInfo(data, show) {
     var streams = '<table class="table table-hover"><tbody><tr><td id="title">'
         + show + '</td></tr>';
     if (Object.keys(data[show].streams).length == 0) {
-        streams += '<tr><td>Streams not available</td></tr><tr><td>'
-            + '<img id="cry"src="https://giffiles.alphacoders.com/349/34979.gif"></td></tr>';
+        streams += '<tr><td>No legal stream available</td></tr><tr><td>'
+            + '1 <a id="0" class="stream" href="#"><img class="icon" src="assets/skull.svg"> High Seas</a></td></tr>';
     }
     else {
         for (const [index, [stream, link]] of Object.entries(Object.entries(data[show].streams))) {

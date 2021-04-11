@@ -51,7 +51,9 @@ $(document).ready(function () {
 });
 function link(id) {
     if ($(id)[0] != null) {
-        window.open($(id).attr('href'));
+        if ($(id).attr('href') != "#") {
+            window.open($(id).attr('href'));
+        }
         stream();
     }
 }
