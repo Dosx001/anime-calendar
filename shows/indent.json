@@ -324,15 +324,6 @@
             "Crunchyroll": "https://www.crunchyroll.com/fairy-ranmaru"
         }
     },
-    "Backflip!!": {
-        "day": "Thursday",
-        "time": "11:15 AM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/bakuten-4914ee3f95.jpg",
-        "streams": {
-            "Crunchyroll": "https://www.crunchyroll.com/backflip",
-            "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjeBa1rZFpnIGEBtTj3iLxJ"
-        }
-    },
     "How NOT to Summon a Demon Lord": {
         "day": "Thursday",
         "time": "11:45 AM",
@@ -352,11 +343,13 @@
     },
     "The World Ends With You The Animation": {
         "day": "Friday",
-        "time": "10:25 AM",
+        "time": "10:26 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/subarashiki-kono-sekai-the-animation-c52e6a818f.jpg",
         "streams": {
             "AnimeLab": "https://www.animelab.com/shows/the-world-ends-with-you-the-animation",
-            "Funimation": "https://www.funimation.com/shows/the-world-ends-with-you-the-animation/"
+            "Funimation": "https://www.funimation.com/shows/the-world-ends-with-you-the-animation/",
+            "Hulu": "https://www.hulu.com/series/the-world-ends-with-you-the-animation-5c9578dd-588f-4b41-a861-631f58aeb89f",
+            "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Ji51XAhfhSskHMP3EnQxGur"
         }
     },
     "Blue Reflection Ray": {
@@ -431,8 +424,8 @@
         }
     },
     "Edens Zero": {
-        "day": "Sunday",
-        "time": "8:55 AM",
+        "day": "Saturday",
+        "time": "8:56 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/edens-zero-cf6bc3b3a3.jpg",
         "streams": {}
     },
@@ -505,36 +498,64 @@
     },
     "To Your Eternity": {
         "day": "Monday",
-        "time": "6:50 AM",
+        "time": "9:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/fumetsu-no-anata-e-ebc840a035.jpg",
         "streams": {
-            "Crunchyroll": "https://www.crunchyroll.com/to-your-eternity"
+            "Crunchyroll": "https://www.crunchyroll.com/to-your-eternity",
+            "VRV": "https://vrv.co/series/GG5H5XMWV/To-Your-Eternity",
+            "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgxV0mDkMNtd0TczCCvLb-N"
         }
     },
     "Osamake: Romcom Where The Childhood Friend Won't Lose": {
         "day": "Wednesday",
-        "time": "5:00 AM",
+        "time": "6:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/osananajimi-ga-zettai-ni-makenai-love-comedy-237368e3fc.jpg",
         "streams": {
-            "Crunchyroll": "https://www.crunchyroll.com/osamake-romcom-where-the-childhood-friend-wont-lose"
+            "Crunchyroll": "https://www.crunchyroll.com/osamake-romcom-where-the-childhood-friend-wont-lose",
+            "VRV": "https://vrv.co/series/G24H1N21Q/Osamake-Romcom-Where-The-Childhood-Friend-Wont-Lose",
+            "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1WTubEn3m0nfJ8ZLnLFUwq"
         }
     },
     "Cestvs: The Roman Fighter": {
         "day": "Wednesday",
-        "time": "9:55 AM",
+        "time": "11:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/cestvs-the-roman-fighter-ab521664f7.jpg",
-        "streams": {}
-    },
-    "clean": {
-        "day": "Thursday",
-        "time": "5:00 PM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/detective-conan-movie-24-hiiro-no-dangan-a9c7f609a4.jpg",
-        "streams": {}
+        "streams": {
+            "Crunchyroll": "https://www.crunchyroll.com/cestvs-the-roman-fighter-",
+            "VRV": "https://vrv.co/series/GZJH3D732/CESTVS-The-Roman-Fighter-"
+        }
     },
     "Welcome to Demon School! Iruma-kun": {
         "day": "Saturday",
         "time": "1:35 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/mairimashita-iruma-kun-2-2776567891.jpg",
+        "streams": {}
+    },
+    "SD GUNDAM WORLD HEROES": {
+        "day": "Thursday",
+        "time": "3:01 AM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/sd-gundam-world-heroes-797fe089f4.jpg",
+        "streams": {
+            "AnimeLab": "https://www.animelab.com/shows/sd-gundam-world-heroes",
+            "Crunchyroll": "https://www.crunchyroll.com/sd-gundam-world-heroes",
+            "Funimation": "https://www.funimation.com/shows/sd-gundam-world-heroes/",
+            "VRV": "https://vrv.co/series/G9VHN9W0V/SD-GUNDAM-WORLD-HEROES"
+        }
+    },
+    "Backflip!!": {
+        "day": "Thursday",
+        "time": "11:15 AM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/bakuten-4914ee3f95.jpg",
+        "streams": {
+            "Crunchyroll": "https://www.crunchyroll.com/backflip",
+            "VRV": "https://vrv.co/series/GXJHM3NEV",
+            "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjeBa1rZFpnIGEBtTj3iLxJ"
+        }
+    },
+    "BanG Dream! Episode of Roselia I: Yakusoku": {
+        "day": "Thursday",
+        "time": "5:00 PM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/bang-dream-episode-of-roselia-i-yakusoku-47030f5cec.jpg",
         "streams": {}
     }
 }
