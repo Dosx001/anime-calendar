@@ -1,3 +1,13 @@
+$DarkPurple: #27002b;
+
+@mixin box($back_color, $bord_color, $radius: null) {
+    background: $back_color;
+    border: 2px solid $bord_color;
+    @if $radius != null {
+        border-radius: $radius;
+    }
+}
+
 html {
     scroll-padding-top: 5rem;
 }

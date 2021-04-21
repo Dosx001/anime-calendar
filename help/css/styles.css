@@ -1,0 +1,28 @@
+html {
+  scroll-padding-top: 5rem;
+}
+
+body {
+  background: #181a1b;
+  padding-top: 4rem;
+  color: darkgrey;
+}
+
+nav {
+  background: black;
+}
+
+a {
+  color: purple;
+}
+a:hover {
+  color: purple;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
