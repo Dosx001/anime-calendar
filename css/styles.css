@@ -76,12 +76,10 @@ aside .input-group {
   overflow-y: auto;
 }
 
-.ui-autocomplete-input {
-  color: gray;
-}
-
 .ui-state-hover, .ui-state-active {
   background: #27002b;
+  cursor: pointer;
+  padding-left: 1rem;
 }
 
 /* Anime Calendar */
@@ -217,7 +215,9 @@ aside .input-group {
 }
 
 #search {
+  color: gray;
   background: #27002b;
+  padding-left: 5px;
 }
 
 #soon {
