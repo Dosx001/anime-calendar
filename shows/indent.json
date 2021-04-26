@@ -37,7 +37,8 @@
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/detective-conan-11d2637275.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/case-closed",
-            "Hulu": "http://www.hulu.com/case-closed"
+            "Hulu": "http://www.hulu.com/case-closed",
+            "VRV": "https://vrv.co/series/G6JQVM3ER/Case-Closed"
         }
     },
     "Kiratto Pri\u2606Chan 3": {
@@ -89,8 +90,8 @@
         }
     },
     "Godzilla Singular Point": {
-        "day": "Wednesday",
-        "time": "5:00 PM",
+        "day": "Thursday",
+        "time": "6:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/godzilla-singular-point-4468716054.jpg",
         "streams": {}
     },
@@ -321,7 +322,8 @@
         "time": "8:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/fairy-ranmaru-anata-no-kokoro-otasuke-shimasu-e5e3f80c57.jpg",
         "streams": {
-            "Crunchyroll": "https://www.crunchyroll.com/fairy-ranmaru"
+            "Crunchyroll": "https://www.crunchyroll.com/fairy-ranmaru",
+            "VRV": "https://vrv.co/series/G1XHJV873/Fairy-Ranmaru"
         }
     },
     "How NOT to Summon a Demon Lord": {
@@ -329,9 +331,7 @@
         "time": "11:45 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/isekai-maou-to-shoukan-shoujo-no-dorei-majutsu-omega-4c32a0cfe0.jpg",
         "streams": {
-            "AnimeLab": "https://www.animelab.com/shows/how-not-to-summon-a-demon-lord",
             "Crunchyroll": "https://www.crunchyroll.com/how-not-to-summon-a-demon-lord",
-            "Funimation": "https://www.funimation.com/shows/how-not-to-summon-a-demon-lord/",
             "VRV": "https://vrv.co/series/GYZJXWWGR"
         }
     },
@@ -367,7 +367,8 @@
         "time": "6:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/slime-taoshite-300-nen-shiranai-uchi-ni-level-max-ni-nattemashita-76eb46cf3f.jpg",
         "streams": {
-            "Crunchyroll": "https://www.crunchyroll.com/ive-been-killing-slimes-for-300-years-and-maxed-out-my-level"
+            "Crunchyroll": "https://www.crunchyroll.com/ive-been-killing-slimes-for-300-years-and-maxed-out-my-level",
+            "VRV": "https://vrv.co/series/GW4HM79VM/Ive-Been-Killing-Slimes-For-300-Years-And-Maxed-Out-My-Level"
         }
     },
     "86: Eighty Six": {
@@ -375,7 +376,8 @@
         "time": "9:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/86-eighty-six-ce79951318.jpg",
         "streams": {
-            "Crunchyroll": "https://www.crunchyroll.com/86-eighty-six"
+            "Crunchyroll": "https://www.crunchyroll.com/86-eighty-six",
+            "VRV": "https://vrv.co/series/GVDHX8DM5/86-EIGHTY-SIX"
         }
     },
     "Don't Toy With Me, Miss Nagatoro": {
@@ -383,7 +385,8 @@
         "time": "9:01 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/ijiranaide-nagatoro-san-398d4d18df.jpg",
         "streams": {
-            "Crunchyroll": "https://www.crunchyroll.com/dont-toy-with-me-miss-nagatoro"
+            "Crunchyroll": "https://www.crunchyroll.com/dont-toy-with-me-miss-nagatoro",
+            "VRV": "https://vrv.co/series/GQWH0M455/DONT-TOY-WITH-ME-MISS-NAGATORO"
         }
     },
     "Battle Athletes Victory ReSTART!": {
@@ -402,6 +405,7 @@
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/tokyo-revengers-e5301eeec9.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/tokyo-revengers",
+            "VRV": "https://vrv.co/series/G3KHEVMN1/Tokyo-Revengers",
             "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3F9AGKbC7iRIGeU2XosgTy"
         }
     },
@@ -527,9 +531,12 @@
     },
     "Welcome to Demon School! Iruma-kun": {
         "day": "Saturday",
-        "time": "1:35 AM",
+        "time": "4:15 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/mairimashita-iruma-kun-2-2776567891.jpg",
-        "streams": {}
+        "streams": {
+            "Crunchyroll": "https://www.crunchyroll.com/welcome-to-demon-school-iruma-kun",
+            "VRV": "https://vrv.co/series/G6NVG970Y/Welcome-to-Demon-School-Iruma-kun"
+        }
     },
     "SD GUNDAM WORLD HEROES": {
         "day": "Thursday",
@@ -552,10 +559,23 @@
             "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjeBa1rZFpnIGEBtTj3iLxJ"
         }
     },
-    "BanG Dream! Episode of Roselia I: Yakusoku": {
-        "day": "Thursday",
+    "Is It Wrong to Try to Pick Up Girls in a Dungeon?": {
+        "day": "Tuesday",
         "time": "5:00 PM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/bang-dream-episode-of-roselia-i-yakusoku-47030f5cec.jpg",
-        "streams": {}
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iii-ova-a3902ad961.jpg",
+        "streams": {
+            "AnimeLab": "https://www.animelab.com/shows/is-it-wrong-to-pick-up-girls-in-a-dungeon",
+            "HiDive": "https://www.hidive.com/movies/is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-iii-ova"
+        }
+    },
+    "Miss Kobayashi's Dragon Maid": {
+        "day": "Wednesday",
+        "time": "5:01 PM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kobayashi-san-chi-no-maid-dragon-s-mini-dragon-6e539df786.jpg",
+        "streams": {
+            "Crunchyroll": "https://www.crunchyroll.com/miss-kobayashis-dragon-maid",
+            "VRV": "https://vrv.co/series/G6497Z43Y/Miss-Kobayashis-Dragon-Maid",
+            "YouTube": "https://www.youtube.com/playlist?list=PLTNhweghpLi3c8g9OGD3fi7dZe1BqSMXD"
+        }
     }
 }
