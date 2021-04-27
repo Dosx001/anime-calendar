@@ -14,8 +14,8 @@ $(document).ready(function() {
     $(".arrow").on('click.arrow', function() {
         arrow()
     })
-    Mousetrap.bind(['n', 'p'], function(e) {
-        (e.key == 'n') ? right():left();
+    Mousetrap.bind(['n', 'p'], function(e: {key: string}) {
+        e.key == 'n' ? right():left();
         arrow()
     });
     Mousetrap.bind('r', function() {
@@ -50,7 +50,7 @@ $(document).ready(function() {
     });
 })
 
-function link(id) {
+function link(id: string) {
     if ($(id)[0] != null) {
         if ($(id).attr('href') != "#") {
             window.open($(id).attr('href'));
@@ -60,8 +60,8 @@ function link(id) {
 }
 
 function stream() {
-    var title = $("#title")[0].textContent
-    var shows = JSON.parse(localStorage.getItem("shows"))
+    var title = $("#title")[0].textContent!
+    var shows = JSON.parse(localStorage.getItem("shows")!)
     if (title in shows) {
         updateSetter(shows, title, true)
         $("#" + ider_show(title)).css({"color": "#4f4f4f"})
@@ -70,7 +70,7 @@ function stream() {
     localStorage.setItem('shows', JSON.stringify(shows))
 }
 
-function updateSetter(shows, title, Bool) {
+function updateSetter(shows: {[key: string]: boolean[]}, title: string, Bool: boolean) {
     if ($('#left')[0].style[0] == null) {
         shows[title][0] = Bool
     }
@@ -80,8 +80,8 @@ function updateSetter(shows, title, Bool) {
 }
 
 function reset() {
-    var title = $("#title")[0].textContent
-    var shows = JSON.parse(localStorage.getItem("shows"))
+    var title = $("#title")[0].textContent!
+    var shows = JSON.parse(localStorage.getItem("shows")!)
     updateSetter(shows, title, false)
     $("#" + ider_show(title)).css({"color": "purple"})
     $($('#reset')).css({"visibility": "hidden"})
@@ -89,14 +89,14 @@ function reset() {
 }
 
 function arrow() {
-    let show:any = $("#title")[0]
-    var shows = JSON.parse(localStorage.getItem("shows"))
+    let show: HTMLElement | string = $("#title")[0]
+    var shows = JSON.parse(localStorage.getItem("shows")!)
     if ($('#right')[0].style[0] != null) {
         $('#reset').css({"visibility": "hidden"})
     }
-    else if (show != null && shows != null && show.textContent in shows) {
-        show = show.textContent
-        if (($('#left')[0].style[0] == null) ? shows[show][0]:shows[show][1]) {
+    else if (show != null && shows != null && show.textContent! in shows) {
+        show = show.textContent!
+        if ($('#left')[0].style[0] == null ? shows[show][0]:shows[show][1]) {
             $('#reset').css({"visibility": "visible"})
         }
         else {
@@ -106,11 +106,11 @@ function arrow() {
 }
 
 function setter() {
-    let title = $("#title")[0].textContent
-    var shows = JSON.parse(localStorage.getItem("shows"))
-    let data = JSON.parse(localStorage.getItem("storage"))
+    let title = $("#title")[0].textContent!
+    var shows = JSON.parse(localStorage.getItem("shows")!)
+    let data = JSON.parse(localStorage.getItem("storage")!)
     if (!(title in data)) {
-        data = JSON.parse(localStorage.getItem("past"))
+        data = JSON.parse(localStorage.getItem("past")!)
     }
     if ($('.setter')[0].id == "add") {
         $('#' + ider_show(title)).css({"border-color": "#4f004f"})
@@ -127,6 +127,6 @@ function setter() {
     }
     localStorage.setItem('shows', JSON.stringify(shows))
     if ($("#list")[0].innerHTML == "Full List") {
-        ($("#left")[0].style.display == "") ? TheBigBang():TheBigBang(-7)
+        $("#left")[0].style.display == "" ? TheBigBang():TheBigBang(-7)
     }
 }

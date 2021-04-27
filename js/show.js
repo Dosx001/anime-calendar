@@ -1,3 +1,4 @@
+"use strict";
 $(document).ready(function () {
     let data = JSON.parse(localStorage.getItem("storage"));
     let past = JSON.parse(localStorage.getItem("past"));
@@ -11,13 +12,13 @@ $(document).ready(function () {
             e.preventDefault();
         }
         let title = $(this)[0].innerText;
-        (title in data) ? streamInfo(data, title) : streamInfo(past, title);
+        title in data ? streamInfo(data, title) : streamInfo(past, title);
     });
     $('#info').change(function () {
         localStorage.setItem('info', $(this)[0].value);
         if ($('#title')[0] != null) {
             let title = $('#title')[0].innerText;
-            (title in data) ? streamInfo(data, title) : streamInfo(past, title);
+            title in data ? streamInfo(data, title) : streamInfo(past, title);
         }
     });
 });

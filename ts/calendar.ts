@@ -1,10 +1,10 @@
 declare var Mousetrap: any
 
 $(function() {
-    ((document.getElementById("format")) as HTMLSelectElement).selectedIndex = parseInt(localStorage.getItem('format'));
-    ((document.getElementById("info")) as HTMLSelectElement).selectedIndex = parseInt(localStorage.getItem('info'))
+    ((document.getElementById("format")) as HTMLSelectElement).selectedIndex = parseInt(localStorage.getItem('format')!);
+    ((document.getElementById("info")) as HTMLSelectElement).selectedIndex = parseInt(localStorage.getItem('info')!)
     if (localStorage.getItem('list') != null) {
-        document.getElementById('list').innerHTML = localStorage.getItem('list')
+        document.getElementById('list')!.innerHTML = localStorage.getItem('list')!
     }
     if (localStorage.getItem('shows') == null) {
         localStorage.setItem('shows', JSON.stringify({}))
@@ -15,9 +15,9 @@ $(function() {
         set("./shows/shows.json", "storage")
         set("./shows/past_shows.json", "past")
             .then(resp => {
-                let past = JSON.parse(localStorage.getItem('past'))
-                let store = JSON.parse(localStorage.getItem('storage'))
-                let shows = JSON.parse(localStorage.getItem('shows'))
+                let past = JSON.parse(localStorage.getItem('past')!)
+                let store = JSON.parse(localStorage.getItem('storage')!)
+                let shows = JSON.parse(localStorage.getItem('shows')!)
                 for (let show in shows) {
                     if (!(show in store) || !(show in past)) {
                         delete shows[show]
@@ -120,7 +120,7 @@ function right() {
         if ($("#left")[0].style.display == "") {
             $("#right").hide();
             $('#calendar').remove()
-            document.getElementById('month').textContent = "Summer 2021"
+            document.getElementById('month')!.textContent = "Summer 2021"
             $('body').append(
                 '<div id="soon" class="content" align="center">'
                 + 'Coming Soon</div>'
@@ -134,17 +134,17 @@ function right() {
     }
 }
 
-async function set(file, key) {
+async function set(file: string, key: string) {
     const resp = await fetch(file)
     const data = await resp.json()
     localStorage.setItem(key, JSON.stringify(data))
 }
 
-function TheBigBang(offset = 0) {
+function TheBigBang(offset: number = 0) {
     $('#calendar').remove();
     updateTime()
     var option = localStorage.getItem('format')
-    fetch((offset == 0) ? "./shows/time.json":"./shows/past_time.json")
+    fetch(offset == 0 ? "./shows/time.json":"./shows/past_time.json")
         .then(function(resp) {
             return resp.json()
         })
@@ -159,7 +159,7 @@ function TheBigBang(offset = 0) {
                     default:
                         data = data['full'];
             }
-            if (localStorage.getItem('list') == "Your List" || Object.keys(JSON.parse(localStorage.getItem('shows'))).length == 0) {
+            if (localStorage.getItem('list') == "Your List" || Object.keys(JSON.parse(localStorage.getItem('shows')!)).length == 0) {
                 $("body").append(calendar(getDates(offset), data));
             }
             else {
@@ -175,19 +175,19 @@ function TheBigBang(offset = 0) {
                 }
             }
             resizeCalendar()
-            shows((offset == 0) ? "storage":"past")
+            shows(offset == 0 ? "storage":"past")
         })
 }
 
-function calendar(dates, times) {
+function calendar(dates: Date[], times: string[]) {
     var calendar = '<div id="calendar"><table>'
         + '<thead><tr><td class="date"></th>'
-    dates.forEach(async function(date) {
+    dates.forEach(async function(date: Date) {
         calendar += '<td class="date">' + date.getDate() + ' '
         calendar += date.toLocaleDateString("en-US",{ weekday: 'long' }) + '</td>'
     })
     calendar += '</tr></thead><tbody>'
-    times.forEach(async function(time) {
+    times.forEach(async function(time: string) {
         calendar += '<tr><td class="time">' + time + '</td>'
         for  (let day = 0; day < 7; day++) {
             var date = dates[day]
@@ -200,17 +200,17 @@ function calendar(dates, times) {
     calendar += '</tbody></table></div>'
     var element = document.getElementById('month');
     if (dates[0].getMonth() == dates[6].getMonth()) {
-        element.innerHTML = dates[0].toLocaleDateString("en-US",{ month: 'long' })
+        element!.innerHTML = dates[0].toLocaleDateString("en-US",{ month: 'long' })
     }
     else {
-        element.innerHTML = dates[0].toLocaleDateString("en-US",{ month: 'long' })
+        element!.innerHTML = dates[0].toLocaleDateString("en-US",{ month: 'long' })
             + " to "
             + dates[6].toLocaleDateString("en-US",{ month: 'long' })
     }
     return calendar
 }
 
-function getDates(offset = 0) {
+function getDates(offset: number = 0) {
     var dates = []
     var date = new Date();
     var day = date.getDate();
@@ -245,8 +245,9 @@ function getDates(offset = 0) {
     return dates
 }
 
-function ider_slot(day, time) {
-    const days = {Monday:1, Tuesday:2, Wednesday:3, Thursday:4, Friday:5, Saturday:6, Sunday:7}
+function ider_slot(day: string, time: string) {
+    const days: {[key: string]: number } = {"Monday":1, "Tuesday":2, "Wednesday":3, "Thursday":4,
+        "Friday":5, "Saturday":6, "Sunday":7}
     var id = days[day] * 10000
     if (time.substring(1,2) == ":") {
         id += parseInt(time.substring(0,1)) * 100
@@ -258,19 +259,19 @@ function ider_slot(day, time) {
     return id + time.substring(6,7)
 }
 
-function ider_show(title) {
+function ider_show(title: string) {
     let words = title.split(" ")
     return title.length + words.length.toString() + words[words.length - 1].replace(/\W/g, '')
 }
 
-function shows(storage) {
-    let data = JSON.parse(localStorage.getItem(storage))
-    const shows = JSON.parse(localStorage.getItem("shows"))
-    for (let show in (document.getElementById('list').innerHTML == "Your List") ? data:shows) {
+function shows(storage: string) {
+    let data = JSON.parse(localStorage.getItem(storage)!)
+    const shows = JSON.parse(localStorage.getItem("shows")!)
+    for (let show in (document.getElementById('list')!.innerHTML == "Your List") ? data:shows) {
         if (show in data) {
-            let style:string
+            let style = ""
             if (shows != null && show in shows) {
-                if (($('#left')[0].style[0] == null) ? shows[show][0]:shows[show][1]) {
+                if ($('#left')[0].style[0] == null ? shows[show][0]:shows[show][1]) {
                     style = ' style="border-color: #4f004f; color: #4f4f4f;" '
                 }
                 else {
@@ -289,8 +290,8 @@ function shows(storage) {
 }
 
 function full(times: string[], offset: number) {
-    const shows = JSON.parse(localStorage.getItem('shows'))
-    const data = JSON.parse(localStorage.getItem((offset == 0) ? "storage":"past"))
+    const shows = JSON.parse(localStorage.getItem('shows')!)
+    const data = JSON.parse(localStorage.getItem(offset == 0 ? "storage":"past")!)
     let output: string[] = []
     for (let time in times) {
         if (!(times[time].includes("00") || times[time].includes("30"))) {
@@ -325,8 +326,8 @@ function minMax(t1: string, t2: string) {
 }
 
 function cutoff(times: string[], offset: number) {
-    const shows = JSON.parse(localStorage.getItem('shows'))
-    const data = JSON.parse(localStorage.getItem((offset == 0) ? "storage":"past"))
+    const shows = JSON.parse(localStorage.getItem('shows')!)
+    const data = JSON.parse(localStorage.getItem(offset == 0 ? "storage":"past")!)
     let max: any = "12:00 AM"
     let min: any = "11:59 PM"
     switch (shows.length) {
@@ -378,8 +379,8 @@ function cutoff(times: string[], offset: number) {
 }
 
 function compact(times: string[], offset: number) {
-    const data = JSON.parse(localStorage.getItem((offset == 0) ? "storage":"past"))
-    const shows = JSON.parse(localStorage.getItem('shows'))
+    const data = JSON.parse(localStorage.getItem(offset == 0 ? "storage":"past")!)
+    const shows = JSON.parse(localStorage.getItem('shows')!)
     let output: string[] = []
     for (let time in times) {
         for (let show in shows) {
@@ -408,7 +409,16 @@ function resizeCalendar() {
     }
 }
 
-function streamInfo(data, show) {
+interface Shows {
+    [key: string]: {
+        day: string,
+        time: string,
+        cover: string,
+        streams: {[key: string]: string}
+    }
+}
+
+function streamInfo(data: Shows, show: string) {
     $("#show").remove()
     $('.arrow').off('click.arrow')
     var streams = '<table class="table table-hover"><tbody><tr><td id="title">'
@@ -459,8 +469,8 @@ function streamInfo(data, show) {
             streams += ' ' + stream + '</a></td>'
         }
     }
-    var shows = JSON.parse(localStorage.getItem('shows'))
-    const but = (show in shows) ?
+    var shows = JSON.parse(localStorage.getItem('shows')!)
+    const but = show in shows ?
         '<button id="sub" class="setter">Remove from Your List</button>':
         '<button id="add" class="setter">Add to Your List</button>'
     const reset = (show in shows && (($('#left')[0].style[0] == null) ?
@@ -525,9 +535,9 @@ Date.prototype.getWeek = function() {
 }
 
 function updateTime() {
-    const time = JSON.parse(localStorage.getItem("time"))
+    const time = JSON.parse(localStorage.getItem("time")!)
     if (time != null) {
-        var shows = JSON.parse(localStorage.getItem("shows"))
+        var shows = JSON.parse(localStorage.getItem("shows")!)
         var now:any = new Date()
         now = [now.getWeek(), now.getFullYear()]
         if ((now[0] - time[0] == 1 && now[1] == time[1]) ||

@@ -1,3 +1,4 @@
+"use strict";
 $(document).ready(function () {
     $(".setter").click(function () {
         setter();
@@ -15,7 +16,7 @@ $(document).ready(function () {
         arrow();
     });
     Mousetrap.bind(['n', 'p'], function (e) {
-        (e.key == 'n') ? right() : left();
+        e.key == 'n' ? right() : left();
         arrow();
     });
     Mousetrap.bind('r', function () {
@@ -91,7 +92,7 @@ function arrow() {
     }
     else if (show != null && shows != null && show.textContent in shows) {
         show = show.textContent;
-        if (($('#left')[0].style[0] == null) ? shows[show][0] : shows[show][1]) {
+        if ($('#left')[0].style[0] == null ? shows[show][0] : shows[show][1]) {
             $('#reset').css({ "visibility": "visible" });
         }
         else {
@@ -121,6 +122,6 @@ function setter() {
     }
     localStorage.setItem('shows', JSON.stringify(shows));
     if ($("#list")[0].innerHTML == "Full List") {
-        ($("#left")[0].style.display == "") ? TheBigBang() : TheBigBang(-7);
+        $("#left")[0].style.display == "" ? TheBigBang() : TheBigBang(-7);
     }
 }

@@ -1,3 +1,4 @@
+"use strict";
 $(function () {
     (document.getElementById("format")).selectedIndex = parseInt(localStorage.getItem('format'));
     (document.getElementById("info")).selectedIndex = parseInt(localStorage.getItem('info'));
@@ -133,7 +134,7 @@ function TheBigBang(offset = 0) {
     $('#calendar').remove();
     updateTime();
     var option = localStorage.getItem('format');
-    fetch((offset == 0) ? "./shows/time.json" : "./shows/past_time.json")
+    fetch(offset == 0 ? "./shows/time.json" : "./shows/past_time.json")
         .then(function (resp) {
         return resp.json();
     })
@@ -164,7 +165,7 @@ function TheBigBang(offset = 0) {
             }
         }
         resizeCalendar();
-        shows((offset == 0) ? "storage" : "past");
+        shows(offset == 0 ? "storage" : "past");
     });
 }
 function calendar(dates, times) {
@@ -232,7 +233,8 @@ function getDates(offset = 0) {
     return dates;
 }
 function ider_slot(day, time) {
-    const days = { Monday: 1, Tuesday: 2, Wednesday: 3, Thursday: 4, Friday: 5, Saturday: 6, Sunday: 7 };
+    const days = { "Monday": 1, "Tuesday": 2, "Wednesday": 3, "Thursday": 4,
+        "Friday": 5, "Saturday": 6, "Sunday": 7 };
     var id = days[day] * 10000;
     if (time.substring(1, 2) == ":") {
         id += parseInt(time.substring(0, 1)) * 100;
@@ -252,9 +254,9 @@ function shows(storage) {
     const shows = JSON.parse(localStorage.getItem("shows"));
     for (let show in (document.getElementById('list').innerHTML == "Your List") ? data : shows) {
         if (show in data) {
-            let style;
+            let style = "";
             if (shows != null && show in shows) {
-                if (($('#left')[0].style[0] == null) ? shows[show][0] : shows[show][1]) {
+                if ($('#left')[0].style[0] == null ? shows[show][0] : shows[show][1]) {
                     style = ' style="border-color: #4f004f; color: #4f4f4f;" ';
                 }
                 else {
@@ -272,7 +274,7 @@ function shows(storage) {
 }
 function full(times, offset) {
     const shows = JSON.parse(localStorage.getItem('shows'));
-    const data = JSON.parse(localStorage.getItem((offset == 0) ? "storage" : "past"));
+    const data = JSON.parse(localStorage.getItem(offset == 0 ? "storage" : "past"));
     let output = [];
     for (let time in times) {
         if (!(times[time].includes("00") || times[time].includes("30"))) {
@@ -306,7 +308,7 @@ function minMax(t1, t2) {
 }
 function cutoff(times, offset) {
     const shows = JSON.parse(localStorage.getItem('shows'));
-    const data = JSON.parse(localStorage.getItem((offset == 0) ? "storage" : "past"));
+    const data = JSON.parse(localStorage.getItem(offset == 0 ? "storage" : "past"));
     let max = "12:00 AM";
     let min = "11:59 PM";
     switch (shows.length) {
@@ -357,7 +359,7 @@ function cutoff(times, offset) {
     return output;
 }
 function compact(times, offset) {
-    const data = JSON.parse(localStorage.getItem((offset == 0) ? "storage" : "past"));
+    const data = JSON.parse(localStorage.getItem(offset == 0 ? "storage" : "past"));
     const shows = JSON.parse(localStorage.getItem('shows'));
     let output = [];
     for (let time in times) {
@@ -437,7 +439,7 @@ function streamInfo(data, show) {
         }
     }
     var shows = JSON.parse(localStorage.getItem('shows'));
-    const but = (show in shows) ?
+    const but = show in shows ?
         '<button id="sub" class="setter">Remove from Your List</button>' :
         '<button id="add" class="setter">Add to Your List</button>';
     const reset = (show in shows && (($('#left')[0].style[0] == null) ?
