@@ -82,7 +82,7 @@
     },
     "Kingdom": {
         "day": "Sunday",
-        "time": "11:45 AM",
+        "time": "11:40 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kingdom-3-beb4b97fb8.jpg",
         "streams": {
             "AnimeLab": "https://www.animelab.com/shows/kingdom",
@@ -559,18 +559,9 @@
             "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjeBa1rZFpnIGEBtTj3iLxJ"
         }
     },
-    "Is It Wrong to Try to Pick Up Girls in a Dungeon?": {
-        "day": "Tuesday",
-        "time": "5:00 PM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/dungeon-ni-deai-wo-motomeru-no-wa-machigatteiru-darou-ka-iii-ova-a3902ad961.jpg",
-        "streams": {
-            "AnimeLab": "https://www.animelab.com/shows/is-it-wrong-to-pick-up-girls-in-a-dungeon",
-            "HiDive": "https://www.hidive.com/movies/is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-iii-ova"
-        }
-    },
     "Miss Kobayashi's Dragon Maid": {
         "day": "Wednesday",
-        "time": "5:01 PM",
+        "time": "2:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kobayashi-san-chi-no-maid-dragon-s-mini-dragon-6e539df786.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/miss-kobayashis-dragon-maid",

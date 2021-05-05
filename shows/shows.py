@@ -17,43 +17,47 @@ class shows:
         with open('code.html') as f:
             source = f.readlines()
         streams = {}
+        check = False
         for line in source:
             if "timetable-column-day" in line:
                 day = line[170:-13]
-            elif "show-air-time" in line:
-                time = line[32:-8]
-                if len(time) == 9:
-                    time = time[1::]
-                if time[0] == "0":
-                    time = time[1::]
-            elif 'show-poster' in line and not 'lazy' in line:
-                cover = line.split()[1][5:-12]
-                if cover[-3::] != "jpg":
-                    cover = cover[0:-4]
-            elif 'class="stream-link"' in line and 'title' in line:
-                stream = line.split()
-                streams.update({stream[6][7:-1]:stream[1][6:-1]})
-            elif "show-title-bar" in line:
-                title = line.split()[1::]
-                title[0] = title[0][23::]
-                title[-1] = title[-1][0:-5]
-                title = unescape(" ".join(title))
-                content = {
-                    'day': day,
-                    'time': time,
-                    'cover': cover,
-                    'streams': dict(sorted(streams.items(), key = lambda show: show[0]))
-                }
-                streams = {}
-                if title in self.keys:
-                    if "Netflix" in content['streams']:
-                        content['streams'].pop("Netflix")
-                    if self.shows[self.keys[title]] == content:
-                        self.static.update({title: None})
+            elif "timetable-column-show" in line:
+                check = False if "hide" in line else True
+            if check:
+                if "show-air-time" in line:
+                    time = line[32:-8]
+                    if len(time) == 9:
+                        time = time[1::]
+                    if time[0] == "0":
+                        time = time[1::]
+                elif 'show-poster' in line and not 'lazy' in line:
+                    cover = line.split()[1][5:-12]
+                    if cover[-3::] != "jpg":
+                        cover = cover[0:-4]
+                elif 'class="stream-link"' in line and 'title' in line:
+                    stream = line.split()
+                    streams.update({stream[6][7:-1]:stream[1][6:-1]})
+                elif "show-title-bar" in line and not "OVA" in line:
+                    title = line.split()[1::]
+                    title[0] = title[0][23::]
+                    title[-1] = title[-1][0:-5]
+                    title = unescape(" ".join(title))
+                    content = {
+                        'day': day,
+                        'time': time,
+                        'cover': cover,
+                        'streams': dict(sorted(streams.items(), key = lambda show: show[0]))
+                    }
+                    streams = {}
+                    if title in self.keys:
+                        if "Netflix" in content['streams']:
+                            content['streams'].pop("Netflix")
+                        if self.shows[self.keys[title]] == content:
+                            self.static.update({title: None})
+                        else:
+                            self.changes.update({title: content})
                     else:
-                        self.changes.update({title: content})
-                else:
-                    self.new.update({title: content})
+                        self.new.update({title: content})
 
     def update(self):
         if len(self.changes) != 0 or len(self.new) != 0 or len(self.static) != len(self.keys):
