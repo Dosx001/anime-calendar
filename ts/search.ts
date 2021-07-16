@@ -15,7 +15,7 @@ $(document).ready(function() {
     });
     let data = JSON.parse(localStorage.getItem("storage")!)
     let past = JSON.parse(localStorage.getItem("past")!)
-    $("#search").on("autocompleteselect", function(event, ui) {
+    $("#search").on("autocompleteselect", function(_event, ui) {
         let title = ui.item.value;
         title in data ? streamInfo(data, title):streamInfo(past, title)
         ui.item.value = ""
