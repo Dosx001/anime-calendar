@@ -13,7 +13,7 @@ $(function () {
         localStorage.setItem('ver', VERSION);
         set("./shows/shows.json", "storage");
         set("./shows/past_shows.json", "past")
-            .then(resp => {
+            .then(function () {
             let past = JSON.parse(localStorage.getItem('past'));
             let store = JSON.parse(localStorage.getItem('storage'));
             let shows = JSON.parse(localStorage.getItem('shows'));
