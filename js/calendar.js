@@ -496,10 +496,10 @@ Date.prototype.getWeek = function () {
 };
 function updateTime() {
     const time = JSON.parse(localStorage.getItem("time"));
+    var now = new Date();
+    now = [now.getWeek(), now.getFullYear()];
     if (time != null) {
         var shows = JSON.parse(localStorage.getItem("shows"));
-        var now = new Date();
-        now = [now.getWeek(), now.getFullYear()];
         if ((now[0] - time[0] == 1 && now[1] == time[1]) ||
             (now[1] - time[1] == 1 && now[0] == 52)) {
             for (let show in shows) {
@@ -511,7 +511,7 @@ function updateTime() {
                 [shows[show][0], shows[show][1]] = [false, false];
             }
         }
-        localStorage.setItem('time', JSON.stringify(now));
         localStorage.setItem('shows', JSON.stringify(shows));
     }
+    localStorage.setItem('time', JSON.stringify(now));
 }
