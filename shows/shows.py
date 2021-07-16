@@ -4,7 +4,8 @@ from html import unescape
 from os import popen, system
 
 class shows:
-    def __init__(self):
+    def __init__(self, driver = None):
+        self.driver = driver
         with open('shows.json') as f:
             self.shows = load(f)
         with open('keys.json') as f:
@@ -69,26 +70,31 @@ class shows:
                     self.shows.pop(self.keys.pop(show))
             getTitle = {
                 'AnimeLab': lambda url: self.AnimeLab(url),
-                #'Crunchyroll': lambda url: self.Crunchyroll(url),
+                'Crunchyroll': lambda url: self.Crunchyroll(url),
+                'Funimation': lambda url: self.Funimation(url),
                 'HiDive': lambda url: self.HiDive(url),
-                'VRV': lambda url: self.VRV(url),
                 'Netflix': lambda url: self.Netflix(url),
+                'VRV': lambda url: self.VRV(url),
+                'Wakanim': lambda url: self.Wakanim(url)
             }
             for show in self.new:
+                lastResort = {'Crunchyroll': False, 'Wakanim': False, 'Funimation': False}
                 for stream in self.new[show]['streams']:
-                    if stream in getTitle:
-                        title = getTitle[stream](self.new[show]['streams'][stream])
-                        if title != None:
-                            while title != unescape(title):
-                                title = unescape(title)
-                            if stream == "Netflix":
-                                self.new[show]['streams'].pop("Netflix")
-                            break
+                    if stream in lastResort:
+                        lastResort[stream] = True
+                    elif stream in getTitle:
+                        title = self.show(getTitle, show, stream)
+                        break
                 else:
-                    print(show)
-                    print(self.new[show]['streams'])
-                    In = input('title? ')
-                    title = In if In != "" else show
+                    for stream in lastResort:
+                        if lastResort[stream]:
+                            title = self.show(getTitle, show, stream)
+                            break
+                    else:
+                        print(show)
+                        print(self.new[show]['streams'])
+                        In = input('title? ')
+                        title = In if In != "" else show
                 self.shows.update({title: self.new[show]})
                 self.keys.update({show: title})
             with open('keys.json', 'w') as file:
@@ -98,6 +104,15 @@ class shows:
             with open('indent.json', 'w') as file:
                 dump(self.shows, file, indent = 4)
             self.time()
+
+    def show(self, getTitle, show, stream):
+        title = getTitle[stream](self.new[show]['streams'][stream])
+        if title != None:
+            while title != unescape(title):
+                title = unescape(title)
+            if stream == "Netflix":
+                self.new[show]['streams'].pop("Netflix")
+        return title
 
     def time(self):
         output = {}
@@ -145,9 +160,19 @@ class shows:
                 Bools[0] = True
 
     def Crunchyroll(self, url):
-        for line in self.getData(url):
-            if "title" in line:
-                return line[70:-10]
+        self.driver.get(url)
+        ele = self.driver.find_element_by_class_name("ch-left")
+        return ele.find_element_by_tag_name("span").text
+
+    def Funimation(self, url):
+        self.driver.get(url)
+        self.driver.implicitly_wait(2)
+        while True:
+            try:
+                ele = self.driver.find_element_by_class_name("text-md-h1")
+                return ele.text
+            except:
+                pass
 
     def HiDive(self, url):
         for line in self.getData(url):
@@ -185,6 +210,11 @@ class shows:
                         Bools[1] = True
             elif "</script>" in line:
                 Bools[0] = True
+
+    def Wakanim(self, url):
+        self.driver.get(url)
+        ele = self.driver.find_element_by_class_name("SerieHeader-thumb")
+        return ele.get_attribute("alt")
 
     def updateStreams(self):
         for show in self.changes:
