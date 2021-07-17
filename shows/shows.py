@@ -18,21 +18,24 @@ class shows:
         with open('code.html') as f:
             source = f.readlines()
         streams = {}
-        check = False
+        check = [False, False]
         for line in source:
             if "timetable-column-day" in line:
                 day = line[170:-13]
             elif "timetable-column-show" in line:
-                check = False if "hide" in line else True
-            if check:
+                check[0] = False if "hide" in line else True
+            if check[1]:
+                time = line[4:-1]
+                if len(time) == 9:
+                    time = time[1::]
+                if time[0] == "0":
+                    time = time[1::]
+                check[1] = False
+            elif check[0]:
                 if "show-air-time" in line:
-                    time = line[32:-8]
-                    if len(time) == 9:
-                        time = time[1::]
-                    if time[0] == "0":
-                        time = time[1::]
+                    check[1] = True
                 elif 'show-poster' in line and not 'lazy' in line:
-                    cover = line.split()[1][5:-12]
+                    cover = line.split()[2][5:-12]
                     if cover[-3::] != "jpg":
                         cover = cover[0:-4]
                 elif 'class="stream-link"' in line and 'title' in line:
