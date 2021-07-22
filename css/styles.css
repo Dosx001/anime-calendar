@@ -27,10 +27,6 @@ button:focus {
   outline: none;
 }
 
-td {
-  width: 10rem;
-}
-
 aside {
   position: fixed;
   margin-top: 4rem;
@@ -41,6 +37,28 @@ aside button, aside a {
 }
 aside #title {
   line-height: 2rem;
+}
+
+li {
+  background: black;
+  color: purple;
+  border: 2px solid gray;
+  border-radius: 10px;
+  margin: 5px;
+  width: 90%;
+  cursor: grab;
+  list-style-type: none;
+}
+
+ul {
+  background: black;
+  border: 2px solid gray;
+  border-radius: 10px;
+  width: 90%;
+}
+
+td {
+  width: 10rem;
 }
 
 /* Bootstrap */
