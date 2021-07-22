@@ -81,23 +81,15 @@ class shows:
                 'Wakanim': lambda url: self.Wakanim(url)
             }
             for show in self.new:
-                lastResort = {'Crunchyroll': False, 'Wakanim': False, 'Funimation': False}
                 for stream in self.new[show]['streams']:
-                    if stream in lastResort:
-                        lastResort[stream] = True
-                    elif stream in getTitle:
+                    if stream in getTitle:
                         title = self.show(getTitle, show, stream)
                         break
                 else:
-                    for stream in lastResort:
-                        if lastResort[stream]:
-                            title = self.show(getTitle, show, stream)
-                            break
-                    else:
-                        print(show)
-                        print(self.new[show]['streams'])
-                        In = input('title? ')
-                        title = In if In != "" else show
+                    print(show)
+                    print(self.new[show]['streams'])
+                    In = input('title? ')
+                    title = In if In != "" else show
                 self.shows.update({title: self.new[show]})
                 self.keys.update({show: title})
             with open('keys.json', 'w') as file:
@@ -169,7 +161,6 @@ class shows:
 
     def Funimation(self, url):
         self.driver.get(url)
-        self.driver.implicitly_wait(2)
         while True:
             try:
                 ele = self.driver.find_element_by_class_name("text-md-h1")
