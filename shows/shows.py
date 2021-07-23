@@ -1,3 +1,4 @@
+from selenium.common.exceptions import NoSuchElementException
 from time import strftime, strptime
 from json import dump, load
 from html import unescape
@@ -156,8 +157,25 @@ class shows:
 
     def Crunchyroll(self, url):
         self.driver.get(url)
-        ele = self.driver.find_element_by_class_name("ch-left")
-        return ele.find_element_by_tag_name("span").text
+        try:
+            ele = self.driver.find_element_by_class_name("ch-left")
+            return ele.find_element_by_tag_name("span").text
+        except NoSuchElementException:
+            with open("pass.txt") as f:
+                keys = f.readline().split()
+            self.driver.find_element_by_class_name("submitbtn").click()
+            self.driver.find_element_by_id("login_form_name").send_keys(keys[0])
+            self.driver.find_element_by_id("login_form_password").send_keys(keys[1])
+            self.driver.find_element_by_id("login_submit_button").click()
+            while True:
+                try:
+                    text = self.driver.find_element_by_class_name('hero-heading-line').find_element_by_tag_name("h1").text
+                    break
+                except NoSuchElementException:
+                    pass
+            self.driver.find_element_by_class_name("erc-authenticated-user-menu").click()
+            self.driver.find_element_by_class_name("user-menu-sticky").click()
+            return text
 
     def Funimation(self, url):
         self.driver.get(url)
@@ -165,7 +183,7 @@ class shows:
             try:
                 ele = self.driver.find_element_by_class_name("text-md-h1")
                 return ele.text
-            except:
+            except NoSuchElementException:
                 pass
 
     def HiDive(self, url):

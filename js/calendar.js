@@ -8,7 +8,7 @@ $(function () {
     if (localStorage.getItem('shows') == null) {
         localStorage.setItem('shows', JSON.stringify({}));
     }
-    let VERSION = "21.2.1";
+    let VERSION = "21.2.2";
     if (localStorage.getItem('ver') != VERSION) {
         localStorage.setItem('ver', VERSION);
         set("./shows/shows.json", "storage");
