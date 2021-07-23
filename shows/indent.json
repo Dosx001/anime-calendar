@@ -195,7 +195,8 @@
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/that-time-i-got-reincarnated-as-a-slime",
             "Funimation": "https://www.funimation.com/shows/that-time-i-got-reincarnated-as-a-slime/",
-            "VRV": "https://vrv.co/series/GYZJ43JMR"
+            "VRV": "https://vrv.co/series/GYZJ43JMR",
+            "YouTube": "https://www.youtube.com/watch?v=uFa96O-a7R4&amp;list=PLwLSw1_eDZl24o1N6adcgGPyIJPfJ21GL"
         }
     },
     "Drug Store in Another World - The Slow Life of a Cheat Pharmacist": {
@@ -310,15 +311,9 @@
             "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl13ebVE0dgagqzozYJ5d1Er"
         }
     },
-    "Ryuu to Sobakasu no Hime": {
-        "day": "Thursday",
-        "time": "5:00 PM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/ryuu-to-sobakasu-no-hime-33d612a013.jpg",
-        "streams": {}
-    },
     "Obey Me!": {
         "day": "Friday",
-        "time": "1:00 AM",
+        "time": "1:01 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/obey-me-d01a8cafaa.jpg",
         "streams": {
             "Funimation": "https://www.funimation.com/shows/obey-me/"
@@ -421,6 +416,7 @@
         "time": "10:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/genjitsu-shugi-yuusha-no-oukoku-saikenki-7a4eb7a260.jpg",
         "streams": {
+            "Crunchyroll": "https://crunchyroll.com/how-a-realist-hero-rebuilt-the-kingdom",
             "Funimation": "https://www.funimation.com/shows/how-a-realist-hero-rebuilt-the-kingdom/",
             "Hulu": "https://www.hulu.com/series/how-a-realist-hero-rebuilt-the-kingdom-911a694a-3cab-41df-a034-e178b461bee6",
             "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1375/how-a-realist-hero-rebuilt-the-kingdom"
@@ -440,12 +436,6 @@
         "day": "Saturday",
         "time": "4:30 PM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/duel-masters-king-2-73e9e83932.jpg",
-        "streams": {}
-    },
-    "Shabake": {
-        "day": "Saturday",
-        "time": "5:00 PM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/shabake-5e63e9b149.jpg",
         "streams": {}
     },
     "Mazica Party": {
@@ -476,10 +466,11 @@
         }
     },
     "Love Live! Superstar!!": {
-        "day": "Sunday",
-        "time": "6:30 AM",
+        "day": "Monday",
+        "time": "11:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/love-live-superstar-fe2d438084.jpg",
         "streams": {
+            "Crunchyroll": "https://www.crunchyroll.com/love-live-superstar",
             "Funimation": "https://www.funimation.com/shows/love-live-superstar/"
         }
     },
@@ -507,8 +498,33 @@
         "time": "11:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/yami-shibai-9-05b5dd03b5.jpg",
         "streams": {
-            "Crunchyroll": "https://crunchyroll.com/series/G6WEM1V36",
             "VRV": "https://vrv.co/series/G6WEM1V36"
+        }
+    },
+    "Assault Lily: Fruits": {
+        "day": "Monday",
+        "time": "8:00 PM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/assault-lily-fruits-3e3802ce43.jpg",
+        "streams": {}
+    },
+    "Words Bubble Up Like Soda Pop": {
+        "day": "Wednesday",
+        "time": "5:00 PM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/cider-no-you-ni-kotoba-ga-wakiagaru-b6cae02195.jpg",
+        "streams": {}
+    },
+    "Gundam Reconguista in G": {
+        "day": "Wednesday",
+        "time": "5:00 PM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/gundam-g-no-reconguista-iii-uchuu-kara-no-isan-7867a011e6.jpg",
+        "streams": {}
+    },
+    "The Idaten Deities Know Only Peace": {
+        "day": "Thursday",
+        "time": "9:55 AM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/heion-sedai-no-idaten-tachi-fb59415df0.jpg",
+        "streams": {
+            "Crunchyroll": "https://www.crunchyroll.com/the-idaten-deities-know-only-peace"
         }
     }
 }
