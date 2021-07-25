@@ -84,13 +84,19 @@ class shows:
             for show in self.new:
                 for stream in self.new[show]['streams']:
                     if stream in getTitle:
-                        title = self.show(getTitle, show, stream)
+                        title = getTitle[stream](self.new[show]['streams'][stream])
+                        while title != unescape(title):
+                            title = unescape(title)
+                        if stream == "Netflix":
+                            self.new[show]['streams'].pop("Netflix")
                         break
                 else:
                     print(show)
                     print(self.new[show]['streams'])
                     In = input('title? ')
                     title = In if In != "" else show
+                    if title == "movie":
+                        continue
                 self.shows.update({title: self.new[show]})
                 self.keys.update({show: title})
             with open('keys.json', 'w') as file:
@@ -100,15 +106,6 @@ class shows:
             with open('indent.json', 'w') as file:
                 dump(self.shows, file, indent = 4)
             self.time()
-
-    def show(self, getTitle, show, stream):
-        title = getTitle[stream](self.new[show]['streams'][stream])
-        if title != None:
-            while title != unescape(title):
-                title = unescape(title)
-            if stream == "Netflix":
-                self.new[show]['streams'].pop("Netflix")
-        return title
 
     def time(self):
         output = {}
@@ -158,8 +155,7 @@ class shows:
     def Crunchyroll(self, url):
         self.driver.get(url)
         try:
-            ele = self.driver.find_element_by_class_name("ch-left")
-            return ele.find_element_by_tag_name("span").text
+            return self.driver.find_element_by_class_name("ch-left").find_element_by_tag_name("span").text
         except NoSuchElementException:
             with open("pass.txt") as f:
                 keys = f.readline().split()
@@ -170,19 +166,17 @@ class shows:
             while True:
                 try:
                     text = self.driver.find_element_by_class_name('hero-heading-line').find_element_by_tag_name("h1").text
-                    break
+                    self.driver.find_element_by_class_name("erc-authenticated-user-menu").click()
+                    self.driver.find_element_by_class_name("user-menu-sticky").click()
+                    return text
                 except NoSuchElementException:
                     pass
-            self.driver.find_element_by_class_name("erc-authenticated-user-menu").click()
-            self.driver.find_element_by_class_name("user-menu-sticky").click()
-            return text
 
     def Funimation(self, url):
         self.driver.get(url)
         while True:
             try:
-                ele = self.driver.find_element_by_class_name("text-md-h1")
-                return ele.text
+                return self.driver.find_element_by_class_name("text-md-h1").text
             except NoSuchElementException:
                 pass
 
@@ -225,8 +219,7 @@ class shows:
 
     def Wakanim(self, url):
         self.driver.get(url)
-        ele = self.driver.find_element_by_class_name("SerieHeader-thumb")
-        return ele.get_attribute("alt")
+        return self.driver.find_element_by_class_name("SerieHeader-thumb").get_attribute("alt")
 
     def updateStreams(self):
         for show in self.changes:
