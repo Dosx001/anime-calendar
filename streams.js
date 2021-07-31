@@ -1,7 +1,12 @@
-var streams = [['AnimeLab', false], ['Crunchyroll', false], ['Funimation', false], ['HiDive', false],
-                ['Hulu', false], ['VRV', false], ['Wakanim', false], ['YouTube', false]]
 var drag, dragover;
-
+var streams = localStorage.getItem('streams')
+if (streams == null) {
+    streams = [['AnimeLab', false], ['Crunchyroll', false], ['Funimation', false],
+        ['HiDive', false], ['Hulu', false], ['VRV', false], ['Wakanim', false], ['YouTube', false]]
+}
+else {
+    streams = JSON.parse(streams)
+}
 renderItems(streams)
 
 function renderItems(data) {
@@ -25,9 +30,10 @@ function renderItems(data) {
         li.appendChild(label)
         ul.appendChild(li)
     })
+    localStorage.setItem('streams', JSON.stringify(streams))
 }
 
-function drop(e) {
+function drop() {
     const index1 = index(drag);
     const index2 = index(dragover);
     streams.splice(index1, 1)

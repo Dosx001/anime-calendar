@@ -133,6 +133,10 @@ aside .input-group {
   padding-left: 1rem;
 }
 
+.stream-drag:active {
+  box-shadow: 0 0 2rem red;
+}
+
 .stream-label {
   margin-left: 0.5rem;
 }
