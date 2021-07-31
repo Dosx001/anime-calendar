@@ -89,26 +89,29 @@ aside .input-group {
     padding: 0px 10px 0px 10px;
 }
 
-.stream-drag {
-    background: $DarkPurple;
-    border: 2px solid gray;
-    border-radius: 10px;
-    margin: 5px;
-    padding: 5px;
-    width: 7rem;
-    cursor: grab;
-    list-style-type: none;
-    float: left;
-}
-
-.stream-list {
+.stream-box {
     background: black;
     border: 2px solid gray;
     border-radius: 10px;
     width: 90%;
-    float: left;
     position: relative;
-    left: 1rem;
+    left: 5%;
+}
+
+.stream-drag {
+    background: black;
+    color: purple;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 5px;
+    width: 90%;
+    cursor: grab;
+    list-style-type: none;
+    padding-left: 1rem;
+}
+
+.stream-label {
+    margin-left: .5rem;
 }
 
 .setter {

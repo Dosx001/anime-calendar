@@ -4,6 +4,7 @@
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
   <script src="lib/mousetrap.min.js"></script>
   <script src="js/calendar.min.js"></script>
+  <script src="streams.js" async></script>
 
   <head>
     <link rel="icon" href="assets/logo.svg" type="image/svg" sizes="16x16">
@@ -63,37 +64,9 @@
             <option value="2">Window View</option>
           </select>
         </div>
-        <div>
-          <h3>My Streams</h3>
-          <ul class="stream-list">
-            <li class="stream-drag" style="visibility: hidden">text</li>
-          </ul>
-          <h3>Streams</h3>
-          <ul class="stream-list">
-            <li class="stream-drag" draggable="true">
-              <img src="assets/animelab.svg" style="height: 3rem; width: 3rem;">
-            </li>
-            <li class="stream-drag" draggable="true">
-              <img src="assets/crunchyroll.svg" style="height: 3rem; width: 3rem;">
-            </li>
-            <li class="stream-drag" draggable="true">
-              <img src="assets/funimation.svg" style="height: 3rem; width: 3rem;">
-            </li>
-            <li class="stream-drag" draggable="true">
-              <img src="assets/hidive.svg" style="height: 3rem; width: 3rem;">
-            </li>
-            <li class="stream-drag" draggable="true">
-              <img src="assets/hulu.svg" style="height: 3rem; width: 3rem;">
-            </li>
-            <li class="stream-drag" draggable="true">
-              <img src="assets/vrv.svg" style="height: 3rem; width: 3rem;">
-            </li>
-            <li class="stream-drag" draggable="true">
-              <img src="assets/wakanim.svg" style="height: 3rem; width: 3rem;">
-            </li>
-            <li class="stream-drag" draggable="true">
-              <img src="assets/youtube.svg" style="height: 3rem; width: 3rem;">
-            </li>
+        <h3>My Streams</h3>
+        <div align="left">
+          <ul class="stream-box">
           </ul>
         </div>
       </aside>
