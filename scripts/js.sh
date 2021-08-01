@@ -8,8 +8,10 @@ case $1 in
         files=('search');;
     'h')
         files=('show');;
+    't')
+        files=('streams');;
     *)
-        files=('calendar' 'list' 'search' 'show');;
+        files=('calendar' 'list' 'search' 'show' 'streams');;
 esac
 
 for file in ${files[@]}

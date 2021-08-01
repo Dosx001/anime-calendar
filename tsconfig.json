@@ -10,6 +10,7 @@
         "ts/calendar.ts",
         "ts/list.ts",
         "ts/show.ts",
-        "ts/search.ts"
+        "ts/search.ts",
+        "ts/streams.ts"
     ]
 }
