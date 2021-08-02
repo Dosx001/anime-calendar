@@ -27,10 +27,6 @@ button:focus {
   outline: none;
 }
 
-td {
-  width: 10rem;
-}
-
 aside {
   position: fixed;
   margin-top: 4rem;
@@ -41,6 +37,10 @@ aside button, aside a {
 }
 aside #title {
   line-height: 2rem;
+}
+
+td {
+  width: 10rem;
 }
 
 /* Bootstrap */
@@ -110,6 +110,35 @@ aside .input-group {
 
 .stream {
   padding: 0px 10px 0px 10px;
+}
+
+.stream-box {
+  background: black;
+  border: 2px solid gray;
+  border-radius: 10px;
+  width: 90%;
+  position: relative;
+  left: 5%;
+}
+
+.stream-drag {
+  background: black;
+  color: purple;
+  border: 2px solid gray;
+  border-radius: 10px;
+  margin: 5px;
+  width: 90%;
+  cursor: grab;
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+.stream-drag:active {
+  box-shadow: 0 0 2rem red;
+}
+
+.stream-label {
+  margin-left: 0.5rem;
 }
 
 .time, .slot {

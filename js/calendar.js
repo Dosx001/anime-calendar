@@ -13,7 +13,7 @@ $(function () {
         localStorage.setItem('ver', VERSION);
         set("./shows/shows.json", "storage");
         set("./shows/past_shows.json", "past")
-            .then(resp => {
+            .then(function () {
             let past = JSON.parse(localStorage.getItem('past'));
             let store = JSON.parse(localStorage.getItem('storage'));
             let shows = JSON.parse(localStorage.getItem('shows'));
@@ -487,7 +487,7 @@ function streamInfo(data, show) {
     resizeCalendar();
     $('#clear').css({ "visibility": "visible" });
     $('#list-js').remove();
-    $('html').append('<script id="list-js" src="js/list.js"></script>');
+    $('html').append('<script id="list-js" src="js/list.min.js"></script>');
 }
 Date.prototype.getWeek = function () {
     const date = new Date(Date.UTC(this.getFullYear(), this.getMonth(), this.getDate()));

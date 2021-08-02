@@ -1,3 +1,28 @@
+document.addEventListener('keypress', function(e) {
+    if ((e.target! as HTMLElement).className != "ui-autocomplete-input") {
+        if (e.key == "w") {
+            let streams: {[key: string]: string} = {}
+            document.querySelectorAll('.stream').forEach(
+                ele => streams[(ele as HTMLElement).innerText.substring(1)] = (ele as HTMLAnchorElement).href
+            )
+            let store = JSON.parse(localStorage.getItem('streams')!)
+            let win = true
+            for (const i in store) {
+                if (store[i][1] && store[i][0] in streams) {
+                    window.open(streams[store[i][0]])
+                    win = false
+                    break
+                }
+            }
+            if (win) {
+                (document.querySelector('.stream-box')! as HTMLElement).style.backgroundColor = 'darkred'
+                setTimeout(function() {
+                    (document.querySelector('.stream-box')! as HTMLElement).style.backgroundColor = 'black'
+                }, 50);
+            }
+        }
+    }
+})
 $(document).ready(function() {
     $(".setter").click(function() {
         setter()
