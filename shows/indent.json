@@ -1,10 +1,4 @@
 {
-    "Yu\u2606Gi\u2606Oh! SEVENS": {
-        "day": "Friday",
-        "time": "3:30 PM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/yu-gi-oh-sevens-a5be910077.jpg",
-        "streams": {}
-    },
     "Dragon Quest: The Adventure of Dai": {
         "day": "Friday",
         "time": "7:00 PM",
@@ -143,7 +137,7 @@
     },
     "SD GUNDAM WORLD HEROES": {
         "day": "Thursday",
-        "time": "3:01 AM",
+        "time": "3:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/sd-gundam-world-heroes-797fe089f4.jpg",
         "streams": {
             "AnimeLab": "https://www.animelab.com/shows/sd-gundam-world-heroes",
@@ -176,7 +170,8 @@
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/deatte-5-byou-de-battle-84b8eac939.jpg",
         "streams": {
             "Crunchyroll": "https://crunchyroll.com/series/G8DHV7DG7/battle-game-in-5-seconds",
-            "VRV": "https://vrv.co/series/G8DHV7DG7/Battle-Game-in-5-Seconds"
+            "VRV": "https://vrv.co/series/G8DHV7DG7/Battle-Game-in-5-Seconds",
+            "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0xUFXsv7l59J4AMJoSBD19"
         }
     },
     "Seirei Gensouki: Spirit Chronicles": {
@@ -263,7 +258,7 @@
     },
     "Scarlet Nexus": {
         "day": "Thursday",
-        "time": "6:31 AM",
+        "time": "6:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/scarlet-nexus-2d8ab70947.jpg",
         "streams": {
             "Funimation": "https://www.funimation.com/shows/scarlet-nexus/",
@@ -298,7 +293,9 @@
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/sonny-boy-0e8f3d0a25.jpg",
         "streams": {
             "Funimation": "https://www.funimation.com/shows/sonny-boy/",
-            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1373/sonny-boy/season/2805/season-1"
+            "Hulu": "https://www.hulu.com/series/8cce2117-1a21-4ecf-810a-14c9d748d5fc",
+            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1373/sonny-boy/season/2805/season-1",
+            "YouTube": "https://www.youtube.com/watch?v=TKjkw7kTF5A"
         }
     },
     "The aquatope on white sand": {
@@ -313,10 +310,11 @@
     },
     "Obey Me!": {
         "day": "Friday",
-        "time": "1:01 AM",
+        "time": "1:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/obey-me-d01a8cafaa.jpg",
         "streams": {
-            "Funimation": "https://www.funimation.com/shows/obey-me/"
+            "Funimation": "https://www.funimation.com/shows/obey-me/",
+            "YouTube": "https://www.youtube.com/channel/UCGh9vTBjmF-QaQ02pHHExlw"
         }
     },
     "The Dungeon of Black Company": {
@@ -471,7 +469,8 @@
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/love-live-superstar-fe2d438084.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/love-live-superstar",
-            "Funimation": "https://www.funimation.com/shows/love-live-superstar/"
+            "Funimation": "https://www.funimation.com/shows/love-live-superstar/",
+            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1442/love-live-superstar"
         }
     },
     "IDOLiSH7": {
@@ -495,7 +494,7 @@
     },
     "Theatre of Darkness: Yamishibai": {
         "day": "Sunday",
-        "time": "11:00 AM",
+        "time": "12:30 PM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/yami-shibai-9-05b5dd03b5.jpg",
         "streams": {
             "VRV": "https://vrv.co/series/G6WEM1V36"
@@ -507,24 +506,40 @@
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/assault-lily-fruits-3e3802ce43.jpg",
         "streams": {}
     },
-    "Words Bubble Up Like Soda Pop": {
-        "day": "Wednesday",
-        "time": "5:00 PM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/cider-no-you-ni-kotoba-ga-wakiagaru-b6cae02195.jpg",
-        "streams": {}
-    },
-    "Gundam Reconguista in G": {
-        "day": "Wednesday",
-        "time": "5:00 PM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/gundam-g-no-reconguista-iii-uchuu-kara-no-isan-7867a011e6.jpg",
-        "streams": {}
-    },
     "The Idaten Deities Know Only Peace": {
         "day": "Thursday",
         "time": "9:55 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/heion-sedai-no-idaten-tachi-fb59415df0.jpg",
         "streams": {
-            "Crunchyroll": "https://www.crunchyroll.com/the-idaten-deities-know-only-peace"
+            "Crunchyroll": "https://www.crunchyroll.com/the-idaten-deities-know-only-peace",
+            "VRV": "https://vrv.co/series/G8DHV7DJ7/The-Idaten-Deities-Know-Only-Peace",
+            "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhpvTizNfzlPX1tEERYVA97"
         }
+    },
+    "Magia Record: Puella Magi Madoka Magica Side Story": {
+        "day": "Saturday",
+        "time": "9:30 AM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/magia-record-mahou-shoujo-madoka-magica-gaiden-2-0da5f410b1.jpg",
+        "streams": {
+            "Crunchyroll": "https://www.crunchyroll.com/magia-record-puella-magi-madoka-magica-side-story",
+            "Funimation": "https://www.funimation.com/shows/magia-record-puella-magi-madoka-magica-side-story/",
+            "HiDive": "https://www.hidive.com/tv/magia-record-puella-magi-madoka-magica-side-story-season-2-the-eve-of-awakening-",
+            "VRV": "https://vrv.co/series/G6QWDD096"
+        }
+    },
+    "The Great Jahy Will Not Be Defeated!": {
+        "day": "Saturday",
+        "time": "11:45 AM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/jahy-sama-wa-kujikenai-e74cad55ae.jpg",
+        "streams": {
+            "Crunchyroll": "https://crunchyroll.com/series/GNVHKNWXW/the-great-jahy-will-not-be-defeated",
+            "VRV": "https://vrv.co/series/GNVHKNWXW/The-Great-Jahy-Will-Not-Be-Defeated"
+        }
+    },
+    "Yu\u2606Gi\u2606Oh!: Sevens": {
+        "day": "Saturday",
+        "time": "3:30 PM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/yu-gi-oh-sevens-a5be910077.jpg",
+        "streams": {}
     }
 }

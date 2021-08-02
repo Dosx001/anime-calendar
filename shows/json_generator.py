@@ -4,7 +4,7 @@ from sys import argv
 
 def main():
     sh = shows(webdriver.Firefox(service_log_path = '/dev/null',
-        firefox_profile = webdriver.FirefoxProfile("/home/dosx/.mozilla/firefox/9qbe7o6q.default")))
+        firefox_profile = webdriver.FirefoxProfile("/home/dosx/.mozilla/firefox/eg34u3uo.default")))
     sh.html()
     if len(argv) == 1:
         sh.update()
