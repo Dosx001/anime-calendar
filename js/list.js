@@ -1,4 +1,27 @@
 "use strict";
+document.addEventListener('keyup', function (e) {
+    if (e.target.className != "ui-autocomplete-input") {
+        if (e.key == "w") {
+            let streams = {};
+            document.querySelectorAll('.stream').forEach(ele => streams[ele.innerText.substring(1)] = ele.href);
+            let store = JSON.parse(localStorage.getItem('streams'));
+            let win = true;
+            for (const i in store) {
+                if (store[i][1] && store[i][0] in streams) {
+                    window.open(streams[store[i][0]]);
+                    win = false;
+                    break;
+                }
+            }
+            if (win) {
+                document.querySelector('.stream-box').style.backgroundColor = 'darkred';
+                setTimeout(function () {
+                    document.querySelector('.stream-box').style.backgroundColor = 'black';
+                }, 50);
+            }
+        }
+    }
+});
 $(document).ready(function () {
     $(".setter").click(function () {
         setter();

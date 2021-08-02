@@ -9,39 +9,43 @@ renderItems(streams);
 function renderItems(data) {
     var ul = document.querySelector('.stream-box');
     ul.innerText = '';
-    data.forEach(item => {
+    for (const i in data) {
         var li = document.createElement("li");
         li.draggable = true;
         li.classList.add('stream-drag');
-        li.addEventListener('drag', setDrag);
-        li.addEventListener('dragover', setDragover);
-        li.addEventListener('drop', drop);
+        li.addEventListener('drag', function () {
+            drag = [this.innerText, this.childNodes[0].checked];
+        });
+        li.addEventListener('dragover', function (e) {
+            e.preventDefault();
+            dragover = [this.innerText, this.childNodes[0].checked];
+        });
+        li.addEventListener('drop', function () {
+            const index1 = index(drag);
+            const index2 = index(dragover);
+            streams.splice(index1, 1);
+            streams.splice(index2, 0, drag);
+            renderItems(streams);
+        });
+        li.setAttribute("id", 's' + i);
         var input = document.createElement('input');
         input.setAttribute("type", "checkbox");
-        input.setAttribute("name", item[0]);
+        input.setAttribute("name", streams[i][0]);
+        input.style.cursor = "pointer";
+        input.addEventListener('click', function () {
+            streams[parseInt(this.parentElement.id.substring(1))][1] = this.checked;
+            localStorage.setItem('streams', JSON.stringify(streams));
+        });
+        input.checked = streams[i][1];
         var label = document.createElement('label');
         label.classList.add('stream-label');
-        label.setAttribute("for", item[0]);
-        label.innerText = item[0];
+        label.setAttribute("for", streams[i][0]);
+        label.innerText = streams[i][0];
         li.appendChild(input);
         li.appendChild(label);
         ul.appendChild(li);
-    });
+    }
     localStorage.setItem('streams', JSON.stringify(streams));
-}
-function drop() {
-    const index1 = index(drag);
-    const index2 = index(dragover);
-    streams.splice(index1, 1);
-    streams.splice(index2, 0, drag);
-    renderItems(streams);
-}
-function setDragover(e) {
-    e.preventDefault();
-    dragover = [e.target.innerText, false];
-}
-function setDrag(e) {
-    drag = [e.target.innerText, false];
 }
 function index(item) {
     for (var i = 0; i < streams.length; i++) {
