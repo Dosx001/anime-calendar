@@ -328,8 +328,8 @@ function minMax(t1: string, t2: string) {
 function cutoff(times: string[], offset: number) {
     const shows = JSON.parse(localStorage.getItem('shows')!)
     const data = JSON.parse(localStorage.getItem(offset == 0 ? "storage":"past")!)
-    let max: any = "12:00 AM"
-    let min: any = "11:59 PM"
+    let max: string = "12:00 AM"
+    let min: string = "11:59 PM"
     switch (shows.length) {
         case 0:
             return times;
@@ -521,7 +521,7 @@ function streamInfo(data: Shows, show: string) {
     resizeCalendar()
     $('#clear').css({"visibility": "visible"})
     $('#list-js').remove()
-    $('html').append('<script id="list-js" src="js/list.js"></script>')
+    $('html').append('<script id="list-js" src="js/list.min.js"></script>')
 }
 
 interface Date {
