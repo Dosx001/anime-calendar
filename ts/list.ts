@@ -1,4 +1,4 @@
-document.addEventListener('keyup', function(e) {
+document.addEventListener('keydown', function(e) {
     if ((e.target! as HTMLElement).className != "ui-autocomplete-input") {
         if (e.key == "w") {
             let streams: {[key: string]: string} = {}
@@ -6,15 +6,16 @@ document.addEventListener('keyup', function(e) {
                 ele => streams[(ele as HTMLElement).innerText.substring(1)] = (ele as HTMLAnchorElement).href
             )
             let store = JSON.parse(localStorage.getItem('streams')!)
-            let win = true
+            let check = true
             for (const i in store) {
                 if (store[i][1] && store[i][0] in streams) {
                     window.open(streams[store[i][0]])
-                    win = false
+                    check = false
                     break
                 }
             }
-            if (win) {
+            e.stopImmediatePropagation()
+            if (check) {
                 (document.querySelector('.stream-box')! as HTMLElement).style.backgroundColor = 'darkred'
                 setTimeout(function() {
                     (document.querySelector('.stream-box')! as HTMLElement).style.backgroundColor = 'black'

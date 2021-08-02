@@ -1,19 +1,20 @@
 "use strict";
-document.addEventListener('keyup', function (e) {
+document.addEventListener('keydown', function (e) {
     if (e.target.className != "ui-autocomplete-input") {
         if (e.key == "w") {
             let streams = {};
             document.querySelectorAll('.stream').forEach(ele => streams[ele.innerText.substring(1)] = ele.href);
             let store = JSON.parse(localStorage.getItem('streams'));
-            let win = true;
+            let check = true;
             for (const i in store) {
                 if (store[i][1] && store[i][0] in streams) {
                     window.open(streams[store[i][0]]);
-                    win = false;
+                    check = false;
                     break;
                 }
             }
-            if (win) {
+            e.stopImmediatePropagation();
+            if (check) {
                 document.querySelector('.stream-box').style.backgroundColor = 'darkred';
                 setTimeout(function () {
                     document.querySelector('.stream-box').style.backgroundColor = 'black';
