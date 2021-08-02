@@ -31,7 +31,7 @@ function renderItems(data) {
         var input = document.createElement('input');
         input.setAttribute("type", "checkbox");
         input.setAttribute("name", streams[i][0]);
-        input.style.cursor = "pointer";
+        input.classList.add('stream-input');
         input.addEventListener('click', function () {
             streams[parseInt(this.parentElement.id.substring(1))][1] = this.checked;
             localStorage.setItem('streams', JSON.stringify(streams));

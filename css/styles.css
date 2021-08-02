@@ -139,6 +139,13 @@ aside .input-group {
 
 .stream-label {
   margin-left: 0.5rem;
+  cursor: grab;
+}
+
+.stream-input {
+  cursor: pointer;
+  height: 1rem;
+  width: 1rem;
 }
 
 .time, .slot {
