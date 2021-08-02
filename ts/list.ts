@@ -1,4 +1,4 @@
-document.addEventListener('keypress', function(e) {
+document.addEventListener('keyup', function(e) {
     if ((e.target! as HTMLElement).className != "ui-autocomplete-input") {
         if (e.key == "w") {
             let streams: {[key: string]: string} = {}

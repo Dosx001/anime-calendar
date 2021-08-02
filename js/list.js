@@ -1,5 +1,5 @@
 "use strict";
-document.addEventListener('keypress', function (e) {
+document.addEventListener('keyup', function (e) {
     if (e.target.className != "ui-autocomplete-input") {
         if (e.key == "w") {
             let streams = {};
