@@ -11,6 +11,7 @@ document.addEventListener('keydown', function(e) {
                 if (store[i][1] && store[i][0] in streams) {
                     window.open(streams[store[i][0]])
                     check = false
+                    stream()
                     break
                 }
             }
