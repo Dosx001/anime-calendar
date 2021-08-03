@@ -87,8 +87,8 @@ function link(id: string) {
 }
 
 function stream() {
-    var title = $("#title")[0].textContent!
-    var shows = JSON.parse(localStorage.getItem("shows")!)
+    let title = $("#title")[0].textContent!
+    let shows = JSON.parse(localStorage.getItem("shows")!)
     if (title in shows) {
         updateSetter(shows, title, true)
         $("#" + ider_show(title)).css({"color": "#4f4f4f"})
@@ -98,17 +98,12 @@ function stream() {
 }
 
 function updateSetter(shows: {[key: string]: boolean[]}, title: string, Bool: boolean) {
-    if ($('#left')[0].style[0] == null) {
-        shows[title][0] = Bool
-    }
-    else {
-        shows[title][1] = Bool
-    }
+    $('#left')[0].style[0] == null ? shows[title][0] = Bool : shows[title][1] = Bool
 }
 
 function reset() {
-    var title = $("#title")[0].textContent!
-    var shows = JSON.parse(localStorage.getItem("shows")!)
+    let title = $("#title")[0].textContent!
+    let shows = JSON.parse(localStorage.getItem("shows")!)
     updateSetter(shows, title, false)
     $("#" + ider_show(title)).css({"color": "purple"})
     $($('#reset')).css({"visibility": "hidden"})
@@ -117,7 +112,7 @@ function reset() {
 
 function arrow() {
     let show: HTMLElement | string = $("#title")[0]
-    var shows = JSON.parse(localStorage.getItem("shows")!)
+    let shows = JSON.parse(localStorage.getItem("shows")!)
     if ($('#right')[0].style[0] != null) {
         $('#reset').css({"visibility": "hidden"})
     }
@@ -134,7 +129,7 @@ function arrow() {
 
 function setter() {
     let title = $("#title")[0].textContent!
-    var shows = JSON.parse(localStorage.getItem("shows")!)
+    let shows = JSON.parse(localStorage.getItem("shows")!)
     let data = JSON.parse(localStorage.getItem("storage")!)
     if (!(title in data)) {
         data = JSON.parse(localStorage.getItem("past")!)

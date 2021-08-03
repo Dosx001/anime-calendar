@@ -135,9 +135,7 @@ function right() {
 }
 
 async function set(file: string, key: string) {
-    const resp = await fetch(file)
-    const data = await resp.json()
-    localStorage.setItem(key, JSON.stringify(data))
+    localStorage.setItem(key, JSON.stringify(await (await fetch(file)).json()))
 }
 
 function TheBigBang(offset: number = 0) {
@@ -198,15 +196,10 @@ function calendar(dates: Date[], times: string[]) {
         calendar += '</tr>'
     })
     calendar += '</tbody></table></div>'
-    var element = document.getElementById('month');
-    if (dates[0].getMonth() == dates[6].getMonth()) {
-        element!.innerHTML = dates[0].toLocaleDateString("en-US",{ month: 'long' })
-    }
-    else {
-        element!.innerHTML = dates[0].toLocaleDateString("en-US",{ month: 'long' })
-            + " to "
-            + dates[6].toLocaleDateString("en-US",{ month: 'long' })
-    }
+    document.getElementById('month')!.innerHTML = (dates[0].getMonth() == dates[6].getMonth()) ?
+        dates[0].toLocaleDateString("en-US",{ month: 'long' }):
+        dates[0].toLocaleDateString("en-US",{ month: 'long' }) + " to " +
+            dates[6].toLocaleDateString("en-US",{ month: 'long' })
     return calendar
 }
 
@@ -248,15 +241,11 @@ function getDates(offset: number = 0) {
 function ider_slot(day: string, time: string) {
     const days: {[key: string]: number } = {"Monday":1, "Tuesday":2, "Wednesday":3, "Thursday":4,
         "Friday":5, "Saturday":6, "Sunday":7}
-    var id = days[day] * 10000
-    if (time.substring(1,2) == ":") {
-        id += parseInt(time.substring(0,1)) * 100
-        id += parseInt(time.substring(2,4))
-        return id + time.substring(5,6)
-    }
-    id += parseInt(time.substring(0,2)) * 100
-    id += parseInt(time.substring(3,5))
-    return id + time.substring(6,7)
+    return (time.substring(1,2) == ":") ?
+        days[day] * 10000 + parseInt(time.substring(0,1)) * 100 + parseInt(time.substring(2,4)) +
+            time.substring(5,6):
+        days[day] * 10000 + parseInt(time.substring(0,2)) * 100 + parseInt(time.substring(3,5)) +
+            time.substring(6,7)
 }
 
 function ider_show(title: string) {
@@ -271,12 +260,9 @@ function shows(storage: string) {
         if (show in data) {
             let style = ""
             if (shows != null && show in shows) {
-                if ($('#left')[0].style[0] == null ? shows[show][0]:shows[show][1]) {
-                    style = ' style="border-color: #4f004f; color: #4f4f4f;" '
-                }
-                else {
-                    style = ' style="border-color: #4f004f;" '
-                }
+                style = ($('#left')[0].style[0] == null ? shows[show][0]:shows[show][1]) ?
+                    ' style="border-color: #4f004f; color: #4f4f4f;" ':
+                    ' style="border-color: #4f004f;" '
             }
             var id = "#" + ider_slot(data[show].day, data[show].time)
             $(id).append('<a href="' + id + '">'
@@ -401,12 +387,9 @@ function compact(times: string[], offset: number) {
 }
 
 function resizeCalendar() {
-    if (Object.keys($("#show")).length != 0 && ($('#info')[0] as HTMLSelectElement).value == "0") {
-        $('#calendar').css({"height": "25rem"})
-    }
-    else {
+    (Object.keys($("#show")).length != 0 && ($('#info')[0] as HTMLSelectElement).value == "0") ?
+        $('#calendar').css({"height": "25rem"}):
         $('#calendar').css({"height": "50rem"})
-    }
 }
 
 interface Shows {

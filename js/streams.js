@@ -1,16 +1,17 @@
 "use strict";
-var drag, dragover;
-var streams = JSON.parse(localStorage.getItem('streams'));
+let drag;
+let dragover;
+let streams = JSON.parse(localStorage.getItem('streams'));
 if (streams == null) {
     streams = [['AnimeLab', false], ['Crunchyroll', false], ['Funimation', false],
         ['HiDive', false], ['Hulu', false], ['VRV', false], ['Wakanim', false], ['YouTube', false]];
 }
 renderItems(streams);
 function renderItems(data) {
-    var ul = document.querySelector('.stream-box');
+    let ul = document.querySelector('.stream-box');
     ul.innerText = '';
     for (const i in data) {
-        var li = document.createElement("li");
+        let li = document.createElement("li");
         li.draggable = true;
         li.classList.add('stream-drag');
         li.addEventListener('drag', function () {
@@ -28,7 +29,7 @@ function renderItems(data) {
             renderItems(streams);
         });
         li.setAttribute("id", 's' + i);
-        var input = document.createElement('input');
+        let input = document.createElement('input');
         input.setAttribute("type", "checkbox");
         input.setAttribute("name", streams[i][0]);
         input.classList.add('stream-input');
@@ -37,7 +38,7 @@ function renderItems(data) {
             localStorage.setItem('streams', JSON.stringify(streams));
         });
         input.checked = streams[i][1];
-        var label = document.createElement('label');
+        let label = document.createElement('label');
         label.classList.add('stream-label');
         label.setAttribute("for", streams[i][0]);
         label.innerText = streams[i][0];
@@ -48,7 +49,7 @@ function renderItems(data) {
     localStorage.setItem('streams', JSON.stringify(streams));
 }
 function index(item) {
-    for (var i = 0; i < streams.length; i++) {
+    for (let i = 0; i < streams.length; i++) {
         if (item[0] == streams[i][0] && item[1] == streams[i][1]) {
             return i;
         }
