@@ -39,12 +39,11 @@ aside .input-group {
 }
 
 /* jQuery UI */
-.ui-autocomplete {
+#titles {
     position: absolute;
     top: 100%;
-    left: 0;
+    left: 3rem;
     z-index: 1040;
-    float: left;
     padding: 4px 0;
     background: black;
     border: 1px solid gray;
@@ -52,7 +51,7 @@ aside .input-group {
     overflow-y: auto;
 }
 
-.ui-state-hover, .ui-state-active {
+.highlight:hover, .active {
     background: $DarkPurple;
     cursor: pointer;
     padding-left: 1rem;

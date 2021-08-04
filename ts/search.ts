@@ -1,31 +1,37 @@
-interface JQuery {
-    autocomplete: (arg0: object) => void
+let titleList = Object.keys(Object.assign(JSON.parse(localStorage.getItem("storage")!)
+                                           ,JSON.parse(localStorage.getItem("past")!)))
+const search = document.getElementById('search')!
+const titles = document.getElementById('titles')!
+//let index = 100
+
+search.onkeyup = (e) => {
+    switch(e.keyCode) {
+        case 38: //up
+            console.log('up')
+            break
+        case 40: //down
+            console.log('down')
+            break
+        default:
+            let input = (<HTMLInputElement>e.target!).value
+            if(input){
+                titles.style.display = ""
+                titles.innerHTML = ""
+                for (let i in titleList) {
+                    if (titleList[i].toLocaleLowerCase().includes(input.toLocaleLowerCase())) {
+                        let li = document.createElement('li')
+                        li.innerHTML = titleList[i]
+                        li.classList.add('highlight')
+                        li.setAttribute('id', (i + 100).toString())
+                        li.addEventListener('click', function() {
+                            console.log(this.innerHTML)
+                        })
+                        titles.append(li)
+                    }
+                }
+            }
+            else {
+                titles.style.display = "none"
+            }
+    }
 }
-
-$(function() {
-    $("#search").autocomplete({
-        source: Object.keys(Object.assign(JSON.parse(localStorage.getItem("storage")!)
-                                         ,JSON.parse(localStorage.getItem("past")!)))
-    })
-})
-
-$(document).ready(function() {
-    $('#search').on('input', function() {
-        $(".ui-helper-hidden-accessible").remove();
-    });
-    let data = JSON.parse(localStorage.getItem("storage")!)
-    let past = JSON.parse(localStorage.getItem("past")!)
-    $("#search").on("autocompleteselect", function(_event, ui) {
-        let title = ui.item.value;
-        title in data ? streamInfo(data, title):streamInfo(past, title)
-        ui.item.value = ""
-        $('#search').blur()
-    });
-    $('input').keyup(function(e) {
-        if(e.keyCode == 13 && ($(this)[0] as HTMLInputElement).value in data) {
-            let title = ($(this)[0] as HTMLInputElement).value;
-            title in data ? streamInfo(data, title):streamInfo(past, title);
-            ($(this)[0] as HTMLInputElement).value = ""
-        }
-    })
-})
