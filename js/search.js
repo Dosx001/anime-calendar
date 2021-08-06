@@ -3,12 +3,13 @@ let titleList = Object.keys(Object.assign(STORE, PAST));
 const search = document.getElementById('search');
 const titles = document.getElementById('titles');
 let indexLi = 99;
-search.onkeyup = (e) => {
+search.onkeyup = e => {
     switch (e.key) {
         case "Enter":
             let input = document.getElementById((indexLi == 99 ? indexLi + 1 : indexLi).toString());
             if (input) {
-                callStreamInfo(input.innerHTML);
+                streamInfo(input.innerHTML);
+                search.value = "";
             }
             search.value = "";
             titles.style.display = "none";
@@ -24,7 +25,7 @@ search.onkeyup = (e) => {
             }
     }
 };
-search.onkeydown = (e) => {
+search.onkeydown = e => {
     switch (e.keyCode) {
         case 38:
             move(-1);
@@ -36,24 +37,18 @@ search.onkeydown = (e) => {
             break;
     }
 };
-search.onclick = (e) => {
+search.onclick = e => {
     results(e);
 };
-search.addEventListener('focusout', (e) => {
+search.addEventListener('focusout', e => {
+    titles.style.display = "none";
     if (e.relatedTarget) {
-        if (e.relatedTarget.classList[1] == "active") {
+        if (e.relatedTarget.className == "active") {
             titles.style.display = "";
         }
-        else if (e.relatedTarget.className == "highlight") {
+        else if (e.relatedTarget.parentElement.id == "titles") {
             e.relatedTarget.click();
-            titles.style.display = "none";
         }
-        else {
-            titles.style.display = "none";
-        }
-    }
-    else {
-        titles.style.display = "none";
     }
 });
 function results(e) {
@@ -67,12 +62,20 @@ function results(e) {
             if (title.toLocaleLowerCase().includes(input.toLocaleLowerCase())) {
                 let li = document.createElement('li');
                 li.innerHTML = title;
-                li.classList.add('highlight');
                 li.setAttribute('id', i.toString());
                 li.setAttribute('tabindex', (i - 100).toString());
                 i++;
                 li.addEventListener('click', function () {
-                    callStreamInfo(this.innerHTML);
+                    streamInfo(this.innerHTML);
+                    search.value = "";
+                });
+                li.addEventListener('mousemove', e => {
+                    indexLi = parseInt(e.target.id);
+                    let active = document.querySelector('.active');
+                    if (active) {
+                        active.classList.remove('active');
+                    }
+                    document.getElementById(indexLi.toString()).classList.add('active');
                 });
                 titles.append(li);
             }
@@ -101,9 +104,4 @@ function move(num) {
             indexLi += num;
         }
     }
-}
-function callStreamInfo(title) {
-    streamInfo(title);
-    search.value = "";
-    titles.style.display = "none";
 }
