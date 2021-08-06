@@ -2,13 +2,13 @@
 document.addEventListener('keydown', function (e) {
     if (e.target.className != "ui-autocomplete-input") {
         if (e.key == "w") {
-            let streams = {};
-            document.querySelectorAll('.stream').forEach(ele => streams[ele.innerText.substring(1)] = ele.href);
-            let store = JSON.parse(localStorage.getItem('streams'));
+            let urls = {};
+            document.querySelectorAll('.stream').forEach(ele => urls[ele.innerText.substring(1)] = ele.href);
+            let streams = JSON.parse(localStorage.getItem('streams'));
             let check = true;
-            for (const i in store) {
-                if (store[i][1] && store[i][0] in streams) {
-                    window.open(streams[store[i][0]]);
+            for (const i in streams) {
+                if (streams[i][1] && streams[i][0] in urls) {
+                    window.open(urls[streams[i][0]]);
                     check = false;
                     stream();
                     break;
@@ -123,10 +123,6 @@ function arrow() {
 function setter() {
     let title = $("#title")[0].textContent;
     let shows = JSON.parse(localStorage.getItem("shows"));
-    let data = JSON.parse(localStorage.getItem("storage"));
-    if (!(title in data)) {
-        data = JSON.parse(localStorage.getItem("past"));
-    }
     if ($('.setter')[0].id == "add") {
         $('#' + ider_show(title)).css({ "border-color": "#4f004f" });
         $('.setter')[0].innerHTML = "Remove from Your List";

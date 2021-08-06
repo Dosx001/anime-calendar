@@ -1,5 +1,5 @@
 "use strict";
-let titleList = Object.keys(Object.assign(JSON.parse(localStorage.getItem("storage")), JSON.parse(localStorage.getItem("past"))));
+let titleList = Object.keys(Object.assign(STORE, PAST));
 const search = document.getElementById('search');
 const titles = document.getElementById('titles');
 let indexLi = 99;
@@ -103,9 +103,7 @@ function move(num) {
     }
 }
 function callStreamInfo(title) {
-    let data = JSON.parse(localStorage.getItem('storage'));
-    let past = JSON.parse(localStorage.getItem('past'));
-    title in data ? streamInfo(data, title) : streamInfo(past, title);
+    streamInfo(title);
     search.value = "";
     titles.style.display = "none";
 }
