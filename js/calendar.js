@@ -10,7 +10,7 @@ $(function () {
     if (!localStorage.getItem('shows')) {
         localStorage.setItem('shows', JSON.stringify({}));
     }
-    let VERSION = "21.2.3";
+    let VERSION = "21.2.4";
     if (localStorage.getItem('ver') != VERSION) {
         localStorage.setItem('ver', VERSION);
         set("./shows/shows.json", "store");
@@ -169,19 +169,17 @@ function TheBigBang(offset = 0) {
     });
 }
 function calendar(dates, times) {
-    let calendar = '<div id="calendar"><table>'
-        + '<thead><tr><td class="date"></th>';
+    let calendar = '<div id="calendar"><table><thead><tr><td class="date"></th>';
     dates.forEach(async function (date) {
-        calendar += '<td class="date">' + date.getDate() + ' ';
-        calendar += date.toLocaleDateString("en-US", { weekday: 'long' }) + '</td>';
+        calendar += '<td class="date">' + date.getDate() + ' '
+            + date.toLocaleDateString("en-US", { weekday: 'long' }) + '</td>';
     });
     calendar += '</tr></thead><tbody>';
     times.forEach(async function (time) {
         calendar += '<tr><td class="time">' + time + '</td>';
-        for (let day = 0; day < 7; day++) {
-            let date = dates[day];
+        for (let day = 1; day < 8; day++) {
             calendar += '<td class="slot" id="'
-                + ider_slot(date.toLocaleDateString("en-US", { weekday: 'long' }), time)
+                + ider_slot(day, time)
                 + '"></td>';
         }
         calendar += '</tr>';
@@ -228,12 +226,10 @@ function getDates(offset = 0) {
     return dates;
 }
 function ider_slot(day, time) {
-    const days = { "Monday": 1, "Tuesday": 2, "Wednesday": 3, "Thursday": 4,
-        "Friday": 5, "Saturday": 6, "Sunday": 7 };
     return (time.substring(1, 2) == ":") ?
-        days[day] * 10000 + parseInt(time.substring(0, 1)) * 100 + parseInt(time.substring(2, 4)) +
+        day * 10000 + parseInt(time.substring(0, 1)) * 100 + parseInt(time.substring(2, 4)) +
             time.substring(5, 6) :
-        days[day] * 10000 + parseInt(time.substring(0, 2)) * 100 + parseInt(time.substring(3, 5)) +
+        day * 10000 + parseInt(time.substring(0, 2)) * 100 + parseInt(time.substring(3, 5)) +
             time.substring(6, 7);
 }
 function ider_show(title) {

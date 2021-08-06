@@ -1,6 +1,6 @@
 {
     "Dragon Quest: The Adventure of Dai": {
-        "day": "Friday",
+        "day": 5,
         "time": "7:00 PM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/dragon-quest-dai-no-daibouken-2020-da3cc5015f.jpg",
         "streams": {
@@ -10,7 +10,7 @@
         }
     },
     "Case Closed": {
-        "day": "Saturday",
+        "day": 6,
         "time": "4:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/detective-conan-11d2637275.jpg",
         "streams": {
@@ -19,7 +19,7 @@
         }
     },
     "One Piece": {
-        "day": "Saturday",
+        "day": 6,
         "time": "7:00 PM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/one-piece-a4f76708d1.jpg",
         "streams": {
@@ -31,7 +31,7 @@
         }
     },
     "Digimon Adventure:": {
-        "day": "Saturday",
+        "day": 6,
         "time": "7:30 PM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/digimon-adventure-2020-f25c350014.jpg",
         "streams": {
@@ -42,7 +42,7 @@
         }
     },
     "Boruto: Naruto Next Generations": {
-        "day": "Sunday",
+        "day": 7,
         "time": "2:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/boruto-naruto-next-generations-b2e39a1f80.jpg",
         "streams": {
@@ -53,7 +53,7 @@
         }
     },
     "Kingdom": {
-        "day": "Sunday",
+        "day": 7,
         "time": "11:40 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kingdom-3-beb4b97fb8.jpg",
         "streams": {
@@ -62,7 +62,7 @@
         }
     },
     "My Hero Academia": {
-        "day": "Saturday",
+        "day": 6,
         "time": "2:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/boku-no-hero-academia-5-1098497e39.jpg",
         "streams": {
@@ -75,7 +75,7 @@
         }
     },
     "Tropical-Rouge! Precure": {
-        "day": "Saturday",
+        "day": 6,
         "time": "6:30 PM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/tropical-rouge-precure-7611bf0223.jpg",
         "streams": {
@@ -84,7 +84,7 @@
         }
     },
     "Blue Reflection Ray": {
-        "day": "Friday",
+        "day": 5,
         "time": "11:10 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/blue-reflection-ray-feba130bf8.jpg",
         "streams": {
@@ -94,7 +94,7 @@
         }
     },
     "Tokyo Revengers": {
-        "day": "Saturday",
+        "day": 6,
         "time": "12:00 PM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/tokyo-revengers-e5301eeec9.jpg",
         "streams": {
@@ -104,19 +104,19 @@
         }
     },
     "Edens Zero": {
-        "day": "Saturday",
+        "day": 6,
         "time": "8:55 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/edens-zero-cf6bc3b3a3.jpg",
         "streams": {}
     },
     "Shaman King": {
-        "day": "Thursday",
+        "day": 4,
         "time": "1:55 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/shaman-king-2021-1396334f27.jpg",
         "streams": {}
     },
     "To Your Eternity": {
-        "day": "Monday",
+        "day": 1,
         "time": "9:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/fumetsu-no-anata-e-ebc840a035.jpg",
         "streams": {
@@ -126,7 +126,7 @@
         }
     },
     "Welcome to Demon School! Iruma-kun": {
-        "day": "Saturday",
+        "day": 6,
         "time": "4:15 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/mairimashita-iruma-kun-2-2776567891.jpg",
         "streams": {
@@ -136,7 +136,7 @@
         }
     },
     "SD GUNDAM WORLD HEROES": {
-        "day": "Thursday",
+        "day": 4,
         "time": "3:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/sd-gundam-world-heroes-797fe089f4.jpg",
         "streams": {
@@ -148,7 +148,7 @@
         }
     },
     "Chibi Revengers": {
-        "day": "Monday",
+        "day": 1,
         "time": "3:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/chibi-revengers-3a02903260.jpg",
         "streams": {
@@ -156,7 +156,7 @@
         }
     },
     "Life Lessons with Uramichi Oniisan": {
-        "day": "Monday",
+        "day": 1,
         "time": "9:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/uramichi-onii-san-f88d3f5e0a.jpg",
         "streams": {
@@ -165,7 +165,7 @@
         }
     },
     "Battle Game in 5 Seconds": {
-        "day": "Monday",
+        "day": 1,
         "time": "10:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/deatte-5-byou-de-battle-84b8eac939.jpg",
         "streams": {
@@ -175,7 +175,7 @@
         }
     },
     "Seirei Gensouki: Spirit Chronicles": {
-        "day": "Monday",
+        "day": 1,
         "time": "11:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/seirei-gensouki-b11a292ecb.jpg",
         "streams": {
@@ -184,7 +184,7 @@
         }
     },
     "That Time I Got Reincarnated as a Slime": {
-        "day": "Tuesday",
+        "day": 2,
         "time": "8:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/tensei-shitara-slime-datta-ken-2nd-season-part-2-6186953742.jpg",
         "streams": {
@@ -195,7 +195,7 @@
         }
     },
     "Drug Store in Another World - The Slow Life of a Cheat Pharmacist": {
-        "day": "Wednesday",
+        "day": 3,
         "time": "7:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/cheat-kusushi-no-slow-life-isekai-ni-tsukurou-drugstore-e629c15ba4.jpg",
         "streams": {
@@ -204,7 +204,7 @@
         }
     },
     "Tsukipro The Animation 2": {
-        "day": "Wednesday",
+        "day": 3,
         "time": "7:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/tsukipro-the-animation-2-0df6c13dc5.jpg",
         "streams": {
@@ -213,7 +213,7 @@
         }
     },
     "TSUKIMICHI -Moonlit Fantasy-": {
-        "day": "Wednesday",
+        "day": 3,
         "time": "8:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/tsuki-ga-michibiku-isekai-douchuu-89be1d4bb2.jpg",
         "streams": {
@@ -222,7 +222,7 @@
         }
     },
     "Miss Kobayashi's Dragon Maid": {
-        "day": "Wednesday",
+        "day": 3,
         "time": "9:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kobayashi-san-chi-no-maid-dragon-s-5514441a5e.jpg",
         "streams": {
@@ -231,7 +231,7 @@
         }
     },
     "Mother of the Goddess' Dormitory": {
-        "day": "Wednesday",
+        "day": 3,
         "time": "9:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/megami-ryou-no-ryoubo-kun-58ae59924c.jpg",
         "streams": {
@@ -240,7 +240,7 @@
         }
     },
     "NIGHT HEAD 2041": {
-        "day": "Wednesday",
+        "day": 3,
         "time": "11:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/night-head-2041-f4cbcb30b9.jpg",
         "streams": {
@@ -249,7 +249,7 @@
         }
     },
     "Yoshimaho": {
-        "day": "Wednesday",
+        "day": 3,
         "time": "5:00 PM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/yoshimaho-12165b00dc.jpg",
         "streams": {
@@ -257,7 +257,7 @@
         }
     },
     "Scarlet Nexus": {
-        "day": "Thursday",
+        "day": 4,
         "time": "6:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/scarlet-nexus-2d8ab70947.jpg",
         "streams": {
@@ -267,7 +267,7 @@
         }
     },
     "Peach Boy Riverside": {
-        "day": "Thursday",
+        "day": 4,
         "time": "7:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/peach-boy-riverside-fd530aed3d.jpg",
         "streams": {
@@ -277,7 +277,7 @@
         }
     },
     "Higurashi: When They Cry": {
-        "day": "Thursday",
+        "day": 4,
         "time": "8:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/higurashi-no-naku-koro-ni-sotsu-a2d0051e79.jpg",
         "streams": {
@@ -288,7 +288,7 @@
         }
     },
     "Sonny Boy": {
-        "day": "Thursday",
+        "day": 4,
         "time": "9:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/sonny-boy-0e8f3d0a25.jpg",
         "streams": {
@@ -299,7 +299,7 @@
         }
     },
     "The aquatope on white sand": {
-        "day": "Thursday",
+        "day": 4,
         "time": "9:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/shiroi-suna-no-aquatope-03ac7deaf1.jpg",
         "streams": {
@@ -309,7 +309,7 @@
         }
     },
     "Obey Me!": {
-        "day": "Friday",
+        "day": 5,
         "time": "1:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/obey-me-d01a8cafaa.jpg",
         "streams": {
@@ -318,7 +318,7 @@
         }
     },
     "The Dungeon of Black Company": {
-        "day": "Friday",
+        "day": 5,
         "time": "7:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/meikyuu-black-company-bf8d11d029.jpg",
         "streams": {
@@ -327,7 +327,7 @@
         }
     },
     "I'm Standing on a Million Lives": {
-        "day": "Friday",
+        "day": 5,
         "time": "9:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/100-man-no-inochi-no-ue-ni-ore-wa-tatteiru-2-a42b533c61.jpg",
         "streams": {
@@ -336,7 +336,7 @@
         }
     },
     "The Case Study of Vanitas": {
-        "day": "Friday",
+        "day": 5,
         "time": "9:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/vanitas-no-carte-c38d561605.jpg",
         "streams": {
@@ -346,7 +346,7 @@
         }
     },
     "My Next Life as a Villainess: All Routes Lead to Doom!": {
-        "day": "Friday",
+        "day": 5,
         "time": "11:15 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/my-next-life-as-a-villainess-all-routes-lead-to-doom-2-0cfb89a2d3.jpg",
         "streams": {
@@ -355,7 +355,7 @@
         }
     },
     "Girlfriend, Girlfriend": {
-        "day": "Friday",
+        "day": 5,
         "time": "12:00 PM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kanojo-mo-kanojo-6fa85511d2.jpg",
         "streams": {
@@ -365,7 +365,7 @@
         }
     },
     "Remake Our Life!": {
-        "day": "Saturday",
+        "day": 6,
         "time": "7:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/bokutachi-no-remake-872fb7054b.jpg",
         "streams": {
@@ -375,7 +375,7 @@
         }
     },
     "D_CIDE TRAUMEREI THE ANIMATION": {
-        "day": "Saturday",
+        "day": 6,
         "time": "8:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/d-cide-traumerei-5102f45076.jpg",
         "streams": {
@@ -384,7 +384,7 @@
         }
     },
     "Kageki Shojo!!": {
-        "day": "Saturday",
+        "day": 6,
         "time": "9:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kageki-shoujo-0026f0388d.jpg",
         "streams": {
@@ -393,7 +393,7 @@
         }
     },
     "The Honor at Magic High School": {
-        "day": "Saturday",
+        "day": 6,
         "time": "9:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/mahouka-koukou-no-yuutousei-fb5c8ecd99.jpg",
         "streams": {
@@ -402,7 +402,7 @@
         }
     },
     "Ore, Tsushima": {
-        "day": "Saturday",
+        "day": 6,
         "time": "9:50 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/ore-tsushima-7ed3b3b7f0.jpg",
         "streams": {
@@ -410,7 +410,7 @@
         }
     },
     "How a Realist Hero Rebuilt the Kingdom": {
-        "day": "Saturday",
+        "day": 6,
         "time": "10:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/genjitsu-shugi-yuusha-no-oukoku-saikenki-7a4eb7a260.jpg",
         "streams": {
@@ -421,7 +421,7 @@
         }
     },
     "RE-MAIN": {
-        "day": "Saturday",
+        "day": 6,
         "time": "10:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/re-main-fc8a2c3308.jpg",
         "streams": {
@@ -431,13 +431,13 @@
         }
     },
     "Duel Masters King!": {
-        "day": "Saturday",
+        "day": 6,
         "time": "4:30 PM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/duel-masters-king-2-73e9e83932.jpg",
         "streams": {}
     },
     "Mazica Party": {
-        "day": "Saturday",
+        "day": 6,
         "time": "5:30 PM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/mazica-party-dbc3c2ce44.jpg",
         "streams": {
@@ -445,7 +445,7 @@
         }
     },
     "The Detective is Already Dead": {
-        "day": "Sunday",
+        "day": 7,
         "time": "6:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/tantei-wa-mou-shindeiru-bb24769d6d.jpg",
         "streams": {
@@ -455,7 +455,7 @@
         }
     },
     "The Duke of Death and His Maid": {
-        "day": "Sunday",
+        "day": 7,
         "time": "6:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/shinigami-bocchan-to-kuro-maid-0996008e6d.jpg",
         "streams": {
@@ -464,7 +464,7 @@
         }
     },
     "Love Live! Superstar!!": {
-        "day": "Monday",
+        "day": 1,
         "time": "11:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/love-live-superstar-fe2d438084.jpg",
         "streams": {
@@ -474,7 +474,7 @@
         }
     },
     "IDOLiSH7": {
-        "day": "Sunday",
+        "day": 7,
         "time": "7:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/idolish7-third-beat-77d29aeab1.jpg",
         "streams": {
@@ -483,7 +483,7 @@
         }
     },
     "Getter Robo Arc": {
-        "day": "Sunday",
+        "day": 7,
         "time": "10:50 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/getter-robo-arc-f4f3ba7e2a.jpg",
         "streams": {
@@ -493,7 +493,7 @@
         }
     },
     "Theatre of Darkness: Yamishibai": {
-        "day": "Sunday",
+        "day": 7,
         "time": "12:30 PM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/yami-shibai-9-05b5dd03b5.jpg",
         "streams": {
@@ -501,13 +501,13 @@
         }
     },
     "Assault Lily: Fruits": {
-        "day": "Monday",
+        "day": 1,
         "time": "8:00 PM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/assault-lily-fruits-3e3802ce43.jpg",
         "streams": {}
     },
     "The Idaten Deities Know Only Peace": {
-        "day": "Thursday",
+        "day": 4,
         "time": "9:55 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/heion-sedai-no-idaten-tachi-fb59415df0.jpg",
         "streams": {
@@ -517,7 +517,7 @@
         }
     },
     "Magia Record: Puella Magi Madoka Magica Side Story": {
-        "day": "Saturday",
+        "day": 6,
         "time": "9:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/magia-record-mahou-shoujo-madoka-magica-gaiden-2-0da5f410b1.jpg",
         "streams": {
@@ -528,7 +528,7 @@
         }
     },
     "The Great Jahy Will Not Be Defeated!": {
-        "day": "Saturday",
+        "day": 6,
         "time": "11:45 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/jahy-sama-wa-kujikenai-e74cad55ae.jpg",
         "streams": {
@@ -537,7 +537,7 @@
         }
     },
     "Yu\u2606Gi\u2606Oh!: Sevens": {
-        "day": "Saturday",
+        "day": 6,
         "time": "3:30 PM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/yu-gi-oh-sevens-a5be910077.jpg",
         "streams": {}

@@ -20,9 +20,11 @@ class shows:
             source = f.readlines()
         streams = {}
         check = [False, False]
+        days = {"Monday":1, "Tuesday":2, "Wednesday":3, "Thursday":4,
+                "Friday":5, "Saturday":6, "Sunday":7}
         for line in source:
             if "timetable-column-day" in line:
-                day = line[170:-13]
+                day = days[line[170:-13]]
             elif "timetable-column-show" in line:
                 check[0] = False if "hide" in line else True
             if check[1]:
