@@ -63,7 +63,7 @@ aside .input-group {
 }
 
 /* Anime Calendar */
-.active, .highlight:hover {
+.active {
   background: #27002b;
   cursor: pointer;
   padding-left: 1rem;
@@ -257,10 +257,14 @@ aside .input-group {
   position: absolute;
   top: 100%;
   left: 3rem;
+  width: 24rem;
   z-index: 1040;
   padding: 4px 0;
   background: black;
   border: 1px solid gray;
   max-height: 25vh;
   overflow-y: auto;
+}
+#titles li {
+  border-bottom: 1px gray solid;
 }
