@@ -1,20 +1,14 @@
 "use strict";
-$(document).ready(function () {
-    $(".show").click(function (e) {
-        if (localStorage.getItem('info') == "0") {
-            if ($("#cover").length == 1) {
-                e.preventDefault();
-            }
-        }
-        else {
-            e.preventDefault();
-        }
+document.querySelectorAll('.show').forEach(but => {
+    but.onclick = function (e) {
+        localStorage.getItem('info') == '0' ?
+            (document.getElementById('title') ? e.preventDefault() : null) : e.preventDefault();
         streamInfo(this.innerHTML);
-    });
-    $('#info').change(function () {
-        localStorage.setItem('info', $(this)[0].value);
-        if ($('#title')[0] != null) {
-            streamInfo(document.getElementById('title').innerHTML);
-        }
-    });
+    };
 });
+document.getElementById('info').onchange = function () {
+    localStorage.setItem('info', this.value);
+    if (document.getElementById('title')) {
+        streamInfo(document.getElementById('title').innerHTML);
+    }
+};

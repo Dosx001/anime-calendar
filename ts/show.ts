@@ -1,19 +1,14 @@
-$(document).ready(function() {
-    $(".show").click(function(e) {
-        if (localStorage.getItem('info') == "0") {
-            if ($("#cover").length == 1) {
-                e.preventDefault();
-            }
-        }
-        else {
-            e.preventDefault();
-        }
-        streamInfo(this.innerHTML)
-    })
-    $('#info').change(function() {
-        localStorage.setItem('info', ($(this)[0] as HTMLInputElement).value)
-        if ($('#title')[0] != null) {
-            streamInfo(document.getElementById('title')!.innerHTML)
-        }
-    })
+document.querySelectorAll('.show').forEach(but => {
+    (<HTMLButtonElement>but).onclick = function(e: Event) {
+        localStorage.getItem('info') == '0' ?
+            (document.getElementById('title') ? e.preventDefault(): null) : e.preventDefault()
+        streamInfo((<HTMLElement>this).innerHTML)
+    }
 })
+
+document.getElementById('info')!.onchange = function() {
+    localStorage.setItem('info', (<HTMLSelectElement>this).value)
+    if (document.getElementById('title')) {
+        streamInfo(document.getElementById('title')!.innerHTML)
+    }
+}
