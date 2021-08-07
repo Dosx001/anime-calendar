@@ -34,6 +34,39 @@ $(function () {
         $('html').append('<script src="js/search.min.js"></script>');
     }
 });
+document.onkeyup = e => {
+    if (e.target.id != "search") {
+        switch (e.key) {
+            case "c":
+                clear();
+                break;
+            case "f":
+                document.getElementById('format').focus();
+                break;
+            case "i":
+                document.getElementById('info').focus();
+                break;
+            case "l":
+                list();
+                break;
+            case "m":
+                document.getElementById('calendar').focus();
+                break;
+            case "n":
+                right();
+                break;
+            case "p":
+                left();
+                break;
+            case "s":
+                document.getElementById('search').focus();
+                break;
+            case "Escape":
+            case "Enter":
+                e.target.blur();
+        }
+    }
+};
 $(document).ready(function () {
     $('#left').click(function () {
         left();
@@ -50,35 +83,6 @@ $(document).ready(function () {
     });
     $("#list").click(function () {
         list();
-    });
-    Mousetrap.bind('f', function () {
-        $('#format').focus();
-    });
-    Mousetrap.bind('i', function () {
-        $('#info').focus();
-    });
-    Mousetrap.bind('c', function () {
-        clear();
-    });
-    Mousetrap.bind('l', function () {
-        list();
-    });
-    Mousetrap.bind('m', function () {
-        $('#calendar').focus();
-    });
-    Mousetrap.bind('n', function () {
-        right();
-    });
-    Mousetrap.bind('p', function () {
-        left();
-    });
-    Mousetrap.bind('s', function () {
-        $('#search').focus();
-    });
-    $('body').keyup(function (e) {
-        if (e.keyCode == 13 && e.target.localName == "select") {
-            e.target.blur();
-        }
     });
 });
 function clear() {

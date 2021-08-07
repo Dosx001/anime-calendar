@@ -1,37 +1,77 @@
-document.addEventListener('keydown', function(e) {
-    if ((e.target! as HTMLElement).className != "ui-autocomplete-input") {
-        if (e.key == "w") {
-            let urls: {[key: string]: string} = {}
-            document.querySelectorAll('.stream').forEach(
-                ele => urls[(ele as HTMLElement).innerText.substring(1)] = (ele as HTMLAnchorElement).href
-            )
-            let streams = JSON.parse(localStorage.getItem('streams')!)
-            let check = true
-            for (const i in streams) {
-                if (streams[i][1] && streams[i][0] in urls) {
-                    window.open(urls[streams[i][0]])
-                    check = false
-                    stream()
-                    break
+document.addEventListener('keydown', e => {
+    if ((<HTMLElement>e.target!).id != "search") {
+        switch (e.key) {
+            case "a":
+                setter()
+                break
+            case "n":
+            case "p":
+                arrow()
+                break
+            case "r":
+                reset()
+                break
+            case "w":
+                let urls: {[key: string]: string} = {}
+                document.querySelectorAll('.stream').forEach(
+                    ele => urls[(ele as HTMLElement).innerText.substring(1)] = (ele as HTMLAnchorElement).href
+                )
+                let streams = JSON.parse(localStorage.getItem('streams')!)
+                let check = true
+                for (const i in streams) {
+                    if (streams[i][1] && streams[i][0] in urls) {
+                        window.open(urls[streams[i][0]])
+                        check = false
+                        stream()
+                        break
+                    }
                 }
-            }
-            e.stopImmediatePropagation()
-            if (check) {
-                (document.querySelector('.stream-box')! as HTMLElement).style.backgroundColor = 'darkred'
-                setTimeout(function() {
-                    (document.querySelector('.stream-box')! as HTMLElement).style.backgroundColor = 'black'
-                }, 50);
-            }
+                e.stopImmediatePropagation()
+                if (check) {
+                    (document.querySelector('.stream-box')! as HTMLElement).style.backgroundColor = 'darkred'
+                    setTimeout(function() {
+                        (document.querySelector('.stream-box')! as HTMLElement).style.backgroundColor = 'black'
+                    }, 50);
+                }
+                break
+            case "1":
+                link('#0')
+                break
+            case "2":
+                link('#1')
+                break
+            case "3":
+                link('#2')
+                break
+            case "4":
+                link('#3')
+                break
+            case "5":
+                link('#4')
+                break
+            case "6":
+                link('#5')
+                break
+            case "7":
+                link('#6')
+                break
+            case "8":
+                link('#7')
+                break
+            case "9":
+                link('#8')
+                break
+            case "10":
+                link('#9')
+                break
         }
     }
 })
+
 $(document).ready(function() {
     $(".setter").click(function() {
         setter()
     })
-    Mousetrap.bind('a', function() {
-        setter()
-    });
     $(".stream").click(function() {
         stream()
     })
@@ -41,40 +81,6 @@ $(document).ready(function() {
     $(".arrow").on('click.arrow', function() {
         arrow()
     })
-    Mousetrap.bind(['n', 'p'], function(e: {key: string}) {
-        e.key == 'n' ? right():left();
-        arrow()
-    });
-    Mousetrap.bind('r', function() {
-        reset()
-    });
-    Mousetrap.bind('1', function() {
-        link('#0')
-    });
-    Mousetrap.bind('2', function() {
-        link('#1')
-    });
-    Mousetrap.bind('3', function() {
-        link('#2')
-    });
-    Mousetrap.bind('4', function() {
-        link('#3')
-    });
-    Mousetrap.bind('5', function() {
-        link('#4')
-    });
-    Mousetrap.bind('6', function() {
-        link('#5')
-    });
-    Mousetrap.bind('7', function() {
-        link('#6')
-    });
-    Mousetrap.bind('8', function() {
-        link('#7')
-    });
-    Mousetrap.bind('9', function() {
-        link('#8')
-    });
 })
 
 function link(id: string) {

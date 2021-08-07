@@ -19,6 +19,9 @@ search.onkeyup = e => {
         case "Delete":
             results(e);
             break;
+        case "Escape":
+            e.target.blur();
+            break;
         default:
             if (e.key.length == 1) {
                 results(e);
