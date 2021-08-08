@@ -60,6 +60,7 @@ document.addEventListener('keydown', e => {
                 break;
             case "s":
                 document.getElementById('search').focus();
+                e.preventDefault();
                 break;
             case "Escape":
             case "Enter":

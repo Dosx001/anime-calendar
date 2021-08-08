@@ -25,7 +25,6 @@ document.addEventListener('keydown', e => {
                         break;
                     }
                 }
-                e.stopImmediatePropagation();
                 if (check) {
                     document.querySelector('.stream-box').style.backgroundColor = 'darkred';
                     setTimeout(function () {
@@ -64,6 +63,7 @@ document.addEventListener('keydown', e => {
                 link('#9');
                 break;
         }
+        e.stopImmediatePropagation();
     }
 });
 document.querySelectorAll('.arrow').forEach(ele => {
@@ -120,12 +120,10 @@ function arrow() {
             document.getElementById('reset').style.display = 'none';
         }
         else if (title in shows) {
-            if (document.getElementById('left').style.display == "" ? shows[title][0] : shows[title][1]) {
-                document.getElementById('reset').style.display = '';
-            }
-            else {
-                document.getElementById('reset').style.display = 'none';
-            }
+            document.getElementById('reset').style.display =
+                (document.getElementById('left').style.display == "" ?
+                    shows[title][0] : shows[title][1]) ?
+                    '' : 'none';
         }
     }
 }

@@ -65,20 +65,24 @@ function results(e) {
             if (title.toLocaleLowerCase().includes(input.toLocaleLowerCase())) {
                 let li = document.createElement('li');
                 li.innerHTML = title;
-                li.setAttribute('id', i.toString());
-                li.setAttribute('tabindex', (i - 100).toString());
+                li.id = i.toString();
+                li.tabIndex = i - 100;
                 i++;
                 li.addEventListener('click', function () {
                     streamInfo(this.innerHTML);
                     search.value = "";
+                    titles.style.display = "none";
                 });
                 li.addEventListener('mousemove', e => {
                     indexLi = parseInt(e.target.id);
                     let active = document.querySelector('.active');
                     if (active) {
-                        active.classList.remove('active');
+                        active.className = "";
                     }
-                    document.getElementById(indexLi.toString()).classList.add('active');
+                    document.getElementById(indexLi.toString()).className = 'active';
+                });
+                li.addEventListener('contextmenu', () => {
+                    titles.style.display = 'none';
                 });
                 titles.append(li);
             }
