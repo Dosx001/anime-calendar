@@ -13,7 +13,7 @@ case $1 in
     *)
         files=('calendar' 'list' 'search' 'show' 'streams');;
 esac
-
+tsc
 for file in ${files[@]}
 do
     terser -c -m -- js/${file}.js > js/${file}.min.js

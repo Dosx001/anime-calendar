@@ -68,6 +68,12 @@ document.addEventListener('keydown', e => {
     }
 })
 
+document.querySelectorAll('.arrow').forEach(ele => {
+    (<HTMLElement>ele).addEventListener('click', () => {
+        arrow()
+    })
+})
+
 $(document).ready(function() {
     $(".setter").click(function() {
         setter()
@@ -77,9 +83,6 @@ $(document).ready(function() {
     })
     $("#reset").click(function() {
         reset()
-    })
-    $(".arrow").on('click.arrow', function() {
-        arrow()
     })
 })
 
@@ -98,7 +101,7 @@ function stream() {
     if (title in shows) {
         updateSetter(shows, title, true)
         $("#" + ider_show(title)).css({"color": "#4f4f4f"})
-        $('#reset').css({"visibility": "visible"})
+        $('#reset').css({"display": ""})
     }
     localStorage.setItem('shows', JSON.stringify(shows))
 }
@@ -112,23 +115,25 @@ function reset() {
     let shows = JSON.parse(localStorage.getItem("shows")!)
     updateSetter(shows, title, false)
     $("#" + ider_show(title)).css({"color": "purple"})
-    $($('#reset')).css({"visibility": "hidden"})
+    $($('#reset')).css({"display": "none"})
     localStorage.setItem('shows', JSON.stringify(shows))
 }
 
 function arrow() {
-    let show: HTMLElement | string = $("#title")[0]
-    let shows = JSON.parse(localStorage.getItem("shows")!)
-    if ($('#right')[0].style[0] != null) {
-        $('#reset').css({"visibility": "hidden"})
-    }
-    else if (show != null && shows != null && show.textContent! in shows) {
-        show = show.textContent!
-        if ($('#left')[0].style[0] == null ? shows[show][0]:shows[show][1]) {
-            $('#reset').css({"visibility": "visible"})
+    let title: HTMLElement | string = document.getElementById('title')!
+    if (title) {
+        title = title.innerHTML
+        let shows = JSON.parse(localStorage.getItem("shows")!)
+        if (document.getElementById('soon')) {
+            document.getElementById('reset')!.style.display = 'none'
         }
-        else {
-            $('#reset').css({"visibility": "hidden"})
+        else if (title in shows) {
+            if (document.getElementById('left')!.style.display == "" ? shows[title][0]:shows[title][1]) {
+                document.getElementById('reset')!.style.display = ''
+            }
+            else {
+                document.getElementById('reset')!.style.display = 'none'
+            }
         }
     }
 }
@@ -144,7 +149,7 @@ function setter() {
     }
     else if (shows != null && title in shows) {
         delete shows[title]
-        $('#reset').css({"visibility": "hidden"})
+        $('#reset').css({"display": "none"})
         $('#' + ider_show(title)).css({"border-color": "grey", "color": "purple"})
         $('.setter')[0].innerHTML = "Add to Your List"
         $('.setter')[0].id = "add"

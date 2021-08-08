@@ -34,7 +34,7 @@ $(function () {
         $('html').append('<script src="js/search.min.js"></script>');
     }
 });
-document.onkeyup = e => {
+document.addEventListener('keydown', e => {
     if (e.target.id != "search") {
         switch (e.key) {
             case "c":
@@ -66,14 +66,14 @@ document.onkeyup = e => {
                 e.target.blur();
         }
     }
+});
+document.getElementById('left').onclick = () => {
+    left();
+};
+document.getElementById('right').onclick = () => {
+    right();
 };
 $(document).ready(function () {
-    $('#left').click(function () {
-        left();
-    });
-    $('#right').click(function () {
-        right();
-    });
     $('#format').change(function () {
         localStorage.setItem('format', $(this)[0].value);
         $("#left")[0].style.display == "" ? TheBigBang() : TheBigBang(-7);
@@ -102,31 +102,42 @@ function list() {
     $("#left")[0].style.display == "" ? TheBigBang() : TheBigBang(-7);
 }
 function left() {
-    if ($("#left")[0].style.display == "") {
-        if ($("#right")[0].style.display == "") {
-            $("#left").hide();
+    let left = document.getElementById('left');
+    let right = document.getElementById('right');
+    if (left.style.display == "") {
+        if (right.style.display == "") {
+            left.style.display = "none";
             TheBigBang(-7);
         }
         else {
-            $('#soon').remove();
-            $("#right").show();
-            $("#left").show();
+            let soon = document.getElementById('soon');
+            if (soon) {
+                soon.remove();
+            }
+            right.style.display = "";
+            left.style.display = "";
             TheBigBang();
         }
     }
 }
 function right() {
-    if ($("#right")[0].style.display == "") {
-        if ($("#left")[0].style.display == "") {
-            $("#right").hide();
-            $('#calendar').remove();
+    let right = document.getElementById('right');
+    let left = document.getElementById('left');
+    if (right.style.display == "") {
+        if (left.style.display == "") {
+            right.style.display = "none";
+            document.getElementById('calendar').remove();
             document.getElementById('month').textContent = "Summer 2021";
-            $('body').append('<div id="soon" class="content" align="center">'
-                + 'Coming Soon</div>');
+            let div = document.createElement('div');
+            div.className = 'content';
+            div.align = 'center';
+            div.id = 'soon';
+            div.innerHTML = 'Coming Soon';
+            document.body.append(div);
         }
         else {
-            $("#right").show();
-            $("#left").show();
+            right.style.display = "";
+            left.style.display = "";
             TheBigBang();
         }
     }
@@ -427,8 +438,8 @@ function streamInfo(show) {
         '<button id="add" class="setter">Add to Your List</button>';
     const reset = (show in shows && (($('#left')[0].style[0] == null) ?
         shows[show][0] : shows[show][1])) ?
-        '<button id="reset" style="visibility: visible;">Reset</button>' :
-        '<button id="reset" style="visibility: hidden;">Reset</button>';
+        '<button id="reset" style="">Reset</button>' :
+        '<button id="reset" style="display: none;">Reset</button>';
     switch (localStorage.getItem('info')) {
         case null:
         case "0":
