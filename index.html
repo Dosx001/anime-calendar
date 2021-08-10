@@ -46,7 +46,7 @@
           <div class="input-group-prepend">
             <label class="input-group-text" for="format">Format</label>
           </div>
-          <select class="custom-select" id="format">
+          <select class="custom-select" id="format" onchange='format()'>
             <option value="0">Calendar - Full</option>
             <option value="1">Calendar - Cutoff</option>
             <option value="2">Calendar - Compact</option>
@@ -74,13 +74,13 @@
       <div id="content"></div>
       <div class="row" id="center">
         <div class="col-9">
-          <button type="button" class="arrow" id="left"> &#9665; </button>
+          <button type="button" class="arrow" id="left" onclick='left()'> &#9665; </button>
           <text id="month"></text>
-          <button type="button" class="arrow" id="right"> &#9655; </button>
+          <button type="button" class="arrow" id="right" onclick='right()'> &#9655; </button>
         </div>
-        <button id="clear" class="col-1">Clear</button>
+        <button id="clear" class="col-1" onclick='window.clear()'>Clear</button>
         &emsp;
-        <button id="list" class="col-1">Your List</button>
+        <button id="list" class="col-1" onclick='list()'>Your List</button>
       </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

@@ -1,15 +1,17 @@
 "use strict";
 let PAST = JSON.parse(localStorage.getItem('past'));
 let STORE = JSON.parse(localStorage.getItem('store'));
-$(function () {
-    (document.getElementById("format")).selectedIndex = parseInt(localStorage.getItem('format'));
-    (document.getElementById("info")).selectedIndex = parseInt(localStorage.getItem('info'));
-    if (localStorage.getItem('list')) {
-        document.getElementById('list').innerHTML = localStorage.getItem('list');
-    }
-    if (!localStorage.getItem('shows')) {
-        localStorage.setItem('shows', JSON.stringify({}));
-    }
+(document.getElementById("info")).selectedIndex = parseInt(localStorage.getItem('info'));
+(document.getElementById("format")).selectedIndex = parseInt(localStorage.getItem('format'));
+if (localStorage.getItem('list')) {
+    document.getElementById('list').innerHTML = localStorage.getItem('list');
+}
+if (!localStorage.getItem('shows')) {
+    localStorage.setItem('shows', JSON.stringify({}));
+}
+window.onload = () => {
+    let script = document.createElement('script');
+    script.src = 'js/search.min.js';
     let VERSION = "21.2.4";
     if (localStorage.getItem('ver') != VERSION) {
         localStorage.setItem('ver', VERSION);
@@ -26,14 +28,14 @@ $(function () {
             }
             localStorage.setItem('shows', JSON.stringify(shows));
             TheBigBang();
-            $('html').append('<script src="js/search.min.js"></script>');
+            document.body.append(script);
         });
     }
     else {
         TheBigBang();
-        $('html').append('<script src="js/search.min.js"></script>');
+        document.body.append(script);
     }
-});
+};
 document.addEventListener('keydown', e => {
     if (e.target.id != "search") {
         switch (e.key) {
@@ -68,39 +70,22 @@ document.addEventListener('keydown', e => {
         }
     }
 });
-document.getElementById('left').onclick = () => {
-    left();
-};
-document.getElementById('right').onclick = () => {
-    right();
-};
-$(document).ready(function () {
-    $('#format').change(function () {
-        localStorage.setItem('format', $(this)[0].value);
-        $("#left")[0].style.display == "" ? TheBigBang() : TheBigBang(-7);
-    });
-    $("#clear").click(function () {
-        clear();
-    });
-    $("#list").click(function () {
-        list();
-    });
-});
+function format() {
+    localStorage.setItem('format', document.getElementById('format').value);
+    document.getElementById('left').style.display == '' ? TheBigBang() : TheBigBang(-7);
+}
 function clear() {
-    $('#clear').css({ "visibility": "hidden" });
-    $("#show").remove();
-    $('#calendar').css({ "height": "50rem" });
+    document.getElementById('clear').style.visibility = 'hidden';
+    document.getElementById('show').remove();
+    document.getElementById('calendar').style.height = '50rem';
 }
 function list() {
-    if ($('#list')[0].innerHTML == "Full List") {
-        $('#list')[0].innerHTML = "Your List";
-        localStorage.setItem('list', "Your List");
+    let list = document.getElementById('list');
+    list.innerHTML = list.innerHTML == 'Full List' ? 'Your List' : 'Full List';
+    localStorage.setItem('list', list.innerHTML);
+    if (!document.getElementById('soon')) {
+        document.getElementById('left').style.display == "" ? TheBigBang() : TheBigBang(-7);
     }
-    else {
-        $('#list')[0].innerHTML = "Full List";
-        localStorage.setItem('list', "Full List");
-    }
-    $("#left")[0].style.display == "" ? TheBigBang() : TheBigBang(-7);
 }
 function left() {
     let left = document.getElementById('left');
