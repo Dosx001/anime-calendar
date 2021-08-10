@@ -1,5 +1,5 @@
 document.addEventListener('keydown', e => {
-    if ((<HTMLElement>e.target!).id != "search") {
+    if ((<HTMLElement>e.target!).id != "search" && document.getElementById('show')) {
         switch (e.key) {
             case "a":
                 setter()

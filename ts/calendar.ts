@@ -87,8 +87,12 @@ function format() {
 }
 
 function clear() {
+    let show = document.getElementById('show')
+    if (show) {
+        show.remove()
+        document.getElementById('list-js')!.remove()
+    }
     document.getElementById('clear')!.style.visibility = 'hidden'
-    document.getElementById('show')!.remove()
     document.getElementById('calendar')!.style.height = '50rem'
 }
 
@@ -498,7 +502,6 @@ function streamInfo(show: string) {
     }
     resizeCalendar()
     $('#clear').css({"visibility": "visible"})
-    $('#list-js').remove()
     $('html').append('<script id="list-js" src="js/list.min.js"></script>')
 }
 
