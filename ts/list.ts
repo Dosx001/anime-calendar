@@ -34,34 +34,15 @@ document.addEventListener('keydown', e => {
                 }
                 break
             case "1":
-                link('#0')
-                break
             case "2":
-                link('#1')
-                break
             case "3":
-                link('#2')
-                break
             case "4":
-                link('#3')
-                break
             case "5":
-                link('#4')
-                break
             case "6":
-                link('#5')
-                break
             case "7":
-                link('#6')
-                break
             case "8":
-                link('#7')
-                break
             case "9":
-                link('#8')
-                break
-            case "10":
-                link('#9')
+                link(`${parseInt(e.key) - 1}`)
                 break
         }
         e.stopImmediatePropagation()
@@ -72,50 +53,53 @@ document.querySelectorAll('.arrow').forEach(ele => {
     (<HTMLElement>ele).addEventListener('click', () => {
         arrow()
     })
-})
+});
 
-$(document).ready(function() {
-    $(".setter").click(function() {
-        setter()
-    })
-    $(".stream").click(function() {
+(<HTMLElement>document.querySelector('.setter')!).onclick = () => {
+    setter()
+}
+
+document.querySelectorAll('.stream')!.forEach(but => {
+    (<HTMLElement>but).onclick = () => {
         stream()
-    })
-    $("#reset").click(function() {
-        reset()
-    })
+    }
 })
+document.getElementById('reset')!.onclick = () => {
+    reset()
+}
 
 function link(id: string) {
-    if ($(id)[0] != null) {
-        if ($(id).attr('href') != "#") {
-            window.open($(id).attr('href'));
-        }
+    let ele = <HTMLAnchorElement>document.getElementById(id)
+    if (ele) {
         stream()
+        if (!ele.href.includes(window.location.host)) {
+            window.open(ele.href);
+        }
     }
 }
 
 function stream() {
-    let title = $("#title")[0].textContent!
+    let title = document.getElementById('title')!.innerHTML
     let shows = JSON.parse(localStorage.getItem("shows")!)
     if (title in shows) {
         updateSetter(shows, title, true)
-        $("#" + ider_show(title)).css({"color": "#4f4f4f"})
-        $('#reset').css({"display": ""})
+        document.getElementById(ider_show(title))!.style.color = "#4f4f4f"
+        document.getElementById('reset')!.style.display = ""
     }
     localStorage.setItem('shows', JSON.stringify(shows))
 }
 
 function updateSetter(shows: {[key: string]: boolean[]}, title: string, Bool: boolean) {
-    $('#left')[0].style[0] == null ? shows[title][0] = Bool : shows[title][1] = Bool
+    document.getElementById('left')!.style.display == ""
+        ? shows[title][0] = Bool : shows[title][1] = Bool
 }
 
 function reset() {
-    let title = $("#title")[0].textContent!
+    let title = document.getElementById('title')!.innerHTML
     let shows = JSON.parse(localStorage.getItem("shows")!)
     updateSetter(shows, title, false)
-    $("#" + ider_show(title)).css({"color": "purple"})
-    $($('#reset')).css({"display": "none"})
+    document.getElementById(ider_show(title))!.style.color = 'purple'
+    document.getElementById('reset')!.style.display = 'none'
     localStorage.setItem('shows', JSON.stringify(shows))
 }
 
@@ -137,23 +121,28 @@ function arrow() {
 }
 
 function setter() {
-    let title = $("#title")[0].textContent!
+    let title = document.getElementById('title')!.innerHTML
+    let setter = document.querySelector('.setter')!
     let shows = JSON.parse(localStorage.getItem("shows")!)
-    if ($('.setter')[0].id == "add") {
-        $('#' + ider_show(title)).css({"border-color": "#4f004f"})
-        $('.setter')[0].innerHTML = "Remove from Your List"
-        $('.setter')[0].id = "sub"
+    if (setter.id == 'add') {
+        let ele = document.getElementById(ider_show(title))!
+        if (ele) {
+            ele.style.borderColor = "#4f004f"
+        }
+        setter.innerHTML = "Remove from Your List"
+        setter.id = "sub"
         shows[title] = [false, false]
     }
     else if (shows != null && title in shows) {
         delete shows[title]
-        $('#reset').css({"display": "none"})
-        $('#' + ider_show(title)).css({"border-color": "grey", "color": "purple"})
-        $('.setter')[0].innerHTML = "Add to Your List"
-        $('.setter')[0].id = "add"
+        document.getElementById('reset')!.style.display = 'none'
+        document.getElementById(ider_show(title))!.style.borderColor = "purple"
+        setter.innerHTML = "Add to Your List"
+        setter.id = "add"
     }
     localStorage.setItem('shows', JSON.stringify(shows))
-    if ($("#list")[0].innerHTML == "Full List") {
-        $("#left")[0].style.display == "" ? TheBigBang():TheBigBang(-7)
+    let list = <HTMLElement>document.getElementById('list')!
+    if (list.innerHTML == "Full List") {
+        document.getElementById('left')!.style.display == "" ? TheBigBang():TheBigBang(-7)
     }
 }
