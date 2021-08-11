@@ -240,7 +240,6 @@ aside .input-group {
     position: absolute;
     top: 100%;
     left: 3rem;
-    width: 24rem;
     z-index: 1040;
     padding: 4px 0;
     background: black;
@@ -252,3 +251,7 @@ aside .input-group {
     }
 }
 
+#titles, #search {
+    width: 24rem;
+    box-sizing:border-box;
+}
