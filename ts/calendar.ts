@@ -26,9 +26,7 @@ window.onload = () => {
         localStorage.setItem('ver', VERSION)
         set("./shows/shows.json", "store")
         set("./shows/past_shows.json", "past")
-            .then(function() {
-                PAST = JSON.parse(localStorage.getItem('past')!)
-                STORE = JSON.parse(localStorage.getItem('store')!)
+            .then(() => {
                 let shows = JSON.parse(localStorage.getItem('shows')!)
                 for (let show in shows) {
                     if (!(show in STORE) || !(show in PAST)) {
@@ -36,6 +34,7 @@ window.onload = () => {
                     }
                 }
                 localStorage.setItem('shows', JSON.stringify(shows))
+            }).finally(() => {
                 TheBigBang()
                 document.body.append(script)
             })
@@ -149,7 +148,9 @@ function right() {
 }
 
 async function set(file: string, key: string) {
-    localStorage.setItem(key, JSON.stringify(await (await fetch(file)).json()))
+    let data = await (await fetch(file)).json()
+    key == 'store' ? STORE = data : PAST = data
+    localStorage.setItem(key, JSON.stringify(data))
 }
 
 function TheBigBang(offset: number = 0) {
