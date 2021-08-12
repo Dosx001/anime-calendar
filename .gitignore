@@ -1,4 +1,5 @@
 shows/*.html
 shows/pass.txt
+season/*.html
 node_modules/*
 **/__pycache__/
