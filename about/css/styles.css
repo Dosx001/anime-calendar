@@ -27,6 +27,16 @@ button:focus {
   outline: none;
 }
 
-.line {
-  border-top: 2px solid gray;
+h1 {
+  font-size: 2rem;
+}
+
+.content {
+  width: 70%;
+}
+
+@media screen and (max-width: 725px) {
+  .content {
+    width: 100%;
+  }
 }
