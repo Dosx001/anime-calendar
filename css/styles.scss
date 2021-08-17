@@ -68,26 +68,6 @@ aside .input-group {
     }
 }
 
-@media screen and (max-width: 1200px) {
-    .cover-season {
-        width: 60%;
-    }
-
-    .info {
-        width: 40%;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .cover-season {
-        float: none;
-    }
-
-    .info {
-        width: 100%;
-    }
-}
-
 %buttons {
     @include box(black, grey, 20px);
     color: purple;
@@ -304,4 +284,55 @@ aside .input-group {
     width: 68%;
 }
 
+@media screen and (max-width: 1200px) {
+    .cover-season {
+        width: 60%;
+    }
 
+    .info {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .stream-drag {
+        width: 110%;
+        margin-left: -1rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .stream-drag {
+        width: 125%;
+        margin-left: -2rem;
+    }
+
+    .stream-input {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .cover-season {
+        float: none;
+    }
+
+    .info {
+        width: 100%;
+    }
+
+    .stream-drag {
+        width: 136%;
+        margin-left: -2.25rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    aside {
+        display: none;
+    }
+
+    #calendar {
+        width: 100%;
+    }
+}
