@@ -17,9 +17,9 @@ def main():
         genres = [ele.get_attribute('innerHTML') for ele in show.find_elements_by_class_name('genre')]
         content = {
             'cover': cover[:-12:],
-            'studio': studio,
-            'source': source,
-            'genres': genres
+            'Studio': studio,
+            'Source': source,
+            'Genres': genres
             }
         shows.update({title: content})
     driver.quit()

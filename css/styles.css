@@ -39,10 +39,6 @@ aside #title {
   line-height: 2rem;
 }
 
-td {
-  width: 10rem;
-}
-
 /* Bootstrap */
 aside .input-group {
   padding-bottom: 0.5rem;
@@ -62,6 +58,11 @@ aside .input-group {
   border: 1px solid darkgrey;
 }
 
+.table td, .table th {
+  border-top: 1px solid darkgrey;
+  padding: 0.6rem;
+}
+
 /* Anime Calendar */
 .active {
   background: #27002b;
@@ -69,11 +70,46 @@ aside .input-group {
   padding-left: 1rem;
 }
 
-.table td, .table th {
-  border-top: 1px solid darkgrey;
-  padding: 0.6rem;
+.cover {
+  display: inline-block;
 }
 
+.cover-season {
+  float: left;
+  width: 45%;
+}
+.cover-season img {
+  width: 340px;
+  height: auto;
+  max-height: 440px;
+}
+
+.info {
+  width: 55%;
+  font-size: 1.5rem;
+}
+.info td {
+  border-top: 1px solid gray;
+}
+
+@media screen and (max-width: 1200px) {
+  .cover-season {
+    width: 60%;
+  }
+
+  .info {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .cover-season {
+    float: none;
+  }
+
+  .info {
+    width: 100%;
+  }
+}
 #clear, #list, #reset, .setter, .stream, .arrow, .show {
   background: black;
   border: 2px solid grey;
@@ -87,6 +123,10 @@ aside .input-group {
 .show {
   width: 8rem;
   margin-bottom: 2px;
+}
+
+.show-season {
+  border-bottom: 5px solid black;
 }
 
 .arrow {
@@ -139,7 +179,6 @@ aside .input-group {
 }
 
 .date, .time, .slot {
-  background: #27002b;
   border: 2px solid black;
 }
 
@@ -148,6 +187,7 @@ aside .input-group {
 }
 
 .date {
+  background: #27002b;
   position: sticky;
   top: 0;
 }
@@ -178,7 +218,8 @@ aside .input-group {
   font-size: 3rem;
 }
 
-#calendar {
+#calendar, #season {
+  background: #27002b;
   scroll-padding-top: 2rem;
   overflow: auto;
   scrollbar-color: #4d4b4b black;
@@ -187,9 +228,17 @@ aside .input-group {
   margin: auto;
   display: grid;
 }
+
 #calendar table {
   border-collapse: separate;
   border-spacing: 0;
+}
+#calendar td {
+  width: 10rem;
+}
+
+#season {
+  border: 2px solid black;
 }
 
 ::-webkit-scrollbar {
@@ -200,17 +249,6 @@ aside .input-group {
 ::-webkit-scrollbar-thumb {
   background: grey;
   -webkit-border-radius: 10px;
-}
-
-#cover {
-  float: inherit;
-  display: inline-block;
-}
-
-#streams {
-  float: right;
-  display: inline-block;
-  width: 68%;
 }
 
 #add {
@@ -271,4 +309,9 @@ aside .input-group {
 #titles, #search {
   width: 24rem;
   box-sizing: border-box;
+}
+
+#streams {
+  float: right;
+  width: 68%;
 }

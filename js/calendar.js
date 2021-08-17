@@ -51,7 +51,8 @@ document.addEventListener('keydown', e => {
                 list();
                 break;
             case "m":
-                document.getElementById('calendar').focus();
+                let cal = document.getElementById('calendar');
+                cal ? cal.focus() : document.getElementById('season').focus();
                 break;
             case "n":
                 right();
@@ -77,17 +78,18 @@ function clear() {
     let show = document.getElementById('show');
     if (show) {
         show.remove();
-        document.getElementById('list-js').remove();
+        document.getElementById('clear').style.visibility = 'hidden';
+        document.getElementById('calendar').style.height = '50rem';
     }
-    document.getElementById('clear').style.visibility = 'hidden';
-    document.getElementById('calendar').style.height = '50rem';
 }
 function list() {
     let list = document.getElementById('list');
     list.innerHTML = list.innerHTML == 'Full List' ? 'Your List' : 'Full List';
     localStorage.setItem('list', list.innerHTML);
-    if (!document.getElementById('soon')) {
-        document.getElementById('left').style.display == "" ? TheBigBang() : TheBigBang(-7);
+    if (document.getElementById('calendar')) {
+        if (!document.getElementById('soon')) {
+            document.getElementById('left').style.display == "" ? TheBigBang() : TheBigBang(-7);
+        }
     }
 }
 function left() {
@@ -116,13 +118,8 @@ function right() {
         if (left.style.display == "") {
             right.style.display = "none";
             document.getElementById('calendar').remove();
-            document.getElementById('month').textContent = "Summer 2021";
-            let div = document.createElement('div');
-            div.className = 'content';
-            div.align = 'center';
-            div.id = 'soon';
-            div.innerHTML = 'Coming Soon';
-            document.body.append(div);
+            document.getElementById('month').textContent = "Fall 2021";
+            season();
         }
         else {
             right.style.display = "";
@@ -137,7 +134,8 @@ async function set(file, key) {
     localStorage.setItem(key, JSON.stringify(data));
 }
 function TheBigBang(offset = 0) {
-    $('#calendar').remove();
+    let cal = document.getElementById('calendar');
+    cal ? cal.remove() : document.getElementById('season').remove();
     updateTime();
     let format = localStorage.getItem('format');
     fetch(offset == 0 ? "./shows/time.json" : "./shows/past_time.json")
@@ -436,7 +434,7 @@ function streamInfo(show) {
         case "0":
             $("#content").append('<h3 id="show">'
                 + but + reset
-                + '<div id="cover"><img src="'
+                + '<div class="cover"><img src="'
                 + data[show].cover + '" width="340" height="440">'
                 + '</div><div id="streams">'
                 + streams + '</div>');
@@ -451,7 +449,7 @@ function streamInfo(show) {
         case "2":
             $("#content").append('<h3 id="show" class="window container">'
                 + but + reset
-                + '<div id="cover"><img src="'
+                + '<div class="cover"><img src="'
                 + data[show].cover + '" width="340" height="440">'
                 + '</div><div id="streams">'
                 + streams + '</div>');
@@ -471,7 +469,14 @@ function streamInfo(show) {
     }
     resizeCalendar();
     $('#clear').css({ "visibility": "visible" });
-    $('html').append('<script id="list-js" src="js/list.min.js"></script>');
+    let list = document.getElementById('list-js');
+    if (list) {
+        list.remove();
+    }
+    list = document.createElement('script');
+    list.id = 'list-js';
+    list.src = 'js/list.min.js';
+    document.body.append(list);
 }
 Date.prototype.getWeek = function () {
     const date = new Date(Date.UTC(this.getFullYear(), this.getMonth(), this.getDate()));

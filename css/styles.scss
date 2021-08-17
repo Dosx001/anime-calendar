@@ -12,10 +12,6 @@ aside {
     }
 }
 
-td {
-    width: 10rem;
-}
-
 /* Bootstrap */
 aside .input-group {
     padding-bottom: .5rem;
@@ -38,6 +34,11 @@ aside .input-group {
     border: 1px solid darkgrey;
 }
 
+.table td, .table th {
+    border-top: 1px solid darkgrey;
+    padding: .6rem;
+}
+
 /* Anime Calendar */
 .active {
     background: $DarkPurple;
@@ -45,9 +46,46 @@ aside .input-group {
     padding-left: 1rem;
 }
 
-.table td, .table th {
-    border-top: 1px solid darkgrey;
-    padding: .6rem;
+.cover {
+    display: inline-block;
+}
+
+.cover-season {
+    float: left;
+    width: 45%;
+    img {
+        width: 340px;
+        height: auto;
+        max-height: 440px;
+    }
+}
+
+.info {
+    width: 55%;
+    font-size: 1.5rem;
+    td {
+        border-top: 1px solid gray;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .cover-season {
+        width: 60%;
+    }
+
+    .info {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .cover-season {
+        float: none;
+    }
+
+    .info {
+        width: 100%;
+    }
 }
 
 %buttons {
@@ -62,6 +100,10 @@ aside .input-group {
     @extend %buttons;
     width: 8rem;
     margin-bottom: 2px;
+}
+
+.show-season {
+    border-bottom: 5px solid black;
 }
 
 .arrow {
@@ -120,7 +162,7 @@ aside .input-group {
 }
 
 .date, .time, .slot {
-    @include box($DarkPurple, black);
+    border: 2px solid black;
 }
 
 .slot, .date {
@@ -128,6 +170,7 @@ aside .input-group {
 }
 
 .date {
+    background: $DarkPurple;
     position: sticky;
     top: 0;
 }
@@ -156,7 +199,8 @@ aside .input-group {
     font-size: 3rem;
 }
 
-#calendar {
+#calendar, #season {
+    background: $DarkPurple;
     scroll-padding-top: 2rem;
     overflow: auto;
     scrollbar-color: #4d4b4b black;
@@ -164,10 +208,21 @@ aside .input-group {
     width: 65%;
     margin: auto;
     display: grid;
+}
+
+#calendar {
     table {
         border-collapse: separate;
         border-spacing: 0;
     }
+    td {
+        width: 10rem;
+    }
+}
+
+
+#season {
+    border: 2px solid black;
 }
 
 ::-webkit-scrollbar {
@@ -179,18 +234,6 @@ aside .input-group {
     background: grey;
     -webkit-border-radius: 10px;
 }
-
-#cover {
-    float:inherit;
-    display:inline-block;
-}
-
-#streams {
-    float: right;
-    display: inline-block;
-    width: 68%;
-}
-
 #add {
     margin-left: 4rem;
 }
@@ -255,3 +298,10 @@ aside .input-group {
     width: 24rem;
     box-sizing:border-box;
 }
+
+#streams {
+    float: right;
+    width: 68%;
+}
+
+

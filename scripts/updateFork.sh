@@ -11,8 +11,7 @@ then
         cd /mnt/d/Repositories/html/anime-calendar
     fi
 else
-    git fetch upstream
-    git rebase upstream/main
+    git rebase --continue
     git push -f
     cd /mnt/d/Repositories/html/anime-calendar
 fi
