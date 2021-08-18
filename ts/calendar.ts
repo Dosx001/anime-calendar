@@ -478,7 +478,7 @@ function streamInfo(show: string) {
             $('#show').append(but + reset)
             break;
         case "2":
-            $("#content").append('<h3 id="show" class="window container">'
+            $("#content").append('<h3 id="show" class="window">'
                 + but + reset
                 + '<div class="cover"><img src="'
                 + data[show].cover + '" width="340" height="440">'

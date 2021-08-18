@@ -2,7 +2,7 @@
 
 aside {
     position: fixed;
-    margin-top: 4rem;
+    margin-top: 4rem !important;
     width: 18%;
     button, a {
         font-size: 1.5rem;
@@ -167,6 +167,22 @@ aside .input-group {
     width: 67%;
     padding: 20px;
     margin-top: 7rem;
+    left: 25%;
+    top: 18%;
+}
+
+#center {
+    display: flex;
+    margin: auto;
+    width: 60%;
+}
+
+#center-left {
+    width: 75%;
+}
+
+#center-right {
+    width: 25%;
 }
 
 #settings {
@@ -180,13 +196,12 @@ aside .input-group {
 }
 
 #calendar, #season {
+    @include container;
     background: $DarkPurple;
     scroll-padding-top: 2rem;
     overflow: auto;
     scrollbar-color: #4d4b4b black;
     height: 50rem;
-    width: 65%;
-    margin: auto;
     display: grid;
 }
 
@@ -234,12 +249,17 @@ aside .input-group {
 #clear, #list {
     @extend %buttons;
     margin: 1rem 0px;
+    padding: .5rem 1rem;
 }
 
 #clear {
     visibility: hidden;
     background: $DarkPurple;
     color: purple;
+}
+
+#list {
+    margin-left: 5px;
 }
 
 #search {
@@ -253,8 +273,9 @@ aside .input-group {
 }
 
 #content aside {
+    display: block;
     right: 0;
-    width: 17%;
+    width: 17% !important;
     font-size: 2rem;
     line-height: 2.5rem;
 }
@@ -284,6 +305,12 @@ aside .input-group {
     width: 68%;
 }
 
+#show {
+    display: flex;
+    margin: auto;
+    width: 50%;
+}
+
 @media screen and (max-width: 1200px) {
     .cover-season {
         width: 60%;
@@ -291,6 +318,10 @@ aside .input-group {
 
     .info {
         width: 40%;
+    }
+
+    #clear, #list {
+        padding: .5rem;
     }
 }
 
@@ -310,6 +341,18 @@ aside .input-group {
     .stream-input {
         width: auto;
     }
+
+    #list, #clear {
+        margin: 0;
+    }
+
+    #center {
+        width: 65%;
+    }
+
+    #month {
+        font-size: 2rem;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -325,6 +368,18 @@ aside .input-group {
         width: 136%;
         margin-left: -2.25rem;
     }
+
+    #center-left {
+        width: 20%;
+    }
+
+    #center-right {
+        width: 80%;
+    }
+
+    #month {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -334,5 +389,9 @@ aside .input-group {
 
     #calendar {
         width: 100%;
+    }
+
+    #center {
+        width: 90%;
     }
 }

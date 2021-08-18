@@ -8,6 +8,11 @@ $DarkPurple: #27002b;
     }
 }
 
+@mixin container {
+    margin: auto;
+    width: 65%;
+}
+
 html {
     scroll-padding-top: 5rem;
 }

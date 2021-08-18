@@ -71,17 +71,16 @@
         </div>
       </aside>
     </div>
-    <div class="container">
-      <div id="content"></div>
-      <div class="row" id="center">
-        <div class="col-9">
-          <button type="button" class="arrow" id="left" onclick='left()'> &#9665; </button>
-          <text id="month"></text>
-          <button type="button" class="arrow" id="right" onclick='right()'> &#9655; </button>
-        </div>
-        <button id="clear" class="col-1" onclick='window.clear()'>Clear</button>
-        &emsp;
-        <button id="list" class="col-1" onclick='list()'>Your List</button>
+    <div id="content"></div>
+    <div id="center">
+      <div id="center-left">
+        <button type="button" class="arrow" id="left" onclick='left()'> &#9665; </button>
+        <text id="month"></text>
+        <button type="button" class="arrow" id="right" onclick='right()'> &#9655; </button>
+      </div>
+      <div id="center-right" align="right">
+        <button id="clear" onclick='window.clear()'>Clear</button>
+        <button id="list" onclick='list()'>Your List</button>
       </div>
     </div>
     <div id="calendar"></div>
