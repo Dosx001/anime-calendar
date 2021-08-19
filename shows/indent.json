@@ -206,7 +206,7 @@
     "Tsukipro The Animation 2": {
         "day": 3,
         "time": "7:00 AM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/tsukipro-the-animation-2-0df6c13dc5.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/tsukipro-the-animation-2-3341cdd387.jpg",
         "streams": {
             "HiDive": "https://www.hidive.com/tv/tsukipro-the-animation-2",
             "VRV": "https://vrv.co/series/GY1Q9DDGR/Tsukipro-The-Animation-2"
@@ -306,15 +306,6 @@
             "Crunchyroll": "https://www.crunchyroll.com/the-aquatope-on-white-sand",
             "VRV": "https://vrv.co/series/G0XHWM3J0/The-aquatope-on-white-sand",
             "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl13ebVE0dgagqzozYJ5d1Er"
-        }
-    },
-    "Obey Me!": {
-        "day": 5,
-        "time": "1:00 AM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/obey-me-d01a8cafaa.jpg",
-        "streams": {
-            "Funimation": "https://www.funimation.com/shows/obey-me/",
-            "YouTube": "https://www.youtube.com/channel/UCGh9vTBjmF-QaQ02pHHExlw"
         }
     },
     "The Dungeon of Black Company": {
@@ -465,7 +456,7 @@
     },
     "Love Live! Superstar!!": {
         "day": 1,
-        "time": "11:00 AM",
+        "time": "12:00 PM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/love-live-superstar-fe2d438084.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/love-live-superstar",
@@ -497,6 +488,7 @@
         "time": "12:30 PM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/yami-shibai-9-05b5dd03b5.jpg",
         "streams": {
+            "Crunchyroll": "https://www.crunchyroll.com/theatre-of-darkness-yamishibai",
             "VRV": "https://vrv.co/series/G6WEM1V36"
         }
     },
@@ -508,7 +500,7 @@
     },
     "The Idaten Deities Know Only Peace": {
         "day": 4,
-        "time": "9:55 AM",
+        "time": "10:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/heion-sedai-no-idaten-tachi-fb59415df0.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/the-idaten-deities-know-only-peace",
@@ -541,5 +533,13 @@
         "time": "3:30 PM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/yu-gi-oh-sevens-a5be910077.jpg",
         "streams": {}
+    },
+    "Fena: Pirate Princess": {
+        "day": 6,
+        "time": "9:00 PM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kaizoku-oujo-96c8437037.jpg",
+        "streams": {
+            "Crunchyroll": "https://www.crunchyroll.com/fena-pirate-princess"
+        }
     }
 }

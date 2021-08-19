@@ -21,7 +21,7 @@ if (!localStorage.getItem('shows')) {
 window.onload = () => {
     let script = document.createElement('script')
     script.src = 'js/search.min.js'
-    let VERSION = "21.2.4"
+    let VERSION = "21.2.5"
     if (localStorage.getItem('ver') != VERSION) {
         localStorage.setItem('ver', VERSION)
         set("./shows/shows.json", "store")

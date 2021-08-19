@@ -38,8 +38,8 @@ class shows:
                 if "show-air-time" in line:
                     check[1] = True
                 elif 'show-poster' in line and not 'lazy' in line:
-                    cover = line.split()[2][5:-12]
-                    if cover[-3::] != "jpg":
+                    cover = line.split()[2][5:-9]
+                    while cover[-3::] != "jpg":
                         cover = cover[0:-4]
                 elif 'class="stream-link"' in line and 'title' in line:
                     stream = line.split()
