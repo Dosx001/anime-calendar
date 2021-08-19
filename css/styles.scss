@@ -104,6 +104,7 @@ aside .input-group {
     width: 90%;
     position: relative;
     left: 5%;
+    padding-left: 2rem;
 }
 
 .stream-drag {
@@ -265,7 +266,7 @@ aside .input-group {
 #search {
     color: gray;
     background: $DarkPurple;
-    padding-left: 5px;
+    padding: .25rem;
 }
 
 #soon {
@@ -282,9 +283,8 @@ aside .input-group {
 
 #titles {
     position: absolute;
-    top: 100%;
-    left: 3rem;
-    z-index: 1040;
+    top: 80%;
+    left: 9%;
     padding: 4px 0;
     background: black;
     border: 1px solid gray;
@@ -311,6 +311,22 @@ aside .input-group {
     width: 50%;
 }
 
+@media screen and (max-width: 1800px) {
+    .stream-box {
+        padding-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    #nav-left {
+        left: 10%;
+    }
+
+    #nav-right {
+        right:10%;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     .cover-season {
         width: 60%;
@@ -326,16 +342,18 @@ aside .input-group {
 }
 
 @media screen and (max-width: 1150px) {
-    .stream-drag {
-        width: 110%;
-        margin-left: -1rem;
+    .stream-box {
+        padding-left: .5rem;
     }
 }
 
 @media screen and (max-width: 1000px) {
+    .stream-box {
+        padding-left: .1rem;
+    }
+
     .stream-drag {
-        width: 125%;
-        margin-left: -2rem;
+        width: auto;
     }
 
     .stream-input {
@@ -353,6 +371,14 @@ aside .input-group {
     #month {
         font-size: 2rem;
     }
+
+    #nav-left {
+        left: 5%;
+    }
+
+    #nav-right {
+        right: 5%;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -364,17 +390,21 @@ aside .input-group {
         width: 100%;
     }
 
+    .stream-box {
+        width: 95%;
+        left: 0%;
+    }
+
     .stream-drag {
-        width: 136%;
-        margin-left: -2.25rem;
+        width: 95%;
     }
 
     #center-left {
-        width: 20%;
+        width: 30%;
     }
 
     #center-right {
-        width: 80%;
+        width: 70%;
     }
 
     #month {
@@ -393,5 +423,13 @@ aside .input-group {
 
     #center {
         width: 90%;
+    }
+
+    #mobile {
+        display: unset !important;
+    }
+
+    .desktop {
+        display: none;
     }
 }
