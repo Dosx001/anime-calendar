@@ -35,8 +35,11 @@ window.onload = () => {
         document.body.append(script);
     }
 };
+function hotkey(e) {
+    return e.target.id == "search" || e.ctrlKey || e.altKey ? false : true;
+}
 document.addEventListener('keydown', e => {
-    if (e.target.id != "search") {
+    if (hotkey(e)) {
         switch (e.key) {
             case "c":
                 clear();

@@ -46,7 +46,7 @@ window.onload = () => {
 }
 
 document.addEventListener('keydown', e => {
-    if ((<HTMLElement>e.target!).id != "search") {
+    if (hotkey(e)) {
         switch(e.key) {
             case "c":
                 clear()
@@ -80,6 +80,10 @@ document.addEventListener('keydown', e => {
         }
     }
 })
+
+function hotkey(e: KeyboardEvent) {
+    return (<HTMLElement>e.target!).id == "search" || e.ctrlKey || e.altKey ? false : true
+}
 
 function format() {
     localStorage.setItem('format', (<HTMLSelectElement>document.getElementById('format')!).value)

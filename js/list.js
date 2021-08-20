@@ -1,6 +1,6 @@
 "use strict";
 document.addEventListener('keydown', e => {
-    if (e.target.id != "search" && document.getElementById('show')) {
+    if (hotkey(e) && document.getElementById('show')) {
         switch (e.key) {
             case "a":
                 setter();
