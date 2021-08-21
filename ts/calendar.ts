@@ -17,6 +17,8 @@ if (localStorage.getItem('list')) {
 if (!localStorage.getItem('shows')) {
     localStorage.setItem('shows', JSON.stringify({}))
 }
+let LEFT = document.getElementById("left")!, RIGHT = document.getElementById("right")!
+LEFT.style.visibility = "visible", RIGHT.style.visibility = "visible"
 
 window.onload = () => {
     let script = document.createElement('script')
@@ -83,7 +85,7 @@ document.addEventListener('keydown', e => {
 
 function format() {
     localStorage.setItem('format', (<HTMLSelectElement>document.getElementById('format')!).value)
-    document.getElementById('left')!.style.display == '' ? TheBigBang():TheBigBang(-7)
+    LEFT.style.visibility == 'visible' ? TheBigBang():TheBigBang(-7)
 }
 
 function clear() {
@@ -101,17 +103,15 @@ function list() {
     localStorage.setItem('list', list.innerHTML)
     if (document.getElementById('calendar')) {
         if (!document.getElementById('soon')) {
-            document.getElementById('left')!.style.display == "" ? TheBigBang():TheBigBang(-7)
+            LEFT.style.visibility == 'visible' ? TheBigBang():TheBigBang(-7)
         }
     }
 }
 
 function left() {
-    let left = document.getElementById('left')!
-    let right = document.getElementById('right')!
-    if (left.style.display == "") {
-        if (right.style.display == "") {
-            left.style.display = "none"
+    if (LEFT.style.visibility == "visible") {
+        if (RIGHT.style.visibility == "visible") {
+            LEFT.style.visibility = "hidden"
             TheBigBang(-7);
         }
         else {
@@ -119,26 +119,24 @@ function left() {
             if (soon) {
                 soon.remove()
             }
-            right.style.display = ""
-            left.style.display = ""
+            RIGHT.style.visibility = "visible"
+            LEFT.style.visibility = "visible"
             TheBigBang();
         }
     }
 }
 
 function right() {
-    let right = document.getElementById('right')!
-    let left = document.getElementById('left')!
-    if (right.style.display == "") {
-        if (left.style.display == "") {
-            right.style.display = "none"
+    if (RIGHT.style.visibility == "visible") {
+        if (LEFT.style.visibility == "visible") {
+            RIGHT.style.visibility = "hidden"
             document.getElementById('calendar')!.remove()
             document.getElementById('month')!.textContent = "Fall 2021"
             season()
         }
         else {
-            right.style.display = ""
-            left.style.display = ""
+            RIGHT.style.visibility = "visible"
+            LEFT.style.visibility = "visible"
             TheBigBang();
         }
     }
@@ -268,10 +266,11 @@ function createShows(offset: number) {
     for (let show in (document.getElementById('list')!.innerHTML == "Your List") ? data:shows) {
         if (show in data) {
             let style = ""
-            if (shows != null && show in shows) {
-                style = ($('#left')[0].style[0] == null ? shows[show][0]:shows[show][1]) ?
-                    ' style="border-color: #4f004f; color: #4f4f4f;" ':
-                    ' style="border-color: #4f004f;" '
+            if (show in shows) {
+                style = (LEFT.style.visibility == 'visible' ?
+                    shows[show][0] : shows[show][1]) ?
+                        ' style="border-color: #4f004f; color: #4f4f4f;" ':
+                        ' style="border-color: #4f004f;" '
             }
             let id = "#" + ider_slot(data[show].day, data[show].time)
             $(id).append('<a href="' + id + '">'
@@ -454,10 +453,10 @@ function streamInfo(show: string) {
     const but = show in shows ?
         '<button id="sub" class="setter">Remove from Your List</button>':
         '<button id="add" class="setter">Add to Your List</button>'
-    const reset = (show in shows && (($('#left')[0].style[0] == null) ?
-        shows[show][0]:shows[show][1])) ?
-        '<button id="reset" style="">Reset</button>':
-        '<button id="reset" style="display: none;">Reset</button>'
+    const reset = (show in shows && (LEFT.style.visibility == 'visible' ?
+        shows[show][0] : shows[show][1])) ?
+            '<button id="reset" style="">Reset</button>':
+            '<button id="reset" style="visibility: hidden">Reset</button>'
     switch(localStorage.getItem('info')) {
         case null:
         case "0":

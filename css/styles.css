@@ -9,11 +9,11 @@ body {
 }
 
 nav {
+  margin: auto;
+  width: 40%;
   display: flex;
   padding: 0.5rem 0;
   z-index: 10;
-  width: 40%;
-  margin: auto;
 }
 nav a {
   color: gray;
@@ -294,9 +294,9 @@ aside .input-group {
 }
 
 #center {
-  display: flex;
   margin: auto;
   width: 40%;
+  display: flex;
 }
 
 #center-left {
@@ -358,11 +358,6 @@ aside .input-group {
   margin-left: 1rem;
 }
 
-#cry {
-  width: 15rem;
-  height: 15rem;
-}
-
 #clear, #list {
   margin: 1rem 0px;
   padding: 0.5rem 1rem;
@@ -421,9 +416,9 @@ aside .input-group {
 }
 
 #show {
-  display: flex;
   margin: auto;
   width: 50%;
+  display: flex;
 }
 
 @media screen and (max-width: 1920px) {

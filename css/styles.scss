@@ -173,9 +173,8 @@ aside .input-group {
 }
 
 #center {
+    @include container(40%);
     display: flex;
-    margin: auto;
-    width: 40%;
 }
 
 #center-left {
@@ -197,7 +196,7 @@ aside .input-group {
 }
 
 #calendar, #season {
-    @include container;
+    @include container(65%);
     background: $DarkPurple;
     scroll-padding-top: 2rem;
     overflow: auto;
@@ -236,11 +235,6 @@ aside .input-group {
 
 #sub {
     margin-left: 1rem;
-}
-
-#cry {
-    width: 15rem;
-    height: 15rem;
 }
 
 #reset {
@@ -306,9 +300,8 @@ aside .input-group {
 }
 
 #show {
+    @include container(50%);
     display: flex;
-    margin: auto;
-    width: 50%;
 }
 
 @media screen and (max-width: 1920px) {

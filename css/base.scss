@@ -8,9 +8,9 @@ $DarkPurple: #27002b;
     }
 }
 
-@mixin container {
+@mixin container($value) {
     margin: auto;
-    width: 65%;
+    width: $value;
 }
 
 html {
@@ -24,11 +24,10 @@ body {
 }
 
 nav {
+    @include container(40%);
     display: flex;
     padding: .5rem 0;
     z-index: 10;
-    width: 40%;
-    margin: auto;
     a {
         color: gray;
         padding: .25rem;
