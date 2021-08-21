@@ -84,13 +84,13 @@ function stream() {
     if (title in shows) {
         updateSetter(shows, title, true)
         document.getElementById(ider_show(title))!.style.color = "#4f4f4f"
-        document.getElementById('reset')!.style.display = ""
+        document.getElementById('reset')!.style.visibility = 'visible'
     }
     localStorage.setItem('shows', JSON.stringify(shows))
 }
 
 function updateSetter(shows: {[key: string]: boolean[]}, title: string, Bool: boolean) {
-    document.getElementById('left')!.style.display == ""
+    LEFT.style.visibility == 'visible'
         ? shows[title][0] = Bool : shows[title][1] = Bool
 }
 
@@ -99,7 +99,7 @@ function reset() {
     let shows = JSON.parse(localStorage.getItem("shows")!)
     updateSetter(shows, title, false)
     document.getElementById(ider_show(title))!.style.color = 'purple'
-    document.getElementById('reset')!.style.display = 'none'
+    document.getElementById('reset')!.style.visibility = 'hidden'
     localStorage.setItem('shows', JSON.stringify(shows))
 }
 
@@ -108,14 +108,14 @@ function arrow() {
     if (title) {
         title = title.innerHTML
         let shows = JSON.parse(localStorage.getItem("shows")!)
-        if (document.getElementById('soon')) {
-            document.getElementById('reset')!.style.display = 'none'
+        if (document.getElementById('season')) {
+            document.getElementById('show')!.remove()
         }
         else if (title in shows) {
-            document.getElementById('reset')!.style.display =
-                (document.getElementById('left')!.style.display == "" ?
+            document.getElementById('reset')!.style.visibility =
+                (LEFT.style.visibility == 'visible' ?
                 shows[title][0]:shows[title][1]) ?
-                '' : 'none'
+                'visible' : 'hidden'
         }
     }
 }
@@ -135,7 +135,7 @@ function setter() {
     }
     else if (shows != null && title in shows) {
         delete shows[title]
-        document.getElementById('reset')!.style.display = 'none'
+        document.getElementById('reset')!.style.visibility = 'hidden'
         document.getElementById(ider_show(title))!.style.borderColor = "purple"
         setter.innerHTML = "Add to Your List"
         setter.id = "add"
@@ -143,6 +143,6 @@ function setter() {
     localStorage.setItem('shows', JSON.stringify(shows))
     let list = <HTMLElement>document.getElementById('list')!
     if (list.innerHTML == "Full List") {
-        document.getElementById('left')!.style.display == "" ? TheBigBang():TheBigBang(-7)
+        LEFT.style.visibility == 'visible' ? TheBigBang():TheBigBang(-7)
     }
 }

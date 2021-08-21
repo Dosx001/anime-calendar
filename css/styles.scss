@@ -2,7 +2,7 @@
 
 aside {
     position: fixed;
-    margin-top: 4rem;
+    margin-top: 4rem !important;
     width: 18%;
     button, a {
         font-size: 1.5rem;
@@ -68,26 +68,6 @@ aside .input-group {
     }
 }
 
-@media screen and (max-width: 1200px) {
-    .cover-season {
-        width: 60%;
-    }
-
-    .info {
-        width: 40%;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .cover-season {
-        float: none;
-    }
-
-    .info {
-        width: 100%;
-    }
-}
-
 %buttons {
     @include box(black, grey, 20px);
     color: purple;
@@ -124,6 +104,7 @@ aside .input-group {
     width: 90%;
     position: relative;
     left: 5%;
+    padding-left: 2rem;
 }
 
 .stream-drag {
@@ -187,6 +168,21 @@ aside .input-group {
     width: 67%;
     padding: 20px;
     margin-top: 7rem;
+    left: 25%;
+    top: 18%;
+}
+
+#center {
+    @include container(40%);
+    display: flex;
+}
+
+#center-left {
+    width: 75%;
+}
+
+#center-right {
+    width: 25%;
 }
 
 #settings {
@@ -200,13 +196,12 @@ aside .input-group {
 }
 
 #calendar, #season {
+    @include container(65%);
     background: $DarkPurple;
     scroll-padding-top: 2rem;
     overflow: auto;
     scrollbar-color: #4d4b4b black;
     height: 50rem;
-    width: 65%;
-    margin: auto;
     display: grid;
 }
 
@@ -242,11 +237,6 @@ aside .input-group {
     margin-left: 1rem;
 }
 
-#cry {
-    width: 15rem;
-    height: 15rem;
-}
-
 #reset {
     @extend %buttons;
 }
@@ -254,6 +244,7 @@ aside .input-group {
 #clear, #list {
     @extend %buttons;
     margin: 1rem 0px;
+    padding: .5rem 1rem;
 }
 
 #clear {
@@ -262,10 +253,14 @@ aside .input-group {
     color: purple;
 }
 
+#list {
+    margin-left: 5px;
+}
+
 #search {
     color: gray;
     background: $DarkPurple;
-    padding-left: 5px;
+    padding: .25rem;
 }
 
 #soon {
@@ -273,17 +268,17 @@ aside .input-group {
 }
 
 #content aside {
+    display: block;
     right: 0;
-    width: 17%;
+    width: 17% !important;
     font-size: 2rem;
     line-height: 2.5rem;
 }
 
 #titles {
     position: absolute;
-    top: 100%;
-    left: 3rem;
-    z-index: 1040;
+    top: 80%;
+    left: 9%;
     padding: 4px 0;
     background: black;
     border: 1px solid gray;
@@ -304,4 +299,108 @@ aside .input-group {
     width: 68%;
 }
 
+#show {
+    @include container(50%);
+    display: flex;
+}
 
+@media screen and (max-width: 1920px) {
+    .stream-box {
+        padding-left: 1rem;
+    }
+
+   #center {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .cover-season {
+        width: 60%;
+    }
+
+    .info {
+        width: 40%;
+    }
+
+    #clear, #list {
+        padding: .5rem;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .stream-box {
+        padding-left: .5rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .stream-box {
+        padding-left: .1rem;
+    }
+
+    .stream-drag {
+        width: auto;
+    }
+
+    .stream-input {
+        width: auto;
+    }
+
+    #list, #clear {
+        margin: 0;
+    }
+
+    #center {
+        width: 65%;
+    }
+
+    #month {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .cover-season {
+        float: none;
+    }
+
+    .info {
+        width: 100%;
+    }
+
+    .stream-box {
+        width: 95%;
+        left: 0%;
+    }
+
+    .stream-drag {
+        width: 95%;
+    }
+
+    #center-left {
+        width: 30%;
+    }
+
+    #center-right {
+        width: 70%;
+    }
+
+    #month {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    aside {
+        display: none;
+    }
+
+    #calendar, #season {
+        width: 100%;
+    }
+
+    #center {
+        width: 90%;
+    }
+}

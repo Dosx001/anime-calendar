@@ -5,40 +5,41 @@
     <script src="js/calendar.min.js" defer></script>
     <script src="js/streams.min.js" defer></script>
     <script src="js/season.js" defer></script>
+    <script src="js/nav.min.js" defer></script>
 
-    <link rel="icon" href="assets/logo.svg" type="image/svg" sizes="16x16">
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
+    <link rel="icon" href="assets/logo.svg" type="image/svg" sizes="16x16">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/styles.min.css">
 
     <title>Anime Calendar</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
-      <div class="container">
-        <a class="navbar-brand mr-4" href=".">Anime Calendar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarToggle">
-          <div class="navbar-nav mr-auto">
-            <a class="nav-item nav-link" href="./help">Help</a>
-            <a class="nav-item nav-link" href="./about">About</a>
-          </div>
-          <div class="navbar-nav">
-            <div class="input-group ui-widget">
-              <div class="input-group-prepend">
-                <label class="input-group-text" for="search">&#128270;</label>
-                  <ul id="titles" style="display: none"></ul>
-              </div>
-              <input id="search" size="40" placeholder="Search for Seasonal Anime" autocomplete="off">
-            </div>
-          </div>
+    <div id="nav-background"></div>
+    <nav>
+      <div id='nav-left'>
+        <a id='main' href=".">Anime Calendar</a>
+      </div>
+      <div id='nav-right'>
+        <div id='desktop'>
+          <a href="./help">Help</a>
+          <a href="./about">About</a>
         </div>
+        <div id='nav-right-right'>
+          <label for="search">&#128270;</label>
+          <input id="search" size="40" placeholder="Search for Seasonal Anime" autocomplete="off">
+          <ul id="titles" style="display: none"></ul>
+        </div>
+      </div>
+      <svg id='mobile' viewBox="0 0 30 30" onclick='menu()'>
+        <path d="M4 7h22M4 15h22M4 23h22"></path>
+      </svg>
+      <div id="menu" align='right'>
+        <a href="./help">Help</a>
+        <a href="./about">About</a>
+      </div>
     </nav>
     <div align="center">
       <aside>
@@ -71,21 +72,18 @@
         </div>
       </aside>
     </div>
-    <div class="container">
-      <div id="content"></div>
-      <div class="row" id="center">
-        <div class="col-9">
-          <button type="button" class="arrow" id="left" onclick='left()'> &#9665; </button>
-          <text id="month"></text>
-          <button type="button" class="arrow" id="right" onclick='right()'> &#9655; </button>
-        </div>
-        <button id="clear" class="col-1" onclick='window.clear()'>Clear</button>
-        &emsp;
-        <button id="list" class="col-1" onclick='list()'>Your List</button>
+    <div id="content"></div>
+    <div id="center">
+      <div id="center-left">
+        <button type="button" class="arrow" id="left" onclick='left()'> &#9665; </button>
+        <text id="month"></text>
+        <button type="button" class="arrow" id="right" onclick='right()'> &#9655; </button>
+      </div>
+      <div id="center-right" align="right">
+        <button id="clear" onclick='window.clear()'>Clear</button>
+        <button id="list" onclick='list()'>Your List</button>
       </div>
     </div>
     <div id="calendar"></div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
