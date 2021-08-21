@@ -1,69 +1,76 @@
 <!doctype html>
 <html lang="en">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
   <head>
-    <!-- Required meta tags -->
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../js/nav.min.js" defer></script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
+    <link rel="icon" href="../assets/logo.svg" type="image/svg" sizes="16x16">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.min.css">
 
     <title>Anime Calendar</title>
   </head>
-  <body class="container">
-    <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
-        <div class="container">
-          <a class="navbar-brand mr-4" href="../">Anime Calendar</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarToggle">
-            <div class="navbar-nav mr-auto">
-              <a class="nav-item nav-link" href=".">Help</a>
-              <a class="nav-item nav-link" href="../about">About</a>
-            </div>
+  <body>
+    <div id="nav-background"></div>
+    <nav>
+      <div id='nav-left'>
+        <a id='main' href="../">Anime Calendar</a>
+      </div>
+      <div id='nav-right'>
+        <div id='desktop'>
+          <a href=".">Help</a>
+          <a href="../about">About</a>
         </div>
+      </div>
+      <svg id='mobile' viewBox="0 0 30 30" onclick='menu()'>
+        <path d="M4 7h22M4 15h22M4 23h22"></path>
+      </svg>
+      <div id="menu" align='right'>
+        <a href=".">Anime Calendar</a>
+        <a href=".">Help</a>
+        <a href="../about">About</a>
+      </div>
     </nav>
-    <div>
-      <h1>Supported Browsers</h1>
-      <ul>
-        <li>Mozilla Firefox</li>
-        <li>Chromium browsers</li>
-      </ul>
+    <div id='content'>
+      <div>
+        <h1>Supported Browsers</h1>
+        <ul>
+          <li>Mozilla Firefox</li>
+          <li>Chromium browsers</li>
+        </ul>
+      </div>
+      <div class="line">
+        <h1>Unsupported Browsers</h1>
+        <ul>
+          <li>Microsoft Edge Legacy</li>
+          <li>Internet Explorer</li>
+        </ul>
+      </div>
+      <div class="line">
+        <h1>Tested Browsers</h1>
+        <ul>
+          <li>Mozilla Firefox</li>
+          <li>Google Chrome</li>
+          <li>Microsoft Edge (Chromium)</li>
+        </ul>
+      </div>
+      <div class="line">
+        <h1>Troubleshoot</h1>
+        <ul>
+          <li>Refresh the page</li>
+          <li>Update your browser</li>
+        </ul>
+      </div>
+      <div class="line">
+        <h1>Bug? Problem? Suggestion?</h1>
+        <text>Sumbit an issue at</text>
+        <a href="https://github.com/Dosx001/anime-calendar/issues" target="_blank">
+          https://github.com/Dosx001/anime-calendar/issues</a>
+      </div>
     </div>
-    <div class="line">
-      <h1>Unsupported Browsers</h1>
-      <ul>
-        <li>Microsoft Edge Legacy</li>
-        <li>Internet Explorer</li>
-      </ul>
-    </div>
-    <div class="line">
-      <h1>Tested Browsers</h1>
-      <ul>
-        <li>Mozilla Firefox</li>
-        <li>Google Chrome</li>
-        <li>Microsoft Edge (Chromium)</li>
-      </ul>
-    </div>
-    <div class="line">
-      <h1>Troubleshoot</h1>
-      <ul>
-        <li>Refresh the page</li>
-        <li>Update your browser</li>
-      </ul>
-    </div>
-    <div class="line">
-      <h1>Bug? Problem? Suggestion?</h1>
-      <text>Sumbit an issue at</text>
-      <a href="https://github.com/Dosx001/anime-calendar/issues" target="_blank">
-        https://github.com/Dosx001/anime-calendar/issues</a>
-    </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
