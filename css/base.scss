@@ -24,18 +24,34 @@ body {
 }
 
 nav {
-    background: black;
     display: flex;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
     padding: .5rem 0;
     z-index: 10;
+    width: 40%;
+    margin: auto;
     a {
         color: gray;
         padding: .25rem;
     }
+    svg {
+        stroke: gray;
+        stroke-width: 2px;
+        stroke-linecap: round;
+        border: 1px solid gray;
+        border-radius: 5px;
+        height: 2.25rem;
+        width: 3rem;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+nav, #nav-background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 a {
@@ -53,39 +69,78 @@ button {
     }
 }
 
+#desktop {
+    position: relative;
+    top: .25rem;
+    font-size: 1.25rem;
+}
+
+#nav-background {
+    background: black;
+    padding-bottom: 3.5rem;
+}
+
 #nav-left {
     position: relative;
-    left: 20%;
-    display: ruby;
 }
 
 #nav-right {
-    position: absolute;
-    right: 25%;
+    display: flex;
+    padding-left: .5rem;
     label {
         border: 1px solid gray;
         border-radius: 6px;
         padding: 5px 10px;
         margin-right: -9px;
     }
-    svg {
-        stroke: gray;
-        stroke-width: 2px;
-        stroke-linecap: round;
-        border: 1px solid gray;
-        border-radius: 5px;
-        height: 40px;
-        width: 50px;
-        &:hover {
-            cursor: pointer;
-        }
-    }
-    #mobile {
-        display: none;
-    }
+}
+
+#nav-right-right {
+    position: absolute;
+    right: 0;
 }
 
 #main {
     font-size: 1.5rem;
     color: white;
+}
+
+#menu {
+    visibility: hidden;
+    position: absolute;
+    display: grid;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding-right: 2rem;
+    border: 1px solid gray;
+    background: black;
+}
+
+#mobile {
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+}
+
+@media screen and (max-width: 1920px) {
+    nav {
+        width: 60%;
+   }
+}
+
+@media screen and (max-width: 1200px) {
+    nav {
+        width: 90%;
+   }
+}
+
+@media screen and (max-width: 800px) {
+    #nav-right {
+        visibility: hidden;
+    }
+
+    #mobile {
+        visibility: visible;
+    }
 }

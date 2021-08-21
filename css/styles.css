@@ -9,18 +9,34 @@ body {
 }
 
 nav {
-  background: black;
   display: flex;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
   padding: 0.5rem 0;
   z-index: 10;
+  width: 40%;
+  margin: auto;
 }
 nav a {
   color: gray;
   padding: 0.25rem;
+}
+nav svg {
+  stroke: gray;
+  stroke-width: 2px;
+  stroke-linecap: round;
+  border: 1px solid gray;
+  border-radius: 5px;
+  height: 2.25rem;
+  width: 3rem;
+}
+nav svg:hover {
+  cursor: pointer;
+}
+
+nav, #nav-background {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 
 a {
@@ -38,15 +54,24 @@ button:focus {
   outline: none;
 }
 
+#desktop {
+  position: relative;
+  top: 0.25rem;
+  font-size: 1.25rem;
+}
+
+#nav-background {
+  background: black;
+  padding-bottom: 3.5rem;
+}
+
 #nav-left {
   position: relative;
-  left: 20%;
-  display: ruby;
 }
 
 #nav-right {
-  position: absolute;
-  right: 25%;
+  display: flex;
+  padding-left: 0.5rem;
 }
 #nav-right label {
   border: 1px solid gray;
@@ -54,20 +79,10 @@ button:focus {
   padding: 5px 10px;
   margin-right: -9px;
 }
-#nav-right svg {
-  stroke: gray;
-  stroke-width: 2px;
-  stroke-linecap: round;
-  border: 1px solid gray;
-  border-radius: 5px;
-  height: 40px;
-  width: 50px;
-}
-#nav-right svg:hover {
-  cursor: pointer;
-}
-#nav-right #mobile {
-  display: none;
+
+#nav-right-right {
+  position: absolute;
+  right: 0;
 }
 
 #main {
@@ -75,6 +90,43 @@ button:focus {
   color: white;
 }
 
+#menu {
+  visibility: hidden;
+  position: absolute;
+  display: grid;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding-right: 2rem;
+  border: 1px solid gray;
+  background: black;
+}
+
+#mobile {
+  visibility: hidden;
+  position: absolute;
+  right: 0;
+}
+
+@media screen and (max-width: 1920px) {
+  nav {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  nav {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 800px) {
+  #nav-right {
+    visibility: hidden;
+  }
+
+  #mobile {
+    visibility: visible;
+  }
+}
 aside {
   position: fixed;
   margin-top: 4rem !important;
@@ -244,7 +296,7 @@ aside .input-group {
 #center {
   display: flex;
   margin: auto;
-  width: 60%;
+  width: 40%;
 }
 
 #center-left {
@@ -374,18 +426,13 @@ aside .input-group {
   width: 50%;
 }
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1920px) {
   .stream-box {
     padding-left: 1rem;
   }
-}
-@media screen and (max-width: 1300px) {
-  #nav-left {
-    left: 10%;
-  }
 
-  #nav-right {
-    right: 10%;
+  #center {
+    width: 60%;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -430,14 +477,6 @@ aside .input-group {
   #month {
     font-size: 2rem;
   }
-
-  #nav-left {
-    left: 5%;
-  }
-
-  #nav-right {
-    right: 5%;
-  }
 }
 @media screen and (max-width: 900px) {
   .cover-season {
@@ -474,19 +513,11 @@ aside .input-group {
     display: none;
   }
 
-  #calendar {
+  #calendar, #season {
     width: 100%;
   }
 
   #center {
     width: 90%;
-  }
-
-  #mobile {
-    display: unset !important;
-  }
-
-  .desktop {
-    display: none;
   }
 }

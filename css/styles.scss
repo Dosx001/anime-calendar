@@ -175,7 +175,7 @@ aside .input-group {
 #center {
     display: flex;
     margin: auto;
-    width: 60%;
+    width: 40%;
 }
 
 #center-left {
@@ -311,19 +311,13 @@ aside .input-group {
     width: 50%;
 }
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1920px) {
     .stream-box {
         padding-left: 1rem;
     }
-}
 
-@media screen and (max-width: 1300px) {
-    #nav-left {
-        left: 10%;
-    }
-
-    #nav-right {
-        right:10%;
+   #center {
+        width: 60%;
     }
 }
 
@@ -371,14 +365,6 @@ aside .input-group {
     #month {
         font-size: 2rem;
     }
-
-    #nav-left {
-        left: 5%;
-    }
-
-    #nav-right {
-        right: 5%;
-    }
 }
 
 @media screen and (max-width: 900px) {
@@ -417,19 +403,11 @@ aside .input-group {
         display: none;
     }
 
-    #calendar {
+    #calendar, #season {
         width: 100%;
     }
 
     #center {
         width: 90%;
-    }
-
-    #mobile {
-        display: unset !important;
-    }
-
-    .desktop {
-        display: none;
     }
 }
