@@ -1,20 +1,35 @@
 #!/bin/bash
-case $1 in
-    'c')
-        files=('calendar');;
-    'l')
-        files=('list');;
-    's')
-        files=('search');;
-    'h')
-        files=('show');;
-    't')
-        files=('streams');;
-    *)
-        files=('calendar' 'list' 'search' 'show' 'streams');;
-esac
+clear
 tsc
-for file in ${files[@]}
-do
-    terser -c -m -- js/${file}.js > js/${file}.min.js
-done
+if [[ $# -eq 0 ]]
+then
+    for file in 'calendar' 'list' 'search' 'show' 'streams' 'nav'
+    do
+        terser -c -m -- js/$file.js > js/$file.min.js
+        echo 'Done:' $file
+    done
+else
+    for i in $@
+    do
+        case $i in
+            'c')
+                file='calendar';;
+            'l')
+                file='list';;
+            's')
+                file='search';;
+            'h')
+                file='show';;
+            't')
+                file='streams';;
+            'n')
+                file='nav';;
+        esac
+        if [[ -n $file ]]
+        then
+            terser -c -m -- js/$file.js > js/$file.min.js
+            echo 'Done:' $file
+            file=""
+        fi
+    done
+fi
