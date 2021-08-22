@@ -26,9 +26,10 @@ document.addEventListener('keydown', e => {
                     }
                 }
                 if (check) {
-                    document.querySelector('.stream-box').style.backgroundColor = 'darkred';
-                    setTimeout(function () {
-                        document.querySelector('.stream-box').style.backgroundColor = 'black';
+                    let box = document.querySelector('.stream-box');
+                    box.style.backgroundColor = 'darkred';
+                    setTimeout(() => {
+                        box.style.backgroundColor = 'black';
                     }, 50);
                 }
                 break;
@@ -126,7 +127,7 @@ function setter() {
     else if (shows != null && title in shows) {
         delete shows[title];
         document.getElementById('reset').style.visibility = 'hidden';
-        document.getElementById(ider_show(title)).style.borderColor = "purple";
+        document.getElementById(ider_show(title)).style.borderColor = 'gray';
         setter.innerHTML = "Add to Your List";
         setter.id = "add";
     }

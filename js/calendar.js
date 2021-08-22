@@ -131,6 +131,12 @@ function right() {
         }
     }
 }
+function info() {
+    localStorage.setItem('info', document.getElementById('info').value);
+    if (document.getElementById('title')) {
+        streamInfo(document.getElementById('title').innerHTML);
+    }
+}
 async function set(file, key) {
     let data = await (await fetch(file)).json();
     key == 'store' ? STORE = data : PAST = data;
@@ -156,21 +162,23 @@ function TheBigBang(offset = 0) {
             default:
                 data = data['full'];
         }
+        let times;
         if (localStorage.getItem('list') == "Your List" || Object.keys(JSON.parse(localStorage.getItem('shows'))).length == 0) {
-            document.body.append(calendar(getDates(offset), data));
+            times = data;
         }
         else {
             switch (format) {
                 case "1":
-                    document.body.append(calendar(getDates(offset), cutoff(data, offset)));
+                    times = cutoff(data, offset);
                     break;
                 case "2":
-                    document.body.append(calendar(getDates(offset), compact(data, offset)));
+                    times = compact(data, offset);
                     break;
                 default:
-                    document.body.append(calendar(getDates(offset), full(data, offset)));
+                    times = full(data, offset);
             }
         }
+        document.body.append(calendar(getDates(offset), times));
         resizeCalendar();
         createShows(offset);
     });
@@ -180,9 +188,12 @@ function calendar(dates, times) {
         dates[0].toLocaleDateString("en-US", { month: 'long' }) :
         dates[0].toLocaleDateString("en-US", { month: 'long' }) + " to " +
             dates[6].toLocaleDateString("en-US", { month: 'long' });
+    let td = document.createElement('td');
+    td.className = 'date';
     let tr = document.createElement('tr');
+    tr.append(td);
     dates.forEach(async function (date) {
-        let td = document.createElement('td');
+        td = document.createElement('td');
         td.className = 'date';
         td.innerHTML = date.getDate() + ' ' + date.toLocaleDateString("en-US", { weekday: 'long' });
         tr.append(td);
@@ -191,7 +202,7 @@ function calendar(dates, times) {
     thead.append(tr);
     let tbody = document.createElement('tbody');
     times.forEach(async function (time) {
-        let td = document.createElement('td');
+        td = document.createElement('td');
         td.className = 'time';
         td.innerHTML = time;
         tr = document.createElement('tr');
@@ -272,6 +283,11 @@ function createShows(offset) {
                     shows[show][0] : shows[show][1]) ?
                     "#4f4f4f" : "purple";
             }
+            button.onclick = function (e) {
+                localStorage.getItem('info') == '0' ?
+                    (document.getElementById('title') ? e.preventDefault() : null) : e.preventDefault();
+                streamInfo(this.innerHTML);
+            };
             let a = document.createElement('a');
             let id = ider_slot(data[show].day, data[show].time);
             a.href = '#' + id;
@@ -279,14 +295,6 @@ function createShows(offset) {
             document.getElementById(id).append(a);
         }
     }
-    let js = document.getElementById('show-js');
-    if (js) {
-        js.remove();
-    }
-    js = document.createElement('script');
-    js.id = 'show-js';
-    js.src = 'js/show.min.js';
-    document.head.append(js);
 }
 function full(times, offset) {
     const shows = JSON.parse(localStorage.getItem('shows'));
@@ -411,7 +419,7 @@ function streamInfo(show) {
     let tbody = document.createElement('tbody');
     tbody.append(tr);
     let table = document.createElement('table');
-    table.className = 'table table-hover';
+    table.className = 'table';
     if (Object.keys(data[show].streams).length == 0) {
         td = document.createElement('td');
         td.innerHTML = 'No legal stream available';
@@ -536,6 +544,7 @@ function streamInfo(show) {
             ele.style.height = '1.5rem';
             ele.style.width = '1.5rem';
         });
+        document.getElementById('reset').style.margin = '1rem 1rem';
     }
     else {
         document.getElementById('reset').style.position = 'absolute';

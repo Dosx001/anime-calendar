@@ -27,9 +27,10 @@ document.addEventListener('keydown', e => {
                     }
                 }
                 if (check) {
-                    (document.querySelector('.stream-box')! as HTMLElement).style.backgroundColor = 'darkred'
-                    setTimeout(function() {
-                        (document.querySelector('.stream-box')! as HTMLElement).style.backgroundColor = 'black'
+                    let box = <HTMLElement>document.querySelector('.stream-box')!
+                    box.style.backgroundColor = 'darkred'
+                    setTimeout(() => {
+                        box.style.backgroundColor = 'black'
                     }, 50);
                 }
                 break
@@ -64,6 +65,7 @@ document.querySelectorAll('.stream')!.forEach(but => {
         stream()
     }
 })
+
 document.getElementById('reset')!.onclick = () => {
     reset()
 }
@@ -136,7 +138,7 @@ function setter() {
     else if (shows != null && title in shows) {
         delete shows[title]
         document.getElementById('reset')!.style.visibility = 'hidden'
-        document.getElementById(ider_show(title))!.style.borderColor = "purple"
+        document.getElementById(ider_show(title))!.style.borderColor = 'gray'
         setter.innerHTML = "Add to Your List"
         setter.id = "add"
     }
