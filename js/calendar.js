@@ -9,8 +9,10 @@ if (localStorage.getItem('list')) {
 if (!localStorage.getItem('shows')) {
     localStorage.setItem('shows', JSON.stringify({}));
 }
-let LEFT = document.getElementById("left"), RIGHT = document.getElementById("right");
-LEFT.style.visibility = "visible", RIGHT.style.visibility = "visible";
+let LEFT = document.getElementById("left");
+let RIGHT = document.getElementById("right");
+LEFT.style.visibility = "visible";
+RIGHT.style.visibility = "visible";
 window.onload = () => {
     let script = document.createElement('script');
     script.src = 'js/search.min.js';
@@ -155,18 +157,18 @@ function TheBigBang(offset = 0) {
                 data = data['full'];
         }
         if (localStorage.getItem('list') == "Your List" || Object.keys(JSON.parse(localStorage.getItem('shows'))).length == 0) {
-            $("body").append(calendar(getDates(offset), data));
+            document.body.append(calendar(getDates(offset), data));
         }
         else {
             switch (format) {
                 case "1":
-                    $("body").append(calendar(getDates(offset), cutoff(data, offset)));
+                    document.body.append(calendar(getDates(offset), cutoff(data, offset)));
                     break;
                 case "2":
-                    $("body").append(calendar(getDates(offset), compact(data, offset)));
+                    document.body.append(calendar(getDates(offset), compact(data, offset)));
                     break;
                 default:
-                    $("body").append(calendar(getDates(offset), full(data, offset)));
+                    document.body.append(calendar(getDates(offset), full(data, offset)));
             }
         }
         resizeCalendar();
@@ -174,26 +176,40 @@ function TheBigBang(offset = 0) {
     });
 }
 function calendar(dates, times) {
-    let calendar = '<div id="calendar"><table><thead><tr><td class="date"></th>';
-    dates.forEach(async function (date) {
-        calendar += '<td class="date">' + date.getDate() + ' '
-            + date.toLocaleDateString("en-US", { weekday: 'long' }) + '</td>';
-    });
-    calendar += '</tr></thead><tbody>';
-    times.forEach(async function (time) {
-        calendar += '<tr><td class="time">' + time + '</td>';
-        for (let day = 1; day < 8; day++) {
-            calendar += '<td class="slot" id="'
-                + ider_slot(day, time)
-                + '"></td>';
-        }
-        calendar += '</tr>';
-    });
-    calendar += '</tbody></table></div>';
     document.getElementById('month').innerHTML = (dates[0].getMonth() == dates[6].getMonth()) ?
         dates[0].toLocaleDateString("en-US", { month: 'long' }) :
         dates[0].toLocaleDateString("en-US", { month: 'long' }) + " to " +
             dates[6].toLocaleDateString("en-US", { month: 'long' });
+    let tr = document.createElement('tr');
+    dates.forEach(async function (date) {
+        let td = document.createElement('td');
+        td.className = 'date';
+        td.innerHTML = date.getDate() + ' ' + date.toLocaleDateString("en-US", { weekday: 'long' });
+        tr.append(td);
+    });
+    let thead = document.createElement('thead');
+    thead.append(tr);
+    let tbody = document.createElement('tbody');
+    times.forEach(async function (time) {
+        let td = document.createElement('td');
+        td.className = 'time';
+        td.innerHTML = time;
+        tr = document.createElement('tr');
+        tr.append(td);
+        for (let day = 1; day < 8; day++) {
+            td = document.createElement('td');
+            td.id = ider_slot(day, time);
+            td.className = 'slot';
+            tr.append(td);
+        }
+        tbody.append(tr);
+    });
+    let table = document.createElement('table');
+    table.append(thead);
+    table.append(tbody);
+    let calendar = document.createElement('div');
+    calendar.id = 'calendar';
+    calendar.append(table);
     return calendar;
 }
 function getDates(offset = 0) {
@@ -246,21 +262,31 @@ function createShows(offset) {
     const shows = JSON.parse(localStorage.getItem("shows"));
     for (let show in (document.getElementById('list').innerHTML == "Your List") ? data : shows) {
         if (show in data) {
-            let style = "";
+            let button = document.createElement('button');
+            button.id = ider_show(show);
+            button.className = 'show';
+            button.innerHTML = show;
             if (show in shows) {
-                style = (LEFT.style.visibility == 'visible' ?
+                button.style.borderColor = "#4f004f";
+                button.style.color = (LEFT.style.visibility == 'visible' ?
                     shows[show][0] : shows[show][1]) ?
-                    ' style="border-color: #4f004f; color: #4f4f4f;" ' :
-                    ' style="border-color: #4f004f;" ';
+                    "#4f4f4f" : "purple";
             }
-            let id = "#" + ider_slot(data[show].day, data[show].time);
-            $(id).append('<a href="' + id + '">'
-                + '<button id="' + ider_show(show) + '" class="show"' + style + '>'
-                + show + '</button></a>');
+            let a = document.createElement('a');
+            let id = ider_slot(data[show].day, data[show].time);
+            a.href = '#' + id;
+            a.append(button);
+            document.getElementById(id).append(a);
         }
     }
-    $("#show-js").remove();
-    $('html').append('<script id="show-js" src="js/show.min.js"></script>');
+    let js = document.getElementById('show-js');
+    if (js) {
+        js.remove();
+    }
+    js = document.createElement('script');
+    js.id = 'show-js';
+    js.src = 'js/show.min.js';
+    document.head.append(js);
 }
 function full(times, offset) {
     const shows = JSON.parse(localStorage.getItem('shows'));
@@ -367,110 +393,163 @@ function compact(times, offset) {
     return output;
 }
 function resizeCalendar() {
-    (Object.keys($("#show")).length != 0 && $('#info')[0].value == "0") ?
-        $('#calendar').css({ "height": "25rem" }) :
-        $('#calendar').css({ "height": "50rem" });
+    document.getElementById('calendar').style.height = document.getElementById('show') &&
+        document.getElementById('info').value == "0" ?
+        "25rem" : "50rem";
 }
 function streamInfo(show) {
     const data = show in STORE ? STORE : PAST;
-    $("#show").remove();
-    $('.arrow').off('click.arrow');
-    let streams = '<table class="table table-hover"><tbody><tr><td id="title">'
-        + show + '</td></tr>';
+    let s = document.getElementById('show');
+    if (s) {
+        s.remove();
+    }
+    let td = document.createElement('td');
+    td.id = 'title';
+    td.innerHTML = show;
+    let tr = document.createElement('tr');
+    tr.append(td);
+    let tbody = document.createElement('tbody');
+    tbody.append(tr);
+    let table = document.createElement('table');
+    table.className = 'table table-hover';
     if (Object.keys(data[show].streams).length == 0) {
-        streams += '<tr><td>No legal stream available</td></tr><tr><td>'
-            + '1 <a id="0" class="stream" href="#"><img class="icon" src="assets/skull.svg"> High Seas</a></td></tr>';
+        td = document.createElement('td');
+        td.innerHTML = 'No legal stream available';
+        tr = document.createElement('tr');
+        tr.append(td);
+        tbody.append(tr);
+        let img = document.createElement('img');
+        img.className = 'icon';
+        img.src = 'assets/skull.svg';
+        let a = document.createElement('a');
+        a.id = "0";
+        a.className = 'stream';
+        a.href = "#";
+        a.append(img);
+        a.innerHTML += " High Seas";
+        td = document.createElement('td');
+        td.innerHTML = '1 ';
+        td.append(a);
+        tr = document.createElement('tr');
+        tr.append(td);
+        tbody.append(tr);
     }
     else {
         for (const [index, [stream, link]] of Object.entries(Object.entries(data[show].streams))) {
-            const num = parseInt(index) + 1;
-            streams += '<tr><td>'
-                + num
-                + ' <a id="'
-                + index
-                + '"class="stream" href="'
-                + link
-                + '" target="_blank">';
+            let img = document.createElement('img');
+            img.className = 'icon';
             switch (stream) {
                 case "Crunchyroll":
-                    streams += '<img class="icon" src="assets/crunchyroll.svg">';
+                    img.src = "assets/crunchyroll.svg";
                     break;
                 case "Funimation":
-                    streams += '<img class="icon" src="assets/funimation.svg">';
+                    img.src = "assets/funimation.svg";
                     break;
                 case "VRV":
-                    streams += '<img class="icon" src="assets/vrv.svg">';
+                    img.src = "assets/vrv.svg";
                     break;
                 case "AnimeLab":
-                    streams += '<img class="icon" src="assets/animelab.svg">';
+                    img.src = "assets/animelab.svg";
                     break;
                 case "Hulu":
-                    streams += '<img class="icon" src="assets/hulu.svg">';
+                    img.src = "assets/hulu.svg";
                     break;
                 case "HiDive":
-                    streams += '<img class="icon" src="assets/hidive.svg">';
+                    img.src = "assets/hidive.svg";
                     break;
                 case "Wakanim":
-                    streams += '<img class="icon" src="assets/wakanim.svg">';
+                    img.src = "assets/wakanim.svg";
                     break;
                 case "YouTube":
-                    streams += '<img class="icon" src="assets/youtube.svg">';
+                    img.src = "assets/youtube.svg";
                     break;
                 case "Netflix":
-                    streams += '<img class="icon" src="assets/netflix.svg">';
+                    img.src = "assets/netflix.svg";
                     break;
             }
-            streams += ' ' + stream + '</a></td>';
+            let a = document.createElement('a');
+            a.id = index;
+            a.href = link;
+            a.target = '_blank';
+            a.className = 'stream';
+            a.append(img);
+            a.innerHTML += ' ' + stream;
+            td = document.createElement('td');
+            td.innerHTML = parseInt(index) + 1 + " ";
+            td.append(a);
+            tr = document.createElement('tr');
+            tr.append(td);
+            tbody.append(tr);
         }
     }
+    table.append(tbody);
     let shows = JSON.parse(localStorage.getItem('shows'));
-    const but = show in shows ?
-        '<button id="sub" class="setter">Remove from Your List</button>' :
-        '<button id="add" class="setter">Add to Your List</button>';
-    const reset = (show in shows && (LEFT.style.visibility == 'visible' ?
+    let set = document.createElement('button');
+    set.className = 'setter';
+    show in shows ?
+        (set.id = "sub", set.innerHTML = 'Remove from Your List') :
+        (set.id = "add", set.innerHTML = 'Add to Your List');
+    let reset = document.createElement('button');
+    reset.id = 'reset';
+    reset.innerHTML = 'Reset';
+    (show in shows && (LEFT.style.visibility == 'visible' ?
         shows[show][0] : shows[show][1])) ?
-        '<button id="reset" style="">Reset</button>' :
-        '<button id="reset" style="visibility: hidden">Reset</button>';
-    switch (localStorage.getItem('info')) {
-        case null:
-        case "0":
-            $("#content").append('<h3 id="show">'
-                + but + reset
-                + '<div class="cover"><img src="'
-                + data[show].cover + '" width="340" height="440">'
-                + '</div><div id="streams">'
-                + streams + '</div>');
-            break;
-        case "1":
-            $("#content").append('<aside id="show"><h2>'
-                + streams
-                + '</h2>'
-                + '</aside>');
-            $('#show').append(but + reset);
-            break;
-        case "2":
-            $("#content").append('<h3 id="show" class="window">'
-                + but + reset
-                + '<div class="cover"><img src="'
-                + data[show].cover + '" width="340" height="440">'
-                + '</div><div id="streams">'
-                + streams + '</div>');
-            break;
+        reset.style.visibility = 'visible' :
+        reset.style.visibility = 'hidden';
+    let output;
+    let streams;
+    let cover;
+    let img;
+    let info = localStorage.getItem('info');
+    if (info == "1") {
+        streams = document.createElement('div');
+        streams.append(table);
+        output = document.createElement('aside');
+        output.append(streams);
+        output.append(set);
+        output.append(reset);
     }
-    switch (localStorage.getItem('info')) {
-        case null:
-        case "2":
-        case "0":
-            $('#reset').css({ "position": "absolute" });
-            $('.icon').css({ "height": "2rem", "width": "2rem" });
-            $('.setter').css({ "margin-top": "24rem", "position": "absolute", "padding": "2px 10px" });
-            break;
-        case "1":
-            $('.icon').css({ "height": "1.5rem", "width": "1.5rem" });
-            break;
+    else {
+        img = document.createElement('img');
+        img.src = data[show].cover;
+        img.width = 340;
+        img.height = 440;
+        cover = document.createElement('div');
+        cover.className = 'cover';
+        cover.append(img);
+        streams = document.createElement('div');
+        streams.id = 'streams';
+        streams.append(table);
+        output = document.createElement('div');
+        if (info == "2") {
+            output.className = 'window';
+        }
+        output.append(set);
+        output.append(reset);
+        output.append(cover);
+        output.append(streams);
+    }
+    output.id = 'show';
+    document.getElementById('content').append(output);
+    if (info == "1") {
+        document.querySelectorAll('.icon').forEach(ele => {
+            ele.style.height = '1.5rem';
+            ele.style.width = '1.5rem';
+        });
+    }
+    else {
+        document.getElementById('reset').style.position = 'absolute';
+        let setter = document.querySelector('.setter');
+        setter.style.marginTop = '24rem';
+        setter.style.position = 'absolute';
+        setter.style.padding = '2px 10px';
+        document.querySelectorAll('.icon').forEach(ele => {
+            ele.style.height = "2rem";
+            ele.style.width = "2rem";
+        });
     }
     resizeCalendar();
-    $('#clear').css({ "visibility": "visible" });
+    document.getElementById('clear').style.visibility = 'visible';
     let list = document.getElementById('list-js');
     if (list) {
         list.remove();
@@ -478,7 +557,7 @@ function streamInfo(show) {
     list = document.createElement('script');
     list.id = 'list-js';
     list.src = 'js/list.min.js';
-    document.body.append(list);
+    document.head.append(list);
 }
 Date.prototype.getWeek = function () {
     const date = new Date(Date.UTC(this.getFullYear(), this.getMonth(), this.getDate()));
