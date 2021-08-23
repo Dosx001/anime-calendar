@@ -63,6 +63,7 @@ button:focus {
 #nav-background {
   background: black;
   padding-bottom: 3.5rem;
+  z-index: 5;
 }
 
 #nav-left {
@@ -156,6 +157,7 @@ aside .input-group {
   background-size: 8px 10px;
   color: purple;
   border: 1px solid darkgrey;
+  padding: 0 0.25rem;
 }
 
 .table td, .table th {
@@ -172,6 +174,10 @@ aside .input-group {
 
 .cover {
   display: inline-block;
+}
+.cover img {
+  width: 340px;
+  height: 440px;
 }
 
 .cover-season {
@@ -204,6 +210,7 @@ aside .input-group {
 
 .show {
   width: 8rem;
+  height: auto;
   margin-bottom: 2px;
 }
 
@@ -217,7 +224,7 @@ aside .input-group {
 }
 
 .stream {
-  padding: 0px 10px 0px 10px;
+  padding: 0px 10px;
 }
 
 .stream-box {
@@ -386,13 +393,37 @@ aside .input-group {
 #content {
   font-size: 1.75rem;
 }
+#content .setter {
+  position: absolute;
+  margin-top: 24rem;
+  padding: 2px 10px;
+}
+#content #reset {
+  position: absolute;
+}
 
 #content aside {
   display: block;
   right: 0;
+  left: auto !important;
   width: 17% !important;
   font-size: 2rem;
   line-height: 2.5rem;
+}
+#content aside td {
+  padding: 0.25rem 0 !important;
+}
+#content aside .icon {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+#content aside .setter {
+  position: relative;
+  margin: 0;
+}
+#content aside #reset {
+  position: relative;
+  margin-top: 1rem;
 }
 
 #titles {
@@ -418,11 +449,24 @@ aside .input-group {
   float: right;
   width: 68%;
 }
+#streams .icon {
+  height: 2rem;
+  width: 2rem;
+}
 
 #show {
   margin: auto;
   width: 50%;
   display: flex;
+}
+#show table {
+  width: 100%;
+}
+#show table tr {
+  border-top: 1px solid gray;
+}
+#show table td {
+  padding: 0.5rem;
 }
 
 @media screen and (max-width: 1920px) {
@@ -433,8 +477,17 @@ aside .input-group {
   #center {
     width: 60%;
   }
+
+  #show {
+    width: 60%;
+    left: 20%;
+  }
 }
 @media screen and (max-width: 1200px) {
+  aside a {
+    font-size: 1.2rem;
+  }
+
   .cover-season {
     width: 60%;
   }
@@ -446,13 +499,40 @@ aside .input-group {
   #clear, #list {
     padding: 0.5rem;
   }
-}
-@media screen and (max-width: 1150px) {
+
+  #content aside {
+    font-size: 1.5rem;
+    width: 17.5% !important;
+  }
+
+  #show {
+    width: 65%;
+    left: 17.5%;
+  }
+
   .stream-box {
     padding-left: 0.5rem;
   }
 }
 @media screen and (max-width: 1000px) {
+  aside a {
+    font-size: 1rem !important;
+  }
+
+  .icon {
+    width: 1rem !important;
+    height: 1rem !important;
+  }
+
+  .cover img {
+    height: 21rem;
+    width: 16rem;
+  }
+
+  .input-group-text {
+    display: none !important;
+  }
+
   .stream-box {
     padding-left: 0.1rem;
   }
@@ -467,6 +547,13 @@ aside .input-group {
 
   #list, #clear {
     margin: 0;
+  }
+
+  #content {
+    font-size: 1.25rem;
+  }
+  #content .setter {
+    margin-top: 18rem;
   }
 
   #center {
@@ -511,6 +598,9 @@ aside .input-group {
   aside {
     display: none;
   }
+  aside a {
+    font-size: 1.5rem !important;
+  }
 
   #calendar, #season {
     width: 100%;
@@ -518,5 +608,45 @@ aside .input-group {
 
   #center {
     width: 90%;
+  }
+
+  #content aside {
+    width: 100% !important;
+    background: black;
+    border: 2px solid purple;
+    border-radius: 20px;
+    z-index: 1;
+    position: absolute;
+    padding: 20px;
+    top: 18%;
+  }
+  #content aside .icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  #show {
+    width: 98%;
+    left: 1%;
+  }
+}
+@media screen and (max-width: 500px) {
+  #content .setter {
+    margin-top: 19rem;
+  }
+  #content #reset {
+    margin: 1.25rem;
+  }
+
+  #show {
+    display: grid;
+  }
+
+  #sub {
+    margin-left: 2rem;
+  }
+
+  #streams {
+    width: 100%;
   }
 }

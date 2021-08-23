@@ -63,6 +63,7 @@ button:focus {
 #nav-background {
   background: black;
   padding-bottom: 3.5rem;
+  z-index: 5;
 }
 
 #nav-left {

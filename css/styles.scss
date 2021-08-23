@@ -32,6 +32,7 @@ aside .input-group {
     background-size: 8px 10px;
     color: purple;
     border: 1px solid darkgrey;
+    padding: 0 .25rem;
 }
 
 .table td, .table th {
@@ -48,6 +49,10 @@ aside .input-group {
 
 .cover {
     display: inline-block;
+    img {
+        width: 340px;
+        height: 440px;
+    }
 }
 
 .cover-season {
@@ -79,6 +84,7 @@ aside .input-group {
 .show {
     @extend %buttons;
     width: 8rem;
+    height: auto;
     margin-bottom: 2px;
 }
 
@@ -94,7 +100,7 @@ aside .input-group {
 
 .stream {
     @extend %buttons;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 10px;
 }
 
 .stream-box {
@@ -269,14 +275,42 @@ aside .input-group {
 
 #content {
     font-size: 1.75rem;
+    .setter {
+        position: absolute;
+        margin-top: 24rem;
+        padding: 2px 10px;
+    }
+
+    #reset {
+        position: absolute;
+    }
 }
 
 #content aside {
     display: block;
     right: 0;
+    left: auto !important;
     width: 17% !important;
     font-size: 2rem;
     line-height: 2.5rem;
+    td {
+        padding: .25rem 0 !important;
+    }
+
+    .icon {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+    .setter {
+        position: relative;
+        margin: 0;
+    }
+
+    #reset {
+        position: relative;
+        margin-top: 1rem;
+    }
 }
 
 #titles {
@@ -301,11 +335,24 @@ aside .input-group {
 #streams {
     float: right;
     width: 68%;
+    .icon {
+        height: 2rem;
+        width: 2rem;
+    }
 }
 
 #show {
     @include container(50%);
     display: flex;
+    table {
+        width: 100%;
+        tr {
+            border-top: 1px solid gray;
+        }
+        td {
+            padding: .5rem;
+        }
+    }
 }
 
 @media screen and (max-width: 1920px) {
@@ -316,9 +363,17 @@ aside .input-group {
    #center {
         width: 60%;
     }
+
+    #show {
+        width: 60%;
+        left: 20%;
+    }
 }
 
 @media screen and (max-width: 1200px) {
+    aside a {
+        font-size: 1.2rem;
+    }
     .cover-season {
         width: 60%;
     }
@@ -330,15 +385,38 @@ aside .input-group {
     #clear, #list {
         padding: .5rem;
     }
-}
 
-@media screen and (max-width: 1150px) {
+    #content aside {
+        font-size: 1.5rem;
+        width: 17.5% !important;
+    }
+
+    #show {
+        width: 65%;
+        left: 17.5%;
+    }
     .stream-box {
         padding-left: .5rem;
     }
 }
 
 @media screen and (max-width: 1000px) {
+    aside a {
+        font-size: 1rem !important;
+    }
+
+    .icon {
+        width: 1rem !important;
+        height: 1rem !important;
+    }
+
+    .cover img {
+        height: 21rem;
+        width: 16rem;
+    }
+    .input-group-text {
+        display: none !important;
+    }
     .stream-box {
         padding-left: .1rem;
     }
@@ -353,6 +431,13 @@ aside .input-group {
 
     #list, #clear {
         margin: 0;
+    }
+
+    #content {
+        font-size: 1.25rem;
+        .setter {
+            margin-top: 18rem;
+        }
     }
 
     #center {
@@ -398,6 +483,9 @@ aside .input-group {
 @media screen and (max-width: 800px) {
     aside {
         display: none;
+        a {
+            font-size: 1.5rem !important;
+        }
     }
 
     #calendar, #season {
@@ -406,5 +494,44 @@ aside .input-group {
 
     #center {
         width: 90%;
+    }
+
+    #content aside {
+        width: 100% !important;
+        background: black;
+        border: 2px solid purple;
+        border-radius: 20px;
+        z-index: 1;
+        position: absolute;
+        padding: 20px;
+        top: 18%;
+        .icon {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+    }
+    #show {
+        width: 98%;
+        left: 1%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #content {
+        .setter {
+            margin-top: 19rem;
+        }
+        #reset {
+            margin: 1.25rem;
+        }
+    }
+    #show {
+        display: grid;
+    }
+    #sub {
+        margin-left: 2rem;
+    }
+    #streams {
+        width: 100%;
     }
 }

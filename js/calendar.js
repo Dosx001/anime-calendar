@@ -419,7 +419,7 @@ function streamInfo(show) {
     let tbody = document.createElement('tbody');
     tbody.append(tr);
     let table = document.createElement('table');
-    table.className = 'table';
+    table.className = 'bars';
     if (Object.keys(data[show].streams).length == 0) {
         td = document.createElement('td');
         td.innerHTML = 'No legal stream available';
@@ -510,18 +510,14 @@ function streamInfo(show) {
     let img;
     let info = localStorage.getItem('info');
     if (info == "1") {
-        streams = document.createElement('div');
-        streams.append(table);
         output = document.createElement('aside');
-        output.append(streams);
+        output.append(table);
         output.append(set);
         output.append(reset);
     }
     else {
         img = document.createElement('img');
         img.src = data[show].cover;
-        img.width = 340;
-        img.height = 440;
         cover = document.createElement('div');
         cover.className = 'cover';
         cover.append(img);
@@ -539,24 +535,6 @@ function streamInfo(show) {
     }
     output.id = 'show';
     document.getElementById('content').append(output);
-    if (info == "1") {
-        document.querySelectorAll('.icon').forEach(ele => {
-            ele.style.height = '1.5rem';
-            ele.style.width = '1.5rem';
-        });
-        document.getElementById('reset').style.margin = '1rem 1rem';
-    }
-    else {
-        document.getElementById('reset').style.position = 'absolute';
-        let setter = document.querySelector('.setter');
-        setter.style.marginTop = '24rem';
-        setter.style.position = 'absolute';
-        setter.style.padding = '2px 10px';
-        document.querySelectorAll('.icon').forEach(ele => {
-            ele.style.height = "2rem";
-            ele.style.width = "2rem";
-        });
-    }
     resizeCalendar();
     document.getElementById('clear').style.visibility = 'visible';
     let list = document.getElementById('list-js');
