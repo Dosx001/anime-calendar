@@ -1,19 +1,15 @@
 @import '../../css/base';
-
 .line {
     border-top: 2px solid gray;
 }
-
 #content {
     @include container(40%);
 }
-
 @media screen and (max-width: 1920px) {
     #content {
         width: 60%;
    }
 }
-
 @media screen and (max-width: 1200px) {
     #content {
         width: 90%;

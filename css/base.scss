@@ -1,5 +1,4 @@
 $DarkPurple: #27002b;
-
 @mixin box($back_color, $bord_color, $radius: null) {
     background: $back_color;
     border: 2px solid $bord_color;
@@ -7,22 +6,25 @@ $DarkPurple: #27002b;
         border-radius: $radius;
     }
 }
-
 @mixin container($value) {
     margin: auto;
     width: $value;
 }
-
+%buttons {
+    @include box(black, grey, 20px);
+    color: purple;
+    &:hover {
+        box-shadow: 0px 0px 25px red;
+    }
+}
 html {
     scroll-padding-top: 5rem;
 }
-
 body {
     background: #181a1b;
     padding-top: 4rem;
     color: darkgrey;
 }
-
 nav {
     @include container(40%);
     display: flex;
@@ -45,14 +47,12 @@ nav {
         }
     }
 }
-
 nav, #nav-background {
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
 }
-
 a {
     color: purple;
     &:hover {
@@ -60,30 +60,25 @@ a {
         text-decoration: none;
     }
 }
-
 button {
     cursor: pointer;
     &:focus {
         outline: none;
     }
 }
-
 #desktop {
     position: relative;
     top: .25rem;
     font-size: 1.25rem;
 }
-
 #nav-background {
     background: black;
     padding-bottom: 3.5rem;
     z-index: 5;
 }
-
 #nav-left {
     position: relative;
 }
-
 #nav-right {
     display: flex;
     padding-left: .5rem;
@@ -94,17 +89,14 @@ button {
         margin-right: -9px;
     }
 }
-
 #nav-right-right {
     position: absolute;
     right: 0;
 }
-
 #main {
     font-size: 1.5rem;
     color: white;
 }
-
 #menu {
     visibility: hidden;
     position: absolute;
@@ -116,30 +108,25 @@ button {
     border: 1px solid gray;
     background: black;
 }
-
 #mobile {
     visibility: hidden;
     position: absolute;
     right: 0;
 }
-
 @media screen and (max-width: 1920px) {
     nav {
         width: 60%;
    }
 }
-
 @media screen and (max-width: 1200px) {
     nav {
         width: 90%;
    }
 }
-
 @media screen and (max-width: 800px) {
     #nav-right {
         visibility: hidden;
     }
-
     #mobile {
         visibility: visible;
     }

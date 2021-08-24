@@ -1,5 +1,4 @@
 @import 'base';
-
 aside {
     position: fixed;
     margin-top: 4rem !important;
@@ -11,42 +10,39 @@ aside {
         line-height: 2rem;
     }
 }
-
 /* Bootstrap */
 aside .input-group {
     padding-bottom: .5rem;
     width: 90%;
 }
-
+.custom-select {
+    background: black;
+    color: purple;
+    border: 1px solid darkgrey;
+    padding: 0 .25rem;
+}
 .input-group-text {
     background-color: black;
     color: darkgrey;
     border: 1px solid darkgrey;
 }
-
-.custom-select {
-    background:
-    black
-    url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E")
-    no-repeat right .75rem center;
-    background-size: 8px 10px;
-    color: purple;
-    border: 1px solid darkgrey;
-    padding: 0 .25rem;
-}
-
 .table td, .table th {
     border-top: 1px solid darkgrey;
     padding: .6rem;
 }
-
 /* Anime Calendar */
 .active {
     background: $DarkPurple;
     cursor: pointer;
     padding-left: 1rem;
 }
-
+.arrow {
+    font-size: 2rem;
+    padding: 0px 0px;
+}
+.arrow, .setter, .show, .stream, #clear, #list, #reset {
+    @extend %buttons;
+}
 .cover {
     display: inline-block;
     img {
@@ -54,7 +50,6 @@ aside .input-group {
         height: 440px;
     }
 }
-
 .cover-season {
     float: left;
     width: 45%;
@@ -64,7 +59,21 @@ aside .input-group {
         max-height: 440px;
     }
 }
-
+.date, .slot, .time {
+    border: 2px solid black;
+}
+.date, .slot{
+    text-align: center;
+}
+.date {
+    background: $DarkPurple;
+    position: sticky;
+    top: 0;
+}
+.icon {
+    border-radius: 20%;
+    margin-top: -.5rem;
+}
 .info {
     width: 55%;
     font-size: 1.5rem;
@@ -72,37 +81,20 @@ aside .input-group {
         border-top: 1px solid gray;
     }
 }
-
-%buttons {
-    @include box(black, grey, 20px);
-    color: purple;
-    &:hover {
-        box-shadow: 0px 0px 25px red;
-    }
-}
-
 .show {
-    @extend %buttons;
     width: 8rem;
     height: auto;
     margin-bottom: 2px;
 }
-
 .show-season {
     border-bottom: 5px solid black;
 }
-
-.arrow {
-    @extend %buttons;
-    font-size: 2rem;
-    padding: 0px 0px;
+.slot, .time {
+    padding: 1rem;
 }
-
 .stream {
-    @extend %buttons;
     padding: 0px 10px;
 }
-
 .stream-box {
     background: black;
     border: 2px solid gray;
@@ -112,7 +104,6 @@ aside .input-group {
     left: 5%;
     padding-left: 2rem;
 }
-
 .stream-drag {
     background: black;
     color: purple;
@@ -123,50 +114,19 @@ aside .input-group {
     cursor: grab;
     list-style-type: none;
     padding-left: 1rem;
+    &:active {
+        box-shadow: 0 0 2rem red;
+    }
 }
-
-.stream-drag:active {
-    box-shadow: 0 0 2rem red;
-}
-
 .stream-label {
     margin-left: .5rem;
     cursor: grab;
 }
-
 .stream-input {
     cursor: pointer;
     height: 1rem;
     width: 1rem;
 }
-
-.setter {
-    @extend %buttons;
-}
-
-.time, .slot {
-    padding: 1rem;
-}
-
-.date, .time, .slot {
-    border: 2px solid black;
-}
-
-.slot, .date {
-    text-align: center;
-}
-
-.date {
-    background: $DarkPurple;
-    position: sticky;
-    top: 0;
-}
-
-.icon {
-    border-radius: 20%;
-    margin-top: -.5rem;
-}
-
 .window {
     @include box(black, purple, 20px);
     z-index: 1;
@@ -177,40 +137,9 @@ aside .input-group {
     left: 25%;
     top: 18%;
 }
-
-#center {
-    @include container(40%);
-    display: flex;
+#add {
+    margin-left: 4rem;
 }
-
-#center-left {
-    width: 75%;
-}
-
-#center-right {
-    width: 25%;
-}
-
-#settings {
-    position: absolute;
-    width: 17%;
-    margin-top: 4rem;
-}
-
-#month {
-    font-size: 3rem;
-}
-
-#calendar, #season {
-    @include container(65%);
-    background: $DarkPurple;
-    scroll-padding-top: 2rem;
-    overflow: auto;
-    scrollbar-color: #4d4b4b black;
-    height: 50rem;
-    display: grid;
-}
-
 #calendar {
     table {
         border-collapse: separate;
@@ -220,59 +149,34 @@ aside .input-group {
         width: 10rem;
     }
 }
-
-
-#season {
-    border: 2px solid black;
+#calendar, #season {
+    @include container(65%);
+    background: $DarkPurple;
+    scroll-padding-top: 2rem;
+    overflow: auto;
+    scrollbar-color: #4d4b4b black;
+    height: 50rem;
+    display: grid;
 }
-
-::-webkit-scrollbar {
-    background: #000;
-    -webkit-border-radius: 10px;
+#center {
+    @include container(40%);
+    display: flex;
 }
-
-::-webkit-scrollbar-thumb {
-    background: grey;
-    -webkit-border-radius: 10px;
+#center-left {
+    width: 75%;
 }
-#add {
-    margin-left: 4rem;
+#center-right {
+    width: 25%;
 }
-
-#sub {
-    margin-left: 1rem;
-}
-
-#reset {
-    @extend %buttons;
-}
-
 #clear, #list {
-    @extend %buttons;
     margin: 1rem 0px;
     padding: .5rem 1rem;
 }
-
 #clear {
     visibility: hidden;
     background: $DarkPurple;
     color: purple;
 }
-
-#list {
-    margin-left: 5px;
-}
-
-#search {
-    color: gray;
-    background: $DarkPurple;
-    padding: .25rem;
-}
-
-#soon {
-    font-size: 5rem;
-}
-
 #content {
     font-size: 1.75rem;
     .setter {
@@ -280,12 +184,10 @@ aside .input-group {
         margin-top: 24rem;
         padding: 2px 10px;
     }
-
     #reset {
         position: absolute;
     }
 }
-
 #content aside {
     display: block;
     right: 0;
@@ -296,51 +198,42 @@ aside .input-group {
     td {
         padding: .25rem 0 !important;
     }
-
     .icon {
         height: 1.5rem;
         width: 1.5rem;
     }
-
     .setter {
         position: relative;
         margin: 0;
     }
-
     #reset {
         position: relative;
         margin-top: 1rem;
     }
 }
-
-#titles {
-    position: absolute;
-    top: 80%;
-    left: 9%;
-    padding: 4px 0;
-    background: black;
-    border: 1px solid gray;
-    max-height: 25vh;
-    overflow-y: auto;
-    li {
-        border-bottom: 1px gray solid;
-    }
+#list {
+    margin-left: 5px;
 }
-
-#titles, #search {
+#month {
+    font-size: 3rem;
+}
+#search {
+    color: gray;
+    background: $DarkPurple;
+    padding: .25rem;
+}
+#search, #titles {
     width: 24rem;
     box-sizing:border-box;
 }
-
-#streams {
-    float: right;
-    width: 68%;
-    .icon {
-        height: 2rem;
-        width: 2rem;
-    }
+#season {
+    border: 2px solid black;
 }
-
+#settings {
+    position: absolute;
+    width: 17%;
+    margin-top: 4rem;
+}
 #show {
     @include container(50%);
     display: flex;
@@ -354,22 +247,50 @@ aside .input-group {
         }
     }
 }
-
+#streams {
+    float: right;
+    width: 68%;
+    .icon {
+        height: 2rem;
+        width: 2rem;
+    }
+}
+#sub {
+    margin-left: 1rem;
+}
+#titles {
+    position: absolute;
+    top: 80%;
+    left: 9%;
+    padding: 4px 0;
+    background: black;
+    border: 1px solid gray;
+    max-height: 25vh;
+    overflow-y: auto;
+    li {
+        border-bottom: 1px gray solid;
+    }
+}
+::-webkit-scrollbar {
+    background: #000;
+    -webkit-border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: grey;
+    -webkit-border-radius: 10px;
+}
 @media screen and (max-width: 1920px) {
     .stream-box {
         padding-left: 1rem;
     }
-
-   #center {
+    #center {
         width: 60%;
     }
-
     #show {
         width: 60%;
         left: 20%;
     }
 }
-
 @media screen and (max-width: 1200px) {
     aside a {
         font-size: 1.2rem;
@@ -377,42 +298,35 @@ aside .input-group {
     .cover-season {
         width: 60%;
     }
-
     .info {
         width: 40%;
-    }
-
-    #clear, #list {
-        padding: .5rem;
-    }
-
-    #content aside {
-        font-size: 1.5rem;
-        width: 17.5% !important;
-    }
-
-    #show {
-        width: 65%;
-        left: 17.5%;
     }
     .stream-box {
         padding-left: .5rem;
     }
+    #clear, #list {
+        padding: .5rem;
+    }
+    #content aside {
+        font-size: 1.5rem;
+        width: 17.5% !important;
+    }
+    #show {
+        width: 65%;
+        left: 17.5%;
+    }
 }
-
 @media screen and (max-width: 1000px) {
     aside a {
         font-size: 1rem !important;
     }
-
-    .icon {
-        width: 1rem !important;
-        height: 1rem !important;
-    }
-
     .cover img {
         height: 21rem;
         width: 16rem;
+    }
+    .icon {
+        width: 1rem !important;
+        height: 1rem !important;
     }
     .input-group-text {
         display: none !important;
@@ -420,66 +334,52 @@ aside .input-group {
     .stream-box {
         padding-left: .1rem;
     }
-
     .stream-drag {
         width: auto;
     }
-
     .stream-input {
         width: auto;
     }
-
-    #list, #clear {
+    #center {
+        width: 65%;
+    }
+    #clear, #list {
         margin: 0;
     }
-
     #content {
         font-size: 1.25rem;
         .setter {
             margin-top: 18rem;
         }
     }
-
-    #center {
-        width: 65%;
-    }
-
     #month {
         font-size: 2rem;
     }
 }
-
 @media screen and (max-width: 900px) {
     .cover-season {
         float: none;
     }
-
     .info {
         width: 100%;
     }
-
     .stream-box {
         width: 95%;
         left: 0%;
     }
-
     .stream-drag {
         width: 95%;
     }
-
     #center-left {
         width: 30%;
     }
-
     #center-right {
         width: 70%;
     }
-
     #month {
         display: none;
     }
 }
-
 @media screen and (max-width: 800px) {
     aside {
         display: none;
@@ -487,15 +387,12 @@ aside .input-group {
             font-size: 1.5rem !important;
         }
     }
-
     #calendar, #season {
         width: 100%;
     }
-
     #center {
         width: 90%;
     }
-
     #content aside {
         width: 100% !important;
         background: black;
@@ -515,7 +412,6 @@ aside .input-group {
         left: 1%;
     }
 }
-
 @media screen and (max-width: 500px) {
     #content {
         .setter {
@@ -528,10 +424,10 @@ aside .input-group {
     #show {
         display: grid;
     }
-    #sub {
-        margin-left: 2rem;
-    }
     #streams {
         width: 100%;
+    }
+    #sub {
+        margin-left: 2rem;
     }
 }

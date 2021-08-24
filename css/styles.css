@@ -1,3 +1,13 @@
+.arrow, .setter, .show, .stream, #clear, #list, #reset {
+  background: black;
+  border: 2px solid grey;
+  border-radius: 20px;
+  color: purple;
+}
+.arrow:hover, .setter:hover, .show:hover, .stream:hover, #clear:hover, #list:hover, #reset:hover {
+  box-shadow: 0px 0px 25px red;
+}
+
 html {
   scroll-padding-top: 5rem;
 }
@@ -146,18 +156,17 @@ aside .input-group {
   width: 90%;
 }
 
+.custom-select {
+  background: black;
+  color: purple;
+  border: 1px solid darkgrey;
+  padding: 0 0.25rem;
+}
+
 .input-group-text {
   background-color: black;
   color: darkgrey;
   border: 1px solid darkgrey;
-}
-
-.custom-select {
-  background: black url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right 0.75rem center;
-  background-size: 8px 10px;
-  color: purple;
-  border: 1px solid darkgrey;
-  padding: 0 0.25rem;
 }
 
 .table td, .table th {
@@ -170,6 +179,11 @@ aside .input-group {
   background: #27002b;
   cursor: pointer;
   padding-left: 1rem;
+}
+
+.arrow {
+  font-size: 2rem;
+  padding: 0px 0px;
 }
 
 .cover {
@@ -190,22 +204,31 @@ aside .input-group {
   max-height: 440px;
 }
 
+.date, .slot, .time {
+  border: 2px solid black;
+}
+
+.date, .slot {
+  text-align: center;
+}
+
+.date {
+  background: #27002b;
+  position: sticky;
+  top: 0;
+}
+
+.icon {
+  border-radius: 20%;
+  margin-top: -0.5rem;
+}
+
 .info {
   width: 55%;
   font-size: 1.5rem;
 }
 .info td {
   border-top: 1px solid gray;
-}
-
-#clear, #list, #reset, .setter, .stream, .arrow, .show {
-  background: black;
-  border: 2px solid grey;
-  border-radius: 20px;
-  color: purple;
-}
-#clear:hover, #list:hover, #reset:hover, .setter:hover, .stream:hover, .arrow:hover, .show:hover {
-  box-shadow: 0px 0px 25px red;
 }
 
 .show {
@@ -218,9 +241,8 @@ aside .input-group {
   border-bottom: 5px solid black;
 }
 
-.arrow {
-  font-size: 2rem;
-  padding: 0px 0px;
+.slot, .time {
+  padding: 1rem;
 }
 
 .stream {
@@ -248,7 +270,6 @@ aside .input-group {
   list-style-type: none;
   padding-left: 1rem;
 }
-
 .stream-drag:active {
   box-shadow: 0 0 2rem red;
 }
@@ -264,29 +285,6 @@ aside .input-group {
   width: 1rem;
 }
 
-.time, .slot {
-  padding: 1rem;
-}
-
-.date, .time, .slot {
-  border: 2px solid black;
-}
-
-.slot, .date {
-  text-align: center;
-}
-
-.date {
-  background: #27002b;
-  position: sticky;
-  top: 0;
-}
-
-.icon {
-  border-radius: 20%;
-  margin-top: -0.5rem;
-}
-
 .window {
   background: black;
   border: 2px solid purple;
@@ -298,6 +296,29 @@ aside .input-group {
   margin-top: 7rem;
   left: 25%;
   top: 18%;
+}
+
+#add {
+  margin-left: 4rem;
+}
+
+#calendar table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+#calendar td {
+  width: 10rem;
+}
+
+#calendar, #season {
+  margin: auto;
+  width: 65%;
+  background: #27002b;
+  scroll-padding-top: 2rem;
+  overflow: auto;
+  scrollbar-color: #4d4b4b black;
+  height: 50rem;
+  display: grid;
 }
 
 #center {
@@ -314,57 +335,6 @@ aside .input-group {
   width: 25%;
 }
 
-#settings {
-  position: absolute;
-  width: 17%;
-  margin-top: 4rem;
-}
-
-#month {
-  font-size: 3rem;
-}
-
-#calendar, #season {
-  margin: auto;
-  width: 65%;
-  background: #27002b;
-  scroll-padding-top: 2rem;
-  overflow: auto;
-  scrollbar-color: #4d4b4b black;
-  height: 50rem;
-  display: grid;
-}
-
-#calendar table {
-  border-collapse: separate;
-  border-spacing: 0;
-}
-#calendar td {
-  width: 10rem;
-}
-
-#season {
-  border: 2px solid black;
-}
-
-::-webkit-scrollbar {
-  background: #000;
-  -webkit-border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: grey;
-  -webkit-border-radius: 10px;
-}
-
-#add {
-  margin-left: 4rem;
-}
-
-#sub {
-  margin-left: 1rem;
-}
-
 #clear, #list {
   margin: 1rem 0px;
   padding: 0.5rem 1rem;
@@ -374,20 +344,6 @@ aside .input-group {
   visibility: hidden;
   background: #27002b;
   color: purple;
-}
-
-#list {
-  margin-left: 5px;
-}
-
-#search {
-  color: gray;
-  background: #27002b;
-  padding: 0.25rem;
-}
-
-#soon {
-  font-size: 5rem;
 }
 
 #content {
@@ -426,32 +382,33 @@ aside .input-group {
   margin-top: 1rem;
 }
 
-#titles {
-  position: absolute;
-  top: 80%;
-  left: 9%;
-  padding: 4px 0;
-  background: black;
-  border: 1px solid gray;
-  max-height: 25vh;
-  overflow-y: auto;
-}
-#titles li {
-  border-bottom: 1px gray solid;
+#list {
+  margin-left: 5px;
 }
 
-#titles, #search {
+#month {
+  font-size: 3rem;
+}
+
+#search {
+  color: gray;
+  background: #27002b;
+  padding: 0.25rem;
+}
+
+#search, #titles {
   width: 24rem;
   box-sizing: border-box;
 }
 
-#streams {
-  float: right;
-  width: 68%;
+#season {
+  border: 2px solid black;
 }
-#streams .icon {
-  height: 2rem;
-  width: 2rem;
+
+#settings {
+  position: absolute;
+  width: 17%;
+  margin-top: 4rem;
 }
 
 #show {
@@ -467,6 +424,43 @@ aside .input-group {
 }
 #show table td {
   padding: 0.5rem;
+}
+
+#streams {
+  float: right;
+  width: 68%;
+}
+#streams .icon {
+  height: 2rem;
+  width: 2rem;
+}
+
+#sub {
+  margin-left: 1rem;
+}
+
+#titles {
+  position: absolute;
+  top: 80%;
+  left: 9%;
+  padding: 4px 0;
+  background: black;
+  border: 1px solid gray;
+  max-height: 25vh;
+  overflow-y: auto;
+}
+#titles li {
+  border-bottom: 1px gray solid;
+}
+
+::-webkit-scrollbar {
+  background: #000;
+  -webkit-border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: grey;
+  -webkit-border-radius: 10px;
 }
 
 @media screen and (max-width: 1920px) {
@@ -496,6 +490,10 @@ aside .input-group {
     width: 40%;
   }
 
+  .stream-box {
+    padding-left: 0.5rem;
+  }
+
   #clear, #list {
     padding: 0.5rem;
   }
@@ -509,24 +507,20 @@ aside .input-group {
     width: 65%;
     left: 17.5%;
   }
-
-  .stream-box {
-    padding-left: 0.5rem;
-  }
 }
 @media screen and (max-width: 1000px) {
   aside a {
     font-size: 1rem !important;
   }
 
-  .icon {
-    width: 1rem !important;
-    height: 1rem !important;
-  }
-
   .cover img {
     height: 21rem;
     width: 16rem;
+  }
+
+  .icon {
+    width: 1rem !important;
+    height: 1rem !important;
   }
 
   .input-group-text {
@@ -545,7 +539,11 @@ aside .input-group {
     width: auto;
   }
 
-  #list, #clear {
+  #center {
+    width: 65%;
+  }
+
+  #clear, #list {
     margin: 0;
   }
 
@@ -554,10 +552,6 @@ aside .input-group {
   }
   #content .setter {
     margin-top: 18rem;
-  }
-
-  #center {
-    width: 65%;
   }
 
   #month {
@@ -642,11 +636,11 @@ aside .input-group {
     display: grid;
   }
 
-  #sub {
-    margin-left: 2rem;
-  }
-
   #streams {
     width: 100%;
+  }
+
+  #sub {
+    margin-left: 2rem;
   }
 }

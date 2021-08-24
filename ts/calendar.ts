@@ -449,7 +449,6 @@ function streamInfo(show: string) {
     let tbody = document.createElement('tbody')
     tbody.append(tr)
     let table = document.createElement('table')
-    table.className = 'bars'
     if (Object.keys(data[show].streams).length == 0) {
         td = document.createElement('td')
         td.innerHTML = 'No legal stream available'
