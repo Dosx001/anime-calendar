@@ -3,16 +3,12 @@
   <head>
     <script src="js/calendar.min.js" defer></script>
     <script src="js/streams.min.js" defer></script>
-    <script src="js/season.js" defer></script>
     <script src="js/nav.min.js" defer></script>
-
+    <script src="js/season.js" defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <link rel="icon" href="assets/logo.svg" type="image/svg" sizes="16x16">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/styles.min.css">
-
     <title>Anime Calendar</title>
   </head>
   <body>
@@ -43,31 +39,25 @@
     <div align="center">
       <aside>
         <h2>Settings</h2>
-        <div class="input-group">
-          <div class="input-group-prepend">
-            <label class="input-group-text" for="format">Format</label>
+          <div class='dropbox'>
+            <label for="format">Format</label>
+            <select class="custom-select" id="format" onchange='format()'>
+              <option value="0">Calendar - Full</option>
+              <option value="1">Calendar - Cutoff</option>
+              <option value="2">Calendar - Compact</option>
+              <option value="3">Daily</option>
+            </select>
           </div>
-          <select class="custom-select" id="format" onchange='format()'>
-            <option value="0">Calendar - Full</option>
-            <option value="1">Calendar - Cutoff</option>
-            <option value="2">Calendar - Compact</option>
-            <option value="3">Daily</option>
-          </select>
-        </div>
-        <div class="input-group">
-          <div class="input-group-prepend">
-            <label class="input-group-text" for="info">Stream Info</label>
+          <div class='dropbox'>
+            <label for="info">Stream Info</label>
+            <select class="custom-select" id="info" onchange='info()'>
+              <option value="0">Top View</option>
+              <option value="1">Side View</option>
+              <option value="2">Window View</option>
+            </select>
           </div>
-          <select class="custom-select" id="info" onchange='info()'>
-            <option value="0">Top View</option>
-            <option value="1">Side View</option>
-            <option value="2">Window View</option>
-          </select>
-        </div>
         <h3>My Streams</h3>
-        <div align="left">
-          <ul class="stream-box">
-          </ul>
+        <div align="left" class="stream-box">
         </div>
       </aside>
     </div>

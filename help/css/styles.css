@@ -1,8 +1,13 @@
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
 html {
   scroll-padding-top: 5rem;
 }
 
 body {
+  font-family: "Segoe UI";
   background: #181a1b;
   padding-top: 4rem;
   color: darkgrey;
@@ -41,10 +46,10 @@ nav, #nav-background {
 
 a {
   color: purple;
+  text-decoration: none;
 }
 a:hover {
   color: purple;
-  text-decoration: none;
 }
 
 button {
@@ -52,6 +57,13 @@ button {
 }
 button:focus {
   outline: none;
+}
+
+h1, h2, h3 {
+  font-weight: 500;
+  line-height: 1;
+  margin: 0 0 0.5rem;
+  font-size: 2rem;
 }
 
 #desktop {
@@ -76,14 +88,16 @@ button:focus {
 }
 #nav-right label {
   border: 1px solid gray;
-  border-radius: 6px;
-  padding: 5px 10px;
-  margin-right: -9px;
+  border-radius: 6px 0 0 6px;
+  padding: 6px 8px;
+  height: 100%;
 }
 
 #nav-right-right {
   position: absolute;
   right: 0;
+  display: flex;
+  height: 2rem;
 }
 
 #main {

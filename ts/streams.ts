@@ -9,27 +9,27 @@ if (streams == null) {
 renderItems(streams)
 
 function renderItems(data: Stream[]) {
-    let ul = (document.querySelector('.stream-box')! as HTMLElement)
-    ul.innerText = ''
+    let list = (document.querySelector('.stream-box')! as HTMLElement)
+    list.innerText = ''
     for (const i in data) {
-        let li = document.createElement("li");
-        li.draggable = true
-        li.classList.add('stream-drag')
-        li.addEventListener('drag', function() {
+        let div = document.createElement("div");
+        div.draggable = true
+        div.classList.add('stream-drag')
+        div.addEventListener('drag', function() {
             drag = [this.innerText, (this.childNodes[0] as HTMLInputElement).checked]
         })
-        li.addEventListener('dragover', function(e) {
+        div.addEventListener('dragover', function(e) {
             e.preventDefault()
             dragover = [this.innerText, (this.childNodes[0] as HTMLInputElement).checked]
         })
-        li.addEventListener('drop', function() {
+        div.addEventListener('drop', function() {
             const index1: number = index(drag)!;
             const index2: number = index(dragover)!;
             streams.splice(index1, 1)
             streams.splice(index2, 0, drag)
             renderItems(streams)
         })
-        li.setAttribute("id", 's' + i)
+        div.setAttribute("id", 's' + i)
         let input = document.createElement('input')
         input.setAttribute("type", "checkbox");
         input.setAttribute("name", streams[i][0])
@@ -43,9 +43,9 @@ function renderItems(data: Stream[]) {
         label.classList.add('stream-label')
         label.setAttribute("for", streams[i][0])
         label.innerText = streams[i][0]
-        li.appendChild(input)
-        li.appendChild(label)
-        ul.appendChild(li)
+        div.appendChild(input)
+        div.appendChild(label)
+        list.appendChild(div)
     }
     localStorage.setItem('streams', JSON.stringify(streams))
 }
