@@ -1,3 +1,7 @@
+interface HTMLImageElement {
+    loading: string
+}
+
 function season() {
     let div = document.createElement('div')
     div.id = 'season'
@@ -7,6 +11,7 @@ function season() {
             return resp.json()
         })
         .then(data => {
+            let count = 0
             for (let show in data) {
                 let content = document.createElement('div')
                 content.className = 'show-season'
@@ -25,6 +30,9 @@ function season() {
                             cover.align = 'right'
                             let img = document.createElement('img')
                             img.src = data[show][item]
+                            img.width = 340
+                            img.height = 440
+                            count < 5 ? count++ : img.loading = 'lazy'
                             cover.append(img)
                             content.append(cover)
                             break
