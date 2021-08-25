@@ -11,6 +11,7 @@ then
         cd /mnt/d/Repositories/html/anime-calendar
     fi
 else
+    git add *
     git rebase --continue
     git push -f
     cd /mnt/d/Repositories/html/anime-calendar

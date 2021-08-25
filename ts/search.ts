@@ -1,4 +1,4 @@
-let titleList = Object.keys(Object.assign(STORE, PAST)).sort()
+const titleList = Object.keys(Object.assign(STORE, PAST)).sort()
 const search = <HTMLInputElement> document.getElementById('search')!
 const titles = document.getElementById('titles')!
 let indexLi = 99
@@ -61,7 +61,7 @@ search.addEventListener('focusout', e => {
 function results(e: Event) {
     let input = (<HTMLInputElement>e.target!).value
     indexLi = 99
-    if(input){
+    if (input) {
         titles.style.display = ""
         titles.innerHTML = ""
         let i = 100
@@ -101,16 +101,16 @@ function results(e: Event) {
 }
 
 function move(num: number) {
-    let li = document.getElementById((indexLi + num).toString())!
+    let li = document.getElementById((indexLi + num).toString())
     if (li) {
-        li.classList.add('active')
+        li.className = 'active'
         li.focus()
         search.focus()
         if (li.nextElementSibling) {
-            li.nextElementSibling.classList.remove('active')
+            li.nextElementSibling.className = ""
         }
         if (li.previousElementSibling) {
-            li.previousElementSibling.classList.remove('active')
+            li.previousElementSibling.className = ""
         }
         if (document.getElementById((indexLi + num).toString())) {
             indexLi += num

@@ -1,5 +1,5 @@
 "use strict";
-let titleList = Object.keys(Object.assign(STORE, PAST)).sort();
+const titleList = Object.keys(Object.assign(STORE, PAST)).sort();
 const search = document.getElementById('search');
 const titles = document.getElementById('titles');
 let indexLi = 99;
@@ -98,14 +98,14 @@ function results(e) {
 function move(num) {
     let li = document.getElementById((indexLi + num).toString());
     if (li) {
-        li.classList.add('active');
+        li.className = 'active';
         li.focus();
         search.focus();
         if (li.nextElementSibling) {
-            li.nextElementSibling.classList.remove('active');
+            li.nextElementSibling.className = "";
         }
         if (li.previousElementSibling) {
-            li.previousElementSibling.classList.remove('active');
+            li.previousElementSibling.className = "";
         }
         if (document.getElementById((indexLi + num).toString())) {
             indexLi += num;

@@ -1,6 +1,6 @@
 type Stream = [string, boolean]
-let drag: Stream
-let dragover: Stream;
+let drag: string
+let dragover: string
 let streams: Stream[] = JSON.parse(localStorage.getItem('streams')!)
 if (streams == null) {
     streams = [['AnimeLab', false], ['Crunchyroll', false], ['Funimation', false],
@@ -14,45 +14,46 @@ function renderItems(data: Stream[]) {
     for (const i in data) {
         let div = document.createElement("div");
         div.draggable = true
-        div.classList.add('stream-drag')
+        div.className = 'stream-drag'
         div.addEventListener('drag', function() {
-            drag = [this.innerText, (this.childNodes[0] as HTMLInputElement).checked]
+            drag = this.innerText
         })
         div.addEventListener('dragover', function(e) {
             e.preventDefault()
-            dragover = [this.innerText, (this.childNodes[0] as HTMLInputElement).checked]
+            dragover = this.innerText
         })
-        div.addEventListener('drop', function() {
+        div.addEventListener('drop', () => {
             const index1: number = index(drag)!;
             const index2: number = index(dragover)!;
             streams.splice(index1, 1)
-            streams.splice(index2, 0, drag)
+            streams.splice(index2, 0, [drag,
+                (<HTMLInputElement>document.querySelector(`[name=${drag}]`)!).checked])
             renderItems(streams)
         })
-        div.setAttribute("id", 's' + i)
+        div.id = 's' + i
         let input = document.createElement('input')
-        input.setAttribute("type", "checkbox");
-        input.setAttribute("name", streams[i][0])
-        input.classList.add('stream-input')
+        input.type = 'checkbox'
+        input.name = streams[i][0]
+        input.className = 'stream-input'
         input.addEventListener('click', function() {
             streams[parseInt(this.parentElement!.id.substring(1))][1] = this.checked
             localStorage.setItem('streams', JSON.stringify(streams))
         })
         input.checked = streams[i][1]
         let label = document.createElement('label')
-        label.classList.add('stream-label')
-        label.setAttribute("for", streams[i][0])
-        label.innerText = streams[i][0]
-        div.appendChild(input)
-        div.appendChild(label)
-        list.appendChild(div)
+        label.className = 'stream-label'
+        label.setAttribute('for', streams[i][0])
+        label.innerHTML = streams[i][0]
+        div.append(input)
+        div.append(label)
+        list.append(div)
     }
     localStorage.setItem('streams', JSON.stringify(streams))
 }
 
-function index(item: Stream) {
+function index(title: string) {
     for (let i = 0; i < streams.length; i++) {
-        if (item[0] == streams[i][0] && item[1] == streams[i][1]) {
+        if (title == streams[i][0]) {
             return i
         }
     }

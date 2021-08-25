@@ -43,7 +43,6 @@ document.addEventListener('keydown', e => {
             case "8":
             case "9":
                 link(`${parseInt(e.key) - 1}`);
-                break;
         }
         e.stopImmediatePropagation();
     }
