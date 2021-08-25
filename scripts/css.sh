@@ -9,7 +9,7 @@ then
         echo 'Done' $dir
     done
 else
-    for i in $@
+    for i in $(echo $@ | fold -w1)
     do
         case $i in
             'm')
