@@ -9,14 +9,10 @@ interface Shows {
 let PAST: Shows = JSON.parse(localStorage.getItem('past')!)
 let STORE: Shows = JSON.parse(localStorage.getItem('store')!);
 
-(<HTMLSelectElement>(document.getElementById("info"))).selectedIndex = parseInt(localStorage.getItem('info')!);
-(<HTMLSelectElement>(document.getElementById("format"))).selectedIndex = parseInt(localStorage.getItem('format')!)
-if (localStorage.getItem('list')) {
-    document.getElementById('list')!.innerHTML = localStorage.getItem('list')!
-}
-if (!localStorage.getItem('shows')) {
-    localStorage.setItem('shows', JSON.stringify({}))
-}
+(<HTMLSelectElement>document.getElementById("info")).selectedIndex = parseInt(localStorage.getItem('info')!);
+(<HTMLSelectElement>document.getElementById("format")).selectedIndex = parseInt(localStorage.getItem('format')!)
+if (localStorage.getItem('list')) document.getElementById('list')!.innerHTML = localStorage.getItem('list')!;
+if (!localStorage.getItem('shows')) localStorage.setItem('shows', JSON.stringify({}));
 let LEFT = document.getElementById("left")!
 let RIGHT = document.getElementById("right")!
 LEFT.style.visibility = "visible"
@@ -32,11 +28,8 @@ window.onload = () => {
         set("./shows/past_shows.json", "past")
             .then(() => {
                 let shows = JSON.parse(localStorage.getItem('shows')!)
-                for (let show in shows) {
-                    if (!(show in STORE) || !(show in PAST)) {
-                        delete shows[show]
-                    }
-                }
+                for (let show in shows)
+                    if (!(show in STORE) || !(show in PAST)) delete shows[show];
                 localStorage.setItem('shows', JSON.stringify(shows))
             }).finally(() => {
                 TheBigBang()
@@ -107,11 +100,8 @@ function list() {
     let list: HTMLElement = document.getElementById('list')!
     list.innerHTML = list.innerHTML == 'Full List' ? 'Your List' : 'Full List'
     localStorage.setItem('list', list.innerHTML)
-    if (document.getElementById('calendar')) {
-        if (!document.getElementById('soon')) {
-            LEFT.style.visibility == 'visible' ? TheBigBang():TheBigBang(-7)
-        }
-    }
+    if (document.getElementById('calendar'))
+        LEFT.style.visibility == 'visible' ? TheBigBang():TheBigBang(-7);
 }
 
 function left() {
@@ -121,10 +111,6 @@ function left() {
             TheBigBang(-7);
         }
         else {
-            let soon = document.getElementById('soon')
-            if (soon) {
-                soon.remove()
-            }
             RIGHT.style.visibility = "visible"
             LEFT.style.visibility = "visible"
             TheBigBang();
@@ -150,9 +136,7 @@ function right() {
 
 function info() {
     localStorage.setItem('info', (<HTMLSelectElement>document.getElementById('info')!).value)
-    if (document.getElementById('title')) {
-        streamInfo(document.getElementById('title')!.innerHTML)
-    }
+    if (document.getElementById('title')) streamInfo(document.getElementById('title')!.innerHTML);
 }
 
 async function set(file: string, key: string) {
@@ -182,9 +166,8 @@ function TheBigBang(offset: number = 0) {
                         data = data['full'];
             }
             let times: string[]
-            if (localStorage.getItem('list') == "Your List" || Object.keys(JSON.parse(localStorage.getItem('shows')!)).length == 0) {
-                times = data
-            }
+            if (localStorage.getItem('list') == "Your List" || Object.keys(JSON.parse(localStorage.getItem('shows')!)).length == 0)
+                times = data;
             else {
                 switch(format) {
                     case "1":
@@ -197,7 +180,7 @@ function TheBigBang(offset: number = 0) {
                         times = full(data, offset)
                 }
             }
-            document.body.append(calendar(getDates(offset), times))
+            calendar(getDates(offset), times)
             resizeCalendar()
             createShows(offset)
         })
@@ -241,7 +224,7 @@ function calendar(dates: Date[], times: string[]) {
     let calendar = document.createElement('div')
     calendar.id = 'calendar'
     calendar.append(table)
-    return calendar
+    document.body.append(calendar)
 }
 
 function getDates(offset: number = 0) {
@@ -273,9 +256,7 @@ function getDates(offset: number = 0) {
             day += offset - 5;
             break;
     }
-    for (let i = 0; i < 7; i++) {
-        dates.push(new Date(year, month, day + i))
-    }
+    for (let i = 0; i < 7; i++) dates.push(new Date(year, month, day + i))
     return dates
 }
 
@@ -329,23 +310,18 @@ function full(times: string[], offset: number) {
         if (!(times[time].includes("00") || times[time].includes("30"))) {
             for (let show in shows) {
                 if (show in data) {
-                    if (data[show].time.includes("00") || data[show].time.includes("30")) {
-                        delete shows[show]
-                    }
+                    if (data[show].time.includes("00") || data[show].time.includes("30"))
+                        delete shows[show];
                     else if (times[time] == data[show].time) {
                         output.push(times[time])
                         delete shows[show]
                         break
                     }
                 }
-                else {
-                    delete shows[show]
-                }
+                else delete shows[show];
             }
         }
-        else {
-            output.push(times[time])
-        }
+        else output.push(times[time])
     }
     return output
 }
@@ -369,13 +345,10 @@ function cutoff(times: string[], offset: number) {
                 if (show in data) {
                     max = minMax(max, data[show].time)[1]
                     min = minMax(min, data[show].time)[0]
-                    if (data[show].time.includes("00") || data[show].time.includes("30")) {
-                        delete shows[show]
-                    }
+                    if (data[show].time.includes("00") || data[show].time.includes("30"))
+                        delete shows[show];
                 }
-                else {
-                    delete shows[show]
-                }
+                else delete shows[show];
             }
     }
     let output: string[] = []
@@ -390,9 +363,8 @@ function cutoff(times: string[], offset: number) {
             break
         }
         else if (bool) {
-            if (times[time].includes("00") || times[time].includes("30")) {
-                output.push(times[time])
-            }
+            if (times[time].includes("00") || times[time].includes("30"))
+                output.push(times[time]);
             else {
                 for (let show in shows) {
                     if (times[time] == data[show].time) {
@@ -418,13 +390,9 @@ function compact(times: string[], offset: number) {
                 delete shows[show]
                 break
             }
-            else if (!(show in data)) {
-                delete shows[show]
-            }
+            else if (!(show in data)) delete shows[show];
         }
-        if (shows.length == 0) {
-            break
-        }
+        if (shows.length == 0) break;
     }
     return output
 }
@@ -438,9 +406,7 @@ function resizeCalendar() {
 function streamInfo(show: string) {
     const data = show in STORE ? STORE : PAST
     let s = document.getElementById('show')
-    if (s) {
-        s.remove()
-    }
+    if (s) s.remove();
     let td = document.createElement('td')
     td.id = 'title'
     td.innerHTML = show
@@ -554,9 +520,7 @@ function streamInfo(show: string) {
         streams.id = 'streams'
         streams.append(table)
         output = document.createElement('div')
-        if (info == "2") {
-            output.className = 'window';
-        }
+        if (info == "2") output.className = 'window';
         (<HTMLDivElement>output).align = 'center'
         output.append(set)
         output.append(reset)
@@ -568,9 +532,7 @@ function streamInfo(show: string) {
     resizeCalendar()
     document.getElementById('clear')!.style.visibility = 'visible'
     let list = <HTMLScriptElement>document.getElementById('list-js')
-    if (list) {
-        list.remove()
-    }
+    if (list) list.remove();
     list = document.createElement('script')
     list.id = 'list-js'
     list.src = 'js/list.min.js'
@@ -593,17 +555,10 @@ function updateTime() {
     now = [now.getWeek(), now.getFullYear()]
     if (time != null) {
         let shows = JSON.parse(localStorage.getItem("shows")!)
-        if ((now[0] - time[0] == 1 && now[1] == time[1]) ||
-            (now[1] - time[1] == 1 && now[0] == 52)) {
-            for (let show in shows) {
-                [shows[show][0], shows[show][1]] = [false, shows[show][0]]
-            }
-        }
-        else if (now[0] != time[0] || now[1] != time[1]) {
-            for (let show in shows) {
-                [shows[show][0], shows[show][1]] = [false, false]
-            }
-        }
+        if ((now[0] - time[0] == 1 && now[1] == time[1]) || (now[1] - time[1] == 1 && now[0] == 52))
+            for (let show in shows) [shows[show][0], shows[show][1]] = [false, shows[show][0]];
+        else if (now[0] != time[0] || now[1] != time[1])
+            for (let show in shows) [shows[show][0], shows[show][1]] = [false, false];
         localStorage.setItem('shows', JSON.stringify(shows))
     }
     localStorage.setItem('time', JSON.stringify(now))

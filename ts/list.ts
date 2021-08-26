@@ -29,9 +29,7 @@ document.addEventListener('keydown', e => {
                 if (check) {
                     let box = <HTMLElement>document.querySelector('.stream-box')!
                     box.style.backgroundColor = 'darkred'
-                    setTimeout(() => {
-                        box.style.backgroundColor = 'black'
-                    }, 50);
+                    setTimeout(() => box.style.backgroundColor = 'black', 50);
                 }
                 break
             case "1":
@@ -49,34 +47,19 @@ document.addEventListener('keydown', e => {
     }
 })
 
-document.querySelectorAll('.arrow').forEach(ele => {
-    (<HTMLElement>ele).addEventListener('click', () => {
-        arrow()
-    })
-});
+document.querySelectorAll('.arrow').forEach(ele =>
+    (<HTMLElement>ele).addEventListener('click', () => arrow())
+);
 
-(<HTMLElement>document.querySelector('.setter')!).onclick = () => {
-    setter()
-}
+(<HTMLElement>document.querySelector('.setter')!).onclick = () => setter();
 
-document.querySelectorAll('.stream')!.forEach(but => {
-    (<HTMLElement>but).onclick = () => {
-        stream()
-    }
-})
+document.querySelectorAll('.stream')!.forEach(but => (<HTMLElement>but).onclick = () => stream())
 
-document.getElementById('reset')!.onclick = () => {
-    reset()
-}
+document.getElementById('reset')!.onclick = () => reset();
 
 function link(id: string) {
     let ele = <HTMLAnchorElement>document.getElementById(id)
-    if (ele) {
-        stream()
-        if (!ele.href.includes(window.location.host)) {
-            window.open(ele.href);
-        }
-    }
+    if (ele) stream(); if (!ele.href.includes(window.location.host)) window.open(ele.href);
 }
 
 function stream() {
@@ -109,9 +92,7 @@ function arrow() {
     if (title) {
         title = title.innerHTML
         let shows = JSON.parse(localStorage.getItem("shows")!)
-        if (document.getElementById('season')) {
-            document.getElementById('show')!.remove()
-        }
+        if (document.getElementById('season')) document.getElementById('show')!.remove();
         else if (title in shows) {
             document.getElementById('reset')!.style.visibility =
                 (LEFT.style.visibility == 'visible' ?
@@ -127,9 +108,7 @@ function setter() {
     let shows = JSON.parse(localStorage.getItem("shows")!)
     if (setter.id == 'add') {
         let ele = document.getElementById(ider_show(title))!
-        if (ele) {
-            ele.style.borderColor = "#4f004f"
-        }
+        if (ele) ele.style.borderColor = "#4f004f";
         setter.innerHTML = "Remove from Your List"
         setter.id = "sub"
         shows[title] = [false, false]
@@ -143,7 +122,5 @@ function setter() {
     }
     localStorage.setItem('shows', JSON.stringify(shows))
     let list = <HTMLElement>document.getElementById('list')!
-    if (list.innerHTML == "Full List") {
-        LEFT.style.visibility == 'visible' ? TheBigBang():TheBigBang(-7)
-    }
+    if (list.innerHTML == "Full List") LEFT.style.visibility == 'visible' ? TheBigBang():TheBigBang(-7);
 }

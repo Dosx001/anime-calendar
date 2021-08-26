@@ -1,14 +1,12 @@
 "use strict";
 let PAST = JSON.parse(localStorage.getItem('past'));
 let STORE = JSON.parse(localStorage.getItem('store'));
-(document.getElementById("info")).selectedIndex = parseInt(localStorage.getItem('info'));
-(document.getElementById("format")).selectedIndex = parseInt(localStorage.getItem('format'));
-if (localStorage.getItem('list')) {
+document.getElementById("info").selectedIndex = parseInt(localStorage.getItem('info'));
+document.getElementById("format").selectedIndex = parseInt(localStorage.getItem('format'));
+if (localStorage.getItem('list'))
     document.getElementById('list').innerHTML = localStorage.getItem('list');
-}
-if (!localStorage.getItem('shows')) {
+if (!localStorage.getItem('shows'))
     localStorage.setItem('shows', JSON.stringify({}));
-}
 let LEFT = document.getElementById("left");
 let RIGHT = document.getElementById("right");
 LEFT.style.visibility = "visible";
@@ -23,11 +21,9 @@ window.onload = () => {
         set("./shows/past_shows.json", "past")
             .then(() => {
             let shows = JSON.parse(localStorage.getItem('shows'));
-            for (let show in shows) {
-                if (!(show in STORE) || !(show in PAST)) {
+            for (let show in shows)
+                if (!(show in STORE) || !(show in PAST))
                     delete shows[show];
-                }
-            }
             localStorage.setItem('shows', JSON.stringify(shows));
         }).finally(() => {
             TheBigBang();
@@ -93,11 +89,8 @@ function list() {
     let list = document.getElementById('list');
     list.innerHTML = list.innerHTML == 'Full List' ? 'Your List' : 'Full List';
     localStorage.setItem('list', list.innerHTML);
-    if (document.getElementById('calendar')) {
-        if (!document.getElementById('soon')) {
-            LEFT.style.visibility == 'visible' ? TheBigBang() : TheBigBang(-7);
-        }
-    }
+    if (document.getElementById('calendar'))
+        LEFT.style.visibility == 'visible' ? TheBigBang() : TheBigBang(-7);
 }
 function left() {
     if (LEFT.style.visibility == "visible") {
@@ -106,10 +99,6 @@ function left() {
             TheBigBang(-7);
         }
         else {
-            let soon = document.getElementById('soon');
-            if (soon) {
-                soon.remove();
-            }
             RIGHT.style.visibility = "visible";
             LEFT.style.visibility = "visible";
             TheBigBang();
@@ -133,9 +122,8 @@ function right() {
 }
 function info() {
     localStorage.setItem('info', document.getElementById('info').value);
-    if (document.getElementById('title')) {
+    if (document.getElementById('title'))
         streamInfo(document.getElementById('title').innerHTML);
-    }
 }
 async function set(file, key) {
     let data = await (await fetch(file)).json();
@@ -163,9 +151,8 @@ function TheBigBang(offset = 0) {
                 data = data['full'];
         }
         let times;
-        if (localStorage.getItem('list') == "Your List" || Object.keys(JSON.parse(localStorage.getItem('shows'))).length == 0) {
+        if (localStorage.getItem('list') == "Your List" || Object.keys(JSON.parse(localStorage.getItem('shows'))).length == 0)
             times = data;
-        }
         else {
             switch (format) {
                 case "1":
@@ -178,7 +165,7 @@ function TheBigBang(offset = 0) {
                     times = full(data, offset);
             }
         }
-        document.body.append(calendar(getDates(offset), times));
+        calendar(getDates(offset), times);
         resizeCalendar();
         createShows(offset);
     });
@@ -221,7 +208,7 @@ function calendar(dates, times) {
     let calendar = document.createElement('div');
     calendar.id = 'calendar';
     calendar.append(table);
-    return calendar;
+    document.body.append(calendar);
 }
 function getDates(offset = 0) {
     let dates = [];
@@ -252,9 +239,8 @@ function getDates(offset = 0) {
             day += offset - 5;
             break;
     }
-    for (let i = 0; i < 7; i++) {
+    for (let i = 0; i < 7; i++)
         dates.push(new Date(year, month, day + i));
-    }
     return dates;
 }
 function ider_slot(day, time) {
@@ -304,23 +290,20 @@ function full(times, offset) {
         if (!(times[time].includes("00") || times[time].includes("30"))) {
             for (let show in shows) {
                 if (show in data) {
-                    if (data[show].time.includes("00") || data[show].time.includes("30")) {
+                    if (data[show].time.includes("00") || data[show].time.includes("30"))
                         delete shows[show];
-                    }
                     else if (times[time] == data[show].time) {
                         output.push(times[time]);
                         delete shows[show];
                         break;
                     }
                 }
-                else {
+                else
                     delete shows[show];
-                }
             }
         }
-        else {
+        else
             output.push(times[time]);
-        }
     }
     return output;
 }
@@ -342,13 +325,11 @@ function cutoff(times, offset) {
                 if (show in data) {
                     max = minMax(max, data[show].time)[1];
                     min = minMax(min, data[show].time)[0];
-                    if (data[show].time.includes("00") || data[show].time.includes("30")) {
+                    if (data[show].time.includes("00") || data[show].time.includes("30"))
                         delete shows[show];
-                    }
                 }
-                else {
+                else
                     delete shows[show];
-                }
             }
     }
     let output = [];
@@ -363,9 +344,8 @@ function cutoff(times, offset) {
             break;
         }
         else if (bool) {
-            if (times[time].includes("00") || times[time].includes("30")) {
+            if (times[time].includes("00") || times[time].includes("30"))
                 output.push(times[time]);
-            }
             else {
                 for (let show in shows) {
                     if (times[time] == data[show].time) {
@@ -390,13 +370,11 @@ function compact(times, offset) {
                 delete shows[show];
                 break;
             }
-            else if (!(show in data)) {
+            else if (!(show in data))
                 delete shows[show];
-            }
         }
-        if (shows.length == 0) {
+        if (shows.length == 0)
             break;
-        }
     }
     return output;
 }
@@ -408,9 +386,8 @@ function resizeCalendar() {
 function streamInfo(show) {
     const data = show in STORE ? STORE : PAST;
     let s = document.getElementById('show');
-    if (s) {
+    if (s)
         s.remove();
-    }
     let td = document.createElement('td');
     td.id = 'title';
     td.innerHTML = show;
@@ -524,9 +501,8 @@ function streamInfo(show) {
         streams.id = 'streams';
         streams.append(table);
         output = document.createElement('div');
-        if (info == "2") {
+        if (info == "2")
             output.className = 'window';
-        }
         output.align = 'center';
         output.append(set);
         output.append(reset);
@@ -538,9 +514,8 @@ function streamInfo(show) {
     resizeCalendar();
     document.getElementById('clear').style.visibility = 'visible';
     let list = document.getElementById('list-js');
-    if (list) {
+    if (list)
         list.remove();
-    }
     list = document.createElement('script');
     list.id = 'list-js';
     list.src = 'js/list.min.js';
@@ -557,17 +532,12 @@ function updateTime() {
     now = [now.getWeek(), now.getFullYear()];
     if (time != null) {
         let shows = JSON.parse(localStorage.getItem("shows"));
-        if ((now[0] - time[0] == 1 && now[1] == time[1]) ||
-            (now[1] - time[1] == 1 && now[0] == 52)) {
-            for (let show in shows) {
+        if ((now[0] - time[0] == 1 && now[1] == time[1]) || (now[1] - time[1] == 1 && now[0] == 52))
+            for (let show in shows)
                 [shows[show][0], shows[show][1]] = [false, shows[show][0]];
-            }
-        }
-        else if (now[0] != time[0] || now[1] != time[1]) {
-            for (let show in shows) {
+        else if (now[0] != time[0] || now[1] != time[1])
+            for (let show in shows)
                 [shows[show][0], shows[show][1]] = [false, false];
-            }
-        }
         localStorage.setItem('shows', JSON.stringify(shows));
     }
     localStorage.setItem('time', JSON.stringify(now));

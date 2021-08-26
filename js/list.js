@@ -28,9 +28,7 @@ document.addEventListener('keydown', e => {
                 if (check) {
                     let box = document.querySelector('.stream-box');
                     box.style.backgroundColor = 'darkred';
-                    setTimeout(() => {
-                        box.style.backgroundColor = 'black';
-                    }, 50);
+                    setTimeout(() => box.style.backgroundColor = 'black', 50);
                 }
                 break;
             case "1":
@@ -47,30 +45,16 @@ document.addEventListener('keydown', e => {
         e.stopImmediatePropagation();
     }
 });
-document.querySelectorAll('.arrow').forEach(ele => {
-    ele.addEventListener('click', () => {
-        arrow();
-    });
-});
-document.querySelector('.setter').onclick = () => {
-    setter();
-};
-document.querySelectorAll('.stream').forEach(but => {
-    but.onclick = () => {
-        stream();
-    };
-});
-document.getElementById('reset').onclick = () => {
-    reset();
-};
+document.querySelectorAll('.arrow').forEach(ele => ele.addEventListener('click', () => arrow()));
+document.querySelector('.setter').onclick = () => setter();
+document.querySelectorAll('.stream').forEach(but => but.onclick = () => stream());
+document.getElementById('reset').onclick = () => reset();
 function link(id) {
     let ele = document.getElementById(id);
-    if (ele) {
+    if (ele)
         stream();
-        if (!ele.href.includes(window.location.host)) {
-            window.open(ele.href);
-        }
-    }
+    if (!ele.href.includes(window.location.host))
+        window.open(ele.href);
 }
 function stream() {
     let title = document.getElementById('title').innerHTML;
@@ -99,9 +83,8 @@ function arrow() {
     if (title) {
         title = title.innerHTML;
         let shows = JSON.parse(localStorage.getItem("shows"));
-        if (document.getElementById('season')) {
+        if (document.getElementById('season'))
             document.getElementById('show').remove();
-        }
         else if (title in shows) {
             document.getElementById('reset').style.visibility =
                 (LEFT.style.visibility == 'visible' ?
@@ -116,9 +99,8 @@ function setter() {
     let shows = JSON.parse(localStorage.getItem("shows"));
     if (setter.id == 'add') {
         let ele = document.getElementById(ider_show(title));
-        if (ele) {
+        if (ele)
             ele.style.borderColor = "#4f004f";
-        }
         setter.innerHTML = "Remove from Your List";
         setter.id = "sub";
         shows[title] = [false, false];
@@ -132,7 +114,6 @@ function setter() {
     }
     localStorage.setItem('shows', JSON.stringify(shows));
     let list = document.getElementById('list');
-    if (list.innerHTML == "Full List") {
+    if (list.innerHTML == "Full List")
         LEFT.style.visibility == 'visible' ? TheBigBang() : TheBigBang(-7);
-    }
 }

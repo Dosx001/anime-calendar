@@ -23,9 +23,7 @@ search.onkeyup = e => {
             (<HTMLElement>e.target!).blur()
             break
         default:
-            if (e.key.length == 1) {
-                results(e)
-            }
+            if (e.key.length == 1) results(e);
     }
 }
 
@@ -42,20 +40,14 @@ search.onkeydown = e => {
     }
 }
 
-search.onclick = e => {
-    results(e)
-}
+search.onclick = e => results(e);
 
 search.addEventListener('focusout', e => {
     titles.style.display = "none"
-    if (e.relatedTarget) {
-        if ((<HTMLElement>e.relatedTarget).className == "active") {
-            titles.style.display = ""
-        }
-        else if ((<HTMLElement>e.relatedTarget).parentElement!.id == "titles") {
-            (<HTMLElement>e.relatedTarget).click()
-        }
-    }
+    if (e.relatedTarget)
+        if ((<HTMLElement>e.relatedTarget).className == "active") titles.style.display = "";
+        else if ((<HTMLElement>e.relatedTarget).parentElement!.id == "titles")
+            (<HTMLElement>e.relatedTarget).click();
 })
 
 function results(e: Event) {
@@ -80,24 +72,16 @@ function results(e: Event) {
                 li.addEventListener('mousemove', e => {
                     indexLi = parseInt((<HTMLElement>e.target).id)
                     let active = document.querySelector('.active')
-                    if (active) {
-                        active.className = ""
-                    }
+                    if (active) active.className = "";
                     document.getElementById(indexLi.toString())!.className = 'active'
                 })
-                li.addEventListener('contextmenu', () => {
-                    titles.style.display = 'none'
-                })
+                li.addEventListener('contextmenu', () => titles.style.display = 'none');
                 titles.append(li)
             }
         }
-        if (i == 100) {
-            titles.style.display = "none"
-        }
+        if (i == 100) titles.style.display = "none"
     }
-    else {
-        titles.style.display = "none"
-    }
+    else titles.style.display = "none";
 }
 
 function move(num: number) {
@@ -106,14 +90,8 @@ function move(num: number) {
         li.className = 'active'
         li.focus()
         search.focus()
-        if (li.nextElementSibling) {
-            li.nextElementSibling.className = ""
-        }
-        if (li.previousElementSibling) {
-            li.previousElementSibling.className = ""
-        }
-        if (document.getElementById((indexLi + num).toString())) {
-            indexLi += num
-        }
+        if (li.nextElementSibling) li.nextElementSibling.className = "";
+        if (li.previousElementSibling) li.previousElementSibling.className = "";
+        if (document.getElementById((indexLi + num).toString())) indexLi += num;
     }
 }

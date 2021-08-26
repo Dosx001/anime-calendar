@@ -23,9 +23,8 @@ search.onkeyup = e => {
             e.target.blur();
             break;
         default:
-            if (e.key.length == 1) {
+            if (e.key.length == 1)
                 results(e);
-            }
     }
 };
 search.onkeydown = e => {
@@ -40,19 +39,14 @@ search.onkeydown = e => {
             break;
     }
 };
-search.onclick = e => {
-    results(e);
-};
+search.onclick = e => results(e);
 search.addEventListener('focusout', e => {
     titles.style.display = "none";
-    if (e.relatedTarget) {
-        if (e.relatedTarget.className == "active") {
+    if (e.relatedTarget)
+        if (e.relatedTarget.className == "active")
             titles.style.display = "";
-        }
-        else if (e.relatedTarget.parentElement.id == "titles") {
+        else if (e.relatedTarget.parentElement.id == "titles")
             e.relatedTarget.click();
-        }
-    }
 });
 function results(e) {
     let input = e.target.value;
@@ -76,24 +70,19 @@ function results(e) {
                 li.addEventListener('mousemove', e => {
                     indexLi = parseInt(e.target.id);
                     let active = document.querySelector('.active');
-                    if (active) {
+                    if (active)
                         active.className = "";
-                    }
                     document.getElementById(indexLi.toString()).className = 'active';
                 });
-                li.addEventListener('contextmenu', () => {
-                    titles.style.display = 'none';
-                });
+                li.addEventListener('contextmenu', () => titles.style.display = 'none');
                 titles.append(li);
             }
         }
-        if (i == 100) {
+        if (i == 100)
             titles.style.display = "none";
-        }
     }
-    else {
+    else
         titles.style.display = "none";
-    }
 }
 function move(num) {
     let li = document.getElementById((indexLi + num).toString());
@@ -101,14 +90,11 @@ function move(num) {
         li.className = 'active';
         li.focus();
         search.focus();
-        if (li.nextElementSibling) {
+        if (li.nextElementSibling)
             li.nextElementSibling.className = "";
-        }
-        if (li.previousElementSibling) {
+        if (li.previousElementSibling)
             li.previousElementSibling.className = "";
-        }
-        if (document.getElementById((indexLi + num).toString())) {
+        if (document.getElementById((indexLi + num).toString()))
             indexLi += num;
-        }
     }
 }

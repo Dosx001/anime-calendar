@@ -2,10 +2,10 @@
 let drag;
 let dragover;
 let streams = JSON.parse(localStorage.getItem('streams'));
-if (streams == null) {
-    streams = [['AnimeLab', false], ['Crunchyroll', false], ['Funimation', false],
-        ['HiDive', false], ['Hulu', false], ['VRV', false], ['Wakanim', false], ['YouTube', false]];
-}
+if (streams == null)
+    streams =
+        [['AnimeLab', false], ['Crunchyroll', false], ['Funimation', false],
+            ['HiDive', false], ['Hulu', false], ['VRV', false], ['Wakanim', false], ['YouTube', false]];
 renderItems(streams);
 function renderItems(data) {
     let list = document.querySelector('.stream-box');
@@ -50,9 +50,7 @@ function renderItems(data) {
     localStorage.setItem('streams', JSON.stringify(streams));
 }
 function index(title) {
-    for (let i = 0; i < streams.length; i++) {
-        if (title == streams[i][0]) {
+    for (let i = 0; i < streams.length; i++)
+        if (title == streams[i][0])
             return i;
-        }
-    }
 }

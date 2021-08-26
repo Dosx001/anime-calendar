@@ -2,10 +2,9 @@ type Stream = [string, boolean]
 let drag: string
 let dragover: string
 let streams: Stream[] = JSON.parse(localStorage.getItem('streams')!)
-if (streams == null) {
-    streams = [['AnimeLab', false], ['Crunchyroll', false], ['Funimation', false],
-        ['HiDive', false], ['Hulu', false], ['VRV', false], ['Wakanim', false], ['YouTube', false]]
-}
+if (streams == null) streams =
+    [['AnimeLab', false], ['Crunchyroll', false], ['Funimation', false],
+    ['HiDive', false], ['Hulu', false], ['VRV', false], ['Wakanim', false], ['YouTube', false]];
 renderItems(streams)
 
 function renderItems(data: Stream[]) {
@@ -52,9 +51,5 @@ function renderItems(data: Stream[]) {
 }
 
 function index(title: string) {
-    for (let i = 0; i < streams.length; i++) {
-        if (title == streams[i][0]) {
-            return i
-        }
-    }
+    for (let i = 0; i < streams.length; i++) if (title == streams[i][0]) return i;
 }
