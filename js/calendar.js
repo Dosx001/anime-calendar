@@ -408,6 +408,7 @@ function streamInfo(show) {
         let a = document.createElement('a');
         a.id = "0";
         a.className = 'stream';
+        a.onclick = () => Stream();
         a.href = "#";
         a.append(img);
         a.innerHTML += " High Seas";
@@ -456,6 +457,7 @@ function streamInfo(show) {
             a.href = link;
             a.target = '_blank';
             a.className = 'stream';
+            a.onclick = () => Stream();
             a.append(img);
             a.innerHTML += ' ' + stream;
             td = document.createElement('td');
@@ -470,10 +472,12 @@ function streamInfo(show) {
     let shows = JSON.parse(localStorage.getItem('shows'));
     let set = document.createElement('button');
     set.className = 'setter';
+    set.onclick = () => setter();
     show in shows ?
         (set.id = "sub", set.innerHTML = 'Remove from Your List') :
         (set.id = "add", set.innerHTML = 'Add to Your List');
     let reset = document.createElement('button');
+    reset.onclick = () => Reset();
     reset.id = 'reset';
     reset.innerHTML = 'Reset';
     (show in shows && (LEFT.style.visibility == 'visible' ?
@@ -513,13 +517,6 @@ function streamInfo(show) {
     document.getElementById('content').append(output);
     resizeCalendar();
     document.getElementById('clear').style.visibility = 'visible';
-    let list = document.getElementById('list-js');
-    if (list)
-        list.remove();
-    list = document.createElement('script');
-    list.id = 'list-js';
-    list.src = 'js/list.min.js';
-    document.head.append(list);
 }
 Date.prototype.getWeek = function () {
     const date = new Date(Date.UTC(this.getFullYear(), this.getMonth(), this.getDate()));

@@ -10,7 +10,7 @@ document.addEventListener('keydown', e => {
                 arrow();
                 break;
             case "r":
-                reset();
+                Reset();
                 break;
             case "w":
                 let urls = {};
@@ -21,7 +21,7 @@ document.addEventListener('keydown', e => {
                     if (streams[i][1] && streams[i][0] in urls) {
                         window.open(urls[streams[i][0]]);
                         check = false;
-                        stream();
+                        Stream();
                         break;
                     }
                 }
@@ -45,18 +45,14 @@ document.addEventListener('keydown', e => {
         e.stopImmediatePropagation();
     }
 });
-document.querySelectorAll('.arrow').forEach(ele => ele.addEventListener('click', () => arrow()));
-document.querySelector('.setter').onclick = () => setter();
-document.querySelectorAll('.stream').forEach(but => but.onclick = () => stream());
-document.getElementById('reset').onclick = () => reset();
 function link(id) {
     let ele = document.getElementById(id);
     if (ele)
-        stream();
+        Stream();
     if (!ele.href.includes(window.location.host))
         window.open(ele.href);
 }
-function stream() {
+function Stream() {
     let title = document.getElementById('title').innerHTML;
     let shows = JSON.parse(localStorage.getItem("shows"));
     if (title in shows) {
@@ -70,7 +66,7 @@ function updateSetter(shows, title, Bool) {
     LEFT.style.visibility == 'visible'
         ? shows[title][0] = Bool : shows[title][1] = Bool;
 }
-function reset() {
+function Reset() {
     let title = document.getElementById('title').innerHTML;
     let shows = JSON.parse(localStorage.getItem("shows"));
     updateSetter(shows, title, false);
