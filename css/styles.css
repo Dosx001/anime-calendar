@@ -1,10 +1,14 @@
-.arrow, .setter, .show, .stream, #clear, #list, #reset {
+button, .stream {
   background: black;
   border: 2px solid grey;
   border-radius: 20px;
   color: purple;
+  box-shadow: 5px 5px 15px black;
 }
-.arrow:hover, .setter:hover, .show:hover, .stream:hover, #clear:hover, #list:hover, #reset:hover {
+button:active, .stream:active {
+  transform: translateY(5px);
+}
+button:hover, .stream:hover {
   box-shadow: 0px 0px 25px red;
 }
 

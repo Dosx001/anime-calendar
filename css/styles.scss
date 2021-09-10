@@ -11,6 +11,9 @@ aside {
         line-height: 2rem;
     }
 }
+button, .stream {
+    @extend %buttons;
+}
 .active {
     background: $DarkPurple;
     cursor: pointer;
@@ -19,9 +22,6 @@ aside {
 .arrow {
     font-size: 2rem;
     padding: 0px 0px;
-}
-.arrow, .setter, .show, .stream, #clear, #list, #reset {
-    @extend %buttons;
 }
 .cover {
     display: inline-block;
