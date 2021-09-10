@@ -577,6 +577,10 @@ aside #title {
     padding-left: 0.5rem;
   }
 
+  .stream-label {
+    margin-left: 0.15rem;
+  }
+
   #center-left {
     width: 30%;
   }
