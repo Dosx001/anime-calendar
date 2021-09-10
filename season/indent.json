@@ -1,6 +1,6 @@
 {
     "86: Eighty Six Part 2": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/86-eighty-six-part-2-707c72391a.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/86-eighty-six-part-2-dd2af74273.jpg",
         "Studio": "A-1 Pictures",
         "Source": "Light Novel",
         "Genres": [
@@ -29,7 +29,7 @@
         ]
     },
     "Build Divide: Code Black": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/build-divide-code-black-de6b0e788f.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/build-divide-code-black-aa7cccb5c2.jpg",
         "Studio": "LIDENFILMS",
         "Source": "Other",
         "Genres": [
@@ -37,13 +37,14 @@
             "Game"
         ]
     },
-    "Chickip Dancers": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/chickip-dancers-07726d93ce.jpg",
-        "Studio": "Fanworks",
-        "Source": "Other",
+    "Cardfight!! Vanguard: overDress 2": {
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/cardfight-vanguard-overdress-2-47287f9b24.jpg",
+        "Studio": "Kinema Citrus",
+        "Source": "Original",
         "Genres": [
-            "Comedy",
-            "Slice of Life"
+            "Adventure",
+            "Action",
+            "Comedy"
         ]
     },
     "Date A Live IV": {
@@ -62,6 +63,25 @@
         "Source": "Original",
         "Genres": [
             "Sci-Fi"
+        ]
+    },
+    "Digimon Ghost Game": {
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/digimon-ghost-game-772a00682b.jpg",
+        "Studio": "Toei Animation",
+        "Source": "Original",
+        "Genres": [
+            "Fantasy",
+            "Comedy",
+            "Adventure"
+        ]
+    },
+    "Gensou Sangokushi: Tengen Reishinki": {
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/gensou-sangokushi-tengen-reishinki-0b1bec516f.jpg",
+        "Studio": "Geek Toys",
+        "Source": "Video Game",
+        "Genres": [
+            "Fantasy",
+            "Historical"
         ]
     },
     "Gyakuten Sekai no Denchi Shoujo": {
@@ -84,6 +104,15 @@
             "Supernatural"
         ]
     },
+    "Heike Monogatari": {
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/heike-monogatari-3b8fbcb6af.jpg",
+        "Studio": "Science SARU",
+        "Source": "Book",
+        "Genres": [
+            "Supernatural",
+            "Historical"
+        ]
+    },
     "Isekai Shokudou 2": {
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/isekai-shokudou-2-935db5fa2e.jpg",
         "Studio": "OLM",
@@ -104,8 +133,24 @@
             "Shounen"
         ]
     },
+    "Kanashiki Debu Neko-chan": {
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kanashiki-debu-neko-chan-7edf0979c3.jpg",
+        "Studio": "Cyclone Graphics",
+        "Source": "Other",
+        "Genres": [
+            "Slice of Life"
+        ]
+    },
+    "Kimi to Fit Boxing": {
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kimi-to-fit-boxing-278d35bf6c.jpg",
+        "Studio": "Story Effect",
+        "Source": "Video Game",
+        "Genres": [
+            "Sports"
+        ]
+    },
     "Komi-san wa, Komyushou desu.": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/komi-san-wa-comyushou-desu-be5d04a144.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/komi-san-wa-comyushou-desu-76210e628c.jpg",
         "Studio": "OLM",
         "Source": "Manga",
         "Genres": [
@@ -134,7 +179,7 @@
         ]
     },
     "Lupin III: Part VI": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/lupin-iii-part-6-bd1146d84a.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/lupin-iii-part-6-a77ef1dafc.jpg",
         "Studio": "TMS Entertainment",
         "Source": "Manga",
         "Genres": [
@@ -172,6 +217,16 @@
             "Fantasy"
         ]
     },
+    "Muteking the Dancing Hero": {
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/muteking-the-dancing-hero-006978d904.jpg",
+        "Studio": "Tezuka Productions",
+        "Source": "Original",
+        "Genres": [
+            "Comedy",
+            "Sci-Fi",
+            "Action"
+        ]
+    },
     "Muv-Luv Alternative": {
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/muv-luv-alternative-72b2d15320.jpg",
         "Studio": "Graphinica",
@@ -183,7 +238,7 @@
         ]
     },
     "Ousama Ranking": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/ousama-ranking-801b750cd9.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/ousama-ranking-15c89c7860.jpg",
         "Studio": "Wit Studio",
         "Source": "Manga",
         "Genres": [
@@ -210,7 +265,7 @@
             "Sports"
         ]
     },
-    "Sacks&amp;Guns!!": {
+    "Sakugan!!": {
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/sacks-and-guns-4f04a08814.jpg",
         "Studio": "Satelight",
         "Source": "Novel",
@@ -220,7 +275,7 @@
             "Sci-Fi"
         ]
     },
-    "Saihate no Paladin": {
+    " Saihate no Paladin": {
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/saihate-no-paladin-a7f7b32391.jpg",
         "Studio": "Children's Playground Entertainment",
         "Source": "Light Novel",
@@ -230,14 +285,24 @@
             "Action"
         ]
     },
+    "Sankaku Mado no Sotogawa wa Yoru": {
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/sankaku-mado-no-sotogawa-wa-yoru-07d9a04d6a.jpg",
+        "Studio": "Zero-G",
+        "Source": "Manga",
+        "Genres": [
+            "Comedy",
+            "Drama",
+            "Mystery"
+        ]
+    },
     "Sekai Saikou no Ansatsusha, Isekai Kizoku ni Tensei suru": {
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/sekai-saikou-no-ansatsusha-isekai-kizoku-ni-tensei-suru-d5891dcc21.jpg",
         "Studio": "SILVER LINK.",
         "Source": "Light Novel",
         "Genres": [
-            "Action",
-            "Fantasy",
-            "Isekai"
+            "Romance",
+            "Drama",
+            "Mystery"
         ]
     },
     "Senpai ga Uzai Kouhai no Hanashi": {
@@ -271,12 +336,23 @@
         ]
     },
     "Shinka no Mi: Shiranai Uchi ni Kachigumi Jinsei": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/shinka-no-mi-shiranai-uchi-ni-kachigumi-jinsei-521e25396b.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/shinka-no-mi-shiranai-uchi-ni-kachigumi-jinsei-5d6762f1d0.jpg",
         "Studio": "Children's Playground Entertainment",
         "Source": "Light Novel",
         "Genres": [
-            "Isekai",
-            "Fantasy"
+            "Romance",
+            "Comedy",
+            "Adventure"
+        ]
+    },
+    "Shuumatsu no Harem": {
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/shuumatsu-no-harem-517dae3ddb.jpg",
+        "Studio": "AXsiZ",
+        "Source": "Manga",
+        "Genres": [
+            "Ecchi",
+            "Harem",
+            "Sci-Fi"
         ]
     },
     "Taishou Otome Otogibanashi": {
@@ -290,7 +366,7 @@
         ]
     },
     "takt op.Destiny": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/takt-op-833d211ee8.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/takt-op-af9dc04223.jpg",
         "Studio": "MADHOUSE",
         "Source": "Original",
         "Genres": [
@@ -338,7 +414,7 @@
         ]
     },
     "World Trigger 3": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/world-trigger-3-44056cd54e.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/world-trigger-3-e1a6553e09.jpg",
         "Studio": "Toei Animation",
         "Source": "Manga",
         "Genres": [

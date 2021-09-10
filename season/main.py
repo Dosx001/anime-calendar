@@ -8,7 +8,7 @@ def main():
     data = driver.find_element_by_class_name('shows-container').find_elements_by_class_name('show-tile')
     shows = {}
     for show in data:
-        title = show.find_element_by_class_name('show-title').get_attribute('innerHTML')[1:-1]
+        title = show.find_element_by_class_name('show-title').get_attribute('innerHTML')
         cover = show.find_element_by_class_name('show-poster').get_attribute('src')
         while "placeholder" in cover:
             cover = show.find_element_by_class_name('show-poster').get_attribute('src')
