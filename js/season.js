@@ -2,6 +2,7 @@
 function season() {
     let div = document.createElement('div');
     div.id = 'season';
+    div.tabIndex = 1;
     document.body.append(div);
     fetch('season/shows.json')
         .then(resp => {

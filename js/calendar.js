@@ -207,6 +207,7 @@ function calendar(dates, times) {
     table.append(tbody);
     let calendar = document.createElement('div');
     calendar.id = 'calendar';
+    calendar.tabIndex = 1;
     calendar.append(table);
     document.body.append(calendar);
 }
