@@ -29,8 +29,18 @@ function season() {
                         img.src = data[show][item];
                         img.width = 340;
                         img.height = 440;
-                        count < 5 ? count++ : img.loading = 'lazy';
+                        count < 2 ? count++ : img.loading = 'lazy';
                         cover.append(img);
+                        let observer = new IntersectionObserver((entries, observer) => {
+                            entries.forEach(entry => {
+                                if (!entry.isIntersecting)
+                                    return;
+                                let img = entry.target;
+                                img.src = img.src.substring(0, img.src.length - 8);
+                                observer.unobserve(img);
+                            });
+                        }, { root: div, rootMargin: '500px 0px' });
+                        observer.observe(img);
                         content.append(cover);
                         break;
                     case "Genres":
