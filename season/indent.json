@@ -10,7 +10,7 @@
         ]
     },
     "Blade Runner: Black Lotus": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/blade-runner-black-lotus-c35aacadd1.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/blade-runner-black-lotus-a90726dc8e.jpg",
         "Studio": "Sola Digital Arts",
         "Source": "Other",
         "Genres": [
@@ -29,7 +29,7 @@
         ]
     },
     "Build Divide: Code Black": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/build-divide-code-black-aa7cccb5c2.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/build-divide-code-black-aa7cccb5c2.jpg?w=5&h=5",
         "Studio": "LIDENFILMS",
         "Source": "Other",
         "Genres": [
@@ -38,7 +38,7 @@
         ]
     },
     "Cardfight!! Vanguard: overDress 2": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/cardfight-vanguard-overdress-2-47287f9b24.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/cardfight-vanguard-overdress-2-47287f9b24.jpg?w=5&h=5",
         "Studio": "Kinema Citrus",
         "Source": "Original",
         "Genres": [
@@ -47,18 +47,8 @@
             "Comedy"
         ]
     },
-    "Date A Live IV": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/date-a-live-iv-fcd11732a9.jpg",
-        "Studio": "Geek Toys",
-        "Source": "Light Novel",
-        "Genres": [
-            "Comedy",
-            "Harem",
-            "Mecha"
-        ]
-    },
     "Deep Insanity: The Lost Child": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/deep-insanity-the-lost-child-b09dab0455.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/deep-insanity-the-lost-child-b09dab0455.jpg?w=5&h=5",
         "Studio": "SILVER LINK.",
         "Source": "Original",
         "Genres": [
@@ -66,7 +56,7 @@
         ]
     },
     "Digimon Ghost Game": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/digimon-ghost-game-772a00682b.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/digimon-ghost-game-45954f5ba5.jpg?w=5&h=5",
         "Studio": "Toei Animation",
         "Source": "Original",
         "Genres": [
@@ -75,17 +65,8 @@
             "Adventure"
         ]
     },
-    "Gensou Sangokushi: Tengen Reishinki": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/gensou-sangokushi-tengen-reishinki-0b1bec516f.jpg",
-        "Studio": "Geek Toys",
-        "Source": "Video Game",
-        "Genres": [
-            "Fantasy",
-            "Historical"
-        ]
-    },
     "Gyakuten Sekai no Denchi Shoujo": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/gyakuten-sekai-no-denchi-shoujo-a52e0df485.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/gyakuten-sekai-no-denchi-shoujo-a52e0df485.jpg?w=5&h=5",
         "Studio": "Lerche",
         "Source": "Original",
         "Genres": [
@@ -95,7 +76,7 @@
         ]
     },
     "Hanyou no Yashahime: Sengoku Otogizoushi - Ni no Shou": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/hanyou-no-yashahime-sengoku-otogizoushi-ni-no-shou-1c4abbac3a.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/hanyou-no-yashahime-sengoku-otogizoushi-ni-no-shou-1c4abbac3a.jpg?w=5&h=5",
         "Studio": "Sunrise",
         "Source": "Original",
         "Genres": [
@@ -105,7 +86,7 @@
         ]
     },
     "Heike Monogatari": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/heike-monogatari-3b8fbcb6af.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/heike-monogatari-3b8fbcb6af.jpg?w=5&h=5",
         "Studio": "Science SARU",
         "Source": "Book",
         "Genres": [
@@ -114,7 +95,7 @@
         ]
     },
     "Isekai Shokudou 2": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/isekai-shokudou-2-935db5fa2e.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/isekai-shokudou-2-935db5fa2e.jpg?w=5&h=5",
         "Studio": "OLM",
         "Source": "Light Novel",
         "Genres": [
@@ -124,7 +105,7 @@
         ]
     },
     "JoJo no Kimyou na Bouken: Stone Ocean": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/jojo-no-kimyou-na-bouken-stone-ocean-89a1233905.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/jojo-no-kimyou-na-bouken-stone-ocean-89a1233905.jpg?w=5&h=5",
         "Studio": "David Production",
         "Source": "Manga",
         "Genres": [
@@ -134,7 +115,7 @@
         ]
     },
     "Kanashiki Debu Neko-chan": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kanashiki-debu-neko-chan-7edf0979c3.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kanashiki-debu-neko-chan-7edf0979c3.jpg?w=5&h=5",
         "Studio": "Cyclone Graphics",
         "Source": "Other",
         "Genres": [
@@ -142,7 +123,7 @@
         ]
     },
     "Kimi to Fit Boxing": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kimi-to-fit-boxing-278d35bf6c.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kimi-to-fit-boxing-278d35bf6c.jpg?w=5&h=5",
         "Studio": "Story Effect",
         "Source": "Video Game",
         "Genres": [
@@ -150,7 +131,7 @@
         ]
     },
     "Komi-san wa, Komyushou desu.": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/komi-san-wa-comyushou-desu-76210e628c.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/komi-san-wa-comyushou-desu-76210e628c.jpg?w=5&h=5",
         "Studio": "OLM",
         "Source": "Manga",
         "Genres": [
@@ -160,7 +141,7 @@
         ]
     },
     "Kyoukai Senki": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kyoukai-senki-d18fd21a4d.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kyoukai-senki-d18fd21a4d.jpg?w=5&h=5",
         "Studio": "Sunrise Beyond",
         "Source": "Original",
         "Genres": [
@@ -169,7 +150,7 @@
         ]
     },
     "Kyuuketsuki Sugu Shinu": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kyuuketsuki-sugu-shinu-485b9f04d7.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kyuuketsuki-sugu-shinu-485b9f04d7.jpg?w=5&h=5",
         "Studio": "MADHOUSE",
         "Source": "Manga",
         "Genres": [
@@ -179,7 +160,7 @@
         ]
     },
     "Lupin III: Part VI": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/lupin-iii-part-6-a77ef1dafc.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/lupin-iii-part-6-a77ef1dafc.jpg?w=5&h=5",
         "Studio": "TMS Entertainment",
         "Source": "Manga",
         "Genres": [
@@ -189,7 +170,7 @@
         ]
     },
     "Megaton-kyuu Musashi": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/megaton-kyuu-musashi-2cc7812012.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/megaton-kyuu-musashi-2cc7812012.jpg?w=5&h=5",
         "Studio": "OLM",
         "Source": "Original",
         "Genres": [
@@ -198,7 +179,7 @@
         ]
     },
     "Mieruko-chan": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/mieruko-chan-3712b2a788.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/mieruko-chan-3712b2a788.jpg?w=5&h=5",
         "Studio": "Passione",
         "Source": "Manga",
         "Genres": [
@@ -208,7 +189,7 @@
         ]
     },
     "Mushoku Tensei: Isekai Ittara Honki Dasu Part 2": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/mushoku-tensei-isekai-ittara-honki-dasu-part-2-a6737309ea.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/mushoku-tensei-isekai-ittara-honki-dasu-part-2-a6737309ea.jpg?w=5&h=5",
         "Studio": "Studio Bind",
         "Source": "Light Novel",
         "Genres": [
@@ -218,7 +199,7 @@
         ]
     },
     "Muteking the Dancing Hero": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/muteking-the-dancing-hero-006978d904.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/muteking-the-dancing-hero-006978d904.jpg?w=5&h=5",
         "Studio": "Tezuka Productions",
         "Source": "Original",
         "Genres": [
@@ -228,7 +209,7 @@
         ]
     },
     "Muv-Luv Alternative": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/muv-luv-alternative-72b2d15320.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/muv-luv-alternative-72b2d15320.jpg?w=5&h=5",
         "Studio": "Graphinica",
         "Source": "Visual Novel",
         "Genres": [
@@ -238,7 +219,7 @@
         ]
     },
     "Ousama Ranking": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/ousama-ranking-15c89c7860.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/ousama-ranking-bd42a63e4d.jpg?w=5&h=5",
         "Studio": "Wit Studio",
         "Source": "Manga",
         "Genres": [
@@ -248,7 +229,7 @@
         ]
     },
     "Platinum End": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/platinum-end-b00cb31124.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/platinum-end-b00cb31124.jpg?w=5&h=5",
         "Studio": "Signal.MD",
         "Source": "Manga",
         "Genres": [
@@ -258,7 +239,7 @@
         ]
     },
     "Puraore! Pride of Orange": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/puraore-pride-of-orange-c579f8aa9c.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/puraore-pride-of-orange-c579f8aa9c.jpg?w=5&h=5",
         "Studio": "C2C",
         "Source": "Other",
         "Genres": [
@@ -266,7 +247,7 @@
         ]
     },
     "Sakugan!!": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/sacks-and-guns-4f04a08814.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/sacks-and-guns-4f04a08814.jpg?w=5&h=5",
         "Studio": "Satelight",
         "Source": "Novel",
         "Genres": [
@@ -276,7 +257,7 @@
         ]
     },
     " Saihate no Paladin": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/saihate-no-paladin-a7f7b32391.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/saihate-no-paladin-a7f7b32391.jpg?w=5&h=5",
         "Studio": "Children's Playground Entertainment",
         "Source": "Light Novel",
         "Genres": [
@@ -286,7 +267,7 @@
         ]
     },
     "Sankaku Mado no Sotogawa wa Yoru": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/sankaku-mado-no-sotogawa-wa-yoru-07d9a04d6a.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/sankaku-mado-no-sotogawa-wa-yoru-07d9a04d6a.jpg?w=5&h=5",
         "Studio": "Zero-G",
         "Source": "Manga",
         "Genres": [
@@ -296,7 +277,7 @@
         ]
     },
     "Sekai Saikou no Ansatsusha, Isekai Kizoku ni Tensei suru": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/sekai-saikou-no-ansatsusha-isekai-kizoku-ni-tensei-suru-d5891dcc21.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/sekai-saikou-no-ansatsusha-isekai-kizoku-ni-tensei-suru-966145143c.jpg?w=5&h=5",
         "Studio": "SILVER LINK.",
         "Source": "Light Novel",
         "Genres": [
@@ -306,7 +287,7 @@
         ]
     },
     "Senpai ga Uzai Kouhai no Hanashi": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/senpai-ga-uzai-kouhai-no-hanashi-b8395c76e6.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/senpai-ga-uzai-kouhai-no-hanashi-b8395c76e6.jpg?w=5&h=5",
         "Studio": "Doga Kobo",
         "Source": "Manga",
         "Genres": [
@@ -316,7 +297,7 @@
         ]
     },
     "Shikizakura": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/shikizakura-90973d772b.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/shikizakura-90973d772b.jpg?w=5&h=5",
         "Studio": "Sublimation",
         "Source": "Original",
         "Genres": [
@@ -326,7 +307,7 @@
         ]
     },
     "Shin no Nakama janai to Yuusha no Party wo Oidasareta node, Henkyou de Slow Life suru Koto ni shimashita": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/shin-no-nakama-janai-to-yuusha-no-party-wo-oidasareta-node-henkyou-de-slow-life-suru-koto-ni-shimashita-d63208167d.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/shin-no-nakama-janai-to-yuusha-no-party-wo-oidasareta-node-henkyou-de-slow-life-suru-koto-ni-shimashita-d63208167d.jpg?w=5&h=5",
         "Studio": "Studio Flad",
         "Source": "Light Novel",
         "Genres": [
@@ -336,7 +317,7 @@
         ]
     },
     "Shinka no Mi: Shiranai Uchi ni Kachigumi Jinsei": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/shinka-no-mi-shiranai-uchi-ni-kachigumi-jinsei-5d6762f1d0.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/shinka-no-mi-shiranai-uchi-ni-kachigumi-jinsei-5d6762f1d0.jpg?w=5&h=5",
         "Studio": "Children's Playground Entertainment",
         "Source": "Light Novel",
         "Genres": [
@@ -346,7 +327,7 @@
         ]
     },
     "Shuumatsu no Harem": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/shuumatsu-no-harem-517dae3ddb.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/shuumatsu-no-harem-517dae3ddb.jpg?w=5&h=5",
         "Studio": "AXsiZ",
         "Source": "Manga",
         "Genres": [
@@ -356,7 +337,7 @@
         ]
     },
     "Taishou Otome Otogibanashi": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/taishou-otome-otogibanashi-e9b0aebb99.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/taishou-otome-otogibanashi-e9b0aebb99.jpg?w=5&h=5",
         "Studio": "SynergySP",
         "Source": "Manga",
         "Genres": [
@@ -366,7 +347,7 @@
         ]
     },
     "takt op.Destiny": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/takt-op-af9dc04223.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/takt-op-af9dc04223.jpg?w=5&h=5",
         "Studio": "MADHOUSE",
         "Source": "Original",
         "Genres": [
@@ -376,7 +357,7 @@
         ]
     },
     "Tesla Note": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/tesla-note-0669d6a1c0.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/tesla-note-0669d6a1c0.jpg?w=5&h=5",
         "Studio": "Gambit",
         "Source": "Manga",
         "Genres": [
@@ -386,7 +367,7 @@
         ]
     },
     "Tsuki to Laika to Nosferatu": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/tsuki-to-laika-to-nosferatu-406d7e0c1c.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/tsuki-to-laika-to-nosferatu-406d7e0c1c.jpg?w=5&h=5",
         "Studio": "Arvo Animation",
         "Source": "Light Novel",
         "Genres": [
@@ -396,7 +377,7 @@
         ]
     },
     "Visual Prison": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/visual-prison-345444a399.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/visual-prison-345444a399.jpg?w=5&h=5",
         "Studio": "A-1 Pictures",
         "Source": "Original",
         "Genres": [
@@ -406,7 +387,7 @@
         ]
     },
     "Waccha PriMagi!": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/waccha-primagi-12fc891b4d.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/waccha-primagi-12fc891b4d.jpg?w=5&h=5",
         "Studio": "Dongwoo A&amp;E",
         "Source": "Original",
         "Genres": [
@@ -414,7 +395,7 @@
         ]
     },
     "World Trigger 3": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/world-trigger-3-e1a6553e09.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/world-trigger-3-e1a6553e09.jpg?w=5&h=5",
         "Studio": "Toei Animation",
         "Source": "Manga",
         "Genres": [
@@ -424,7 +405,7 @@
         ]
     },
     "Yuuki Yuuna wa Yuusha de Aru: Dai Mankai no Shou": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/yuuki-yuuna-is-a-hero-dai-mankai-no-shou-c0b4955fb6.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/yuuki-yuuna-is-a-hero-dai-mankai-no-shou-c0b4955fb6.jpg?w=5&h=5",
         "Studio": "Studio Gokumi",
         "Source": "Original",
         "Genres": [

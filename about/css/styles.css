@@ -13,6 +13,10 @@ body {
   color: darkgrey;
 }
 
+img {
+  background: black;
+}
+
 nav {
   margin: auto;
   width: 40%;

@@ -33,17 +33,19 @@ function season() {
                             img.src = data[show][item]
                             img.width = 340
                             img.height = 440
-                            count < 2 ? count++ : img.loading = 'lazy'
+                            if (2 < count) {
+                                let observer = new IntersectionObserver((entries, observer) => {
+                                    entries.forEach(entry => {
+                                        if (!entry.isIntersecting) return;
+                                        let img = <HTMLImageElement>entry.target;
+                                        img.src = img.src.substring(0, img.src.length - 8);
+                                        observer.unobserve(img);
+                                    })
+                                }, {root: div, rootMargin: '500px 0px'});
+                                observer.observe(img);
+                                img.loading = 'lazy'
+                            } else count++
                             cover.append(img)
-                            let observer = new IntersectionObserver((entries, observer) => {
-                                entries.forEach(entry => {
-                                    if (!entry.isIntersecting) return;
-                                    let img = <HTMLImageElement>entry.target;
-                                    img.src = img.src.substring(0, img.src.length - 8);
-                                    observer.unobserve(img);
-                                })
-                            }, {root: div, rootMargin: '500px 0px'});
-                            observer.observe(img);
                             content.append(cover)
                             break
                         case "Genres":

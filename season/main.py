@@ -7,7 +7,7 @@ def main():
     driver.get('https://animeschedule.net/seasons/fall-2021')
     data = driver.find_element_by_class_name('shows-container').find_elements_by_class_name('show-tile')
     shows = {}
-    for show in data:
+    for i, show in enumerate(data):
         title = show.find_element_by_class_name('show-title').get_attribute('innerHTML')
         cover = show.find_element_by_class_name('show-poster').get_attribute('src')
         while "placeholder" in cover:
@@ -16,7 +16,7 @@ def main():
         source = show.find_element_by_class_name('poster-information-source').get_attribute('innerHTML')
         genres = [ele.get_attribute('innerHTML') for ele in show.find_elements_by_class_name('genre')]
         content = {
-            'cover': cover[:-12:],
+            'cover': cover[:-12:] + ("" if i < 3 else "?w=5&h=5"),
             'Studio': studio,
             'Source': source,
             'Genres': genres
