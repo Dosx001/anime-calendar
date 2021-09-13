@@ -95,6 +95,7 @@ button, .stream {
     height: auto;
     margin-bottom: 2px;
     font-size: 1rem;
+    border-radius: 10px;
 }
 .show-season {
     border-bottom: 5px solid black;
@@ -107,7 +108,7 @@ button, .stream {
 }
 .stream-box {
     background: black;
-    border: 2px solid gray;
+    border: 2px solid $DarkGray;
     border-radius: 10px;
     width: 98%;
     position: relative;
@@ -116,7 +117,7 @@ button, .stream {
 .stream-drag {
     background: black;
     color: purple;
-    border: 2px solid gray;
+    border: 2px solid $DarkGray;
     border-radius: 10px;
     margin: 10px 5px;
     width: auto;

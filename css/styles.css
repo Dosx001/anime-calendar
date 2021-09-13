@@ -1,6 +1,6 @@
 button, .stream {
   background: black;
-  border: 2px solid grey;
+  border: 2px solid #484848;
   border-radius: 20px;
   color: purple;
   box-shadow: 5px 5px 15px black;
@@ -46,7 +46,7 @@ nav svg {
   stroke: gray;
   stroke-width: 2px;
   stroke-linecap: round;
-  border: 1px solid gray;
+  border: 1px solid #484848;
   border-radius: 5px;
   height: 2.25rem;
   width: 3rem;
@@ -105,7 +105,7 @@ h1, h2, h3 {
   padding-left: 0.5rem;
 }
 #nav-right label {
-  border: 1px solid gray;
+  border: 1px solid #484848;
   border-radius: 6px 0 0 6px;
   padding: 6px 8px;
   height: 100%;
@@ -131,7 +131,7 @@ h1, h2, h3 {
   left: 0;
   width: 100%;
   padding-right: 2rem;
-  border: 1px solid gray;
+  border: 1px solid #484848;
   background: black;
 }
 
@@ -220,7 +220,7 @@ aside #title {
   display: flex;
 }
 .dropbox label, .dropbox select {
-  border: 1px solid gray;
+  border: 1px solid #484848;
   padding: 0.25rem;
   background: black;
 }
@@ -248,7 +248,7 @@ aside #title {
   font-size: 1.5rem;
 }
 .info td {
-  border-top: 1px solid gray;
+  border-top: 1px solid #484848;
 }
 
 .setter, #reset {
@@ -266,6 +266,7 @@ aside #title {
   height: auto;
   margin-bottom: 2px;
   font-size: 1rem;
+  border-radius: 10px;
 }
 
 .show-season {
@@ -282,7 +283,7 @@ aside #title {
 
 .stream-box {
   background: black;
-  border: 2px solid gray;
+  border: 2px solid #484848;
   border-radius: 10px;
   width: 98%;
   position: relative;
@@ -292,7 +293,7 @@ aside #title {
 .stream-drag {
   background: black;
   color: purple;
-  border: 2px solid gray;
+  border: 2px solid #484848;
   border-radius: 10px;
   margin: 10px 5px;
   width: auto;
@@ -420,7 +421,7 @@ aside #title {
   padding: 0.25rem;
   line-height: 1.5;
   font-size: 1rem;
-  border: 1px solid gray;
+  border: 1px solid #484848;
   height: 100%;
 }
 
@@ -447,7 +448,7 @@ aside #title {
   width: 100%;
 }
 #show table td {
-  border-top: 1px solid gray;
+  border-top: 1px solid #484848;
   padding: 0.5rem;
 }
 
@@ -466,12 +467,12 @@ aside #title {
   left: 9%;
   padding: 4px 0;
   background: black;
-  border: 1px solid gray;
+  border: 1px solid #484848;
   max-height: 25vh;
   overflow-y: auto;
 }
 #titles li {
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #484848;
 }
 
 ::-webkit-scrollbar {
