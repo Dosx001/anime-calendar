@@ -109,6 +109,7 @@ function right() {
     if (RIGHT.style.visibility == "visible") {
         if (LEFT.style.visibility == "visible") {
             RIGHT.style.visibility = "hidden";
+            document.getElementById('clear').style.visibility = 'hidden';
             document.getElementById('calendar').remove();
             document.getElementById('month').textContent = "Fall 2021";
             season();
