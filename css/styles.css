@@ -6,7 +6,7 @@ button, .stream {
   box-shadow: 5px 5px 15px black;
 }
 button:active, .stream:active {
-  transform: translateY(5px);
+  background: #121a1b;
 }
 button:hover, .stream:hover {
   box-shadow: 0px 0px 25px red;
@@ -22,7 +22,7 @@ html {
 
 body {
   font-family: "Segoe UI";
-  background: #181a1b;
+  background: #121a1b;
   padding-top: 4rem;
   color: darkgrey;
 }
