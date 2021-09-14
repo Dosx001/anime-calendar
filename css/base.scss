@@ -1,5 +1,5 @@
 $DarkPurple: #27002b;
-$Gray: #121a1b;
+$Gray: #181a1b;
 $DarkGray: #484848;
 $Gline: 1px solid $DarkGray;
 @mixin box($back_color, $bord_color, $radius: null) {
@@ -71,7 +71,7 @@ a {
     color: purple;
     text-decoration: none;
     &:hover {
-        color: purple;
+        color: purple !important;
     }
 }
 button {
