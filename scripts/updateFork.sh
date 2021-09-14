@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ $# == 0 ]
+if [ "$(basename `pwd`)" == "anime-calendar" ]
 then
     git push
     cd /mnt/d/Repositories/github/AnimeCalendar.github.io
