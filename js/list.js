@@ -104,7 +104,7 @@ function setter() {
     else if (shows != null && title in shows) {
         delete shows[title];
         document.getElementById('reset').style.visibility = 'hidden';
-        document.getElementById(ider_show(title)).style.borderColor = 'gray';
+        document.getElementById(ider_show(title)).style.borderColor = '#484848';
         setter.innerHTML = "Add to Your List";
         setter.id = "add";
     }
