@@ -167,7 +167,8 @@ function TheBigBang(offset: number = 0) {
                         data = data['full'];
             }
             let times: string[]
-            if (localStorage.getItem('list') == "Your List" || Object.keys(JSON.parse(localStorage.getItem('shows')!)).length == 0)
+            if (localStorage.getItem('list') == "Your List"
+                || Object.keys(JSON.parse(localStorage.getItem('shows')!)).length == 0)
                 times = data;
             else {
                 switch(format) {
@@ -256,14 +257,13 @@ function getDates(offset: number = 0) {
             break;
         case 6:
             day += offset - 5;
-            break;
     }
     for (let i = 0; i < 7; i++) dates.push(new Date(year, month, day + i))
     return dates
 }
 
 function ider_slot(day: number, time: string) {
-    return (time.substring(1,2) == ":") ?
+    return time.substring(1,2) == ":" ?
         day * 10000 + parseInt(time.substring(0,1)) * 100 + parseInt(time.substring(2,4)) +
             time.substring(5,6):
         day * 10000 + parseInt(time.substring(0,2)) * 100 + parseInt(time.substring(3,5)) +
@@ -343,19 +343,17 @@ function cutoff(times: string[], offset: number) {
         case 1:
             return [data[Object.keys(shows)[0]].time];
         default:
-            for (let show in shows) {
+            for (let show in shows)
                 if (show in data) {
                     max = minMax(max, data[show].time)[1]
                     min = minMax(min, data[show].time)[0]
                     if (data[show].time.includes("00") || data[show].time.includes("30"))
                         delete shows[show];
-                }
-                else delete shows[show];
-            }
+                } else delete shows[show];
     }
     let output: string[] = []
     let bool = false
-    for (let time in times) {
+    for (let time in times)
         if (min == times[time]) {
             output.push(times[time])
             bool = true
@@ -368,16 +366,13 @@ function cutoff(times: string[], offset: number) {
             if (times[time].includes("00") || times[time].includes("30"))
                 output.push(times[time]);
             else {
-                for (let show in shows) {
-                    if (times[time] == data[show].time) {
-                        output.push(times[time])
-                        delete shows[show]
-                        break
-                    }
+                for (let show in shows) if (times[time] == data[show].time) {
+                    output.push(times[time])
+                    delete shows[show]
+                    break
                 }
             }
         }
-    }
     return output
 }
 
@@ -386,14 +381,12 @@ function compact(times: string[], offset: number) {
     const shows = JSON.parse(localStorage.getItem('shows')!)
     let output: string[] = []
     for (let time in times) {
-        for (let show in shows) {
+        for (let show in shows)
             if (show in data && data[show].time == times[time]) {
                 output.push(times[time])
                 delete shows[show]
                 break
-            }
-            else if (!(show in data)) delete shows[show];
-        }
+            } else if (!(show in data)) delete shows[show];
         if (shows.length == 0) break;
     }
     return output
@@ -501,10 +494,9 @@ function streamInfo(show: string) {
     reset.onclick = () => Reset()
     reset.id = 'reset'
     reset.innerHTML = 'Reset';
-    (show in shows && (LEFT.style.visibility == 'visible' ?
-        shows[show][0] : shows[show][1])) ?
-            reset.style.visibility = 'visible' :
-            reset.style.visibility = 'hidden'
+    reset.style.visibility = show in shows &&
+        (LEFT.style.visibility == 'visible' ? shows[show][0] : shows[show][1]) ?
+        'visible' : 'hidden'
     let output: HTMLElement
     let streams: HTMLElement
     let cover: HTMLElement
