@@ -5,7 +5,7 @@ aside {
     width: 17.25%;
     left: .25%;
     button, a {
-        font-size: 1.5rem;
+        font-size: 1.5rem !important;
     }
     #title{
         line-height: 2rem;
@@ -41,14 +41,13 @@ button, .stream {
 }
 .date, .slot, .time {
     border: 2px solid black;
-}
-.date, .slot{
     text-align: center;
 }
 .date {
     background: $DarkPurple;
     position: sticky;
     top: 0;
+    white-space: nowrap;
 }
 .dropbox {
     display: flex;
@@ -101,9 +100,6 @@ button, .stream {
 .show-season {
     border-bottom: 5px solid black;
 }
-.slot, .time {
-    padding: 1rem;
-}
 .stream {
     padding: 0px 10px;
 }
@@ -137,6 +133,9 @@ button, .stream {
     cursor: pointer;
     height: 1rem;
     width: 1rem;
+}
+.time {
+    padding: 2rem 0rem;
 }
 .window {
     @include box(black, purple, 20px);
@@ -300,6 +299,9 @@ button, .stream {
     }
     .info {
         width: 40%;
+    }
+    .show {
+        width: auto;
     }
     #clear, #list {
         padding: .5rem;

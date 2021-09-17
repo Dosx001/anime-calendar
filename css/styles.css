@@ -167,7 +167,7 @@ aside {
   left: 0.25%;
 }
 aside button, aside a {
-  font-size: 1.5rem;
+  font-size: 1.5rem !important;
 }
 aside #title {
   line-height: 2rem;
@@ -204,9 +204,6 @@ aside #title {
 
 .date, .slot, .time {
   border: 2px solid black;
-}
-
-.date, .slot {
   text-align: center;
 }
 
@@ -214,6 +211,7 @@ aside #title {
   background: #27002b;
   position: sticky;
   top: 0;
+  white-space: nowrap;
 }
 
 .dropbox {
@@ -274,10 +272,6 @@ aside #title {
   border-bottom: 5px solid black;
 }
 
-.slot, .time {
-  padding: 1rem;
-}
-
 .stream {
   padding: 0px 10px;
 }
@@ -315,6 +309,10 @@ aside #title {
   cursor: pointer;
   height: 1rem;
   width: 1rem;
+}
+
+.time {
+  padding: 2rem 0rem;
 }
 
 .window {
@@ -507,6 +505,10 @@ aside #title {
 
   .info {
     width: 40%;
+  }
+
+  .show {
+    width: auto;
   }
 
   #clear, #list {
