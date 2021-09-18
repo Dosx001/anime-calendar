@@ -5,8 +5,8 @@
         "Source": "Light Novel",
         "Genres": [
             "Drama",
-            "Sci-Fi",
-            "Mecha"
+            "Mecha",
+            "Military"
         ]
     },
     "Blade Runner: Black Lotus": {
@@ -23,9 +23,9 @@
         "Studio": "Seven Arcs",
         "Source": "Manga",
         "Genres": [
-            "Slice of Life",
-            "Seinen",
-            "School"
+            "Drama",
+            "School",
+            "Seinen"
         ]
     },
     "Build Divide: Code Black": {
@@ -38,17 +38,17 @@
         ]
     },
     "Cardfight!! Vanguard: overDress 2": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/cardfight-vanguard-overdress-2-47287f9b24.jpg?w=5&h=5",
-        "Studio": "Kinema Citrus",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/cardfight-vanguard-overdress-2-968e0fc747.jpg?w=5&h=5",
+        "Studio": "GIFTanimation",
         "Source": "Original",
         "Genres": [
-            "Adventure",
             "Action",
+            "Adventure",
             "Comedy"
         ]
     },
     "Deep Insanity: The Lost Child": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/deep-insanity-the-lost-child-b09dab0455.jpg?w=5&h=5",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/deep-insanity-the-lost-child-c0265388b1.jpg?w=5&h=5",
         "Studio": "SILVER LINK.",
         "Source": "Original",
         "Genres": [
@@ -60,19 +60,19 @@
         "Studio": "Toei Animation",
         "Source": "Original",
         "Genres": [
-            "Fantasy",
-            "Comedy",
-            "Adventure"
+            "Action",
+            "Adventure",
+            "Comedy"
         ]
     },
     "Gyakuten Sekai no Denchi Shoujo": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/gyakuten-sekai-no-denchi-shoujo-a52e0df485.jpg?w=5&h=5",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/gyakuten-sekai-no-denchi-shoujo-c4d632674b.jpg?w=5&h=5",
         "Studio": "Lerche",
         "Source": "Original",
         "Genres": [
             "Action",
-            "Sci-Fi",
-            "Mecha"
+            "Mecha",
+            "Sci-Fi"
         ]
     },
     "Hanyou no Yashahime: Sengoku Otogizoushi - Ni no Shou": {
@@ -80,18 +80,18 @@
         "Studio": "Sunrise",
         "Source": "Original",
         "Genres": [
-            "Fantasy",
-            "Magic",
-            "Supernatural"
+            "Action",
+            "Adventure",
+            "Comedy"
         ]
     },
     "Heike Monogatari": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/heike-monogatari-3b8fbcb6af.jpg?w=5&h=5",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/heike-monogatari-ec89d14b7c.jpg?w=5&h=5",
         "Studio": "Science SARU",
         "Source": "Book",
         "Genres": [
-            "Supernatural",
-            "Historical"
+            "Historical",
+            "Supernatural"
         ]
     },
     "Isekai Shokudou 2": {
@@ -99,8 +99,8 @@
         "Studio": "OLM",
         "Source": "Light Novel",
         "Genres": [
+            "Comedy",
             "Fantasy",
-            "Slice of Life",
             "Isekai"
         ]
     },
@@ -109,9 +109,9 @@
         "Studio": "David Production",
         "Source": "Manga",
         "Genres": [
-            "Supernatural",
-            "Drama",
-            "Shounen"
+            "Action",
+            "Adventure",
+            "Drama"
         ]
     },
     "Kanashiki Debu Neko-chan": {
@@ -124,7 +124,7 @@
     },
     "Kimi to Fit Boxing": {
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kimi-to-fit-boxing-278d35bf6c.jpg?w=5&h=5",
-        "Studio": "Story Effect",
+        "Studio": "Imagineer",
         "Source": "Video Game",
         "Genres": [
             "Sports"
@@ -135,7 +135,7 @@
         "Studio": "OLM",
         "Source": "Manga",
         "Genres": [
-            "Slice of Life",
+            "Comedy",
             "Romance",
             "School"
         ]
@@ -145,8 +145,9 @@
         "Studio": "Sunrise Beyond",
         "Source": "Original",
         "Genres": [
+            "Action",
             "Mecha",
-            "Action"
+            "Sci-Fi"
         ]
     },
     "Kyuuketsuki Sugu Shinu": {
@@ -164,9 +165,9 @@
         "Studio": "TMS Entertainment",
         "Source": "Manga",
         "Genres": [
-            "Seinen",
-            "Comedy",
-            "Mystery"
+            "Action",
+            "Adventure",
+            "Comedy"
         ]
     },
     "Megaton-kyuu Musashi": {
@@ -174,6 +175,7 @@
         "Studio": "OLM",
         "Source": "Original",
         "Genres": [
+            "Action",
             "Mecha",
             "School"
         ]
@@ -183,9 +185,9 @@
         "Studio": "Passione",
         "Source": "Manga",
         "Genres": [
-            "Slice of Life",
-            "Supernatural",
-            "Horror"
+            "Comedy",
+            "Horror",
+            "Slice of Life"
         ]
     },
     "Mushoku Tensei: Isekai Ittara Honki Dasu Part 2": {
@@ -195,22 +197,22 @@
         "Genres": [
             "Adventure",
             "Drama",
-            "Fantasy"
+            "Ecchi"
         ]
     },
     "Muteking the Dancing Hero": {
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/muteking-the-dancing-hero-006978d904.jpg?w=5&h=5",
-        "Studio": "Tezuka Productions",
+        "Studio": "Tatsunoko Production",
         "Source": "Original",
         "Genres": [
+            "Action",
             "Comedy",
-            "Sci-Fi",
-            "Action"
+            "Sci-Fi"
         ]
     },
     "Muv-Luv Alternative": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/muv-luv-alternative-72b2d15320.jpg?w=5&h=5",
-        "Studio": "Graphinica",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/muv-luv-alternative-0b2591d710.jpg?w=5&h=5",
+        "Studio": "FLAGSHIP LINE",
         "Source": "Visual Novel",
         "Genres": [
             "Action",
@@ -234,12 +236,12 @@
         "Source": "Manga",
         "Genres": [
             "Drama",
-            "Psychological",
-            "Shounen"
+            "Mystery",
+            "Psychological"
         ]
     },
     "Puraore! Pride of Orange": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/puraore-pride-of-orange-c579f8aa9c.jpg?w=5&h=5",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/puraore-pride-of-orange-1d5baee9db.jpg?w=5&h=5",
         "Studio": "C2C",
         "Source": "Other",
         "Genres": [
@@ -261,9 +263,9 @@
         "Studio": "Children's Playground Entertainment",
         "Source": "Light Novel",
         "Genres": [
-            "Psychological",
-            "Mystery",
-            "Action"
+            "Action",
+            "Adventure",
+            "Fantasy"
         ]
     },
     "Sankaku Mado no Sotogawa wa Yoru": {
@@ -281,9 +283,9 @@
         "Studio": "SILVER LINK.",
         "Source": "Light Novel",
         "Genres": [
-            "Romance",
-            "Drama",
-            "Mystery"
+            "Action",
+            "Adventure",
+            "Drama"
         ]
     },
     "Senpai ga Uzai Kouhai no Hanashi": {
@@ -321,9 +323,9 @@
         "Studio": "Children's Playground Entertainment",
         "Source": "Light Novel",
         "Genres": [
-            "Romance",
+            "Adventure",
             "Comedy",
-            "Adventure"
+            "Fantasy"
         ]
     },
     "Shuumatsu no Harem": {
@@ -351,9 +353,9 @@
         "Studio": "MADHOUSE",
         "Source": "Original",
         "Genres": [
+            "Action",
             "Fantasy",
-            "Music",
-            "Action"
+            "Music"
         ]
     },
     "Tesla Note": {
@@ -361,9 +363,9 @@
         "Studio": "Gambit",
         "Source": "Manga",
         "Genres": [
-            "Drama",
+            "Action",
             "Comedy",
-            "Shounen"
+            "Drama"
         ]
     },
     "Tsuki to Laika to Nosferatu": {
@@ -371,19 +373,19 @@
         "Studio": "Arvo Animation",
         "Source": "Light Novel",
         "Genres": [
-            "Vampire",
-            "Space",
-            "Sci-Fi"
+            "Romance",
+            "Sci-Fi",
+            "Space"
         ]
     },
     "Visual Prison": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/visual-prison-345444a399.jpg?w=5&h=5",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/visual-prison-25af80e8bf.jpg?w=5&h=5",
         "Studio": "A-1 Pictures",
         "Source": "Original",
         "Genres": [
-            "Vampire",
+            "Music",
             "Supernatural",
-            "Music"
+            "Vampire"
         ]
     },
     "Waccha PriMagi!": {
