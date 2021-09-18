@@ -40,7 +40,8 @@ button, .stream {
     }
 }
 .date, .slot, .time {
-    border: 2px solid black;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
     text-align: center;
 }
 .date {
@@ -48,6 +49,7 @@ button, .stream {
     position: sticky;
     top: 0;
     white-space: nowrap;
+    z-index: 5;
 }
 .dropbox {
     display: flex;
@@ -136,6 +138,10 @@ button, .stream {
 }
 .time {
     padding: 2rem 0rem;
+    position: sticky;
+    left: 0;
+    background: $DarkPurple;
+    z-index: 1;
 }
 .window {
     @include box(black, purple, 20px);
@@ -146,8 +152,10 @@ button, .stream {
     margin-top: 7rem;
     left: 25%;
     top: 18%;
+    z-index: 10;
 }
 #calendar {
+    border: 3px solid black;
     table {
         border-collapse: separate;
         border-spacing: 0;
