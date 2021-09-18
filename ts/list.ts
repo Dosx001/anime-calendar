@@ -13,8 +13,8 @@ document.addEventListener('keydown', e => {
                 break
             case "w":
                 let urls: {[key: string]: string} = {}
-                document.querySelectorAll('.stream').forEach(
-                    ele => urls[(ele as HTMLElement).innerText.substring(1)] = (ele as HTMLAnchorElement).href
+                document.querySelectorAll<HTMLAnchorElement>('.stream').forEach(
+                    ele => urls[ele.innerText.substring(1)] = ele.href
                 )
                 let streams = JSON.parse(localStorage.getItem('streams')!)
                 let check = true

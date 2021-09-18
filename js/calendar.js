@@ -22,7 +22,7 @@ window.onload = () => {
             .then(() => {
             let shows = JSON.parse(localStorage.getItem('shows'));
             for (let show in shows)
-                if (!(show in STORE) || !(show in PAST))
+                if (!(show in STORE || show in PAST))
                     delete shows[show];
             localStorage.setItem('shows', JSON.stringify(shows));
         }).finally(() => {
@@ -35,6 +35,11 @@ window.onload = () => {
         document.body.append(script);
     }
 };
+window.matchMedia('(min-width: 1200px)').addListener(_ => {
+    document.querySelectorAll(".date").forEach(ele => {
+        [ele.innerHTML, ele.title] = [ele.title, ele.innerHTML];
+    });
+});
 document.addEventListener('keydown', e => {
     if (hotkey(e)) {
         switch (e.key) {
@@ -185,6 +190,7 @@ function calendar(dates, times) {
         td = document.createElement('td');
         td.className = 'date';
         td.innerHTML = date.getDate() + ' ' + date.toLocaleDateString("en-US", { weekday: 'long' });
+        td.title = date.getDate() + ' ' + date.toLocaleDateString("en-US", { weekday: 'short' });
         tr.append(td);
     });
     let thead = document.createElement('thead');
