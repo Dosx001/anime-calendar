@@ -25,7 +25,7 @@ button, .stream {
 }
 .corner {
     left: 0;
-    z-index: 10 !important;
+    z-index: 2 !important;
 }
 .cover {
     display: inline-block;
@@ -53,7 +53,7 @@ button, .stream {
     position: sticky;
     top: 0;
     white-space: nowrap;
-    z-index: 5;
+    z-index: 1;
 }
 .dropbox {
     display: flex;
@@ -156,7 +156,7 @@ button, .stream {
     margin-top: 7rem;
     left: 25%;
     top: 18%;
-    z-index: 10;
+    z-index: 8;
 }
 #calendar {
     border: 3px solid black;
@@ -281,6 +281,7 @@ button, .stream {
     border: $Gline;
     max-height: 25vh;
     overflow-y: auto;
+    z-index: 10;
     li {
         border-bottom: $Gline;
     }
