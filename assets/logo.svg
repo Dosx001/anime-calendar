@@ -1,38 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1450" height="1060" viewBox="0 0 1450 1060">
   <defs>
     <style>
-      .cls-1 {
+      #box {
         fill: #27002b;
         stroke: #b3001e;
-        stroke-width: 14.69px;
+        stroke-width: 15px;
       }
 
-      .cls-2, .cls-3 {
+      #line {
         fill: none;
         stroke: #000;
         stroke-width: 5px;
       }
 
-      .cls-3 {
-        fill-rule: evenodd;
-      }
-
-      .cls-4 {
-        font-size: 117px;
+      #text {
+        font-size: 115px;
         fill: #fff;
         text-anchor: middle;
         font-family: "Eras Bold ITC";
       }
     </style>
   </defs>
-  <rect id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" class="cls-1" x="16" y="13" width="1422" height="1039" rx="10" ry="10"/>
-  <rect class="cls-2" x="27" y="24" width="1400" height="1018"/>
-  <rect class="cls-2" x="27" y="168.875" width="1400" height="54.25"/>
-  <rect class="cls-2" x="27" y="354.75" width="1400" height="139.5"/>
-  <rect class="cls-2" x="27" y="630" width="1399" height="140"/>
-  <rect class="cls-2" x="226" y="170" width="202" height="872"/>
-  <rect class="cls-2" x="625" y="170" width="200" height="872"/>
-  <rect class="cls-2" x="1023" y="170" width="202" height="872"/>
-  <path class="cls-3" d="M29,902v-1H1424v1H29Z"/>
-  <text id="ANIME" class="cls-4" x="726.65" y="125.907"><tspan x="726.65">ANIME</tspan></text>
+  <rect id="box" x="16" y="13" width="1422" height="1039" rx="10" ry="10"/>
+  <path id="line" d="m27 24h1400v1018h-1400zm0 145h1400m0 55h-1400m0 130h1400m0 140h-1400m0
+    140h1400m0 140h-1400m0 130h1400m-205 140v-878m-200 0v878m-200 0v-878m-200 0v878m-200 0v-878
+    m-200 0v878"/>
+  <text id="text" x="725" y="125"><tspan x="725">ANIME</tspan></text>
 </svg>
