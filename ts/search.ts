@@ -55,18 +55,18 @@ function results(e: Event) {
                 li.id = i.toString()
                 li.tabIndex = i - 100
                 i++
-                li.addEventListener('click', function() {
-                    streamInfo(this.innerHTML)
+                li.onclick = e => {
+                    streamInfo((<HTMLElement>e.target).innerHTML)
                     search.value = ""
                     titles.style.display = "none"
-                })
-                li.addEventListener('mousemove', e => {
+                }
+                li.onmousemove = e => {
                     indexLi = parseInt((<HTMLElement>e.target).id)
                     let active = document.querySelector('.active')
                     if (active) active.className = "";
                     document.getElementById(indexLi.toString())!.className = 'active'
-                })
-                li.addEventListener('contextmenu', () => titles.style.display = 'none');
+                }
+                li.oncontextmenu = () => titles.style.display = 'none'
                 titles.append(li)
             }
         }
