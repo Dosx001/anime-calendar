@@ -199,7 +199,7 @@ function calendar(dates: Date[], times: string[]) {
         dates[0].toLocaleDateString("en-US",{ month: 'long' }) + " to " +
             dates[6].toLocaleDateString("en-US",{ month: 'long' })
     let td = document.createElement('td')
-    td.className = 'date'
+    td.className = 'date corner'
     let tr = document.createElement('tr')
     tr.append(td)
     dates.forEach(async function(date: Date) {

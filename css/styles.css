@@ -184,6 +184,11 @@ aside #title {
   padding: 0px 0px;
 }
 
+.corner {
+  left: 0;
+  z-index: 10 !important;
+}
+
 .cover {
   display: inline-block;
 }
