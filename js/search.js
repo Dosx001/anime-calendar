@@ -3,28 +3,21 @@ const titleList = Object.keys(Object.assign(STORE, PAST)).sort();
 const search = document.getElementById('search');
 const titles = document.getElementById('titles');
 let indexLi = 99;
+search.oninput = e => results(e);
+search.onfocus = e => e.relatedTarget && e.relatedTarget.className ?
+    e.relatedTarget.className != "active" && results(e) : results(e);
 search.onkeyup = e => {
     switch (e.key) {
         case "Enter":
             let input = document.getElementById((indexLi == 99 ? indexLi + 1 : indexLi).toString());
-            if (input) {
+            if (input)
                 streamInfo(input.innerHTML);
-                search.value = "";
-            }
             search.value = "";
             titles.style.display = "none";
             search.blur();
             break;
-        case "Backspace":
-        case "Delete":
-            results(e);
-            break;
         case "Escape":
             e.target.blur();
-            break;
-        default:
-            if (e.key.length == 1)
-                results(e);
     }
 };
 search.onkeydown = e => {
@@ -36,10 +29,8 @@ search.onkeydown = e => {
         case 40:
             move(1);
             e.preventDefault();
-            break;
     }
 };
-search.onclick = e => results(e);
 search.addEventListener('focusout', e => {
     titles.style.display = "none";
     if (e.relatedTarget)

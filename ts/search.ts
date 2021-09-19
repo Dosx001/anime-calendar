@@ -3,27 +3,21 @@ const search = <HTMLInputElement> document.getElementById('search')!
 const titles = document.getElementById('titles')!
 let indexLi = 99
 
+search.oninput = e => results(e)
+search.onfocus = e => e.relatedTarget && (<HTMLElement>e.relatedTarget).className ?
+    (<HTMLElement>e.relatedTarget).className != "active" && results(e) : results(e)
+
 search.onkeyup = e => {
     switch(e.key) {
         case "Enter":
             let input = document.getElementById((indexLi == 99 ? indexLi + 1: indexLi).toString())
-            if (input) {
-                streamInfo(input.innerHTML)
-                search.value = ""
-            }
+            if (input) streamInfo(input.innerHTML)
             search.value = ""
             titles.style.display = "none"
             search.blur()
             break
-        case "Backspace":
-        case "Delete":
-            results(e)
-            break
         case "Escape":
             (<HTMLElement>e.target!).blur()
-            break
-        default:
-            if (e.key.length == 1) results(e);
     }
 }
 
@@ -36,11 +30,8 @@ search.onkeydown = e => {
         case 40: //down
             move(1)
             e.preventDefault();
-            break
     }
 }
-
-search.onclick = e => results(e);
 
 search.addEventListener('focusout', e => {
     titles.style.display = "none"
