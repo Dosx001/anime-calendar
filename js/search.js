@@ -10,7 +10,7 @@ search.onkeyup = e => {
     switch (e.key) {
         case "Enter":
             let input = document.getElementById((indexLi == 99 ? indexLi + 1 : indexLi).toString());
-            if (input)
+            if (search.value && input)
                 streamInfo(input.innerHTML);
             search.value = "";
             titles.style.display = "none";
