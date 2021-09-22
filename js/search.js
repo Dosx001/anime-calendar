@@ -33,19 +33,17 @@ search.onkeydown = e => {
 };
 search.addEventListener('focusout', e => {
     titles.style.display = "none";
-    if (e.relatedTarget)
-        if (e.relatedTarget.className == "active")
-            titles.style.display = "";
-        else if (e.relatedTarget.parentElement.id == "titles")
-            e.relatedTarget.click();
+    e.relatedTarget && (e.relatedTarget.className == "active" ?
+        titles.style.display = "" :
+        e.relatedTarget.parentElement.id == "titles" &&
+            e.relatedTarget.click());
 });
 function results(e) {
     let input = e.target.value;
+    let i = 100;
     indexLi = 99;
     if (input) {
-        titles.style.display = "";
         titles.innerHTML = "";
-        let i = 100;
         for (let title of titleList) {
             if (title.toLocaleLowerCase().includes(input.toLocaleLowerCase())) {
                 let li = document.createElement('li');
@@ -63,17 +61,14 @@ function results(e) {
                     let active = document.querySelector('.active');
                     if (active)
                         active.className = "";
-                    document.getElementById(indexLi.toString()).className = 'active';
+                    e.target.className = "active";
                 };
                 li.oncontextmenu = () => titles.style.display = 'none';
                 titles.append(li);
             }
         }
-        if (i == 100)
-            titles.style.display = "none";
     }
-    else
-        titles.style.display = "none";
+    titles.style.display = i > 100 ? "" : "none";
 }
 function move(num) {
     let li = document.getElementById((indexLi + num).toString());

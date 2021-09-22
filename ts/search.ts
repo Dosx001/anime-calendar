@@ -35,19 +35,19 @@ search.onkeydown = e => {
 
 search.addEventListener('focusout', e => {
     titles.style.display = "none"
-    if (e.relatedTarget)
-        if ((<HTMLElement>e.relatedTarget).className == "active") titles.style.display = "";
-        else if ((<HTMLElement>e.relatedTarget).parentElement!.id == "titles")
-            (<HTMLElement>e.relatedTarget).click();
+    e.relatedTarget && ((<HTMLElement>e.relatedTarget).className == "active" ?
+        titles.style.display = "" :
+        (<HTMLElement>e.relatedTarget).parentElement!.id == "titles" &&
+            (<HTMLElement>e.relatedTarget).click()
+    )
 })
 
 function results(e: Event) {
     let input = (<HTMLInputElement>e.target!).value
+    let i = 100
     indexLi = 99
     if (input) {
-        titles.style.display = ""
         titles.innerHTML = ""
-        let i = 100
         for (let title of titleList) {
             if (title.toLocaleLowerCase().includes(input.toLocaleLowerCase())) {
                 let li: HTMLLIElement = document.createElement('li')
@@ -64,15 +64,14 @@ function results(e: Event) {
                     indexLi = parseInt((<HTMLElement>e.target).id)
                     let active = document.querySelector('.active')
                     if (active) active.className = "";
-                    document.getElementById(indexLi.toString())!.className = 'active'
+                    (<HTMLElement>e.target)!.className = "active"
                 }
                 li.oncontextmenu = () => titles.style.display = 'none'
                 titles.append(li)
             }
         }
-        if (i == 100) titles.style.display = "none"
     }
-    else titles.style.display = "none";
+    titles.style.display = i > 100 ? "" : "none"
 }
 
 function move(num: number) {
