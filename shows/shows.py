@@ -49,6 +49,8 @@ class shows:
                     title[0] = title[0][23::]
                     title[-1] = title[-1][0:-5]
                     title = unescape(" ".join(title))
+                    if "show-title-small" in title:
+                        title = title[19:-1]
                     content = {
                         'day': day,
                         'time': time,

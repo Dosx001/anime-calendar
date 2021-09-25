@@ -194,15 +194,6 @@
             "YouTube": "https://www.youtube.com/watch?v=uFa96O-a7R4&amp;list=PLwLSw1_eDZl24o1N6adcgGPyIJPfJ21GL"
         }
     },
-    "Drug Store in Another World - The Slow Life of a Cheat Pharmacist": {
-        "day": 3,
-        "time": "7:00 AM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/cheat-kusushi-no-slow-life-isekai-ni-tsukurou-drugstore-e629c15ba4.jpg",
-        "streams": {
-            "Crunchyroll": "https://www.crunchyroll.com/drug-store-in-another-world-the-slow-life-of-a-cheat-pharmacist",
-            "VRV": "https://vrv.co/series/GDKHZEN80"
-        }
-    },
     "Tsukipro The Animation 2": {
         "day": 3,
         "time": "7:00 AM",
@@ -334,15 +325,6 @@
             "Funimation": "https://www.funimation.com/shows/the-case-study-of-vanitas/",
             "Hulu": "https://www.hulu.com/series/the-case-study-of-vanitas-1df7cad6-b21c-4635-ac24-a49101556dc5",
             "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1383/the-case-study-of-vanitas"
-        }
-    },
-    "My Next Life as a Villainess: All Routes Lead to Doom!": {
-        "day": 5,
-        "time": "11:15 AM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/my-next-life-as-a-villainess-all-routes-lead-to-doom-2-0cfb89a2d3.jpg",
-        "streams": {
-            "Crunchyroll": "https://www.crunchyroll.com/my-next-life-as-a-villainess-all-routes-lead-to-doom",
-            "VRV": "https://vrv.co/series/GY5PW4JEY/My-Next-Life-as-a-Villainess-All-Routes-Lead-to-Doom"
         }
     },
     "Girlfriend, Girlfriend": {
@@ -508,17 +490,6 @@
             "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhpvTizNfzlPX1tEERYVA97"
         }
     },
-    "Magia Record: Puella Magi Madoka Magica Side Story": {
-        "day": 6,
-        "time": "9:30 AM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/magia-record-mahou-shoujo-madoka-magica-gaiden-2-0da5f410b1.jpg",
-        "streams": {
-            "Crunchyroll": "https://www.crunchyroll.com/magia-record-puella-magi-madoka-magica-side-story",
-            "Funimation": "https://www.funimation.com/shows/magia-record-puella-magi-madoka-magica-side-story/",
-            "HiDive": "https://www.hidive.com/tv/magia-record-puella-magi-madoka-magica-side-story-season-2-the-eve-of-awakening-",
-            "VRV": "https://vrv.co/series/G6QWDD096"
-        }
-    },
     "The Great Jahy Will Not Be Defeated!": {
         "day": 6,
         "time": "11:45 AM",
@@ -540,6 +511,35 @@
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kaizoku-oujo-96c8437037.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/fena-pirate-princess"
+        }
+    },
+    "Drug Store in Another World - The Slow Life of a Cheat Pharmacist": {
+        "day": 3,
+        "time": "7:00 AM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/cheat-kusushi-no-slow-life-isekai-ni-tsukurou-drugstore-e629c15ba4.jpg",
+        "streams": {
+            "Crunchyroll": "https://www.crunchyroll.com/drug-store-in-another-world-the-slow-life-of-a-cheat-pharmacist",
+            "VRV": "https://vrv.co/series/GDKHZEN80"
+        }
+    },
+    "My Next Life as a Villainess: All Routes Lead to Doom!": {
+        "day": 5,
+        "time": "11:15 AM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/my-next-life-as-a-villainess-all-routes-lead-to-doom-2-0cfb89a2d3.jpg",
+        "streams": {
+            "Crunchyroll": "https://www.crunchyroll.com/my-next-life-as-a-villainess-all-routes-lead-to-doom",
+            "VRV": "https://vrv.co/series/GY5PW4JEY/My-Next-Life-as-a-Villainess-All-Routes-Lead-to-Doom"
+        }
+    },
+    "Magia Record: Puella Magi Madoka Magica Side Story": {
+        "day": 6,
+        "time": "9:30 AM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/magia-record-mahou-shoujo-madoka-magica-gaiden-2-0da5f410b1.jpg",
+        "streams": {
+            "Crunchyroll": "https://www.crunchyroll.com/magia-record-puella-magi-madoka-magica-side-story",
+            "Funimation": "https://www.funimation.com/shows/magia-record-puella-magi-madoka-magica-side-story/",
+            "HiDive": "https://www.hidive.com/tv/magia-record-puella-magi-madoka-magica-side-story-season-2-the-eve-of-awakening-",
+            "VRV": "https://vrv.co/series/G6QWDD096"
         }
     }
 }
