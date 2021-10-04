@@ -97,7 +97,7 @@ function clear() {
     if (show) {
         show.remove()
         document.getElementById('clear')!.style.visibility = 'hidden'
-        document.getElementById('calendar')!.style.height = '50rem'
+        document.getElementById('calendar')!.style.height = '85vh'
     }
 }
 
@@ -401,7 +401,7 @@ function compact(times: string[], offset: number) {
 function resizeCalendar() {
     document.getElementById('calendar')!.style.height = document.getElementById('show') &&
         (<HTMLSelectElement>document.getElementById('info')!).value == "0" ?
-        "25rem" : "50rem"
+        "38vh" : "85vh"
 }
 
 function streamInfo(show: string) {

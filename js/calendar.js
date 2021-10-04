@@ -87,7 +87,7 @@ function clear() {
     if (show) {
         show.remove();
         document.getElementById('clear').style.visibility = 'hidden';
-        document.getElementById('calendar').style.height = '50rem';
+        document.getElementById('calendar').style.height = '85vh';
     }
 }
 function list() {
@@ -385,7 +385,7 @@ function compact(times, offset) {
 function resizeCalendar() {
     document.getElementById('calendar').style.height = document.getElementById('show') &&
         document.getElementById('info').value == "0" ?
-        "25rem" : "50rem";
+        "38vh" : "85vh";
 }
 function streamInfo(show) {
     const data = show in STORE ? STORE : PAST;
