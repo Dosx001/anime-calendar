@@ -14,7 +14,7 @@ RIGHT.style.visibility = "visible";
 window.onload = () => {
     let script = document.createElement('script');
     script.src = 'js/search.min.js';
-    let VERSION = "21.2.5";
+    let VERSION = "21.3.0";
     if (localStorage.getItem('ver') != VERSION) {
         localStorage.setItem('ver', VERSION);
         set("./shows/shows.json", "store");
@@ -116,7 +116,7 @@ function right() {
             RIGHT.style.visibility = "hidden";
             document.getElementById('clear').style.visibility = 'hidden';
             document.getElementById('calendar').remove();
-            document.getElementById('month').textContent = "Fall 2021";
+            document.getElementById('month').textContent = "Winter 2021";
             season();
         }
         else {

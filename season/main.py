@@ -4,7 +4,7 @@ from json import dump, load
 def main():
     driver = webdriver.Firefox(service_log_path = '/dev/null',
         firefox_profile = webdriver.FirefoxProfile("/home/dosx/.mozilla/firefox/eg34u3uo.default"))
-    driver.get('https://animeschedule.net/seasons/fall-2021')
+    driver.get('https://animeschedule.net/seasons/winter-2022')
     data = driver.find_element_by_class_name('shows-container').find_elements_by_class_name('show-tile')
     shows = {}
     for i, show in enumerate(data):
@@ -12,7 +12,10 @@ def main():
         cover = show.find_element_by_class_name('show-poster').get_attribute('src')
         while "placeholder" in cover:
             cover = show.find_element_by_class_name('show-poster').get_attribute('src')
-        studio = show.find_element_by_class_name('poster-information-studio').get_attribute('innerHTML')
+        try:
+            studio = show.find_element_by_class_name('poster-information-studio').get_attribute('innerHTML')
+        except:
+            studio = "N/A"
         source = show.find_element_by_class_name('poster-information-source').get_attribute('innerHTML')
         genres = [ele.get_attribute('innerHTML') for ele in show.find_elements_by_class_name('genre')]
         content = {

@@ -17,7 +17,7 @@ class shows:
 
     def html(self):
         self.driver.get("https://animeschedule.net")
-        for i, day in enumerate(self.driver.find_elements_by_class_name("timetable-column")):
+        for i, day in enumerate(self.driver.find_elements_by_class_name("timetable-column"), 1):
             for show in day.find_elements_by_class_name("timetable-column-show"):
                 if show.get_attribute("chinese") != None:
                     continue
