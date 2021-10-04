@@ -16,57 +16,35 @@ class shows:
         self.new = {}
 
     def html(self):
-        with open('code.html') as f:
-            source = f.readlines()
-        streams = {}
-        check = [False, False]
-        days = {"Monday":1, "Tuesday":2, "Wednesday":3, "Thursday":4,
-                "Friday":5, "Saturday":6, "Sunday":7}
-        for line in source:
-            if "timetable-column-day" in line:
-                day = days[line[170:-13]]
-            elif "timetable-column-show" in line:
-                check[0] = False if "hide" in line else True
-            if check[1]:
-                time = line[4:-1]
-                if len(time) == 9:
-                    time = time[1::]
+        self.driver.get("https://animeschedule.net")
+        for i, day in enumerate(self.driver.find_elements_by_class_name("timetable-column")):
+            for show in day.find_elements_by_class_name("timetable-column-show"):
+                if show.get_attribute("chinese") != None:
+                    continue
+                title = show.find_element_by_class_name("show-title-bar").get_attribute("innerHTML")
+                time = show.find_element_by_class_name("show-air-time").get_attribute("innerHTML")
                 if time[0] == "0":
                     time = time[1::]
-                check[1] = False
-            elif check[0]:
-                if "show-air-time" in line:
-                    check[1] = True
-                elif 'show-poster' in line and not 'lazy' in line:
-                    cover = line.split()[2][5:-9]
-                    while cover[-3::] != "jpg":
-                        cover = cover[0:-4]
-                elif 'class="stream-link"' in line and 'title' in line:
-                    stream = line.split()
-                    streams.update({stream[6][7:-1]:stream[1][6:-1]})
-                elif "show-title-bar" in line and not "OVA" in line:
-                    title = line.split()[1::]
-                    title[0] = title[0][23::]
-                    title[-1] = title[-1][0:-5]
-                    title = unescape(" ".join(title))
-                    if "show-title-small" in title:
-                        title = title[19:-1]
-                    content = {
-                        'day': day,
-                        'time': time,
-                        'cover': cover,
-                        'streams': dict(sorted(streams.items(), key = lambda show: show[0]))
-                    }
-                    streams = {}
-                    if title in self.keys:
-                        if "Netflix" in content['streams']:
-                            content['streams'].pop("Netflix")
-                        if self.shows[self.keys[title]] == content:
-                            self.static.update({title: None})
-                        else:
-                            self.changes.update({title: content})
+                cover = show.find_element_by_class_name("show-poster").get_attribute("data-src")[0:-12]
+                streams = {}
+                for stream in show.find_elements_by_class_name("stream-link"):
+                    link = stream.get_attribute('href')
+                    streams.update({stream.get_attribute('title') : link})
+                content = {
+                    'day': i,
+                    'time': time,
+                    'cover': cover,
+                    'streams': dict(sorted(streams.items(), key = lambda show: show[0]))
+                }
+                if title in self.keys:
+                    if "Netflix" in content['streams']:
+                        content['streams'].pop("Netflix")
+                    if self.shows[self.keys[title]] == content:
+                        self.static.update({title: None})
                     else:
-                        self.new.update({title: content})
+                        self.changes.update({title: content})
+                else:
+                    self.new.update({title: content})
 
     def update(self):
         if len(self.changes) != 0 or len(self.new) != 0 or len(self.static) != len(self.keys):
@@ -89,6 +67,8 @@ class shows:
                 for stream in self.new[show]['streams']:
                     if stream in getTitle:
                         title = getTitle[stream](self.new[show]['streams'][stream])
+                        if title == "TIME_OUT":
+                            continue
                         while title != unescape(title):
                             title = unescape(title)
                         if stream == "Netflix":
@@ -178,11 +158,13 @@ class shows:
 
     def Funimation(self, url):
         self.driver.get(url)
-        while True:
+        i = 0
+        while i < 100:
             try:
                 return self.driver.find_element_by_class_name("text-md-h1").text
             except NoSuchElementException:
-                pass
+                i += 1
+        return "TIME_OUT"
 
     def HiDive(self, url):
         for line in self.getData(url):
