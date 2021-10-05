@@ -1,5 +1,5 @@
 "use strict";
-const titleList = Object.keys(Object.assign(STORE, PAST)).sort();
+const titleList = Object.keys(Object.assign({}, STORE, PAST)).sort();
 const search = document.getElementById('search');
 const titles = document.getElementById('titles');
 let indexLi = 99;
