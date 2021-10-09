@@ -21,7 +21,7 @@ RIGHT.style.visibility = "visible"
 window.onload = () => {
     let script = document.createElement('script')
     script.src = 'js/search.min.js'
-    let VERSION = "21.3.0"
+    let VERSION = "21.3.1"
     if (localStorage.getItem('ver') != VERSION) {
         localStorage.setItem('ver', VERSION)
         set("./shows/shows.json", "store")
