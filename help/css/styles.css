@@ -146,6 +146,18 @@ h1, h2, h3 {
     visibility: visible;
   }
 }
+aside {
+  position: fixed;
+  background: black;
+  height: 100vh;
+  margin-top: -10px;
+  margin-left: 17%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 1.25rem;
+}
+
 .line {
   border-top: 2px solid gray;
 }
@@ -156,11 +168,19 @@ h1, h2, h3 {
 }
 
 @media screen and (max-width: 1920px) {
+  aside {
+    margin-left: 0%;
+  }
+
   #content {
     width: 60%;
   }
 }
 @media screen and (max-width: 1200px) {
+  aside {
+    display: none;
+  }
+
   #content {
     width: 90%;
   }
