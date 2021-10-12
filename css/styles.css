@@ -162,7 +162,7 @@ h1, h2, h3 {
 }
 aside {
   position: fixed;
-  margin-top: 4rem !important;
+  margin-top: 1rem !important;
   width: 17.25%;
   left: 0.25%;
 }
