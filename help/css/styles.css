@@ -146,6 +146,10 @@ h1, h2, h3 {
     visibility: visible;
   }
 }
+a:hover {
+  text-decoration: underline;
+}
+
 aside {
   position: fixed;
   background: black;
@@ -156,10 +160,41 @@ aside {
   border-radius: 10px;
   padding: 15px;
   font-size: 1.25rem;
+  max-width: 14rem;
+}
+aside div {
+  border-bottom: 1px solid gray;
+}
+
+img {
+  width: 40vw;
+  border: 1px solid purple;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+table {
+  background: #27002b;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr > td, tr > th {
+  border: 2px solid black;
+  text-align: left;
+  padding: 5px;
 }
 
 .line {
   border-top: 2px solid gray;
+}
+
+.toc {
+  padding-left: 1.5rem;
+  box-decoration-break: clone;
 }
 
 #content {
@@ -172,6 +207,10 @@ aside {
     margin-left: 0%;
   }
 
+  img {
+    width: 60vw;
+  }
+
   #content {
     width: 60%;
   }
@@ -179,6 +218,10 @@ aside {
 @media screen and (max-width: 1200px) {
   aside {
     display: none;
+  }
+
+  img {
+    width: 90vw;
   }
 
   #content {

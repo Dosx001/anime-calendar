@@ -1,4 +1,5 @@
 # AnimeCalendar.github.io
+
 AnimeCalendar.github.io is a website to help you keep track of your seasonal anime across multiple
 streaming services. You can create your own list of anime and AnimeCalendar.github.io will track
 and display your watch history for the current week and last week. Mess around with
@@ -13,6 +14,7 @@ can handle it.
 ![website](https://i.imgur.com/WNCac2E.png)
 
 # Table of Contents
+
 * [Browser Compatibility](#browser-compatibility)
   * [Supported](#supported)
   * [Unsupported](#unsupported)
@@ -30,42 +32,60 @@ can handle it.
 * [Keyboard Shortcuts](#keyboard-shortcuts)
 
 # Browser Compatibility
+
 ## Supported
+
 * Mozilla Firefox
 * Chromium browsers
+
 ## Unsupported
+
 * Microsoft Edge (Legacy)
 * Internet Explorer
+
 ## Tested
+
 For the best possible experience use this browsers.
 
 * Mozilla Firefox
 * Google Chrome
 * Microsoft Edge (Chromium)
 
+
 # My List
+
 ## Add or Remove Anime
+
 Press the A key or click here.
 
 ![add/remove](https://i.imgur.com/kXo6Qtx.png)
+
 ## Switch between My List and Full List
+
 Press the L key or click here.
 
 ## Reset Watch History
+
 Press the R key or click here.
 
 # Calendar Button Types
+
 ## Default
+
 This just the normal look for all buttons.
 
 ## Your List
+
 This means that this anime is in Your List.
 
 ## Your List (Watched)
+
 This means that this anime is in Your List and you watch this week episode.
 
 # Settings
+
 ## Format Setting
+
 To access the Format setting press the F key or click here.
 
 ![format](https://i.imgur.com/V4Glbtp.png)
@@ -79,16 +99,20 @@ Four options will appear.
 |Daily|Work in progress. ETA N/A|
 
 ## Stream Info Setting
+
 To access the Stream Info setting press the I key or click here.
 
 ![stream info](https://i.imgur.com/4yx82iQ.png)
 Three options will appear. This options will determine how the anime information will display.
 
 ## Top View
+
 ## Side View
+
 ## Window View
 
 ## My Streams Setting
+
 When you select an anime, you may notices the numbers next to each stream. If you press any of your
 number keys you will open new tab based on corresponding stream. Pressing the number keys is fine
 and fast but not all anime have the same stream so this order of streams might feel randomized.
@@ -98,6 +122,7 @@ you press all the check boxes which stream you like. You can even change the ord
 by dragging each stream.
 
 # Search Bar
+
 Press the S key to quick access the search bar.
 
 The search bar is not case sensitivity but spelling will affect your results. However you do not
@@ -110,6 +135,7 @@ Demon Slayer. To avoid previous scenario you instead type "slay" and press enter
 will pop.
 
 # Keyboard Shortcuts
+
 |Key|Action|
 |---|---|
 |1 - 9|Opens a new tab to the stream for the selected anime|
