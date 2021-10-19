@@ -167,7 +167,7 @@ aside div {
 }
 
 img {
-  width: 40vw;
+  max-width: 40vw;
   border: 1px solid purple;
 }
 
@@ -208,7 +208,7 @@ tr > td, tr > th {
   }
 
   img {
-    width: 60vw;
+    max-width: 60vw;
   }
 
   #content {
@@ -221,7 +221,7 @@ tr > td, tr > th {
   }
 
   img {
-    width: 90vw;
+    max-width: 90vw;
   }
 
   #content {

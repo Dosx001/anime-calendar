@@ -19,7 +19,7 @@ aside {
     }
 }
 img {
-    width: 40vw;
+    max-width: 40vw;
     border: 1px solid purple;
 }
 h2 {
@@ -51,7 +51,7 @@ tr > td, tr > th {
         margin-left: 0%;
     }
     img {
-        width: 60vw;
+        max-width: 60vw;
     }
     #content {
         width: 60%;
@@ -62,7 +62,7 @@ tr > td, tr > th {
         display: none;
     }
     img {
-        width: 90vw;
+        max-width: 90vw;
     }
     #content {
         width: 90%;

@@ -74,13 +74,19 @@ Press the R key or click here.
 
 This just the normal look for all buttons.
 
+![](https://i.imgur.com/ogpEIZD.png)
+
 ## Your List
 
 This means that this anime is in Your List.
 
+![](https://i.imgur.com/xnoqKHR.png)
+
 ## Your List (Watched)
 
 This means that this anime is in Your List and you watch this week episode.
+
+![](https://i.imgur.com/PgERo8f.png)
 
 # Settings
 
@@ -103,14 +109,17 @@ Four options will appear.
 To access the Stream Info setting press the I key or click here.
 
 ![stream info](https://i.imgur.com/4yx82iQ.png)
-Three options will appear. This options will determine how the anime information will display.
+Three options will appear. These options will determine how the anime information will display.
 
 ## Top View
+![](https://i.imgur.com/5Z7OXcV.png)
 
 ## Side View
+![](https://i.imgur.com/VGSi8t8.png)
 
 ## Window View
 
+![](https://i.imgur.com/AlQgUG0.png)
 ## My Streams Setting
 
 When you select an anime, you may notices the numbers next to each stream. If you press any of your

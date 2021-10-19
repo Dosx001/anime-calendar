@@ -83,7 +83,7 @@ window.onload = () => {
                                     tr.append(td)
                                 }
                             }
-                            tr.childNodes[0].style.width = "30%"
+                            tr.childNodes[0].style.width = "20%"
                             ele.append(tr)
                             i++;
                         } while (lines[i].substring(0, 1) == "|")
