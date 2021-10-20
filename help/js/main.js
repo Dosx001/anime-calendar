@@ -24,7 +24,7 @@ window.onload = () => {
                     a.href = "#" + lines[i].split(" ").join("");
                     let div = document.createElement('div');
                     div.append(a);
-                    document.querySelector('aside').append(div);
+                    aside.append(div);
                     i++;
                 } while (lines[i].includes("*"));
                 num = i;

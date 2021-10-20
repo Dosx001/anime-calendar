@@ -5,8 +5,8 @@ window.onload = () => {
             return resp.text()
         })
         .then(txt => {
-            let content = document.getElementById('content')
-            let aside = document.querySelector('aside')
+            let content = document.getElementById('content')!
+            let aside = document.querySelector('aside')!
             let lines = txt.split("\n")
             let num = 0
             for (let i = 0; i < lines.length; i++) {
@@ -24,7 +24,7 @@ window.onload = () => {
                         a.href = "#" + lines[i].split(" ").join("")
                         let div = document.createElement('div')
                         div.append(a)
-                        document.querySelector('aside').append(div)
+                        aside.append(div)
                         i++
                     } while (lines[i].includes( "*"))
                     num = i
@@ -83,7 +83,7 @@ window.onload = () => {
                                     tr.append(td)
                                 }
                             }
-                            tr.childNodes[0].style.width = "20%"
+                            (<HTMLElement>tr.childNodes[0]).style.width = "20%"
                             ele.append(tr)
                             i++;
                         } while (lines[i].substring(0, 1) == "|")
