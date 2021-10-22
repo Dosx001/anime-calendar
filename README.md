@@ -155,8 +155,8 @@ will pop.
 |i|Focuses on the Stream Info settings options|
 |l|Switches between Your List and Full List|
 |m|Focuses on the calendar, allowing users to scroll using arrow keys|
-|n|Focuses on the right calendar button|
-|p|Focuses on the left calendar button|
+|n|Clicks the right calendar button (N for Next)|
+|p|Clicks the left calendar button (P for Previous)|
 |r|Resets watch history for the selected anime for the current week only|
 |s|Focuses on the search bar|
 |w|Opens a new tab to the stream based on the selected anime and My Streams preferences|

@@ -189,7 +189,9 @@ tr > td, tr > th {
 }
 
 .line {
-  border-top: 2px solid gray;
+  border: 2px solid black;
+  background: #27002b;
+  padding: 5px;
 }
 
 .toc {
@@ -200,6 +202,9 @@ tr > td, tr > th {
 #content {
   margin: auto;
   width: 40%;
+}
+#content img, #content p, #content table {
+  margin: 0 0 1rem 0;
 }
 
 @media screen and (max-width: 1920px) {

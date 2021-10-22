@@ -37,13 +37,18 @@ tr > td, tr > th {
     padding: 5px;
 }
 .line {
-    border-top: 2px solid gray;
+    border: 2px solid black;
+    background: $DarkPurple;
+    padding: 5px;
 }
 .toc {
     padding-left: 1.5rem;
     box-decoration-break: clone;
 }
 #content {
+    img, p, table {
+        margin: 0 0 1rem 0;
+    }
     @include container(40%);
 }
 @media screen and (max-width: 1920px) {
