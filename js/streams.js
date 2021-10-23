@@ -1,11 +1,9 @@
 "use strict";
 let drag;
 let dragover;
-let streams = JSON.parse(localStorage.getItem('streams'));
-if (streams == null)
-    streams =
-        [['AnimeLab', false], ['Crunchyroll', false], ['Funimation', false],
-            ['HiDive', false], ['Hulu', false], ['VRV', false], ['Wakanim', false], ['YouTube', false]];
+let streams = JSON.parse(localStorage.getItem('streams')) ??
+    [['AnimeLab', false], ['Crunchyroll', false], ['Funimation', false],
+        ['HiDive', false], ['Hulu', false], ['VRV', false], ['Wakanim', false], ['YouTube', false]];
 renderItems(streams);
 function renderItems(data) {
     let list = document.querySelector('.stream-box');
@@ -14,30 +12,30 @@ function renderItems(data) {
         let div = document.createElement("div");
         div.draggable = true;
         div.className = 'stream-drag';
-        div.addEventListener('drag', function () {
+        div.ondrag = function () {
             drag = this.innerText;
-        });
-        div.addEventListener('dragover', function (e) {
+        };
+        div.ondragover = function (e) {
             e.preventDefault();
             dragover = this.innerText;
-        });
-        div.addEventListener('drop', () => {
+        };
+        div.ondrop = () => {
             const index1 = index(drag);
             const index2 = index(dragover);
             streams.splice(index1, 1);
             streams.splice(index2, 0, [drag,
                 document.querySelector(`[name=${drag}]`).checked]);
             renderItems(streams);
-        });
+        };
         div.id = 's' + i;
         let input = document.createElement('input');
         input.type = 'checkbox';
         input.name = streams[i][0];
         input.className = 'stream-input';
-        input.addEventListener('click', function () {
+        input.onclick = function () {
             streams[parseInt(this.parentElement.id.substring(1))][1] = this.checked;
             localStorage.setItem('streams', JSON.stringify(streams));
-        });
+        };
         input.checked = streams[i][1];
         let label = document.createElement('label');
         label.className = 'stream-label';
