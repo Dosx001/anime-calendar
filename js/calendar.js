@@ -12,7 +12,7 @@ let RIGHT = document.getElementById("right");
 LEFT.style.visibility = "visible";
 RIGHT.style.visibility = "visible";
 window.onload = () => {
-    let VERSION = "21.3.1";
+    let VERSION = "21.3.2";
     if (localStorage.getItem('ver') != VERSION) {
         localStorage.setItem('ver', VERSION);
         set("./shows/shows.json", "store");

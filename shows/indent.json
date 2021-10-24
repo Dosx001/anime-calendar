@@ -37,17 +37,9 @@
         "streams": {
             "AnimeLab": "https://www.animelab.com/shows/boruto-naruto-next-generations",
             "Crunchyroll": "https://www.crunchyroll.com/boruto-naruto-next-generations",
+            "Funimation": "https://www.funimation.com/shows/boruto-naruto-next-generations-boruto-movie/",
             "Hulu": "https://www.hulu.com/series/boruto-naruto-next-generations-e567be4f-2fd8-4127-bc08-580baad908e3",
             "VRV": "https://vrv.co/series/GR75Q020Y/BORUTO-NARUTO-NEXT-GENERATIONS"
-        }
-    },
-    "Kingdom": {
-        "day": 7,
-        "time": "11:40 AM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kingdom-3-beb4b97fb8.jpg",
-        "streams": {
-            "AnimeLab": "https://www.animelab.com/shows/kingdom",
-            "Funimation": "https://www.funimation.com/shows/kingdom/"
         }
     },
     "Tropical-Rouge! Precure": {
@@ -107,16 +99,6 @@
             "YouTube": "https://www.youtube.com/playlist?list=PLhWipIfRhqz0ETNmxmG7jMNZCZX0_4_yy"
         }
     },
-    "Love Live! Superstar!!": {
-        "day": 1,
-        "time": "11:00 AM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/love-live-superstar-e0948795cb.jpg",
-        "streams": {
-            "Crunchyroll": "https://www.crunchyroll.com/love-live-superstar",
-            "Funimation": "https://www.funimation.com/shows/love-live-superstar/",
-            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1442/love-live-superstar"
-        }
-    },
     "The Great Jahy Will Not Be Defeated!": {
         "day": 6,
         "time": "11:45 AM",
@@ -131,15 +113,6 @@
         "time": "3:30 PM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/yu-gi-oh-sevens-a5be910077.jpg",
         "streams": {}
-    },
-    "Fena: Pirate Princess": {
-        "day": 7,
-        "time": "9:01 PM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kaizoku-oujo-a6f3661bd2.jpg",
-        "streams": {
-            "Crunchyroll": "https://www.crunchyroll.com/fena-pirate-princess",
-            "VRV": "https://vrv.co/series/GZJH3DPM1/Fena-Pirate-Princess"
-        }
     },
     "The Vampire Dies in No time": {
         "day": 1,
@@ -265,23 +238,13 @@
             "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1jvxZE-x5NVjJQz3pQquTI"
         }
     },
-    "The Way of the Househusband": {
-        "day": 4,
-        "time": "12:00 AM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/gokushufudou-2-2a15b4ca7b.jpg",
-        "streams": {}
-    },
     "BanG Dream! Garupa\u2606Pico Fever!": {
         "day": 4,
         "time": "6:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/bang-dream-garupa-pico-fever-540a8fec97.jpg",
-        "streams": {}
-    },
-    "Pok\u00e9mon Evolutions": {
-        "day": 4,
-        "time": "7:00 AM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/pokemon-evolutions-e5e511b2e3.jpg",
-        "streams": {}
+        "streams": {
+            "YouTube": "https://www.youtube.com/playlist?list=PLi6JjODFVq32885eIpU4RuymSG8AGPII_"
+        }
     },
     "Sakugan!!": {
         "day": 4,
@@ -301,24 +264,6 @@
             "Funimation": "https://www.funimation.com/shows/platinum-end/",
             "VRV": "https://vrv.co/series/G8DHV722J/Platinum-End"
         }
-    },
-    "Kamiari no Kodomo": {
-        "day": 5,
-        "time": "5:00 PM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kamiari-no-kodomo-708f2cee18.jpg",
-        "streams": {}
-    },
-    "Macross \u0394: Zettai LIVE!!!!!!": {
-        "day": 5,
-        "time": "5:00 PM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/macross-delta-zettai-live-c4d470af57.jpg",
-        "streams": {}
-    },
-    "Uchuu Senkan Yamato 2205: Aratanaru Tabidachi - Zenshou: Take Off": {
-        "day": 5,
-        "time": "5:00 PM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/uchuu-senkan-yamato-2205-aratanaru-tabidachi-zenshou-take-off-56e50eeb2e.jpg",
-        "streams": {}
     },
     "Pok\u00e9mon Journeys: The Series": {
         "day": 5,
@@ -379,6 +324,7 @@
         "time": "10:53 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/taishou-otome-otogibanashi-c73a7cc7f4.jpg",
         "streams": {
+            "Funimation": "https://www.funimation.com/shows/taisho-otome-fairy-tale/",
             "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1497/taisho-otome-fairy-tale",
             "YouTube": "https://www.youtube.com/playlist?list=PLWBgW1RHJJCR0rSMDvabds3HDpk3iripV"
         }
@@ -410,12 +356,6 @@
             "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhdByPH2YetobD2dOivIiGr"
         }
     },
-    "Dakaretai Otoko 1-i ni Odosarete Imasu.: Spain-hen": {
-        "day": 6,
-        "time": "5:00 PM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/dakaretai-otoko-1-i-ni-odosarete-imasu-spain-hen-f41d3376fb.jpg",
-        "streams": {}
-    },
     "Blue Period": {
         "day": 6,
         "time": "12:00 AM",
@@ -430,17 +370,8 @@
             "Crunchyroll": "https://www.crunchyroll.com/yashahime-princess-half-demon",
             "Funimation": "https://www.funimation.com/shows/yashahime-princess-half-demon/",
             "Hulu": "https://www.hulu.com/series/yashahime-princess-half-demon-75a9075a-938e-485a-8d60-88c8d6c6817f",
-            "VRV": "https://vrv.co/series/G63W41KD6/Yashahime-Princess-Half-Demon"
-        }
-    },
-    " Saihate no Paladin": {
-        "day": 6,
-        "time": "7:30 AM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/saihate-no-paladin-c8bc9026a5.jpg",
-        "streams": {
-            "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W8G1",
-            "VRV": "https://vrv.co/series/GEXH3W8G1",
-            "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jh_QWr3eCIlSbMAhE2eo-5r"
+            "VRV": "https://vrv.co/series/G63W41KD6/Yashahime-Princess-Half-Demon",
+            "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JiBkNCZlFsKwmdtzlUR4Y58"
         }
     },
     "Build Divide: Code Black": {
@@ -449,7 +380,8 @@
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/build-divide-code-black-f2cbe83c5a.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/build-divide-000000-code-black",
-            "Funimation": "https://www.funimation.com/shows/build-divide-000000-code-black/"
+            "Funimation": "https://www.funimation.com/shows/build-divide-000000-code-black/",
+            "VRV": "https://vrv.co/series/GG5H5XDE1/BUILD-DIVIDE-000000-CODE-BLACK"
         }
     },
     "Lupin III: Part VI": {
@@ -566,17 +498,6 @@
             "VRV": "https://vrv.co/series/GW4HM7PP7"
         }
     },
-    "Demon Slayer: Kimetsu no Yaiba": {
-        "day": 7,
-        "time": "7:15 AM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kimetsu-no-yaiba-yuukaku-hen-305a073fca.jpg",
-        "streams": {
-            "Crunchyroll": "https://crunchyroll.com/series/GY5P48XEY/Demon-Slayer-Kimetsu-no-Yaiba",
-            "Funimation": "https://www.funimation.com/shows/demon-slayer-kimetsu-no-yaiba",
-            "VRV": "https://vrv.co/series/GY5P48XEY/Demon-Slayer-Kimetsu-no-Yaiba",
-            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/479/demon-slayer-kimetsu-no-yaiba/season/3232/mugen-train-arc-sub"
-        }
-    },
     "Tesla Note": {
         "day": 7,
         "time": "7:30 AM",
@@ -603,7 +524,8 @@
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/tsuki-to-laika-to-nosferatu-66036b898f.jpg",
         "streams": {
             "Funimation": "https://www.funimation.com/shows/irina-the-vampire-cosmonaut/",
-            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1519/irina-the-vampire-cosmonaut"
+            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1519/irina-the-vampire-cosmonaut",
+            "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jh3O6xMZONZpvbnybf8-EcQ"
         }
     },
     "GANBARE DOUKICHAN": {
@@ -626,10 +548,112 @@
             "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1vULLPQdH4gjhkW8x_k0RQ"
         }
     },
-    "Macross Frontier: Toki no Meikyuu": {
-        "day": 5,
+    "Ancient Girl's Frame": {
+        "day": 1,
+        "time": "8:01 PM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/toushinki-g-s-frame-ce3d5d70ca.jpg",
+        "streams": {
+            "Funimation": "https://www.funimation.com/shows/ancient-girls-frame/"
+        }
+    },
+    "RUMBLE GARANNDOLL": {
+        "day": 1,
+        "time": "8:00 AM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/gyakuten-sekai-no-denchi-shoujo-5b7dca0535.jpg",
+        "streams": {
+            "Funimation": "https://www.funimation.com/shows/rumble-garanndoll/",
+            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1502/rumble-garanndoll",
+            "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3OjCmcapJ_gTsUedrF2j6-"
+        }
+    },
+    "Deep Insanity THE LOST CHILD": {
+        "day": 2,
+        "time": "9:30 AM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/deep-insanity-the-lost-child-c0265388b1.jpg",
+        "streams": {
+            "Funimation": "https://www.funimation.com/shows/deep-insanity-the-lost-child/",
+            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1515/deep-insanity-the-lost-child",
+            "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjmsVmFRjMFgquw0gsde2pR"
+        }
+    },
+    "KAGI-NADO": {
+        "day": 2,
+        "time": "9:30 AM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kaginado-121262dc22.jpg",
+        "streams": {
+            "Crunchyroll": "https://www.crunchyroll.com/kagi-nado",
+            "Funimation": "https://www.funimation.com/shows/kaginado/",
+            "HiDive": "https://www.hidive.com/movies/kaginado",
+            "VRV": "https://vrv.co/series/G3KHEV73Z",
+            "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3gRcH6U4L-LonrzmvlvvX0"
+        }
+    },
+    "Ore, Tsushima (ONA)": {
+        "day": 3,
         "time": "5:00 PM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/macross-frontier-toki-no-meikyuu-b0284285da.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/ore-tsushima-ona-8796a744c1.jpg",
+        "streams": {
+            "YouTube": "https://www.youtube.com/playlist?list=PLl7reuZgwQ_SqabG7CRuv9Shcg8_lGbfY"
+        }
+    },
+    "180 Byou de Kimi no Mimi wo Shiawase ni Dekiru ka?": {
+        "day": 4,
+        "time": "9:00 AM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/180-byou-de-kimi-no-mimi-wo-shiawase-ni-dekiru-ka-1961ff0c3a.jpg",
         "streams": {}
+    },
+    "Ranking of Kings": {
+        "day": 4,
+        "time": "10:25 AM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/ousama-ranking-8201a3fcda.jpg",
+        "streams": {
+            "Funimation": "https://www.funimation.com/shows/ranking-of-kings/",
+            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1492/ranking-of-kings"
+        }
+    },
+    "The Faraway Paladin": {
+        "day": 6,
+        "time": "7:30 AM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/saihate-no-paladin-c8bc9026a5.jpg",
+        "streams": {
+            "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W8G1",
+            "VRV": "https://vrv.co/series/GEXH3W8G1",
+            "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jh_QWr3eCIlSbMAhE2eo-5r"
+        }
+    },
+    "Demon Slayer: Kimetsu no Yaiba": {
+        "day": 7,
+        "time": "8:45 AM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kimetsu-no-yaiba-yuukaku-hen-305a073fca.jpg",
+        "streams": {
+            "Crunchyroll": "https://crunchyroll.com/series/GY5P48XEY/Demon-Slayer-Kimetsu-no-Yaiba",
+            "Funimation": "https://www.funimation.com/shows/demon-slayer-kimetsu-no-yaiba",
+            "Hulu": "https://www.hulu.com/series/2c3e4b00-30d9-434d-bccc-cf346e40e868",
+            "VRV": "https://vrv.co/series/GY5P48XEY/Demon-Slayer-Kimetsu-no-Yaiba",
+            "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/479/demon-slayer-kimetsu-no-yaiba/season/3232/mugen-train-arc-sub"
+        }
+    },
+    "Gundam Breaker: Battlogue": {
+        "day": 2,
+        "time": "5:30 AM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/gundam-breaker-battlogue-2663aa1aa8.jpg",
+        "streams": {
+            "YouTube": "https://www.youtube.com/playlist?list=PLJV1h9xQ7Hx8E10pELJWrAMDND3zOapLy"
+        }
+    },
+    "Kobayashi-san Chi no Maid Dragon S: Mini Dra Specials": {
+        "day": 3,
+        "time": "5:00 PM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kobayashi-san-chi-no-maid-dragon-s-mini-dragon-specials-2937abf331.jpg",
+        "streams": {}
+    },
+    "Obey Me!": {
+        "day": 5,
+        "time": "1:01 AM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/obey-me-ce15c6db0a.jpg",
+        "streams": {
+            "Funimation": "https://www.funimation.com/shows/obey-me/",
+            "YouTube": "https://www.youtube.com/watch?v=ApCzUcs7sUU&list=PLjtqZEeWgUQvjGVVvS5pVBZlnzGgcAXWU"
+        }
     }
 }

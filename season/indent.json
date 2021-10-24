@@ -19,13 +19,70 @@
         ]
     },
     "Baraou no Souretsu": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/baraou-no-souretsu-cb2f385ec6.jpg",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/baraou-no-souretsu-b93e238e9e.jpg",
         "Studio": "J.C. Staff",
         "Source": "Manga",
         "Genres": [
             "Action",
             "Drama",
             "Historical"
+        ]
+    },
+    "Cue!": {
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/cue-5913a65cce.jpg?w=5&h=5",
+        "Studio": "Graphinica",
+        "Source": "Video Game",
+        "Genres": [
+            "Music"
+        ]
+    },
+    "Dolls' Frontline": {
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/dolls-frontline-4a6527b01f.jpg?w=5&h=5",
+        "Studio": "Asahi Production",
+        "Source": "Video Game",
+        "Genres": [
+            "Action",
+            "Drama",
+            "Military"
+        ]
+    },
+    "Fantasy Bishoujo Juniku Ojisan to": {
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/fantasy-bishoujo-juniku-ojisan-to-e23f7bfe58.jpg?w=5&h=5",
+        "Studio": "N/A",
+        "Source": "Manga",
+        "Genres": [
+            "Adventure",
+            "Comedy",
+            "Fantasy"
+        ]
+    },
+    "Genjitsu Shugi Yuusha no Oukoku Saikenki Part 2": {
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/genjitsu-shugi-yuusha-no-oukoku-saikenki-part-2-55a4186cee.jpg?w=5&h=5",
+        "Studio": "J.C. Staff",
+        "Source": "Light Novel",
+        "Genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ]
+    },
+    "Hakozume: Koban Joshi no Gyakushuu": {
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/hakozume-kouban-joshi-no-gyakushuu-0f452dc9f2.jpg?w=5&h=5",
+        "Studio": "MADHOUSE",
+        "Source": "Manga",
+        "Genres": [
+            "Comedy",
+            "Drama",
+            "Police"
+        ]
+    },
+    "Kaijin Kaihatsubu no Kuroitsu-san": {
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kaijin-kaihatsu-bu-no-kuroitsu-san-b916dedd53.jpg?w=5&h=5",
+        "Studio": "Quad",
+        "Source": "Manga",
+        "Genres": [
+            "Comedy",
+            "Fantasy"
         ]
     },
     "Karakai Jouzu no Takagi-san 3": {
@@ -58,6 +115,16 @@
             "Isekai"
         ]
     },
+    "Mahouka Koukou no Rettousei: Tsuioku-hen": {
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/mahouka-koukou-no-rettousei-tsuioku-hen-adb66bf228.jpg?w=5&h=5",
+        "Studio": "8bit",
+        "Source": "Light Novel",
+        "Genres": [
+            "Action",
+            "Romance",
+            "Sci-Fi"
+        ]
+    },
     "Orient": {
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/orient-757f93ec6c.jpg?w=5&h=5",
         "Studio": "A.C.G.T.",
@@ -78,6 +145,14 @@
             "Comedy"
         ]
     },
+    "Ryman's Club": {
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/rymans-club-57fc6d89fb.jpg?w=5&h=5",
+        "Studio": "LIDENFILMS",
+        "Source": "Original",
+        "Genres": [
+            "Sports"
+        ]
+    },
     "Sabiiro no Armor": {
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/sabiiro-no-armor-dc2963e356.jpg?w=5&h=5",
         "Studio": "N/A",
@@ -85,6 +160,16 @@
         "Genres": [
             "Action",
             "Historical"
+        ]
+    },
+    "Sabikui Bisco": {
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/sabikui-bisco-e88f466b78.jpg?w=5&h=5",
+        "Studio": "OZ",
+        "Source": "Light Novel",
+        "Genres": [
+            "Action",
+            "Adventure",
+            "Fantasy"
         ]
     },
     "Saiyuuki Reload: Zeroin": {
@@ -142,6 +227,15 @@
         "Genres": [
             "Comedy",
             "Fantasy"
+        ]
+    },
+    "Tribe Nine": {
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/tribe-nine-bae0db5595.jpg?w=5&h=5",
+        "Studio": "LIDENFILMS",
+        "Source": "Other",
+        "Genres": [
+            "Action",
+            "Sports"
         ]
     },
     "Vanitas no Carte 2": {
