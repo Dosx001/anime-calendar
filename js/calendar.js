@@ -12,8 +12,6 @@ let RIGHT = document.getElementById("right");
 LEFT.style.visibility = "visible";
 RIGHT.style.visibility = "visible";
 window.onload = () => {
-    let script = document.createElement('script');
-    script.src = 'js/search.min.js';
     let VERSION = "21.3.1";
     if (localStorage.getItem('ver') != VERSION) {
         localStorage.setItem('ver', VERSION);
@@ -27,12 +25,12 @@ window.onload = () => {
             localStorage.setItem('shows', JSON.stringify(shows));
         }).finally(() => {
             TheBigBang();
-            document.body.append(script);
+            new Search(STORE, PAST);
         });
     }
     else {
         TheBigBang();
-        document.body.append(script);
+        new Search(STORE, PAST);
     }
     new Streams();
 };
