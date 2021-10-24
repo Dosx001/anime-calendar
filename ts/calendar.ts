@@ -39,6 +39,7 @@ window.onload = () => {
         TheBigBang();
         document.body.append(script)
     }
+    new Streams()
 }
 
 window.matchMedia('(min-width: 1200px)').addListener(_ => {
