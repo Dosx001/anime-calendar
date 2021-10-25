@@ -3,7 +3,7 @@ clear
 tsc
 if [[ $# -eq 0 ]]
 then
-    for file in 'main' 'calendar' 'list' 'search' 'streams' 'season' 'nav'
+    for file in 'main' 'calendar' 'search' 'streams' 'season' 'nav'
     do
         terser -c -m -- js/$file.js > js/$file.min.js
         echo 'Done:' $file
@@ -16,8 +16,6 @@ else
                 file='main';;
             'c')
                 file='calendar';;
-            'l')
-                file='list';;
             's')
                 file='search';;
             't')

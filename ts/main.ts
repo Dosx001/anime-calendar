@@ -21,7 +21,7 @@ RIGHT.style.visibility = "visible"
 let cal = new Calendar()
 
 window.onload = () => {
-    let VERSION = "21.3.1"
+    let VERSION = "21.3.2"
     if (localStorage.getItem('ver') != VERSION) {
         localStorage.setItem('ver', VERSION)
         set("./shows/shows.json", "store")
@@ -48,14 +48,8 @@ window.matchMedia('(min-width: 1200px)').addListener(_ => {
     })
 })
 
-async function set(file: string, key: string) {
-    let data = await (await fetch(file)).json()
-    key == 'store' ? STORE = data : PAST = data
-    localStorage.setItem(key, JSON.stringify(data))
-}
-
 document.addEventListener('keydown', e => {
-    if (cal.hotkey(e)) {
+    if (!((<HTMLElement>e.target!).id == "search" || e.ctrlKey || e.altKey)) {
         switch(e.key) {
             case "c":
                 cal.clear()
@@ -87,5 +81,57 @@ document.addEventListener('keydown', e => {
             case "Enter":
                 (<HTMLElement>e.target!).blur()
         }
+        if (document.getElementById('show')) {
+            switch (e.key) {
+                case "a":
+                    cal.setter()
+                    break
+                case "n":
+                case "p":
+                    cal.arrow()
+                    break
+                case "r":
+                    cal.Reset()
+                    break
+                case "w":
+                    let urls: {[key: string]: string} = {}
+                    document.querySelectorAll<HTMLAnchorElement>('.stream').forEach(
+                        ele => urls[ele.innerText.substring(1)] = ele.href
+                    )
+                    let streams = JSON.parse(localStorage.getItem('streams')!)
+                    let check = true
+                    for (const i in streams) {
+                        if (streams[i][1] && streams[i][0] in urls) {
+                            window.open(urls[streams[i][0]])
+                            check = false
+                            cal.Stream()
+                            break
+                        }
+                    }
+                    if (check) {
+                        let box = <HTMLElement>document.querySelector('.stream-box')!
+                        box.style.backgroundColor = 'darkred'
+                        setTimeout(() => box.style.backgroundColor = 'black', 50);
+                    }
+                    break
+                case "1":
+                case "2":
+                case "3":
+                case "4":
+                case "5":
+                case "6":
+                case "7":
+                case "8":
+                case "9":
+                    cal.link(`${parseInt(e.key) - 1}`)
+            }
+            e.stopImmediatePropagation()
+        }
     }
 })
+
+async function set(file: string, key: string) {
+    let data = await (await fetch(file)).json()
+    key == 'store' ? STORE = data : PAST = data
+    localStorage.setItem(key, JSON.stringify(data))
+}

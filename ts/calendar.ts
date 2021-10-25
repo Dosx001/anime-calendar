@@ -9,10 +9,6 @@ Date.prototype.getWeek = function() {
 }
 
 class Calendar {
-    hotkey(e: KeyboardEvent) {
-        return (<HTMLElement>e.target!).id == "search" || e.ctrlKey || e.altKey ? false : true
-    }
-
     format() {
         localStorage.setItem('format', (<HTMLSelectElement>document.getElementById('format')!).value)
         LEFT.style.visibility == 'visible' ? this.TheBigBang() : this.TheBigBang(-7)
@@ -348,7 +344,7 @@ class Calendar {
             let a = document.createElement('a')
             a.id = "0"
             a.className = 'stream'
-            a.onclick = () => Stream()
+            a.onclick = () => this.Stream()
             a.href = "#"
             a.append(img)
             a.innerHTML += " High Seas"
@@ -397,7 +393,7 @@ class Calendar {
                 a.href = link
                 a.target = '_blank'
                 a.className = 'stream'
-                a.onclick = () => Stream()
+                a.onclick = () => this.Stream()
                 a.append(img)
                 a.innerHTML += ' ' + stream
                 td = document.createElement('td')
@@ -412,12 +408,12 @@ class Calendar {
         let shows = JSON.parse(localStorage.getItem('shows')!)
         let set = document.createElement('button')
         set.className = 'setter'
-        set.onclick = () => setter()
+        set.onclick = () => this.setter()
         show in shows ?
             (set.id = "sub", set.innerHTML = 'Remove from Your List') :
             (set.id = "add", set.innerHTML = 'Add to Your List')
         let reset = document.createElement('button')
-        reset.onclick = () => Reset()
+        reset.onclick = () => this.Reset()
         reset.id = 'reset'
         reset.innerHTML = 'Reset';
         reset.style.visibility = show in shows &&
@@ -470,5 +466,73 @@ class Calendar {
             localStorage.setItem('shows', JSON.stringify(shows))
         }
         localStorage.setItem('time', JSON.stringify(now))
+    }
+
+    link(id: string) {
+        let ele = <HTMLAnchorElement>document.getElementById(id)
+        if (ele) this.Stream(); if (!ele.href.includes(window.location.host)) window.open(ele.href);
+    }
+
+    Stream() {
+        let title = document.getElementById('title')!.innerHTML
+        let shows = JSON.parse(localStorage.getItem("shows")!)
+        if (title in shows) {
+            this.updateSetter(shows, title, true)
+            document.getElementById(cal.ider_show(title))!.style.color = "#4f4f4f"
+            document.getElementById('reset')!.style.visibility = 'visible'
+        }
+        localStorage.setItem('shows', JSON.stringify(shows))
+    }
+
+    updateSetter(shows: {[key: string]: boolean[]}, title: string, Bool: boolean) {
+        LEFT.style.visibility == 'visible'
+            ? shows[title][0] = Bool : shows[title][1] = Bool
+    }
+
+    Reset() {
+        let title = document.getElementById('title')!.innerHTML
+        let shows = JSON.parse(localStorage.getItem("shows")!)
+        this.updateSetter(shows, title, false)
+        document.getElementById(cal.ider_show(title))!.style.color = 'purple'
+        document.getElementById('reset')!.style.visibility = 'hidden'
+        localStorage.setItem('shows', JSON.stringify(shows))
+    }
+
+    arrow() {
+        let title: HTMLElement | string = document.getElementById('title')!
+        if (title) {
+            title = title.innerHTML
+            let shows = JSON.parse(localStorage.getItem("shows")!)
+            if (document.getElementById('season')) document.getElementById('show')!.remove();
+            else if (title in shows) {
+                document.getElementById('reset')!.style.visibility =
+                    (LEFT.style.visibility == 'visible' ?
+                    shows[title][0]:shows[title][1]) ?
+                    'visible' : 'hidden'
+            }
+        }
+    }
+
+    setter() {
+        let title = document.getElementById('title')!.innerHTML
+        let setter = document.querySelector('.setter')!
+        let shows = JSON.parse(localStorage.getItem("shows")!)
+        if (setter.id == 'add') {
+            let ele = document.getElementById(cal.ider_show(title))!
+            if (ele) ele.style.borderColor = "#4f004f";
+            setter.innerHTML = "Remove from Your List"
+            setter.id = "sub"
+            shows[title] = [false, false]
+        }
+        else if (shows != null && title in shows) {
+            delete shows[title]
+            document.getElementById('reset')!.style.visibility = 'hidden'
+            document.getElementById(cal.ider_show(title))!.style.borderColor = '#484848'
+            setter.innerHTML = "Add to Your List"
+            setter.id = "add"
+        }
+        localStorage.setItem('shows', JSON.stringify(shows))
+        let list = <HTMLElement>document.getElementById('list')!
+        if (list.innerHTML == "Full List") LEFT.style.visibility == 'visible' ? cal.TheBigBang():cal.TheBigBang(-7);
     }
 }
