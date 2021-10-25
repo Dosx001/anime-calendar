@@ -1,9 +1,10 @@
 #!/bin/bash
-vim -p index.html index.html index.html index.html css/base.scss index.html \
+vim -p index.html index.html index.html index.html index.html css/base.scss index.html \
+    "+vs ts/calendar.ts | tabn" \
     "+vs ts/list.ts | tabn" \
     "+vs ts/search.ts | tabn" \
     "+vs ts/streams.ts | tabn" \
     "+vs ts/season.ts | tabn" \
     "+vs css/styles.scss | tabn" \
-    "+vs ts/calendar.ts" \
+    "+vs ts/main.ts" \
     "+tabmove 0"

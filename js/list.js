@@ -1,6 +1,6 @@
 "use strict";
 document.addEventListener('keydown', e => {
-    if (hotkey(e) && document.getElementById('show')) {
+    if (cal.hotkey(e) && document.getElementById('show')) {
         switch (e.key) {
             case "a":
                 setter();
@@ -57,7 +57,7 @@ function Stream() {
     let shows = JSON.parse(localStorage.getItem("shows"));
     if (title in shows) {
         updateSetter(shows, title, true);
-        document.getElementById(ider_show(title)).style.color = "#4f4f4f";
+        document.getElementById(cal.ider_show(title)).style.color = "#4f4f4f";
         document.getElementById('reset').style.visibility = 'visible';
     }
     localStorage.setItem('shows', JSON.stringify(shows));
@@ -70,7 +70,7 @@ function Reset() {
     let title = document.getElementById('title').innerHTML;
     let shows = JSON.parse(localStorage.getItem("shows"));
     updateSetter(shows, title, false);
-    document.getElementById(ider_show(title)).style.color = 'purple';
+    document.getElementById(cal.ider_show(title)).style.color = 'purple';
     document.getElementById('reset').style.visibility = 'hidden';
     localStorage.setItem('shows', JSON.stringify(shows));
 }
@@ -94,7 +94,7 @@ function setter() {
     let setter = document.querySelector('.setter');
     let shows = JSON.parse(localStorage.getItem("shows"));
     if (setter.id == 'add') {
-        let ele = document.getElementById(ider_show(title));
+        let ele = document.getElementById(cal.ider_show(title));
         if (ele)
             ele.style.borderColor = "#4f004f";
         setter.innerHTML = "Remove from Your List";
@@ -104,12 +104,12 @@ function setter() {
     else if (shows != null && title in shows) {
         delete shows[title];
         document.getElementById('reset').style.visibility = 'hidden';
-        document.getElementById(ider_show(title)).style.borderColor = '#484848';
+        document.getElementById(cal.ider_show(title)).style.borderColor = '#484848';
         setter.innerHTML = "Add to Your List";
         setter.id = "add";
     }
     localStorage.setItem('shows', JSON.stringify(shows));
     let list = document.getElementById('list');
     if (list.innerHTML == "Full List")
-        LEFT.style.visibility == 'visible' ? TheBigBang() : TheBigBang(-7);
+        LEFT.style.visibility == 'visible' ? cal.TheBigBang() : cal.TheBigBang(-7);
 }

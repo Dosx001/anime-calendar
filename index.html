@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <script src="js/calendar.min.js" defer></script>
+    <script src="js/main.min.js" defer></script>
     <script src="js/streams.min.js" defer></script>
     <script src="js/search.min.js" defer></script>
     <script src="js/nav.min.js" defer></script>
@@ -43,7 +44,7 @@
         <h2>Settings</h2>
           <div class='dropbox'>
             <label for="format">Format</label>
-            <select class="custom-select" id="format" onchange='format()'>
+            <select class="custom-select" id="format" onchange='cal.format()'>
               <option value="0">Calendar - Full</option>
               <option value="1">Calendar - Cutoff</option>
               <option value="2">Calendar - Compact</option>
@@ -52,7 +53,7 @@
           </div>
           <div class='dropbox'>
             <label for="info">Stream Info</label>
-            <select class="custom-select" id="info" onchange='info()'>
+            <select class="custom-select" id="info" onchange='cal.info()'>
               <option value="0">Top View</option>
               <option value="1">Side View</option>
               <option value="2">Window View</option>
@@ -66,13 +67,13 @@
     <div id="content"></div>
     <div id="center">
       <div id="center-left">
-        <button type="button" class="arrow" id="left" onclick='left();arrow()'> &#9665; </button>
-        <button type="button" class="arrow" id="right" onclick='right();arrow()'> &#9655; </button>
+        <button type="button" class="arrow" id="left" onclick='cal.left();arrow()'> &#9665; </button>
+        <button type="button" class="arrow" id="right" onclick='cal.right();arrow()'> &#9655; </button>
         <text id="month"></text>
       </div>
       <div id="center-right" align="right">
-        <button id="clear" onclick='window.clear()'>Clear</button>
-        <button id="list" onclick='list()'>Your List</button>
+        <button id="clear" onclick='cal.clear()'>Clear</button>
+        <button id="list" onclick='cal.list()'>Your List</button>
       </div>
     </div>
     <div id="calendar"></div>

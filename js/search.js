@@ -13,7 +13,7 @@ class Search {
                 case "Enter":
                     let input = document.getElementById((this.indexLi == 99 ? this.indexLi + 1 : this.indexLi).toString());
                     if (this.search.value && input)
-                        streamInfo(input.innerHTML);
+                        cal.streamInfo(input.innerHTML);
                     this.search.value = "";
                     this.titles.style.display = "none";
                     this.search.blur();
@@ -55,7 +55,7 @@ class Search {
                     li.tabIndex = i - 100;
                     i++;
                     li.onclick = e => {
-                        streamInfo(e.target.innerHTML);
+                        cal.streamInfo(e.target.innerHTML);
                         this.search.value = "";
                         this.titles.style.display = "none";
                     };
