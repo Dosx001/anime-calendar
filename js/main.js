@@ -7,15 +7,11 @@ if (localStorage.getItem('list'))
     document.getElementById('list').innerHTML = localStorage.getItem('list');
 if (!localStorage.getItem('shows'))
     localStorage.setItem('shows', JSON.stringify({}));
-let LEFT = document.getElementById("left");
-let RIGHT = document.getElementById("right");
-LEFT.style.visibility = "visible";
-RIGHT.style.visibility = "visible";
 let cal = new Calendar();
 window.onload = () => {
-    let VERSION = "21.3.2";
-    if (localStorage.getItem('ver') != VERSION) {
-        localStorage.setItem('ver', VERSION);
+    const ver = "21.3.2";
+    if (localStorage.getItem('ver') != ver) {
+        localStorage.setItem('ver', ver);
         set("./shows/shows.json", "store");
         set("./shows/past_shows.json", "past")
             .then(() => {
@@ -25,12 +21,12 @@ window.onload = () => {
                     delete shows[show];
             localStorage.setItem('shows', JSON.stringify(shows));
         }).finally(() => {
-            cal.TheBigBang();
+            cal.init();
             new Search(STORE, PAST);
         });
     }
     else {
-        cal.TheBigBang();
+        cal.init();
         new Search(STORE, PAST);
     }
     new Streams();
@@ -40,7 +36,7 @@ window.matchMedia('(min-width: 1200px)').addListener(_ => {
         [ele.innerHTML, ele.title] = [ele.title, ele.innerHTML];
     });
 });
-document.addEventListener('keydown', e => {
+document.onkeydown = e => {
     if (!(e.target.id == "search" || e.ctrlKey || e.altKey)) {
         switch (e.key) {
             case "c":
@@ -60,10 +56,10 @@ document.addEventListener('keydown', e => {
                 Cal ? Cal.focus() : document.getElementById('season').focus();
                 break;
             case "n":
-                cal.right();
+                cal.Right();
                 break;
             case "p":
-                cal.left();
+                cal.Left();
                 break;
             case "s":
                 document.getElementById('search').focus();
@@ -118,7 +114,7 @@ document.addEventListener('keydown', e => {
             e.stopImmediatePropagation();
         }
     }
-});
+};
 async function set(file, key) {
     let data = await (await fetch(file)).json();
     key == 'store' ? STORE = data : PAST = data;

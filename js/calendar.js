@@ -5,9 +5,15 @@ Date.prototype.getWeek = function () {
     return Math.ceil((((date.valueOf() - new Date(date.getFullYear(), 0, 1).valueOf()) / 86400000)) / 7);
 };
 class Calendar {
+    constructor() {
+        this.left = document.getElementById("left");
+        this.right = document.getElementById("right");
+        this.left.style.visibility = "visible";
+        this.right.style.visibility = "visible";
+    }
     format() {
         localStorage.setItem('format', document.getElementById('format').value);
-        LEFT.style.visibility == 'visible' ? this.TheBigBang() : this.TheBigBang(-7);
+        this.left.style.visibility == 'visible' ? this.init() : this.init(-7);
     }
     clear() {
         let show = document.getElementById('show');
@@ -22,34 +28,34 @@ class Calendar {
         list.innerHTML = list.innerHTML == 'Full List' ? 'Your List' : 'Full List';
         localStorage.setItem('list', list.innerHTML);
         if (document.getElementById('calendar'))
-            LEFT.style.visibility == 'visible' ? this.TheBigBang() : this.TheBigBang(-7);
+            this.left.style.visibility == 'visible' ? this.init() : this.init(-7);
     }
-    left() {
-        if (LEFT.style.visibility == "visible") {
-            if (RIGHT.style.visibility == "visible") {
-                LEFT.style.visibility = "hidden";
-                this.TheBigBang(-7);
+    Left() {
+        if (this.left.style.visibility == "visible") {
+            if (this.right.style.visibility == "visible") {
+                this.left.style.visibility = "hidden";
+                this.init(-7);
             }
             else {
-                RIGHT.style.visibility = "visible";
-                LEFT.style.visibility = "visible";
-                this.TheBigBang();
+                this.right.style.visibility = "visible";
+                this.left.style.visibility = "visible";
+                this.init();
             }
         }
     }
-    right() {
-        if (RIGHT.style.visibility == "visible") {
-            if (LEFT.style.visibility == "visible") {
-                RIGHT.style.visibility = "hidden";
+    Right() {
+        if (this.right.style.visibility == "visible") {
+            if (this.left.style.visibility == "visible") {
+                this.right.style.visibility = "hidden";
                 document.getElementById('clear').style.visibility = 'hidden';
                 document.getElementById('calendar').remove();
                 document.getElementById('month').innerHTML = "Winter 2021";
                 season();
             }
             else {
-                RIGHT.style.visibility = "visible";
-                LEFT.style.visibility = "visible";
-                this.TheBigBang();
+                this.right.style.visibility = "visible";
+                this.left.style.visibility = "visible";
+                this.init();
             }
         }
     }
@@ -58,7 +64,7 @@ class Calendar {
         if (document.getElementById('title'))
             this.streamInfo(document.getElementById('title').innerHTML);
     }
-    TheBigBang(offset = 0) {
+    init(offset = 0) {
         let cal = document.getElementById('calendar');
         cal ? cal.remove() : document.getElementById('season').remove();
         this.updateTime();
@@ -195,7 +201,7 @@ class Calendar {
                 button.innerHTML = show;
                 if (show in shows) {
                     button.style.borderColor = "#4f004f";
-                    button.style.color = (LEFT.style.visibility == 'visible' ?
+                    button.style.color = (this.left.style.visibility == 'visible' ?
                         shows[show][0] : shows[show][1]) ?
                         "#4f4f4f" : "purple";
                 }
@@ -407,7 +413,7 @@ class Calendar {
         reset.id = 'reset';
         reset.innerHTML = 'Reset';
         reset.style.visibility = show in shows &&
-            (LEFT.style.visibility == 'visible' ? shows[show][0] : shows[show][1]) ?
+            (this.left.style.visibility == 'visible' ? shows[show][0] : shows[show][1]) ?
             'visible' : 'hidden';
         let output;
         let streams;
@@ -477,7 +483,7 @@ class Calendar {
         localStorage.setItem('shows', JSON.stringify(shows));
     }
     updateSetter(shows, title, Bool) {
-        LEFT.style.visibility == 'visible'
+        this.left.style.visibility == 'visible'
             ? shows[title][0] = Bool : shows[title][1] = Bool;
     }
     Reset() {
@@ -497,7 +503,7 @@ class Calendar {
                 document.getElementById('show').remove();
             else if (title in shows) {
                 document.getElementById('reset').style.visibility =
-                    (LEFT.style.visibility == 'visible' ?
+                    (this.left.style.visibility == 'visible' ?
                         shows[title][0] : shows[title][1]) ?
                         'visible' : 'hidden';
             }
@@ -525,6 +531,6 @@ class Calendar {
         localStorage.setItem('shows', JSON.stringify(shows));
         let list = document.getElementById('list');
         if (list.innerHTML == "Full List")
-            LEFT.style.visibility == 'visible' ? cal.TheBigBang() : cal.TheBigBang(-7);
+            this.left.style.visibility == 'visible' ? cal.init() : cal.init(-7);
     }
 }
