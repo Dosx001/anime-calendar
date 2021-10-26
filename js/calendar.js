@@ -5,105 +5,66 @@ Date.prototype.getWeek = function () {
     return Math.ceil((((date.valueOf() - new Date(date.getFullYear(), 0, 1).valueOf()) / 86400000)) / 7);
 };
 class Calendar {
-    constructor() {
+    constructor(ver) {
         this.left = document.getElementById("left");
         this.right = document.getElementById("right");
         this.left.style.visibility = "visible";
         this.right.style.visibility = "visible";
-    }
-    format() {
-        localStorage.setItem('format', document.getElementById('format').value);
-        this.left.style.visibility == 'visible' ? this.init() : this.init(-7);
-    }
-    clear() {
-        let show = document.getElementById('show');
-        if (show) {
-            show.remove();
-            document.getElementById('clear').style.visibility = 'hidden';
-            document.getElementById('calendar').style.height = '85vh';
+        this.past = JSON.parse(localStorage.getItem('past'));
+        this.store = JSON.parse(localStorage.getItem('store'));
+        if (localStorage.getItem('ver') != ver) {
+            localStorage.setItem('ver', ver);
+            this.set("./shows/shows.json", "store");
+            this.set("./shows/past_shows.json", "past")
+                .then(() => {
+                let shows = JSON.parse(localStorage.getItem('shows'));
+                for (let show in shows)
+                    if (!(show in this.store || show in this.past))
+                        delete shows[show];
+                localStorage.setItem('shows', JSON.stringify(shows));
+            });
         }
     }
-    list() {
-        let list = document.getElementById('list');
-        list.innerHTML = list.innerHTML == 'Full List' ? 'Your List' : 'Full List';
-        localStorage.setItem('list', list.innerHTML);
-        if (document.getElementById('calendar'))
-            this.left.style.visibility == 'visible' ? this.init() : this.init(-7);
+    async set(file, key) {
+        let data = await (await fetch(file)).json();
+        key == 'store' ? cal.store = data : cal.past = data;
+        localStorage.setItem(key, JSON.stringify(data));
     }
-    Left() {
-        if (this.left.style.visibility == "visible") {
-            if (this.right.style.visibility == "visible") {
-                this.left.style.visibility = "hidden";
-                this.init(-7);
-            }
-            else {
-                this.right.style.visibility = "visible";
-                this.left.style.visibility = "visible";
-                this.init();
-            }
-        }
-    }
-    Right() {
-        if (this.right.style.visibility == "visible") {
-            if (this.left.style.visibility == "visible") {
-                this.right.style.visibility = "hidden";
-                document.getElementById('clear').style.visibility = 'hidden';
-                document.getElementById('calendar').remove();
-                document.getElementById('month').innerHTML = "Winter 2021";
-                season();
-            }
-            else {
-                this.right.style.visibility = "visible";
-                this.left.style.visibility = "visible";
-                this.init();
-            }
-        }
-    }
-    info() {
-        localStorage.setItem('info', document.getElementById('info').value);
-        if (document.getElementById('title'))
-            this.streamInfo(document.getElementById('title').innerHTML);
-    }
-    init(offset = 0) {
+    async init(offset = 0) {
         let cal = document.getElementById('calendar');
         cal ? cal.remove() : document.getElementById('season').remove();
         this.updateTime();
         let format = localStorage.getItem('format');
-        fetch(offset == 0 ? "./shows/time.json" : "./shows/past_time.json")
-            .then(resp => {
-            return resp.json();
-        })
-            .then(data => {
+        let data = await (await fetch(offset == 0 ? "./shows/time.json" : "./shows/past_time.json")).json();
+        switch (format) {
+            case "1":
+                data = data['cutoff'];
+                break;
+            case "2":
+                data = data['compact'];
+                break;
+            default:
+                data = data['full'];
+        }
+        let times;
+        if (localStorage.getItem('list') == "Your List"
+            || Object.keys(JSON.parse(localStorage.getItem('shows'))).length == 0)
+            times = data;
+        else {
             switch (format) {
                 case "1":
-                    data = data['cutoff'];
+                    times = this.cutoff(data, offset);
                     break;
                 case "2":
-                    data = data['compact'];
+                    times = this.compact(data, offset);
                     break;
                 default:
-                    data = data['full'];
+                    times = this.full(data, offset);
             }
-            let times;
-            if (localStorage.getItem('list') == "Your List"
-                || Object.keys(JSON.parse(localStorage.getItem('shows'))).length == 0)
-                times = data;
-            else {
-                switch (format) {
-                    case "1":
-                        times = this.cutoff(data, offset);
-                        break;
-                    case "2":
-                        times = this.compact(data, offset);
-                        break;
-                    default:
-                        times = this.full(data, offset);
-                }
-            }
-            this.calendar(this.getDates(offset), times);
-            this.resizeCalendar();
-            this.createShows(offset);
-        });
+        }
+        this.calendar(this.getDates(offset), times);
+        this.resizeCalendar();
+        this.createShows(offset);
     }
     calendar(dates, times) {
         document.getElementById('month').innerHTML = (dates[0].getMonth() == dates[6].getMonth()) ?
@@ -191,7 +152,7 @@ class Calendar {
         return title.length + words.length.toString() + words[words.length - 1].replace(/\W/g, '');
     }
     createShows(offset) {
-        const data = offset == 0 ? STORE : PAST;
+        const data = offset == 0 ? this.store : this.past;
         const shows = JSON.parse(localStorage.getItem("shows"));
         for (let show in (document.getElementById('list').innerHTML == "Your List") ? data : shows) {
             if (show in data) {
@@ -220,7 +181,7 @@ class Calendar {
     }
     full(times, offset) {
         const shows = JSON.parse(localStorage.getItem('shows'));
-        const data = offset == 0 ? STORE : PAST;
+        const data = offset == 0 ? this.store : this.past;
         let output = [];
         for (let time in times) {
             if (!(times[time].includes("00") || times[time].includes("30"))) {
@@ -248,7 +209,7 @@ class Calendar {
     }
     cutoff(times, offset) {
         const shows = JSON.parse(localStorage.getItem('shows'));
-        const data = offset == 0 ? STORE : PAST;
+        const data = offset == 0 ? this.store : this.past;
         let max = "12:00 AM";
         let min = "11:59 PM";
         switch (shows.length) {
@@ -293,7 +254,7 @@ class Calendar {
         return output;
     }
     compact(times, offset) {
-        const data = offset == 0 ? STORE : PAST;
+        const data = offset == 0 ? this.store : this.past;
         const shows = JSON.parse(localStorage.getItem('shows'));
         let output = [];
         for (let time in times) {
@@ -316,7 +277,7 @@ class Calendar {
             "38vh" : "85vh";
     }
     streamInfo(show) {
-        const data = show in STORE ? STORE : PAST;
+        const data = show in this.store ? this.store : this.past;
         let s = document.getElementById('show');
         if (s)
             s.remove();
@@ -532,5 +493,58 @@ class Calendar {
         let list = document.getElementById('list');
         if (list.innerHTML == "Full List")
             this.left.style.visibility == 'visible' ? cal.init() : cal.init(-7);
+    }
+    format() {
+        localStorage.setItem('format', document.getElementById('format').value);
+        this.left.style.visibility == 'visible' ? this.init() : this.init(-7);
+    }
+    clear() {
+        let show = document.getElementById('show');
+        if (show) {
+            show.remove();
+            document.getElementById('clear').style.visibility = 'hidden';
+            document.getElementById('calendar').style.height = '85vh';
+        }
+    }
+    list() {
+        let list = document.getElementById('list');
+        list.innerHTML = list.innerHTML == 'Full List' ? 'Your List' : 'Full List';
+        localStorage.setItem('list', list.innerHTML);
+        if (document.getElementById('calendar'))
+            this.left.style.visibility == 'visible' ? this.init() : this.init(-7);
+    }
+    Left() {
+        if (this.left.style.visibility == "visible") {
+            if (this.right.style.visibility == "visible") {
+                this.left.style.visibility = "hidden";
+                this.init(-7);
+            }
+            else {
+                this.right.style.visibility = "visible";
+                this.left.style.visibility = "visible";
+                this.init();
+            }
+        }
+    }
+    Right() {
+        if (this.right.style.visibility == "visible") {
+            if (this.left.style.visibility == "visible") {
+                this.right.style.visibility = "hidden";
+                document.getElementById('clear').style.visibility = 'hidden';
+                document.getElementById('calendar').remove();
+                document.getElementById('month').innerHTML = "Winter 2021";
+                season();
+            }
+            else {
+                this.right.style.visibility = "visible";
+                this.left.style.visibility = "visible";
+                this.init();
+            }
+        }
+    }
+    info() {
+        localStorage.setItem('info', document.getElementById('info').value);
+        if (document.getElementById('title'))
+            this.streamInfo(document.getElementById('title').innerHTML);
     }
 }

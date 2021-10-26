@@ -1,40 +1,14 @@
-interface Shows {
-    [key: string]: {
-        day: number,
-        time: string,
-        cover: string,
-        streams: {[key: string]: string}
-    }
-}
-let PAST: Shows = JSON.parse(localStorage.getItem('past')!)
-let STORE: Shows = JSON.parse(localStorage.getItem('store')!);
-
 (<HTMLSelectElement>document.getElementById("info")).selectedIndex = parseInt(localStorage.getItem('info')!);
 (<HTMLSelectElement>document.getElementById("format")).selectedIndex = parseInt(localStorage.getItem('format')!)
 if (localStorage.getItem('list')) document.getElementById('list')!.innerHTML = localStorage.getItem('list')!;
 if (!localStorage.getItem('shows')) localStorage.setItem('shows', JSON.stringify({}));
 
-let cal = new Calendar()
+let cal = new Calendar("21.3.2")
 
 window.onload = () => {
-    const ver = "21.3.2"
-    if (localStorage.getItem('ver') != ver) {
-        localStorage.setItem('ver', ver)
-        set("./shows/shows.json", "store")
-        set("./shows/past_shows.json", "past")
-            .then(() => {
-                let shows = JSON.parse(localStorage.getItem('shows')!)
-                for (let show in shows) if (!(show in STORE || show in PAST)) delete shows[show];
-                localStorage.setItem('shows', JSON.stringify(shows))
-            }).finally(() => {
-                cal.init()
-                new Search(STORE, PAST)
-            })
-    }
-    else {
-        cal.init();
-        new Search(STORE, PAST)
-    }
+    cal.init().then(() => {
+        new Search(cal.store, cal.past)
+    })
     new Streams()
 }
 
@@ -124,10 +98,4 @@ document.onkeydown = e => {
             e.stopImmediatePropagation()
         }
     }
-}
-
-async function set(file: string, key: string) {
-    let data = await (await fetch(file)).json()
-    key == 'store' ? STORE = data : PAST = data
-    localStorage.setItem(key, JSON.stringify(data))
 }

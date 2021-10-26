@@ -1,8 +1,7 @@
-type Stream = [string, boolean]
 interface Streams {
     drag: string,
     dragover: string,
-    streams: Stream[]
+    streams: [string, boolean][]
 }
 
 class Streams {

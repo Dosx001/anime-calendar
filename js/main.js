@@ -1,34 +1,15 @@
 "use strict";
-let PAST = JSON.parse(localStorage.getItem('past'));
-let STORE = JSON.parse(localStorage.getItem('store'));
 document.getElementById("info").selectedIndex = parseInt(localStorage.getItem('info'));
 document.getElementById("format").selectedIndex = parseInt(localStorage.getItem('format'));
 if (localStorage.getItem('list'))
     document.getElementById('list').innerHTML = localStorage.getItem('list');
 if (!localStorage.getItem('shows'))
     localStorage.setItem('shows', JSON.stringify({}));
-let cal = new Calendar();
+let cal = new Calendar("21.3.2");
 window.onload = () => {
-    const ver = "21.3.2";
-    if (localStorage.getItem('ver') != ver) {
-        localStorage.setItem('ver', ver);
-        set("./shows/shows.json", "store");
-        set("./shows/past_shows.json", "past")
-            .then(() => {
-            let shows = JSON.parse(localStorage.getItem('shows'));
-            for (let show in shows)
-                if (!(show in STORE || show in PAST))
-                    delete shows[show];
-            localStorage.setItem('shows', JSON.stringify(shows));
-        }).finally(() => {
-            cal.init();
-            new Search(STORE, PAST);
-        });
-    }
-    else {
-        cal.init();
-        new Search(STORE, PAST);
-    }
+    cal.init().then(() => {
+        new Search(cal.store, cal.past);
+    });
     new Streams();
 };
 window.matchMedia('(min-width: 1200px)').addListener(_ => {
@@ -115,8 +96,3 @@ document.onkeydown = e => {
         }
     }
 };
-async function set(file, key) {
-    let data = await (await fetch(file)).json();
-    key == 'store' ? STORE = data : PAST = data;
-    localStorage.setItem(key, JSON.stringify(data));
-}
