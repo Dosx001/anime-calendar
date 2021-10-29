@@ -278,6 +278,13 @@ aside #title {
 .show-season {
   border-bottom: 5px solid black;
 }
+.show-season button {
+  font-size: 1.75rem;
+  margin: 0 0 1rem 5rem;
+}
+.show-season th {
+  display: inline;
+}
 
 .stream {
   padding: 0px 10px;

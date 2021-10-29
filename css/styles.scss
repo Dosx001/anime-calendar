@@ -105,6 +105,13 @@ button, .stream {
 }
 .show-season {
     border-bottom: 5px solid black;
+    button {
+        font-size: 1.75rem;
+        margin: 0 0 1rem 5rem;
+    }
+    th {
+        display: inline;
+    }
 }
 .stream {
     padding: 0px 10px;

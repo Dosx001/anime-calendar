@@ -1,6 +1,11 @@
 interface HTMLImageElement {
     loading: string
 }
+interface ChildNode {
+    innerText: string
+}
+
+if (!localStorage.getItem('season')) localStorage.setItem('season', JSON.stringify({}));
 
 function season() {
     let div = document.createElement('div')
@@ -12,6 +17,7 @@ function season() {
             return resp.json()
         })
         .then(data => {
+            let season = JSON.parse(localStorage.getItem('season')!)
             let count = 0
             for (let show in data) {
                 let content = document.createElement('div')
@@ -55,7 +61,23 @@ function season() {
                             table.append(row(item, data[show][item]))
                     }
                 }
+                let btn = document.createElement('button')
+                btn.innerHTML = show in season ? "Remove" : "Add"
+                btn.onclick = e => {
+                    let title = (<HTMLElement>e.srcElement!).previousElementSibling!.childNodes[0].innerText
+                    let season = JSON.parse(localStorage.getItem('season')!)
+                    if (title in season) {
+                        delete season[title];
+                        (<HTMLElement>e.srcElement!).innerHTML = "Add"
+                    }
+                    else {
+                        season[title] = null;
+                        (<HTMLElement>e.srcElement!).innerHTML = "Remove"
+                    }
+                    localStorage.setItem('season', JSON.stringify(season))
+                }
                 content.append(table)
+                content.append(btn)
                 div.append(content)
             }
         })
