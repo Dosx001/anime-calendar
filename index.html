@@ -43,7 +43,7 @@
         <h2>Settings</h2>
           <div class='dropbox'>
             <label for="format">Format</label>
-            <select class="custom-select" id="format" onchange='cal.format()'>
+            <select class="custom-select" id="format" onchange='CAL.format()'>
               <option value="0">Calendar - Full</option>
               <option value="1">Calendar - Cutoff</option>
               <option value="2">Calendar - Compact</option>
@@ -52,7 +52,7 @@
           </div>
           <div class='dropbox'>
             <label for="info">Stream Info</label>
-            <select class="custom-select" id="info" onchange='cal.info()'>
+            <select class="custom-select" id="info" onchange='CAL.info()'>
               <option value="0">Top View</option>
               <option value="1">Side View</option>
               <option value="2">Window View</option>
@@ -66,12 +66,12 @@
     <div id="content"></div>
     <div id="center">
       <div id="center-left">
-        <button type="button" class="arrow" id="left" onclick='cal.Left();cal.arrow()'> &#9665; </button>
-        <button type="button" class="arrow" id="right" onclick='cal.Right();cal.arrow()'> &#9655; </button>
+        <button type="button" class="arrow" id="left" onclick='CAL.Left();CAL.arrow()'> &#9665; </button>
+        <button type="button" class="arrow" id="right" onclick='CAL.Right();CAL.arrow()'> &#9655; </button>
         <text id="month"></text>
       </div>
       <div id="center-right" align="right">
-        <button id="clear" onclick='cal.clear()'>Clear</button>
+        <button id="clear" onclick='CAL.clear()'>Clear</button>
         <button id="list" onclick='list()'>Your List</button>
       </div>
     </div>

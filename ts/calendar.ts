@@ -46,13 +46,13 @@ class Calendar {
 
     async set(file: string, key: string) {
         let data = await (await fetch(file)).json()
-        key == 'store' ? cal.store = data : cal.past = data
+        key == 'store' ? this.store = data : this.past = data
         localStorage.setItem(key, JSON.stringify(data))
     }
 
     async init(offset: number = 0) {
-        let cal = document.getElementById('calendar')
-        cal ? cal.remove() : document.getElementById('season')!.remove()
+        let CAL = document.getElementById('calendar')
+        CAL ? CAL.remove() : document.getElementById('season')!.remove()
         this.updateTime()
         let format = localStorage.getItem('format')
         let data = await (await fetch(offset == 0 ? "./shows/time.json":"./shows/past_time.json")).json()
@@ -460,7 +460,7 @@ class Calendar {
         let shows = JSON.parse(localStorage.getItem("shows")!)
         if (title in shows) {
             this.updateSetter(shows, title, true)
-            document.getElementById(cal.ider_show(title))!.style.color = "#4f4f4f"
+            document.getElementById(this.ider_show(title))!.style.color = "#4f4f4f"
             document.getElementById('reset')!.style.visibility = 'visible'
         }
         localStorage.setItem('shows', JSON.stringify(shows))
@@ -475,7 +475,7 @@ class Calendar {
         let title = document.getElementById('title')!.innerHTML
         let shows = JSON.parse(localStorage.getItem("shows")!)
         this.updateSetter(shows, title, false)
-        document.getElementById(cal.ider_show(title))!.style.color = 'purple'
+        document.getElementById(this.ider_show(title))!.style.color = 'purple'
         document.getElementById('reset')!.style.visibility = 'hidden'
         localStorage.setItem('shows', JSON.stringify(shows))
     }
@@ -500,7 +500,7 @@ class Calendar {
         let setter = document.querySelector('.setter')!
         let shows = JSON.parse(localStorage.getItem("shows")!)
         if (setter.id == 'add') {
-            let ele = document.getElementById(cal.ider_show(title))!
+            let ele = document.getElementById(this.ider_show(title))!
             if (ele) ele.style.borderColor = "#4f004f";
             setter.innerHTML = "Remove from Your List"
             setter.id = "sub"
@@ -509,13 +509,14 @@ class Calendar {
         else if (shows != null && title in shows) {
             delete shows[title]
             document.getElementById('reset')!.style.visibility = 'hidden'
-            document.getElementById(cal.ider_show(title))!.style.borderColor = '#484848'
+            document.getElementById(this.ider_show(title))!.style.borderColor = '#484848'
             setter.innerHTML = "Add to Your List"
             setter.id = "add"
         }
         localStorage.setItem('shows', JSON.stringify(shows))
         let list = <HTMLElement>document.getElementById('list')!
-        if (list.innerHTML == "Full List") this.left.style.visibility == 'visible' ? cal.init():cal.init(-7);
+        if (list.innerHTML == "Full List")
+            this.left.style.visibility == 'visible' ? this.init() : this.init(-7);
     }
 
     format() {
@@ -553,7 +554,7 @@ class Calendar {
                 document.getElementById('clear')!.style.visibility = 'hidden'
                 document.getElementById('calendar')!.remove()
                 document.getElementById('month')!.innerHTML = "Winter 2021"
-                son.init()
+                SON.init()
             }
             else {
                 this.right.style.visibility = "visible"

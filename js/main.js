@@ -5,14 +5,14 @@ if (localStorage.getItem('list'))
     document.getElementById('list').innerHTML = localStorage.getItem('list');
 if (!localStorage.getItem('shows'))
     localStorage.setItem('shows', JSON.stringify({}));
-let cal = new Calendar("21.3.2");
-let son;
+let CAL = new Calendar("21.3.2");
+let SON;
 window.onload = () => {
-    cal.init().then(() => {
-        new Search(cal.store, cal.past);
+    CAL.init().then(() => {
+        new Search(CAL.store, CAL.past);
     });
     new Streams();
-    son = new Season();
+    SON = new Season();
 };
 window.matchMedia('(min-width: 1200px)').addListener(_ => {
     document.querySelectorAll(".date").forEach(ele => {
@@ -23,7 +23,7 @@ document.onkeydown = e => {
     if (!(e.target.id == "search" || e.ctrlKey || e.altKey)) {
         switch (e.key) {
             case "c":
-                cal.clear();
+                CAL.clear();
                 break;
             case "f":
                 document.getElementById('format').focus();
@@ -35,14 +35,14 @@ document.onkeydown = e => {
                 list();
                 break;
             case "m":
-                let Cal = document.getElementById('calendar');
-                Cal ? Cal.focus() : document.getElementById('season').focus();
+                let cal = document.getElementById('calendar');
+                cal ? cal.focus() : document.getElementById('season').focus();
                 break;
             case "n":
-                cal.Right();
+                CAL.Right();
                 break;
             case "p":
-                cal.Left();
+                CAL.Left();
                 break;
             case "s":
                 document.getElementById('search').focus();
@@ -55,14 +55,14 @@ document.onkeydown = e => {
         if (document.getElementById('show')) {
             switch (e.key) {
                 case "a":
-                    cal.setter();
+                    CAL.setter();
                     break;
                 case "n":
                 case "p":
-                    cal.arrow();
+                    CAL.arrow();
                     break;
                 case "r":
-                    cal.Reset();
+                    CAL.Reset();
                     break;
                 case "w":
                     let urls = {};
@@ -73,7 +73,7 @@ document.onkeydown = e => {
                         if (streams[i][1] && streams[i][0] in urls) {
                             window.open(urls[streams[i][0]]);
                             check = false;
-                            cal.Stream();
+                            CAL.Stream();
                             break;
                         }
                     }
@@ -92,7 +92,7 @@ document.onkeydown = e => {
                 case "7":
                 case "8":
                 case "9":
-                    cal.link(`${parseInt(e.key) - 1}`);
+                    CAL.link(`${parseInt(e.key) - 1}`);
             }
             e.stopImmediatePropagation();
         }
@@ -103,9 +103,9 @@ function list() {
     list.innerHTML = list.innerHTML == 'Full List' ? 'Your List' : 'Full List';
     localStorage.setItem('list', list.innerHTML);
     if (document.getElementById('calendar'))
-        cal.left.style.visibility == 'visible' ? cal.init() : cal.init(-7);
+        CAL.left.style.visibility == 'visible' ? CAL.init() : CAL.init(-7);
     else {
         document.getElementById('season').remove();
-        son.init();
+        SON.init();
     }
 }
