@@ -529,11 +529,14 @@ class Calendar {
     }
 
     list() {
-        let list: HTMLElement = document.getElementById('list')!
+        let list = document.getElementById('list')!
         list.innerHTML = list.innerHTML == 'Full List' ? 'Your List' : 'Full List'
         localStorage.setItem('list', list.innerHTML)
-        if (document.getElementById('calendar'))
+        if (document.getElementById('calendar')) {
             this.left.style.visibility == 'visible' ? this.init():this.init(-7);
+            return false
+        }
+        return true
     }
 
     Left() {

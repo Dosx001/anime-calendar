@@ -32,7 +32,10 @@ document.onkeydown = e => {
                 document.getElementById('info').focus();
                 break;
             case "l":
-                cal.list();
+                if (cal.list()) {
+                    document.getElementById('season').remove();
+                    son.init();
+                }
                 break;
             case "m":
                 let Cal = document.getElementById('calendar');

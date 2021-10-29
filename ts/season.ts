@@ -22,7 +22,7 @@ class Season {
         document.body.append(div)
         let data = await (await fetch('season/shows.json')).json()
         let count = 0
-        for (let show in data) {
+        for (let show in (document.getElementById('list')!.innerHTML == "Your List") ? data : this.list) {
             let content = document.createElement('div')
             content.className = 'show-season'
             let table = document.createElement('table')

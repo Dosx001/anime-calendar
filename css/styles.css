@@ -280,7 +280,8 @@ aside #title {
 }
 .show-season button {
   font-size: 1.75rem;
-  margin: 0 0 1rem 5rem;
+  margin: 0 1rem;
+  padding: 0 1rem;
 }
 .show-season th {
   display: inline;
