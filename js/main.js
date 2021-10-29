@@ -6,11 +6,13 @@ if (localStorage.getItem('list'))
 if (!localStorage.getItem('shows'))
     localStorage.setItem('shows', JSON.stringify({}));
 let cal = new Calendar("21.3.2");
+let son;
 window.onload = () => {
     cal.init().then(() => {
         new Search(cal.store, cal.past);
     });
     new Streams();
+    son = new Season();
 };
 window.matchMedia('(min-width: 1200px)').addListener(_ => {
     document.querySelectorAll(".date").forEach(ele => {

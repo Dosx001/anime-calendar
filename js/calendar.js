@@ -533,7 +533,7 @@ class Calendar {
                 document.getElementById('clear').style.visibility = 'hidden';
                 document.getElementById('calendar').remove();
                 document.getElementById('month').innerHTML = "Winter 2021";
-                season();
+                son.init();
             }
             else {
                 this.right.style.visibility = "visible";

@@ -1,17 +1,14 @@
 "use strict";
-if (!localStorage.getItem('season'))
-    localStorage.setItem('season', JSON.stringify({}));
-function season() {
-    let div = document.createElement('div');
-    div.id = 'season';
-    div.tabIndex = 1;
-    document.body.append(div);
-    fetch('season/shows.json')
-        .then(resp => {
-        return resp.json();
-    })
-        .then(data => {
-        let season = JSON.parse(localStorage.getItem('season'));
+class Season {
+    constructor() {
+        this.list = JSON.parse(localStorage.getItem('season')) ?? {};
+    }
+    async init() {
+        let div = document.createElement('div');
+        div.id = 'season';
+        div.tabIndex = 1;
+        document.body.append(div);
+        let data = await (await fetch('season/shows.json')).json();
         let count = 0;
         for (let show in data) {
             let content = document.createElement('div');
@@ -52,37 +49,36 @@ function season() {
                         content.append(cover);
                         break;
                     case "Genres":
-                        table.append(row(item, data[show][item].join(", ")));
+                        table.append(this.row(item, data[show][item].join(", ")));
                         break;
                     default:
-                        table.append(row(item, data[show][item]));
+                        table.append(this.row(item, data[show][item]));
                 }
             }
             let btn = document.createElement('button');
-            btn.innerHTML = show in season ? "Remove" : "Add";
+            btn.innerHTML = show in this.list ? "Remove" : "Add";
             btn.onclick = e => {
                 let title = e.srcElement.previousElementSibling.childNodes[0].innerText;
-                let season = JSON.parse(localStorage.getItem('season'));
-                if (title in season) {
-                    delete season[title];
+                if (title in this.list) {
+                    delete this.list[title];
                     e.srcElement.innerHTML = "Add";
                 }
                 else {
-                    season[title] = null;
+                    this.list[title] = null;
                     e.srcElement.innerHTML = "Remove";
                 }
-                localStorage.setItem('season', JSON.stringify(season));
+                localStorage.setItem('season', JSON.stringify(this.list));
             };
             content.append(table);
             content.append(btn);
             div.append(content);
         }
-    });
-}
-function row(item, content) {
-    let tr = document.createElement('tr');
-    let td = document.createElement('td');
-    td.innerHTML = item + ': ' + content;
-    tr.append(td);
-    return tr;
+    }
+    row(item, content) {
+        let tr = document.createElement('tr');
+        let td = document.createElement('td');
+        td.innerHTML = item + ': ' + content;
+        tr.append(td);
+        return tr;
+    }
 }
