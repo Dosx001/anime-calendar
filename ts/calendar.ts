@@ -293,9 +293,13 @@ class Calendar {
     }
 
     resizeCalendar() {
-        document.getElementById('calendar')!.style.height = document.getElementById('show') &&
-            (<HTMLSelectElement>document.getElementById('info')!).value == "0" ?
-            "38vh" : "85vh"
+        let cal = document.getElementById('calendar')
+        if (cal) {
+            cal.style.height =
+                (<HTMLSelectElement>document.getElementById('info')!).value == "0" &&
+                    document.getElementById('show') ?
+                        "38vh" : "85vh"
+        }
     }
 
     streamInfo(show: string) {
@@ -524,19 +528,8 @@ class Calendar {
         if (show) {
             show.remove()
             document.getElementById('clear')!.style.visibility = 'hidden'
-            document.getElementById('calendar')!.style.height = '85vh'
+            this.resizeCalendar()
         }
-    }
-
-    list() {
-        let list = document.getElementById('list')!
-        list.innerHTML = list.innerHTML == 'Full List' ? 'Your List' : 'Full List'
-        localStorage.setItem('list', list.innerHTML)
-        if (document.getElementById('calendar')) {
-            this.left.style.visibility == 'visible' ? this.init():this.init(-7);
-            return false
-        }
-        return true
     }
 
     Left() {

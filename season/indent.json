@@ -29,7 +29,7 @@
         ]
     },
     "Cue!": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/cue-5913a65cce.jpg?w=5&h=5",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/cue-c25ffb3f38.jpg",
         "Studio": "Graphinica",
         "Source": "Video Game",
         "Genres": [
@@ -37,7 +37,7 @@
         ]
     },
     "Dolls' Frontline": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/dolls-frontline-4a6527b01f.jpg?w=5&h=5",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/dolls-frontline-4a6527b01f.jpg",
         "Studio": "Asahi Production",
         "Source": "Video Game",
         "Genres": [
@@ -47,7 +47,7 @@
         ]
     },
     "Fantasy Bishoujo Juniku Ojisan to": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/fantasy-bishoujo-juniku-ojisan-to-e23f7bfe58.jpg?w=5&h=5",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/fantasy-bishoujo-juniku-ojisan-to-e23f7bfe58.jpg",
         "Studio": "N/A",
         "Source": "Manga",
         "Genres": [
@@ -57,7 +57,7 @@
         ]
     },
     "Genjitsu Shugi Yuusha no Oukoku Saikenki Part 2": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/genjitsu-shugi-yuusha-no-oukoku-saikenki-part-2-55a4186cee.jpg?w=5&h=5",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/genjitsu-shugi-yuusha-no-oukoku-saikenki-part-2-55a4186cee.jpg",
         "Studio": "J.C. Staff",
         "Source": "Light Novel",
         "Genres": [
@@ -67,7 +67,7 @@
         ]
     },
     "Hakozume: Koban Joshi no Gyakushuu": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/hakozume-kouban-joshi-no-gyakushuu-0f452dc9f2.jpg?w=5&h=5",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/hakozume-kouban-joshi-no-gyakushuu-0f452dc9f2.jpg",
         "Studio": "MADHOUSE",
         "Source": "Manga",
         "Genres": [
@@ -77,7 +77,7 @@
         ]
     },
     "Kaijin Kaihatsubu no Kuroitsu-san": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kaijin-kaihatsu-bu-no-kuroitsu-san-b916dedd53.jpg?w=5&h=5",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kaijin-kaihatsu-bu-no-kuroitsu-san-b916dedd53.jpg",
         "Studio": "Quad",
         "Source": "Manga",
         "Genres": [
@@ -86,7 +86,7 @@
         ]
     },
     "Karakai Jouzu no Takagi-san 3": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/karakai-jouzu-no-takagi-san-3-ba77c4312d.jpg?w=5&h=5",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/karakai-jouzu-no-takagi-san-3-ba77c4312d.jpg",
         "Studio": "Shin-Ei Animation",
         "Source": "Manga",
         "Genres": [
@@ -96,7 +96,7 @@
         ]
     },
     "Kenja no Deshi wo Nanoru Kenja": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kenja-no-deshi-wo-nanoru-kenja-77d136dd19.jpg?w=5&h=5",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kenja-no-deshi-wo-nanoru-kenja-77d136dd19.jpg",
         "Studio": "Studio A-CAT",
         "Source": "Light Novel",
         "Genres": [
@@ -106,7 +106,7 @@
         ]
     },
     "Leadale no Daichi nite": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/leadale-no-daichi-nite-a69eee3032.jpg?w=5&h=5",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/leadale-no-daichi-nite-a69eee3032.jpg",
         "Studio": "Maho Film",
         "Source": "Light Novel",
         "Genres": [
@@ -116,7 +116,7 @@
         ]
     },
     "Mahouka Koukou no Rettousei: Tsuioku-hen": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/mahouka-koukou-no-rettousei-tsuioku-hen-adb66bf228.jpg?w=5&h=5",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/mahouka-koukou-no-rettousei-tsuioku-hen-adb66bf228.jpg",
         "Studio": "8bit",
         "Source": "Light Novel",
         "Genres": [
@@ -126,7 +126,7 @@
         ]
     },
     "Orient": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/orient-757f93ec6c.jpg?w=5&h=5",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/orient-757f93ec6c.jpg",
         "Studio": "A.C.G.T.",
         "Source": "Manga",
         "Genres": [
@@ -136,7 +136,7 @@
         ]
     },
     "Princess Connect! Re:Dive 2": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/princess-connect-re-dive-2-4e65bcd9f2.jpg?w=5&h=5",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/princess-connect-re-dive-2-4e65bcd9f2.jpg",
         "Studio": "CygamesPictures",
         "Source": "Video Game",
         "Genres": [
@@ -146,7 +146,7 @@
         ]
     },
     "Ryman's Club": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/rymans-club-57fc6d89fb.jpg?w=5&h=5",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/rymans-club-57fc6d89fb.jpg",
         "Studio": "LIDENFILMS",
         "Source": "Original",
         "Genres": [
@@ -154,7 +154,7 @@
         ]
     },
     "Sabiiro no Armor": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/sabiiro-no-armor-dc2963e356.jpg?w=5&h=5",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/sabiiro-no-armor-dc2963e356.jpg",
         "Studio": "N/A",
         "Source": "Other",
         "Genres": [
@@ -163,7 +163,7 @@
         ]
     },
     "Sabikui Bisco": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/sabikui-bisco-e88f466b78.jpg?w=5&h=5",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/sabikui-bisco-e88f466b78.jpg",
         "Studio": "OZ",
         "Source": "Light Novel",
         "Genres": [
@@ -173,7 +173,7 @@
         ]
     },
     "Saiyuuki Reload: Zeroin": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/saiyuuki-reload-zeroin-667b57427b.jpg?w=5&h=5",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/saiyuuki-reload-zeroin-667b57427b.jpg",
         "Studio": "LIDENFILMS",
         "Source": "Manga",
         "Genres": [
@@ -183,7 +183,7 @@
         ]
     },
     "Sasaki to Miyano": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/sasaki-to-miyano-649b638475.jpg?w=5&h=5",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/sasaki-to-miyano-649b638475.jpg",
         "Studio": "Studio DEEN",
         "Source": "Manga",
         "Genres": [
@@ -193,7 +193,7 @@
         ]
     },
     "Shikkaku mon no Saikyou Kenja": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/shikkaku-mon-no-saikyou-kenja-fbb1fc6f22.jpg?w=5&h=5",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/shikkaku-mon-no-saikyou-kenja-fbb1fc6f22.jpg",
         "Studio": "J.C. Staff",
         "Source": "Light Novel",
         "Genres": [
@@ -203,7 +203,7 @@
         ]
     },
     "Shingeki no Kyojin: The Final Season Part 2": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/shingeki-no-kyojin-the-final-season-part-2-6c08ff39cc.jpg?w=5&h=5",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/shingeki-no-kyojin-the-final-season-part-2-6c08ff39cc.jpg",
         "Studio": "MAPPA",
         "Source": "Manga",
         "Genres": [
@@ -213,15 +213,25 @@
         ]
     },
     "Slow Loop": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/slow-loop-702a9be957.jpg?w=5&h=5",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/slow-loop-702a9be957.jpg",
         "Studio": "CONNECT",
         "Source": "Manga",
         "Genres": [
             "Slice of Life"
         ]
     },
+    "Sono Bisque Doll wa Koi wo Suru": {
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/sono-bisque-doll-wa-koi-wo-suru-1ad65eaf6f.jpg",
+        "Studio": "CloverWorks",
+        "Source": "Manga",
+        "Genres": [
+            "Ecchi",
+            "Romance",
+            "School"
+        ]
+    },
     "Tensai Ouji no Akaji Kokka Saisei Jutsu": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/tensai-ouji-no-akaji-kokka-saisei-jutsu-b9e12d24f1.jpg?w=5&h=5",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/tensai-ouji-no-akaji-kokka-saisei-jutsu-b9e12d24f1.jpg",
         "Studio": "Yokohama Animation Lab",
         "Source": "Light Novel",
         "Genres": [
@@ -229,8 +239,14 @@
             "Fantasy"
         ]
     },
+    "Tokyo 24-ku": {
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/tokyo-24-ku-5e5bae1af1.jpg",
+        "Studio": "CloverWorks",
+        "Source": "Original",
+        "Genres": []
+    },
     "Tribe Nine": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/tribe-nine-bae0db5595.jpg?w=5&h=5",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/tribe-nine-bae0db5595.jpg",
         "Studio": "LIDENFILMS",
         "Source": "Other",
         "Genres": [
@@ -239,7 +255,7 @@
         ]
     },
     "Vanitas no Carte 2": {
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/vanitas-no-carte-2-4558afac43.jpg?w=5&h=5",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/vanitas-no-carte-2-4558afac43.jpg",
         "Studio": "BONES",
         "Source": "Manga",
         "Genres": [

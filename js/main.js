@@ -32,10 +32,7 @@ document.onkeydown = e => {
                 document.getElementById('info').focus();
                 break;
             case "l":
-                if (cal.list()) {
-                    document.getElementById('season').remove();
-                    son.init();
-                }
+                list();
                 break;
             case "m":
                 let Cal = document.getElementById('calendar');
@@ -101,3 +98,14 @@ document.onkeydown = e => {
         }
     }
 };
+function list() {
+    let list = document.getElementById('list');
+    list.innerHTML = list.innerHTML == 'Full List' ? 'Your List' : 'Full List';
+    localStorage.setItem('list', list.innerHTML);
+    if (document.getElementById('calendar'))
+        cal.left.style.visibility == 'visible' ? cal.init() : cal.init(-7);
+    else {
+        document.getElementById('season').remove();
+        son.init();
+    }
+}

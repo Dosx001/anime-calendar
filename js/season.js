@@ -31,6 +31,7 @@ class Season {
                         img.width = 340;
                         img.height = 440;
                         if (2 < count) {
+                            img.src += "?w=5&h=5";
                             let observer = new IntersectionObserver((entries, observer) => {
                                 entries.forEach(entry => {
                                     if (!entry.isIntersecting)
