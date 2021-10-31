@@ -63,15 +63,15 @@ class Season {
                 if (title in this.list) {
                     delete this.list[title];
                     e.srcElement.innerHTML = "Add";
+                }
+                else {
+                    this.list[title] = null;
+                    e.srcElement.innerHTML = "Remove";
                     let temp = {};
                     for (let show of Object.keys(this.list).sort()) {
                         temp[show] = null;
                     }
                     this.list = temp;
-                }
-                else {
-                    this.list[title] = null;
-                    e.srcElement.innerHTML = "Remove";
                 }
                 localStorage.setItem('season', JSON.stringify(this.list));
             };

@@ -12,16 +12,16 @@ class Calendar {
         this.right.style.visibility = "visible";
         this.past = JSON.parse(localStorage.getItem('past'));
         this.store = JSON.parse(localStorage.getItem('store'));
+        this.shows = JSON.parse(localStorage.getItem('shows')) ?? {};
         if (localStorage.getItem('ver') != ver) {
             localStorage.setItem('ver', ver);
             this.set("./shows/shows.json", "store");
             this.set("./shows/past_shows.json", "past")
                 .then(() => {
-                let shows = JSON.parse(localStorage.getItem('shows'));
-                for (let show in shows)
+                for (let show in this.shows)
                     if (!(show in this.store || show in this.past))
-                        delete shows[show];
-                localStorage.setItem('shows', JSON.stringify(shows));
+                        delete this.shows[show];
+                localStorage.setItem('shows', JSON.stringify(this.shows));
             });
         }
     }
@@ -47,8 +47,7 @@ class Calendar {
                 data = data['full'];
         }
         let times;
-        if (localStorage.getItem('list') == "Your List"
-            || Object.keys(JSON.parse(localStorage.getItem('shows'))).length == 0)
+        if (localStorage.getItem('list') == "Your List" || Object.keys(this.shows).length == 0)
             times = data;
         else {
             switch (format) {
@@ -153,17 +152,16 @@ class Calendar {
     }
     createShows(offset) {
         const data = offset == 0 ? this.store : this.past;
-        const shows = JSON.parse(localStorage.getItem("shows"));
-        for (let show in (document.getElementById('list').innerHTML == "Your List") ? data : shows) {
+        for (let show in (document.getElementById('list').innerHTML == "Your List") ? data : this.shows) {
             if (show in data) {
                 let button = document.createElement('button');
                 button.id = this.ider_show(show);
                 button.className = 'show';
                 button.innerHTML = show;
-                if (show in shows) {
+                if (show in this.shows) {
                     button.style.borderColor = "#4f004f";
                     button.style.color = (this.left.style.visibility == 'visible' ?
-                        shows[show][0] : shows[show][1]) ?
+                        this.shows[show][0] : this.shows[show][1]) ?
                         "#4f4f4f" : "purple";
                 }
                 button.onclick = e => {
@@ -180,7 +178,7 @@ class Calendar {
         }
     }
     full(times, offset) {
-        const shows = JSON.parse(localStorage.getItem('shows'));
+        let shows = Object.assign({}, this.shows);
         const data = offset == 0 ? this.store : this.past;
         let output = [];
         for (let time in times) {
@@ -208,11 +206,11 @@ class Calendar {
         return new Date("2000/1/1 " + t1) < new Date("2000/1/1 " + t2) ? [t1, t2] : [t2, t1];
     }
     cutoff(times, offset) {
-        const shows = JSON.parse(localStorage.getItem('shows'));
+        let shows = Object.assign({}, this.shows);
         const data = offset == 0 ? this.store : this.past;
         let max = "12:00 AM";
         let min = "11:59 PM";
-        switch (shows.length) {
+        switch (Object.keys(shows).length) {
             case 0:
                 return times;
             case 1:
@@ -255,7 +253,7 @@ class Calendar {
     }
     compact(times, offset) {
         const data = offset == 0 ? this.store : this.past;
-        const shows = JSON.parse(localStorage.getItem('shows'));
+        let shows = Object.assign({}, this.shows);
         let output = [];
         for (let time in times) {
             for (let show in shows)
@@ -266,7 +264,7 @@ class Calendar {
                 }
                 else if (!(show in data))
                     delete shows[show];
-            if (shows.length == 0)
+            if (Object.keys(shows).length == 0)
                 break;
         }
         return output;
@@ -366,19 +364,18 @@ class Calendar {
             }
         }
         table.append(tbody);
-        let shows = JSON.parse(localStorage.getItem('shows'));
         let set = document.createElement('button');
         set.className = 'setter';
         set.onclick = () => this.setter();
-        show in shows ?
+        show in this.shows ?
             (set.id = "sub", set.innerHTML = 'Remove from Your List') :
             (set.id = "add", set.innerHTML = 'Add to Your List');
         let reset = document.createElement('button');
         reset.onclick = () => this.Reset();
         reset.id = 'reset';
         reset.innerHTML = 'Reset';
-        reset.style.visibility = show in shows &&
-            (this.left.style.visibility == 'visible' ? shows[show][0] : shows[show][1]) ?
+        reset.style.visibility = show in this.shows &&
+            (this.left.style.visibility == 'visible' ? this.shows[show][0] : this.shows[show][1]) ?
             'visible' : 'hidden';
         let output;
         let streams;
@@ -419,14 +416,13 @@ class Calendar {
         let now = new Date();
         now = [now.getWeek(), now.getFullYear()];
         if (time != null) {
-            let shows = JSON.parse(localStorage.getItem("shows"));
             if ((now[0] - time[0] == 1 && now[1] == time[1]) || (now[1] - time[1] == 1 && now[0] == 52))
-                for (let show in shows)
-                    [shows[show][0], shows[show][1]] = [false, shows[show][0]];
+                for (let show in this.shows)
+                    [this.shows[show][0], this.shows[show][1]] = [false, this.shows[show][0]];
             else if (now[0] != time[0] || now[1] != time[1])
-                for (let show in shows)
-                    [shows[show][0], shows[show][1]] = [false, false];
-            localStorage.setItem('shows', JSON.stringify(shows));
+                for (let show in this.shows)
+                    [this.shows[show][0], this.shows[show][1]] = [false, false];
+            localStorage.setItem('shows', JSON.stringify(this.shows));
         }
         localStorage.setItem('time', JSON.stringify(now));
     }
@@ -439,37 +435,34 @@ class Calendar {
     }
     Stream() {
         let title = document.getElementById('title').innerHTML;
-        let shows = JSON.parse(localStorage.getItem("shows"));
-        if (title in shows) {
-            this.updateSetter(shows, title, true);
+        if (title in this.shows) {
+            this.updateSetter(title, true);
             document.getElementById(this.ider_show(title)).style.color = "#4f4f4f";
             document.getElementById('reset').style.visibility = 'visible';
         }
-        localStorage.setItem('shows', JSON.stringify(shows));
+        localStorage.setItem('shows', JSON.stringify(this.shows));
     }
-    updateSetter(shows, title, Bool) {
+    updateSetter(title, Bool) {
         this.left.style.visibility == 'visible'
-            ? shows[title][0] = Bool : shows[title][1] = Bool;
+            ? this.shows[title][0] = Bool : this.shows[title][1] = Bool;
     }
     Reset() {
         let title = document.getElementById('title').innerHTML;
-        let shows = JSON.parse(localStorage.getItem("shows"));
-        this.updateSetter(shows, title, false);
+        this.updateSetter(title, false);
         document.getElementById(this.ider_show(title)).style.color = 'purple';
         document.getElementById('reset').style.visibility = 'hidden';
-        localStorage.setItem('shows', JSON.stringify(shows));
+        localStorage.setItem('shows', JSON.stringify(this.shows));
     }
     arrow() {
         let title = document.getElementById('title');
         if (title) {
             title = title.innerHTML;
-            let shows = JSON.parse(localStorage.getItem("shows"));
             if (document.getElementById('season'))
                 document.getElementById('show').remove();
-            else if (title in shows) {
+            else if (title in this.shows) {
                 document.getElementById('reset').style.visibility =
                     (this.left.style.visibility == 'visible' ?
-                        shows[title][0] : shows[title][1]) ?
+                        this.shows[title][0] : this.shows[title][1]) ?
                         'visible' : 'hidden';
             }
         }
@@ -477,23 +470,22 @@ class Calendar {
     setter() {
         let title = document.getElementById('title').innerHTML;
         let setter = document.querySelector('.setter');
-        let shows = JSON.parse(localStorage.getItem("shows"));
         if (setter.id == 'add') {
             let ele = document.getElementById(this.ider_show(title));
             if (ele)
                 ele.style.borderColor = "#4f004f";
             setter.innerHTML = "Remove from Your List";
             setter.id = "sub";
-            shows[title] = [false, false];
+            this.shows[title] = [false, false];
         }
-        else if (shows != null && title in shows) {
-            delete shows[title];
+        else if (title in this.shows) {
+            delete this.shows[title];
             document.getElementById('reset').style.visibility = 'hidden';
             document.getElementById(this.ider_show(title)).style.borderColor = '#484848';
             setter.innerHTML = "Add to Your List";
             setter.id = "add";
         }
-        localStorage.setItem('shows', JSON.stringify(shows));
+        localStorage.setItem('shows', JSON.stringify(this.shows));
         let list = document.getElementById('list');
         if (list.innerHTML == "Full List")
             this.left.style.visibility == 'visible' ? this.init() : this.init(-7);

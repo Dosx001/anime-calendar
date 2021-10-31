@@ -1,10 +1,7 @@
 "use strict";
 document.getElementById("info").selectedIndex = parseInt(localStorage.getItem('info'));
 document.getElementById("format").selectedIndex = parseInt(localStorage.getItem('format'));
-if (localStorage.getItem('list'))
-    document.getElementById('list').innerHTML = localStorage.getItem('list');
-if (!localStorage.getItem('shows'))
-    localStorage.setItem('shows', JSON.stringify({}));
+document.getElementById('list').innerHTML = localStorage.getItem('list') ?? "Your List";
 let CAL = new Calendar("21.3.2");
 let SON;
 window.onload = () => {
