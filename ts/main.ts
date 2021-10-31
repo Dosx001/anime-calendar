@@ -103,14 +103,13 @@ document.onkeydown = e => {
 }
 
 function list() {
-        let list = document.getElementById('list')!
-        list.innerHTML = list.innerHTML == 'Full List' ? 'Your List' : 'Full List'
-        localStorage.setItem('list', list.innerHTML)
-        if (document.getElementById('calendar'))
-            CAL.left.style.visibility == 'visible' ? CAL.init() : CAL.init(-7);
-        else {
-            document.getElementById('season')!.remove()
-            SON.init()
-        }
+    let list = document.getElementById('list')!
+    list.innerHTML = list.innerHTML == 'Full List' ? 'Your List' : 'Full List'
+    localStorage.setItem('list', list.innerHTML)
+    if (document.getElementById('calendar'))
+        CAL.left.style.visibility == 'visible' ? CAL.init() : CAL.init(-7);
+    else {
+        document.getElementById('season')!.remove()
+        SON.init()
     }
-
+}

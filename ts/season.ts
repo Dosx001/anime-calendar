@@ -72,6 +72,11 @@ class Season {
                 if (title in this.list) {
                     delete this.list[title];
                     (<HTMLElement>e.srcElement!).innerHTML = "Add"
+                    let temp : {[key:string] : null} = {}
+                    for (let show of Object.keys(this.list).sort()) {
+                        temp[show] = null
+                    }
+                    this.list = temp
                 }
                 else {
                     this.list[title] = null;
