@@ -13,6 +13,21 @@ interface Season {
 class Season {
     constructor() {
         this.list = JSON.parse(localStorage.getItem('season')!) ?? {}
+        this.set().then(keys => {
+            for (let title in this.list) {
+                let show = keys[title]
+                if (show) {
+                    CAL.shows[show] = [false, false]
+                    delete this.list[title]
+                    localStorage.setItem('season', JSON.stringify(this.list))
+                }
+            }
+            localStorage.setItem('shows', JSON.stringify(CAL.shows))
+        })
+    }
+
+    async set() {
+        return await (await fetch("shows/keys.json")).json()
     }
 
     async init() {

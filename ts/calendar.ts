@@ -27,13 +27,13 @@ interface Calendar {
 
 class Calendar {
     constructor(ver: string) {
+        this.shows = JSON.parse(localStorage.getItem('shows')!) ?? {}
         this.left = document.getElementById("left")!
         this.right = document.getElementById("right")!
         this.left.style.visibility = "visible"
         this.right.style.visibility = "visible"
         this.past = JSON.parse(localStorage.getItem('past')!)
         this.store = JSON.parse(localStorage.getItem('store')!);
-        this.shows = JSON.parse(localStorage.getItem('shows')!) ?? {}
         if (localStorage.getItem('ver') != ver) {
             localStorage.setItem('ver', ver)
             this.set("./shows/shows.json", "store")

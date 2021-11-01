@@ -3,14 +3,13 @@
 document.getElementById('list')!.innerHTML = localStorage.getItem('list') ?? "Your List"
 
 let CAL = new Calendar("21.3.2")
-let SON: Season;
+let SON = new Season()
 
 window.onload = () => {
     CAL.init().then(() => {
-        new Search(CAL.store, CAL.past)
+        new Search(Object.keys(Object.assign({}, CAL.store, CAL.past)))
     })
     new Streams()
-    SON = new Season()
 }
 
 window.matchMedia('(min-width: 1200px)').addListener(_ => {

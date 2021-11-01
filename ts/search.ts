@@ -6,8 +6,8 @@ interface Search {
 }
 
 class Search {
-    constructor(store: Shows, past: Shows) {
-        this.titleList = Object.keys(Object.assign({}, store, past)).sort()
+    constructor(list: string[]) {
+        this.titleList = list.sort()
         this.search = <HTMLInputElement>document.getElementById('search')!
         this.titles = document.getElementById('titles')!
         this.indexLi = 99

@@ -1,7 +1,7 @@
 "use strict";
 class Search {
-    constructor(store, past) {
-        this.titleList = Object.keys(Object.assign({}, store, past)).sort();
+    constructor(list) {
+        this.titleList = list.sort();
         this.search = document.getElementById('search');
         this.titles = document.getElementById('titles');
         this.indexLi = 99;
