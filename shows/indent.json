@@ -1,7 +1,7 @@
 {
     "Dragon Quest: The Adventure of Dai": {
         "day": 6,
-        "time": "7:00 PM",
+        "time": "6:00 PM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/dragon-quest-dai-no-daibouken-2020-da3cc5015f.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/dragon-quest-the-adventure-of-dai",
@@ -11,7 +11,7 @@
     },
     "Case Closed": {
         "day": 6,
-        "time": "4:30 AM",
+        "time": "3:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/detective-conan-8d9a48d3dd.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/case-closed",
@@ -20,7 +20,7 @@
     },
     "One Piece": {
         "day": 7,
-        "time": "7:00 PM",
+        "time": "6:00 PM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/one-piece-f2f2a983a8.jpg",
         "streams": {
             "AnimeLab": "https://www.animelab.com/shows/one-piece",
@@ -32,7 +32,7 @@
     },
     "Boruto: Naruto Next Generations": {
         "day": 7,
-        "time": "2:00 AM",
+        "time": "1:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/boruto-naruto-next-generations-b2e39a1f80.jpg",
         "streams": {
             "AnimeLab": "https://www.animelab.com/shows/boruto-naruto-next-generations",
@@ -44,7 +44,7 @@
     },
     "Tropical-Rouge! Precure": {
         "day": 7,
-        "time": "6:30 PM",
+        "time": "5:30 PM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/tropical-rouge-precure-6912a86fe4.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/tropical-rouge-precure",
@@ -53,21 +53,13 @@
     },
     "Shaman King": {
         "day": 4,
-        "time": "1:55 AM",
+        "time": "12:55 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/shaman-king-2021-f161329dde.jpg",
         "streams": {}
     },
-    "Yoshimaho": {
-        "day": 4,
-        "time": "5:00 PM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/yoshimaho-12165b00dc.jpg",
-        "streams": {
-            "YouTube": "https://www.youtube.com/playlist?list=PL_h--NZpk9c8TLulug6tJJzmqx2f41Eh0"
-        }
-    },
     "Scarlet Nexus": {
         "day": 4,
-        "time": "6:31 AM",
+        "time": "5:31 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/scarlet-nexus-2d8ab70947.jpg",
         "streams": {
             "Funimation": "https://www.funimation.com/shows/scarlet-nexus/",
@@ -77,7 +69,7 @@
     },
     "The aquatope on white sand": {
         "day": 4,
-        "time": "9:30 AM",
+        "time": "8:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/shiroi-suna-no-aquatope-03ac7deaf1.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/the-aquatope-on-white-sand",
@@ -87,13 +79,13 @@
     },
     "Duel Masters King!": {
         "day": 2,
-        "time": "10:05 PM",
+        "time": "9:05 PM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/duel-masters-king-2-73e9e83932.jpg",
         "streams": {}
     },
     "Mazica Party": {
         "day": 7,
-        "time": "5:30 PM",
+        "time": "4:30 PM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/mazica-party-dbc3c2ce44.jpg",
         "streams": {
             "YouTube": "https://www.youtube.com/playlist?list=PLhWipIfRhqz0ETNmxmG7jMNZCZX0_4_yy"
@@ -101,7 +93,7 @@
     },
     "The Great Jahy Will Not Be Defeated!": {
         "day": 6,
-        "time": "11:45 AM",
+        "time": "10:45 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/jahy-sama-wa-kujikenai-2e842ee963.jpg",
         "streams": {
             "Crunchyroll": "https://crunchyroll.com/series/GNVHKNWXW/the-great-jahy-will-not-be-defeated",
@@ -110,13 +102,13 @@
     },
     "Yu\u2606Gi\u2606Oh!: Sevens": {
         "day": 6,
-        "time": "3:30 PM",
+        "time": "2:30 PM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/yu-gi-oh-sevens-a5be910077.jpg",
         "streams": {}
     },
     "The Vampire Dies in No time": {
         "day": 1,
-        "time": "8:00 AM",
+        "time": "7:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kyuuketsuki-sugu-shinu-0865fdcc54.jpg",
         "streams": {
             "Funimation": "https://www.funimation.com/shows/the-vampire-dies-in-no-time",
@@ -125,7 +117,7 @@
     },
     "Cardfight!! Vanguard overDress": {
         "day": 1,
-        "time": "8:40 AM",
+        "time": "7:40 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/cardfight-vanguard-overdress-2-e6d296c2e2.jpg",
         "streams": {
             "Crunchyroll": "https://crunchyroll.com/series/GXJHM3NJ5/cardfight-vanguard-overdress",
@@ -136,7 +128,7 @@
     },
     "AMAIM Warrior at the Borderline": {
         "day": 1,
-        "time": "10:30 AM",
+        "time": "9:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kyoukai-senki-d18fd21a4d.jpg",
         "streams": {
             "Funimation": "https://www.funimation.com/shows/amaim-warrior-at-the-borderline/",
@@ -145,7 +137,7 @@
     },
     "The Fruit of Evolution: Before I Knew It, My Life Had It Made": {
         "day": 1,
-        "time": "11:30 AM",
+        "time": "10:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/shinka-no-mi-shiranai-uchi-ni-kachigumi-jinsei-a95ded5555.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN9DDX",
@@ -155,21 +147,13 @@
     },
     "Chickip Dancers": {
         "day": 2,
-        "time": "1:20 AM",
+        "time": "12:20 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/chickip-dancers-07726d93ce.jpg",
         "streams": {}
     },
-    "Mini Van Large": {
-        "day": 2,
-        "time": "5:01 AM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/mini-van-large-f9f9fe450a.jpg",
-        "streams": {
-            "YouTube": "https://www.youtube.com/c/CARDFIGHTVanguard/videos"
-        }
-    },
     "takt op.Destiny": {
         "day": 2,
-        "time": "9:00 AM",
+        "time": "8:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/takt-op-1d387869c7.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/takt-opdestiny",
@@ -179,13 +163,13 @@
     },
     "Uchuu Nanchara Kotetsu-kun": {
         "day": 3,
-        "time": "2:45 AM",
+        "time": "1:45 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/uchuu-nanchara-kotetsu-kun-dfe5b5d3e7.jpg",
         "streams": {}
     },
     "PuraOre! ~Pride of Orange~ ": {
         "day": 3,
-        "time": "8:00 AM",
+        "time": "7:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/puraore-pride-of-orange-c7b9e90d29.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/puraora-pride-of-orange",
@@ -196,16 +180,16 @@
     },
     "Banished from the Hero's Party, I Decided to Live a Quiet Life in the Countryside": {
         "day": 3,
-        "time": "7:30 AM",
+        "time": "6:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/shin-no-nakama-janai-to-yuusha-no-party-wo-oidasareta-node-henkyou-de-slow-life-suru-koto-ni-shimashita-5f494c08e3.jpg",
         "streams": {
             "Funimation": "https://www.funimation.com/shows/banished-from-the-heros-party-i-decided-to-live-a-quiet-life-in-the-countryside/",
             "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1485/banished-from-the-heros-party-i-decided-to-live-a-quiet-life-in-the-countryside"
         }
     },
-    "Sekai Saikou no Ansatsusha, Isekai Kizoku ni Tensei suru": {
+    "The World's Finest Assassin Gets Reincarnated in Another World as an Aristocrat": {
         "day": 3,
-        "time": "7:30 AM",
+        "time": "6:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/sekai-saikou-no-ansatsusha-isekai-kizoku-ni-tensei-suru-b7c32d1d6d.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/the-worlds-finest-assassin-gets-reincarnated-in-another-world-as-an-aristocrat",
@@ -215,7 +199,7 @@
     },
     "The Heike Story": {
         "day": 3,
-        "time": "8:00 AM",
+        "time": "7:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/heike-monogatari-ec89d14b7c.jpg",
         "streams": {
             "Funimation": "https://www.funimation.com/shows/the-heike-story/",
@@ -223,14 +207,14 @@
         }
     },
     "Komi Can't Communicate": {
-        "day": 3,
+        "day": 4,
         "time": "8:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/komi-san-wa-comyushou-desu-e263272425.jpg",
         "streams": {}
     },
     "Muv-Luv Alternative": {
         "day": 3,
-        "time": "9:25 AM",
+        "time": "8:25 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/muv-luv-alternative-6db6a41c02.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/muv-luv-alternative",
@@ -240,7 +224,7 @@
     },
     "BanG Dream! Garupa\u2606Pico Fever!": {
         "day": 4,
-        "time": "6:00 AM",
+        "time": "5:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/bang-dream-garupa-pico-fever-540a8fec97.jpg",
         "streams": {
             "YouTube": "https://www.youtube.com/playlist?list=PLi6JjODFVq32885eIpU4RuymSG8AGPII_"
@@ -248,7 +232,7 @@
     },
     "Sakugan!!": {
         "day": 4,
-        "time": "7:31 AM",
+        "time": "6:31 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/sacks-and-guns-6beead0147.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/sakugan",
@@ -257,7 +241,7 @@
     },
     "Platinum End": {
         "day": 4,
-        "time": "1:00 PM",
+        "time": "12:00 PM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/platinum-end-b00cb31124.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/platinum-end",
@@ -267,37 +251,37 @@
     },
     "Pok\u00e9mon Journeys: The Series": {
         "day": 5,
-        "time": "2:55 AM",
+        "time": "1:55 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/pokemon-2019-41ff46b39d.jpg",
         "streams": {}
     },
     "Doraemon (2005)": {
         "day": 5,
-        "time": "3:00 AM",
+        "time": "2:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/doraemon-2005-371cbec0f6.jpg",
         "streams": {}
     },
     "Crayon Shin-chan": {
         "day": 5,
-        "time": "3:30 AM",
+        "time": "2:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/crayon-shin-chan-dc430f9db0.jpg",
         "streams": {}
     },
     "Kimi to Fit Boxing": {
         "day": 5,
-        "time": "5:54 AM",
+        "time": "4:54 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kimi-to-fit-boxing-10ddda561a.jpg",
         "streams": {}
     },
     "Megaton-kyuu Musashi": {
         "day": 5,
-        "time": "6:00 AM",
+        "time": "5:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/megaton-kyuu-musashi-627d71c121.jpg",
         "streams": {}
     },
     "Selection Project": {
         "day": 5,
-        "time": "7:00 AM",
+        "time": "6:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/selection-project-d29e05962c.jpg",
         "streams": {
             "Funimation": "https://www.funimation.com/shows/selection-project/",
@@ -307,7 +291,7 @@
     },
     "Visual Prison": {
         "day": 5,
-        "time": "9:30 AM",
+        "time": "8:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/visual-prison-25af80e8bf.jpg",
         "streams": {
             "Funimation": "https://www.funimation.com/shows/visual-prison/"
@@ -315,13 +299,13 @@
     },
     "Deji Meets Girl": {
         "day": 4,
-        "time": "9:50 AM",
+        "time": "8:50 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/deji-meets-girl-878334efe4.jpg",
         "streams": {}
     },
     "Taisho Otome Fairy Tale": {
         "day": 5,
-        "time": "10:53 AM",
+        "time": "9:53 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/taishou-otome-otogibanashi-c73a7cc7f4.jpg",
         "streams": {
             "Funimation": "https://www.funimation.com/shows/taisho-otome-fairy-tale/",
@@ -331,7 +315,7 @@
     },
     "Yuki Yuna Is a Hero: Great Mankai Chapter": {
         "day": 5,
-        "time": "10:55 AM",
+        "time": "9:55 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/yuuki-yuuna-is-a-hero-dai-mankai-no-shou-388c306439.jpg",
         "streams": {
             "HiDive": "https://www.hidive.com/tv/yuki-yuna-is-a-hero-great-mankai-chapter"
@@ -339,7 +323,7 @@
     },
     "Restaurant to Another World": {
         "day": 5,
-        "time": "10:30 AM",
+        "time": "9:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/isekai-shokudou-2-9140f1b5f0.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/series/GR49493P6",
@@ -348,7 +332,7 @@
     },
     "Let's Make a Mug Too": {
         "day": 5,
-        "time": "11:00 AM",
+        "time": "10:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/yakunara-mug-cup-mo-niban-gama-51f882e409.jpg",
         "streams": {
             "Crunchyroll": "https://crunchyroll.com/series/GQWH0M434/Lets-Make-a-Mug-Too",
@@ -358,13 +342,13 @@
     },
     "Blue Period": {
         "day": 6,
-        "time": "12:00 AM",
+        "time": "11:00 PM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/blue-period-33e28a3577.jpg",
         "streams": {}
     },
     "Yashahime: Princess Half-Demon": {
         "day": 6,
-        "time": "3:00 AM",
+        "time": "2:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/hanyou-no-yashahime-sengoku-otogizoushi-ni-no-shou-1c4abbac3a.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/yashahime-princess-half-demon",
@@ -376,7 +360,7 @@
     },
     "Build Divide: Code Black": {
         "day": 6,
-        "time": "10:00 AM",
+        "time": "9:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/build-divide-code-black-f2cbe83c5a.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/build-divide-000000-code-black",
@@ -386,7 +370,7 @@
     },
     "Lupin III: Part VI": {
         "day": 6,
-        "time": "8:55 AM",
+        "time": "9:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/lupin-iii-part-6-29e5153031.jpg",
         "streams": {
             "HiDive": "https://www.hidive.com/tv/lupin-the-3rd-part-6"
@@ -394,7 +378,7 @@
     },
     "My Senpai is Annoying": {
         "day": 6,
-        "time": "10:00 AM",
+        "time": "9:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/senpai-ga-uzai-kouhai-no-hanashi-b8395c76e6.jpg",
         "streams": {
             "Funimation": "https://www.funimation.com/shows/my-senpai-is-annoying/",
@@ -403,7 +387,7 @@
     },
     "86 EIGHTY-SIX": {
         "day": 6,
-        "time": "9:30 AM",
+        "time": "8:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/86-eighty-six-part-2-dd2af74273.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/86-eighty-six",
@@ -412,7 +396,7 @@
     },
     "World Trigger": {
         "day": 6,
-        "time": "11:30 AM",
+        "time": "10:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/world-trigger-3-e1a6553e09.jpg",
         "streams": {
             "Crunchyroll": "https://crunchyroll.com/series/GR757DMKY/world-trigger",
@@ -421,7 +405,7 @@
     },
     "Shikizakura": {
         "day": 6,
-        "time": "9:55 AM",
+        "time": "8:55 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/shikizakura-90973d772b.jpg",
         "streams": {
             "HiDive": "https://www.hidive.com/tv/shikizakura"
@@ -429,7 +413,7 @@
     },
     "MUTEKING THE Dancing HERO": {
         "day": 6,
-        "time": "10:26 AM",
+        "time": "9:26 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/muteking-the-dancing-hero-e575fb6443.jpg",
         "streams": {
             "Funimation": "https://www.funimation.com/shows/muteking-the-dancing-hero/",
@@ -438,19 +422,19 @@
     },
     "Okashi na Sabaku no Suna to Manu": {
         "day": 6,
-        "time": "10:50 AM",
+        "time": "9:50 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/okashi-na-sabaku-no-suna-to-manu-9abe9a321f.jpg",
         "streams": {}
     },
     "Gunma-chan": {
-        "day": 7,
-        "time": "4:00 PM",
+        "day": 6,
+        "time": "3:00 PM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/gunma-chan-1ba5be0417.jpg",
         "streams": {}
     },
     "Waccha PriMagi!": {
         "day": 7,
-        "time": "7:00 PM",
+        "time": "6:00 PM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/waccha-primagi-d4964e99fd.jpg",
         "streams": {
             "HiDive": "https://www.hidive.com/tv/waccha-primagi"
@@ -458,7 +442,7 @@
     },
     "Digimon Ghost Game": {
         "day": 7,
-        "time": "7:30 PM",
+        "time": "6:30 PM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/digimon-ghost-game-45954f5ba5.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNMEEZ",
@@ -467,7 +451,7 @@
     },
     "Holo no Graffiti": {
         "day": 7,
-        "time": "2:01 AM",
+        "time": "1:01 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/holo-no-graffiti-78c7859a59.jpg",
         "streams": {
             "YouTube": "https://www.youtube.com/playlist?list=PLb7AOG3cj7UyJfqsfXpvL2LUVdg0dOK7q"
@@ -475,13 +459,13 @@
     },
     "Sazae-san": {
         "day": 7,
-        "time": "2:30 AM",
+        "time": "1:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/sazae-san-895ed9c4c6.jpg",
         "streams": {}
     },
     "Mieruko-chan": {
         "day": 7,
-        "time": "7:00 AM",
+        "time": "6:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/mieruko-chan-feb72f8a68.jpg",
         "streams": {
             "Funimation": "https://www.funimation.com/shows/mieruko-chan/",
@@ -491,7 +475,7 @@
     },
     "The Night Beyond the Tricornered Window": {
         "day": 7,
-        "time": "7:00 AM",
+        "time": "6:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/sankaku-mado-no-sotogawa-wa-yoru-6192ad390d.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/the-night-beyond-the-tricornered-window",
@@ -500,7 +484,7 @@
     },
     "Tesla Note": {
         "day": 7,
-        "time": "7:30 AM",
+        "time": "6:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/tesla-note-68a0fb5bba.jpg",
         "streams": {
             "Funimation": "https://www.funimation.com/shows/tesla-note/",
@@ -509,7 +493,7 @@
     },
     "Mushoku Tensei: Jobless Reincarnation": {
         "day": 7,
-        "time": "9:00 AM",
+        "time": "8:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/mushoku-tensei-isekai-ittara-honki-dasu-part-2-5144eff491.jpg",
         "streams": {
             "Funimation": "https://www.funimation.com/shows/mushoku-tensei-jobless-reincarnation/",
@@ -520,7 +504,7 @@
     },
     "Irina: The Vampire Cosmonaut": {
         "day": 7,
-        "time": "10:05 AM",
+        "time": "9:05 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/tsuki-to-laika-to-nosferatu-66036b898f.jpg",
         "streams": {
             "Funimation": "https://www.funimation.com/shows/irina-the-vampire-cosmonaut/",
@@ -550,7 +534,7 @@
     },
     "Ancient Girl's Frame": {
         "day": 1,
-        "time": "8:01 PM",
+        "time": "7:01 PM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/toushinki-g-s-frame-ce3d5d70ca.jpg",
         "streams": {
             "Funimation": "https://www.funimation.com/shows/ancient-girls-frame/"
@@ -558,7 +542,7 @@
     },
     "RUMBLE GARANNDOLL": {
         "day": 1,
-        "time": "8:00 AM",
+        "time": "7:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/gyakuten-sekai-no-denchi-shoujo-5b7dca0535.jpg",
         "streams": {
             "Funimation": "https://www.funimation.com/shows/rumble-garanndoll/",
@@ -568,7 +552,7 @@
     },
     "Deep Insanity THE LOST CHILD": {
         "day": 2,
-        "time": "9:30 AM",
+        "time": "8:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/deep-insanity-the-lost-child-c0265388b1.jpg",
         "streams": {
             "Funimation": "https://www.funimation.com/shows/deep-insanity-the-lost-child/",
@@ -578,7 +562,7 @@
     },
     "KAGI-NADO": {
         "day": 2,
-        "time": "9:30 AM",
+        "time": "8:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kaginado-121262dc22.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/kagi-nado",
@@ -588,23 +572,15 @@
             "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3gRcH6U4L-LonrzmvlvvX0"
         }
     },
-    "Ore, Tsushima (ONA)": {
-        "day": 3,
-        "time": "5:00 PM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/ore-tsushima-ona-8796a744c1.jpg",
-        "streams": {
-            "YouTube": "https://www.youtube.com/playlist?list=PLl7reuZgwQ_SqabG7CRuv9Shcg8_lGbfY"
-        }
-    },
-    "180 Byou de Kimi no Mimi wo Shiawase ni Dekiru ka?": {
+    "Can I Make Your Ears Happy in 180 Seconds?": {
         "day": 4,
-        "time": "9:00 AM",
+        "time": "8:00 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/180-byou-de-kimi-no-mimi-wo-shiawase-ni-dekiru-ka-1961ff0c3a.jpg",
         "streams": {}
     },
     "Ranking of Kings": {
         "day": 4,
-        "time": "10:25 AM",
+        "time": "9:25 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/ousama-ranking-8201a3fcda.jpg",
         "streams": {
             "Funimation": "https://www.funimation.com/shows/ranking-of-kings/",
@@ -613,7 +589,7 @@
     },
     "The Faraway Paladin": {
         "day": 6,
-        "time": "7:30 AM",
+        "time": "6:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/saihate-no-paladin-c8bc9026a5.jpg",
         "streams": {
             "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W8G1",
@@ -623,7 +599,7 @@
     },
     "Demon Slayer: Kimetsu no Yaiba": {
         "day": 7,
-        "time": "8:45 AM",
+        "time": "7:45 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kimetsu-no-yaiba-yuukaku-hen-305a073fca.jpg",
         "streams": {
             "Crunchyroll": "https://crunchyroll.com/series/GY5P48XEY/Demon-Slayer-Kimetsu-no-Yaiba",
@@ -635,25 +611,28 @@
     },
     "Gundam Breaker: Battlogue": {
         "day": 2,
-        "time": "5:30 AM",
+        "time": "4:30 AM",
         "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/gundam-breaker-battlogue-2663aa1aa8.jpg",
         "streams": {
             "YouTube": "https://www.youtube.com/playlist?list=PLJV1h9xQ7Hx8E10pELJWrAMDND3zOapLy"
         }
     },
-    "Kobayashi-san Chi no Maid Dragon S: Mini Dra Specials": {
-        "day": 3,
-        "time": "5:00 PM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/kobayashi-san-chi-no-maid-dragon-s-mini-dragon-specials-2937abf331.jpg",
+    "Assault Lily: Fruits": {
+        "day": 2,
+        "time": "7:00 PM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/assault-lily-fruits-ff67123fe1.jpg",
         "streams": {}
     },
-    "Obey Me!": {
+    "Battle Spirits: Mirage": {
         "day": 5,
-        "time": "1:01 AM",
-        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/obey-me-ce15c6db0a.jpg",
-        "streams": {
-            "Funimation": "https://www.funimation.com/shows/obey-me/",
-            "YouTube": "https://www.youtube.com/watch?v=ApCzUcs7sUU&list=PLjtqZEeWgUQvjGVVvS5pVBZlnzGgcAXWU"
-        }
+        "time": "4:00 PM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/battle-spirits-mirage-47818f8d29.jpg",
+        "streams": {}
+    },
+    "Blade Runner: Black Lotus": {
+        "day": 6,
+        "time": "4:00 PM",
+        "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/blade-runner-black-lotus-225a4f3d65.jpg",
+        "streams": {}
     }
 }
