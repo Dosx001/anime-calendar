@@ -1,16 +1,17 @@
+from selenium.webdriver.firefox.service import Service
 from selenium import webdriver
 from shows import shows
 import unittest
 
-driver = webdriver.Firefox(service_log_path = '/dev/null')
+driver = webdriver.Firefox(service = Service(log_path = '/dev/null'))
 
 class TestList(unittest.TestCase):
     def setUp(self):
         self.sh = shows()
 
-    def testAnimeLab(self):
-        title = self.sh.AnimeLab("https://www.animelab.com/shows/log-horizon")
-        self.assertEqual(title, "Log Horizon")
+    #def testAnimeLab(self):
+    #    title = self.sh.AnimeLab("https://www.animelab.com/shows/log-horizon")
+    #    self.assertEqual(title, "Log Horizon")
 
     def testCrunchyroll(self):
         self.sh.driver = driver

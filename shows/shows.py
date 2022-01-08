@@ -1,4 +1,5 @@
-from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException
+from selenium.webdriver.common.by import By
 from time import strftime, strptime
 from json import dump, load
 from html import unescape
@@ -18,17 +19,17 @@ class shows:
     def html(self):
         self.driver.get("https://animeschedule.net")
         for num, day in enumerate(["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], 1):
-            for col in self.driver.find_elements_by_class_name(day):
-                for show in col.find_elements_by_class_name("timetable-column-show"):
+            for col in self.driver.find_elements(By.CLASS_NAME, day):
+                for show in col.find_elements(By.CLASS_NAME, "timetable-column-show"):
                     if show.get_attribute("chinese") != None:
                         continue
-                    title = show.find_element_by_class_name("show-title-bar").get_attribute("innerHTML")
-                    time = show.find_element_by_class_name("show-air-time").get_attribute("innerHTML")
+                    title = show.find_element(By.CLASS_NAME, "show-title-bar").get_attribute("innerHTML")
+                    time = show.find_element(By.CLASS_NAME, "show-air-time").get_attribute("innerHTML")
                     if time[0] == "0":
                         time = time[1::]
-                    cover = show.find_element_by_class_name("show-poster").get_attribute("data-src")[0:-12]
+                    cover = show.find_element(By.CLASS_NAME, "show-poster").get_attribute("data-src")[0:-12]
                     streams = {}
-                    for stream in show.find_elements_by_class_name("stream-link"):
+                    for stream in show.find_elements(By.CLASS_NAME, "stream-link"):
                         link = stream.get_attribute('href')
                         streams.update({stream.get_attribute('title') : link})
                     content = {
@@ -78,6 +79,7 @@ class shows:
                 else:
                     print(show)
                     print(self.new[show]['streams'])
+                    title = show
                     In = input('title? ')
                     title = In if In != "" else show
                     if title == "movie":
@@ -125,7 +127,10 @@ class shows:
                 times[i] = time
 
     def getData(self, url):
-        return popen(f"curl -k {url} -H 'User-Agent: Firefox/60.'").read().split("\n")
+        pipe = popen(f"curl -k {url} -H 'User-Agent: Firefox/60.'")
+        data = pipe.read().split("\n")
+        pipe.close()
+        return data
 
     def AnimeLab(self, url):
         Bools = [False, False]
@@ -140,31 +145,33 @@ class shows:
     def Crunchyroll(self, url):
         self.driver.get(url)
         try:
-            return self.driver.find_element_by_class_name("ch-left").find_element_by_tag_name("span").text
+            return self.driver.find_element(By.CLASS_NAME, "ch-left").find_element(By.TAG_NAME, "span").text
         except NoSuchElementException:
             with open("pass.txt") as f:
                 keys = f.readline().split()
-            self.driver.find_element_by_class_name("submitbtn").click()
-            self.driver.find_element_by_id("login_form_name").send_keys(keys[0])
-            self.driver.find_element_by_id("login_form_password").send_keys(keys[1])
-            self.driver.find_element_by_id("login_submit_button").click()
+            self.driver.find_element(By.CLASS_NAME, "submitbtn").click()
+            self.driver.find_element(By.ID, "login_form_name").send_keys(keys[0])
+            self.driver.find_element(By.ID, "login_form_password").send_keys(keys[1])
+            self.driver.find_element(By.ID, "login_submit_button").click()
             while True:
                 try:
-                    text = self.driver.find_element_by_class_name('hero-heading-line').find_element_by_tag_name("h1").text
-                    self.driver.find_element_by_class_name("erc-authenticated-user-menu").click()
-                    self.driver.find_element_by_class_name("user-menu-sticky").click()
+                    text = self.driver.find_element(By.CLASS_NAME, 'hero-heading-line').find_element(By.TAG_NAME, "h1").text
+                    self.driver.find_element(By.CLASS_NAME, "erc-authenticated-user-menu").click()
+                    self.driver.find_element(By.CLASS_NAME, "user-menu-sticky").click()
                     return text
                 except NoSuchElementException:
                     pass
 
     def Funimation(self, url):
         self.driver.get(url)
-        i = 0
-        while i < 100:
-            try:
-                return self.driver.find_element_by_class_name("text-md-h1").text
-            except NoSuchElementException:
-                i += 1
+        try:
+            for _ in range(200):
+                try:
+                    return self.driver.find_element(By.CLASS_NAME, "text-md-h1").text
+                except NoSuchElementException:
+                    pass
+        except StaleElementReferenceException:
+            pass
         return "TIME_OUT"
 
     def HiDive(self, url):
@@ -182,7 +189,7 @@ class shows:
                 if line != "|":
                     title.append(line)
                 else:
-                    return " ".join(title)
+                    return " ".join(title[1::])
             elif "/><title>" in line:
                 title.append(line[267::])
                 Bool = True
@@ -206,7 +213,7 @@ class shows:
 
     def Wakanim(self, url):
         self.driver.get(url)
-        return self.driver.find_element_by_class_name("SerieHeader-thumb").get_attribute("alt")
+        return self.driver.find_element(By.CLASS_NAME, "SerieHeader-thumb").get_attribute("alt")
 
     def updateStreams(self):
         for show in self.changes:
