@@ -48,6 +48,32 @@ class shows:
                     else:
                         self.new.update({title: content})
 
+    def title(self, show):
+        for stream in self.new[show]['streams']:
+            match stream:
+                # Geo Locked
+                #case 'AnimeLab':
+                #    title = self.AnimeLab(self.new[show]['streams'][stream])
+                case 'Crunchyroll':
+                    title = self.Crunchyroll(self.new[show]['streams'][stream])
+                case 'Funimation':
+                    title = self.Funimation(self.new[show]['streams'][stream])
+                    if title == 'TIME_OUT':
+                        continue
+                case 'HiDive':
+                    title = self.HiDive(self.new[show]['streams'][stream])
+                case 'Netflix':
+                    title = self.Netflix(self.new[show]['streams'][stream])
+                case 'VRV':
+                    title = self.VRV(self.new[show]['streams'][stream])
+                case 'Wakanim':
+                    title = self.Wakanim(self.new[show]['streams'][stream])
+                case _:
+                    continue
+            while title != unescape(title):
+                title = unescape(title)
+            return title
+
     def update(self):
         if len(self.changes) != 0 or len(self.new) != 0 or len(self.static) != len(self.keys):
             system("cp shows.json past_shows.json")
@@ -56,34 +82,8 @@ class shows:
                     self.shows[self.keys[show]] = self.changes[show]
                 elif not show in self.static:
                     self.shows.pop(self.keys.pop(show))
-            getTitle = {
-                'AnimeLab': lambda url: self.AnimeLab(url),
-                'Crunchyroll': lambda url: self.Crunchyroll(url),
-                'Funimation': lambda url: self.Funimation(url),
-                'HiDive': lambda url: self.HiDive(url),
-                'Netflix': lambda url: self.Netflix(url),
-                'VRV': lambda url: self.VRV(url),
-                'Wakanim': lambda url: self.Wakanim(url)
-            }
             for show in self.new:
-                for stream in self.new[show]['streams']:
-                    if stream in getTitle:
-                        title = getTitle[stream](self.new[show]['streams'][stream])
-                        if title == "TIME_OUT":
-                            continue
-                        while title != unescape(title):
-                            title = unescape(title)
-                        if stream == "Netflix":
-                            self.new[show]['streams'].pop("Netflix")
-                        break
-                else:
-                    print(show)
-                    print(self.new[show]['streams'])
-                    title = show
-                    In = input('title? ')
-                    title = In if In != "" else show
-                    if title == "movie":
-                        continue
+                title = self.title(show)
                 self.shows.update({title: self.new[show]})
                 self.keys.update({show: title})
             with open('keys.json', 'w') as file:
