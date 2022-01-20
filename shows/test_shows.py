@@ -1,53 +1,61 @@
-from selenium.webdriver.firefox.service import Service
-from selenium import webdriver
-from shows import shows
 import unittest
 
-driver = webdriver.Firefox(service = Service(log_path = '/dev/null'))
+from selenium import webdriver
+from selenium.webdriver.firefox.service import Service
+
+from shows import Shows
+
+driver = webdriver.Firefox(service=Service(log_path="/dev/null"))
+
 
 class TestList(unittest.TestCase):
     def setUp(self):
-        self.sh = shows()
+        self.shw = Shows()
 
-    #def testAnimeLab(self):
-    #    title = self.sh.AnimeLab("https://www.animelab.com/shows/log-horizon")
+    # def test_animelab(self):
+    #    title = self.shw.animelab("https://www.animelab.com/shwows/log-horizon")
     #    self.assertEqual(title, "Log Horizon")
 
-    def testCrunchyroll(self):
-        self.sh.driver = driver
-        title = self.sh.Crunchyroll("https://www.crunchyroll.com/attack-on-titan")
+    def test_crunchyroll(self):
+        self.shw.driver = driver
+        title = self.shw.crunchyroll("https://www.crunchyroll.com/attack-on-titan")
         self.assertEqual(title, "Attack on Titan")
 
-    def testFunimation(self):
-        self.sh.driver = driver
-        title = self.sh.Funimation("https://www.funimation.com/shows/the-detective-is-already-dead/")
+    def test_funimation(self):
+        self.shw.driver = driver
+        title = self.shw.funimation(
+            "https://www.funimation.com/shwows/the-detective-is-already-dead/"
+        )
         self.assertEqual(title, "The Detective Is Already Dead")
 
-    def testHiDive(self):
-        title = self.sh.HiDive("https://www.hidive.com/tv/non-non-biyori-nonstop")
+    def test_hidive(self):
+        title = self.shw.hidive("https://www.hidive.com/tv/non-non-biyori-nonstop")
         self.assertEqual(title, "Non Non Biyori Nonstop")
 
-    def testNetflix(self):
-        title = self.sh.Netflix("https://www.netflix.com/title/80050063")
+    def test_netflix(self):
+        title = self.shw.netflix("https://www.netflix.com/title/80050063")
         self.assertEqual(title, "The Seven Deadly Sins")
 
-    def testNetflix2(self):
-        title = self.sh.Netflix("https://www.netflix.com/bg/title/81239555")
+    def test_netflix2(self):
+        title = self.shw.netflix("https://www.netflix.com/bg/title/81239555")
         self.assertEqual(title, "SHAMAN KING")
 
-    def testVRV(self):
-        title = self.sh.VRV("https://vrv.co/series/GG5H5X7ZE")
+    def test_vrv(self):
+        title = self.shw.vrv("https://vrv.co/series/gg5h5x7ze")
         self.assertEqual(title, "Koikimo")
 
-    def testVRV2(self):
-        title = self.sh.VRV("https://vrv.co/series/G6NQ5DWZ6/My-Hero-Academia")
+    def test_vrv2(self):
+        title = self.shw.vrv("https://vrv.co/series/g6nq5dwz6/my-hero-academia")
         self.assertEqual(title, "My Hero Academia")
 
-    def testWakanim(self):
-        self.sh.driver = driver
-        title = self.sh.Wakanim("https://www.wakanim.tv/sc/v2/catalogue/show/1203/horimiya")
+    def test_wakanim(self):
+        self.shw.driver = driver
+        title = self.shw.wakanim(
+            "https://www.wakanim.tv/sc/v2/catalogue/shwow/1203/horimiya"
+        )
         self.assertEqual(title, "Horimiya")
-        self.sh.driver.quit()
+        self.shw.driver.quit()
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()
