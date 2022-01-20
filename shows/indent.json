@@ -46,8 +46,8 @@
     "streams": {}
   },
   "Duel Masters King!": {
-    "day": 7,
-    "time": "9:05 PM",
+    "day": 6,
+    "time": "3:30 PM",
     "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/duel-masters-king-2-73e9e83932.jpg",
     "streams": {}
   },
@@ -131,6 +131,7 @@
     "time": "9:30 AM",
     "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/lupin-iii-part-6-29e5153031.jpg",
     "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/lupin-the-3rd-part-6",
       "HiDive": "https://www.hidive.com/tv/lupin-the-3rd-part-6"
     }
   },
@@ -185,6 +186,7 @@
     "time": "9:25 AM",
     "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/ousama-ranking-429c1b7bb6.jpg",
     "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/ranking-of-kings",
       "Funimation": "https://www.funimation.com/shows/ranking-of-kings/",
       "VRV": "https://vrv.co/series/G79H23W70",
       "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1492/ranking-of-kings"
@@ -385,6 +387,7 @@
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/how-a-realist-hero-rebuilt-the-kingdom",
       "Funimation": "https://www.funimation.com/shows/how-a-realist-hero-rebuilt-the-kingdom/",
+      "Hulu": "https://www.hulu.com/series/how-a-realist-hero-rebuilt-the-kingdom-911a694a-3cab-41df-a034-e178b461bee6",
       "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1375"
     }
   },
@@ -546,7 +549,7 @@
   },
   "I'M KODAMA KAWASHIRI": {
     "day": 4,
-    "time": "10:45 AM",
+    "time": "11:45 AM",
     "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/atasha-kawajiri-kodama-da-yo-dangerous-lifehacker-no-tadareta-seikatsu-321ab492b8.jpg",
     "streams": {
       "Crunchyroll": "https://crunchyroll.com/series/G79H23VD4",
@@ -557,7 +560,9 @@
     "day": 5,
     "time": "4:00 PM",
     "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/tales-of-luminaria-the-fateful-crossroad-1011f867ba.jpg",
-    "streams": {}
+    "streams": {
+      "Funimation": "https://www.funimation.com/shows/tales-of-luminaria-the-fateful-crossroad/"
+    }
   },
   "The Case Study of Vanitas": {
     "day": 5,
@@ -602,7 +607,7 @@
   },
   "Theatre of Darkness: Yamishibai": {
     "day": 7,
-    "time": "1:35 PM",
+    "time": "12:30 PM",
     "cover": "https://cdn.statically.io/img/cdn.animeschedule.net/production/assets/public/img/anime/default/yami-shibai-10-93d904cd79.jpg",
     "streams": {
       "Crunchyroll": "https://crunchyroll.com/series/G6WEM1V36/theatre-of-darkness-yamishibai",
