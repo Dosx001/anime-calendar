@@ -17,6 +17,7 @@ def main():
     shw = Shows(
         webdriver.Firefox(service=Service(log_path="/dev/null"), options=options)
     )
+    shw.driver.maximize_window()
     shw.html()
     if len(argv) == 1:
         shw.update()

@@ -11,11 +11,16 @@ from selenium.webdriver.firefox.service import Service
 def main():
     profile = popen('ls ~/.mozilla/firefox/ | grep "default"').read().split("\n")[1]
     user = popen("whoami").read()[0:-1]
-    path = "/home/" + user + "/.mozilla/firefox/" + profile
     options = Options()
-    options.set_preference('profile', path)
-    driver = webdriver.Firefox(service = Service(log_path = '/dev/null'),
-        options = options)
+    options.set_preference(
+        'profile',
+        "/home/" + user + "/.mozilla/firefox/" + profile
+    )
+    driver = webdriver.Firefox(
+        service = Service(log_path = '/dev/null'),
+        options = options
+    )
+    driver.maximize_window()
     driver.get('https://animeschedule.net/seasons/spring-2022')
     data = driver.find_element(By.CLASS_NAME, 'shows-container').find_elements(By.CLASS_NAME, 'anime-tile')
     shows = {}
