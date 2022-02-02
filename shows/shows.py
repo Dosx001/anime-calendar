@@ -111,7 +111,7 @@ class Shows:
                     self.shows[self.keys[show]] = self.changes[show]
                 elif show not in self.static:
                     self.shows.pop(self.keys.pop(show))
-            for show in self.new.items():
+            for show in self.new.keys():
                 title = self.title(show)
                 self.shows.update({title: self.new[show]})
                 self.keys.update({show: title})

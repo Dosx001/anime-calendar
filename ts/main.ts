@@ -2,7 +2,7 @@
 (<HTMLSelectElement>document.getElementById("format")).selectedIndex = parseInt(localStorage.getItem('format')!)
 document.getElementById('list')!.innerHTML = localStorage.getItem('list') ?? "Your List"
 
-let CAL = new Calendar("22.0.2")
+let CAL = new Calendar("22.0.3")
 let SON = new Season()
 
 window.onload = () => {
