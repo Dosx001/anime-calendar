@@ -10,8 +10,7 @@ from shows import Shows
 
 def main():
     profile = popen('ls ~/.mozilla/firefox/ | grep "default"').read().split("\n")[1]
-    user = popen("whoami").read()[0:-1]
-    path = "/home/" + user + "/.mozilla/firefox/" + profile
+    path = "$HOME/.mozilla/firefox/" + profile
     options = Options()
     options.set_preference("profile", path)
     shw = Shows(

@@ -23,6 +23,7 @@ class Shows:
 
     def html(self):
         self.driver.get("https://animeschedule.net")
+        self.driver.refresh()
         for num, day in enumerate(
             [
                 "Monday",
@@ -41,15 +42,15 @@ class Shows:
                         continue
                     title = show.find_element(
                         By.CLASS_NAME, "show-title-bar"
-                    ).get_attribute("innerHTML")
+                    ).get_attribute("innerText")
                     time = show.find_element(
                         By.CLASS_NAME, "show-air-time"
-                    ).get_attribute("innerHTML")
+                    ).get_attribute("innerText")
                     if time[0] == "0":
                         time = time[1::]
                     cover = show.find_element(
                         By.CLASS_NAME, "show-poster"
-                    ).get_attribute("data-src")[0:-12]
+                    ).get_attribute("data-src")
                     streams = {}
                     for stream in show.find_elements(By.CLASS_NAME, "stream-link"):
                         link = stream.get_attribute("href")
@@ -111,9 +112,9 @@ class Shows:
                     self.shows[self.keys[show]] = self.changes[show]
                 elif show not in self.static:
                     self.shows.pop(self.keys.pop(show))
-            for show in self.new.keys():
+            for show, info in self.new.items():
                 title = self.title(show)
-                self.shows.update({title: self.new[show]})
+                self.shows.update({title: info})
                 self.keys.update({show: title})
             with open("keys.json", "w", encoding="utf-8") as file:
                 dump(self.keys, file, indent=2)
