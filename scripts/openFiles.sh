@@ -1,5 +1,6 @@
 #!/bin/bash
-vim -p index.html index.html index.html index.html css/base.scss index.html \
+vi=$(command -v nvim &> /dev/null && echo nvim || echo vim)
+$vi -p index.html index.html index.html index.html css/base.scss index.html \
     "+vs ts/calendar.ts | tabn" \
     "+vs ts/search.ts | tabn" \
     "+vs ts/streams.ts | tabn" \
