@@ -3,16 +3,31 @@ from json import dump, load
 from os import popen, system
 from time import strftime, strptime
 
+from selenium import webdriver
 from selenium.common.exceptions import (
     NoSuchElementException,
     StaleElementReferenceException,
 )
 from selenium.webdriver.common.by import By
+from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.firefox.service import Service
 
 
 class Shows:
-    def __init__(self, driver=None):
-        self.driver = driver
+    def __init__(self, driver):
+        if driver is None:
+            profile = (
+                popen('ls ~/.mozilla/firefox/ | grep "default"').read().split("\n")[1]
+            )
+            options = Options()
+            options.set_preference("profile", "$HOME/.mozilla/firefox/" + profile)
+            self.driver = webdriver.Firefox(
+                service=Service(log_path="/dev/null"),
+                options=options
+            )
+        else:
+            self.driver = driver
+        self.driver.maximize_window()
         with open("shows.json", encoding="utf-8") as file:
             self.shows = load(file)
         with open("keys.json", encoding="utf-8") as file:
@@ -91,12 +106,16 @@ class Shows:
                     title = self.netflix(self.new[show]["streams"][stream])
                 case "VRV":
                     title = self.vrv(self.new[show]["streams"][stream])
-                case "Wakanim":
-                    title = self.wakanim(self.new[show]["streams"][stream])
+                # Geo Locked
+                # case "Wakanim":
+                #     title = self.wakanim(self.new[show]["streams"][stream])
                 case _:
                     continue
-            while title != unescape(title):
-                title = unescape(title)
+            if title:
+                while title != unescape(title):
+                    title = unescape(title)
+            else:
+                continue
             return title
         return show
 
@@ -135,12 +154,10 @@ class Shows:
         output = {}
         output.update({"compact": times})
         times = set(times)
-        for time in range(1, 13):
-            times.add(f"{time}:00 AM")
-            times.add(f"{time}:30 AM")
-            times.add(f"{time}:00 PM")
-            times.add(f"{time}:30 PM")
-        times = sorted([strptime(time, "%I:%M %p") for time in times])
+        for hour in range(1, 13):
+            for time in ["00 AM", "30 AM", "00 PM", "30 PM"]:
+                times.add(strptime(f"{hour}:{time}", "%I:%M %p"))
+        times = sorted(times)
         full = list(times)
         self.format_times(times)
         output.update({"full": times})
@@ -172,6 +189,7 @@ class Shows:
                 boolans[1] = True
             elif "title" in line:
                 boolans[0] = True
+        return None
 
     def crunchyroll(self, url):
         self.driver.get(url)
@@ -212,12 +230,14 @@ class Shows:
                 except NoSuchElementException:
                     pass
         except StaleElementReferenceException:
-            return "TIME_OUT"
+            pass
+        return None
 
     def hidive(self, url):
         for line in self.get_data(url):
             if "title" in line:
                 return line[35:-14]
+        return None
 
     def netflix(self, url):
         title = []
@@ -233,6 +253,7 @@ class Shows:
             elif "/><title>" in line:
                 title.append(line[267::])
                 boolan = True
+        return None
 
     def vrv(self, url):
         boolans = [False, False]
@@ -249,31 +270,10 @@ class Shows:
                         boolans[1] = True
             elif "</script>" in line:
                 boolans[0] = True
+        return None
 
     def wakanim(self, url):
         self.driver.get(url)
         return self.driver.find_element(
             By.CLASS_NAME, "SerieHeader-thumb"
         ).get_attribute("alt")
-
-    def update_streams(self):
-        for show in self.changes.items():
-            self.shows[self.keys[show]]["streams"] = self.changes[show]["streams"]
-        with open("shows.json", "w") as file:
-            dump(self.shows, file, separators=(",", ":"))
-        with open("indent.json", "w") as file:
-            dump(self.shows, file, indent=4)
-
-    def rename(self):
-        with open("names.json") as f:
-            names = load(f)
-        for name in names:
-            if names[name] != self.keys[name]:
-                self.shows.update({names[name]: self.shows.pop(self.keys[name])})
-                self.keys[name] = names[name]
-        with open("keys.json", "w") as file:
-            dump(self.keys, file, indent=4)
-        with open("shows.json", "w") as file:
-            dump(self.shows, file, separators=(",", ":"))
-        with open("indent.json", "w") as file:
-            dump(self.shows, file, indent=4)
