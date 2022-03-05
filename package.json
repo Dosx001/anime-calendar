@@ -1,0 +1,26 @@
+{
+  "name": "anime-calendar",
+  "version": "1.0.0",
+  "description": "Website",
+  "main": "ts/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dosx001/anime-calendar.git"
+  },
+  "author": "Andres Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dosx001/anime-calendar/issues"
+  },
+  "homepage": "https://github.com/Dosx001/anime-calendar#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4"
+  }
+}
