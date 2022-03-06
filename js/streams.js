@@ -3,22 +3,29 @@ class Streams {
     constructor() {
         this.drag;
         this.dragover;
-        this.streams = JSON.parse(localStorage.getItem('streams')) ??
-            [['AnimeLab', false], ['Crunchyroll', false], ['Funimation', false], ['HiDive', false],
-                ['Hulu', false], ['VRV', false], ['Wakanim', false], ['YouTube', false]];
+        this.streams = JSON.parse(localStorage.getItem('streams')) ?? [
+            ['AnimeLab', false],
+            ['Crunchyroll', false],
+            ['Funimation', false],
+            ['HiDive', false],
+            ['Hulu', false],
+            ['VRV', false],
+            ['Wakanim', false],
+            ['YouTube', false],
+        ];
         this.renderItems();
     }
     renderItems() {
-        let list = document.querySelector('.stream-box');
+        const list = document.querySelector('.stream-box');
         list.innerText = '';
         for (const i in this.streams) {
-            let div = document.createElement("div");
+            const div = document.createElement('div');
             div.draggable = true;
             div.className = 'stream-drag';
-            div.ondrag = e => {
+            div.ondrag = (e) => {
                 this.drag = e.target.innerText;
             };
-            div.ondragover = e => {
+            div.ondragover = (e) => {
                 e.preventDefault();
                 this.dragover = e.target.innerText;
             };
@@ -26,22 +33,25 @@ class Streams {
                 const index1 = this.index(this.drag);
                 const index2 = this.index(this.dragover);
                 this.streams.splice(index1, 1);
-                this.streams.splice(index2, 0, [this.drag,
-                    document.querySelector(`[name=${this.drag}]`).checked]);
+                this.streams.splice(index2, 0, [
+                    this.drag,
+                    document.querySelector(`[name=${this.drag}]`)
+                        .checked,
+                ]);
                 this.renderItems();
             };
-            div.id = 's' + i;
-            let input = document.createElement('input');
+            div.id = `s${i}`;
+            const input = document.createElement('input');
             input.type = 'checkbox';
             input.name = this.streams[i][0];
             input.className = 'stream-input';
-            input.onclick = e => {
-                let ele = e.target;
-                this.streams[parseInt(ele.parentElement.id.substring(1))][1] = ele.checked;
+            input.onclick = (e) => {
+                const ele = e.target;
+                this.streams[Number(ele.parentElement.id.substring(1))][1] = ele.checked;
                 localStorage.setItem('streams', JSON.stringify(this.streams));
             };
             input.checked = this.streams[i][1];
-            let label = document.createElement('label');
+            const label = document.createElement('label');
             label.className = 'stream-label';
             label.setAttribute('for', this.streams[i][0]);
             label.innerHTML = this.streams[i][0];
@@ -53,7 +63,7 @@ class Streams {
     }
     index(title) {
         for (let i = 0; i < this.streams.length; i++)
-            if (title == this.streams[i][0])
+            if (title === this.streams[i][0])
                 return i;
     }
 }

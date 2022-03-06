@@ -2,9 +2,9 @@
 class Season {
     constructor() {
         this.list = JSON.parse(localStorage.getItem('season')) ?? {};
-        this.set().then(keys => {
-            for (let title in this.list) {
-                let show = keys[title];
+        this.set().then((keys) => {
+            for (const title in this.list) {
+                const show = keys[title];
                 if (show) {
                     CAL.shows[show] = [false, false];
                     delete this.list[title];
@@ -15,42 +15,44 @@ class Season {
         });
     }
     async set() {
-        return await (await fetch("shows/keys.json")).json();
+        return await (await fetch('shows/keys.json')).json();
     }
     async init() {
-        let div = document.createElement('div');
+        const div = document.createElement('div');
         div.id = 'season';
         div.tabIndex = 1;
         document.body.append(div);
-        let data = await (await fetch('season/shows.json')).json();
+        const data = await (await fetch('season/shows.json')).json();
         let count = 0;
-        for (let show in (document.getElementById('list').innerHTML == "Your List") ? data : this.list) {
-            let content = document.createElement('div');
+        for (const show in document.getElementById('list').innerHTML === 'Your List'
+            ? data
+            : this.list) {
+            const content = document.createElement('div');
             content.className = 'show-season';
-            let table = document.createElement('table');
+            const table = document.createElement('table');
             table.className = 'info';
-            let tr = document.createElement('tr');
-            let th = document.createElement('th');
+            const tr = document.createElement('tr');
+            const th = document.createElement('th');
             th.innerHTML = show;
             tr.append(th);
             table.append(tr);
-            for (let item in data[show]) {
+            for (const item in data[show]) {
                 switch (item) {
-                    case "cover":
-                        let cover = document.createElement('div');
+                    case 'cover':
+                        const cover = document.createElement('div');
                         cover.className = 'cover-season';
                         cover.align = 'right';
-                        let img = document.createElement('img');
+                        const img = document.createElement('img');
                         img.src = data[show][item];
                         img.width = 340;
                         img.height = 440;
-                        if (2 < count) {
-                            img.src += "?w=5&h=5";
-                            let observer = new IntersectionObserver((entries, observer) => {
-                                entries.forEach(entry => {
+                        if (count > 2) {
+                            img.src += '?w=5&h=5';
+                            const observer = new IntersectionObserver((entries, observer) => {
+                                entries.forEach((entry) => {
                                     if (!entry.isIntersecting)
                                         return;
-                                    let img = entry.target;
+                                    const img = entry.target;
                                     img.src = img.src.substring(0, img.src.length - 8);
                                     observer.unobserve(img);
                                 });
@@ -63,26 +65,27 @@ class Season {
                         cover.append(img);
                         content.append(cover);
                         break;
-                    case "Genres":
-                        table.append(this.row(item, data[show][item].join(", ")));
+                    case 'Genres':
+                        table.append(this.row(item, data[show][item].join(', ')));
                         break;
                     default:
                         table.append(this.row(item, data[show][item]));
                 }
             }
-            let btn = document.createElement('button');
-            btn.innerHTML = show in this.list ? "Remove" : "Add";
-            btn.onclick = e => {
-                let title = e.srcElement.previousElementSibling.childNodes[0].innerText;
+            const btn = document.createElement('button');
+            btn.innerHTML = show in this.list ? 'Remove' : 'Add';
+            btn.onclick = (e) => {
+                const title = e.srcElement.previousElementSibling
+                    .childNodes[0].innerText;
                 if (title in this.list) {
                     delete this.list[title];
-                    e.srcElement.innerHTML = "Add";
+                    e.srcElement.innerHTML = 'Add';
                 }
                 else {
                     this.list[title] = null;
-                    e.srcElement.innerHTML = "Remove";
-                    let temp = {};
-                    for (let show of Object.keys(this.list).sort()) {
+                    e.srcElement.innerHTML = 'Remove';
+                    const temp = {};
+                    for (const show of Object.keys(this.list).sort()) {
                         temp[show] = null;
                     }
                     this.list = temp;
@@ -95,9 +98,9 @@ class Season {
         }
     }
     row(item, content) {
-        let tr = document.createElement('tr');
-        let td = document.createElement('td');
-        td.innerHTML = item + ': ' + content;
+        const tr = document.createElement('tr');
+        const td = document.createElement('td');
+        td.innerHTML = `${item}: ${content}`;
         tr.append(td);
         return tr;
     }
