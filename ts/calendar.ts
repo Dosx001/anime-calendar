@@ -24,15 +24,17 @@ interface Shows {
   };
 }
 
-interface Calendar {
-  left: HTMLElement;
-  right: HTMLElement;
-  past: Shows;
-  store: Shows;
-  shows: { [key: string]: [boolean, boolean] };
-}
-
 class Calendar {
+  left: HTMLElement;
+
+  right: HTMLElement;
+
+  past: Shows;
+
+  store: Shows;
+
+  shows: { [key: string]: [boolean, boolean] };
+
   constructor(ver: string) {
     this.shows = JSON.parse(localStorage.getItem('shows')!) ?? {};
     this.left = document.getElementById('left')!;
@@ -45,11 +47,11 @@ class Calendar {
       localStorage.setItem('ver', ver);
       this.set('./shows/shows.json', 'store');
       this.set('./shows/past_shows.json', 'past').then(() => {
-        for (const show in this.shows) {
+        Object.keys(this.shows).forEach((show) => {
           if (!(show in this.store || show in this.past)) {
             delete this.shows[show];
           }
-        }
+        });
         localStorage.setItem('shows', JSON.stringify(this.shows));
       });
     }
@@ -151,7 +153,7 @@ class Calendar {
     document.body.append(calendar);
   }
 
-  getDates(offset: number = 0) {
+  getDates = (offset: number = 0) => {
     const dates = [];
     const date = new Date();
     let day = date.getDate();
@@ -181,35 +183,35 @@ class Calendar {
     }
     for (let i = 0; i < 7; i++) dates.push(new Date(year, month, day + i));
     return dates;
-  }
+  };
 
-  ider_slot(day: number, time: string) {
-    return time.substring(1, 2) === ':'
+  ider_slot = (day: number, time: string) =>
+    time.substring(1, 2) === ':'
       ? day * 10000 +
-          Number(time.substring(0, 1)) * 100 +
-          Number(time.substring(2, 4)) +
-          time.substring(5, 6)
+        Number(time.substring(0, 1)) * 100 +
+        Number(time.substring(2, 4)) +
+        time.substring(5, 6)
       : day * 10000 +
-          Number(time.substring(0, 2)) * 100 +
-          Number(time.substring(3, 5)) +
-          time.substring(6, 7);
-  }
+        Number(time.substring(0, 2)) * 100 +
+        Number(time.substring(3, 5)) +
+        time.substring(6, 7);
 
-  ider_show(title: string) {
+  ider_show = (title: string) => {
     const words = title.split(' ');
     return (
       title.length +
       words.length.toString() +
       words[words.length - 1].replace(/\W/g, '')
     );
-  }
+  };
 
   createShows(offset: number) {
     const data = offset === 0 ? this.store : this.past;
-    for (const show in document.getElementById('list')!.innerHTML ===
-    'Your List'
-      ? data
-      : this.shows) {
+    Object.keys(
+      document.getElementById('list')!.innerHTML === 'Your List'
+        ? data
+        : this.shows,
+    ).forEach((show) => {
       if (show in data) {
         const button = document.createElement('button');
         button.id = this.ider_show(show);
@@ -226,11 +228,9 @@ class Calendar {
             : 'purple';
         }
         button.onclick = (e) => {
-          localStorage.getItem('info') === '0'
-            ? document.getElementById('title')
-              ? e.preventDefault()
-              : null
-            : e.preventDefault();
+          if (localStorage.getItem('info') === '0') {
+            if (document.getElementById('title')) e.preventDefault();
+          } else e.preventDefault();
           this.streamInfo((<HTMLElement>e.target!).innerHTML);
         };
         const a = document.createElement('a');
@@ -239,7 +239,7 @@ class Calendar {
         a.append(button);
         document.getElementById(id)!.append(a);
       }
-    }
+    });
   }
 
   full(times: string[], offset: number) {
@@ -267,11 +267,10 @@ class Calendar {
     return output;
   }
 
-  minMax(t1: string, t2: string) {
-    return new Date(`2000/1/1 ${t1}`) < new Date(`2000/1/1 ${t2}`)
+  minMax = (t1: string, t2: string) =>
+    new Date(`2000/1/1 ${t1}`) < new Date(`2000/1/1 ${t2}`)
       ? [t1, t2]
       : [t2, t1];
-  }
 
   cutoff(times: string[], offset: number) {
     const shows = { ...this.shows };
@@ -286,8 +285,8 @@ class Calendar {
       default:
         for (const show in shows) {
           if (show in data) {
-            max = this.minMax(max, data[show].time)[1];
-            min = this.minMax(min, data[show].time)[0];
+            [, max] = this.minMax(max, data[show].time);
+            [min] = this.minMax(min, data[show].time);
             if (
               data[show].time.includes('00') ||
               data[show].time.includes('30')
@@ -340,7 +339,7 @@ class Calendar {
     return output;
   }
 
-  resizeCalendar() {
+  resizeCalendar = () => {
     const cal = document.getElementById('calendar');
     if (cal) {
       cal.style.height =
@@ -349,7 +348,7 @@ class Calendar {
           ? '38vh'
           : '85vh';
     }
-  }
+  };
 
   streamInfo(show: string) {
     const data = show in this.store ? this.store : this.past;
@@ -439,9 +438,13 @@ class Calendar {
     const set = document.createElement('button');
     set.className = 'setter';
     set.onclick = () => this.setter();
-    show in this.shows
-      ? ((set.id = 'sub'), (set.innerHTML = 'Remove from Your List'))
-      : ((set.id = 'add'), (set.innerHTML = 'Add to Your List'));
+    if (show in this.shows) {
+      set.id = 'sub';
+      set.innerHTML = 'Remove from Your List';
+    } else {
+      set.id = 'add';
+      set.innerHTML = 'Add to Your List';
+    }
     const reset = document.createElement('button');
     reset.onclick = () => this.Reset();
     reset.id = 'reset';
@@ -495,16 +498,16 @@ class Calendar {
         (now[0] - time[0] === 1 && now[1] === time[1]) ||
         (now[1] - time[1] === 1 && now[0] === 52)
       ) {
-        for (const show in this.shows) {
+        Object.keys(this.shows).forEach((show) => {
           [this.shows[show][0], this.shows[show][1]] = [
             false,
             this.shows[show][0],
           ];
-        }
+        });
       } else if (now[0] !== time[0] || now[1] !== time[1]) {
-        for (const show in this.shows) {
+        Object.keys(this.shows).forEach((show) => {
           [this.shows[show][0], this.shows[show][1]] = [false, false];
-        }
+        });
       }
       localStorage.setItem('shows', JSON.stringify(this.shows));
     }

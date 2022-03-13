@@ -6,11 +6,9 @@ interface ChildNode {
   innerText: string;
 }
 
-interface Season {
-  list: { [key: string]: null };
-}
-
 class Season {
+  list: { [key: string]: null };
+
   constructor() {
     this.list = JSON.parse(localStorage.getItem('season')!) ?? {};
     this.set().then((keys) => {

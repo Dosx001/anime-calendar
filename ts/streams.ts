@@ -1,13 +1,13 @@
-interface Streams {
-  drag: string;
-  dragover: string;
-  streams: [string, boolean][];
-}
-
 class Streams {
+  drag: string;
+
+  dragover: string;
+
+  streams: [string, boolean][];
+
   constructor() {
-    this.drag;
-    this.dragover;
+    this.drag = '';
+    this.dragover = '';
     this.streams = JSON.parse(localStorage.getItem('streams')!) ?? [
       ['AnimeLab', false],
       ['Crunchyroll', false],
@@ -49,18 +49,18 @@ class Streams {
       div.id = `s${i}`;
       const input = document.createElement('input');
       input.type = 'checkbox';
-      input.name = this.streams[i][0];
+      [input.name, input.checked] = this.streams[i];
       input.className = 'stream-input';
       input.onclick = (e) => {
         const ele = <HTMLInputElement>e.target!;
-        this.streams[Number(ele.parentElement!.id.substring(1))][1] = ele.checked;
+        this.streams[Number(ele.parentElement!.id.substring(1))][1] =
+          ele.checked;
         localStorage.setItem('streams', JSON.stringify(this.streams));
       };
-      input.checked = this.streams[i][1];
       const label = document.createElement('label');
       label.className = 'stream-label';
       label.setAttribute('for', this.streams[i][0]);
-      label.innerHTML = this.streams[i][0];
+      label.innerHTML = input.name;
       div.append(input);
       div.append(label);
       list.append(div);
@@ -69,6 +69,6 @@ class Streams {
   }
 
   index(title: string) {
-    for (let i = 0; i < this.streams.length; i++) if (title === this.streams[i][0]) return i;
+    return this.streams.findIndex(stream => title === stream[0])
   }
 }

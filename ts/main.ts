@@ -17,11 +17,23 @@ window.onload = () => {
   new Streams();
 };
 
-window.matchMedia('(min-width: 1200px)').addListener(() => {
+window.matchMedia('(min-width: 1200px)').onchange = () => {
   document.querySelectorAll<HTMLElement>('.date').forEach((ele) => {
     [ele.innerHTML, ele.title] = [ele.title, ele.innerHTML];
   });
-});
+};
+
+function list() {
+  const ele = document.getElementById('list')!;
+  ele.innerHTML = ele.innerHTML === 'Full List' ? 'Your List' : 'Full List';
+  localStorage.setItem('list', ele.innerHTML);
+  if (document.getElementById('calendar')) {
+    CAL.left.style.visibility === 'visible' ? CAL.init() : CAL.init(-7);
+  } else {
+    document.getElementById('season')!.remove();
+    SON.init();
+  }
+}
 
 document.onkeydown = (e) => {
   if (!((<HTMLElement>e.target!).id === 'search' || e.ctrlKey || e.altKey)) {
@@ -75,18 +87,17 @@ document.onkeydown = (e) => {
           const urls: { [key: string]: string } = {};
           document
             .querySelectorAll<HTMLAnchorElement>('.stream')
-            .forEach((ele) => (urls[ele.innerText.substring(1)] = ele.href));
-          const streams = JSON.parse(localStorage.getItem('streams')!);
-          let check = true;
-          for (const i in streams) {
-            if (streams[i][1] && streams[i][0] in urls) {
-              window.open(urls[streams[i][0]]);
-              check = false;
-              CAL.Stream();
-              break;
-            }
-          }
-          if (check) {
+            .forEach((ele) => {
+              urls[ele.innerText.substring(1)] = ele.href;
+            });
+          const streams: [string, boolean][] = JSON.parse(
+            localStorage.getItem('streams')!,
+          );
+          const key = streams.find((stream) => stream[1] && stream[0] in urls);
+          if (key) {
+            window.open(urls[key[0]]);
+            CAL.Stream();
+          } else {
             const box = <HTMLElement>document.querySelector('.stream-box')!;
             box.style.backgroundColor = 'darkred';
             setTimeout(() => {
@@ -112,15 +123,3 @@ document.onkeydown = (e) => {
     }
   }
 };
-
-function list() {
-  const ele = document.getElementById('list')!;
-  ele.innerHTML = ele.innerHTML === 'Full List' ? 'Your List' : 'Full List';
-  localStorage.setItem('list', ele.innerHTML);
-  if (document.getElementById('calendar')) {
-    CAL.left.style.visibility === 'visible' ? CAL.init() : CAL.init(-7);
-  } else {
-    document.getElementById('season')!.remove();
-    SON.init();
-  }
-}

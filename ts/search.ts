@@ -1,11 +1,12 @@
-interface Search {
-  titleList: string[];
-  search: HTMLInputElement;
-  titles: HTMLElement;
-  indexLi: number;
-}
-
 class Search {
+  titleList: string[];
+
+  search: HTMLInputElement;
+
+  titles: HTMLElement;
+
+  indexLi: number;
+
   constructor(list: string[]) {
     this.titleList = list.sort();
     this.search = <HTMLInputElement>document.getElementById('search')!;
@@ -19,7 +20,7 @@ class Search {
         : this.results(e);
     this.search.onkeyup = (e) => {
       switch (e.key) {
-        case 'Enter':
+        case 'Enter': {
           const input = document.getElementById(
             (this.indexLi === 99 ? this.indexLi + 1 : this.indexLi).toString(),
           );
@@ -28,6 +29,7 @@ class Search {
           this.titles.style.display = 'none';
           this.search.blur();
           break;
+        }
         case 'Escape':
           (<HTMLElement>e.target!).blur();
           break;
@@ -35,12 +37,12 @@ class Search {
       }
     };
     this.search.onkeydown = (e) => {
-      switch (e.keyCode) {
-        case 38: // up
+      switch (e.key) {
+        case 'ArrowUp':
           this.move(-1);
           e.preventDefault();
           break;
-        case 40: // down
+        case 'ArrowDown':
           this.move(1);
           e.preventDefault();
           break;

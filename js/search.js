@@ -12,7 +12,7 @@ class Search {
             : this.results(e);
         this.search.onkeyup = (e) => {
             switch (e.key) {
-                case 'Enter':
+                case 'Enter': {
                     const input = document.getElementById((this.indexLi === 99 ? this.indexLi + 1 : this.indexLi).toString());
                     if (this.search.value && input)
                         CAL.streamInfo(input.innerHTML);
@@ -20,6 +20,7 @@ class Search {
                     this.titles.style.display = 'none';
                     this.search.blur();
                     break;
+                }
                 case 'Escape':
                     e.target.blur();
                     break;
@@ -27,12 +28,12 @@ class Search {
             }
         };
         this.search.onkeydown = (e) => {
-            switch (e.keyCode) {
-                case 38:
+            switch (e.key) {
+                case 'ArrowUp':
                     this.move(-1);
                     e.preventDefault();
                     break;
-                case 40:
+                case 'ArrowDown':
                     this.move(1);
                     e.preventDefault();
                     break;

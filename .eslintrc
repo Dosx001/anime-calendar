@@ -15,6 +15,12 @@
   },
   "plugins": ["@typescript-eslint"],
   "rules": {
+    "class-methods-use-this": ["error", {
+      "enforceForClassFields": false
+    }],
+    "no-plusplus": ["error", {
+      "allowForLoopAfterthoughts": true
+    }],
     "no-unused-expressions": ["error", {
       "allowTernary": true
     }]

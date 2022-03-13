@@ -8,6 +8,66 @@ Date.prototype.getWeek = function fn() {
 };
 class Calendar {
     constructor(ver) {
+        this.getDates = (offset = 0) => {
+            const dates = [];
+            const date = new Date();
+            let day = date.getDate();
+            const month = date.getMonth();
+            const year = date.getFullYear();
+            switch (date.getDay()) {
+                case 0:
+                    day += offset - 6;
+                    break;
+                case 1:
+                    day += offset;
+                    break;
+                case 2:
+                    day += offset - 1;
+                    break;
+                case 3:
+                    day += offset - 2;
+                    break;
+                case 4:
+                    day += offset - 3;
+                    break;
+                case 5:
+                    day += offset - 4;
+                    break;
+                default:
+                    day += offset - 5;
+            }
+            for (let i = 0; i < 7; i++)
+                dates.push(new Date(year, month, day + i));
+            return dates;
+        };
+        this.ider_slot = (day, time) => time.substring(1, 2) === ':'
+            ? day * 10000 +
+                Number(time.substring(0, 1)) * 100 +
+                Number(time.substring(2, 4)) +
+                time.substring(5, 6)
+            : day * 10000 +
+                Number(time.substring(0, 2)) * 100 +
+                Number(time.substring(3, 5)) +
+                time.substring(6, 7);
+        this.ider_show = (title) => {
+            const words = title.split(' ');
+            return (title.length +
+                words.length.toString() +
+                words[words.length - 1].replace(/\W/g, ''));
+        };
+        this.minMax = (t1, t2) => new Date(`2000/1/1 ${t1}`) < new Date(`2000/1/1 ${t2}`)
+            ? [t1, t2]
+            : [t2, t1];
+        this.resizeCalendar = () => {
+            const cal = document.getElementById('calendar');
+            if (cal) {
+                cal.style.height =
+                    document.getElementById('info').value === '0' &&
+                        document.getElementById('show')
+                        ? '38vh'
+                        : '85vh';
+            }
+        };
         this.shows = JSON.parse(localStorage.getItem('shows')) ?? {};
         this.left = document.getElementById('left');
         this.right = document.getElementById('right');
@@ -19,11 +79,11 @@ class Calendar {
             localStorage.setItem('ver', ver);
             this.set('./shows/shows.json', 'store');
             this.set('./shows/past_shows.json', 'past').then(() => {
-                for (const show in this.shows) {
+                Object.keys(this.shows).forEach((show) => {
                     if (!(show in this.store || show in this.past)) {
                         delete this.shows[show];
                     }
-                }
+                });
                 localStorage.setItem('shows', JSON.stringify(this.shows));
             });
         }
@@ -118,61 +178,11 @@ class Calendar {
         calendar.append(table);
         document.body.append(calendar);
     }
-    getDates(offset = 0) {
-        const dates = [];
-        const date = new Date();
-        let day = date.getDate();
-        const month = date.getMonth();
-        const year = date.getFullYear();
-        switch (date.getDay()) {
-            case 0:
-                day += offset - 6;
-                break;
-            case 1:
-                day += offset;
-                break;
-            case 2:
-                day += offset - 1;
-                break;
-            case 3:
-                day += offset - 2;
-                break;
-            case 4:
-                day += offset - 3;
-                break;
-            case 5:
-                day += offset - 4;
-                break;
-            default:
-                day += offset - 5;
-        }
-        for (let i = 0; i < 7; i++)
-            dates.push(new Date(year, month, day + i));
-        return dates;
-    }
-    ider_slot(day, time) {
-        return time.substring(1, 2) === ':'
-            ? day * 10000 +
-                Number(time.substring(0, 1)) * 100 +
-                Number(time.substring(2, 4)) +
-                time.substring(5, 6)
-            : day * 10000 +
-                Number(time.substring(0, 2)) * 100 +
-                Number(time.substring(3, 5)) +
-                time.substring(6, 7);
-    }
-    ider_show(title) {
-        const words = title.split(' ');
-        return (title.length +
-            words.length.toString() +
-            words[words.length - 1].replace(/\W/g, ''));
-    }
     createShows(offset) {
         const data = offset === 0 ? this.store : this.past;
-        for (const show in document.getElementById('list').innerHTML ===
-            'Your List'
+        Object.keys(document.getElementById('list').innerHTML === 'Your List'
             ? data
-            : this.shows) {
+            : this.shows).forEach((show) => {
             if (show in data) {
                 const button = document.createElement('button');
                 button.id = this.ider_show(show);
@@ -187,11 +197,12 @@ class Calendar {
                         : 'purple';
                 }
                 button.onclick = (e) => {
-                    localStorage.getItem('info') === '0'
-                        ? document.getElementById('title')
-                            ? e.preventDefault()
-                            : null
-                        : e.preventDefault();
+                    if (localStorage.getItem('info') === '0') {
+                        if (document.getElementById('title'))
+                            e.preventDefault();
+                    }
+                    else
+                        e.preventDefault();
                     this.streamInfo(e.target.innerHTML);
                 };
                 const a = document.createElement('a');
@@ -200,7 +211,7 @@ class Calendar {
                 a.append(button);
                 document.getElementById(id).append(a);
             }
-        }
+        });
     }
     full(times, offset) {
         const shows = { ...this.shows };
@@ -229,11 +240,6 @@ class Calendar {
         }
         return output;
     }
-    minMax(t1, t2) {
-        return new Date(`2000/1/1 ${t1}`) < new Date(`2000/1/1 ${t2}`)
-            ? [t1, t2]
-            : [t2, t1];
-    }
     cutoff(times, offset) {
         const shows = { ...this.shows };
         const data = offset === 0 ? this.store : this.past;
@@ -247,8 +253,8 @@ class Calendar {
             default:
                 for (const show in shows) {
                     if (show in data) {
-                        max = this.minMax(max, data[show].time)[1];
-                        min = this.minMax(min, data[show].time)[0];
+                        [, max] = this.minMax(max, data[show].time);
+                        [min] = this.minMax(min, data[show].time);
                         if (data[show].time.includes('00') ||
                             data[show].time.includes('30')) {
                             delete shows[show];
@@ -304,16 +310,6 @@ class Calendar {
                 break;
         }
         return output;
-    }
-    resizeCalendar() {
-        const cal = document.getElementById('calendar');
-        if (cal) {
-            cal.style.height =
-                document.getElementById('info').value === '0' &&
-                    document.getElementById('show')
-                    ? '38vh'
-                    : '85vh';
-        }
     }
     streamInfo(show) {
         const data = show in this.store ? this.store : this.past;
@@ -403,9 +399,14 @@ class Calendar {
         const set = document.createElement('button');
         set.className = 'setter';
         set.onclick = () => this.setter();
-        show in this.shows
-            ? ((set.id = 'sub'), (set.innerHTML = 'Remove from Your List'))
-            : ((set.id = 'add'), (set.innerHTML = 'Add to Your List'));
+        if (show in this.shows) {
+            set.id = 'sub';
+            set.innerHTML = 'Remove from Your List';
+        }
+        else {
+            set.id = 'add';
+            set.innerHTML = 'Add to Your List';
+        }
         const reset = document.createElement('button');
         reset.onclick = () => this.Reset();
         reset.id = 'reset';
@@ -458,17 +459,17 @@ class Calendar {
         if (time != null) {
             if ((now[0] - time[0] === 1 && now[1] === time[1]) ||
                 (now[1] - time[1] === 1 && now[0] === 52)) {
-                for (const show in this.shows) {
+                Object.keys(this.shows).forEach((show) => {
                     [this.shows[show][0], this.shows[show][1]] = [
                         false,
                         this.shows[show][0],
                     ];
-                }
+                });
             }
             else if (now[0] !== time[0] || now[1] !== time[1]) {
-                for (const show in this.shows) {
+                Object.keys(this.shows).forEach((show) => {
                     [this.shows[show][0], this.shows[show][1]] = [false, false];
-                }
+                });
             }
             localStorage.setItem('shows', JSON.stringify(this.shows));
         }
