@@ -266,26 +266,24 @@ class Calendar {
         }
         const output = [];
         let bool = false;
-        for (const time in times) {
-            if (min === times[time]) {
-                output.push(times[time]);
+        for (let i = 0; i <= times.length; i++) {
+            if (min === times[i]) {
+                output.push(times[i]);
                 bool = true;
             }
-            else if (max === times[time]) {
-                output.push(times[time]);
+            else if (max === times[i]) {
+                output.push(times[i]);
                 break;
             }
             else if (bool) {
-                if (times[time].includes('00') || times[time].includes('30')) {
-                    output.push(times[time]);
+                if (times[i].includes('00') || times[i].includes('30')) {
+                    output.push(times[i]);
                 }
                 else {
-                    for (const show in shows) {
-                        if (times[time] === data[show].time) {
-                            output.push(times[time]);
-                            delete shows[show];
-                            break;
-                        }
+                    const key = Object.keys(shows).find(show => times[i] === data[show].time);
+                    if (key) {
+                        output.push(times[i]);
+                        delete shows[key];
                     }
                 }
             }

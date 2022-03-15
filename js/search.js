@@ -42,11 +42,15 @@ class Search {
         };
         this.search.addEventListener('focusout', (e) => {
             this.titles.style.display = 'none';
-            e.relatedTarget &&
-                (e.relatedTarget.className === 'active'
-                    ? (this.titles.style.display = '')
-                    : e.relatedTarget.parentElement.id === 'titles' &&
-                        e.relatedTarget.click());
+            const ele = e.relatedTarget;
+            if (ele) {
+                if (ele.className === 'active') {
+                    this.titles.style.display = '';
+                }
+                else if (ele.parentElement.id === 'titles') {
+                    ele.click();
+                }
+            }
         });
     }
     results(e) {
@@ -55,29 +59,32 @@ class Search {
         this.indexLi = 99;
         if (input) {
             this.titles.innerHTML = '';
-            for (const title of this.titleList) {
+            this.titleList.forEach((title) => {
                 if (title.toLocaleLowerCase().includes(input.toLocaleLowerCase())) {
                     const li = document.createElement('li');
                     li.innerHTML = title;
                     li.id = i.toString();
                     li.tabIndex = i - 100;
                     i++;
-                    li.onclick = (e) => {
-                        CAL.streamInfo(e.target.innerHTML);
+                    li.onclick = (ev) => {
+                        CAL.streamInfo(ev.target.innerHTML);
                         this.search.value = '';
                         this.titles.style.display = 'none';
                     };
-                    li.onmousemove = (e) => {
-                        this.indexLi = Number(e.target.id);
+                    li.onmousemove = (ev) => {
+                        const ele = ev.target;
+                        this.indexLi = Number(ele.id);
                         const active = document.querySelector('.active');
                         if (active)
                             active.className = '';
-                        e.target.className = 'active';
+                        ele.className = 'active';
                     };
-                    li.oncontextmenu = () => (this.titles.style.display = 'none');
+                    li.oncontextmenu = () => {
+                        this.titles.style.display = 'none';
+                    };
                     this.titles.append(li);
                 }
-            }
+            });
         }
         this.titles.style.display = i > 100 ? '' : 'none';
     }
