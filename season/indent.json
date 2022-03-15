@@ -12,7 +12,7 @@
     ]
   },
   "Ao Ashi": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/ao-ashi-9978c73cfa.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/ao-ashi-2a2da6a5c4.jpg",
     "Studio": "Production I.G",
     "Source": "Manga",
     "Genres": [
@@ -39,7 +39,7 @@
     ]
   },
   "Build Divide: Code White": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/build-divide-code-black-2-780c0e85b3.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/build-divide-code-black-2-f2e0f7e4ce.jpg",
     "Studio": "LIDENFILMS",
     "Source": "Other",
     "Genres": [
@@ -50,7 +50,7 @@
     ]
   },
   "Dance Dance Danseur": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/dance-dance-danseur-3acddd0a6e.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/dance-dance-danseur-19eb44b79d.jpg",
     "Studio": "MAPPA",
     "Source": "Manga",
     "Genres": [
@@ -62,7 +62,7 @@
     ]
   },
   "Date A Live IV": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/date-a-live-iv-74db851b31.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/date-a-live-iv-f18c4f24d6.jpg",
     "Studio": "Geek Toys",
     "Source": "Light Novel",
     "Genres": [
@@ -75,7 +75,7 @@
     ]
   },
   "Deaimon": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/deaimon-90205dd38f.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/deaimon-6723674b24.jpg",
     "Studio": "Encourage Films",
     "Source": "Manga",
     "Genres": [
@@ -103,7 +103,7 @@
     ]
   },
   "Gunjou no Fanfare": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/gunjou-no-fanfare-a6c219239e.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/gunjou-no-fanfare-0a9ace9c03.jpg",
     "Studio": "Lay-duce",
     "Source": "Original",
     "Genres": [
@@ -137,9 +137,17 @@
       "Slice of Life"
     ]
   },
+  "Jongtama PONG\u2606": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/jongtama-pong-eb17ed98be.jpg",
+    "Studio": "Scooter Films",
+    "Source": "Game",
+    "Genres": [
+      "Comedy"
+    ]
+  },
   "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen 3": {
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kaguya-sama-love-is-war-3-99d8292b0b.jpg",
-    "Studio": "N/A",
+    "Studio": "A-1 Pictures",
     "Source": "Manga",
     "Genres": [
       "Comedy",
@@ -172,8 +180,8 @@
     ]
   },
   "Kingdom 4": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kingdom-4-764486992a.jpg",
-    "Studio": "N/A",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kingdom-4-450b48f457.jpg",
+    "Studio": "Studio Signpost",
     "Source": "Manga",
     "Genres": [
       "Action",
@@ -196,8 +204,8 @@
     ]
   },
   "Komi-san wa, Komyushou desu. 2": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/komi-san-wa-comyushou-desu-2-834633811c.jpg",
-    "Studio": "N/A",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/komi-san-wa-comyushou-desu-2-5809061dff.jpg",
+    "Studio": "OLM",
     "Source": "Manga",
     "Genres": [
       "Comedy",
@@ -207,7 +215,7 @@
     ]
   },
   "Kono Healer, Mendokusai": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kono-healer-mendokusai-58a1c8e0dd.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kono-healer-mendokusai-98f0479838.jpg",
     "Studio": "Jumondou",
     "Source": "Manga",
     "Genres": [
@@ -219,7 +227,7 @@
     ]
   },
   "Kunoichi Tsubaki no Mune no Uchi": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kunoichi-tsubaki-no-mune-no-uchi-223cf1db3a.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kunoichi-tsubaki-no-mune-no-uchi-3926a707d8.jpg",
     "Studio": "CloverWorks",
     "Source": "Manga",
     "Genres": [
@@ -239,16 +247,17 @@
     ]
   },
   "Love All Play": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/love-all-play-d601811fe3.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/love-all-play-9c14ba0b2a.jpg",
     "Studio": "Nippon Animation",
     "Source": "Novel",
     "Genres": [
+      "School",
       "Sports"
     ]
   },
   "Love Live! Nijigasaki Gakuen School Idol Doukoukai 2": {
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/love-live-nijigasaki-gakuen-school-idol-doukou-kai-2-bf1d3fbb6c.jpg",
-    "Studio": "N/A",
+    "Studio": "Sunrise",
     "Source": "Other",
     "Genres": [
       "Music",
@@ -257,8 +266,8 @@
     ]
   },
   "Machikado Mazoku 2": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/machikado-mazoku-2-7cc2fe6abe.jpg",
-    "Studio": "N/A",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/machikado-mazoku-2-0566609969.jpg",
+    "Studio": "J.C. Staff",
     "Source": "4-koma Manga",
     "Genres": [
       "Comedy",
@@ -283,7 +292,7 @@
     ]
   },
   "Mahoutsukai Reimeiki": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/mahoutsukai-reimeiki-86dc1c6b2e.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/mahoutsukai-reimeiki-85016b0aaf.jpg",
     "Studio": "Tezuka Productions",
     "Source": "Light Novel",
     "Genres": [
@@ -304,8 +313,18 @@
       "Fantasy"
     ]
   },
+  "Onipan!": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/onipan-c867bb0166.jpg",
+    "Studio": "Wit Studio",
+    "Source": "Original",
+    "Genres": [
+      "Comedy",
+      "Demons",
+      "Fantasy"
+    ]
+  },
   "Otomege Sekai wa Mob ni Kibishii Sekai desu": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/otomege-sekai-wa-mob-ni-kibishii-sekai-desu-4b39a8d028.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/otomege-sekai-wa-mob-ni-kibishii-sekai-desu-70a315eb61.jpg",
     "Studio": "ENGI",
     "Source": "Light Novel",
     "Genres": [
@@ -334,7 +353,7 @@
     ]
   },
   "RPG Fudousan": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/rpg-fudousan-a0c15d7530.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/rpg-fudousan-1c3cf03ddb.jpg",
     "Studio": "Doga Kobo",
     "Source": "Manga",
     "Genres": [
@@ -345,15 +364,16 @@
   },
   "Rikei ga Koi ni Ochita no de Shoumei shitemita. 2": {
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita-2-dffddc6343.jpg",
-    "Studio": "N/A",
+    "Studio": "Zero-G",
     "Source": "Web Manga",
     "Genres": [
       "Comedy",
-      "Romance"
+      "Romance",
+      "Seinen"
     ]
   },
   "SPY\u00d7FAMILY": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/spy-x-family-2cb2dea014.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/spy-x-family-7841f05975.jpg",
     "Studio": "CloverWorks",
     "Source": "Manga",
     "Genres": [
@@ -364,8 +384,20 @@
       "Thriller"
     ]
   },
+  "Shachiku-san wa Youjo Yuurei ni Iyasaretai.": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shachiku-san-wa-youjo-yuurei-ni-iyasaretai-4397c174b7.jpg",
+    "Studio": "project No.9",
+    "Source": "Manga",
+    "Genres": [
+      "Comedy",
+      "Fantasy",
+      "Shounen",
+      "Slice of Life",
+      "Supernatural"
+    ]
+  },
   "Shadowverse Flame": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shadowverse-f-flame-a4df4a9ef3.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shadowverse-f-flame-5b2514e238.jpg",
     "Studio": "ZEXCS",
     "Source": "Video Game",
     "Genres": [
@@ -391,7 +423,7 @@
     ]
   },
   "Shin Ikkitousen": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shin-ikkitousen-71b52506ae.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shin-ikkitousen-cd5939954a.jpg",
     "Studio": "N/A",
     "Source": "Manga",
     "Genres": [
@@ -404,7 +436,7 @@
     ]
   },
   "Shokei Shoujo no Virgin Road": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shokei-shoujo-no-virgin-road-aa85905e30.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shokei-shoujo-no-virgin-road-f5d56819e7.jpg",
     "Studio": "J.C. Staff",
     "Source": "Light Novel",
     "Genres": [
@@ -415,8 +447,8 @@
       "Isekai"
     ]
   },
-  "Summer Time Render": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/summer-time-render-f17af6f2db.jpg",
+  "Summertime Render": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/summer-time-render-b610c02166.jpg",
     "Studio": "OLM",
     "Source": "Manga",
     "Genres": [
@@ -429,7 +461,7 @@
     ]
   },
   "Tate no Yuusha no Nariagari 2": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/tate-no-yuusha-no-nariagari-2-e64ea32ac6.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/tate-no-yuusha-no-nariagari-2-c3f5feb9f7.jpg",
     "Studio": "DR Movie",
     "Source": "Light Novel",
     "Genres": [
@@ -453,7 +485,7 @@
     ]
   },
   "Tomodachi Game": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/tomodachi-game-74334357d3.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/tomodachi-game-60476575c1.jpg",
     "Studio": "Okuruto Noboru",
     "Source": "Manga",
     "Genres": [
@@ -465,7 +497,7 @@
     ]
   },
   "Yuusha, Yamemasu": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/yuusha-yamemasu-c1714f0e84.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/yuusha-yamemasu-c6c73789ba.jpg",
     "Studio": "EMT Squared",
     "Source": "Light Novel",
     "Genres": [
@@ -476,16 +508,14 @@
     ]
   },
   "Yu\u2606Gi\u2606Oh! Go Rush!!": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/yu-gi-oh-go-rush-35cb421aae.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/yu-gi-oh-go-rush-9ca7d7e015.jpg",
     "Studio": "Bridge",
     "Source": "Original",
     "Genres": [
       "Action",
-      "Comedy",
       "Fantasy",
       "Game",
-      "Shounen",
-      "Space"
+      "Shounen"
     ]
   }
 }
