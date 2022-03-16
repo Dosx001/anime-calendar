@@ -74,6 +74,7 @@ class Search {
           li.innerHTML = title;
           li.id = i.toString();
           li.tabIndex = i - 100;
+          /* eslint-disable-next-line no-plusplus */
           i++;
           li.onclick = (ev) => {
             CAL.streamInfo((<HTMLElement>ev.target).innerHTML);

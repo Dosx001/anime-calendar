@@ -18,9 +18,7 @@
     "class-methods-use-this": ["error", {
       "enforceForClassFields": false
     }],
-    "no-plusplus": ["error", {
-      "allowForLoopAfterthoughts": true
-    }],
+    "no-plusplus": "off",
     "no-unused-expressions": ["error", {
       "allowTernary": true
     }]

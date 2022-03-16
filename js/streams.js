@@ -18,7 +18,7 @@ class Streams {
     renderItems() {
         const list = document.querySelector('.stream-box');
         list.innerText = '';
-        for (const i in this.streams) {
+        for (let i = 0; i < this.streams.length; i++) {
             const div = document.createElement('div');
             div.draggable = true;
             div.className = 'stream-drag';
@@ -62,6 +62,6 @@ class Streams {
         localStorage.setItem('streams', JSON.stringify(this.streams));
     }
     index(title) {
-        return this.streams.findIndex(stream => title === stream[0]);
+        return this.streams.findIndex((stream) => title === stream[0]);
     }
 }

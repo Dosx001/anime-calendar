@@ -246,23 +246,24 @@ class Calendar {
     const shows = { ...this.shows };
     const data = offset === 0 ? this.store : this.past;
     const output: string[] = [];
-    for (const time in times) {
-      if (!(times[time].includes('00') || times[time].includes('30'))) {
-        for (const show in shows) {
+    for (let i = 0; i < times.length; i++) {
+      if (!(times[i].includes('00') || times[i].includes('30'))) {
+        Object.keys(shows).some((show) => {
           if (show in data) {
             if (
               data[show].time.includes('00') ||
               data[show].time.includes('30')
             ) {
               delete shows[show];
-            } else if (times[time] === data[show].time) {
-              output.push(times[time]);
+            } else if (times[i] === data[show].time) {
+              output.push(times[i]);
               delete shows[show];
-              break;
+              return 1;
             }
           } else delete shows[show];
-        }
-      } else output.push(times[time]);
+          return 0;
+        });
+      } else output.push(times[i]);
     }
     return output;
   }
@@ -283,7 +284,7 @@ class Calendar {
       case 1:
         return [data[Object.keys(shows)[0]].time];
       default:
-        for (const show in shows) {
+        Object.keys(shows).forEach((show) => {
           if (show in data) {
             [, max] = this.minMax(max, data[show].time);
             [min] = this.minMax(min, data[show].time);
@@ -294,7 +295,7 @@ class Calendar {
               delete shows[show];
             }
           } else delete shows[show];
-        }
+        });
     }
     const output: string[] = [];
     let bool = false;
@@ -309,7 +310,9 @@ class Calendar {
         if (times[i].includes('00') || times[i].includes('30')) {
           output.push(times[i]);
         } else {
-          const key = Object.keys(shows).find(show => times[i] === data[show].time)
+          const key = Object.keys(shows).find(
+            (show) => times[i] === data[show].time,
+          );
           if (key) {
             output.push(times[i]);
             delete shows[key];
@@ -324,14 +327,16 @@ class Calendar {
     const data = offset === 0 ? this.store : this.past;
     const shows = { ...this.shows };
     const output: string[] = [];
-    for (const time in times) {
-      for (const show in shows) {
-        if (show in data && data[show].time === times[time]) {
-          output.push(times[time]);
+    for (let i = 0; i < times.length; i++) {
+      Object.keys(shows).some((show) => {
+        if (show in data && data[show].time === times[i]) {
+          output.push(times[i]);
           delete shows[show];
-          break;
+          return 1;
+          /* eslint no-else-return: ["error", {allowElseIf: true}] */
         } else if (!(show in data)) delete shows[show];
-      }
+        return 0;
+      });
       if (Object.keys(shows).length === 0) break;
     }
     return output;
@@ -383,9 +388,7 @@ class Calendar {
       tr.append(td);
       tbody.append(tr);
     } else {
-      for (const [index, [stream, link]] of Object.entries(
-        Object.entries(data[show].streams),
-      )) {
+      Object.entries(data[show].streams).forEach(([stream, link], index) => {
         const img = document.createElement('img');
         img.className = 'icon';
         switch (stream) {
@@ -417,7 +420,7 @@ class Calendar {
             img.src = 'assets/netflix.svg';
         }
         const a = document.createElement('a');
-        a.id = index;
+        a.id = index.toString();
         a.href = link;
         a.target = '_blank';
         a.className = 'stream';
@@ -425,12 +428,12 @@ class Calendar {
         a.append(img);
         a.innerHTML += ` ${stream}`;
         td = document.createElement('td');
-        td.innerHTML = `${Number(index) + 1} `;
+        td.innerHTML = `${index + 1} `;
         td.append(a);
         tr = document.createElement('tr');
         tr.append(td);
         tbody.append(tr);
-      }
+      });
     }
     table.append(tbody);
     const set = document.createElement('button');
