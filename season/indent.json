@@ -83,8 +83,8 @@
       "Slice of Life"
     ]
   },
-  "Estab-Life: Great Escape": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/estab-life-great-escape-d87a849955.jpg",
+  "ESTAB-LIFE: GREAT ESCAPE": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/estab-life-great-escape-e3dbef738f.jpg",
     "Studio": "POLYGON PICTURES",
     "Source": "Other",
     "Genres": [
@@ -119,7 +119,7 @@
     ]
   },
   "Heroine Tarumono!: Kiraware Heroine to Naisho no Oshigoto": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/heroine-tarumono-kiraware-heroine-to-naisho-no-oshigoto-d84f72b990.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/heroine-tarumono-kiraware-heroine-to-naisho-no-oshigoto-72c9bdd2e9.jpg",
     "Studio": "Lay-duce",
     "Source": "Music",
     "Genres": [
@@ -128,21 +128,13 @@
     ]
   },
   "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen 3": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/honzuki-no-gekokujou-3-0944930e4c.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/honzuki-no-gekokujou-3-3daf1875c4.jpg",
     "Studio": "Ajia-Do",
     "Source": "Light Novel",
     "Genres": [
       "Fantasy",
       "Isekai",
       "Slice of Life"
-    ]
-  },
-  "Jongtama PONG\u2606": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/jongtama-pong-eb17ed98be.jpg",
-    "Studio": "Scooter Films",
-    "Source": "Game",
-    "Genres": [
-      "Comedy"
     ]
   },
   "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen 3": {
@@ -169,7 +161,7 @@
     ]
   },
   "Kawaii Dake janai Shikimori-san": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kawaii-dake-ja-nai-shikimori-san-77f782b90b.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kawaii-dake-ja-nai-shikimori-san-f8b569ef8b.jpg",
     "Studio": "Doga Kobo",
     "Source": "Manga",
     "Genres": [
@@ -237,11 +229,12 @@
     ]
   },
   "Kyoukai Senki Part 2": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kyoukai-senki-part-2-ebfa8ed132.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kyoukai-senki-part-2-fd0a411474.jpg",
     "Studio": "Sunrise Beyond",
     "Source": "Original",
     "Genres": [
       "Action",
+      "Fantasy",
       "Mecha",
       "Sci-Fi"
     ]
@@ -324,7 +317,7 @@
     ]
   },
   "Otomege Sekai wa Mob ni Kibishii Sekai desu": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/otomege-sekai-wa-mob-ni-kibishii-sekai-desu-70a315eb61.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/otomege-sekai-wa-mob-ni-kibishii-sekai-desu-aa5900b59a.jpg",
     "Studio": "ENGI",
     "Source": "Light Novel",
     "Genres": [
@@ -424,7 +417,7 @@
   },
   "Shin Ikkitousen": {
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shin-ikkitousen-cd5939954a.jpg",
-    "Studio": "N/A",
+    "Studio": "Arms",
     "Source": "Manga",
     "Genres": [
       "Action",
@@ -461,7 +454,7 @@
     ]
   },
   "Tate no Yuusha no Nariagari 2": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/tate-no-yuusha-no-nariagari-2-c3f5feb9f7.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/tate-no-yuusha-no-nariagari-2-523f74d292.jpg",
     "Studio": "DR Movie",
     "Source": "Light Novel",
     "Genres": [
