@@ -1,255 +1,184 @@
 {
-  "Aharen-san wa Hakarenai": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/aharen-san-wa-hakarenai-118e9313f6.jpg",
-    "Studio": "Felix Film",
-    "Source": "Manga",
-    "Genres": [
-      "Comedy",
-      "Romance",
-      "School",
-      "Shounen",
-      "Slice of Life"
-    ]
-  },
-  "Ao Ashi": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/ao-ashi-2a2da6a5c4.jpg",
-    "Studio": "Production I.G",
-    "Source": "Manga",
-    "Genres": [
-      "Seinen",
-      "Sports"
-    ]
-  },
-  "BIRDIE WING: Golf Girls' Story": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/birdie-wing-golf-girls-story-18c4d69557.jpg",
-    "Studio": "Bandai Namco Pictures",
+  "Bucchigire!": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/bucchigire-025e884cbe.jpg",
+    "Studio": "Geno Studio",
     "Source": "Original",
-    "Genres": [
-      "Sports"
-    ]
+    "Genres": []
   },
-  "Black\u2605\u2605Rock Shooter: DAWN FALL": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/black-rock-shooter-dawn-fall-f88ae1b508.jpg",
-    "Studio": "Bibury Animation CG",
-    "Source": "Other",
+  "Cardfight!! Vanguard: will+Dress": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/cardfight-vanguard-overdress-season-3-8007285cc1.jpg",
+    "Studio": "Kinema Citrus",
+    "Source": "Card Game",
     "Genres": [
       "Action",
-      "Drama",
-      "Superpower"
-    ]
-  },
-  "Build Divide: Code White": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/build-divide-code-black-2-f2e0f7e4ce.jpg",
-    "Studio": "LIDENFILMS",
-    "Source": "Other",
-    "Genres": [
-      "Action",
-      "Fantasy",
-      "Game",
-      "Sci-Fi"
-    ]
-  },
-  "Dance Dance Danseur": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/dance-dance-danseur-19eb44b79d.jpg",
-    "Studio": "MAPPA",
-    "Source": "Manga",
-    "Genres": [
-      "Drama",
-      "Romance",
-      "Seinen",
-      "Slice of Life",
-      "Sports"
-    ]
-  },
-  "Date A Live IV": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/date-a-live-iv-f18c4f24d6.jpg",
-    "Studio": "Geek Toys",
-    "Source": "Light Novel",
-    "Genres": [
+      "Adventure",
       "Comedy",
-      "Harem",
-      "Mecha",
-      "Romance",
-      "School",
-      "Sci-Fi"
+      "Game"
     ]
   },
-  "Deaimon": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/deaimon-6723674b24.jpg",
-    "Studio": "Encourage Films",
-    "Source": "Manga",
-    "Genres": [
-      "Seinen",
-      "Slice of Life"
-    ]
-  },
-  "ESTAB-LIFE: GREAT ESCAPE": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/estab-life-great-escape-e3dbef738f.jpg",
-    "Studio": "POLYGON PICTURES",
-    "Source": "Other",
-    "Genres": [
-      "Sci-Fi"
-    ]
-  },
-  "Gaikotsu Kishi-sama, Tadaima Isekai e Odekakechuu": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/gaikotsu-kishi-sama-tadaima-isekai-e-odekakechuu-6456529ff7.jpg",
-    "Studio": "HORNETS",
+  "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-iv-4c35606042.jpg",
+    "Studio": "J.C. Staff",
     "Source": "Light Novel",
     "Genres": [
       "Action",
       "Adventure",
+      "Comedy",
       "Fantasy",
-      "Isekai"
+      "Magic",
+      "Romance"
     ]
   },
-  "Gunjou no Fanfare": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/gunjou-no-fanfare-0a9ace9c03.jpg",
-    "Studio": "Lay-duce",
+  "Engage Kiss": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/engage-kiss-4b5a2e590e.jpg",
+    "Studio": "A-1 Pictures",
+    "Source": "Original",
+    "Genres": [
+      "Comedy",
+      "Romance"
+    ]
+  },
+  "Extreme Hearts": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/extreme-hearts-881864e576.jpg",
+    "Studio": "N/A",
     "Source": "Original",
     "Genres": [
       "Sports"
     ]
   },
-  "Healer Girl": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/healer-girl-f1a577e660.jpg",
-    "Studio": "Studio 3Hz",
-    "Source": "Original",
+  "Fuuto Tantei": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/fuuto-tantei-05ccfc3209.jpg",
+    "Studio": "Studio KAI",
+    "Source": "Manga",
     "Genres": [
-      "Music"
+      "Action",
+      "Drama",
+      "Mystery",
+      "Police",
+      "Seinen",
+      "Supernatural"
     ]
   },
-  "Heroine Tarumono!: Kiraware Heroine to Naisho no Oshigoto": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/heroine-tarumono-kiraware-heroine-to-naisho-no-oshigoto-72c9bdd2e9.jpg",
-    "Studio": "Lay-duce",
-    "Source": "Music",
+  "Hataraku Maou-sama! 2": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/hataraku-maou-sama-2-8e828c50f6.jpg",
+    "Studio": "Studio 3Hz",
+    "Source": "Light Novel",
     "Genres": [
+      "Comedy",
+      "Demons",
+      "Fantasy",
+      "Isekai",
+      "Magic",
+      "Romance",
+      "Supernatural"
+    ]
+  },
+  "Hoshi no Samidare": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/hoshi-no-samidare-943a8bf1f5.jpg",
+    "Studio": "N/A",
+    "Source": "Manga",
+    "Genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Drama",
+      "Psychological",
+      "Seinen",
+      "Supernatural"
+    ]
+  },
+  "Isekai Meikyuu de Harem wo": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/isekai-meikyuu-de-harem-wo-9fc18485e0.jpg",
+    "Studio": "N/A",
+    "Source": "Light Novel",
+    "Genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Ecchi",
+      "Fantasy",
+      "Harem",
+      "Isekai",
+      "Romance"
+    ]
+  },
+  "Isekai Ojisan": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/isekai-ojisan-9007f7ee01.jpg",
+    "Studio": "Atelier Pontdarc",
+    "Source": "Manga",
+    "Genres": [
+      "Adventure",
+      "Comedy",
+      "Fantasy",
+      "Isekai",
+      "Magic"
+    ]
+  },
+  "Jashin-chan Dropkick X": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/jashin-chan-dropkick-x-c0f4ef5a33.jpg",
+    "Studio": "Nomad",
+    "Source": "Web Manga",
+    "Genres": [
+      "Comedy",
+      "Demons",
+      "Slice of Life",
+      "Supernatural"
+    ]
+  },
+  "Kami Kuzu\u2606Idol": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kami-kuzu-idol-378182f5aa.jpg",
+    "Studio": "Studio Gokumi",
+    "Source": "Manga",
+    "Genres": [
+      "Comedy",
+      "Josei",
       "Music",
+      "Supernatural"
+    ]
+  },
+  "Kanojo, Okarishimasu 2": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kanojo-okarishimasu-2-50dbf9d2ac.jpg",
+    "Studio": "TMS Entertainment",
+    "Source": "Manga",
+    "Genres": [
+      "Comedy",
+      "Drama",
+      "Ecchi",
+      "Romance",
       "School"
     ]
   },
-  "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen 3": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/honzuki-no-gekokujou-3-3daf1875c4.jpg",
-    "Studio": "Ajia-Do",
-    "Source": "Light Novel",
+  "Kinsou no Vermeil: Gakeppuchi Majutsushi wa Saikyou no Yakusai to Mahou Sekai wo Tsukisusumu": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kinsou-no-vermeil-gakeppuchi-majutsushi-wa-saikyou-no-yakusai-to-mahou-sekai-wo-tsukisusumu-9ce04c67f4.jpg",
+    "Studio": "Staple Entertainment",
+    "Source": "Manga",
     "Genres": [
       "Fantasy",
-      "Isekai",
-      "Slice of Life"
-    ]
-  },
-  "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen 3": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kaguya-sama-love-is-war-3-99d8292b0b.jpg",
-    "Studio": "A-1 Pictures",
-    "Source": "Manga",
-    "Genres": [
-      "Comedy",
-      "Psychological",
-      "Romance",
       "School",
-      "Seinen"
-    ]
-  },
-  "Kakkou no Iinazuke": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kakkou-no-iinazuke-7d4571279c.jpg",
-    "Studio": "Shin-Ei Animation",
-    "Source": "Manga",
-    "Genres": [
-      "Comedy",
-      "Harem",
-      "Romance",
       "Shounen"
     ]
   },
-  "Kawaii Dake janai Shikimori-san": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kawaii-dake-ja-nai-shikimori-san-f8b569ef8b.jpg",
-    "Studio": "Doga Kobo",
+  "Kumicho Musume to Sewagakari": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kumichou-musume-to-sewagakari-9768cf08f1.jpg",
+    "Studio": "Gaina",
     "Source": "Manga",
     "Genres": [
       "Comedy",
-      "Romance",
-      "School",
       "Slice of Life"
     ]
   },
-  "Kingdom 4": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kingdom-4-450b48f457.jpg",
-    "Studio": "Studio Signpost",
-    "Source": "Manga",
-    "Genres": [
-      "Action",
-      "Historical",
-      "Military",
-      "Seinen"
-    ]
-  },
-  "Koi wa Sekai Seifuku no Ato de": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/koi-wa-sekai-seifuku-no-ato-de-a3bab4f0bf.jpg",
-    "Studio": "project No.9",
-    "Source": "Manga",
-    "Genres": [
-      "Action",
-      "Comedy",
-      "Ecchi",
-      "Romance",
-      "Shounen",
-      "Supernatural"
-    ]
-  },
-  "Komi-san wa, Komyushou desu. 2": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/komi-san-wa-comyushou-desu-2-5809061dff.jpg",
-    "Studio": "OLM",
-    "Source": "Manga",
-    "Genres": [
-      "Comedy",
-      "Drama",
-      "Romance",
-      "Slice of Life"
-    ]
-  },
-  "Kono Healer, Mendokusai": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kono-healer-mendokusai-98f0479838.jpg",
-    "Studio": "Jumondou",
-    "Source": "Manga",
+  "Kuro no Shoukanshi": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kuro-no-shoukanshi-a645a3ad2d.jpg",
+    "Studio": "Satelight",
+    "Source": "Light Novel",
     "Genres": [
       "Action",
       "Adventure",
-      "Comedy",
-      "Fantasy",
-      "Slice of Life"
+      "Fantasy"
     ]
   },
-  "Kunoichi Tsubaki no Mune no Uchi": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kunoichi-tsubaki-no-mune-no-uchi-3926a707d8.jpg",
-    "Studio": "CloverWorks",
-    "Source": "Manga",
-    "Genres": [
-      "Comedy",
-      "Shounen",
-      "Supernatural"
-    ]
-  },
-  "Kyoukai Senki Part 2": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kyoukai-senki-part-2-fd0a411474.jpg",
-    "Studio": "Sunrise Beyond",
-    "Source": "Original",
-    "Genres": [
-      "Action",
-      "Fantasy",
-      "Mecha",
-      "Sci-Fi"
-    ]
-  },
-  "Love All Play": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/love-all-play-9c14ba0b2a.jpg",
-    "Studio": "Nippon Animation",
-    "Source": "Novel",
-    "Genres": [
-      "School",
-      "Sports"
-    ]
-  },
-  "Love Live! Nijigasaki Gakuen School Idol Doukoukai 2": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/love-live-nijigasaki-gakuen-school-idol-doukou-kai-2-bf1d3fbb6c.jpg",
+  "Love Live! Superstar!! 2": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/love-live-superstar-2-315e27f993.jpg",
     "Studio": "Sunrise",
     "Source": "Other",
     "Genres": [
@@ -258,257 +187,199 @@
       "Slice of Life"
     ]
   },
-  "Machikado Mazoku 2": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/machikado-mazoku-2-0566609969.jpg",
-    "Studio": "J.C. Staff",
-    "Source": "4-koma Manga",
-    "Genres": [
-      "Comedy",
-      "Demons",
-      "Fantasy",
-      "Magical Girl",
-      "Slice of Life"
-    ]
-  },
-  "Magia Record: Mahou Shoujo Madoka\u2606Magica Gaiden Final Season - Asaki Yume no Akatsuki": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/magia-record-mahou-shoujo-madoka-magica-gaiden-final-season-asaki-yume-no-akatsuki-2f0902ef64.jpg",
-    "Studio": "Shaft",
-    "Source": "Video Game",
-    "Genres": [
-      "Action",
-      "Drama",
-      "Fantasy",
-      "Magic",
-      "Magical Girl",
-      "Psychological",
-      "Thriller"
-    ]
-  },
-  "Mahoutsukai Reimeiki": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/mahoutsukai-reimeiki-85016b0aaf.jpg",
-    "Studio": "Tezuka Productions",
-    "Source": "Light Novel",
-    "Genres": [
-      "Action",
-      "Adventure",
-      "Comedy",
-      "Ecchi",
-      "Fantasy"
-    ]
-  },
-  "Motto! Majime ni Fumajime Kaiketsu Zorori 3rd Season": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/motto-majime-ni-fumajime-kaiketsu-zorori-3rd-season-c73b7faaa1.jpg",
-    "Studio": "Ajia-Do",
-    "Source": "Book",
-    "Genres": [
-      "Adventure",
-      "Comedy",
-      "Fantasy"
-    ]
-  },
-  "Onipan!": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/onipan-c867bb0166.jpg",
-    "Studio": "Wit Studio",
+  "Lycoris Recoil": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/lycoris-recoil-9e71cc62a3.jpg",
+    "Studio": "A-1 Pictures",
     "Source": "Original",
-    "Genres": [
-      "Comedy",
-      "Demons",
-      "Fantasy"
-    ]
+    "Genres": []
   },
-  "Otomege Sekai wa Mob ni Kibishii Sekai desu": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/otomege-sekai-wa-mob-ni-kibishii-sekai-desu-aa5900b59a.jpg",
-    "Studio": "ENGI",
-    "Source": "Light Novel",
-    "Genres": [
-      "Action",
-      "Adventure",
-      "Comedy",
-      "Drama",
-      "Fantasy",
-      "Harem",
-      "Isekai",
-      "Mecha",
-      "Romance",
-      "School"
-    ]
-  },
-  "Paripi Koumei": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/paripi-koumei-e6ca6d4296.jpg",
-    "Studio": "P.A. Works",
+  "Orient Part 2": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/orient-part-2-9fa0dd4af7.jpg",
+    "Studio": "A.C.G.T.",
     "Source": "Manga",
     "Genres": [
+      "Action",
+      "Adventure",
       "Comedy",
-      "Drama",
-      "Music",
-      "Slice of Life",
+      "Demons",
+      "Fantasy",
+      "Shounen"
+    ]
+  },
+  "Overlord IV": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/overlord-iv-fd2e2e893c.jpg",
+    "Studio": "MADHOUSE",
+    "Source": "Light Novel",
+    "Genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Isekai",
+      "Magic",
       "Supernatural"
     ]
   },
-  "RPG Fudousan": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/rpg-fudousan-1c3cf03ddb.jpg",
-    "Studio": "Doga Kobo",
-    "Source": "Manga",
+  "Prima Doll": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/prima-doll-3bb5d5f28c.jpg",
+    "Studio": "Bibury Animation Studio",
+    "Source": "Other",
     "Genres": [
       "Comedy",
-      "Fantasy",
+      "Drama",
+      "Sci-Fi",
       "Slice of Life"
     ]
   },
-  "Rikei ga Koi ni Ochita no de Shoumei shitemita. 2": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita-2-dffddc6343.jpg",
-    "Studio": "Zero-G",
-    "Source": "Web Manga",
+  "Renmei Kuugun Koukuu Mahou Ongakutai: Luminous Witches": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/renmei-kuugun-koukuu-mahou-ongakutai-luminous-witches-ea099ab99a.jpg",
+    "Studio": "Shaft",
+    "Source": "Original",
     "Genres": [
-      "Comedy",
-      "Romance",
-      "Seinen"
+      "Ecchi",
+      "Magic",
+      "Military",
+      "Music",
+      "Sci-Fi"
     ]
   },
-  "SPY\u00d7FAMILY": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/spy-x-family-7841f05975.jpg",
+  "SHINE POST": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shine-post-3a747d359a.jpg",
+    "Studio": "Studio KAI",
+    "Source": "Light Novel",
+    "Genres": [
+      "Music",
+      "Slice of Life"
+    ]
+  },
+  "Shadows House 2": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shadows-house-2-6711049795.jpg",
     "Studio": "CloverWorks",
     "Source": "Manga",
     "Genres": [
-      "Action",
-      "Comedy",
-      "Shounen",
-      "Supernatural",
-      "Thriller"
-    ]
-  },
-  "Shachiku-san wa Youjo Yuurei ni Iyasaretai.": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shachiku-san-wa-youjo-yuurei-ni-iyasaretai-4397c174b7.jpg",
-    "Studio": "project No.9",
-    "Source": "Manga",
-    "Genres": [
-      "Comedy",
       "Fantasy",
-      "Shounen",
+      "Horror",
+      "Mystery",
+      "Seinen",
       "Slice of Life",
       "Supernatural"
     ]
   },
-  "Shadowverse Flame": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shadowverse-f-flame-5b2514e238.jpg",
-    "Studio": "ZEXCS",
-    "Source": "Video Game",
-    "Genres": [
-      "Fantasy",
-      "Game",
-      "Sci-Fi",
-      "Shounen"
-    ]
-  },
-  "Shijou Saikyou no Daimaou, Murabito A ni Tensei suru": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shijou-saikyou-no-daimaou-murabito-a-ni-tensei-suru-103438246d.jpg",
-    "Studio": "BLADE",
-    "Source": "Light Novel",
+  "Shin Tennis no Ouji-sama: U-17 World Cup": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shin-tennis-no-ouji-sama-u-17-world-cup-dceb4b5e0c.jpg",
+    "Studio": "M.S.C",
+    "Source": "Manga",
     "Genres": [
       "Action",
       "Comedy",
-      "Ecchi",
-      "Fantasy",
-      "Harem",
-      "Magic",
-      "Romance",
-      "School"
-    ]
-  },
-  "Shin Ikkitousen": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shin-ikkitousen-cd5939954a.jpg",
-    "Studio": "Arms",
-    "Source": "Manga",
-    "Genres": [
-      "Action",
-      "Ecchi",
-      "Martial Arts",
-      "Seinen",
-      "Supernatural",
-      "Superpower"
-    ]
-  },
-  "Shokei Shoujo no Virgin Road": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shokei-shoujo-no-virgin-road-f5d56819e7.jpg",
-    "Studio": "J.C. Staff",
-    "Source": "Light Novel",
-    "Genres": [
-      "Action",
-      "Adventure",
-      "Drama",
-      "Fantasy",
-      "Isekai"
-    ]
-  },
-  "Summertime Render": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/summer-time-render-b610c02166.jpg",
-    "Studio": "OLM",
-    "Source": "Manga",
-    "Genres": [
-      "Action",
-      "Drama",
-      "Mystery",
       "Shounen",
-      "Supernatural",
-      "Thriller"
+      "Sports"
     ]
   },
-  "Tate no Yuusha no Nariagari 2": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/tate-no-yuusha-no-nariagari-2-523f74d292.jpg",
-    "Studio": "DR Movie",
-    "Source": "Light Novel",
-    "Genres": [
-      "Action",
-      "Adventure",
-      "Drama",
-      "Fantasy",
-      "Isekai"
-    ]
-  },
-  "Tiger & Bunny 2": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/tiger-and-bunny-2-ef9002089d.jpg",
-    "Studio": "Bandai Namco Pictures",
+  "Shoot! Goal to the Future": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shoot-goal-to-the-future-392b07d801.jpg",
+    "Studio": "EMT Squared",
     "Source": "Original",
     "Genres": [
-      "Action",
-      "Comedy",
-      "Drama",
-      "Mystery",
-      "Superpower"
+      "Shounen",
+      "Sports"
     ]
   },
-  "Tomodachi Game": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/tomodachi-game-60476575c1.jpg",
-    "Studio": "Okuruto Noboru",
+  "Soredemo Ayumu wa Yosetekuru": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/soredemo-ayumu-wa-yosetekuru-33c8f6fca7.jpg",
+    "Studio": "SILVER LINK.",
     "Source": "Manga",
     "Genres": [
-      "Drama",
-      "Game",
-      "Mystery",
-      "Psychological",
-      "Shounen"
+      "Comedy",
+      "Romance",
+      "School",
+      "Shounen",
+      "Slice of Life"
     ]
   },
-  "Yuusha, Yamemasu": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/yuusha-yamemasu-c6c73789ba.jpg",
-    "Studio": "EMT Squared",
+  "TECHNOROID: OVERMIND": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/technoroid-overmind-7c89e5d44b.jpg",
+    "Studio": "Doga Kobo",
+    "Source": "Original",
+    "Genres": [
+      "Music"
+    ]
+  },
+  "Tensei Kenja no Isekai Life": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/tensei-kenja-no-isekai-life-d9f841d4a4.jpg",
+    "Studio": "Revoroot",
     "Source": "Light Novel",
     "Genres": [
       "Action",
       "Adventure",
+      "Fantasy",
+      "Isekai",
+      "Magic"
+    ]
+  },
+  "Teppen!!!!!!!!!!!!!!!": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/teppen-2022-7fed9f4353.jpg",
+    "Studio": "Drive",
+    "Source": "Manga",
+    "Genres": [
       "Comedy",
+      "School",
+      "Slice of Life"
+    ]
+  },
+  "Tokyo Mew Mew New~\u2661": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/tokyo-mew-mew-new-d0203056c5.jpg",
+    "Studio": "Graphinica",
+    "Source": "Manga",
+    "Genres": [
+      "Adventure",
+      "Comedy",
+      "Fantasy",
+      "Magic",
+      "Magical Girl",
+      "Romance",
+      "Sci-Fi",
+      "Shoujo"
+    ]
+  },
+  "Utawarerumono: Futari no Hakuoro": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/utawarerumono-futari-no-hakuoro-e6644ced52.jpg",
+    "Studio": "White Fox",
+    "Source": "Visual Novel",
+    "Genres": [
+      "Action",
+      "Drama",
       "Fantasy"
     ]
   },
-  "Yu\u2606Gi\u2606Oh! Go Rush!!": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/yu-gi-oh-go-rush-9ca7d7e015.jpg",
-    "Studio": "Bridge",
-    "Source": "Original",
+  "Yofukashi no Uta": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/yofukashi-no-uta-9065f099ca.jpg",
+    "Studio": "LIDENFILMS",
+    "Source": "Manga",
     "Genres": [
-      "Action",
-      "Fantasy",
-      "Game",
-      "Shounen"
+      "Comedy",
+      "Psychological",
+      "Romance",
+      "Shounen",
+      "Slice of Life",
+      "Supernatural",
+      "Vampire"
     ]
+  },
+  "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 2": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-zoku-hen-219a3a3c6a.jpg",
+    "Studio": "Lerche",
+    "Source": "Light Novel",
+    "Genres": [
+      "Drama",
+      "Harem",
+      "Psychological",
+      "School"
+    ]
+  },
+  "Yurei Deco": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/yurei-deco-bf2a10ff78.jpg",
+    "Studio": "Science SARU",
+    "Source": "Original",
+    "Genres": []
   }
 }

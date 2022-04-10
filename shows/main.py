@@ -4,7 +4,7 @@ from shows import Shows
 def main():
     shw = Shows(None)
     shw.html()
-    shw.update_streams()
+    shw.update()
     shw.driver.quit()
 
 

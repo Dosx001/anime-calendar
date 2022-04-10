@@ -58,9 +58,11 @@ class Shows:
                     title = show.find_element(
                         By.CLASS_NAME, "show-title-bar"
                     ).get_attribute("innerText")
-                    time = show.find_element(
-                        By.CLASS_NAME, "show-air-time"
-                    ).get_attribute("innerText")
+                    time = (
+                        show.find_element(By.CLASS_NAME, "show-air-time")
+                        .get_attribute("innerText")
+                        .strip()
+                    )
                     if time[0] == "0":
                         time = time[1::]
                     cover = show.find_element(
@@ -106,9 +108,8 @@ class Shows:
                     title = self.netflix(self.new[show]["streams"][stream])
                 case "VRV":
                     title = self.vrv(self.new[show]["streams"][stream])
-                # Geo Locked
-                # case "Wakanim":
-                #     title = self.wakanim(self.new[show]["streams"][stream])
+                case "Wakanim":
+                    title = self.wakanim(self.new[show]["streams"][stream])
                 case _:
                     continue
             if title:
@@ -150,28 +151,27 @@ class Shows:
         )
         min_time = times[0]
         max_time = times[-1]
-        self.format_times(times)
         output = {}
-        output.update({"compact": times})
+        output.update({"compact": self.format_times(times)})
         times = set(times)
         for hour in range(1, 13):
             for time in ["00 AM", "30 AM", "00 PM", "30 PM"]:
                 times.add(strptime(f"{hour}:{time}", "%I:%M %p"))
         times = sorted(times)
         full = list(times)
-        self.format_times(times)
-        output.update({"full": times})
+        output.update({"full": self.format_times(times)})
         times = [time for time in full if min_time <= time <= max_time]
-        self.format_times(times)
-        output.update({"cutoff": times})
+        output.update({"cutoff": self.format_times(times)})
         with open("time.json", "w", encoding="utf-8") as file:
             dump(output, file, separators=(",", ":"))
 
     @staticmethod
     def format_times(times):
-        for i, time in enumerate(times):
+        output = []
+        for time in times:
             time = strftime("%I:%M %p", time)
-            times[i] = time[1::] if time[0] == "0" else time
+            output.append(time[1::] if time[0] == "0" else time)
+        return output
 
     @staticmethod
     def get_data(url):

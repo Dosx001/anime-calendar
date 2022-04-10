@@ -21,7 +21,7 @@ def main():
         options = options
     )
     driver.maximize_window()
-    driver.get('https://animeschedule.net/seasons/spring-2022')
+    driver.get('https://animeschedule.net/seasons/summer-2022')
     data = driver.find_element(By.CLASS_NAME, 'shows-container').find_elements(By.CLASS_NAME, 'anime-tile')
     shows = {}
     for show in data:

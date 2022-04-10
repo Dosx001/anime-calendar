@@ -50,11 +50,13 @@ class TestList(unittest.TestCase):
     def test_vrv2(self):
         title = self.shw.vrv("https://vrv.co/series/G6NQ5DWZ6/My-Hero-Academia")
         self.assertEqual(title, "My Hero Academia")
-        self.shw.driver.quit()
 
-    # def test_wakanim(self):
-    #     title = self.shw.wakanim("https://www.wakanim.tv/sc/v2/catalogue/shwow/1203/horimiya")
-    #     self.assertEqual(title, "Horimiya")
+    def test_wakanim(self):
+        title = self.shw.wakanim(
+            "https://www.wakanim.tv/sc/v2/catalogue/show/1203/horimiya"
+        )
+        self.assertEqual(title, "Horimiya")
+        self.shw.driver.quit()
 
 
 if __name__ == "__main__":
