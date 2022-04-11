@@ -203,7 +203,7 @@ class Calendar {
                     }
                     else
                         e.preventDefault();
-                    this.streamInfo(e.target.innerHTML);
+                    this.streamInfo(e.target.innerText);
                 };
                 const a = document.createElement('a');
                 const id = this.ider_slot(data[show].day, data[show].time);
@@ -587,7 +587,7 @@ class Calendar {
     info() {
         localStorage.setItem('info', document.getElementById('info').value);
         if (document.getElementById('title')) {
-            this.streamInfo(document.getElementById('title').innerHTML);
+            this.streamInfo(document.getElementById('title').innerText);
         }
     }
 }

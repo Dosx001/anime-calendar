@@ -231,7 +231,7 @@ class Calendar {
           if (localStorage.getItem('info') === '0') {
             if (document.getElementById('title')) e.preventDefault();
           } else e.preventDefault();
-          this.streamInfo((<HTMLElement>e.target!).innerHTML);
+          this.streamInfo((<HTMLElement>e.target!).innerText);
         };
         const a = document.createElement('a');
         const id = this.ider_slot(data[show].day, data[show].time);
@@ -639,7 +639,7 @@ class Calendar {
       (<HTMLSelectElement>document.getElementById('info')!).value,
     );
     if (document.getElementById('title')) {
-      this.streamInfo(document.getElementById('title')!.innerHTML);
+      this.streamInfo(document.getElementById('title')!.innerText);
     }
   }
 }

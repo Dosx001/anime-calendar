@@ -24,7 +24,7 @@ class Search {
           const input = document.getElementById(
             (this.indexLi === 99 ? this.indexLi + 1 : this.indexLi).toString(),
           );
-          if (this.search.value && input) CAL.streamInfo(input.innerHTML);
+          if (this.search.value && input) CAL.streamInfo(input.innerText);
           this.search.value = '';
           this.titles.style.display = 'none';
           this.search.blur();
@@ -77,7 +77,7 @@ class Search {
           /* eslint-disable-next-line no-plusplus */
           i++;
           li.onclick = (ev) => {
-            CAL.streamInfo((<HTMLElement>ev.target).innerHTML);
+            CAL.streamInfo((<HTMLElement>ev.target).innerText);
             this.search.value = '';
             this.titles.style.display = 'none';
           };
