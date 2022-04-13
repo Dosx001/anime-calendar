@@ -80,9 +80,9 @@ class Shows:
                             sorted(streams.items(), key=lambda show: show[0])
                         ),
                     }
+                    if "Netflix" in content["streams"]:
+                        content["streams"].pop("Netflix")
                     if title in self.keys:
-                        if "Netflix" in content["streams"]:
-                            content["streams"].pop("Netflix")
                         if self.shows[self.keys[title]] == content:
                             self.static.update({title: None})
                         else:
@@ -249,7 +249,10 @@ class Shows:
                 if line != "|":
                     title.append(line)
                 else:
-                    return " ".join(title[1::])
+                    title = " ".join(title[1::])
+                    if title == " ":
+                        return None
+                    return title
             elif "/><title>" in line:
                 title.append(line[267::])
                 boolan = True

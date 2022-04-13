@@ -11,7 +11,7 @@
   },
   "Case Closed": {
     "day": 6,
-    "time": "5:30 AM",
+    "time": "7:30 AM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/detective-conan-8d9a48d3dd.jpg",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/case-closed",
@@ -71,17 +71,6 @@
     "time": "2:30 AM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/sazae-san-162010bbcb.jpg",
     "streams": {}
-  },
-  "Tokyo 24th Ward": {
-    "day": 3,
-    "time": "10:00 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/tokyo-24-ku-7be71d185c.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/tokyo-24th-ward",
-      "Funimation": "https://www.funimation.com/shows/tokyo-24th-ward/",
-      "VRV": "https://vrv.co/series/GJ0H7QJWV",
-      "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1630"
-    }
   },
   "Norimono Man: Mobile Land no Car-kun": {
     "day": 4,
@@ -190,24 +179,10 @@
       "VRV": "https://vrv.co/series/GXJHM37WP/Healer-Girl"
     }
   },
-  " ": {
+  "Detective Conan: Zero's Tea Time": {
     "day": 1,
     "time": "9:20 AM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/meitantei-conan-zero-no-tea-time-98a6e98214.jpg",
-    "streams": {
-      "Netflix": "https://www.netflix.com/title/81313289"
-    }
-  },
-  "Onmyoji: Heian Monogatari 3": {
-    "day": 1,
-    "time": "7:00 PM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/onmyouji-heian-monogatari-3-0389f41e33.jpg",
-    "streams": {}
-  },
-  "Fushigi Dagashiya: Zenitendou": {
-    "day": 2,
-    "time": "2:45 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/fushigi-dagashiya-zenitendou-b66028e952.jpg",
     "streams": {}
   },
   "I'm Quitting Heroing": {
@@ -288,9 +263,7 @@
     "day": 3,
     "time": "8:00 AM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/komi-san-wa-comyushou-desu-2-5809061dff.jpg",
-    "streams": {
-      "Netflix": "https://www.netflix.com/title/81228573"
-    }
+    "streams": {}
   },
   "Deaimon: Recipe for Happiness": {
     "day": 3,
@@ -313,9 +286,7 @@
     "day": 4,
     "time": "1:55 AM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shaman-king-2021-f161329dde.jpg",
-    "streams": {
-      "Netflix": "https://www.netflix.com/bg/title/81239555"
-    }
+    "streams": {}
   },
   "Miss Shachiku and the Little Baby Ghost": {
     "day": 4,
@@ -368,14 +339,6 @@
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/the-dawn-of-the-witch",
       "VRV": "https://vrv.co/series/G5PHNM403/The-Dawn-of-the-Witch"
-    }
-  },
-  "TIGER & BUNNY": {
-    "day": 5,
-    "time": "12:00 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/tiger-and-bunny-2-ef9002089d.jpg",
-    "streams": {
-      "Netflix": "https://www.netflix.com/title/80039972"
     }
   },
   "stars*collection": {
@@ -459,7 +422,8 @@
     "time": "11:45 AM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/dance-dance-danseur-19eb44b79d.jpg",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/dance-dance-danseur"
+      "Crunchyroll": "https://www.crunchyroll.com/dance-dance-danseur",
+      "VRV": "https://vrv.co/series/G9VHN9P07/Dance-Dance-Danseur"
     }
   },
   "Shadowverse": {
@@ -514,7 +478,6 @@
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/spy-x-family-7841f05975.jpg",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/spy-x-family",
-      "Netflix": "https://www.netflix.com/title/81511410",
       "VRV": "https://vrv.co/series/G4PH0WXVJ/SPY-x-FAMILY",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1wGMYg5oB3uEns0CZNl6sI"
     }
@@ -593,7 +556,8 @@
     "time": "5:01 AM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kono-healer-mendokusai-f82b224a75.jpg",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/dont-hurt-me-my-healer"
+      "Crunchyroll": "https://www.crunchyroll.com/dont-hurt-me-my-healer",
+      "VRV": "https://vrv.co/series/G3KHEV3NN/Dont-Hurt-Me-My-Healer"
     }
   },
   "Trapped in a Dating Sim: The World of Otome Games is Tough for Mobs": {
@@ -612,11 +576,77 @@
     "streams": {}
   },
   "Onipan!": {
-    "day": 7,
-    "time": "3:05 PM",
+    "day": 4,
+    "time": "8:00 PM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/onipan-c867bb0166.jpg",
     "streams": {
       "HiDive": "https://www.hidive.com/tv/onipan"
     }
+  },
+  "AMAIM Warrior at the Borderline": {
+    "day": 1,
+    "time": "9:00 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kyoukai-senki-part-2-b951f3a4d4.jpg",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/amaim-warrior-at-the-borderline"
+    }
+  },
+  "Ascendance of a Bookworm": {
+    "day": 1,
+    "time": "11:30 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/honzuki-no-gekokujou-3-3daf1875c4.jpg",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/ascendance-of-a-bookworm",
+      "VRV": "https://vrv.co/series/G6793XKZY/Ascendance-of-a-Bookworm"
+    }
+  },
+  "KAGINADO": {
+    "day": 2,
+    "time": "9:01 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kaginado-2-db54349808.jpg",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEV73Z",
+      "Funimation": "https://www.funimation.com/shows/kaginado/",
+      "HiDive": "https://www.hidive.com/movies/kaginado-season-2",
+      "VRV": "https://vrv.co/series/G3KHEV73Z/KAGI-NADO"
+    }
+  },
+  "Ultraman 2": {
+    "day": 4,
+    "time": "12:00 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/ultraman-2-2af80535b6.jpg",
+    "streams": {}
+  },
+  "Summertime Render": {
+    "day": 4,
+    "time": "8:00 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/summer-time-render-b610c02166.jpg",
+    "streams": {}
+  },
+  "Chiikawa": {
+    "day": 4,
+    "time": "3:40 PM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/chiikawa-c656267c1a.jpg",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLHIKP_Dyl1zwJy0JjSvVV5l8Kyg-8sjdv"
+    }
+  },
+  "Meitantei Conan: Halloween no Hanayome": {
+    "day": 4,
+    "time": "5:00 PM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/meitantei-conan-halloween-no-hanayome-f79a2108f0.jpg",
+    "streams": {}
+  },
+  "Duel Masters King Max": {
+    "day": 6,
+    "time": "4:30 PM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/duel-masters-king-max-9588730253.jpg",
+    "streams": {}
+  },
+  "Insect Land": {
+    "day": 7,
+    "time": "4:45 PM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/insect-land-c72165deee.jpg",
+    "streams": {}
   }
 }
