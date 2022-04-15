@@ -1,7 +1,8 @@
 from html import unescape
 from json import dump, load
 from os import popen, system
-from time import strftime, strptime
+from time import sleep, strftime, strptime
+from typing import TypedDict
 
 from selenium import webdriver
 from selenium.common.exceptions import (
@@ -11,6 +12,13 @@ from selenium.common.exceptions import (
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.firefox.service import Service
+
+
+class ShowType(TypedDict):
+    day: int
+    time: str
+    cover: str
+    streams: dict[str, str]
 
 
 class Shows:
@@ -29,12 +37,12 @@ class Shows:
             self.driver = driver
         self.driver.maximize_window()
         with open("shows.json", encoding="utf-8") as file:
-            self.shows = load(file)
+            self.shows: dict[str, ShowType] = load(file)
         with open("keys.json", encoding="utf-8") as file:
-            self.keys = load(file)
-        self.static = {}
-        self.changes = {}
-        self.new = {}
+            self.keys: dict[str, str] = load(file)
+        self.static: dict[str, ShowType] = {}
+        self.changes: dict[str, ShowType] = {}
+        self.new: dict[str, ShowType] = {}
 
     def html(self):
         self.driver.get("https://animeschedule.net")
@@ -90,7 +98,7 @@ class Shows:
                     else:
                         self.new.update({title: content})
 
-    def title(self, show):
+    def title(self, show: str) -> str:
         for stream in self.new[show]["streams"]:
             match stream:
                 # Geo Locked
@@ -115,9 +123,7 @@ class Shows:
             if title:
                 while title != unescape(title):
                     title = unescape(title)
-            else:
-                continue
-            return title
+                return title
         return show
 
     def update(self):
@@ -166,7 +172,7 @@ class Shows:
             dump(output, file, separators=(",", ":"))
 
     @staticmethod
-    def format_times(times):
+    def format_times(times: list) -> list[str]:
         output = []
         for time in times:
             time = strftime("%I:%M %p", time)
@@ -174,13 +180,13 @@ class Shows:
         return output
 
     @staticmethod
-    def get_data(url):
+    def get_data(url: str) -> list[str]:
         pipe = popen(f"curl -k {url} -H 'User-Agent: Firefox/60.'")
         data = pipe.read().split("\n")
         pipe.close()
         return data
 
-    def animelab(self, url):
+    def animelab(self, url: str) -> str | None:
         boolans = [False, False]
         for line in self.get_data(url):
             if boolans[0]:
@@ -191,7 +197,7 @@ class Shows:
                 boolans[0] = True
         return None
 
-    def crunchyroll(self, url):
+    def crunchyroll(self, url: str) -> str | None:
         self.driver.get(url)
         try:
             return (
@@ -219,27 +225,27 @@ class Shows:
                     self.driver.find_element(By.CLASS_NAME, "user-menu-sticky").click()
                     return text
                 except NoSuchElementException:
-                    pass
+                    sleep(0.1)
 
-    def funimation(self, url):
+    def funimation(self, url: str) -> str | None:
         self.driver.get(url)
         try:
-            for _ in range(200):
+            while True:
                 try:
                     return self.driver.find_element(By.CLASS_NAME, "text-md-h1").text
                 except NoSuchElementException:
-                    pass
+                    sleep(0.1)
         except StaleElementReferenceException:
             pass
         return None
 
-    def hidive(self, url):
+    def hidive(self, url: str) -> str | None:
         for line in self.get_data(url):
             if "title" in line:
                 return line[35:-14]
         return None
 
-    def netflix(self, url):
+    def netflix(self, url: str) -> str | None:
         title = []
         boolan = False
         if "/bg/" in url:
@@ -258,7 +264,7 @@ class Shows:
                 boolan = True
         return None
 
-    def vrv(self, url):
+    def vrv(self, url: str) -> str | None:
         boolans = [False, False]
         title = []
         for line in self.get_data(url):
@@ -275,7 +281,7 @@ class Shows:
                 boolans[0] = True
         return None
 
-    def wakanim(self, url):
+    def wakanim(self, url: str) -> str | None:
         self.driver.get(url)
         return self.driver.find_element(
             By.CLASS_NAME, "SerieHeader-thumb"
