@@ -1,7 +1,7 @@
 {
   "Dragon Quest: The Adventure of Dai": {
     "day": 5,
-    "time": "6:00 PM",
+    "time": "7:00 PM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/dragon-quest-dai-no-daibouken-2020-da3cc5015f.jpg",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/dragon-quest-the-adventure-of-dai",
@@ -11,7 +11,7 @@
   },
   "Case Closed": {
     "day": 6,
-    "time": "7:30 AM",
+    "time": "4:30 AM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/detective-conan-8d9a48d3dd.jpg",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/case-closed",
@@ -20,7 +20,7 @@
   },
   "One Piece": {
     "day": 6,
-    "time": "6:00 PM",
+    "time": "7:00 PM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/one-piece-f2f2a983a8.jpg",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/one-piece",
@@ -51,7 +51,7 @@
   },
   "Digimon Ghost Game": {
     "day": 6,
-    "time": "6:30 PM",
+    "time": "7:30 PM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/digimon-ghost-game-45954f5ba5.jpg",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNMEEZ",
@@ -86,7 +86,7 @@
   },
   "Aware! Meisaku-kun": {
     "day": 5,
-    "time": "2:00 AM",
+    "time": "2:20 AM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/aware-meisaku-kun-fc51ff53a2.jpg",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/aware-meisaku-kun",
@@ -152,19 +152,9 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jgs4lZ9kodR85ovYsXKVj2v"
     }
   },
-  "Salaryman\u2019s Club": {
-    "day": 6,
-    "time": "11:30 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/ryman-s-club-5869a378a6.jpg",
-    "streams": {
-      "Crunchyroll": "https://crunchyroll.com/series/G9VHN9P99/salarymans-club",
-      "VRV": "https://vrv.co/series/G9VHN9P99/Salarymans-Club",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jgvkxyz-QVER9yvp_8KZrIP"
-    }
-  },
   "Delicious Party\u2661Precure": {
     "day": 6,
-    "time": "5:30 PM",
+    "time": "6:30 PM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/delicious-party-precure-ae8588aa03.jpg",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/delicious-party-pretty-cure"
@@ -215,7 +205,8 @@
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/birdie-wing-golf-girls-story-18c4d69557.jpg",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/birdie-wing-golf-girls-story-",
-      "VRV": "https://vrv.co/series/GNVHKN714/"
+      "VRV": "https://vrv.co/series/GNVHKN714/",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Ji1XCAnJ_2Nt_1G2tejMnKZ"
     }
   },
   "Motto! Majime ni Fumajime Kaiketsu Zorori 3rd Season": {
@@ -224,19 +215,14 @@
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/motto-majime-ni-fumajime-kaiketsu-zorori-3rd-season-c73b7faaa1.jpg",
     "streams": {}
   },
-  "Baby-Hamitang": {
-    "day": 3,
-    "time": "3:26 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/baby-hamitang-d7e50d94d9.jpg",
-    "streams": {}
-  },
   "The Greatest Demon Lord is Reborn as a Typical Nobody": {
     "day": 3,
     "time": "5:01 AM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shijou-saikyou-no-daimaou-murabito-a-ni-tensei-suru-103438246d.jpg",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/the-greatest-demon-lord-is-reborn-as-a-typical-nobody",
-      "VRV": "https://vrv.co/series/GKEH2G4KD/The-Greatest-Demon-Lord-is-Reborn-as-a-Typical-Nobody"
+      "VRV": "https://vrv.co/series/GKEH2G4KD/The-Greatest-Demon-Lord-is-Reborn-as-a-Typical-Nobody",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2r_5gebNCgFLONBLem1_si"
     }
   },
   "The Rising of the Shield Hero": {
@@ -271,7 +257,8 @@
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/deaimon-6723674b24.jpg",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/deaimon-recipe-for-happiness",
-      "VRV": "https://vrv.co/series/GVDHX8Z77/Deaimon-Recipe-for-Happiness"
+      "VRV": "https://vrv.co/series/GVDHX8Z77/Deaimon-Recipe-for-Happiness",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jj0YsJ7qatPuq_qp-eofuxo"
     }
   },
   "ESTAB LIFE: Great Escape": {
@@ -279,14 +266,9 @@
     "time": "4:00 PM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/estab-life-great-escape-e3dbef738f.jpg",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/estab-life-great-escape"
+      "Crunchyroll": "https://www.crunchyroll.com/estab-life-great-escape",
+      "VRV": "https://vrv.co/series/GG5H5XEGG"
     }
-  },
-  "SHAMAN KING": {
-    "day": 4,
-    "time": "1:55 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shaman-king-2021-f161329dde.jpg",
-    "streams": {}
   },
   "Miss Shachiku and the Little Baby Ghost": {
     "day": 4,
@@ -338,7 +320,8 @@
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/mahoutsukai-reimeiki-85016b0aaf.jpg",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/the-dawn-of-the-witch",
-      "VRV": "https://vrv.co/series/G5PHNM403/The-Dawn-of-the-Witch"
+      "VRV": "https://vrv.co/series/G5PHNM403/The-Dawn-of-the-Witch",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0oqORR5jlJJvR2Qa2a77Qu"
     }
   },
   "stars*collection": {
@@ -367,7 +350,8 @@
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/love-after-world-domination",
       "VRV": "https://vrv.co/series/GEXH3WG78/Love-After-World-Domination",
-      "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1481/love-after-world-domination"
+      "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1481/love-after-world-domination",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JiNzLbx2do5nOpObPMy6BGu"
     }
   },
   "KAGUYA-SAMA: LOVE IS WAR": {
@@ -386,7 +370,8 @@
     "time": "9:30 AM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shokei-shoujo-no-virgin-road-f5d56819e7.jpg",
     "streams": {
-      "HiDive": "https://www.hidive.com/tv/the-executioner-and-her-way-of-life"
+      "HiDive": "https://www.hidive.com/tv/the-executioner-and-her-way-of-life",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhOGIH8XICTtcCX3Q3DdX2j"
     }
   },
   "Science Fell in Love, So I Tried to Prove it": {
@@ -441,7 +426,8 @@
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/love-all-play-9c14ba0b2a.jpg",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/love-all-play",
-      "VRV": "https://vrv.co/series/GKEH2G4MW/Love-All-Play"
+      "VRV": "https://vrv.co/series/GKEH2G4MW/Love-All-Play",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhTcld54szOhI4UZJeSJrJc"
     }
   },
   "Aoashi": {
@@ -478,6 +464,7 @@
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/spy-x-family-7841f05975.jpg",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/spy-x-family",
+      "Hulu": "https://www.hulu.com/series/65d158d4-443f-44c7-bd2c-eae39f6c60e9",
       "VRV": "https://vrv.co/series/G4PH0WXVJ/SPY-x-FAMILY",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1wGMYg5oB3uEns0CZNl6sI"
     }
@@ -511,23 +498,14 @@
       "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1553/build-divide-000000-code-black/season/3667/season-2"
     }
   },
-  "Shikimori's Not Just a Cutie": {
-    "day": 6,
-    "time": "11:15 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kawaii-dake-ja-nai-shikimori-san-f8b569ef8b.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/shikimoris-not-just-a-cutie",
-      "VRV": "https://vrv.co/series/GNVHKN7M4/Shikimoris-Not-Just-a-Cutie",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2v3GdglUbai_QNMJHZMOHP"
-    }
-  },
   "Kingdom": {
     "day": 6,
     "time": "11:30 AM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kingdom-4-450b48f457.jpg",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/kingdom",
-      "Funimation": "https://www.funimation.com/shows/kingdom/"
+      "Funimation": "https://www.funimation.com/shows/kingdom/",
+      "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1360/kingdom/season/3663/season-4-sub"
     }
   },
   "Yu\u2606Gi\u2606Oh! Go Rush!!": {
@@ -588,7 +566,10 @@
     "time": "9:00 AM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kyoukai-senki-part-2-b951f3a4d4.jpg",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/amaim-warrior-at-the-borderline"
+      "Crunchyroll": "https://www.crunchyroll.com/amaim-warrior-at-the-borderline",
+      "Funimation": "https://www.funimation.com/shows/amaim-warrior-at-the-borderline/",
+      "VRV": "https://vrv.co/series/GJ0H7QXE2/AMAIM-Warrior-at-the-Borderline",
+      "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1573/amaim-warrior-at-the-borderline/season/3572/season-1---cour-2"
     }
   },
   "Ascendance of a Bookworm": {
@@ -597,7 +578,8 @@
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/honzuki-no-gekokujou-3-3daf1875c4.jpg",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/ascendance-of-a-bookworm",
-      "VRV": "https://vrv.co/series/G6793XKZY/Ascendance-of-a-Bookworm"
+      "VRV": "https://vrv.co/series/G6793XKZY/Ascendance-of-a-Bookworm",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1pGYxuxFAg3A4Y5rDCugXg"
     }
   },
   "KAGINADO": {
@@ -608,14 +590,10 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEV73Z",
       "Funimation": "https://www.funimation.com/shows/kaginado/",
       "HiDive": "https://www.hidive.com/movies/kaginado-season-2",
-      "VRV": "https://vrv.co/series/G3KHEV73Z/KAGI-NADO"
+      "VRV": "https://vrv.co/series/G3KHEV73Z/KAGI-NADO",
+      "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1580/kaginado/season/3651/season-2",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3gRcH6U4L-LonrzmvlvvX0"
     }
-  },
-  "Ultraman 2": {
-    "day": 4,
-    "time": "12:00 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/ultraman-2-2af80535b6.jpg",
-    "streams": {}
   },
   "Summertime Render": {
     "day": 4,
@@ -631,12 +609,6 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLHIKP_Dyl1zwJy0JjSvVV5l8Kyg-8sjdv"
     }
   },
-  "Meitantei Conan: Halloween no Hanayome": {
-    "day": 4,
-    "time": "5:00 PM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/meitantei-conan-halloween-no-hanayome-f79a2108f0.jpg",
-    "streams": {}
-  },
   "Duel Masters King Max": {
     "day": 6,
     "time": "4:30 PM",
@@ -647,6 +619,63 @@
     "day": 7,
     "time": "4:45 PM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/insect-land-c72165deee.jpg",
+    "streams": {}
+  },
+  "Yuukoku no Moriarty OVA": {
+    "day": 2,
+    "time": "5:00 PM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/yuukoku-no-moriarty-ova-cfef5c2b39.jpg",
+    "streams": {}
+  },
+  "Bubble": {
+    "day": 4,
+    "time": "12:01 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/bubble-bc5ca30c38.jpg",
+    "streams": {}
+  },
+  "Legend of the Galactic Heroes: Die Neue These": {
+    "day": 4,
+    "time": "4:00 PM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/ginga-eiyuu-densetsu-die-neue-these-gekitotsu-1-d8650185d3.jpg",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/legend-of-the-galactic-heroes-die-neue-these"
+    }
+  },
+  "Re:cycle of the Penguindrum": {
+    "day": 4,
+    "time": "5:00 PM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/re-cycle-of-the-penguindrum-b23e432fb4.jpg",
+    "streams": {}
+  },
+  "Ohiru no Shocker-san": {
+    "day": 4,
+    "time": "7:00 PM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/ohiru-no-shocker-san-f0f03fdb38.jpg",
+    "streams": {}
+  },
+  "A Couple of Cuckoos": {
+    "day": 6,
+    "time": "11:00 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kakkou-no-iinazuke-7d4571279c.jpg",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/a-couple-of-cuckoos",
+      "VRV": "https://vrv.co/series/GXJHM39MP/A-Couple-of-Cuckoos"
+    }
+  },
+  "Shikimori's Not Just a Cutie": {
+    "day": 6,
+    "time": "11:15 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kawaii-dake-ja-nai-shikimori-san-f8b569ef8b.jpg",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/shikimoris-not-just-a-cutie",
+      "VRV": "https://vrv.co/series/GNVHKN7M4/Shikimoris-Not-Just-a-Cutie",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2v3GdglUbai_QNMJHZMOHP"
+    }
+  },
+  "Bakugan: Evolutions": {
+    "day": 6,
+    "time": "5:00 PM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/bakugan-evolutions-fd8bcd6296.jpg",
     "streams": {}
   }
 }

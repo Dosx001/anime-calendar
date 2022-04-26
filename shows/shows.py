@@ -61,7 +61,9 @@ class Shows:
         ):
             for col in self.driver.find_elements(By.CLASS_NAME, day):
                 for show in col.find_elements(By.CLASS_NAME, "timetable-column-show"):
-                    if show.get_attribute("chinese") is not None:
+                    if show.get_attribute(
+                        "chinese"
+                    ) is not None or "hidden" in show.get_attribute("class"):
                         continue
                     title = show.find_element(
                         By.CLASS_NAME, "show-title-bar"
@@ -123,7 +125,7 @@ class Shows:
             if title:
                 while title != unescape(title):
                     title = unescape(title)
-                return title
+                return str(title)
         return show
 
     def update(self):
