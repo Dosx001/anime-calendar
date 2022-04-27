@@ -1,9 +1,11 @@
 {
   "Bucchigire!": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/bucchigire-025e884cbe.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/bucchigire-e82d3ba5a1.jpg",
     "Studio": "Geno Studio",
     "Source": "Original",
-    "Genres": []
+    "Genres": [
+      "Action"
+    ]
   },
   "Cardfight!! Vanguard: will+Dress": {
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/cardfight-vanguard-overdress-season-3-8007285cc1.jpg",
@@ -30,7 +32,7 @@
     ]
   },
   "Engage Kiss": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/engage-kiss-4b5a2e590e.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/engage-kiss-7512ee3887.jpg",
     "Studio": "A-1 Pictures",
     "Source": "Original",
     "Genres": [
@@ -74,7 +76,7 @@
     ]
   },
   "Hoshi no Samidare": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/hoshi-no-samidare-943a8bf1f5.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/hoshi-no-samidare-7772c22dbe.jpg",
     "Studio": "N/A",
     "Source": "Manga",
     "Genres": [
@@ -168,7 +170,7 @@
     ]
   },
   "Kuro no Shoukanshi": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kuro-no-shoukanshi-a645a3ad2d.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kuro-no-shoukanshi-9978a92421.jpg",
     "Studio": "Satelight",
     "Source": "Light Novel",
     "Genres": [
@@ -193,8 +195,17 @@
     "Source": "Original",
     "Genres": []
   },
-  "Orient Part 2": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/orient-part-2-9fa0dd4af7.jpg",
+  "Mamahaha no Tsurego ga Moto Kano datta": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/mamahaha-no-tsurego-ga-moto-kano-datta-8ad0e291fc.jpg",
+    "Studio": "project No.9",
+    "Source": "Light Novel",
+    "Genres": [
+      "Comedy",
+      "Romance"
+    ]
+  },
+  "ORIENT: Awajishima Gekitou-hen": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/orient-part-2-e27f88489b.jpg",
     "Studio": "A.C.G.T.",
     "Source": "Manga",
     "Genres": [
@@ -342,13 +353,14 @@
     ]
   },
   "Utawarerumono: Futari no Hakuoro": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/utawarerumono-futari-no-hakuoro-e6644ced52.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/utawarerumono-futari-no-hakuoro-cf8f853878.jpg",
     "Studio": "White Fox",
     "Source": "Visual Novel",
     "Genres": [
       "Action",
       "Drama",
-      "Fantasy"
+      "Fantasy",
+      "Sci-Fi"
     ]
   },
   "Yofukashi no Uta": {
@@ -365,13 +377,21 @@
       "Vampire"
     ]
   },
+  "Yoru wa Neko to Issho": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/yoru-wa-neko-to-issho-18f43067a3.jpg",
+    "Studio": "Studio PuYUKAI",
+    "Source": "Manga",
+    "Genres": [
+      "Comedy",
+      "Slice of Life"
+    ]
+  },
   "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 2": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-zoku-hen-219a3a3c6a.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-zoku-hen-ad40174658.jpg",
     "Studio": "Lerche",
     "Source": "Light Novel",
     "Genres": [
       "Drama",
-      "Harem",
       "Psychological",
       "School"
     ]
