@@ -8,7 +8,7 @@
     ]
   },
   "Cardfight!! Vanguard: will+Dress": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/cardfight-vanguard-overdress-season-3-8007285cc1.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/cardfight-vanguard-overdress-season-3-fc2923a1ad.jpg",
     "Studio": "Kinema Citrus",
     "Source": "Card Game",
     "Genres": [
@@ -59,6 +59,17 @@
       "Police",
       "Seinen",
       "Supernatural"
+    ]
+  },
+  "Hanabi-chan wa Okure-gachi": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/hanabi-chan-wa-okure-gachi-fffd1216a0.jpg",
+    "Studio": "Gaina",
+    "Source": "Manga",
+    "Genres": [
+      "Comedy",
+      "Fantasy",
+      "Romance",
+      "Slice of Life"
     ]
   },
   "Hataraku Maou-sama! 2": {
@@ -128,7 +139,7 @@
     ]
   },
   "Kami Kuzu\u2606Idol": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kami-kuzu-idol-378182f5aa.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kami-kuzu-idol-c5aadb7841.jpg",
     "Studio": "Studio Gokumi",
     "Source": "Manga",
     "Genres": [
@@ -190,10 +201,22 @@
     ]
   },
   "Lycoris Recoil": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/lycoris-recoil-9e71cc62a3.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/lycoris-recoil-16337db2f2.jpg",
     "Studio": "A-1 Pictures",
     "Source": "Original",
     "Genres": []
+  },
+  "Made in Abyss: Retsujitsu no Ougonkyou": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/made-in-abyss-2-5abfc5c8dc.jpg",
+    "Studio": "Kinema Citrus",
+    "Source": "Web Manga",
+    "Genres": [
+      "Adventure",
+      "Drama",
+      "Fantasy",
+      "Mystery",
+      "Sci-Fi"
+    ]
   },
   "Mamahaha no Tsurego ga Moto Kano datta": {
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/mamahaha-no-tsurego-ga-moto-kano-datta-8ad0e291fc.jpg",
@@ -231,7 +254,7 @@
     ]
   },
   "Prima Doll": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/prima-doll-3bb5d5f28c.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/prima-doll-4e6cf5f8c5.jpg",
     "Studio": "Bibury Animation Studio",
     "Source": "Other",
     "Genres": [
@@ -239,6 +262,16 @@
       "Drama",
       "Sci-Fi",
       "Slice of Life"
+    ]
+  },
+  "RWBY: Hyousetsu Teikoku": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/rwby-hyousetsu-teikoku-f1e381519e.jpg",
+    "Studio": "Shaft",
+    "Source": "Other",
+    "Genres": [
+      "Action",
+      "Fantasy",
+      "Sci-Fi"
     ]
   },
   "Renmei Kuugun Koukuu Mahou Ongakutai: Luminous Witches": {
@@ -305,14 +338,6 @@
       "School",
       "Shounen",
       "Slice of Life"
-    ]
-  },
-  "TECHNOROID: OVERMIND": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/technoroid-overmind-7c89e5d44b.jpg",
-    "Studio": "Doga Kobo",
-    "Source": "Original",
-    "Genres": [
-      "Music"
     ]
   },
   "Tensei Kenja no Isekai Life": {

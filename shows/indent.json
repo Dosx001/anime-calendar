@@ -520,15 +520,6 @@
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/cap-kakumei-bottleman-dx-b5aecf5d3d.jpg",
     "streams": {}
   },
-  "Shenmue the Animation": {
-    "day": 6,
-    "time": "9:00 PM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shenmue-the-animation-428ba01ec6.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/shenmue-the-animation",
-      "VRV": "https://vrv.co/series/GQWH0M94E/Shenmue-the-Animation"
-    }
-  },
   "Don't Hurt Me, My Healer!": {
     "day": 7,
     "time": "5:01 AM",
@@ -621,18 +612,6 @@
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/insect-land-c72165deee.jpg",
     "streams": {}
   },
-  "Yuukoku no Moriarty OVA": {
-    "day": 2,
-    "time": "5:00 PM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/yuukoku-no-moriarty-ova-cfef5c2b39.jpg",
-    "streams": {}
-  },
-  "Bubble": {
-    "day": 4,
-    "time": "12:01 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/bubble-bc5ca30c38.jpg",
-    "streams": {}
-  },
   "Legend of the Galactic Heroes: Die Neue These": {
     "day": 4,
     "time": "4:00 PM",
@@ -640,12 +619,6 @@
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/legend-of-the-galactic-heroes-die-neue-these"
     }
-  },
-  "Re:cycle of the Penguindrum": {
-    "day": 4,
-    "time": "5:00 PM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/re-cycle-of-the-penguindrum-b23e432fb4.jpg",
-    "streams": {}
   },
   "Ohiru no Shocker-san": {
     "day": 4,
