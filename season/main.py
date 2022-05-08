@@ -26,9 +26,10 @@ def main():
     shows = {}
     for show in data:
         title = show.find_element(By.CLASS_NAME, 'anime-tile-title').get_attribute('innerText')
+        print(title)
         cover = show.find_element(By.CLASS_NAME, 'anime-tile-thumbnail').get_attribute('src')
-        while "placeholder" in cover:
-            cover = show.find_element(By.CLASS_NAME, 'show-poster').get_attribute('src')
+        # while "placeholder" in cover:
+        #     cover = show.find_element(By.CLASS_NAME, 'show-poster').get_attribute('src')
         try:
             studio = show.find_element(By.CLASS_NAME, 'anime-tile-stu').get_attribute('innerText')
         except NoSuchElementException:

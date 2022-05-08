@@ -84,15 +84,6 @@
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/youkai-watch-2021-1da5821743.jpg",
     "streams": {}
   },
-  "Aware! Meisaku-kun": {
-    "day": 5,
-    "time": "2:20 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/aware-meisaku-kun-fc51ff53a2.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/aware-meisaku-kun",
-      "YouTube": "https://www.youtube.com/playlist?list=PLbfBE23aoVrtbPdqIRBaiUMKj65N7R0tb"
-    }
-  },
   "CUE!": {
     "day": 5,
     "time": "11:30 AM",
@@ -120,15 +111,6 @@
     "time": "2:00 AM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/pazudora-ca05e64b75.jpg",
     "streams": {}
-  },
-  "I'M KODAMA KAWASHIRI": {
-    "day": 4,
-    "time": "11:55 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/atasha-kawajiri-kodama-da-yo-dangerous-lifehacker-no-tadareta-seikatsu-321ab492b8.jpg",
-    "streams": {
-      "Crunchyroll": "https://crunchyroll.com/series/G79H23VD4",
-      "VRV": "https://vrv.co/series/G79H23VD4"
-    }
   },
   "BORUTO: NARUTO NEXT GENERATIONS": {
     "day": 7,
@@ -304,14 +286,6 @@
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/heroines-run-the-show",
       "VRV": "https://vrv.co/series/G0XHWM023/Heroines-Run-the-Show"
-    }
-  },
-  "The Demon Girl Next Door Season 2": {
-    "day": 4,
-    "time": "10:40 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/machikado-mazoku-2-0566609969.jpg",
-    "streams": {
-      "HiDive": "https://www.hidive.com/tv/the-demon-girl-next-door-season-2"
     }
   },
   "The Dawn of the Witch": {
@@ -614,7 +588,7 @@
   },
   "Legend of the Galactic Heroes: Die Neue These": {
     "day": 4,
-    "time": "4:00 PM",
+    "time": "4:01 PM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/ginga-eiyuu-densetsu-die-neue-these-gekitotsu-1-d8650185d3.jpg",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/legend-of-the-galactic-heroes-die-neue-these"
@@ -650,5 +624,13 @@
     "time": "5:00 PM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/bakugan-evolutions-fd8bcd6296.jpg",
     "streams": {}
+  },
+  "The Demon Girl Next Door Season 2": {
+    "day": 4,
+    "time": "10:40 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/machikado-mazoku-2-0566609969.jpg",
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/the-demon-girl-next-door-season-2"
+    }
   }
 }

@@ -78,10 +78,10 @@ class Shows:
                     cover = show.find_element(
                         By.CLASS_NAME, "show-poster"
                     ).get_attribute("data-src")
-                    streams = {}
-                    for stream in show.find_elements(By.CLASS_NAME, "stream-link"):
-                        link = stream.get_attribute("href")
-                        streams.update({stream.get_attribute("title"): link})
+                    streams = {
+                        stream.get_attribute("title"): stream.get_attribute("href")
+                        for stream in show.find_elements(By.CLASS_NAME, "stream-link")
+                    }
                     content = {
                         "day": num,
                         "time": time,

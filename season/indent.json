@@ -49,7 +49,7 @@
     ]
   },
   "Fuuto Tantei": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/fuuto-tantei-05ccfc3209.jpg",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/fuuto-tantei-6822cc2b03.jpg",
     "Studio": "Studio KAI",
     "Source": "Manga",
     "Genres": [
@@ -127,6 +127,15 @@
       "Magic"
     ]
   },
+  "Isekai Yakkyoku": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/isekai-yakkyoku-c01dba8d55.jpg",
+    "Studio": "Diomed\u00e9a",
+    "Source": "Light Novel",
+    "Genres": [
+      "Fantasy",
+      "Isekai"
+    ]
+  },
   "Jashin-chan Dropkick X": {
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/jashin-chan-dropkick-x-c0f4ef5a33.jpg",
     "Studio": "Nomad",
@@ -136,6 +145,15 @@
       "Demons",
       "Slice of Life",
       "Supernatural"
+    ]
+  },
+  "KJ File": {
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/other/placeholder-poster-21fa193001.png",
+    "Studio": "ILCA",
+    "Source": "Original",
+    "Genres": [
+      "Action",
+      "Sci-Fi"
     ]
   },
   "Kami Kuzu\u2606Idol": {
