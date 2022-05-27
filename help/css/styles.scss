@@ -1,75 +1,78 @@
 @import '../../css/base';
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 aside {
-    position: fixed;
-    background: black;
-    height: 100vh;
-    margin-top: -10px;
-    margin-left: 17%;
-    border: 1px solid gray;
-    border-radius: 10px;
-    padding: 15px;
-    font-size: 1.25rem;
-    max-width: 14rem;
-    div {
-        border-bottom: 1px solid gray;
-    }
+  position: fixed;
+  background: black;
+  height: 100vh;
+  margin-top: -10px;
+  margin-left: 17%;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 1.25rem;
+  max-width: 14rem;
+  div {
+    border-bottom: 1px solid gray;
+  }
 }
 img {
-    max-width: 40vw;
-    border: 1px solid purple;
+  max-width: 40vw;
+  border: 1px solid purple;
 }
 h2 {
-    font-size: 1.5rem;
-    font-weight: 600;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 table {
-    background: $DarkPurple;
-    border-collapse: collapse;
-    width: 100%;
+  background: $DarkPurple;
+  border-collapse: collapse;
+  width: 100%;
 }
-tr > td, tr > th {
-    border: 2px solid black;
-    text-align: left;
-    padding: 5px;
+tr > td,
+tr > th {
+  border: 2px solid black;
+  text-align: left;
+  padding: 5px;
 }
 .line {
-    border: 2px solid black;
-    background: $DarkPurple;
-    padding: 5px;
+  border: 2px solid black;
+  background: $DarkPurple;
+  padding: 5px;
 }
 .toc {
-    padding-left: 1.5rem;
-    box-decoration-break: clone;
+  padding-left: 1.5rem;
+  box-decoration-break: clone;
 }
 #content {
-    img, p, table {
-        margin: 0 0 1rem 0;
-    }
-    @include container(40%);
+  img,
+  p,
+  table {
+    margin: 0 0 1rem 0;
+  }
+  @include container(40%);
 }
 @media screen and (max-width: 1920px) {
-    aside {
-        margin-left: 0%;
-    }
-    img {
-        max-width: 60vw;
-    }
-    #content {
-        width: 60%;
-   }
+  aside {
+    margin-left: 0%;
+  }
+  img {
+    max-width: 60vw;
+  }
+  #content {
+    width: 60%;
+  }
 }
 @media screen and (max-width: 1200px) {
-    aside {
-        display: none;
-    }
-    img {
-        max-width: 90vw;
-    }
-    #content {
-        width: 90%;
-   }
+  aside {
+    display: none;
+  }
+  img {
+    max-width: 90vw;
+  }
+  #content {
+    width: 90%;
+  }
 }

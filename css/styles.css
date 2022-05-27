@@ -1,18 +1,23 @@
-button, .stream {
+button,
+.stream {
   background: black;
   border: 2px solid #484848;
   border-radius: 20px;
   color: purple;
   box-shadow: 5px 5px 15px black;
 }
-button:active, .stream:active {
+button:active,
+.stream:active {
   background: #181a1b;
 }
-button:hover, .stream:hover {
+button:hover,
+.stream:hover {
   box-shadow: 0px 0px 25px red;
 }
 
-*, ::after, ::before {
+*,
+::after,
+::before {
   box-sizing: border-box;
 }
 
@@ -55,7 +60,8 @@ nav svg:hover {
   cursor: pointer;
 }
 
-nav, #nav-background {
+nav,
+#nav-background {
   position: fixed;
   top: 0;
   right: 0;
@@ -77,7 +83,9 @@ button:focus {
   outline: none;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: 500;
   line-height: 1;
   margin: 0 0 0.5rem;
@@ -166,7 +174,8 @@ aside {
   width: 17.25%;
   left: 0.25%;
 }
-aside button, aside a {
+aside button,
+aside a {
   font-size: 1.5rem !important;
 }
 aside #title {
@@ -207,7 +216,9 @@ aside #title {
   max-height: 440px;
 }
 
-.date, .slot, .time {
+.date,
+.slot,
+.time {
   border-bottom: 3px solid black;
   border-right: 3px solid black;
   text-align: center;
@@ -224,7 +235,8 @@ aside #title {
 .dropbox {
   display: flex;
 }
-.dropbox label, .dropbox select {
+.dropbox label,
+.dropbox select {
   border: 1px solid #484848;
   padding: 0.25rem;
   background: black;
@@ -257,7 +269,8 @@ aside #title {
   border-top: 1px solid #484848;
 }
 
-.setter, #reset {
+.setter,
+#reset {
   font-size: inherit;
 }
 
@@ -359,7 +372,8 @@ aside #title {
   width: 10rem;
 }
 
-#calendar, #season {
+#calendar,
+#season {
   margin: auto;
   width: 65%;
   background: #27002b;
@@ -385,7 +399,8 @@ aside #title {
   width: 30%;
 }
 
-#clear, #list {
+#clear,
+#list {
   margin: 1rem 0px;
   padding: 0.5rem 1rem;
   font-size: 1rem;
@@ -447,7 +462,8 @@ aside #title {
   height: 100%;
 }
 
-#search, #titles {
+#search,
+#titles {
   width: 24rem;
 }
 
@@ -535,7 +551,8 @@ aside #title {
     width: auto;
   }
 
-  #clear, #list {
+  #clear,
+#list {
     padding: 0.5rem;
   }
 
@@ -580,7 +597,8 @@ aside #title {
     width: 65%;
   }
 
-  #clear, #list {
+  #clear,
+#list {
     margin: 0;
   }
 
@@ -633,7 +651,8 @@ aside #title {
     font-size: 1.5rem !important;
   }
 
-  #calendar, #season {
+  #calendar,
+#season {
     position: absolute;
     left: 0;
     width: 100%;

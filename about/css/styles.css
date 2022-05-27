@@ -1,4 +1,6 @@
-*, ::after, ::before {
+*,
+::after,
+::before {
   box-sizing: border-box;
 }
 
@@ -41,7 +43,8 @@ nav svg:hover {
   cursor: pointer;
 }
 
-nav, #nav-background {
+nav,
+#nav-background {
   position: fixed;
   top: 0;
   right: 0;
@@ -63,7 +66,9 @@ button:focus {
   outline: none;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: 500;
   line-height: 1;
   margin: 0 0 0.5rem;

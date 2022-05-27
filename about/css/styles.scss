@@ -1,17 +1,17 @@
 @import '../../css/base';
 h1 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 #content {
-    @include container(40%);
+  @include container(40%);
 }
 @media screen and (max-width: 1920px) {
-    #content {
-        width: 60%;
-   }
+  #content {
+    width: 60%;
+  }
 }
 @media screen and (max-width: 1200px) {
-    #content {
-        width: 90%;
-   }
+  #content {
+    width: 90%;
+  }
 }

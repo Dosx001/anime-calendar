@@ -3,153 +3,158 @@ $Gray: #181a1b;
 $DarkGray: #484848;
 $Gline: 1px solid $DarkGray;
 @mixin box($back_color, $bord_color, $radius: null) {
-    background: $back_color;
-    border: 2px solid $bord_color;
-    @if $radius != null {
-        border-radius: $radius;
-    }
+  background: $back_color;
+  border: 2px solid $bord_color;
+  @if $radius != null {
+    border-radius: $radius;
+  }
 }
 @mixin container($value) {
-    margin: auto;
-    width: $value;
+  margin: auto;
+  width: $value;
 }
 %buttons {
-    @include box(black, $DarkGray, 20px);
-    color: purple;
-    box-shadow: 5px 5px 15px black;
-    &:active {
-        background: $Gray;
-    }
-    &:hover {
-        box-shadow: 0px 0px 25px red;
-    }
+  @include box(black, $DarkGray, 20px);
+  color: purple;
+  box-shadow: 5px 5px 15px black;
+  &:active {
+    background: $Gray;
+  }
+  &:hover {
+    box-shadow: 0px 0px 25px red;
+  }
 }
-*, ::after, ::before {
-    box-sizing: border-box;
+*,
+::after,
+::before {
+  box-sizing: border-box;
 }
 html {
-    scroll-padding-top: 5rem;
+  scroll-padding-top: 5rem;
 }
 body {
-    font-family: "Segoe UI";
-    background: $Gray;
-    padding-top: 4rem;
-    color: darkgrey;
+  font-family: 'Segoe UI';
+  background: $Gray;
+  padding-top: 4rem;
+  color: darkgrey;
 }
 img {
-    background: black;
+  background: black;
 }
 nav {
-    @include container(40%);
-    display: flex;
-    padding: .5rem 0;
-    z-index: 10;
-    a {
-        color: gray;
-        padding: .25rem;
+  @include container(40%);
+  display: flex;
+  padding: 0.5rem 0;
+  z-index: 10;
+  a {
+    color: gray;
+    padding: 0.25rem;
+  }
+  svg {
+    stroke: gray;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    border: $Gline;
+    border-radius: 5px;
+    height: 2.25rem;
+    width: 3rem;
+    &:hover {
+      cursor: pointer;
     }
-    svg {
-        stroke: gray;
-        stroke-width: 2px;
-        stroke-linecap: round;
-        border: $Gline;
-        border-radius: 5px;
-        height: 2.25rem;
-        width: 3rem;
-        &:hover {
-            cursor: pointer;
-        }
-    }
+  }
 }
-nav, #nav-background {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
+nav,
+#nav-background {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 a {
-    color: purple;
-    text-decoration: none;
-    &:hover {
-        color: purple !important;
-    }
+  color: purple;
+  text-decoration: none;
+  &:hover {
+    color: purple !important;
+  }
 }
 button {
-    cursor: pointer;
-    &:focus {
-        outline: none;
-    }
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
 }
-h1, h2, h3 {
-    font-weight: 500;
-    line-height: 1;
-    margin: 0 0 .5rem;
-    font-size: 2rem;
+h1,
+h2,
+h3 {
+  font-weight: 500;
+  line-height: 1;
+  margin: 0 0 0.5rem;
+  font-size: 2rem;
 }
 #desktop {
-    position: relative;
-    top: .25rem;
-    font-size: 1.25rem;
+  position: relative;
+  top: 0.25rem;
+  font-size: 1.25rem;
 }
 #nav-background {
-    background: black;
-    padding-bottom: 3.5rem;
-    z-index: 10;
+  background: black;
+  padding-bottom: 3.5rem;
+  z-index: 10;
 }
 #nav-left {
-    position: relative;
+  position: relative;
 }
 #nav-right {
-    display: flex;
-    padding-left: .5rem;
-    label {
-        border: $Gline;
-        border-radius: 6px 0 0 6px;
-        padding: 6px 8px;
-        height: 100%;
-    }
+  display: flex;
+  padding-left: 0.5rem;
+  label {
+    border: $Gline;
+    border-radius: 6px 0 0 6px;
+    padding: 6px 8px;
+    height: 100%;
+  }
 }
 #nav-right-right {
-    position: absolute;
-    right: 0;
-    display: flex;
-    height: 2rem;
+  position: absolute;
+  right: 0;
+  display: flex;
+  height: 2rem;
 }
 #main {
-    font-size: 1.5rem;
-    color: white;
+  font-size: 1.5rem;
+  color: white;
 }
 #menu {
-    visibility: hidden;
-    position: absolute;
-    display: grid;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    padding-right: 2rem;
-    border: $Gline;
-    background: black;
+  visibility: hidden;
+  position: absolute;
+  display: grid;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding-right: 2rem;
+  border: $Gline;
+  background: black;
 }
 #mobile {
-    visibility: hidden;
-    position: absolute;
-    right: 0;
+  visibility: hidden;
+  position: absolute;
+  right: 0;
 }
 @media screen and (max-width: 1920px) {
-    nav {
-        width: 60%;
-   }
+  nav {
+    width: 60%;
+  }
 }
 @media screen and (max-width: 1200px) {
-    nav {
-        width: 90%;
-   }
+  nav {
+    width: 90%;
+  }
 }
 @media screen and (max-width: 800px) {
-    #nav-right {
-        visibility: hidden;
-    }
-    #mobile {
-        visibility: visible;
-    }
+  #nav-right {
+    visibility: hidden;
+  }
+  #mobile {
+    visibility: visible;
+  }
 }
