@@ -53,7 +53,6 @@ class Season {
           case 'cover': {
             const cover = document.createElement('div');
             cover.className = 'cover-season';
-            cover.align = 'right';
             const img = document.createElement('img');
             img.src = data[show][item];
             img.width = 340;

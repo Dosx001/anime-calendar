@@ -1,5 +1,6 @@
 @import 'base';
 aside {
+  text-align: center;
   position: fixed;
   margin-top: 1rem;
   width: 17.25%;
@@ -37,6 +38,7 @@ button,
   }
 }
 .cover-season {
+  text-align: right;
   float: left;
   width: 45%;
   img {
@@ -124,6 +126,7 @@ button,
   padding: 0px 10px;
 }
 .stream-box {
+  text-align: left;
   background: black;
   border: 2px solid $DarkGray;
   border-radius: 10px;
@@ -163,6 +166,7 @@ button,
 }
 .window {
   @include box(black, purple, 20px);
+  text-align: center;
   z-index: 1;
   position: absolute;
   width: 67%;
@@ -202,6 +206,7 @@ button,
 }
 #center-right {
   width: 30%;
+  text-align: right;
 }
 #clear,
 #list {
@@ -282,6 +287,7 @@ button,
   }
 }
 #streams {
+  text-align: left;
   float: right;
   width: 68%;
   .icon {

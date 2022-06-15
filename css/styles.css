@@ -132,6 +132,7 @@ h3 {
 }
 
 #menu {
+  text-align: right;
   visibility: hidden;
   position: absolute;
   display: grid;
@@ -163,12 +164,12 @@ h3 {
   #nav-right {
     visibility: hidden;
   }
-
   #mobile {
     visibility: visible;
   }
 }
 aside {
+  text-align: center;
   position: fixed;
   margin-top: 1rem;
   width: 17.25%;
@@ -207,6 +208,7 @@ aside #title {
 }
 
 .cover-season {
+  text-align: right;
   float: left;
   width: 45%;
 }
@@ -305,6 +307,7 @@ aside #title {
 }
 
 .stream-box {
+  text-align: left;
   background: black;
   border: 2px solid #484848;
   border-radius: 10px;
@@ -351,6 +354,7 @@ aside #title {
   background: black;
   border: 2px solid purple;
   border-radius: 20px;
+  text-align: center;
   z-index: 1;
   position: absolute;
   width: 67%;
@@ -397,6 +401,7 @@ aside #title {
 
 #center-right {
   width: 30%;
+  text-align: right;
 }
 
 #clear,
@@ -491,6 +496,7 @@ aside #title {
 }
 
 #streams {
+  text-align: left;
   float: right;
   width: 68%;
 }
@@ -528,7 +534,6 @@ aside #title {
   #center {
     width: 60%;
   }
-
   #show {
     width: 60%;
     left: 20%;
@@ -538,29 +543,23 @@ aside #title {
   aside a {
     font-size: 1.2rem;
   }
-
   .cover-season {
     width: 60%;
   }
-
   .info {
     width: 40%;
   }
-
   .show {
     width: auto;
   }
-
   #clear,
 #list {
     padding: 0.5rem;
   }
-
   #content aside {
     font-size: 1.5rem;
     width: 17.5% !important;
   }
-
   #show {
     width: 65%;
     left: 17.5%;
@@ -570,38 +569,30 @@ aside #title {
   aside a {
     font-size: 1rem !important;
   }
-
   .cover img {
     height: 21rem;
     width: 16rem;
   }
-
   .dropbox label {
     display: none;
   }
-
   .icon {
     width: 1rem !important;
     height: 1rem !important;
   }
-
   .setter {
     width: 16rem;
   }
-
   .stream-input {
     width: auto;
   }
-
   #center {
     width: 65%;
   }
-
   #clear,
 #list {
     margin: 0;
   }
-
   #content {
     font-size: 1.25rem;
     margin-bottom: 1rem;
@@ -609,7 +600,6 @@ aside #title {
   #content .setter {
     margin-top: 18rem;
   }
-
   #month {
     font-size: 2rem;
   }
@@ -618,27 +608,21 @@ aside #title {
   .cover-season {
     float: none;
   }
-
   .info {
     width: 100%;
   }
-
   .stream-drag {
     padding-left: 0.5rem;
   }
-
   .stream-label {
     margin-left: 0.15rem;
   }
-
   #center-left {
     width: 30%;
   }
-
   #center-right {
     width: 70%;
   }
-
   #month {
     display: none;
   }
@@ -650,18 +634,15 @@ aside #title {
   aside a {
     font-size: 1.5rem !important;
   }
-
   #calendar,
 #season {
     position: absolute;
     left: 0;
     width: 100%;
   }
-
   #center {
     width: 90%;
   }
-
   #content aside {
     width: 80% !important;
     left: 0 !important;
@@ -677,7 +658,6 @@ aside #title {
     width: 1.5rem;
     height: 1.5rem;
   }
-
   #show {
     width: 98%;
     left: 1%;
@@ -687,11 +667,9 @@ aside #title {
   .window .setter {
     margin-top: 19rem !important;
   }
-
   #show {
     display: block;
   }
-
   #streams {
     width: 100%;
   }

@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <script src="js/calendar.min.js" defer></script>
@@ -7,72 +7,93 @@
     <script src="js/streams.min.js" defer></script>
     <script src="js/search.min.js" defer></script>
     <script src="js/nav.min.js" defer></script>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" href="assets/logo.svg" type="image/svg" sizes="16x16">
-    <link rel="stylesheet" type="text/css" href="css/styles.min.css">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" href="assets/logo.svg" type="image/svg" sizes="16x16" />
+    <link rel="stylesheet" type="text/css" href="css/styles.min.css" />
     <title>Anime Calendar</title>
   </head>
   <body>
     <div id="nav-background"></div>
     <nav>
-      <div id='nav-left'>
-        <a id='main' href=".">Anime Calendar</a>
+      <div id="nav-left">
+        <a id="main" href=".">Anime Calendar</a>
       </div>
-      <div id='nav-right'>
-        <div id='desktop'>
+      <div id="nav-right">
+        <div id="desktop">
           <a href="./help">Help</a>
           <a href="./about">About</a>
         </div>
-        <div id='nav-right-right'>
+        <div id="nav-right-right">
           <label for="search">&#128270;</label>
-          <input id="search" size="40" placeholder="Search for Seasonal Anime" autocomplete="off">
+          <input
+            id="search"
+            size="40"
+            placeholder="Search for Seasonal Anime"
+            autocomplete="off"
+          />
           <ul id="titles" style="display: none"></ul>
         </div>
       </div>
-      <svg id='mobile' viewBox="0 0 30 30" onclick='menu()'>
+      <svg id="mobile" viewBox="0 0 30 30" onclick="menu()">
         <path d="M4 7h22M4 15h22M4 23h22"></path>
       </svg>
-      <div id="menu" align='right'>
+      <div id="menu">
         <a href="./help">Help</a>
         <a href="./about">About</a>
       </div>
     </nav>
-    <div align="center">
+    <div>
       <aside>
         <h2>Settings</h2>
-          <div class='dropbox'>
-            <label for="format">Format</label>
-            <select class="custom-select" id="format" onchange='CAL.format()'>
-              <option value="0">Calendar - Full</option>
-              <option value="1">Calendar - Cutoff</option>
-              <option value="2">Calendar - Compact</option>
-              <option value="3">Daily</option>
-            </select>
-          </div>
-          <div class='dropbox'>
-            <label for="info">Stream Info</label>
-            <select class="custom-select" id="info" onchange='CAL.info()'>
-              <option value="0">Top View</option>
-              <option value="1">Side View</option>
-              <option value="2">Window View</option>
-            </select>
-          </div>
-        <h3>My Streams</h3>
-        <div align="left" class="stream-box">
+        <div class="dropbox">
+          <label for="format">Format</label>
+          <select class="custom-select" id="format" onchange="CAL.format()">
+            <option value="0">Calendar - Full</option>
+            <option value="1">Calendar - Cutoff</option>
+            <option value="2">Calendar - Compact</option>
+            <option value="3">Daily</option>
+          </select>
         </div>
+        <div class="dropbox">
+          <label for="info">Stream Info</label>
+          <select class="custom-select" id="info" onchange="CAL.info()">
+            <option value="0">Top View</option>
+            <option value="1">Side View</option>
+            <option value="2">Window View</option>
+          </select>
+        </div>
+        <h3>My Streams</h3>
+        <div class="stream-box"></div>
       </aside>
     </div>
     <div id="content"></div>
     <div id="center">
       <div id="center-left">
-        <button type="button" class="arrow" id="left" onclick='CAL.Left();CAL.arrow()'> &#9665; </button>
-        <button type="button" class="arrow" id="right" onclick='CAL.Right();CAL.arrow()'> &#9655; </button>
-        <text id="month"></text>
+        <button
+          type="button"
+          class="arrow"
+          id="left"
+          onclick="CAL.Left();CAL.arrow()"
+        >
+          &#9665;
+        </button>
+        <button
+          type="button"
+          class="arrow"
+          id="right"
+          onclick="CAL.Right();CAL.arrow()"
+        >
+          &#9655;
+        </button>
+        <span id="month"></span>
       </div>
-      <div id="center-right" align="right">
-        <button id="clear" onclick='CAL.clear()'>Clear</button>
-        <button id="list" onclick='list()'>Your List</button>
+      <div id="center-right">
+        <button id="clear" onclick="CAL.clear()">Clear</button>
+        <button id="list" onclick="list()">Your List</button>
       </div>
     </div>
     <div id="calendar"></div>

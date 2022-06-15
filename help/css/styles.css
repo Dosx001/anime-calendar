@@ -115,6 +115,7 @@ h3 {
 }
 
 #menu {
+  text-align: right;
   visibility: hidden;
   position: absolute;
   display: grid;
@@ -146,7 +147,6 @@ h3 {
   #nav-right {
     visibility: hidden;
   }
-
   #mobile {
     visibility: visible;
   }
@@ -219,11 +219,9 @@ tr > th {
   aside {
     margin-left: 0%;
   }
-
   img {
     max-width: 60vw;
   }
-
   #content {
     width: 60%;
   }
@@ -232,11 +230,9 @@ tr > th {
   aside {
     display: none;
   }
-
   img {
     max-width: 90vw;
   }
-
   #content {
     width: 90%;
   }

@@ -478,7 +478,6 @@ class Calendar {
       streams.append(table);
       output = document.createElement('div');
       if (info === '2') output.className = 'window';
-      (<HTMLDivElement>output).align = 'center';
       output.append(set);
       output.append(reset);
       output.append(cover);
