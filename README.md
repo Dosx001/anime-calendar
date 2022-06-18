@@ -13,114 +13,116 @@ can handle it.
 
 ![website](https://i.imgur.com/WNCac2E.png)
 
-# Table of Contents
+## Table of Contents
 
-* [Browser Compatibility](#browser-compatibility)
-  * [Supported](#supported)
-  * [Unsupported](#unsupported)
-  * [Tested](#tested)
-* [My List](#my-list)
-  * [Add or Remove Anime](#add-or-remove-anime)
-  * [Switch between My List and Full List](#switch-between-my-list-and-full-list)
-  * [Reset Watch History](#reset-watch-history)
-* [Calendar Button Types](#calendar-button-types)
-* [Settings](#settings)
-  * [Format Setting](#format-setting)
-  * [Stream Info Setting](#stream-info-setting)
-  * [My Streams Setting](#my-streams-setting)
-* [Search Bar](#search-bar)
-* [Keyboard Shortcuts](#keyboard-shortcuts)
+- [Browser Compatibility](#browser-compatibility)
+  - [Supported](#supported)
+  - [Unsupported](#unsupported)
+  - [Tested](#tested)
+- [My List](#my-list)
+  - [Add or Remove Anime](#add-or-remove-anime)
+  - [Switch between My List and Full List](#switch-between-my-list-and-full-list)
+  - [Reset Watch History](#reset-watch-history)
+- [Calendar Button Types](#calendar-button-types)
+- [Settings](#settings)
+  - [Format Setting](#format-setting)
+  - [Stream Info Setting](#stream-info-setting)
+  - [My Streams Setting](#my-streams-setting)
+- [Search Bar](#search-bar)
+- [Keyboard Shortcuts](#keyboard-shortcuts)
 
-# Browser Compatibility
+## Browser Compatibility
 
-## Supported
+### Supported
 
-* Mozilla Firefox
-* Chromium browsers
+- Mozilla Firefox
+- Chromium browsers
 
-## Unsupported
+### Unsupported
 
-* Microsoft Edge (Legacy)
-* Internet Explorer
+- Microsoft Edge (Legacy)
+- Internet Explorer
 
-## Tested
+### Tested
 
-For the best possible experience use this browsers.
+For the best possible experience use these browsers.
 
-* Mozilla Firefox
-* Google Chrome
-* Microsoft Edge (Chromium)
+- Mozilla Firefox
+- Google Chrome
+- Microsoft Edge (Chromium)
 
+## My List
 
-# My List
-
-## Add or Remove Anime
+### Add or Remove Anime
 
 Press the A key or click here.
 
 ![add/remove](https://i.imgur.com/kXo6Qtx.png)
 
-## Switch between My List and Full List
+### Switch between My List and Full List
 
 Press the L key or click here.
 
-## Reset Watch History
+### Reset Watch History
 
 Press the R key or click here.
 
-# Calendar Button Types
+## Calendar Button Types
 
-## Default
+### Default
 
 This just the normal look for all buttons.
 
-![](https://i.imgur.com/ogpEIZD.png)
+![default button](https://i.imgur.com/ogpEIZD.png)
 
-## Your List
+### Your List
 
 This means that this anime is in Your List.
 
 ![](https://i.imgur.com/xnoqKHR.png)
 
-## Your List (Watched)
+### Your List (Watched)
 
 This means that this anime is in Your List and you watch this week episode.
 
 ![](https://i.imgur.com/PgERo8f.png)
 
-# Settings
+## Settings
 
-## Format Setting
+### Format Setting
 
 To access the Format setting press the F key or click here.
 
 ![format](https://i.imgur.com/V4Glbtp.png)
 Four options will appear.
 
-|Option|Description|
-|---|---|
-|Calendar - Full|The calendar will display every hour of the day with 30 minute increments, plus any anime air times that do not fall under the 30 minute mark|
-|Calendar - Cutoff|The calendar will display times starting from the earliest anime airing to latest anime airing with 30 minute increments|
-|Calendar - Compact|The calendar will only display times that have an anime airing|
-|Daily|Work in progress. ETA N/A|
+| Option             | Description                                                                                                                                   |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| Calendar - Full    | The calendar will display every hour of the day with 30 minute increments, plus any anime air times that do not fall under the 30 minute mark |
+| Calendar - Cutoff  | The calendar will display times starting from the earliest anime airing to latest anime airing with 30 minute increments                      |
+| Calendar - Compact | The calendar will only display times that have an anime airing                                                                                |
+| Daily              | Work in progress. ETA N/A                                                                                                                     |
 
-## Stream Info Setting
+### Stream Info Setting
 
 To access the Stream Info setting press the I key or click here.
 
 ![stream info](https://i.imgur.com/4yx82iQ.png)
 Three options will appear. These options will determine how the anime information will display.
 
-## Top View
-![](https://i.imgur.com/5Z7OXcV.png)
+### Top View
 
-## Side View
-![](https://i.imgur.com/VGSi8t8.png)
+![top view](https://i.imgur.com/5Z7OXcV.png)
 
-## Window View
+### Side View
 
-![](https://i.imgur.com/AlQgUG0.png)
-## My Streams Setting
+![side view](https://i.imgur.com/VGSi8t8.png)
+
+### Window View
+
+![window view](https://i.imgur.com/AlQgUG0.png)
+
+### My Streams Setting
 
 When you select an anime, you may notices the numbers next to each stream. If you press any of your
 number keys you will open new tab based on corresponding stream. Pressing the number keys is fine
@@ -130,7 +132,7 @@ To overcome this you instead just press the W key but must set your My Stream se
 you press all the check boxes which stream you like. You can even change the order of preference
 by dragging each stream.
 
-# Search Bar
+## Search Bar
 
 Press the S key to quick access the search bar.
 
@@ -143,20 +145,20 @@ search result then Demon King Daimao will pop as it is higher in the alphabetic 
 Demon Slayer. To avoid previous scenario you instead type "slay" and press enter and Demon Slayer
 will pop.
 
-# Keyboard Shortcuts
+## Keyboard Shortcuts
 
-|Key|Action|
-|---|---|
-|1 - 9|Opens a new tab to the stream for the selected anime|
-|Esc|To lose focus on any menu item or the search bar|
-|Enter|To pick an option in the menu settings or pick a search result|
-|a|Adds or removes the selected anime from Your List|
-|f|Focuses on the Format settings options|
-|i|Focuses on the Stream Info settings options|
-|l|Switches between Your List and Full List|
-|m|Focuses on the calendar, allowing users to scroll using arrow keys|
-|n|Clicks the right calendar button (N for Next)|
-|p|Clicks the left calendar button (P for Previous)|
-|r|Resets watch history for the selected anime for the current week only|
-|s|Focuses on the search bar|
-|w|Opens a new tab to the stream based on the selected anime and My Streams preferences|
+| Key   | Action                                                                               |
+| ----- | ------------------------------------------------------------------------------------ |
+| 1 - 9 | Opens a new tab to the stream for the selected anime                                 |
+| Esc   | To lose focus on any menu item or the search bar                                     |
+| Enter | To pick an option in the menu settings or pick a search result                       |
+| a     | Adds or removes the selected anime from Your List                                    |
+| f     | Focuses on the Format settings options                                               |
+| i     | Focuses on the Stream Info settings options                                          |
+| l     | Switches between Your List and Full List                                             |
+| m     | Focuses on the calendar, allowing users to scroll using arrow keys                   |
+| n     | Clicks the right calendar button (N for Next)                                        |
+| p     | Clicks the left calendar button (P for Previous)                                     |
+| r     | Resets watch history for the selected anime for the current week only                |
+| s     | Focuses on the search bar                                                            |
+| w     | Opens a new tab to the stream based on the selected anime and My Streams preferences |

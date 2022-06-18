@@ -8,7 +8,7 @@ window.onload = () => {
         const lines = txt.split('\n');
         let num = 0;
         for (let i = 0; i < lines.length; i++) {
-            if (lines[i] === '# Table of Contents') {
+            if (lines[i] === '## Table of Contents') {
                 i++;
                 do {
                     const a = document.createElement('a');
@@ -24,7 +24,7 @@ window.onload = () => {
                     div.append(a);
                     aside.append(div);
                     i++;
-                } while (lines[i].includes('*'));
+                } while (lines[i].includes('-'));
                 num = i;
                 break;
             }
@@ -40,31 +40,31 @@ window.onload = () => {
                     break;
                 }
                 case '#':
-                    if (lines[i].substring(1, 2) === '#') {
+                    if (lines[i].substring(2, 3) === '#') {
                         ele = document.createElement('h2');
-                        lines[i] = lines[i].substring(2, lines[i].length);
+                        lines[i] = lines[i].substring(3, lines[i].length);
                     }
                     else {
                         ele = document.createElement('h1');
-                        lines[i] = lines[i].substring(1, lines[i].length);
+                        lines[i] = lines[i].substring(2, lines[i].length);
                         ele.className = 'line';
                     }
                     ele.innerHTML = lines[i];
                     ele.id = lines[i].split(' ').join('');
                     break;
-                case '*':
+                case '-':
                     ele = document.createElement('ul');
                     do {
                         const li = document.createElement('li');
                         li.innerHTML = lines[i].substring(2, lines[i].length);
                         ele.append(li);
                         i++;
-                    } while (lines[i].substring(0, 1) === '*');
+                    } while (lines[i].substring(0, 1) === '-');
                     break;
                 case '|': {
                     ele = document.createElement('table');
                     let tr = document.createElement('tr');
-                    Object.keys(lines[i].split('|')).forEach((item) => {
+                    lines[i].split('|').forEach(item => {
                         if (item) {
                             const th = document.createElement('th');
                             th.innerHTML = item;
@@ -75,7 +75,7 @@ window.onload = () => {
                     i += 2;
                     do {
                         tr = document.createElement('tr');
-                        Object.keys(lines[i].split('|')).forEach((item) => {
+                        lines[i].split('|').forEach(item => {
                             if (item) {
                                 const td = document.createElement('td');
                                 td.innerHTML = item;
