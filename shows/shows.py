@@ -5,10 +5,8 @@ from time import sleep, strftime, strptime
 from typing import TypedDict
 
 from selenium import webdriver
-from selenium.common.exceptions import (
-    NoSuchElementException,
-    StaleElementReferenceException,
-)
+from selenium.common.exceptions import (NoSuchElementException,
+                                        StaleElementReferenceException)
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.firefox.service import Service
@@ -30,8 +28,7 @@ class Shows:
             options = Options()
             options.set_preference("profile", "$HOME/.mozilla/firefox/" + profile)
             self.driver = webdriver.Firefox(
-                service=Service(log_path="/dev/null"),
-                options=options
+                service=Service(log_path="/dev/null"), options=options
             )
         else:
             self.driver = driver
@@ -61,9 +58,11 @@ class Shows:
         ):
             for col in self.driver.find_elements(By.CLASS_NAME, day):
                 for show in col.find_elements(By.CLASS_NAME, "timetable-column-show"):
-                    if show.get_attribute(
-                        "chinese"
-                    ) is not None or "hidden" in show.get_attribute("class"):
+                    if (
+                        show.get_attribute("chinese") is not None
+                        or "hidden" in show.get_attribute("class")
+                        or show.get_attribute("metiatpye") == "movie"
+                    ):
                         continue
                     title = show.find_element(
                         By.CLASS_NAME, "show-title-bar"
@@ -126,6 +125,10 @@ class Shows:
                 while title != unescape(title):
                     title = unescape(title)
                 return str(title)
+        print(show)
+        title = input("Name: ")
+        if title:
+            return title
         return show
 
     def update(self):

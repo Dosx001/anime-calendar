@@ -72,27 +72,11 @@
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/sazae-san-162010bbcb.jpg",
     "streams": {}
   },
-  "Norimono Man: Mobile Land no Car-kun": {
-    "day": 4,
-    "time": "1:20 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/norimono-man-mobile-land-no-car-kun-4c65a733f2.jpg",
-    "streams": {}
-  },
   "Youkai Watch \u266a": {
     "day": 5,
     "time": "2:25 AM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/youkai-watch-2021-1da5821743.jpg",
     "streams": {}
-  },
-  "CUE!": {
-    "day": 5,
-    "time": "11:30 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/cue-4403c01ef4.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/cue",
-      "VRV": "https://vrv.co/series/G8DHV7W3N",
-      "YouTube": "https://www.youtube.com/channel/UCJNtE-uSBg1E6i6jiR88z1Q"
-    }
   },
   "Shimajirou no Wow!": {
     "day": 5,
@@ -123,17 +107,6 @@
       "VRV": "https://vrv.co/series/GR75Q020Y/BORUTO-NARUTO-NEXT-GENERATIONS"
     }
   },
-  "Requiem of the Rose King": {
-    "day": 7,
-    "time": "7:00 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/baraou-no-souretsu-b93e238e9e.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/requiem-of-the-rose-king",
-      "Funimation": "https://www.funimation.com/shows/requiem-of-the-rose-king",
-      "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1696",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jgs4lZ9kodR85ovYsXKVj2v"
-    }
-  },
   "Delicious Party\u2661Precure": {
     "day": 6,
     "time": "6:30 PM",
@@ -142,54 +115,11 @@
       "Crunchyroll": "https://www.crunchyroll.com/delicious-party-pretty-cure"
     }
   },
-  "Healer Girl": {
-    "day": 1,
-    "time": "7:30 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/healer-girl-f1a577e660.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/healer-girl",
-      "VRV": "https://vrv.co/series/GXJHM37WP/Healer-Girl"
-    }
-  },
-  "Detective Conan: Zero's Tea Time": {
-    "day": 1,
-    "time": "9:20 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/meitantei-conan-zero-no-tea-time-98a6e98214.jpg",
-    "streams": {}
-  },
-  "I'm Quitting Heroing": {
-    "day": 2,
-    "time": "7:30 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/yuusha-yamemasu-c6c73789ba.jpg",
-    "streams": {
-      "HiDive": "https://www.hidive.com/tv/im-quitting-heroing",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jhzv3dEqiEWHhlXoQfWAk0w"
-    }
-  },
-  "Tomodachi Game": {
-    "day": 2,
-    "time": "8:00 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/tomodachi-game-60476575c1.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/tomodachi-game",
-      "VRV": "https://vrv.co/series/GJ0H7QX0Z/Tomodachi-Game"
-    }
-  },
   "Teikou Penguin": {
     "day": 2,
     "time": "3:30 PM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/teikou-penguin-720d0b81e0.jpg",
     "streams": {}
-  },
-  "BIRDIE WING -Golf Girls' Story-": {
-    "day": 2,
-    "time": "8:00 PM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/birdie-wing-golf-girls-story-18c4d69557.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/birdie-wing-golf-girls-story-",
-      "VRV": "https://vrv.co/series/GNVHKN714/",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Ji1XCAnJ_2Nt_1G2tejMnKZ"
-    }
   },
   "Motto! Majime ni Fumajime Kaiketsu Zorori 3rd Season": {
     "day": 3,
@@ -197,192 +127,12 @@
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/motto-majime-ni-fumajime-kaiketsu-zorori-3rd-season-c73b7faaa1.jpg",
     "streams": {}
   },
-  "The Greatest Demon Lord is Reborn as a Typical Nobody": {
-    "day": 3,
-    "time": "5:01 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shijou-saikyou-no-daimaou-murabito-a-ni-tensei-suru-103438246d.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/the-greatest-demon-lord-is-reborn-as-a-typical-nobody",
-      "VRV": "https://vrv.co/series/GKEH2G4KD/The-Greatest-Demon-Lord-is-Reborn-as-a-Typical-Nobody",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2r_5gebNCgFLONBLem1_si"
-    }
-  },
-  "The Rising of the Shield Hero": {
-    "day": 3,
-    "time": "6:01 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/tate-no-yuusha-no-nariagari-2-523f74d292.jpg",
-    "streams": {
-      "Crunchyroll": "https://crunchyroll.com/series/G6W4QKX0R/the-rising-of-the-shield-hero",
-      "Funimation": "https://www.funimation.com/shows/the-rising-of-the-shield-hero/",
-      "Hulu": "https://www.hulu.com/series/97f1d394-0ac7-48c2-bb1b-7b2575848441",
-      "VRV": "https://vrv.co/series/G6W4QKX0R/The-Rising-of-the-Shield-Hero"
-    }
-  },
-  "RPG Real Estate": {
-    "day": 3,
-    "time": "6:30 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/rpg-fudousan-2b3c91a180.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/rpg-real-estate",
-      "VRV": "https://vrv.co/series/GMEHME4PQ/RPG-Real-Estate"
-    }
-  },
-  "Komi Can't Communicate": {
-    "day": 3,
-    "time": "8:00 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/komi-san-wa-comyushou-desu-2-5809061dff.jpg",
-    "streams": {}
-  },
-  "Deaimon: Recipe for Happiness": {
-    "day": 3,
-    "time": "8:30 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/deaimon-6723674b24.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/deaimon-recipe-for-happiness",
-      "VRV": "https://vrv.co/series/GVDHX8Z77/Deaimon-Recipe-for-Happiness",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jj0YsJ7qatPuq_qp-eofuxo"
-    }
-  },
-  "ESTAB LIFE: Great Escape": {
-    "day": 3,
-    "time": "4:00 PM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/estab-life-great-escape-e3dbef738f.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/estab-life-great-escape",
-      "VRV": "https://vrv.co/series/GG5H5XEGG"
-    }
-  },
-  "Miss Shachiku and the Little Baby Ghost": {
-    "day": 4,
-    "time": "6:30 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shachiku-san-wa-youjo-yuurei-ni-iyasaretai-4397c174b7.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/miss-shachiku-and-the-little-baby-ghost",
-      "VRV": "https://vrv.co/series/GG5H5XEJ7/Miss-Shachiku-and-the-Little-Baby-Ghost"
-    }
-  },
-  "Ya Boy Kongming!": {
-    "day": 4,
-    "time": "7:01 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/paripi-koumei-e6ca6d4296.jpg",
-    "streams": {
-      "HiDive": "https://www.hidive.com/tv/ya-boy-kongming"
-    }
-  },
-  "Skeleton Knight in Another World": {
-    "day": 4,
-    "time": "7:31 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/gaikotsu-kishi-sama-tadaima-isekai-e-odekakechuu-6456529ff7.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/skeleton-knight-in-another-world",
-      "VRV": "https://vrv.co/series/G8DHV7WJP/Skeleton-Knight-in-Another-World",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl20EjWfUYYc1YyqdU8ilHEe"
-    }
-  },
-  "Heroines Run the Show": {
-    "day": 4,
-    "time": "8:00 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/heroine-tarumono-kiraware-heroine-to-naisho-no-oshigoto-5198453e6b.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/heroines-run-the-show",
-      "VRV": "https://vrv.co/series/G0XHWM023/Heroines-Run-the-Show"
-    }
-  },
-  "The Dawn of the Witch": {
-    "day": 4,
-    "time": "11:45 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/mahoutsukai-reimeiki-85016b0aaf.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/the-dawn-of-the-witch",
-      "VRV": "https://vrv.co/series/G5PHNM403/The-Dawn-of-the-Witch",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0oqORR5jlJJvR2Qa2a77Qu"
-    }
-  },
   "stars*collection": {
     "day": 5,
     "time": "3:01 AM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/stars-collection-53af3b195a.jpg",
     "streams": {
       "YouTube": "https://www.youtube.com/playlist?list=PLNQov5ZpSSWclbG0Rvs-CDWqybmOKNbhO"
-    }
-  },
-  "Date A Live": {
-    "day": 5,
-    "time": "6:30 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/date-a-live-iv-f18c4f24d6.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/date-a-live",
-      "Funimation": "https://www.funimation.com/shows/date-a-live/",
-      "VRV": "https://vrv.co/series/GYEX5E1G6/Date-A-Live",
-      "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/683/date-a-live/season/3661/season-4-sub"
-    }
-  },
-  "Love After World Domination": {
-    "day": 5,
-    "time": "7:00 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/koi-wa-sekai-seifuku-no-ato-de-a3bab4f0bf.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/love-after-world-domination",
-      "VRV": "https://vrv.co/series/GEXH3WG78/Love-After-World-Domination",
-      "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1481/love-after-world-domination",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JiNzLbx2do5nOpObPMy6BGu"
-    }
-  },
-  "KAGUYA-SAMA: LOVE IS WAR": {
-    "day": 5,
-    "time": "9:30 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kaguya-sama-love-is-war-3-99d8292b0b.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/kaguya-sama-love-is-war",
-      "Funimation": "https://www.funimation.com/shows/kaguya-sama-love-is-war/",
-      "VRV": "https://vrv.co/series/GRJ0J828Y/KAGUYA-SAMA-LOVE-IS-WAR",
-      "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/444/kaguya-sama-love-is-war/season/3643/season-3-sub"
-    }
-  },
-  "The Executioner and Her Way of Life": {
-    "day": 5,
-    "time": "9:30 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shokei-shoujo-no-virgin-road-f5d56819e7.jpg",
-    "streams": {
-      "HiDive": "https://www.hidive.com/tv/the-executioner-and-her-way-of-life",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhOGIH8XICTtcCX3Q3DdX2j"
-    }
-  },
-  "Science Fell in Love, So I Tried to Prove it": {
-    "day": 5,
-    "time": "9:45 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/rikei-ga-koi-ni-ochita-no-de-shoumei-shitemita-2-ff2cf473af.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/science-fell-in-love-so-i-tried-to-prove-it",
-      "VRV": "https://vrv.co/series/G6P5MMXV6/Science-Fell-in-Love-So-I-Tried-to-Prove-it"
-    }
-  },
-  "Mahjong Soul Pon\u2606": {
-    "day": 5,
-    "time": "10:00 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/jongtama-pong-e406915894.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/mahjong-soul-pon",
-      "VRV": "https://vrv.co/series/G1XHJVE9P/Mahjong-Soul-Pon",
-      "YouTube": "https://www.youtube.com/playlist?list=PLoAgSyWcJ8j8WXFvySEhiWqMDLobymxFT"
-    }
-  },
-  "Aharen-san wa Hakarenai": {
-    "day": 5,
-    "time": "11:15 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/aharen-san-wa-hakarenai-118e9313f6.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/aharen-san-wa-hakarenai",
-      "VRV": "https://vrv.co/series/GNVHKN72N/Aharen-san-wa-Hakarenai"
-    }
-  },
-  "Dance Dance Danseur": {
-    "day": 5,
-    "time": "11:45 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/dance-dance-danseur-19eb44b79d.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/dance-dance-danseur",
-      "VRV": "https://vrv.co/series/G9VHN9P07/Dance-Dance-Danseur"
     }
   },
   "Shadowverse": {
@@ -413,65 +163,6 @@
       "VRV": "https://vrv.co/series/G4PH0WX5J/Aoashi"
     }
   },
-  "Yatogame-chan Kansatsu Nikki": {
-    "day": 6,
-    "time": "5:30 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/yatogame-chan-kansatsu-nikki-4-429e6e51dc.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/yatogame-chan-kansatsu-nikki",
-      "VRV": "https://vrv.co/series/G64PX8N1R/Yatogame-chan-Kansatsu-Nikki"
-    }
-  },
-  "Love Live! Nijigasaki High School Idol Club": {
-    "day": 6,
-    "time": "6:30 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/love-live-nijigasaki-gakuen-school-idol-doukou-kai-2-bf1d3fbb6c.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/love-live-nijigasaki-high-school-idol-club",
-      "Funimation": "https://www.funimation.com/shows/love-live-nijigasaki-high-school-idol-club/",
-      "VRV": "https://vrv.co/series/G63W41WQ6/Love-Live-Nijigasaki-High-School-Idol-Club"
-    }
-  },
-  "SPY x FAMILY": {
-    "day": 6,
-    "time": "8:30 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/spy-x-family-7841f05975.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/spy-x-family",
-      "Hulu": "https://www.hulu.com/series/65d158d4-443f-44c7-bd2c-eae39f6c60e9",
-      "VRV": "https://vrv.co/series/G4PH0WXVJ/SPY-x-FAMILY",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1wGMYg5oB3uEns0CZNl6sI"
-    }
-  },
-  "Fanfare of Adolescence": {
-    "day": 6,
-    "time": "9:00 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/gunjou-no-fanfare-0a9ace9c03.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/fanfare-of-adolescence",
-      "VRV": "https://vrv.co/series/GMEHME4QD/Fanfare-of-Adolescence"
-    }
-  },
-  "In the Heart of Kunoichi Tsubaki": {
-    "day": 6,
-    "time": "9:30 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kunoichi-tsubaki-no-mune-no-uchi-3926a707d8.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/in-the-heart-of-kunoichi-tsubaki",
-      "VRV": "https://vrv.co/series/GJ0H7QXWZ/In-the-Heart-of-Kunoichi-Tsubaki"
-    }
-  },
-  "BUILD-DIVIDE -#000000- CODE BLACK": {
-    "day": 6,
-    "time": "10:00 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/build-divide-code-black-2-eeacb2ad30.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/build-divide-000000-code-black",
-      "Funimation": "https://www.funimation.com/shows/build-divide-000000-code-black/",
-      "VRV": "https://vrv.co/series/GG5H5XDE1/BUILD-DIVIDE-000000-CODE-BLACK",
-      "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1553/build-divide-000000-code-black/season/3667/season-2"
-    }
-  },
   "Kingdom": {
     "day": 6,
     "time": "11:30 AM",
@@ -494,78 +185,6 @@
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/cap-kakumei-bottleman-dx-b5aecf5d3d.jpg",
     "streams": {}
   },
-  "Don't Hurt Me, My Healer!": {
-    "day": 7,
-    "time": "5:01 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kono-healer-mendokusai-f82b224a75.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/dont-hurt-me-my-healer",
-      "VRV": "https://vrv.co/series/G3KHEV3NN/Dont-Hurt-Me-My-Healer"
-    }
-  },
-  "Trapped in a Dating Sim: The World of Otome Games is Tough for Mobs": {
-    "day": 7,
-    "time": "6:30 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/otomege-sekai-wa-mob-ni-kibishii-sekai-desu-aa5900b59a.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/trapped-in-a-dating-sim-the-world-of-otome-games-is-tough-for-mobs",
-      "VRV": "https://vrv.co/series/G0XHWM0D3/Trapped-in-a-Dating-Sim-The-World-of-Otome-Games-is-Tough-for-Mobs"
-    }
-  },
-  "Black\u2605\u2605Rock Shooter: DAWN FALL": {
-    "day": 7,
-    "time": "7:00 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/black-rock-shooter-dawn-fall-f88ae1b508.jpg",
-    "streams": {}
-  },
-  "Onipan!": {
-    "day": 4,
-    "time": "8:00 PM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/onipan-c867bb0166.jpg",
-    "streams": {
-      "HiDive": "https://www.hidive.com/tv/onipan"
-    }
-  },
-  "AMAIM Warrior at the Borderline": {
-    "day": 1,
-    "time": "9:00 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kyoukai-senki-part-2-b951f3a4d4.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/amaim-warrior-at-the-borderline",
-      "Funimation": "https://www.funimation.com/shows/amaim-warrior-at-the-borderline/",
-      "VRV": "https://vrv.co/series/GJ0H7QXE2/AMAIM-Warrior-at-the-Borderline",
-      "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1573/amaim-warrior-at-the-borderline/season/3572/season-1---cour-2"
-    }
-  },
-  "Ascendance of a Bookworm": {
-    "day": 1,
-    "time": "11:30 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/honzuki-no-gekokujou-3-3daf1875c4.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/ascendance-of-a-bookworm",
-      "VRV": "https://vrv.co/series/G6793XKZY/Ascendance-of-a-Bookworm",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1pGYxuxFAg3A4Y5rDCugXg"
-    }
-  },
-  "KAGINADO": {
-    "day": 2,
-    "time": "9:01 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kaginado-2-db54349808.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEV73Z",
-      "Funimation": "https://www.funimation.com/shows/kaginado/",
-      "HiDive": "https://www.hidive.com/movies/kaginado-season-2",
-      "VRV": "https://vrv.co/series/G3KHEV73Z/KAGI-NADO",
-      "Wakanim": "https://www.wakanim.tv/sc/v2/catalogue/show/1580/kaginado/season/3651/season-2",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3gRcH6U4L-LonrzmvlvvX0"
-    }
-  },
-  "Summertime Render": {
-    "day": 4,
-    "time": "8:00 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/summer-time-render-b610c02166.jpg",
-    "streams": {}
-  },
   "Chiikawa": {
     "day": 4,
     "time": "3:40 PM",
@@ -575,7 +194,7 @@
     }
   },
   "Duel Masters King Max": {
-    "day": 6,
+    "day": 7,
     "time": "4:30 PM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/duel-masters-king-max-9588730253.jpg",
     "streams": {}
@@ -584,14 +203,8 @@
     "day": 7,
     "time": "4:45 PM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/insect-land-c72165deee.jpg",
-    "streams": {}
-  },
-  "Legend of the Galactic Heroes: Die Neue These": {
-    "day": 4,
-    "time": "4:01 PM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/ginga-eiyuu-densetsu-die-neue-these-gekitotsu-1-d8650185d3.jpg",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/legend-of-the-galactic-heroes-die-neue-these"
+      "YouTube": "https://www.youtube.com/watch?v=l4MzkC4wcGk&list=PLWUABBoRZfBD3ivFCMtTBKWjCiLdzXQ43"
     }
   },
   "Ohiru no Shocker-san": {
@@ -625,12 +238,341 @@
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/bakugan-evolutions-fd8bcd6296.jpg",
     "streams": {}
   },
-  "The Demon Girl Next Door Season 2": {
-    "day": 4,
-    "time": "10:40 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/machikado-mazoku-2-0566609969.jpg",
+  "My Isekai Life: I Gained a Second Character Class and Became the Strongest Sage in the World!": {
+    "day": 1,
+    "time": "5:00 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/tensei-kenja-no-isekai-life-8571ad4737.jpg",
     "streams": {
-      "HiDive": "https://www.hidive.com/tv/the-demon-girl-next-door-season-2"
+      "HiDive": "https://www.hidive.com/tv/my-isekai-life-i-gained-a-second-character-class-and-became-the-strongest-sage-in-the-world",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjK9g9OFhHzcZwAQDYFqVYU"
+    }
+  },
+  "Classroom of the Elite": {
+    "day": 1,
+    "time": "6:00 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-zoku-hen-ad40174658.jpg",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/classroom-of-the-elite",
+      "VRV": "https://vrv.co/series/GRVN8MNQY/Classroom-of-the-Elite",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl37ONxLQx-mIAJu3hdX-brM"
+    }
+  },
+  "CARDFIGHT!! VANGUARD overDress": {
+    "day": 1,
+    "time": "8:40 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/cardfight-vanguard-overdress-season-3-fc2923a1ad.jpg",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3NJ5",
+      "HiDive": "https://www.hidive.com/tv/cardfight-vanguard-willdress",
+      "VRV": "https://vrv.co/series/GXJHM3NJ5"
+    }
+  },
+  "Vermeil in Gold": {
+    "day": 2,
+    "time": "7:00 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kinsou-no-vermeil-gakeppuchi-majutsushi-wa-saikyou-no-yakusai-to-mahou-sekai-wo-tsukisusumu-4c45d44d07.jpg",
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/vermeil-in-gold"
+    }
+  },
+  "Overlord": {
+    "day": 2,
+    "time": "7:00 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/overlord-iv-fd2e2e893c.jpg",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/overlord",
+      "VRV": "https://vrv.co/series/G69PZ5PDY/Overlord",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjqetlKeUq9vjhLa8yg4vBx"
+    }
+  },
+  "TOKYO MEW MEW NEW": {
+    "day": 2,
+    "time": "9:00 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/tokyo-mew-mew-new-d0203056c5.jpg",
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/tokyo-mew-mew-new"
+    }
+  },
+  "Dropkick on My Devil!": {
+    "day": 2,
+    "time": "11:00 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/jashin-chan-dropkick-x-c0f4ef5a33.jpg",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/dropkick-on-my-devil",
+      "VRV": "https://vrv.co/series/G62487M9Y/Dropkick-on-My-Devil-Dash"
+    }
+  },
+  "Uncle from Another World": {
+    "day": 3,
+    "time": "6:00 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/isekai-ojisan-b982453c58.jpg",
+    "streams": {}
+  },
+  "Smile of the Arsnotoria the Animation": {
+    "day": 3,
+    "time": "6:00 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/warau-arsnotoria-sun-71d1bfc33a.jpg",
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/GW4HM7GG3",
+      "VRV": "https://vrv.co/series/GW4HM7GG3"
+    }
+  },
+  "Made in Abyss": {
+    "day": 3,
+    "time": "7:30 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/made-in-abyss-2-5abfc5c8dc.jpg",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/made-in-abyss",
+      "HiDive": "https://www.hidive.com/tv/made-in-abyss-the-golden-city-of-the-scorching-sun",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0-bp4bZ7ER-VQ-973riDyN"
+    }
+  },
+  "My Stepmom's Daughter Is My Ex": {
+    "day": 3,
+    "time": "8:00 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/mamahaha-no-tsurego-ga-moto-kano-datta-8ad0e291fc.jpg",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM44M",
+      "VRV": "https://vrv.co/series/G0XHWM44M",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jg0Ps_GamUlKlBWXw0A_oKL"
+    }
+  },
+  "Harem in the Labyrinth of Another World": {
+    "day": 3,
+    "time": "8:30 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/isekai-meikyuu-de-harem-wo-9fc18485e0.jpg",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/harem-in-the-labyrinth-of-another-world",
+      "VRV": "https://vrv.co/series/GG5H5X002",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JibYKTMwcNi7CH9vdBC9HS7"
+    }
+  },
+  "The Prince of Tennis II U-17 World Cup": {
+    "day": 3,
+    "time": "9:00 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shin-tennis-no-ouji-sama-u-17-world-cup-0eab13ff9d.jpg",
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/G5PHNMWWN",
+      "Funimation": "https://www.funimation.com/shows/the-prince-of-tennis/",
+      "VRV": "https://vrv.co/series/G5PHNMWWN"
+    }
+  },
+  "Summer Time Render": {
+    "day": 4,
+    "time": "8:00 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/summer-time-render-b610c02166.jpg",
+    "streams": {}
+  },
+  "The Yakuza's Guide to Babysitting": {
+    "day": 4,
+    "time": "8:30 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kumichou-musume-to-sewagakari-9768cf08f1.jpg",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/the-yakuzas-guide-to-babysitting",
+      "VRV": "https://vrv.co/series/G79H2300N",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JiLxDabL2sKulL8QT56mOiv"
+    }
+  },
+  "When Will Ayumu Make His Move?": {
+    "day": 4,
+    "time": "9:00 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/soredemo-ayumu-wa-yosetekuru-cee2945b22.jpg",
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/when-will-ayumu-make-his-move"
+    }
+  },
+  "CHIMIMO": {
+    "day": 4,
+    "time": "10:30 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/chimimo-29c6b0e09e.jpg",
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/chimimo"
+    }
+  },
+  "Call of the Night": {
+    "day": 4,
+    "time": "10:30 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/yofukashi-no-uta-2301cfb65b.jpg",
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/call-of-the-night"
+    }
+  },
+  "I'M KODAMA KAWASHIRI": {
+    "day": 4,
+    "time": "11:55 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/atasha-kawajiri-kodama-da-yo-dangerous-lifehacker-no-tadareta-seikatsu-321ab492b8.jpg",
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/G79H23VD4",
+      "VRV": "https://vrv.co/series/G79H23VD4"
+    }
+  },
+  "Osomatsu-san: Hipopo-Zoku to Kagayaku Kajitsu": {
+    "day": 4,
+    "time": "5:00 PM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/eiga-no-osomatsu-san-1-provisional-title-e6716c4b48.jpg",
+    "streams": {}
+  },
+  "Toku: Touken Ranbu - Hanamaru - Setsugetsuka": {
+    "day": 4,
+    "time": "5:00 PM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/toku-touken-ranbu-hanamaru-setsugetsuka-10643ebf79.jpg",
+    "streams": {}
+  },
+  "Zannen na Ikimono Jiten The Movie": {
+    "day": 4,
+    "time": "5:00 PM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/zannen-na-ikimono-jiten-the-movie-65b1ed7194.jpg",
+    "streams": {}
+  },
+  "Shine on! Bakumatsu Bad Boys": {
+    "day": 5,
+    "time": "6:30 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/bucchigire-e82d3ba5a1.jpg",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WZZ3",
+      "VRV": "https://vrv.co/series/G4PH0WZZ3",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jja-EtlraOv68lG0XwSqGNy"
+    }
+  },
+  "SHADOWS HOUSE": {
+    "day": 5,
+    "time": "8:00 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shadows-house-2-172bdb8dea.jpg",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJVEXE",
+      "VRV": "https://vrv.co/series/G1XHJVEXE"
+    }
+  },
+  "Prima Doll": {
+    "day": 5,
+    "time": "9:30 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/prima-doll-7b827d8268.jpg",
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/prima-doll"
+    }
+  },
+  "Phantom of the Idol": {
+    "day": 5,
+    "time": "10:53 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kami-kuzu-idol-fa0464c8ea.jpg",
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/phantom-of-the-idol"
+    }
+  },
+  "Lucifer and the Biscuit Hammer": {
+    "day": 5,
+    "time": "11:25 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/hoshi-no-samidare-7772c22dbe.jpg",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2mjV_pl9Dr_QTcn1nmNvB1"
+    }
+  },
+  "Rent-a-Girlfriend": {
+    "day": 5,
+    "time": "11:30 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kanojo-okarishimasu-2-e1a70efd80.jpg",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/rent-a-girlfriend",
+      "VRV": "https://vrv.co/series/G6QWV3976/Rent-a-Girlfriend",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3rS5lwfx07zxghGRJ6Ckp8"
+    }
+  },
+  "Black Summoner": {
+    "day": 6,
+    "time": "7:30 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kuro-no-shoukanshi-9978a92421.jpg",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/black-summoner",
+      "VRV": "https://vrv.co/series/GVDHX8JJE",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jh5Y8toYmjBmWBIH3yl7tb2"
+    }
+  },
+  "Shoot! Goal to the Future": {
+    "day": 6,
+    "time": "8:00 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shoot-goal-to-the-future-82f6b152ec.jpg",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/shoot-goal-to-the-future",
+      "VRV": "https://vrv.co/series/GVDHX8JZ2"
+    }
+  },
+  "Musasi-no": {
+    "day": 6,
+    "time": "8:30 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/musashino-0ceeebfcf6.jpg",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/musasi-no",
+      "VRV": "https://vrv.co/series/GKEH2GQ4V/Musasi-no"
+    }
+  },
+  "Lycoris Recoil": {
+    "day": 6,
+    "time": "9:00 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/lycoris-recoil-c3f16f7ede.jpg",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/lycoris-recoil",
+      "VRV": "https://vrv.co/series/G1XHJV2X9/Lycoris-Recoil"
+    }
+  },
+  "Engage Kiss": {
+    "day": 6,
+    "time": "10:00 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/engage-kiss-9d616462bd.jpg",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/engage-kiss",
+      "VRV": "https://vrv.co/series/GJ0H7Q8J0"
+    }
+  },
+  "Extreme Hearts": {
+    "day": 6,
+    "time": "10:30 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/extreme-hearts-b3abf91bf0.jpg",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/extreme-hearts",
+      "VRV": "https://vrv.co/series/G3KHEVQQG"
+    }
+  },
+  "Dr. STONE: Ryuusui": {
+    "day": 7,
+    "time": "3:00 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/dr-stone-ryuusui-0d4d6a42d0.jpg",
+    "streams": {}
+  },
+  "Parallel World Pharmacy": {
+    "day": 7,
+    "time": "5:30 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/isekai-yakkyoku-a6e9c245c6.jpg",
+    "streams": {}
+  },
+  "Hanabi-chan wa Okure-gachi": {
+    "day": 7,
+    "time": "5:55 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/hanabi-chan-wa-okure-gachi-fffd1216a0.jpg",
+    "streams": {}
+  },
+  "League of Nations Air Force Aviation Magic Band Luminous Witches": {
+    "day": 7,
+    "time": "6:00 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/renmei-kuugun-koukuu-mahou-ongakutai-luminous-witches-d6a9a959a1.jpg",
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/league-of-nations-air-force-aviation-magic-band-luminous-witches",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3myw51ePNETmCVl587h_Y3"
+    }
+  },
+  "KJ File": {
+    "day": 7,
+    "time": "8:00 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kj-file-73884ee3f2.jpg",
+    "streams": {}
+  },
+  "YUREI DECO": {
+    "day": 7,
+    "time": "8:30 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/yurei-deco-670a0eb233.jpg",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/yurei-deco",
+      "VRV": "https://vrv.co/series/G9VHN97PK/YUREI-DECO",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jh_FH_E6XSiTy71OwCsgBBF"
     }
   }
 }

@@ -1,5 +1,5 @@
 #!/bin/bash
-if [ "$(basename '(pwd)')" == "anime-calendar" ]; then
+if [ "$(basename "$PWD")" == "anime-calendar" ]; then
 	git push
 	cd ../AnimeCalendar.github.io || exit
 	git fetch upstream
