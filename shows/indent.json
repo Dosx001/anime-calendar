@@ -222,16 +222,6 @@
       "VRV": "https://vrv.co/series/GXJHM39MP/A-Couple-of-Cuckoos"
     }
   },
-  "Shikimori's Not Just a Cutie": {
-    "day": 6,
-    "time": "11:15 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kawaii-dake-ja-nai-shikimori-san-f8b569ef8b.jpg",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/shikimoris-not-just-a-cutie",
-      "VRV": "https://vrv.co/series/GNVHKN7M4/Shikimoris-Not-Just-a-Cutie",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2v3GdglUbai_QNMJHZMOHP"
-    }
-  },
   "Bakugan: Evolutions": {
     "day": 6,
     "time": "5:00 PM",
@@ -374,7 +364,7 @@
     }
   },
   "When Will Ayumu Make His Move?": {
-    "day": 4,
+    "day": 5,
     "time": "9:00 AM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/soredemo-ayumu-wa-yosetekuru-cee2945b22.jpg",
     "streams": {
@@ -405,24 +395,6 @@
       "Crunchyroll": "https://crunchyroll.com/series/G79H23VD4",
       "VRV": "https://vrv.co/series/G79H23VD4"
     }
-  },
-  "Osomatsu-san: Hipopo-Zoku to Kagayaku Kajitsu": {
-    "day": 4,
-    "time": "5:00 PM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/eiga-no-osomatsu-san-1-provisional-title-e6716c4b48.jpg",
-    "streams": {}
-  },
-  "Toku: Touken Ranbu - Hanamaru - Setsugetsuka": {
-    "day": 4,
-    "time": "5:00 PM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/toku-touken-ranbu-hanamaru-setsugetsuka-10643ebf79.jpg",
-    "streams": {}
-  },
-  "Zannen na Ikimono Jiten The Movie": {
-    "day": 4,
-    "time": "5:00 PM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/zannen-na-ikimono-jiten-the-movie-65b1ed7194.jpg",
-    "streams": {}
   },
   "Shine on! Bakumatsu Bad Boys": {
     "day": 5,
@@ -464,6 +436,9 @@
     "time": "11:25 AM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/hoshi-no-samidare-7772c22dbe.jpg",
     "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV22X",
+      "Hulu": "https://www.hulu.com/series/77f6448d-f15d-4f14-a3fa-989470cb08e1",
+      "VRV": "https://vrv.co/series/G1XHJV22X",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2mjV_pl9Dr_QTcn1nmNvB1"
     }
   },
@@ -532,23 +507,24 @@
       "VRV": "https://vrv.co/series/G3KHEVQQG"
     }
   },
-  "Dr. STONE: Ryuusui": {
-    "day": 7,
-    "time": "3:00 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/dr-stone-ryuusui-0d4d6a42d0.jpg",
-    "streams": {}
-  },
   "Parallel World Pharmacy": {
     "day": 7,
-    "time": "5:30 AM",
+    "time": "6:30 AM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/isekai-yakkyoku-a6e9c245c6.jpg",
-    "streams": {}
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/parallel-world-pharmacy",
+      "VRV": "https://vrv.co/series/G24H1NJJD",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1ZHXQDzK5Qit6jqLTNzjZ3"
+    }
   },
   "Hanabi-chan wa Okure-gachi": {
     "day": 7,
-    "time": "5:55 AM",
+    "time": "7:00 AM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/hanabi-chan-wa-okure-gachi-fffd1216a0.jpg",
-    "streams": {}
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/hanabichan-the-girl-who-popped-out-of-the-game-world",
+      "VRV": "https://vrv.co/series/G8DHV7EEG"
+    }
   },
   "League of Nations Air Force Aviation Magic Band Luminous Witches": {
     "day": 7,
@@ -561,7 +537,7 @@
   },
   "KJ File": {
     "day": 7,
-    "time": "8:00 AM",
+    "time": "12:05 AM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kj-file-73884ee3f2.jpg",
     "streams": {}
   },
@@ -574,5 +550,89 @@
       "VRV": "https://vrv.co/series/G9VHN97PK/YUREI-DECO",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jh_FH_E6XSiTy71OwCsgBBF"
     }
+  },
+  "ORIENT": {
+    "day": 1,
+    "time": "10:00 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/orient-part-2-ec8f3030c1.jpg",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX8PMM",
+      "VRV": "https://vrv.co/series/GVDHX8PMM",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhRe3iHESL39UAKDJNCRNeb"
+    }
+  },
+  "SHINEPOST": {
+    "day": 2,
+    "time": "10:30 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shine-post-3b8ad012f0.jpg",
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/shinepost"
+    }
+  },
+  "Please Take My Brother Away 5": {
+    "day": 2,
+    "time": "7:00 PM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kuai-ba-wo-ge-dai-zou-5-d40a9751db.jpg",
+    "streams": {}
+  },
+  "Mobile Suit Gundam THE WITCH FROM MERCURY - PROLOGUE": {
+    "day": 3,
+    "time": "8:00 PM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kidou-senshi-gundam-suisei-no-majo-prologue-fbf9f8bd96.jpg",
+    "streams": {}
+  },
+  "The Devil is a Part-Timer!": {
+    "day": 4,
+    "time": "7:31 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/hataraku-maou-sama-2-8c55dd7b65.jpg",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/the-devil-is-a-part-timer",
+      "VRV": "https://vrv.co/series/GR75Z5KKY"
+    }
+  },
+  "Obey Me!": {
+    "day": 5,
+    "time": "1:00 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/obey-me-2-12aa630b86.jpg",
+    "streams": {}
+  },
+  "TEPPEN!!!!!!!!!!!!!!! Laughing 'til You Cry": {
+    "day": 6,
+    "time": "7:00 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/teppen-2022-7a93e76ef6.jpg",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/teppen-laughing-til-you-cry",
+      "VRV": "https://vrv.co/series/GG5H5X0E2/TEPPEN-Laughing-til-You-Cry"
+    }
+  },
+  "Utawarerumono Mask of Truth": {
+    "day": 6,
+    "time": "9:45 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/utawarerumono-futari-no-hakuoro-cf8f853878.jpg",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/utawarerumono-mask-of-truth",
+      "VRV": "https://vrv.co/series/GMEHMEW4M"
+    }
+  },
+  "BONO BONO": {
+    "day": 6,
+    "time": "12:52 PM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/bonobono-2016-d8ff3791d8.jpg",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/bono-bono",
+      "VRV": "https://vrv.co/series/G675K0G3R/BONO-BONO"
+    }
+  },
+  "Chibi Maruko-chan": {
+    "day": 7,
+    "time": "2:00 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/chibi-maruko-chan-1995-86fdf68dc4.jpg",
+    "streams": {}
+  },
+  "Love Live! Superstar!!": {
+    "day": 7,
+    "time": "3:00 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/love-live-superstar-2-f7b9b1b27c.jpg",
+    "streams": {}
   }
 }
