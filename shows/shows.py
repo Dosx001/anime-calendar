@@ -10,6 +10,7 @@ from selenium.common.exceptions import (NoSuchElementException,
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.firefox.service import Service
+from selenium.webdriver.remote.webelement import WebElement
 
 
 class ShowType(TypedDict):
@@ -43,6 +44,8 @@ class Shows:
 
     def html(self):
         self.driver.get("https://animeschedule.net")
+        self.driver.find_element(By.ID, "timetable-filters-filter-popularity").click()
+        self.driver.find_element(By.ID, "timetable-filters-filter-ona").click()
         self.driver.refresh()
         for num, day in enumerate(
             [
@@ -57,12 +60,11 @@ class Shows:
             1,
         ):
             for col in self.driver.find_elements(By.CLASS_NAME, day):
+                show: WebElement
                 for show in col.find_elements(By.CLASS_NAME, "timetable-column-show"):
-                    if (
-                        show.get_attribute("chinese") is not None
-                        or "hidden" in show.get_attribute("class")
-                        or show.get_attribute("metiatpye") == "movie"
-                    ):
+                    if show.get_attribute(
+                        "chinese"
+                    ) is not None or "hidden" in show.get_attribute("class"):
                         continue
                     title = show.find_element(
                         By.CLASS_NAME, "show-title-bar"

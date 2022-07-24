@@ -398,7 +398,7 @@
   },
   "Shine on! Bakumatsu Bad Boys": {
     "day": 5,
-    "time": "6:30 AM",
+    "time": "6:31 AM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/bucchigire-e82d3ba5a1.jpg",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WZZ3",
@@ -408,7 +408,7 @@
   },
   "SHADOWS HOUSE": {
     "day": 5,
-    "time": "8:00 AM",
+    "time": "9:30 AM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shadows-house-2-172bdb8dea.jpg",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJVEXE",
@@ -537,7 +537,7 @@
   },
   "KJ File": {
     "day": 7,
-    "time": "12:05 AM",
+    "time": "8:00 AM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kj-file-73884ee3f2.jpg",
     "streams": {}
   },
@@ -575,26 +575,17 @@
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kuai-ba-wo-ge-dai-zou-5-d40a9751db.jpg",
     "streams": {}
   },
-  "Mobile Suit Gundam THE WITCH FROM MERCURY - PROLOGUE": {
-    "day": 3,
-    "time": "8:00 PM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kidou-senshi-gundam-suisei-no-majo-prologue-fbf9f8bd96.jpg",
-    "streams": {}
-  },
   "The Devil is a Part-Timer!": {
     "day": 4,
     "time": "7:31 AM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/hataraku-maou-sama-2-8c55dd7b65.jpg",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/the-devil-is-a-part-timer",
-      "VRV": "https://vrv.co/series/GR75Z5KKY"
+      "Funimation": "https://www.funimation.com/shows/the-devil-is-a-part-timer/",
+      "Hulu": "https://www.hulu.com/series/the-devil-is-a-part-timer-8534ee83-b681-4dbc-bad9-b9a1d3f08483",
+      "VRV": "https://vrv.co/series/GR75Z5KKY",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1Q4OIgY3DIF31SO_9cOo8M"
     }
-  },
-  "Obey Me!": {
-    "day": 5,
-    "time": "1:00 AM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/obey-me-2-12aa630b86.jpg",
-    "streams": {}
   },
   "TEPPEN!!!!!!!!!!!!!!! Laughing 'til You Cry": {
     "day": 6,
@@ -630,9 +621,52 @@
     "streams": {}
   },
   "Love Live! Superstar!!": {
-    "day": 7,
-    "time": "3:00 AM",
+    "day": 1,
+    "time": "6:00 PM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/love-live-superstar-2-f7b9b1b27c.jpg",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEVPWE",
+      "Funimation": "https://www.funimation.com/shows/love-live-superstar/",
+      "VRV": "https://vrv.co/series/G3KHEVPWE"
+    }
+  },
+  "Is It Wrong to Try to Pick Up Girls in a Dungeon? IV": {
+    "day": 4,
+    "time": "7:01 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-iv-fe2f789efc.jpg",
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-iv"
+    }
+  },
+  "Gundam: G no Reconguista IV - Gekitou ni Sakebu Ai": {
+    "day": 4,
+    "time": "5:00 PM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/gundam-g-no-reconguista-iv-gekitou-ni-sakebu-ai-9c412bf741.jpg",
     "streams": {}
+  },
+  "RE:cycle of the PENGUINDRUM: Kouhen - Boku wa Kimi wo Aishiteru": {
+    "day": 4,
+    "time": "5:00 PM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/re-cycle-of-the-penguindrum-kouhen-boku-wa-kimi-wo-aishiteru-791a1d2be2.jpg",
+    "streams": {}
+  },
+  "The Maid I Hired Recently Is Mysterious": {
+    "day": 6,
+    "time": "11:45 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/saikin-yatotta-maid-ga-ayashii-c3b12c6f30.jpg",
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/GG5H5X092/the-maid-i-hired-recently-is-mysterious",
+      "VRV": "https://vrv.co/series/GG5H5X092/The-Maid-I-Hired-Recently-Is-Mysterious",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JiKuzXZzJVByt6rGYFkJwxA"
+    }
+  },
+  "RWBY: Ice Queendom": {
+    "day": 7,
+    "time": "8:00 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/rwby-hyousetsu-teikoku-f1e381519e.jpg",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/rwby-ice-queendom",
+      "VRV": "https://vrv.co/series/GVDHX8JP2/RWBY-Ice-Queendom"
+    }
   }
 }
