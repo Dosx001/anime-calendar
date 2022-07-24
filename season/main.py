@@ -6,6 +6,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.firefox.service import Service
+from selenium.webdriver.remote.webelement import WebElement
 
 
 def main():
@@ -15,18 +16,18 @@ def main():
     options.set_preference("profile", "/home/" + user + "/.mozilla/firefox/" + profile)
     driver = webdriver.Firefox(service=Service(log_path="/dev/null"), options=options)
     driver.maximize_window()
-    driver.get("https://animeschedule.net/seasons/summer-2022")
-    data = driver.find_element(By.CLASS_NAME, "shows-container").find_elements(
-        By.CLASS_NAME, "anime-tile"
-    )
+    driver.get("https://animeschedule.net/seasons/fall-2022")
     shows = {}
-    for show in data:
-        title = show.find_element(By.CLASS_NAME, "anime-tile-title").get_attribute(
+    show: WebElement
+    for show in driver.find_element(By.CLASS_NAME, "shows-container").find_elements(
+        By.CLASS_NAME, "anime-tile"
+    ):
+        title: str = show.find_element(By.CLASS_NAME, "anime-tile-title").get_attribute(
             "innerText"
         )
-        cover = show.find_element(By.CLASS_NAME, "anime-tile-thumbnail").get_attribute(
-            "src"
-        )
+        cover: str = show.find_element(
+            By.CLASS_NAME, "anime-tile-thumbnail"
+        ).get_attribute("src")
         # while "placeholder" in cover:
         #     cover = show.find_element(By.CLASS_NAME, 'show-poster').get_attribute('src')
         try:
