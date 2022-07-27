@@ -2,7 +2,7 @@ from shows import Shows
 
 
 def main():
-    shw = Shows(None)
+    shw = Shows()
     shw.html()
     shw.update()
     shw.driver.quit()

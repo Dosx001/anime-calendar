@@ -1,6 +1,7 @@
 from html import unescape
 from json import dump, load
 from os import popen, system
+from re import search
 from time import sleep, strftime, strptime
 from typing import TypedDict
 
@@ -10,6 +11,7 @@ from selenium.common.exceptions import (NoSuchElementException,
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.firefox.service import Service
+from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.remote.webelement import WebElement
 
 
@@ -21,18 +23,18 @@ class ShowType(TypedDict):
 
 
 class Shows:
-    def __init__(self, driver):
-        if driver is None:
+    def __init__(self, driver: WebDriver | None = None):
+        if driver:
+            self.driver = driver
+        else:
             profile = (
-                popen('ls ~/.mozilla/firefox/ | grep "default"').read().split("\n")[1]
+                popen("ls ~/.mozilla/firefox/ | grep default").read().split("\n")[1]
             )
             options = Options()
             options.set_preference("profile", "$HOME/.mozilla/firefox/" + profile)
             self.driver = webdriver.Firefox(
                 service=Service(log_path="/dev/null"), options=options
             )
-        else:
-            self.driver = driver
         self.driver.maximize_window()
         with open("shows.json", encoding="utf-8") as file:
             self.shows: dict[str, ShowType] = load(file)
@@ -43,6 +45,7 @@ class Shows:
         self.new: dict[str, ShowType] = {}
 
     def html(self):
+        show: WebElement
         self.driver.get("https://animeschedule.net")
         self.driver.find_element(By.ID, "timetable-filters-filter-popularity").click()
         self.driver.find_element(By.ID, "timetable-filters-filter-ona").click()
@@ -60,11 +63,10 @@ class Shows:
             1,
         ):
             for col in self.driver.find_elements(By.CLASS_NAME, day):
-                show: WebElement
                 for show in col.find_elements(By.CLASS_NAME, "timetable-column-show"):
-                    if show.get_attribute(
-                        "chinese"
-                    ) is not None or "hidden" in show.get_attribute("class"):
+                    if show.get_attribute("chinese") or search(
+                        "hidden|filtered-out", show.get_attribute("class")
+                    ):
                         continue
                     title = show.find_element(
                         By.CLASS_NAME, "show-title-bar"
