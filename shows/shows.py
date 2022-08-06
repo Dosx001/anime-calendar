@@ -48,7 +48,6 @@ class Shows:
         show: WebElement
         self.driver.get("https://animeschedule.net")
         self.driver.find_element(By.ID, "timetable-filters-filter-popularity").click()
-        self.driver.find_element(By.ID, "timetable-filters-filter-ona").click()
         self.driver.refresh()
         for num, day in enumerate(
             [

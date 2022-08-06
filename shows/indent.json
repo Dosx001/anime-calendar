@@ -172,12 +172,6 @@
       "VRV": "https://vrv.co/series/GXJHM39MP/A-Couple-of-Cuckoos"
     }
   },
-  "Bakugan: Evolutions": {
-    "day": 6,
-    "time": "5:00 PM",
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/bakugan-evolutions-fd8bcd6296.jpg",
-    "streams": {}
-  },
   "My Isekai Life: I Gained a Second Character Class and Became the Strongest Sage in the World!": {
     "day": 1,
     "time": "5:00 AM",
@@ -221,6 +215,7 @@
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/overlord-iv-fd2e2e893c.jpg",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/overlord",
+      "Funimation": "https://www.funimation.com/shows/overlord/",
       "VRV": "https://vrv.co/series/G69PZ5PDY/Overlord",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjqetlKeUq9vjhLa8yg4vBx"
     }
@@ -565,10 +560,49 @@
       "VRV": "https://vrv.co/series/GVDHX8JP2/RWBY-Ice-Queendom"
     }
   },
-  "Fuuto PI": {
+  "Nights with a Cat": {
+    "day": 3,
+    "time": "9:00 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/yoru-wa-neko-to-issho-c42291a627.jpg",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PL21PGVTtHmxgpTZwSrn-1QMUcbaJdnxZM"
+    }
+  },
+  "Kakegurui Twin": {
+    "day": 4,
+    "time": "12:01 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kakegurui-twin-f14cc683a0.jpg",
+    "streams": {}
+  },
+  "stars*collection": {
+    "day": 5,
+    "time": "3:01 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/stars-collection-53af3b195a.jpg",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLNQov5ZpSSWclbG0Rvs-CDWqybmOKNbhO"
+    }
+  },
+  "Holo no Graffiti": {
     "day": 7,
-    "time": "5:00 PM",
+    "time": "2:01 AM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/holo-no-graffiti-95cd497081.jpg",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLb7AOG3cj7UyJfqsfXpvL2LUVdg0dOK7q"
+    }
+  },
+  "FUUTO PI": {
+    "day": 7,
+    "time": "9:00 AM",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/fuuto-tantei-6822cc2b03.jpg",
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/GMEHMEWK0",
+      "VRV": "https://vrv.co/series/GMEHMEWK0"
+    }
+  },
+  "Knights of the Zodiac: Saint Seiya Battle for Sanctuary": {
+    "day": 7,
+    "time": "1:01 PM",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/knights-of-the-zodiac-saint-seiya-battle-for-sanctuary-00af503b2e.jpg",
     "streams": {}
   }
 }
