@@ -1,6 +1,7 @@
 {
-  "4-nin wa Sorezore Uso wo Tsuku": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/4-nin-wa-sorezore-uso-wo-tsuku-609f391efb.jpg",
+  "4-nin wa S": {
+    "title": "4-nin wa Sorezore Uso wo Tsuku",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/4-nin-wa-sorezore-uso-wo-tsuku-0cceeba6db.jpg",
     "Studio": "Studio Flad",
     "Source": "Manga",
     "Genres": [
@@ -10,8 +11,9 @@
       "Supernatural"
     ]
   },
-  "Akuyaku Reijo nano de Last Boss wo Kattemimashita": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/akuyaku-reijo-nano-de-last-boss-wo-kattemimashita-da10099897.jpg",
+  "Akuyaku Re": {
+    "title": "Akuyaku Reijo nano de Last Boss wo Kattemimashita",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/akuyaku-reijo-nano-de-last-boss-wo-kattemimashita-2a69107ad6.jpg",
     "Studio": "Maho Film",
     "Source": "Light Novel",
     "Genres": [
@@ -24,8 +26,9 @@
       "Supernatural"
     ]
   },
-  "BLEACH: Sennen Kessen-hen": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/bleach-sennen-kessen-hen-b3c63914c7.jpg",
+  "BLEACH: Se": {
+    "title": "BLEACH: Sennen Kessen-hen",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/bleach-sennen-kessen-hen-0a077cb6a3.jpg",
     "Studio": "Studio Pierrot",
     "Source": "Manga",
     "Genres": [
@@ -39,7 +42,8 @@
     ]
   },
   "Blue Lock": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/blue-lock-d81bd759e1.jpg",
+    "title": "Blue Lock",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/blue-lock-f55a184bba.jpg",
     "Studio": "8bit",
     "Source": "Manga",
     "Genres": [
@@ -49,8 +53,9 @@
       "Sports"
     ]
   },
-  "Bocchi the Rock!": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/bocchi-the-rock-2628e8c1a1.jpg",
+  "Bocchi the": {
+    "title": "Bocchi the Rock!",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/bocchi-the-rock-6f8ca9d7d6.jpg",
     "Studio": "CloverWorks",
     "Source": "4-koma Manga",
     "Genres": [
@@ -59,8 +64,9 @@
       "Slice of Life"
     ]
   },
-  "Boku no Hero Academia 6": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/boku-no-hero-academia-6-dc5fda4e95.jpg",
+  "Boku no He": {
+    "title": "Boku no Hero Academia 6",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/boku-no-hero-academia-6-f8da03cdfe.jpg",
     "Studio": "bones",
     "Source": "Manga",
     "Genres": [
@@ -71,8 +77,9 @@
       "Superpower"
     ]
   },
-  "Chainsaw Man": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/chainsaw-man-876a67d3e3.jpg",
+  "Chainsaw M": {
+    "title": "Chainsaw Man",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/chainsaw-man-7832b15cf8.jpg",
     "Studio": "MAPPA",
     "Source": "Manga",
     "Genres": [
@@ -85,7 +92,8 @@
       "Supernatural"
     ]
   },
-  "Cool Doji Danshi": {
+  "Cool Doji ": {
+    "title": "Cool Doji Danshi",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/cool-doji-danshi-42f5bce826.jpg",
     "Studio": "Studio Pierrot",
     "Source": "Manga",
@@ -94,16 +102,17 @@
       "Slice of Life"
     ]
   },
-  "Do It Yourself!!": {
+  "Do It Your": {
+    "title": "Do It Yourself!!",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/do-it-yourself-e69996c07e.jpg",
     "Studio": "Pine Jam",
     "Source": "Original",
     "Genres": [
-      "Comedy",
       "Slice of Life"
     ]
   },
-  "Fumetsu no Anata e 2": {
+  "Fumetsu no": {
+    "title": "Fumetsu no Anata e 2",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/fumetsu-no-anata-e-2-c9a91e9f49.jpg",
     "Studio": "Drive",
     "Source": "Manga",
@@ -115,7 +124,8 @@
       "Supernatural"
     ]
   },
-  "Futoku no Guild": {
+  "Futoku no ": {
+    "title": "Futoku no Guild",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/futoku-no-guild-2a21b953f1.jpg",
     "Studio": "TNK",
     "Source": "Manga",
@@ -127,7 +137,22 @@
       "Shounen"
     ]
   },
-  "Golden Kamuy 4": {
+  "Fuufu Ijou": {
+    "title": "Fuufu Ijou, Koibito Miman.",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/fuufu-ijou-koibito-miman-67709c9826.jpg",
+    "Studio": "Studio Mother",
+    "Source": "Manga",
+    "Genres": [
+      "Comedy",
+      "Drama",
+      "Ecchi",
+      "Romance",
+      "School",
+      "Seinen"
+    ]
+  },
+  "Golden Kam": {
+    "title": "Golden Kamuy 4",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/golden-kamuy-4-bf66b10e3e.jpg",
     "Studio": "Brain's Base",
     "Source": "Manga",
@@ -139,7 +164,20 @@
       "Seinen"
     ]
   },
-  "Kage no Jitsuryokusha ni Naritakute!": {
+  "IDOLiSH7: ": {
+    "title": "IDOLiSH7: Third Beat! Part 2",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/idolish7-third-beat-part-2-7e37eed35f.jpg",
+    "Studio": "TROYCA",
+    "Source": "Video Game",
+    "Genres": [
+      "Comedy",
+      "Drama",
+      "Music",
+      "Shoujo"
+    ]
+  },
+  "Kage no Ji": {
+    "title": "Kage no Jitsuryokusha ni Naritakute!",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kage-no-jitsuryokusha-ni-naritakute-8c2e4e2e09.jpg",
     "Studio": "Nexus",
     "Source": "Light Novel",
@@ -153,7 +191,8 @@
       "School"
     ]
   },
-  "Kantai Collection: KanColle 2": {
+  "Kantai Col": {
+    "title": "Kantai Collection: KanColle 2",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kantai-collection-kancolle-2-0db01fdd7a.jpg",
     "Studio": "ENGI",
     "Source": "Video Game",
@@ -165,7 +204,8 @@
       "Slice of Life"
     ]
   },
-  "Kidou Senshi Gundam: Suisei no Majo": {
+  "Kidou Sens": {
+    "title": "Kidou Senshi Gundam: Suisei no Majo",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/kidou-senshi-gundam-suisei-no-majo-7c77b081ba.jpg",
     "Studio": "Sunrise",
     "Source": "Original",
@@ -177,7 +217,8 @@
       "Space"
     ]
   },
-  "Koukyuu no Karasu": {
+  "Koukyuu no": {
+    "title": "Koukyuu no Karasu",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/koukyuu-no-karasu-96e46aac26.jpg",
     "Studio": "Bandai Namco Pictures",
     "Source": "Light Novel",
@@ -187,7 +228,8 @@
       "Mystery"
     ]
   },
-  "Mairimashita! Iruma-kun 3": {
+  "Mairimashi": {
+    "title": "Mairimashita! Iruma-kun 3",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/mairimashita-iruma-kun-3-53f56be51f.jpg",
     "Studio": "Bandai Namco Pictures",
     "Source": "Manga",
@@ -198,7 +240,8 @@
       "Supernatural"
     ]
   },
-  "Megaton-kyuu Musashi 2": {
+  "Megaton-ky": {
+    "title": "Megaton-kyuu Musashi 2",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/megaton-kyuu-musashi-2-1455d1d62e.jpg",
     "Studio": "OLM",
     "Source": "Original",
@@ -209,7 +252,8 @@
       "Sci-Fi"
     ]
   },
-  "Mob Psycho 100 3": {
+  "Mob Psycho": {
+    "title": "Mob Psycho 100 3",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/mob-psycho-100-3-1efc0f539b.jpg",
     "Studio": "bones",
     "Source": "Web Manga",
@@ -220,7 +264,8 @@
       "Supernatural"
     ]
   },
-  "Mushikaburi-hime": {
+  "Mushikabur": {
+    "title": "Mushikaburi-hime",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/mushikaburi-hime-33ca9bd7ef.jpg",
     "Studio": "MADHOUSE",
     "Source": "Light Novel",
@@ -230,7 +275,8 @@
       "Romance"
     ]
   },
-  "Muv-Luv Alternative 2": {
+  "Muv-Luv Al": {
+    "title": "Muv-Luv Alternative 2",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/muv-luv-alternative-2-6f60159f8f.jpg",
     "Studio": "FLAGSHIP LINE",
     "Source": "Visual Novel",
@@ -242,7 +288,8 @@
       "Sci-Fi"
     ]
   },
-  "Noumin Kanren no Skill Bakka Agetetara Naze ka Tsuyoku Natta.": {
+  "Noumin Kan": {
+    "title": "Noumin Kanren no Skill Bakka Agetetara Naze ka Tsuyoku Natta.",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/noumin-kanren-no-skill-bakka-agetetara-nazeka-tsuyoku-natta-fa72fae325.jpg",
     "Studio": "Studio A-CAT",
     "Source": "Light Novel",
@@ -253,8 +300,9 @@
       "Slice of Life"
     ]
   },
-  "Poputepipikku 2": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/pop-team-epic-2-aa05812ddb.jpg",
+  "Poputepipi": {
+    "title": "Poputepipikku 2",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/pop-team-epic-2-7380a6fedf.jpg",
     "Studio": "Kamikaze Douga",
     "Source": "4-koma Manga",
     "Genres": [
@@ -262,7 +310,19 @@
       "Parody"
     ]
   },
-  "SPY\u00d7FAMILY Part 2": {
+  "Renai Flop": {
+    "title": "Renai Flops",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/renai-flops-0ed06cfc6d.jpg",
+    "Studio": "Passione",
+    "Source": "Original",
+    "Genres": [
+      "Comedy",
+      "Romance",
+      "School"
+    ]
+  },
+  "SPY\u00d7FAMILY": {
+    "title": "SPY\u00d7FAMILY Part 2",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/spy-x-family-part-2-dd414ecf82.jpg",
     "Studio": "CloverWorks",
     "Source": "Manga",
@@ -274,7 +334,8 @@
       "Thriller"
     ]
   },
-  "Seiken Densetsu: Legend of Mana - The Teardrop Crystal": {
+  "Seiken Den": {
+    "title": "Seiken Densetsu: Legend of Mana - The Teardrop Crystal",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/seiken-densetsu-legend-of-mana-the-teardrop-crystal-b6130eb43f.jpg",
     "Studio": "Graphinica",
     "Source": "Video Game",
@@ -283,8 +344,9 @@
       "Fantasy"
     ]
   },
-  "Shinmai Renkinjutsushi no Tenpo Keiei": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shinmai-renkinjutsushi-no-tenpo-keiei-cfd269ea41.jpg",
+  "Shinmai Re": {
+    "title": "Shinmai Renkinjutsushi no Tenpo Keiei",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shinmai-renkinjutsushi-no-tenpo-keiei-33ed2aaa1f.jpg",
     "Studio": "ENGI",
     "Source": "Light Novel",
     "Genres": [
@@ -293,16 +355,18 @@
       "Slice of Life"
     ]
   },
-  "Shinobi no Ittoki": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shinobi-no-ittoki-ab3ce62eb5.jpg",
+  "Shinobi no": {
+    "title": "Shinobi no Ittoki",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/shinobi-no-ittoki-25c11c3b0d.jpg",
     "Studio": "TROYCA",
     "Source": "Original",
     "Genres": [
       "Action"
     ]
   },
-  "Tensei Shitara Ken Deshita": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/tensei-shitara-ken-deshita-b137a81197.jpg",
+  "Tensei Shi": {
+    "title": "Tensei Shitara Ken Deshita",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/tensei-shitara-ken-deshita-64bbfc9f31.jpg",
     "Studio": "C2C",
     "Source": "Light Novel",
     "Genres": [
@@ -312,8 +376,9 @@
       "Isekai"
     ]
   },
-  "Uchi no Shishou wa Shippo ga Nai": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/uchi-no-shishou-wa-shippo-ga-nai-346f67cdbd.jpg",
+  "Uchi no Sh": {
+    "title": "Uchi no Shishou wa Shippo ga Nai",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/uchi-no-shishou-wa-shippo-ga-nai-2332162768.jpg",
     "Studio": "LIDENFILMS",
     "Source": "Manga",
     "Genres": [
@@ -325,7 +390,8 @@
       "Supernatural"
     ]
   },
-  "Urusei Yatsura (2022)": {
+  "Urusei Yat": {
+    "title": "Urusei Yatsura (2022)",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/urusei-yatsura-2022-0aebeff8f4.jpg",
     "Studio": "David Production",
     "Source": "Manga",
@@ -339,7 +405,8 @@
       "Supernatural"
     ]
   },
-  "Uzaki-chan wa Asobitai! \u03c9": {
+  "Uzaki-chan": {
+    "title": "Uzaki-chan wa Asobitai! \u03c9",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/uzaki-chan-wa-asobitai-2-8fdd8ac6ab.jpg",
     "Studio": "ENGI",
     "Source": "Manga",
@@ -350,8 +417,18 @@
       "Slice of Life"
     ]
   },
-  "Yama no Susume: Next Summit": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/yama-no-susume-next-summit-210fba8ea0.jpg",
+  "Vazzrock T": {
+    "title": "Vazzrock The Animation",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/vazzrock-the-animation-206b3d99db.jpg",
+    "Studio": "PRA",
+    "Source": "Music",
+    "Genres": [
+      "Music"
+    ]
+  },
+  "Yama no Su": {
+    "title": "Yama no Susume: Next Summit",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/yama-no-susume-next-summit-eea12b75f1.jpg",
     "Studio": "8bit",
     "Source": "Manga",
     "Genres": [
@@ -360,7 +437,8 @@
       "Slice of Life"
     ]
   },
-  "Yowamushi Pedal: LIMIT BREAK": {
+  "Yowamushi ": {
+    "title": "Yowamushi Pedal: LIMIT BREAK",
     "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/yowamushi-pedal-limit-break-7ae5bf5e7a.jpg",
     "Studio": "TMS Entertainment",
     "Source": "Manga",
@@ -371,11 +449,13 @@
       "Sports"
     ]
   },
-  "Yuusha Party wo Tsuihou Sareta Beast Tamer, Saikyoushu no Nekomimi Shoujo to Deau": {
-    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/yuusha-party-wo-tsuihou-sareta-beast-tamer-saikyoushu-no-nekomimi-shoujo-to-deau-6362e37445.jpg",
+  "Yuusha Par": {
+    "title": "Yuusha Party wo Tsuihou Sareta Beast Tamer, Saikyoushu no Nekomimi Shoujo to Deau",
+    "cover": "https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/yuusha-party-wo-tsuihou-sareta-beast-tamer-saikyoushu-no-nekomimi-shoujo-to-deau-0fc0391f1f.jpg",
     "Studio": "EMT Squared",
     "Source": "Light Novel",
     "Genres": [
+      "Action",
       "Adventure",
       "Fantasy"
     ]

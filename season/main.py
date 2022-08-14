@@ -43,8 +43,14 @@ def main():
             ele.get_attribute("innerText")
             for ele in show.find_elements(By.CLASS_NAME, "anime-tile-genre")
         ]
-        content = {"cover": cover, "Studio": studio, "Source": source, "Genres": genres}
-        shows.update({title: content})
+        content = {
+            "title": title,
+            "cover": cover,
+            "Studio": studio,
+            "Source": source,
+            "Genres": genres,
+        }
+        shows.update({title[0:10]: content})
     driver.quit()
     shows = dict(sorted(shows.items()))
     with open("indent.json", "w", encoding="utf-8") as file:

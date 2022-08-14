@@ -24,8 +24,7 @@ class Season {
     });
   }
 
-  set = async () =>
-    (await fetch('shows/keys.json')).json();
+  set = async () => (await fetch('shows/keys.json')).json();
 
   async init() {
     const div = document.createElement('div');
@@ -43,13 +42,16 @@ class Season {
       content.className = 'show-season';
       const table = document.createElement('table');
       table.className = 'info';
-      const tr = document.createElement('tr');
-      const th = document.createElement('th');
-      th.innerHTML = show;
-      tr.append(th);
-      table.append(tr);
       Object.keys(data[show]).forEach((item) => {
         switch (item) {
+          case 'title': {
+            const tr = document.createElement('tr');
+            const th = document.createElement('th');
+            th.innerHTML = data[show].title;
+            tr.append(th);
+            table.append(tr);
+            break;
+          }
           case 'cover': {
             const cover = document.createElement('div');
             cover.className = 'cover-season';
@@ -87,13 +89,14 @@ class Season {
       const btn = document.createElement('button');
       btn.innerHTML = show in this.list ? 'Remove' : 'Add';
       btn.onclick = (e) => {
-        const title = (<HTMLElement>e.target!).previousElementSibling!
-          .childNodes[0].innerText;
-        if (title in this.list) {
-          delete this.list[title];
+        const key = (<HTMLElement>(
+          e.target!
+        )).previousElementSibling!.childNodes[0].innerText.substring(0, 10);
+        if (key in this.list) {
+          delete this.list[key];
           (<HTMLElement>e.target!).innerHTML = 'Add';
         } else {
-          this.list[title] = null;
+          this.list[key] = null;
           (<HTMLElement>e.target!).innerHTML = 'Remove';
           const temp: { [key: string]: null } = {};
           Object.keys(this.list)
@@ -117,5 +120,5 @@ class Season {
     td.innerHTML = `${item}: ${content}`;
     tr.append(td);
     return tr;
-  }
+  };
 }
