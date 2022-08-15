@@ -12,7 +12,14 @@ const SON = new Season();
 
 window.onload = () => {
   CAL.init().then(() => {
-    new Search(Object.keys({ ...CAL.store, ...CAL.past }));
+    const obj = Object.keys({ ...CAL.store, ...CAL.past });
+    new Search(
+      obj.map((key) =>
+        key in CAL.store
+          ? [key, CAL.store[key].title]
+          : [key, CAL.past[key].title],
+      ),
+    );
   });
   new Streams();
 };

@@ -1,5 +1,5 @@
 class Search {
-  titleList: string[];
+  titleList: string[][];
 
   search: HTMLInputElement;
 
@@ -7,7 +7,7 @@ class Search {
 
   indexLi: number;
 
-  constructor(list: string[]) {
+  constructor(list: string[][]) {
     this.titleList = list.sort();
     this.search = <HTMLInputElement>document.getElementById('search')!;
     this.titles = document.getElementById('titles')!;
@@ -24,14 +24,15 @@ class Search {
           const input = document.getElementById(
             (this.indexLi === 99 ? this.indexLi + 1 : this.indexLi).toString(),
           );
-          if (this.search.value && input) CAL.streamInfo(input.innerText);
+          if (this.search.value && input)
+            CAL.streamInfo(input.attributes.getNamedItem('key')!.value);
           this.search.value = '';
           this.titles.style.display = 'none';
           this.search.blur();
           break;
         }
         case 'Escape':
-          (<HTMLElement>e.target!).blur();
+          (<HTMLElement>e.target).blur();
           break;
         default:
       }
@@ -69,24 +70,26 @@ class Search {
     if (input) {
       this.titles.innerHTML = '';
       this.titleList.forEach((title) => {
-        if (title.toLocaleLowerCase().includes(input.toLocaleLowerCase())) {
+        if (title[1].toLocaleLowerCase().includes(input.toLocaleLowerCase())) {
           const li: HTMLLIElement = document.createElement('li');
-          li.innerHTML = title;
+          [, li.innerHTML] = title;
           li.id = i.toString();
           li.tabIndex = i - 100;
-          /* eslint-disable-next-line no-plusplus */
+          li.setAttribute('key', title[0]);
           i++;
-          li.onclick = (ev) => {
-            CAL.streamInfo((<HTMLElement>ev.target).innerText);
+          li.onclick = (mouse) => {
+            CAL.streamInfo(
+              (<HTMLElement>mouse.target).attributes.getNamedItem('key')!.value,
+            );
             this.search.value = '';
             this.titles.style.display = 'none';
           };
-          li.onmousemove = (ev) => {
-            const ele = <HTMLElement>ev.target
+          li.onmousemove = (mouse) => {
+            const ele = <HTMLElement>mouse.target;
             this.indexLi = Number(ele.id);
             const active = document.querySelector('.active');
             if (active) active.className = '';
-            ele.className = 'active'
+            ele.className = 'active';
           };
           li.oncontextmenu = () => {
             this.titles.style.display = 'none';

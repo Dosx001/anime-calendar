@@ -15,7 +15,7 @@ class Search {
                 case 'Enter': {
                     const input = document.getElementById((this.indexLi === 99 ? this.indexLi + 1 : this.indexLi).toString());
                     if (this.search.value && input)
-                        CAL.streamInfo(input.innerText);
+                        CAL.streamInfo(input.attributes.getNamedItem('key').value);
                     this.search.value = '';
                     this.titles.style.display = 'none';
                     this.search.blur();
@@ -60,19 +60,20 @@ class Search {
         if (input) {
             this.titles.innerHTML = '';
             this.titleList.forEach((title) => {
-                if (title.toLocaleLowerCase().includes(input.toLocaleLowerCase())) {
+                if (title[1].toLocaleLowerCase().includes(input.toLocaleLowerCase())) {
                     const li = document.createElement('li');
-                    li.innerHTML = title;
+                    [, li.innerHTML] = title;
                     li.id = i.toString();
                     li.tabIndex = i - 100;
+                    li.setAttribute('key', title[0]);
                     i++;
-                    li.onclick = (ev) => {
-                        CAL.streamInfo(ev.target.innerText);
+                    li.onclick = (mouse) => {
+                        CAL.streamInfo(mouse.target.attributes.getNamedItem('key').value);
                         this.search.value = '';
                         this.titles.style.display = 'none';
                     };
-                    li.onmousemove = (ev) => {
-                        const ele = ev.target;
+                    li.onmousemove = (mouse) => {
+                        const ele = mouse.target;
                         this.indexLi = Number(ele.id);
                         const active = document.querySelector('.active');
                         if (active)
