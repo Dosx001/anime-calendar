@@ -1,7 +1,6 @@
 "use strict";
 class Season {
     constructor() {
-        this.set = async () => (await fetch('shows/keys.json')).json();
         this.row = (item, content) => {
             const tr = document.createElement('tr');
             const td = document.createElement('td');
@@ -10,17 +9,14 @@ class Season {
             return tr;
         };
         this.list = JSON.parse(localStorage.getItem('season')) ?? {};
-        this.set().then((keys) => {
-            Object.keys(this.list).forEach((title) => {
-                const show = keys[title];
-                if (show) {
-                    CAL.shows[show] = [false, false];
-                    delete this.list[title];
-                    localStorage.setItem('season', JSON.stringify(this.list));
-                }
-            });
-            localStorage.setItem('shows', JSON.stringify(CAL.shows));
+        Object.keys(this.list).forEach((key) => {
+            if (key in CAL.store) {
+                CAL.shows[key] = [false, false];
+                delete this.list[key];
+            }
         });
+        localStorage.setItem('season', JSON.stringify(this.list));
+        localStorage.setItem('shows', JSON.stringify(CAL.shows));
     }
     async init() {
         const div = document.createElement('div');
@@ -31,17 +27,17 @@ class Season {
         let count = 0;
         Object.keys(document.getElementById('list').innerHTML === 'Your List'
             ? data
-            : this.list).forEach((show) => {
+            : this.list).forEach((key) => {
             const content = document.createElement('div');
             content.className = 'show-season';
             const table = document.createElement('table');
             table.className = 'info';
-            Object.keys(data[show]).forEach((item) => {
+            Object.keys(data[key]).forEach((item) => {
                 switch (item) {
                     case 'title': {
                         const tr = document.createElement('tr');
                         const th = document.createElement('th');
-                        th.innerHTML = data[show].title;
+                        th.innerHTML = data[key].title;
                         tr.append(th);
                         table.append(tr);
                         break;
@@ -50,7 +46,7 @@ class Season {
                         const cover = document.createElement('div');
                         cover.className = 'cover-season';
                         const img = document.createElement('img');
-                        img.src = data[show][item];
+                        img.src = data[key][item];
                         img.width = 340;
                         img.height = 440;
                         if (count > 2) {
@@ -74,30 +70,25 @@ class Season {
                         break;
                     }
                     case 'Genres':
-                        table.append(this.row(item, data[show][item].join(', ')));
+                        table.append(this.row(item, data[key][item].join(', ')));
                         break;
                     default:
-                        table.append(this.row(item, data[show][item]));
+                        table.append(this.row(item, data[key][item]));
                 }
             });
             const btn = document.createElement('button');
-            btn.innerHTML = show in this.list ? 'Remove' : 'Add';
+            btn.innerHTML = key in this.list ? 'Remove' : 'Add';
+            btn.setAttribute('key', key);
             btn.onclick = (e) => {
-                const key = (e.target).previousElementSibling.childNodes[0].innerText.substring(0, 10);
-                if (key in this.list) {
-                    delete this.list[key];
+                const btnKey = e.target.attributes.getNamedItem('key').value;
+                if (btnKey in this.list) {
+                    delete this.list[btnKey];
                     e.target.innerHTML = 'Add';
                 }
                 else {
-                    this.list[key] = null;
+                    this.list[btnKey] = data[btnKey].title.substring(0, 10);
                     e.target.innerHTML = 'Remove';
-                    const temp = {};
-                    Object.keys(this.list)
-                        .sort()
-                        .forEach((shw) => {
-                        temp[shw] = null;
-                    });
-                    this.list = temp;
+                    this.list = Object.fromEntries(Object.entries(this.list).sort((a, b) => (a[1] < b[1] ? 0 : 1)));
                 }
                 localStorage.setItem('season', JSON.stringify(this.list));
             };

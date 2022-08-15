@@ -50,9 +50,9 @@ def main():
             "Source": source,
             "Genres": genres,
         }
-        shows.update({title[0:10]: content})
+        shows.update({show.get_attribute("showid"): content})
     driver.quit()
-    shows = dict(sorted(shows.items()))
+    shows = dict(sorted(shows.items(), key=lambda item: item[1]["title"]))
     with open("indent.json", "w", encoding="utf-8") as file:
         dump(shows, file, indent=2)
     with open("shows.json", "w", encoding="utf-8") as file:
