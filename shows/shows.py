@@ -3,7 +3,7 @@ from json import dump, load
 from os import popen, system
 from re import search
 from time import sleep, strftime, strptime
-from typing import TypedDict
+from typing import Optional, TypedDict
 
 from selenium import webdriver
 from selenium.common.exceptions import (NoSuchElementException,
@@ -16,10 +16,12 @@ from selenium.webdriver.remote.webelement import WebElement
 
 
 class ShowType(TypedDict):
+    title: str
     day: int
     time: str
     cover: str
     streams: dict[str, str]
+    status: Optional[bool]
 
 
 class Shows:
@@ -38,8 +40,8 @@ class Shows:
         self.driver.maximize_window()
         with open("shows.json", encoding="utf-8") as file:
             self.shows: dict[str, ShowType] = load(file)
-        with open("keys.json", encoding="utf-8") as file:
-            self.keys: dict[str, str] = load(file)
+        self.num = len(self.shows)
+        self.status = False
         self.static: dict[str, ShowType] = {}
         self.changes: dict[str, ShowType] = {}
         self.new: dict[str, ShowType] = {}
@@ -70,6 +72,7 @@ class Shows:
                     title = show.find_element(
                         By.CLASS_NAME, "show-title-bar"
                     ).get_attribute("innerText")
+                    key = show.get_attribute("showid")
                     time = (
                         show.find_element(By.CLASS_NAME, "show-air-time")
                         .get_attribute("innerText")
@@ -85,6 +88,9 @@ class Shows:
                         for stream in show.find_elements(By.CLASS_NAME, "stream-link")
                     }
                     content = {
+                        "title": self.shows[key]["title"]
+                        if key in self.shows
+                        else title,
                         "day": num,
                         "time": time,
                         "cover": cover,
@@ -94,64 +100,63 @@ class Shows:
                     }
                     if "Netflix" in content["streams"]:
                         content["streams"].pop("Netflix")
-                    if title in self.keys:
-                        if self.shows[self.keys[title]] == content:
-                            self.static.update({title: None})
+                    if key in self.shows:
+                        if self.shows[key] == content:
+                            self.static.update({key: None})
                         else:
-                            self.changes.update({title: content})
+                            self.changes.update({key: content})
                     else:
-                        self.new.update({title: content})
+                        self.new.update({key: content})
 
-    def title(self, show: str) -> str:
-        for stream in self.new[show]["streams"]:
+    def title(self, key: str, new: bool) -> str:
+        data = self.new if new else self.shows
+        for stream in data[key]["streams"]:
             match stream:
                 # Geo Locked
                 # case 'AnimeLab':
                 #    title = self.animelab(self.new[show]['streams'][stream])
                 case "Crunchyroll":
-                    title = self.crunchyroll(self.new[show]["streams"][stream])
+                    title = self.crunchyroll(self.new[key]["streams"][stream])
                 case "Funimation":
-                    title = self.funimation(self.new[show]["streams"][stream])
+                    title = self.funimation(self.new[key]["streams"][stream])
                     if title == "TIME_OUT":
                         continue
                 case "HiDive":
-                    title = self.hidive(self.new[show]["streams"][stream])
+                    title = self.hidive(self.new[key]["streams"][stream])
                 case "Netflix":
-                    title = self.netflix(self.new[show]["streams"][stream])
+                    title = self.netflix(self.new[key]["streams"][stream])
                 case "VRV":
-                    title = self.vrv(self.new[show]["streams"][stream])
+                    title = self.vrv(self.new[key]["streams"][stream])
                 case "Wakanim":
-                    title = self.wakanim(self.new[show]["streams"][stream])
+                    title = self.wakanim(self.new[key]["streams"][stream])
                 case _:
                     continue
             if title:
                 while title != unescape(title):
                     title = unescape(title)
                 return str(title)
-        print(show)
-        title = input("Name: ")
-        if title:
-            return title
-        return show
+        self.status = True
+        return data[key]["title"]
 
     def update(self):
-        if (
-            len(self.changes) != 0
-            or len(self.new) != 0
-            or len(self.static) != len(self.keys)
-        ):
+        if len(self.changes) != 0 or len(self.new) != 0 or len(self.static) != self.num:
             system("cp shows.json past_shows.json")
-            for show in list(self.keys):
-                if show in self.changes:
-                    self.shows[self.keys[show]] = self.changes[show]
-                elif show not in self.static:
-                    self.shows.pop(self.keys.pop(show))
-            for show, info in self.new.items():
-                title = self.title(show)
-                self.shows.update({title: info})
-                self.keys.update({show: title})
-            with open("keys.json", "w", encoding="utf-8") as file:
-                dump(self.keys, file, indent=2)
+            # for key in list(self.shows):
+            #     if key in self.changes:
+            #         self.shows[key] = self.changes[key]
+            for key, data in self.changes.items():
+                if "status" in self.shows[key]:
+                    data["title"] = self.title(key, False)
+                if self.status:
+                    data[key]["status"] = True
+                    self.status = False
+                self.shows[key] = data
+            for key, data in self.new.items():
+                data["title"] = self.title(key, True)
+                if self.status:
+                    data["status"] = True
+                    self.status = False
+                self.shows.update({key: data})
             with open("shows.json", "w", encoding="utf-8") as file:
                 dump(self.shows, file, separators=(",", ":"))
             with open("indent.json", "w", encoding="utf-8") as file:
