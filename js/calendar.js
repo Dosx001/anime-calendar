@@ -182,17 +182,18 @@ class Calendar {
         const data = offset === 0 ? this.store : this.past;
         Object.keys(document.getElementById('list').innerHTML === 'Your List'
             ? data
-            : this.shows).forEach((show) => {
-            if (show in data) {
+            : this.shows).forEach((key) => {
+            if (key in data) {
                 const button = document.createElement('button');
-                button.id = this.ider_show(show);
+                button.id = this.ider_show(key);
                 button.className = 'show';
-                button.innerHTML = show;
-                if (show in this.shows) {
+                button.innerHTML = data[key].title;
+                button.setAttribute('key', key);
+                if (key in this.shows) {
                     button.style.borderColor = '#4f004f';
                     button.style.color = (this.left.style.visibility === 'visible'
-                        ? this.shows[show][0]
-                        : this.shows[show][1])
+                        ? this.shows[key][0]
+                        : this.shows[key][1])
                         ? '#4f4f4f'
                         : 'purple';
                 }
@@ -203,10 +204,10 @@ class Calendar {
                     }
                     else
                         e.preventDefault();
-                    this.streamInfo(e.target.innerText);
+                    this.streamInfo(e.target.attributes.getNamedItem('key').value);
                 };
                 const a = document.createElement('a');
-                const id = this.ider_slot(data[show].day, data[show].time);
+                const id = this.ider_slot(data[key].day, data[key].time);
                 a.href = `#${id}`;
                 a.append(button);
                 document.getElementById(id).append(a);
@@ -311,20 +312,21 @@ class Calendar {
         }
         return output;
     }
-    streamInfo(show) {
-        const data = show in this.store ? this.store : this.past;
+    streamInfo(key) {
+        const data = key in this.store ? this.store : this.past;
         const s = document.getElementById('show');
         if (s)
             s.remove();
         let td = document.createElement('td');
         td.id = 'title';
-        td.innerHTML = show;
+        td.innerHTML = data[key].title;
+        td.setAttribute('key', key);
         let tr = document.createElement('tr');
         tr.append(td);
         const tbody = document.createElement('tbody');
         tbody.append(tr);
         const table = document.createElement('table');
-        if (Object.keys(data[show].streams).length === 0) {
+        if (Object.keys(data[key].streams).length === 0) {
             td = document.createElement('td');
             td.innerHTML = 'No legal stream available';
             tr = document.createElement('tr');
@@ -348,7 +350,7 @@ class Calendar {
             tbody.append(tr);
         }
         else {
-            Object.entries(data[show].streams).forEach(([stream, link], index) => {
+            Object.entries(data[key].streams).forEach(([stream, link], index) => {
                 const img = document.createElement('img');
                 img.className = 'icon';
                 switch (stream) {
@@ -399,7 +401,7 @@ class Calendar {
         const set = document.createElement('button');
         set.className = 'setter';
         set.onclick = () => this.setter();
-        if (show in this.shows) {
+        if (key in this.shows) {
             set.id = 'sub';
             set.innerHTML = 'Remove from Your List';
         }
@@ -412,10 +414,10 @@ class Calendar {
         reset.id = 'reset';
         reset.innerHTML = 'Reset';
         reset.style.visibility =
-            show in this.shows &&
+            key in this.shows &&
                 (this.left.style.visibility === 'visible'
-                    ? this.shows[show][0]
-                    : this.shows[show][1])
+                    ? this.shows[key][0]
+                    : this.shows[key][1])
                 ? 'visible'
                 : 'hidden';
         let output;
@@ -431,7 +433,7 @@ class Calendar {
         }
         else {
             img = document.createElement('img');
-            img.src = data[show].cover;
+            img.src = data[key].cover;
             cover = document.createElement('div');
             cover.className = 'cover';
             cover.append(img);
@@ -518,20 +520,22 @@ class Calendar {
         }
     }
     setter() {
-        const title = document.getElementById('title').innerHTML;
+        const key = document
+            .getElementById('title')
+            .attributes.getNamedItem('key').value;
         const setter = document.querySelector('.setter');
         if (setter.id === 'add') {
-            const ele = document.getElementById(this.ider_show(title));
+            const ele = document.getElementById(this.ider_show(key));
             if (ele)
                 ele.style.borderColor = '#4f004f';
             setter.innerHTML = 'Remove from Your List';
             setter.id = 'sub';
-            this.shows[title] = [false, false];
+            this.shows[key] = [false, false];
         }
-        else if (title in this.shows) {
-            delete this.shows[title];
+        else if (key in this.shows) {
+            delete this.shows[key];
             document.getElementById('reset').style.visibility = 'hidden';
-            document.getElementById(this.ider_show(title)).style.borderColor =
+            document.getElementById(this.ider_show(key)).style.borderColor =
                 '#484848';
             setter.innerHTML = 'Add to Your List';
             setter.id = 'add';
@@ -586,7 +590,7 @@ class Calendar {
     info() {
         localStorage.setItem('info', document.getElementById('info').value);
         if (document.getElementById('title')) {
-            this.streamInfo(document.getElementById('title').innerText);
+            this.streamInfo(document.getElementById('title').attributes.getNamedItem('key').value);
         }
     }
 }
