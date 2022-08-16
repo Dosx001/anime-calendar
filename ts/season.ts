@@ -1,5 +1,5 @@
 interface HTMLImageElement {
-  loading: string;
+  loading: 'lazy' | 'eager';
 }
 
 interface ChildNode {
