@@ -484,10 +484,12 @@ class Calendar {
             window.open(ele.href);
     }
     Stream() {
-        const title = document.getElementById('title').innerHTML;
-        if (title in this.shows) {
-            this.updateSetter(title, true);
-            document.getElementById(this.ider_show(title)).style.color = '#4f4f4f';
+        const key = document
+            .getElementById('title')
+            .attributes.getNamedItem('key').value;
+        if (key in this.shows) {
+            this.updateSetter(key, true);
+            document.getElementById(this.ider_show(key)).style.color = '#4f4f4f';
             document.getElementById('reset').style.visibility = 'visible';
         }
         localStorage.setItem('shows', JSON.stringify(this.shows));
@@ -498,9 +500,11 @@ class Calendar {
             : (this.shows[title][1] = Bool);
     }
     Reset() {
-        const title = document.getElementById('title').innerHTML;
-        this.updateSetter(title, false);
-        document.getElementById(this.ider_show(title)).style.color = 'purple';
+        const key = document
+            .getElementById('title')
+            .attributes.getNamedItem('key').value;
+        this.updateSetter(key, false);
+        document.getElementById(this.ider_show(key)).style.color = 'purple';
         document.getElementById('reset').style.visibility = 'hidden';
         localStorage.setItem('shows', JSON.stringify(this.shows));
     }
