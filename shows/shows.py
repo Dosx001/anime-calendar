@@ -148,7 +148,7 @@ class Shows:
                 if "status" in self.shows[key]:
                     data["title"] = self.title(key, False)
                 if self.status:
-                    data[key]["status"] = True
+                    data["status"] = True
                     self.status = False
                 self.shows[key] = data
             for key, data in self.new.items():
