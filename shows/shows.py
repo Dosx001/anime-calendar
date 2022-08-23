@@ -82,7 +82,7 @@ class Shows:
                         time = time[1::]
                     cover = show.find_element(
                         By.CLASS_NAME, "show-poster"
-                    ).get_attribute("data-src")
+                    ).get_attribute("data-src")[77:-4]
                     streams = {
                         stream.get_attribute("title"): stream.get_attribute("href")
                         for stream in show.find_elements(By.CLASS_NAME, "stream-link")

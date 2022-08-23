@@ -27,7 +27,7 @@ def main():
         )
         cover: str = show.find_element(
             By.CLASS_NAME, "anime-tile-thumbnail"
-        ).get_attribute("src")
+        ).get_attribute("src")[77:-4]
         # while "placeholder" in cover:
         #     cover = show.find_element(By.CLASS_NAME, 'show-poster').get_attribute('src')
         try:

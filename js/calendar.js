@@ -433,7 +433,7 @@ class Calendar {
         }
         else {
             img = document.createElement('img');
-            img.src = data[key].cover;
+            img.src = `https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/${data[key].cover}.jpg`;
             cover = document.createElement('div');
             cover.className = 'cover';
             cover.append(img);

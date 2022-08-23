@@ -46,7 +46,7 @@ class Season {
                         const cover = document.createElement('div');
                         cover.className = 'cover-season';
                         const img = document.createElement('img');
-                        img.src = data[key][item];
+                        img.src = `https://cdn.animeschedule.net/production/assets/public/img/anime/jpg/default/${data[key][item]}.jpg`;
                         img.width = 340;
                         img.height = 440;
                         if (count > 2) {
