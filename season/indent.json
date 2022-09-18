@@ -1,7 +1,7 @@
 {
   "IPyE": {
     "title": "4-nin wa Sorezore Uso wo Tsuku",
-    "cover": "4-nin-wa-sorezore-uso-wo-tsuku-0cceeba6db",
+    "cover": "4-nin-wa-sorezore-uso-wo-tsuku-516cdf5b5c",
     "Studio": "Studio Flad",
     "Source": "Manga",
     "Genres": [
@@ -10,6 +10,13 @@
       "Slice of Life",
       "Supernatural"
     ]
+  },
+  "8ZOX": {
+    "title": "Akiba Maid Sensou",
+    "cover": "akiba-maid-sensou-10023df2ac",
+    "Studio": "P.A. Works",
+    "Source": "Original",
+    "Genres": []
   },
   "g26O": {
     "title": "Akuyaku Reijo nano de Last Boss wo Kattemimashita",
@@ -86,6 +93,18 @@
       "Horror"
     ]
   },
+  "xEFI": {
+    "title": "Cardfight!! Vanguard: will+Dress 2",
+    "cover": "cardfight-vanguard-overdress-season-4-66e0b83f2f",
+    "Studio": "N/A",
+    "Source": "Card Game",
+    "Genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Game"
+    ]
+  },
   "Ms51": {
     "title": "Chainsaw Man",
     "cover": "chainsaw-man-7832b15cf8",
@@ -103,9 +122,9 @@
   },
   "ENcF": {
     "title": "Cool Doji Danshi",
-    "cover": "cool-doji-danshi-42f5bce826",
+    "cover": "cool-doji-danshi-c47e8b32f0",
     "Studio": "Studio Pierrot",
-    "Source": "Manga",
+    "Source": "Web Manga",
     "Genres": [
       "Comedy",
       "Slice of Life"
@@ -131,7 +150,7 @@
   },
   "1zTT": {
     "title": "Fumetsu no Anata e 2",
-    "cover": "fumetsu-no-anata-e-2-c9a91e9f49",
+    "cover": "fumetsu-no-anata-e-2-6c7d617180",
     "Studio": "Drive",
     "Source": "Manga",
     "Genres": [
@@ -144,7 +163,7 @@
   },
   "Nivt": {
     "title": "Futoku no Guild",
-    "cover": "futoku-no-guild-2a21b953f1",
+    "cover": "futoku-no-guild-d8c36cb369",
     "Studio": "TNK",
     "Source": "Manga",
     "Genres": [
@@ -157,7 +176,7 @@
   },
   "2kcR": {
     "title": "Fuufu Ijou, Koibito Miman.",
-    "cover": "fuufu-ijou-koibito-miman-67709c9826",
+    "cover": "fuufu-ijou-koibito-miman-a292e88477",
     "Studio": "Studio Mother",
     "Source": "Manga",
     "Genres": [
@@ -210,8 +229,8 @@
     ]
   },
   "KMhx": {
-    "title": "Kantai Collection: KanColle 2",
-    "cover": "kantai-collection-kancolle-2-0db01fdd7a",
+    "title": "KanColle: Itsuka Ano Umi de",
+    "cover": "kantai-collection-kancolle-2-2cb683179b",
     "Studio": "ENGI",
     "Source": "Video Game",
     "Genres": [
@@ -224,7 +243,7 @@
   },
   "EYkk": {
     "title": "Kidou Senshi Gundam: Suisei no Majo",
-    "cover": "kidou-senshi-gundam-suisei-no-majo-7c77b081ba",
+    "cover": "kidou-senshi-gundam-suisei-no-majo-9a32862c29",
     "Studio": "Sunrise",
     "Source": "Original",
     "Genres": [
@@ -261,7 +280,7 @@
   },
   "4O4o": {
     "title": "Megaton-kyuu Musashi 2",
-    "cover": "megaton-kyuu-musashi-2-1455d1d62e",
+    "cover": "megaton-kyuu-musashi-2-aca3233c91",
     "Studio": "OLM",
     "Source": "Original",
     "Genres": [
@@ -296,7 +315,7 @@
   },
   "wBfj": {
     "title": "Muv-Luv Alternative 2",
-    "cover": "muv-luv-alternative-2-6f60159f8f",
+    "cover": "muv-luv-alternative-2-bb4fb4c808",
     "Studio": "FLAGSHIP LINE",
     "Source": "Visual Novel",
     "Genres": [
@@ -309,7 +328,7 @@
   },
   "MLLV": {
     "title": "Noumin Kanren no Skill Bakka Agetetara Naze ka Tsuyoku Natta.",
-    "cover": "noumin-kanren-no-skill-bakka-agetetara-nazeka-tsuyoku-natta-fa72fae325",
+    "cover": "noumin-kanren-no-skill-bakka-agetetara-nazeka-tsuyoku-natta-fba95f896a",
     "Studio": "Studio A-CAT",
     "Source": "Light Novel",
     "Genres": [
@@ -342,7 +361,7 @@
   },
   "Uuxq": {
     "title": "SPY\u00d7FAMILY Part 2",
-    "cover": "spy-x-family-part-2-dd414ecf82",
+    "cover": "spy-x-family-part-2-5bad91ec16",
     "Studio": "CloverWorks",
     "Source": "Manga",
     "Genres": [
@@ -397,7 +416,7 @@
   },
   "VVn1": {
     "title": "Uchi no Shishou wa Shippo ga Nai",
-    "cover": "uchi-no-shishou-wa-shippo-ga-nai-2332162768",
+    "cover": "uchi-no-shishou-wa-shippo-ga-nai-e1392ac67e",
     "Studio": "LIDENFILMS",
     "Source": "Manga",
     "Genres": [
@@ -426,7 +445,7 @@
   },
   "R8ic": {
     "title": "Uzaki-chan wa Asobitai! \u03c9",
-    "cover": "uzaki-chan-wa-asobitai-2-8fdd8ac6ab",
+    "cover": "uzaki-chan-wa-asobitai-2-1c585282ed",
     "Studio": "ENGI",
     "Source": "Manga",
     "Genres": [

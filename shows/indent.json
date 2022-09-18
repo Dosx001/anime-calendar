@@ -269,7 +269,7 @@
   },
   "ZRub": {
     "title": "Uncle from Another World",
-    "day": 3,
+    "day": 4,
     "time": "7:30 AM",
     "cover": "isekai-ojisan-b982453c58",
     "streams": {}
@@ -691,5 +691,53 @@
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/obey-me"
     }
+  },
+  "lyH8": {
+    "title": "Cyberpunk: Edgerunners",
+    "day": 2,
+    "time": "12:01 AM",
+    "cover": "cyberpunk-edgerunners-69ac624e38",
+    "streams": {},
+    "status": true
+  },
+  "Vt9F": {
+    "title": "Kanojo, Okarishimasu Petit 2",
+    "day": 2,
+    "time": "2:00 AM",
+    "cover": "kanojo-okarishimasu-petit-2-32fd0db19a",
+    "streams": {},
+    "status": true
+  },
+  "QLCJ": {
+    "title": "Yojouhan Time Machine Blues",
+    "day": 3,
+    "time": "12:00 AM",
+    "cover": "yojouhan-time-machine-blues-39cc51953c",
+    "streams": {},
+    "status": true
+  },
+  "kugn": {
+    "title": "Bastard!!: Ankoku no Hakaishin",
+    "day": 4,
+    "time": "12:01 AM",
+    "cover": "bastard-ankoku-no-hakaishin-ona-8b629b4b6f",
+    "streams": {},
+    "status": true
+  },
+  "hTTX": {
+    "title": "Ame wo Tsugeru Hyouryuu Danchi",
+    "day": 5,
+    "time": "12:01 AM",
+    "cover": "ame-wo-tsugeru-hyouryuu-danchi-96c6688b76",
+    "streams": {},
+    "status": true
+  },
+  "DiCt": {
+    "title": "Duel Masters Win",
+    "day": 6,
+    "time": "4:30 PM",
+    "cover": "duel-masters-win-fea3e85dfc",
+    "streams": {},
+    "status": true
   }
 }
