@@ -33,6 +33,16 @@
       "Supernatural"
     ]
   },
+  "nUCA": {
+    "title": "Arknights: Reimei Zensou",
+    "cover": "arknights-reimei-zensou-6a4d68faa8",
+    "Studio": "Yostar Pictures",
+    "Source": "Video Game",
+    "Genres": [
+      "Action",
+      "Fantasy"
+    ]
+  },
   "bZOa": {
     "title": "BLEACH: Sennen Kessen-hen",
     "cover": "bleach-sennen-kessen-hen-0a077cb6a3",
@@ -50,7 +60,7 @@
   },
   "HEEB": {
     "title": "Blue Lock",
-    "cover": "blue-lock-f55a184bba",
+    "cover": "blue-lock-9467921a39",
     "Studio": "8bit",
     "Source": "Manga",
     "Genres": [
@@ -62,7 +72,7 @@
   },
   "thkM": {
     "title": "Bocchi the Rock!",
-    "cover": "bocchi-the-rock-6f8ca9d7d6",
+    "cover": "bocchi-the-rock-4b8254fa6c",
     "Studio": "CloverWorks",
     "Source": "4-koma Manga",
     "Genres": [
@@ -82,6 +92,18 @@
       "School",
       "Shounen",
       "Superpower"
+    ]
+  },
+  "csYX": {
+    "title": "Boku to Roboko",
+    "cover": "boku-to-roboco-e45ad0f197",
+    "Studio": "Studio Gallop",
+    "Source": "Manga",
+    "Genres": [
+      "Comedy",
+      "Sci-Fi",
+      "Shounen",
+      "Slice of Life"
     ]
   },
   "LgVv": {
@@ -190,7 +212,7 @@
   },
   "E8Bx": {
     "title": "Golden Kamuy 4",
-    "cover": "golden-kamuy-4-bf66b10e3e",
+    "cover": "golden-kamuy-4-c1276f66c0",
     "Studio": "Brain's Base",
     "Source": "Manga",
     "Genres": [
@@ -215,7 +237,7 @@
   },
   "9z9M": {
     "title": "Kage no Jitsuryokusha ni Naritakute!",
-    "cover": "kage-no-jitsuryokusha-ni-naritakute-8c2e4e2e09",
+    "cover": "kage-no-jitsuryokusha-ni-naritakute-78981dc7d8",
     "Studio": "Nexus",
     "Source": "Light Novel",
     "Genres": [
@@ -268,7 +290,7 @@
   },
   "ilIu": {
     "title": "Mairimashita! Iruma-kun 3",
-    "cover": "mairimashita-iruma-kun-3-d354deb98c",
+    "cover": "mairimashita-iruma-kun-3-ce7a2a232e",
     "Studio": "Bandai Namco Pictures",
     "Source": "Manga",
     "Genres": [
@@ -350,7 +372,7 @@
   },
   "o2dE": {
     "title": "Renai Flops",
-    "cover": "renai-flops-0ed06cfc6d",
+    "cover": "renai-flops-f7b73bcc2f",
     "Studio": "Passione",
     "Source": "Original",
     "Genres": [
@@ -395,7 +417,7 @@
   },
   "X82N": {
     "title": "Shinobi no Ittoki",
-    "cover": "shinobi-no-ittoki-25c11c3b0d",
+    "cover": "6b1c3af45c",
     "Studio": "TROYCA",
     "Source": "Original",
     "Genres": [
@@ -430,7 +452,7 @@
   },
   "p8OR": {
     "title": "Urusei Yatsura (2022)",
-    "cover": "urusei-yatsura-2022-0aebeff8f4",
+    "cover": "urusei-yatsura-2022-f8e4a37219",
     "Studio": "David Production",
     "Source": "Manga",
     "Genres": [
