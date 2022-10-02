@@ -72,7 +72,7 @@
   },
   "thkM": {
     "title": "Bocchi the Rock!",
-    "cover": "bocchi-the-rock-4b8254fa6c",
+    "cover": "bocchi-the-rock-0345f07686",
     "Studio": "CloverWorks",
     "Source": "4-koma Manga",
     "Genres": [
@@ -142,16 +142,6 @@
       "Supernatural"
     ]
   },
-  "ENcF": {
-    "title": "Cool Doji Danshi",
-    "cover": "cool-doji-danshi-c47e8b32f0",
-    "Studio": "Studio Pierrot",
-    "Source": "Web Manga",
-    "Genres": [
-      "Comedy",
-      "Slice of Life"
-    ]
-  },
   "Ueu6": {
     "title": "Do It Yourself!!",
     "cover": "do-it-yourself-8a3d36eb22",
@@ -212,7 +202,7 @@
   },
   "E8Bx": {
     "title": "Golden Kamuy 4",
-    "cover": "golden-kamuy-4-c1276f66c0",
+    "cover": "golden-kamuy-4-3b4748186a",
     "Studio": "Brain's Base",
     "Source": "Manga",
     "Genres": [
@@ -326,7 +316,7 @@
   },
   "vuUh": {
     "title": "Mushikaburi-hime",
-    "cover": "mushikaburi-hime-33ca9bd7ef",
+    "cover": "mushikaburi-hime-1b2ac4296a",
     "Studio": "MADHOUSE",
     "Source": "Light Novel",
     "Genres": [
@@ -377,8 +367,10 @@
     "Source": "Original",
     "Genres": [
       "Comedy",
+      "Ecchi",
       "Romance",
-      "School"
+      "School",
+      "Sci-Fi"
     ]
   },
   "Uuxq": {
@@ -417,7 +409,7 @@
   },
   "X82N": {
     "title": "Shinobi no Ittoki",
-    "cover": "6b1c3af45c",
+    "cover": "shinobi-no-ittoki-25c11c3b0d",
     "Studio": "TROYCA",
     "Source": "Original",
     "Genres": [
@@ -479,7 +471,7 @@
   },
   "Ssik": {
     "title": "Vazzrock The Animation",
-    "cover": "vazzrock-the-animation-206b3d99db",
+    "cover": "vazzrock-the-animation-4018bdcbcb",
     "Studio": "PRA",
     "Source": "Music",
     "Genres": [

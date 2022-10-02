@@ -3,7 +3,7 @@ from json import dump, load
 from os import popen, system
 from re import search
 from time import sleep, strftime, strptime
-from typing import Optional, TypedDict
+from typing import TypedDict
 
 from selenium import webdriver
 from selenium.common.exceptions import (NoSuchElementException,
@@ -13,6 +13,7 @@ from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.remote.webelement import WebElement
+from typing_extensions import NotRequired
 
 
 class ShowType(TypedDict):
@@ -21,7 +22,7 @@ class ShowType(TypedDict):
     time: str
     cover: str
     streams: dict[str, str]
-    status: Optional[bool]
+    status: NotRequired[bool]
 
 
 class Shows:
@@ -42,7 +43,7 @@ class Shows:
             self.shows: dict[str, ShowType] = load(file)
         self.num = len(self.shows)
         self.status = False
-        self.static: dict[str, ShowType] = {}
+        self.static: dict[str, None] = {}
         self.changes: dict[str, ShowType] = {}
         self.new: dict[str, ShowType] = {}
 
@@ -50,7 +51,6 @@ class Shows:
         show: WebElement
         self.driver.get("https://animeschedule.net")
         self.driver.find_element(By.ID, "timetable-filters-filter-popularity").click()
-        self.driver.refresh()
         for num, day in enumerate(
             [
                 "Monday",
@@ -87,7 +87,7 @@ class Shows:
                         stream.get_attribute("title"): stream.get_attribute("href")
                         for stream in show.find_elements(By.CLASS_NAME, "stream-link")
                     }
-                    content = {
+                    content: ShowType = {
                         "title": self.shows[key]["title"]
                         if key in self.shows
                         else title,
@@ -98,10 +98,11 @@ class Shows:
                             sorted(streams.items(), key=lambda show: show[0])
                         ),
                     }
-                    if "Netflix" in content["streams"]:
-                        content["streams"].pop("Netflix")
                     if key in self.shows:
-                        if self.shows[key] == content:
+                        check = dict(self.shows[key])
+                        if "status" in check:
+                            check.pop("status")
+                        if check == content:
                             self.static.update({key: None})
                         else:
                             self.changes.update({key: content})
@@ -109,26 +110,26 @@ class Shows:
                         self.new.update({key: content})
 
     def title(self, key: str, new: bool) -> str:
-        data = self.new if new else self.shows
+        data = self.new if new else self.changes
         for stream in data[key]["streams"]:
             match stream:
                 # Geo Locked
                 # case 'AnimeLab':
-                #    title = self.animelab(self.new[show]['streams'][stream])
+                #    title = self.animelab(data[show]['streams'][stream])
                 case "Crunchyroll":
-                    title = self.crunchyroll(self.new[key]["streams"][stream])
+                    title = self.crunchyroll(data[key]["streams"][stream])
                 case "Funimation":
-                    title = self.funimation(self.new[key]["streams"][stream])
+                    title = self.funimation(data[key]["streams"][stream])
                     if title == "TIME_OUT":
                         continue
                 case "HiDive":
-                    title = self.hidive(self.new[key]["streams"][stream])
+                    title = self.hidive(data[key]["streams"][stream])
                 case "Netflix":
-                    title = self.netflix(self.new[key]["streams"][stream])
+                    title = self.netflix(data[key]["streams"][stream])
                 case "VRV":
-                    title = self.vrv(self.new[key]["streams"][stream])
+                    title = self.vrv(data[key]["streams"][stream])
                 case "Wakanim":
-                    title = self.wakanim(self.new[key]["streams"][stream])
+                    title = self.wakanim(data[key]["streams"][stream])
                 case _:
                     continue
             if title:
@@ -141,16 +142,16 @@ class Shows:
     def update(self):
         if len(self.changes) != 0 or len(self.new) != 0 or len(self.static) != self.num:
             system("cp shows.json past_shows.json")
-            # for key in list(self.shows):
-            #     if key in self.changes:
-            #         self.shows[key] = self.changes[key]
-            for key, data in self.changes.items():
-                if "status" in self.shows[key]:
-                    data["title"] = self.title(key, False)
-                if self.status:
-                    data["status"] = True
-                    self.status = False
-                self.shows[key] = data
+            for key in list(self.shows):
+                if key in self.changes:
+                    if "status" in self.shows[key]:
+                        self.changes[key]["title"] = self.title(key, False)
+                    if self.status:
+                        self.changes[key]["status"] = True
+                        self.status = False
+                    self.shows[key] = self.changes[key]
+                elif key not in self.static:
+                    self.shows.pop(key)
             for key, data in self.new.items():
                 data["title"] = self.title(key, True)
                 if self.status:
