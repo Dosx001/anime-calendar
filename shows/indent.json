@@ -255,14 +255,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/saint-seiya-knights-of-the-zodiac"
     }
   },
-  "MX7A": {
-    "title": "Yofukashi no Uta Mini",
-    "day": 6,
-    "time": "8:00 AM",
-    "cover": "yofukashi-no-uta-mini-86668f62b4",
-    "streams": {},
-    "status": true
-  },
   "QLCJ": {
     "title": "Yojouhan Time Machine Blues",
     "day": 3,
@@ -320,12 +312,13 @@
     }
   },
   "MLLV": {
-    "title": "Noumin Kanren no Skill Bakka Agetetara Naze ka Tsuyoku Natta.",
+    "title": "I've Somehow Gotten Stronger When I Improved My Farm-Related Skills",
     "day": 6,
-    "time": "6:00 AM",
+    "time": "6:30 AM",
     "cover": "noumin-kanren-no-skill-bakka-agetetara-nazeka-tsuyoku-natta-fba95f896a",
-    "streams": {},
-    "status": true
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/ive-somehow-gotten-stronger-when-i-improved-my-farm-related-skills"
+    }
   },
   "g26O": {
     "title": "I'm the Villainess, So I'm Taming the Final Boss",
@@ -488,15 +481,17 @@
   "Ueu6": {
     "title": "Do It Yourself!!",
     "day": 3,
-    "time": "8:00 AM",
+    "time": "11:00 AM",
     "cover": "do-it-yourself-8a3d36eb22",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/do-it-yourself",
+      "VRV": "https://vrv.co/series/GEXH3W4JP"
+    }
   },
   "xSH1": {
     "title": "Mob Psycho 100",
     "day": 3,
-    "time": "8:00 AM",
+    "time": "9:00 AM",
     "cover": "mob-psycho-100-3-1efc0f539b",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/mob-psycho-100",
@@ -510,24 +505,28 @@
     "cover": "muv-luv-alternative-2-bb4fb4c808",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/muv-luv-alternative",
-      "VRV": "https://vrv.co/series/GVDHX8PP9"
+      "VRV": "https://vrv.co/series/GVDHX8PP9",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1jvxZE-x5NVjJQz3pQquTI"
     }
   },
   "vuUh": {
-    "title": "Mushikaburi-hime",
+    "title": "Bibliophile Princess",
     "day": 4,
-    "time": "5:00 AM",
+    "time": "7:30 AM",
     "cover": "mushikaburi-hime-1b2ac4296a",
-    "streams": {},
-    "status": true
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/bibliophile-princess"
+    }
   },
   "8ZOX": {
-    "title": "Akiba Maid Sensou",
+    "title": "Akiba Maid War",
     "day": 4,
-    "time": "8:00 AM",
+    "time": "9:00 AM",
     "cover": "akiba-maid-sensou-10023df2ac",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/akiba-maid-war",
+      "HiDive": "https://www.hidive.com/tv/akiba-maid-war"
+    }
   },
   "yspp": {
     "title": "TIGER & BUNNY",
@@ -557,7 +556,7 @@
   "ilIu": {
     "title": "Welcome to Demon School! Iruma-kun",
     "day": 6,
-    "time": "2:25 AM",
+    "time": "5:00 AM",
     "cover": "mairimashita-iruma-kun-3-ce7a2a232e",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/welcome-to-demon-school-iruma-kun",
@@ -565,34 +564,73 @@
     }
   },
   "thkM": {
-    "title": "Bocchi the Rock!",
-    "day": 6,
-    "time": "8:00 AM",
-    "cover": "bocchi-the-rock-0345f07686",
-    "streams": {},
-    "status": true
-  },
-  "vy6r": {
-    "title": "Yowamushi Pedal: LIMIT BREAK",
-    "day": 6,
-    "time": "8:00 AM",
-    "cover": "yowamushi-pedal-limit-break-77bc4525da",
-    "streams": {},
-    "status": true
-  },
-  "HEEB": {
-    "title": "Blue Lock",
+    "title": "BOCCHI THE ROCK!",
     "day": 6,
     "time": "9:30 AM",
+    "cover": "bocchi-the-rock-0345f07686",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/bocchi-the-rock",
+      "VRV": "https://vrv.co/series/GXJHM3P19"
+    }
+  },
+  "vy6r": {
+    "title": "Yowamushi Pedal New Generation",
+    "day": 6,
+    "time": "11:30 AM",
+    "cover": "yowamushi-pedal-limit-break-77bc4525da",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/yowamushi-pedal-new-generation",
+      "VRV": "https://vrv.co/series/GRGGVKP4R"
+    }
+  },
+  "HEEB": {
+    "title": "BLUELOCK",
+    "day": 6,
+    "time": "11:00 AM",
     "cover": "blue-lock-9467921a39",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/bluelock",
+      "VRV": "https://vrv.co/series/G4PH0WEKE",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jj17JiCvrOBjnjPjb930O2g"
+    }
   },
   "2kcR": {
-    "title": "Fuufu Ijou, Koibito Miman.",
+    "title": "More than a Married Couple, but Not Lovers.",
     "day": 7,
     "time": "6:00 AM",
     "cover": "fuufu-ijou-koibito-miman-a292e88477",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/more-than-a-married-couple-but-not-lovers",
+      "VRV": "https://vrv.co/series/GJ0H7Q5N3",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jjat3PagSY2J_Z2QvqQBANH"
+    }
+  },
+  "fViL": {
+    "title": "Mamekichi Mameko NEET no Nichijou",
+    "day": 2,
+    "time": "7:45 PM",
+    "cover": "mamekichi-mameko-neet-no-nichijou-0ca92e4805",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLipXal3ZZgwSTehBee1umRxK59MgLRxUL"
+    },
+    "status": true
+  },
+  "PeXi": {
+    "title": "The Human Crazy University",
+    "day": 3,
+    "time": "6:00 AM",
+    "cover": "human-bug-daigaku-58b4737d40",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM5GQ",
+      "VRV": "https://vrv.co/series/G0XHWM5GQ",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jid3nlFTN73VlO6UDFPIr4_"
+    }
+  },
+  "9JeT": {
+    "title": "Blue Lock: Additional Time!",
+    "day": 6,
+    "time": "10:00 AM",
+    "cover": "blue-lock-additional-time-7648a3495c",
     "streams": {},
     "status": true
   }

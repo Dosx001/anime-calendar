@@ -148,6 +148,7 @@
     "Studio": "Pine Jam",
     "Source": "Original",
     "Genres": [
+      "Comedy",
       "Slice of Life"
     ]
   },
@@ -182,8 +183,7 @@
       "Comedy",
       "Ecchi",
       "Fantasy",
-      "Harem",
-      "Shounen"
+      "Harem"
     ]
   },
   "2kcR": {
@@ -213,6 +213,15 @@
       "Seinen"
     ]
   },
+  "PeXi": {
+    "title": "Human Bug Daigaku",
+    "cover": "human-bug-daigaku-58b4737d40",
+    "Studio": "DLE",
+    "Source": "Web Manga",
+    "Genres": [
+      "Comedy"
+    ]
+  },
   "sGLU": {
     "title": "IDOLiSH7: Third Beat! Part 2",
     "cover": "idolish7-third-beat-part-2-7e37eed35f",
@@ -234,10 +243,8 @@
       "Action",
       "Comedy",
       "Fantasy",
-      "Harem",
       "Isekai",
-      "Magic",
-      "School"
+      "Magic"
     ]
   },
   "KMhx": {
@@ -290,11 +297,21 @@
       "Supernatural"
     ]
   },
+  "fViL": {
+    "title": "Mamekichi Mameko NEET no Nichijou",
+    "cover": "mamekichi-mameko-neet-no-nichijou-0ca92e4805",
+    "Studio": "Tezuka Productions",
+    "Source": "Web Manga",
+    "Genres": [
+      "Comedy",
+      "Slice of Life"
+    ]
+  },
   "4O4o": {
     "title": "Megaton-kyuu Musashi 2",
-    "cover": "megaton-kyuu-musashi-2-aca3233c91",
+    "cover": "megaton-kyuu-musashi-2-7ebdfa5925",
     "Studio": "OLM",
-    "Source": "Original",
+    "Source": "Other",
     "Genres": [
       "Action",
       "Mecha",
@@ -303,7 +320,7 @@
     ]
   },
   "xSH1": {
-    "title": "Mob Psycho 100 3",
+    "title": "Mob Psycho 100 III",
     "cover": "mob-psycho-100-3-1efc0f539b",
     "Studio": "bones",
     "Source": "Web Manga",
@@ -352,7 +369,7 @@
   },
   "gDyx": {
     "title": "Poputepipikku 2",
-    "cover": "pop-team-epic-2-7380a6fedf",
+    "cover": "pop-team-epic-2-4cd529b2c8",
     "Studio": "Kamikaze Douga",
     "Source": "4-koma Manga",
     "Genres": [
@@ -382,8 +399,8 @@
       "Action",
       "Comedy",
       "Shounen",
-      "Supernatural",
-      "Thriller"
+      "Slice of Life",
+      "Supernatural"
     ]
   },
   "hlCD": {
@@ -425,7 +442,8 @@
       "Action",
       "Adventure",
       "Fantasy",
-      "Isekai"
+      "Isekai",
+      "Magic"
     ]
   },
   "VVn1": {
