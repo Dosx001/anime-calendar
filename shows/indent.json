@@ -207,17 +207,6 @@
       "VRV": "https://vrv.co/series/G3KHEVPWE"
     }
   },
-  "jLUR": {
-    "title": "The Maid I Hired Recently Is Mysterious",
-    "day": 6,
-    "time": "11:45 AM",
-    "cover": "saikin-yatotta-maid-ga-ayashii-c3b12c6f30",
-    "streams": {
-      "Crunchyroll": "https://crunchyroll.com/series/GG5H5X092/the-maid-i-hired-recently-is-mysterious",
-      "VRV": "https://vrv.co/series/GG5H5X092/The-Maid-I-Hired-Recently-Is-Mysterious",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JiKuzXZzJVByt6rGYFkJwxA"
-    }
-  },
   "ml2D": {
     "title": "stars*collection",
     "day": 5,
@@ -385,7 +374,7 @@
   "Bmlm": {
     "title": "Beast Tamer",
     "day": 6,
-    "time": "6:30 AM",
+    "time": "8:00 AM",
     "cover": "yuusha-party-wo-tsuihou-sareta-beast-tamer-saikyoushu-no-nekomimi-shoujo-to-deau-0fc0391f1f",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/beast-tamer",
@@ -494,8 +483,11 @@
     "time": "9:00 AM",
     "cover": "mob-psycho-100-3-1efc0f539b",
     "streams": {
+      "Amazon": "https://www.primevideo.com/detail/0N85HJJ4D1R183RJQN4G1G07WB",
       "Crunchyroll": "https://www.crunchyroll.com/mob-psycho-100",
-      "VRV": "https://vrv.co/series/GY190DKQR"
+      "Hulu": "https://www.hulu.com/series/fc9b8130-e1e3-420b-b28d-a72f0b235069",
+      "VRV": "https://vrv.co/series/GY190DKQR",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2VGzbi1867Ucw0vJzRfXYU"
     }
   },
   "wBfj": {
@@ -528,15 +520,6 @@
       "HiDive": "https://www.hidive.com/tv/akiba-maid-war"
     }
   },
-  "yspp": {
-    "title": "TIGER & BUNNY",
-    "day": 5,
-    "time": "12:01 AM",
-    "cover": "tiger-and-bunny-2-part-2-fc27fb34bc",
-    "streams": {
-      "Netflix": "https://www.netflix.com/title/80039972"
-    }
-  },
   "4O4o": {
     "title": "Megaton-kyuu Musashi 2",
     "day": 5,
@@ -546,12 +529,14 @@
     "status": true
   },
   "hlCD": {
-    "title": "Seiken Densetsu: Legend of Mana - The Teardrop Crystal",
+    "title": "Legend of Mana -The Teardrop Crystal-",
     "day": 5,
-    "time": "9:25 AM",
+    "time": "11:15 AM",
     "cover": "seiken-densetsu-legend-of-mana-the-teardrop-crystal-b6130eb43f",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/legend-of-mana-the-teardrop-crystal-",
+      "VRV": "https://vrv.co/series/G9VHN91ZP"
+    }
   },
   "ilIu": {
     "title": "Welcome to Demon School! Iruma-kun",
@@ -560,7 +545,8 @@
     "cover": "mairimashita-iruma-kun-3-ce7a2a232e",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/welcome-to-demon-school-iruma-kun",
-      "VRV": "https://vrv.co/series/G6NVG970Y"
+      "VRV": "https://vrv.co/series/G6NVG970Y",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3qq9KSn9zKK_DpaXxSxiKA"
     }
   },
   "thkM": {
@@ -597,7 +583,7 @@
   "2kcR": {
     "title": "More than a Married Couple, but Not Lovers.",
     "day": 7,
-    "time": "6:00 AM",
+    "time": "7:00 AM",
     "cover": "fuufu-ijou-koibito-miman-a292e88477",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/more-than-a-married-couple-but-not-lovers",
@@ -618,7 +604,7 @@
   "PeXi": {
     "title": "The Human Crazy University",
     "day": 3,
-    "time": "6:00 AM",
+    "time": "6:30 AM",
     "cover": "human-bug-daigaku-58b4737d40",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM5GQ",
@@ -631,6 +617,61 @@
     "day": 6,
     "time": "10:00 AM",
     "cover": "blue-lock-additional-time-7648a3495c",
+    "streams": {},
+    "status": true
+  },
+  "bZOa": {
+    "title": "Bleach: Thousand-Year Blood War",
+    "day": 1,
+    "time": "8:30 AM",
+    "cover": "bleach-sennen-kessen-hen-0a077cb6a3",
+    "streams": {
+      "Hulu": "https://www.hulu.com/series/bleach-thousand-year-blood-war-02a3c8c0-4f1d-4610-bbb4-5b8e9468d7b1",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jg3pUga3XbHeMfWLXRMGVQY"
+    }
+  },
+  "Ms51": {
+    "title": "Chainsaw Man",
+    "day": 2,
+    "time": "9:00 AM",
+    "cover": "chainsaw-man-7832b15cf8",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhfvHiWN-djJjCOjW8rxA6p"
+    },
+    "status": true
+  },
+  "o2dE": {
+    "title": "Love Flops",
+    "day": 3,
+    "time": "9:05 AM",
+    "cover": "renai-flops-f7b73bcc2f",
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/love-flops"
+    }
+  },
+  "efiA": {
+    "title": "exception",
+    "day": 4,
+    "time": "12:01 AM",
+    "cover": "exception-1aab485f30",
+    "streams": {
+      "Netflix": "https://www.netflix.com/exception"
+    },
+    "status": true
+  },
+  "p8OR": {
+    "title": "Urusei Yatsura (2022)",
+    "day": 4,
+    "time": "8:55 AM",
+    "cover": "urusei-yatsura-2022-f8e4a37219",
+    "streams": {},
+    "status": true
+  },
+  "IPyE": {
+    "title": "4-nin wa Sorezore Uso wo Tsuku",
+    "day": 6,
+    "time": "10:00 AM",
+    "cover": "4-nin-wa-sorezore-uso-wo-tsuku-516cdf5b5c",
     "streams": {},
     "status": true
   }
