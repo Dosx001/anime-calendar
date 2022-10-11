@@ -35,6 +35,12 @@ class TestList(unittest.TestCase):
         title = self.shw.hidive("https://www.hidive.com/tv/non-non-biyori-nonstop")
         self.assertEqual(title, "Non Non Biyori Nonstop")
 
+    def test_hulu(self):
+        title = self.shw.hulu(
+            "https://www.hulu.com/series/bleach-thousand-year-blood-war-02a3c8c0-4f1d-4610-bbb4-5b8e9468d7b1"
+        )
+        self.assertEqual(title, "Bleach: Thousand-Year Blood War")
+
     def test_netflix(self):
         title = self.shw.netflix("https://www.netflix.com/title/80050063")
         self.assertEqual(title, "The Seven Deadly Sins")

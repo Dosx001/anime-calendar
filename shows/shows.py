@@ -124,6 +124,8 @@ class Shows:
                         continue
                 case "HiDive":
                     title = self.hidive(data[key]["streams"][stream])
+                case "Hulu":
+                    title = self.hulu(data[key]["streams"][stream])
                 case "Netflix":
                     title = self.netflix(data[key]["streams"][stream])
                 case "VRV":
@@ -258,6 +260,12 @@ class Shows:
             if "title" in line:
                 return line[35:-14]
         return None
+
+    def hulu(self, url: str) -> str | None:
+        self.driver.get(url)
+        return self.driver.find_element(By.NAME, "twitter:title").get_property(
+            "content"
+        )
 
     def netflix(self, url: str) -> str | None:
         title = []
