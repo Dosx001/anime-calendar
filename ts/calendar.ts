@@ -10,8 +10,8 @@ Date.prototype.getWeek = function fn() {
   date.setDate(date.getDate() - date.getDay());
   return Math.ceil(
     (date.valueOf() - new Date(date.getFullYear(), 0, 1).valueOf()) /
-      86400000 /
-      7,
+    86400000 /
+    7,
   );
 };
 
@@ -110,8 +110,8 @@ class Calendar {
       dates[0].getMonth() === dates[6].getMonth()
         ? dates[0].toLocaleDateString('en-US', { month: 'long' })
         : `${dates[0].toLocaleDateString('en-US', {
-            month: 'long',
-          })} to ${dates[6].toLocaleDateString('en-US', { month: 'long' })}`;
+          month: 'long',
+        })} to ${dates[6].toLocaleDateString('en-US', { month: 'long' })}`;
     let td = document.createElement('td');
     td.className = 'date corner';
     let tr = document.createElement('tr');
@@ -189,13 +189,13 @@ class Calendar {
   ider_slot = (day: number, time: string) =>
     time.substring(1, 2) === ':'
       ? day * 10000 +
-        Number(time.substring(0, 1)) * 100 +
-        Number(time.substring(2, 4)) +
-        time.substring(5, 6)
+      Number(time.substring(0, 1)) * 100 +
+      Number(time.substring(2, 4)) +
+      time.substring(5, 6)
       : day * 10000 +
-        Number(time.substring(0, 2)) * 100 +
-        Number(time.substring(3, 5)) +
-        time.substring(6, 7);
+      Number(time.substring(0, 2)) * 100 +
+      Number(time.substring(3, 5)) +
+      time.substring(6, 7);
 
   ider_show = (title: string) => {
     const words = title.split(' ');
@@ -351,7 +351,7 @@ class Calendar {
     if (cal) {
       cal.style.height =
         (<HTMLSelectElement>document.getElementById('info')!).value === '0' &&
-        document.getElementById('show')
+          document.getElementById('show')
           ? '38vh'
           : '85vh';
     }
@@ -397,23 +397,26 @@ class Calendar {
         const img = document.createElement('img');
         img.className = 'icon';
         switch (stream) {
+          case 'Amazon':
+            img.src = 'assets/amazon.svg';
+            break;
+          case 'AnimeLab':
+            img.src = 'assets/animelab.svg';
+            break;
           case 'Crunchyroll':
             img.src = 'assets/crunchyroll.svg';
             break;
           case 'Funimation':
             img.src = 'assets/funimation.svg';
             break;
-          case 'VRV':
-            img.src = 'assets/vrv.svg';
-            break;
-          case 'AnimeLab':
-            img.src = 'assets/animelab.svg';
+          case 'HiDive':
+            img.src = 'assets/hidive.svg';
             break;
           case 'Hulu':
             img.src = 'assets/hulu.svg';
             break;
-          case 'HiDive':
-            img.src = 'assets/hidive.svg';
+          case 'VRV':
+            img.src = 'assets/vrv.svg';
             break;
           case 'Wakanim':
             img.src = 'assets/wakanim.svg';
@@ -457,9 +460,9 @@ class Calendar {
     reset.innerHTML = 'Reset';
     reset.style.visibility =
       key in this.shows &&
-      (this.left.style.visibility === 'visible'
-        ? this.shows[key][0]
-        : this.shows[key][1])
+        (this.left.style.visibility === 'visible'
+          ? this.shows[key][0]
+          : this.shows[key][1])
         ? 'visible'
         : 'hidden';
     let output: HTMLElement;

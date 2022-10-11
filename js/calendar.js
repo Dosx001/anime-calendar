@@ -354,23 +354,26 @@ class Calendar {
                 const img = document.createElement('img');
                 img.className = 'icon';
                 switch (stream) {
+                    case 'Amazon':
+                        img.src = 'assets/amazon.svg';
+                        break;
+                    case 'AnimeLab':
+                        img.src = 'assets/animelab.svg';
+                        break;
                     case 'Crunchyroll':
                         img.src = 'assets/crunchyroll.svg';
                         break;
                     case 'Funimation':
                         img.src = 'assets/funimation.svg';
                         break;
-                    case 'VRV':
-                        img.src = 'assets/vrv.svg';
-                        break;
-                    case 'AnimeLab':
-                        img.src = 'assets/animelab.svg';
+                    case 'HiDive':
+                        img.src = 'assets/hidive.svg';
                         break;
                     case 'Hulu':
                         img.src = 'assets/hulu.svg';
                         break;
-                    case 'HiDive':
-                        img.src = 'assets/hidive.svg';
+                    case 'VRV':
+                        img.src = 'assets/vrv.svg';
                         break;
                     case 'Wakanim':
                         img.src = 'assets/wakanim.svg';
