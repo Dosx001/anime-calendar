@@ -46,17 +46,17 @@ def main():
         content = {
             "title": title,
             "cover": cover,
-            "Studio": studio,
-            "Source": source,
-            "Genres": genres,
+            "studio": studio,
+            "source": source,
+            "genres": genres,
         }
         shows.update({show.get_attribute("showid"): content})
-    driver.quit()
     shows = dict(sorted(shows.items(), key=lambda item: item[1]["title"]))
     with open("indent.json", "w", encoding="utf-8") as file:
         dump(shows, file, indent=2)
     with open("shows.json", "w", encoding="utf-8") as file:
         dump(shows, file, separators=(",", ":"))
+    driver.quit()
 
 
 if __name__ == "__main__":

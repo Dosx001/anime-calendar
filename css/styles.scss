@@ -17,6 +17,9 @@ button,
 .stream {
   @extend %buttons;
 }
+td::first-letter {
+  text-transform: capitalize;
+}
 .active {
   background: $DarkPurple;
   cursor: pointer;

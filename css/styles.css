@@ -183,6 +183,10 @@ aside #title {
   line-height: 2rem;
 }
 
+td::first-letter {
+  text-transform: capitalize;
+}
+
 .active {
   background: #27002b;
   cursor: pointer;

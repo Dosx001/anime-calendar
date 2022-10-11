@@ -74,7 +74,7 @@ class Season {
             content.append(cover);
             break;
           }
-          case 'Genres':
+          case 'genres':
             table.append(this.row(item, data[key][item].join(', ')));
             break;
           default:
