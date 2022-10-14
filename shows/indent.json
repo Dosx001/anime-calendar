@@ -424,7 +424,7 @@
   "X82N": {
     "title": "Shinobi no Ittoki",
     "day": 2,
-    "time": "7:00 AM",
+    "time": "6:00 AM",
     "cover": "shinobi-no-ittoki-25c11c3b0d",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/shinobi-no-ittoki",
@@ -636,9 +636,11 @@
     "time": "9:00 AM",
     "cover": "chainsaw-man-7832b15cf8",
     "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/chainsaw-man",
+      "Hulu": "https://www.hulu.com/series/chainsaw-man-7b71b5a4-560b-4d8b-98c4-c5dee6004c21",
+      "VRV": "https://vrv.co/series/GVDHX8QNW",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhfvHiWN-djJjCOjW8rxA6p"
-    },
-    "status": true
+    }
   },
   "o2dE": {
     "title": "Love Flops",
@@ -660,18 +662,27 @@
     "status": true
   },
   "p8OR": {
-    "title": "Urusei Yatsura (2022)",
+    "title": "Urusei Yatsura",
     "day": 4,
-    "time": "8:55 AM",
+    "time": "10:30 AM",
     "cover": "urusei-yatsura-2022-f8e4a37219",
-    "streams": {},
-    "status": true
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/urusei-yatsura"
+    }
   },
   "IPyE": {
     "title": "4-nin wa Sorezore Uso wo Tsuku",
     "day": 6,
     "time": "10:00 AM",
     "cover": "4-nin-wa-sorezore-uso-wo-tsuku-516cdf5b5c",
+    "streams": {},
+    "status": true
+  },
+  "kyDf": {
+    "title": "Shinmai Renkinjutsushi no Tenpo Keiei Mini Anime",
+    "day": 5,
+    "time": "2:00 AM",
+    "cover": "shinmai-renkinjutsushi-no-tenpo-keiei-mini-anime-5b5b955d80",
     "streams": {},
     "status": true
   }
