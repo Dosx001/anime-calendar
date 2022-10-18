@@ -196,17 +196,6 @@
     "cover": "chibi-maruko-chan-1995-3c8b73a56f",
     "streams": {}
   },
-  "B2Lj": {
-    "title": "Love Live! Superstar!!",
-    "day": 1,
-    "time": "6:00 PM",
-    "cover": "love-live-superstar-2-f7b9b1b27c",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEVPWE",
-      "Funimation": "https://www.funimation.com/shows/love-live-superstar/",
-      "VRV": "https://vrv.co/series/G3KHEVPWE"
-    }
-  },
   "ml2D": {
     "title": "stars*collection",
     "day": 5,
@@ -224,33 +213,6 @@
     "streams": {
       "YouTube": "https://www.youtube.com/playlist?list=PLb7AOG3cj7UyJfqsfXpvL2LUVdg0dOK7q"
     }
-  },
-  "5G2w": {
-    "title": "FUUTO PI",
-    "day": 7,
-    "time": "9:00 AM",
-    "cover": "fuuto-tantei-ee19f21cac",
-    "streams": {
-      "Crunchyroll": "https://crunchyroll.com/series/GMEHMEWK0",
-      "VRV": "https://vrv.co/series/GMEHMEWK0"
-    }
-  },
-  "oQcj": {
-    "title": "Knights of the Zodiac: Saint Seiya Battle for Sanctuary",
-    "day": 7,
-    "time": "1:01 PM",
-    "cover": "knights-of-the-zodiac-saint-seiya-battle-for-sanctuary-00af503b2e",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/saint-seiya-knights-of-the-zodiac"
-    }
-  },
-  "QLCJ": {
-    "title": "Yojouhan Time Machine Blues",
-    "day": 3,
-    "time": "12:00 AM",
-    "cover": "yojouhan-time-machine-blues-39cc51953c",
-    "streams": {},
-    "status": true
   },
   "DiCt": {
     "title": "Duel Masters Win",
@@ -459,7 +421,7 @@
   },
   "Ssik": {
     "title": "VAZZROCK THE ANIMATION",
-    "day": 3,
+    "day": 2,
     "time": "7:30 AM",
     "cover": "vazzrock-the-animation-4018bdcbcb",
     "streams": {
@@ -576,6 +538,7 @@
     "cover": "blue-lock-9467921a39",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/bluelock",
+      "Netflix": "https://www.netflix.com/title/81640753",
       "VRV": "https://vrv.co/series/G4PH0WEKE",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jj17JiCvrOBjnjPjb930O2g"
     }
@@ -612,14 +575,6 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jid3nlFTN73VlO6UDFPIr4_"
     }
   },
-  "9JeT": {
-    "title": "Blue Lock: Additional Time!",
-    "day": 6,
-    "time": "10:00 AM",
-    "cover": "blue-lock-additional-time-7648a3495c",
-    "streams": {},
-    "status": true
-  },
   "bZOa": {
     "title": "Bleach: Thousand-Year Blood War",
     "day": 1,
@@ -651,16 +606,6 @@
       "HiDive": "https://www.hidive.com/tv/love-flops"
     }
   },
-  "efiA": {
-    "title": "exception",
-    "day": 4,
-    "time": "12:01 AM",
-    "cover": "exception-1aab485f30",
-    "streams": {
-      "Netflix": "https://www.netflix.com/exception"
-    },
-    "status": true
-  },
   "p8OR": {
     "title": "Urusei Yatsura",
     "day": 4,
@@ -673,10 +618,11 @@
   "IPyE": {
     "title": "The Little Lies We All Tell",
     "day": 6,
-    "time": "10:00 AM",
+    "time": "11:45 AM",
     "cover": "4-nin-wa-sorezore-uso-wo-tsuku-516cdf5b5c",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/the-little-lies-we-all-tell"
+      "Crunchyroll": "https://www.crunchyroll.com/the-little-lies-we-all-tell",
+      "VRV": "https://vrv.co/series/G5PHNM7NG"
     }
   },
   "kyDf": {
@@ -685,6 +631,26 @@
     "time": "2:00 AM",
     "cover": "shinmai-renkinjutsushi-no-tenpo-keiei-mini-anime-5b5b955d80",
     "streams": {},
+    "status": true
+  },
+  "1zTT": {
+    "title": "To Your Eternity",
+    "day": 7,
+    "time": "3:00 AM",
+    "cover": "fumetsu-no-anata-e-2-6c7d617180",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/to-your-eternity",
+      "VRV": "https://vrv.co/series/GG5H5XMWV"
+    }
+  },
+  "FmvZ": {
+    "title": "Umayuru",
+    "day": 7,
+    "time": "5:00 AM",
+    "cover": "umayuru-542782abcd",
+    "streams": {
+      "YouTube": "https://www.youtube.com/watch?v=Q6ur7-o_YdI&list=PLzFNGS7Rcf-NQHlzyeN_TL_xsvKThT7hz&index=2"
+    },
     "status": true
   }
 }
