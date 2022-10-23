@@ -217,8 +217,8 @@ class Shows:
         self.driver.get(url)
         try:
             return (
-                self.driver.find_element(By.CLASS_NAME, "ch-left")
-                .find_element(By.TAG_NAME, "span")
+                self.driver.find_element(By.CLASS_NAME, "hero-heading-line")
+                .find_element(By.TAG_NAME, "h1")
                 .text
             )
         except NoSuchElementException:
