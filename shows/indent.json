@@ -1,15 +1,4 @@
 {
-  "hXZ9": {
-    "title": "Dragon Quest: The Adventure of Dai",
-    "day": 5,
-    "time": "7:00 PM",
-    "cover": "dragon-quest-dai-no-daibouken-2020-da3cc5015f",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/dragon-quest-the-adventure-of-dai",
-      "Hulu": "https://www.hulu.com/series/dragon-quest-the-adventure-of-dai-33732b5e-eac3-4c6e-a467-8ae8b9a393cf",
-      "VRV": "https://vrv.co/series/GYXM79M56/Dragon-Quest-The-Adventure-of-Dai"
-    }
-  },
   "Kyep": {
     "title": "Case Closed",
     "day": 6,
@@ -170,15 +159,6 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2mjV_pl9Dr_QTcn1nmNvB1"
     }
   },
-  "JVrH": {
-    "title": "SHINEPOST",
-    "day": 2,
-    "time": "10:30 AM",
-    "cover": "shine-post-3b8ad012f0",
-    "streams": {
-      "HiDive": "https://www.hidive.com/tv/shinepost"
-    }
-  },
   "wlR1": {
     "title": "Utawarerumono Mask of Truth",
     "day": 6,
@@ -290,6 +270,7 @@
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/spy-x-family",
       "Hulu": "https://www.hulu.com/series/spy-x-family-65d158d4-443f-44c7-bd2c-eae39f6c60e9",
+      "Netflix": "https://www.netflix.com/title/81511410",
       "VRV": "https://vrv.co/series/G4PH0WXVJ",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1wGMYg5oB3uEns0CZNl6sI"
     }
@@ -313,14 +294,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/pop-team-epic",
       "VRV": "https://vrv.co/series/G69P1K90Y"
     }
-  },
-  "LgVv": {
-    "title": "C Danchi",
-    "day": 6,
-    "time": "9:00 PM",
-    "cover": "c-danchi-bcd1542ae3",
-    "streams": {},
-    "status": true
   },
   "EYkk": {
     "title": "Mobile Suit Gundam: The Witch from Mercury",
@@ -581,6 +554,7 @@
     "time": "8:30 AM",
     "cover": "bleach-sennen-kessen-hen-0a077cb6a3",
     "streams": {
+      "Amazon": "https://www.primevideo.com/detail/0U0SHH4OQIO8SD6GXYWX93N24X",
       "Hulu": "https://www.hulu.com/series/bleach-thousand-year-blood-war-02a3c8c0-4f1d-4610-bbb4-5b8e9468d7b1",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jg3pUga3XbHeMfWLXRMGVQY"
     }
@@ -651,6 +625,31 @@
     "streams": {
       "YouTube": "https://www.youtube.com/watch?v=Q6ur7-o_YdI&list=PLzFNGS7Rcf-NQHlzyeN_TL_xsvKThT7hz&index=2"
     },
+    "status": true
+  },
+  "SnYc": {
+    "title": "Jongtama PONG\u2606 Special",
+    "day": 2,
+    "time": "5:00 PM",
+    "cover": "jongtama-pong-special-8019c37ecd",
+    "streams": {},
+    "status": true
+  },
+  "z6bg": {
+    "title": "Romantic Killer",
+    "day": 4,
+    "time": "12:01 AM",
+    "cover": "romantic-killer-c22cbff703",
+    "streams": {
+      "Netflix": "https://www.netflix.com/title/81318888"
+    }
+  },
+  "nUCA": {
+    "title": "Arknights: Reimei Zensou",
+    "day": 5,
+    "time": "9:23 AM",
+    "cover": "arknights-reimei-zensou-6a4d68faa8",
+    "streams": {},
     "status": true
   }
 }

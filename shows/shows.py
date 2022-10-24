@@ -263,7 +263,7 @@ class Shows:
 
     def hulu(self, url: str) -> str | None:
         self.driver.get(url)
-        return self.driver.find_element(By.NAME, "twitter:title").get_property(
+        return self.driver.find_element(By.NAME, "twitter:title").get_attribute(
             "content"
         )
 
