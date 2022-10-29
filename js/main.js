@@ -3,7 +3,7 @@ document.getElementById('info').selectedIndex = Number(localStorage.getItem('inf
 document.getElementById('format').selectedIndex = Number(localStorage.getItem('format'));
 document.getElementById('list').innerHTML =
     localStorage.getItem('list') ?? 'Your List';
-const CAL = new Calendar('22.3.9');
+const CAL = new Calendar('22.3.10');
 const SON = new Season();
 window.onload = () => {
     CAL.init().then(() => {

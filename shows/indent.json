@@ -639,17 +639,18 @@
     "title": "Romantic Killer",
     "day": 4,
     "time": "12:01 AM",
-    "cover": "romantic-killer-c22cbff703",
+    "cover": "romantic-killer-b75f411481",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81318888"
     }
   },
   "nUCA": {
-    "title": "Arknights: Reimei Zensou",
+    "title": "Arknights: PRELUDE TO DAWN",
     "day": 5,
-    "time": "9:23 AM",
+    "time": "11:45 AM",
     "cover": "arknights-reimei-zensou-6a4d68faa8",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5X3VN/arknights-prelude-to-dawn"
+    }
   }
 }

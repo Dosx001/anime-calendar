@@ -22,15 +22,6 @@
       "Supernatural"
     ]
   },
-  "LFXd": {
-    "title": "BIRDIE WING: Golf Girls' Story 2",
-    "cover": "birdie-wing-golf-girls-story-2-877ec1488a",
-    "studio": "Bandai Namco Pictures",
-    "source": "Original",
-    "genres": [
-      "Sports"
-    ]
-  },
   "1u6t": {
     "title": "Benriya Saitou-san, Isekai ni Iku",
     "cover": "benriya-saitou-san-isekai-ni-iku-5534deb5a8",
@@ -46,7 +37,7 @@
   },
   "mBbU": {
     "title": "Buddy Daddies",
-    "cover": "poster-21fa193001",
+    "cover": "buddy-daddies-b0e0b19d27",
     "studio": "P.A. Works",
     "source": "Original",
     "genres": [
@@ -93,7 +84,7 @@
   },
   "WpgV": {
     "title": "Eiyuu-ou, Bu wo Kiwameru Tame Tenseisu: Soshite, Sekai Saikyou no Minarai Kishi\u2640",
-    "cover": "eiyuu-ou-bu-wo-kiwameru-tame-tenseisu-soshite-sekai-saikyou-no-minarai-kishi-f4cd16081b",
+    "cover": "eiyuu-ou-bu-wo-kiwameru-tame-tenseisu-soshite-sekai-saikyou-no-minarai-kishi-016d45eab8",
     "studio": "Studio Comet",
     "source": "Light Novel",
     "genres": [
@@ -127,7 +118,7 @@
   },
   "KOvw": {
     "title": "Ijiranaide, Nagatoro-san 2nd Attack",
-    "cover": "ijiranaide-nagatoro-san-2-35fca2765c",
+    "cover": "ijiranaide-nagatoro-san-2-222b94021a",
     "studio": "OLM",
     "source": "Manga",
     "genres": [
@@ -277,7 +268,7 @@
   },
   "qGJD": {
     "title": "Mou Ippon!",
-    "cover": "mou-ippon-bd0d4c7d39",
+    "cover": "mou-ippon-3dafff4fb9",
     "studio": "BAKKEN RECORD",
     "source": "Manga",
     "genres": [
@@ -409,6 +400,18 @@
       "Drama",
       "Mystery",
       "Romance"
+    ]
+  },
+  "omco": {
+    "title": "Sugar Apple Fairy Tale",
+    "cover": "sugar-apple-fairy-tale-cfb730549f",
+    "studio": "J.C. Staff",
+    "source": "Light Novel",
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Romance",
+      "Shoujo"
     ]
   },
   "WStF": {
