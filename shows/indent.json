@@ -60,7 +60,7 @@
   "1C3r": {
     "title": "Sazae-san",
     "day": 7,
-    "time": "2:30 AM",
+    "time": "1:30 AM",
     "cover": "sazae-san-162010bbcb",
     "streams": {}
   },
@@ -88,14 +88,14 @@
   "eGsT": {
     "title": "PazuDora",
     "day": 7,
-    "time": "2:00 AM",
+    "time": "1:00 AM",
     "cover": "pazudora-ca05e64b75",
     "streams": {}
   },
   "w52p": {
     "title": "BORUTO: NARUTO NEXT GENERATIONS",
     "day": 7,
-    "time": "2:00 AM",
+    "time": "1:00 AM",
     "cover": "boruto-naruto-next-generations-1d7870bd9d",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/boruto-naruto-next-generations",
@@ -172,7 +172,7 @@
   "PC6r": {
     "title": "Chibi Maruko-chan",
     "day": 7,
-    "time": "2:00 AM",
+    "time": "1:00 AM",
     "cover": "chibi-maruko-chan-1995-3c8b73a56f",
     "streams": {}
   },
@@ -188,7 +188,7 @@
   "dzBo": {
     "title": "Holo no Graffiti",
     "day": 7,
-    "time": "2:01 AM",
+    "time": "1:01 AM",
     "cover": "holo-no-graffiti-95cd497081",
     "streams": {
       "YouTube": "https://www.youtube.com/playlist?list=PLb7AOG3cj7UyJfqsfXpvL2LUVdg0dOK7q"
@@ -298,7 +298,7 @@
   "EYkk": {
     "title": "Mobile Suit Gundam: The Witch from Mercury",
     "day": 7,
-    "time": "2:30 AM",
+    "time": "1:30 AM",
     "cover": "kidou-senshi-gundam-suisei-no-majo-9a32862c29",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/mobile-suit-gundam-the-witch-from-mercury",
@@ -320,7 +320,7 @@
   "sGLU": {
     "title": "IDOLiSH7",
     "day": 7,
-    "time": "7:30 AM",
+    "time": "6:30 AM",
     "cover": "idolish7-third-beat-part-2-7e37eed35f",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/idolish7",
@@ -519,7 +519,7 @@
   "2kcR": {
     "title": "More than a Married Couple, but Not Lovers.",
     "day": 7,
-    "time": "7:00 AM",
+    "time": "6:00 AM",
     "cover": "fuufu-ijou-koibito-miman-a292e88477",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/more-than-a-married-couple-but-not-lovers",
@@ -610,7 +610,7 @@
   "1zTT": {
     "title": "To Your Eternity",
     "day": 7,
-    "time": "5:30 AM",
+    "time": "4:30 AM",
     "cover": "fumetsu-no-anata-e-2-6c7d617180",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/to-your-eternity",
@@ -620,37 +620,28 @@
   "FmvZ": {
     "title": "Umayuru",
     "day": 7,
-    "time": "5:00 AM",
+    "time": "4:00 AM",
     "cover": "umayuru-542782abcd",
     "streams": {
       "YouTube": "https://www.youtube.com/watch?v=Q6ur7-o_YdI&list=PLzFNGS7Rcf-NQHlzyeN_TL_xsvKThT7hz&index=2"
     },
     "status": true
   },
-  "SnYc": {
-    "title": "Jongtama PONG\u2606 Special",
-    "day": 2,
-    "time": "5:00 PM",
-    "cover": "jongtama-pong-special-8019c37ecd",
-    "streams": {},
-    "status": true
-  },
-  "z6bg": {
-    "title": "Romantic Killer",
-    "day": 4,
-    "time": "12:01 AM",
-    "cover": "romantic-killer-b75f411481",
-    "streams": {
-      "Netflix": "https://www.netflix.com/title/81318888"
-    }
-  },
   "nUCA": {
     "title": "Arknights: PRELUDE TO DAWN",
     "day": 5,
-    "time": "11:45 AM",
+    "time": "10:00 AM",
     "cover": "arknights-reimei-zensou-6a4d68faa8",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5X3VN/arknights-prelude-to-dawn"
     }
+  },
+  "KMhx": {
+    "title": "KanColle: Itsuka Ano Umi de",
+    "day": 4,
+    "time": "8:30 AM",
+    "cover": "kantai-collection-kancolle-2-2cb683179b",
+    "streams": {},
+    "status": true
   }
 }

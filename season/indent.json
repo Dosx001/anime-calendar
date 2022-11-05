@@ -130,7 +130,7 @@
   },
   "A7bJ": {
     "title": "Inu ni Nattara Suki na Hito ni Hirowareta,",
-    "cover": "inu-ni-nattara-suki-na-hito-ni-hirowareta-fc4921cbd4",
+    "cover": "inu-ni-nattara-suki-na-hito-ni-hirowareta-148374311c",
     "studio": "Quad",
     "source": "Web Manga",
     "genres": [
@@ -344,7 +344,7 @@
   },
   "Pocg": {
     "title": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken",
-    "cover": "otonari-no-tenshi-sama-ni-itsunomanika-dame-ningen-ni-sareteita-ken-134de5a7f0",
+    "cover": "otonari-no-tenshi-sama-ni-itsunomanika-dame-ningen-ni-sareteita-ken-8fa98e4fc0",
     "studio": "project No.9",
     "source": "Light Novel",
     "genres": [
@@ -414,6 +414,15 @@
       "Shoujo"
     ]
   },
+  "bltx": {
+    "title": "TECHNOROID: OVERMIND",
+    "cover": "technoroid-overmind-ecdfe41213",
+    "studio": "Doga Kobo",
+    "source": "Other",
+    "genres": [
+      "Music"
+    ]
+  },
   "WStF": {
     "title": "TRIGUN STAMPEDE",
     "cover": "trigun-stampede-b636b14a0a",
@@ -442,7 +451,7 @@
   },
   "MLqR": {
     "title": "Tokyo Revengers: Seiya Kessen-hen",
-    "cover": "tokyo-revengers-seiya-kessen-hen-57bb072214",
+    "cover": "tokyo-revengers-seiya-kessen-hen-22a004ac8c",
     "studio": "LIDENFILMS",
     "source": "Manga",
     "genres": [
@@ -464,6 +473,18 @@
       "Romance",
       "School",
       "Slice of Life"
+    ]
+  },
+  "UEpU": {
+    "title": "Tondemo Skill de Isekai Hourou Meshi",
+    "cover": "tondemo-skill-de-isekai-hourou-meshi-b704fecc71",
+    "studio": "MAPPA",
+    "source": "Light Novel",
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Fantasy",
+      "Isekai"
     ]
   },
   "Dhcb": {
