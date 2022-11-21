@@ -82,6 +82,19 @@
       "Romance"
     ]
   },
+  "KF9c": {
+    "title": "Eiyuu Densetsu: Sen no Kiseki",
+    "cover": "eiyuu-densetsu-sen-no-kiseki-ea4c4b4dba",
+    "studio": "Tatsunoko Production",
+    "source": "Video Game",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Military",
+      "School"
+    ]
+  },
   "WpgV": {
     "title": "Eiyuu-ou, Bu wo Kiwameru Tame Tenseisu: Soshite, Sekai Saikyou no Minarai Kishi\u2640",
     "cover": "eiyuu-ou-bu-wo-kiwameru-tame-tenseisu-soshite-sekai-saikyou-no-minarai-kishi-016d45eab8",
@@ -100,6 +113,7 @@
     "studio": "Studio Hibari",
     "source": "Other",
     "genres": [
+      "Action",
       "Game"
     ]
   },
@@ -173,7 +187,6 @@
     "source": "Light Novel",
     "genres": [
       "Fantasy",
-      "Harem",
       "Slice of Life"
     ]
   },
@@ -264,6 +277,17 @@
       "Magic",
       "Romance",
       "School"
+    ]
+  },
+  "cqeX": {
+    "title": "Mononogatari",
+    "cover": "mononogatari-3775023828",
+    "studio": "Bandai Namco Pictures",
+    "source": "Manga",
+    "genres": [
+      "Action",
+      "Seinen",
+      "Supernatural"
     ]
   },
   "qGJD": {

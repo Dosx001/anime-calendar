@@ -26,7 +26,7 @@
   "EU8P": {
     "title": "Pok\u00e9mon Journeys: The Series",
     "day": 5,
-    "time": "2:55 AM",
+    "time": "1:55 AM",
     "cover": "pokemon-2019-41ff46b39d",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81193140",
@@ -36,14 +36,14 @@
   "NAVE": {
     "title": "Doraemon (2005)",
     "day": 5,
-    "time": "3:00 AM",
+    "time": "2:00 AM",
     "cover": "doraemon-2005-371cbec0f6",
     "streams": {}
   },
   "ATJM": {
     "title": "Crayon Shin-chan",
     "day": 5,
-    "time": "3:30 AM",
+    "time": "2:30 AM",
     "cover": "crayon-shin-chan-dc430f9db0",
     "streams": {}
   },
@@ -67,21 +67,14 @@
   "iM69": {
     "title": "Youkai Watch \u266a",
     "day": 5,
-    "time": "2:25 AM",
+    "time": "1:25 AM",
     "cover": "youkai-watch-2021-1da5821743",
-    "streams": {}
-  },
-  "nW7u": {
-    "title": "Shimajirou no Wow!",
-    "day": 5,
-    "time": "4:30 PM",
-    "cover": "shimajirou-no-wow-4b0c1cf53c",
     "streams": {}
   },
   "ziMS": {
     "title": "Ninjala",
     "day": 5,
-    "time": "6:30 PM",
+    "time": "5:30 PM",
     "cover": "ninjala-c19a7f2bbe",
     "streams": {}
   },
@@ -95,7 +88,7 @@
   "w52p": {
     "title": "BORUTO: NARUTO NEXT GENERATIONS",
     "day": 7,
-    "time": "1:00 AM",
+    "time": "2:00 AM",
     "cover": "boruto-naruto-next-generations-1d7870bd9d",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/boruto-naruto-next-generations",
@@ -114,13 +107,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/delicious-party-pretty-cure"
     }
   },
-  "6FtL": {
-    "title": "Motto! Majime ni Fumajime Kaiketsu Zorori 3rd Season",
-    "day": 3,
-    "time": "3:00 AM",
-    "cover": "motto-majime-ni-fumajime-kaiketsu-zorori-3rd-season-4aa7b21f1f",
-    "streams": {}
-  },
   "aTnu": {
     "title": "Shadowverse",
     "day": 5,
@@ -134,14 +120,14 @@
   "wrIz": {
     "title": "Yu\u2606Gi\u2606Oh! Go Rush!!",
     "day": 6,
-    "time": "3:30 PM",
+    "time": "2:30 PM",
     "cover": "yu-gi-oh-go-rush-9ca7d7e015",
     "streams": {}
   },
   "ZRub": {
     "title": "Uncle from Another World",
     "day": 4,
-    "time": "7:30 AM",
+    "time": "6:30 AM",
     "cover": "isekai-ojisan-b982453c58",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81499847"
@@ -179,7 +165,7 @@
   "ml2D": {
     "title": "stars*collection",
     "day": 5,
-    "time": "3:01 AM",
+    "time": "2:01 AM",
     "cover": "stars-collection-53af3b195a",
     "streams": {
       "YouTube": "https://www.youtube.com/playlist?list=PLNQov5ZpSSWclbG0Rvs-CDWqybmOKNbhO"
@@ -197,7 +183,7 @@
   "DiCt": {
     "title": "Duel Masters Win",
     "day": 6,
-    "time": "4:30 PM",
+    "time": "3:30 PM",
     "cover": "duel-masters-win-9876734893",
     "streams": {},
     "status": true
@@ -205,7 +191,7 @@
   "KL5q": {
     "title": "Reincarnated as a Sword",
     "day": 3,
-    "time": "7:30 AM",
+    "time": "6:30 AM",
     "cover": "tensei-shitara-ken-deshita-64bbfc9f31",
     "streams": {
       "HiDive": "https://www.hidive.com/tv/reincarnated-as-a-sword"
@@ -214,7 +200,7 @@
   "VVn1": {
     "title": "My Master Has No Tail",
     "day": 5,
-    "time": "7:30 AM",
+    "time": "6:30 AM",
     "cover": "uchi-no-shishou-wa-shippo-ga-nai-e1392ac67e",
     "streams": {
       "HiDive": "https://www.hidive.com/tv/my-master-has-no-tail",
@@ -228,6 +214,7 @@
     "cover": "boku-no-hero-academia-6-f8da03cdfe",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/my-hero-academia",
+      "Funimation": "https://www.funimation.com/shows/my-hero-academia",
       "Hulu": "https://www.hulu.com/series/my-hero-academia-b4859a95-39ba-4051-a550-256c42e70a1d",
       "VRV": "https://vrv.co/series/G6NQ5DWZ6"
     }
@@ -239,13 +226,14 @@
     "cover": "uzaki-chan-wa-asobitai-2-1c585282ed",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/uzaki-chan-wants-to-hang-out",
+      "Funimation": "https://www.funimation.com/shows/uzaki-chan-wants-to-hang-out/",
       "VRV": "https://vrv.co/series/GNVHKN7KZ"
     }
   },
   "MLLV": {
     "title": "I've Somehow Gotten Stronger When I Improved My Farm-Related Skills",
     "day": 6,
-    "time": "6:30 AM",
+    "time": "5:30 AM",
     "cover": "noumin-kanren-no-skill-bakka-agetetara-nazeka-tsuyoku-natta-fba95f896a",
     "streams": {
       "HiDive": "https://www.hidive.com/tv/ive-somehow-gotten-stronger-when-i-improved-my-farm-related-skills"
@@ -292,13 +280,14 @@
     "cover": "pop-team-epic-2-4cd529b2c8",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/pop-team-epic",
+      "Funimation": "https://www.funimation.com/shows/pop-team-epic/",
       "VRV": "https://vrv.co/series/G69P1K90Y"
     }
   },
   "EYkk": {
     "title": "Mobile Suit Gundam: The Witch from Mercury",
     "day": 7,
-    "time": "1:30 AM",
+    "time": "3:30 AM",
     "cover": "kidou-senshi-gundam-suisei-no-majo-9a32862c29",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/mobile-suit-gundam-the-witch-from-mercury",
@@ -320,7 +309,7 @@
   "sGLU": {
     "title": "IDOLiSH7",
     "day": 7,
-    "time": "6:30 AM",
+    "time": "7:30 AM",
     "cover": "idolish7-third-beat-part-2-7e37eed35f",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/idolish7",
@@ -330,7 +319,7 @@
   "cSFe": {
     "title": "Legend of the Galactic Heroes: Die Neue These",
     "day": 4,
-    "time": "4:01 PM",
+    "time": "4:00 PM",
     "cover": "ginga-eiyuu-densetsu-die-neue-these-sakubou-1-440d0a6f4e",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/legend-of-the-galactic-heroes-die-neue-these",
@@ -340,20 +329,10 @@
   "349v": {
     "title": "Management of a Novice Alchemist",
     "day": 1,
-    "time": "6:00 AM",
+    "time": "5:00 AM",
     "cover": "shinmai-renkinjutsushi-no-tenpo-keiei-33ed2aaa1f",
     "streams": {
       "HiDive": "https://www.hidive.com/tv/management-of-a-novice-alchemist"
-    }
-  },
-  "E8Bx": {
-    "title": "Golden Kamuy",
-    "day": 1,
-    "time": "8:00 AM",
-    "cover": "golden-kamuy-4-3b4748186a",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/golden-kamuy",
-      "VRV": "https://vrv.co/series/GY8DWQN5Y"
     }
   },
   "X82N": {
@@ -369,7 +348,7 @@
   "KgKt": {
     "title": "Encouragement of Climb: Next Summit",
     "day": 2,
-    "time": "9:00 AM",
+    "time": "8:00 AM",
     "cover": "yama-no-susume-next-summit-eea12b75f1",
     "streams": {
       "HiDive": "https://www.hidive.com/tv/encouragement-of-climb-next-summit"
@@ -378,7 +357,7 @@
   "Nivt": {
     "title": "Futoku no Guild",
     "day": 3,
-    "time": "7:30 AM",
+    "time": "6:30 AM",
     "cover": "futoku-no-guild-d8c36cb369",
     "streams": {},
     "status": true
@@ -386,7 +365,7 @@
   "9z9M": {
     "title": "The Eminence in Shadow",
     "day": 3,
-    "time": "7:30 AM",
+    "time": "6:30 AM",
     "cover": "kage-no-jitsuryokusha-ni-naritakute-78981dc7d8",
     "streams": {
       "HiDive": "https://www.hidive.com/tv/the-eminence-in-shadow"
@@ -439,7 +418,7 @@
   "vuUh": {
     "title": "Bibliophile Princess",
     "day": 4,
-    "time": "7:30 AM",
+    "time": "6:30 AM",
     "cover": "mushikaburi-hime-1b2ac4296a",
     "streams": {
       "HiDive": "https://www.hidive.com/tv/bibliophile-princess"
@@ -458,7 +437,7 @@
   "4O4o": {
     "title": "Megaton-kyuu Musashi 2",
     "day": 5,
-    "time": "6:00 AM",
+    "time": "5:00 AM",
     "cover": "megaton-kyuu-musashi-2-7ebdfa5925",
     "streams": {},
     "status": true
@@ -475,7 +454,7 @@
   },
   "ilIu": {
     "title": "Welcome to Demon School! Iruma-kun",
-    "day": 6,
+    "day": 1,
     "time": "5:00 AM",
     "cover": "mairimashita-iruma-kun-3-ce7a2a232e",
     "streams": {
@@ -519,7 +498,7 @@
   "2kcR": {
     "title": "More than a Married Couple, but Not Lovers.",
     "day": 7,
-    "time": "6:00 AM",
+    "time": "7:00 AM",
     "cover": "fuufu-ijou-koibito-miman-a292e88477",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/more-than-a-married-couple-but-not-lovers",
@@ -530,7 +509,7 @@
   "fViL": {
     "title": "Mamekichi Mameko NEET no Nichijou",
     "day": 2,
-    "time": "7:45 PM",
+    "time": "6:45 PM",
     "cover": "mamekichi-mameko-neet-no-nichijou-0ca92e4805",
     "streams": {
       "YouTube": "https://www.youtube.com/playlist?list=PLipXal3ZZgwSTehBee1umRxK59MgLRxUL"
@@ -551,7 +530,7 @@
   "bZOa": {
     "title": "Bleach: Thousand-Year Blood War",
     "day": 1,
-    "time": "8:30 AM",
+    "time": "7:30 AM",
     "cover": "bleach-sennen-kessen-hen-0a077cb6a3",
     "streams": {
       "Amazon": "https://www.primevideo.com/detail/0U0SHH4OQIO8SD6GXYWX93N24X",
@@ -574,7 +553,7 @@
   "o2dE": {
     "title": "Love Flops",
     "day": 3,
-    "time": "9:05 AM",
+    "time": "8:05 AM",
     "cover": "renai-flops-f7b73bcc2f",
     "streams": {
       "HiDive": "https://www.hidive.com/tv/love-flops"
@@ -583,7 +562,7 @@
   "p8OR": {
     "title": "Urusei Yatsura",
     "day": 4,
-    "time": "10:30 AM",
+    "time": "9:30 AM",
     "cover": "urusei-yatsura-2022-f8e4a37219",
     "streams": {
       "HiDive": "https://www.hidive.com/tv/urusei-yatsura"
@@ -602,7 +581,7 @@
   "kyDf": {
     "title": "Shinmai Renkinjutsushi no Tenpo Keiei Mini Anime",
     "day": 5,
-    "time": "2:00 AM",
+    "time": "1:00 AM",
     "cover": "shinmai-renkinjutsushi-no-tenpo-keiei-mini-anime-5b5b955d80",
     "streams": {},
     "status": true
@@ -610,7 +589,7 @@
   "1zTT": {
     "title": "To Your Eternity",
     "day": 7,
-    "time": "4:30 AM",
+    "time": "5:30 AM",
     "cover": "fumetsu-no-anata-e-2-6c7d617180",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/to-your-eternity",
@@ -637,11 +616,13 @@
     }
   },
   "KMhx": {
-    "title": "KanColle: Itsuka Ano Umi de",
+    "title": "KanColle",
     "day": 4,
-    "time": "8:30 AM",
+    "time": "9:30 AM",
     "cover": "kantai-collection-kancolle-2-2cb683179b",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GYJQVX726/kancolle",
+      "VRV": "https://vrv.co/series/GYJQVX726"
+    }
   }
 }
