@@ -216,11 +216,7 @@ class Shows:
     def crunchyroll(self, url: str) -> str | None:
         self.driver.get(url)
         try:
-            return (
-                self.driver.find_element(By.CLASS_NAME, "hero-heading-line")
-                .find_element(By.TAG_NAME, "h1")
-                .text
-            )
+            return self.driver.find_element(By.CLASS_NAME, "hero-heading-line").text
         except NoSuchElementException:
             with open("pass.txt", encoding="utf-8") as file:
                 keys = file.readline().split()
@@ -230,11 +226,9 @@ class Shows:
             self.driver.find_element(By.ID, "login_submit_button").click()
             while True:
                 try:
-                    text = (
-                        self.driver.find_element(By.CLASS_NAME, "hero-heading-line")
-                        .find_element(By.TAG_NAME, "h1")
-                        .text
-                    )
+                    text = self.driver.find_element(
+                        By.CLASS_NAME, "hero-heading-line"
+                    ).text
                     self.driver.find_element(
                         By.CLASS_NAME, "erc-authenticated-user-menu"
                     ).click()
@@ -256,16 +250,20 @@ class Shows:
         return None
 
     def hidive(self, url: str) -> str | None:
-        for line in self.get_data(url):
-            if "title" in line:
-                return line[35:-14]
-        return None
+        self.driver.get(url)
+        text = (
+            self.driver.find_element(By.ID, "showInfoPage")
+            .find_element(By.TAG_NAME, "a")
+            .get_property("text")
+        )
+        return text if isinstance(text, str) else None
 
     def hulu(self, url: str) -> str | None:
         self.driver.get(url)
-        return self.driver.find_element(By.NAME, "twitter:title").get_attribute(
-            "content"
-        )
+        self.driver.find_element(By.CLASS_NAME, "nav__items").find_elements(
+            By.TAG_NAME, "a"
+        )[2].click()
+        return self.driver.find_element(By.CLASS_NAME, "CollectionDetails__title").text
 
     def netflix(self, url: str) -> str | None:
         title = []

@@ -32,8 +32,8 @@ class TestList(unittest.TestCase):
         self.assertEqual(title, "The Detective Is Already Dead")
 
     def test_hidive(self):
-        title = self.shw.hidive("https://www.hidive.com/tv/non-non-biyori-nonstop")
-        self.assertEqual(title, "Non Non Biyori Nonstop")
+        title = self.shw.hidive("https://www.hidive.com/movies/tamako-love-story-")
+        self.assertEqual(title, "Tamako-love story-")
 
     def test_hulu(self):
         title = self.shw.hulu(
