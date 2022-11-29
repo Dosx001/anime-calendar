@@ -127,7 +127,7 @@
   "ZRub": {
     "title": "Uncle from Another World",
     "day": 4,
-    "time": "6:30 AM",
+    "time": "5:30 AM",
     "cover": "isekai-ojisan-b982453c58",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81499847"
@@ -454,7 +454,7 @@
   },
   "ilIu": {
     "title": "Welcome to Demon School! Iruma-kun",
-    "day": 1,
+    "day": 6,
     "time": "5:00 AM",
     "cover": "mairimashita-iruma-kun-3-ce7a2a232e",
     "streams": {
@@ -624,5 +624,22 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GYJQVX726/kancolle",
       "VRV": "https://vrv.co/series/GYJQVX726"
     }
+  },
+  "d3f4": {
+    "title": "JoJo's Bizarre Adventure",
+    "day": 4,
+    "time": "12:00 AM",
+    "cover": "jojo-no-kimyou-na-bouken-stone-ocean-part-3-1b81ba2c3e",
+    "streams": {
+      "Netflix": "https://www.netflix.com/title/80179831"
+    }
+  },
+  "csYX": {
+    "title": "Boku to Roboko",
+    "day": 7,
+    "time": "7:30 AM",
+    "cover": "boku-to-roboco-e45ad0f197",
+    "streams": {},
+    "status": true
   }
 }

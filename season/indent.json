@@ -37,7 +37,7 @@
   },
   "mBbU": {
     "title": "Buddy Daddies",
-    "cover": "buddy-daddies-b0e0b19d27",
+    "cover": "buddy-daddies-a934908bf4",
     "studio": "P.A. Works",
     "source": "Original",
     "genres": [
@@ -97,7 +97,7 @@
   },
   "WpgV": {
     "title": "Eiyuu-ou, Bu wo Kiwameru Tame Tenseisu: Soshite, Sekai Saikyou no Minarai Kishi\u2640",
-    "cover": "eiyuu-ou-bu-wo-kiwameru-tame-tenseisu-soshite-sekai-saikyou-no-minarai-kishi-016d45eab8",
+    "cover": "eiyuu-ou-bu-wo-kiwameru-tame-tenseisu-soshite-sekai-saikyou-no-minarai-kishi-62f0a1841b",
     "studio": "Studio Comet",
     "source": "Light Novel",
     "genres": [
@@ -109,7 +109,7 @@
   },
   "DqSs": {
     "title": "HIGH CARD",
-    "cover": "high-card-9d69860f1a",
+    "cover": "high-card-cd6d62178b",
     "studio": "Studio Hibari",
     "source": "Other",
     "genres": [
@@ -182,7 +182,7 @@
   },
   "nCzU": {
     "title": "Kaiko Sareta Ankoku Heishi (30-dai) no Slow na Second Life",
-    "cover": "kaiko-sareta-ankoku-heishi-30-dai-no-slow-na-second-life-0e0ebadb81",
+    "cover": "kaiko-sareta-ankoku-heishi-30-dai-no-slow-na-second-life-17843ac985",
     "studio": "Encourage Films",
     "source": "Light Novel",
     "genres": [
@@ -192,7 +192,7 @@
   },
   "uUOP": {
     "title": "Kami-tachi ni Hirowareta Otoko 2",
-    "cover": "kami-tachi-ni-hirowareta-otoko-2-3e8ee50dd2",
+    "cover": "kami-tachi-ni-hirowareta-otoko-2-c8388c7a83",
     "studio": "Maho Film",
     "source": "Light Novel",
     "genres": [
@@ -205,7 +205,7 @@
   },
   "EaDB": {
     "title": "Koori Zokusei Danshi to Cool na Douryou Joshi",
-    "cover": "koori-zokusei-danshi-to-cool-na-douryou-joshi-4295f7a670",
+    "cover": "koori-zokusei-danshi-to-cool-na-douryou-joshi-81e2221407",
     "studio": "Liber",
     "source": "Web Manga",
     "genres": [
@@ -281,7 +281,7 @@
   },
   "cqeX": {
     "title": "Mononogatari",
-    "cover": "mononogatari-3775023828",
+    "cover": "mononogatari-f32f711fde",
     "studio": "Bandai Namco Pictures",
     "source": "Manga",
     "genres": [
@@ -314,8 +314,8 @@
   },
   "cTgb": {
     "title": "Nijiyon Animation",
-    "cover": "nijiyon-animation-2321d53647",
-    "studio": "N/A",
+    "cover": "nijiyon-animation-764420729c",
+    "studio": "Sunrise",
     "source": "4-koma Manga",
     "genres": [
       "Comedy",
@@ -358,7 +358,7 @@
   },
   "QV5z": {
     "title": "Ooyukiumi no Kaina",
-    "cover": "ooyukiumi-no-kaina-5345b14c82",
+    "cover": "ooyukiumi-no-kaina-3b4dd8cfa0",
     "studio": "POLYGON PICTURES",
     "source": "Original",
     "genres": [
@@ -377,9 +377,19 @@
       "Slice of Life"
     ]
   },
+  "sHeG": {
+    "title": "REVENGER",
+    "cover": "revenger-f6e4946abb",
+    "studio": "Ajia-Do",
+    "source": "Original",
+    "genres": [
+      "Action",
+      "Mystery"
+    ]
+  },
   "bce6": {
     "title": "Rougo ni Sonaete Isekai de 8-manmai no Kinka wo Tamemasu",
-    "cover": "rougo-ni-sonaete-isekai-de-8-manmai-no-kinka-wo-tamemasu-05ebf30112",
+    "cover": "rougo-ni-sonaete-isekai-de-8-manmai-no-kinka-wo-tamemasu-768df91111",
     "studio": "Felix Film",
     "source": "Light Novel",
     "genres": [
@@ -428,7 +438,7 @@
   },
   "omco": {
     "title": "Sugar Apple Fairy Tale",
-    "cover": "sugar-apple-fairy-tale-cfb730549f",
+    "cover": "sugar-apple-fairy-tale-9b8105ed6e",
     "studio": "J.C. Staff",
     "source": "Light Novel",
     "genres": [
@@ -513,7 +523,7 @@
   },
   "Dhcb": {
     "title": "Tsundere Akuyaku Reijou Liselotte to Jikkyou no Endo-kun to Kaisetsu no Kobayashi-san",
-    "cover": "tsundere-akuyaku-reijou-liselotte-to-jikkyou-no-endou-kun-to-kaisetsu-no-kobayashi-san-281943214f",
+    "cover": "tsundere-akuyaku-reijou-liselotte-to-jikkyou-no-endou-kun-to-kaisetsu-no-kobayashi-san-d947ea5b6c",
     "studio": "Tezuka Productions",
     "source": "Light Novel",
     "genres": [
