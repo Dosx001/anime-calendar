@@ -5,12 +5,14 @@
     "studio": "Asahi Production",
     "source": "Original",
     "genres": [
+      "Action",
+      "Adventure",
       "Fantasy"
     ]
   },
   "VNWD": {
     "title": "Ayakashi Triangle",
-    "cover": "ayakashi-triangle-4399f8fa22",
+    "cover": "ayakashi-triangle-a0fbbcb580",
     "studio": "CONNECT",
     "source": "Manga",
     "genres": [
@@ -24,7 +26,7 @@
   },
   "1u6t": {
     "title": "Benriya Saitou-san, Isekai ni Iku",
-    "cover": "benriya-saitou-san-isekai-ni-iku-5534deb5a8",
+    "cover": "benriya-saitou-san-isekai-ni-iku-5a9b5cad33",
     "studio": "C2C",
     "source": "4-koma Manga",
     "genres": [
@@ -58,9 +60,21 @@
       "Superpower"
     ]
   },
+  "xEFI": {
+    "title": "Cardfight!! Vanguard: will+Dress 2",
+    "cover": "cardfight-vanguard-overdress-season-4-8dcd21f83e",
+    "studio": "GIFTanimation",
+    "source": "Card Game",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Game"
+    ]
+  },
   "p1Un": {
     "title": "D4DJ: All Mix",
-    "cover": "d4dj-all-mix-40855213ce",
+    "cover": "d4dj-all-mix-3f5bdfa0d6",
     "studio": "SANZIGEN",
     "source": "Other",
     "genres": [
@@ -70,7 +84,7 @@
   },
   "wE8s": {
     "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Fuka Shou Yakusai-hen",
-    "cover": "is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-iv-part-2-ef45cd0eb2",
+    "cover": "is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-iv-part-2-150fec030f",
     "studio": "J.C. Staff",
     "source": "Light Novel",
     "genres": [
@@ -114,12 +128,21 @@
     "source": "Other",
     "genres": [
       "Action",
-      "Game"
+      "Superpower"
+    ]
+  },
+  "k6Tu": {
+    "title": "Hikari no Ou",
+    "cover": "hikari-no-ou-d2d637ed8d",
+    "studio": "Signal.MD",
+    "source": "Novel",
+    "genres": [
+      "Fantasy"
     ]
   },
   "npNC": {
     "title": "Hyouken no Majutsushi ga Sekai wo Suberu",
-    "cover": "hyouken-no-majutsushi-ga-sekai-wo-suberu-d809d5a080",
+    "cover": "hyouken-no-majutsushi-ga-sekai-wo-suberu-cf9ec97320",
     "studio": "CLOUDHEARTS",
     "source": "Light Novel",
     "genres": [
@@ -127,7 +150,9 @@
       "Adventure",
       "Comedy",
       "Ecchi",
-      "Fantasy"
+      "Fantasy",
+      "Magic",
+      "School"
     ]
   },
   "KOvw": {
@@ -155,9 +180,9 @@
     ]
   },
   "ZDKn": {
-    "title": "Isekai Nonbiri Houka",
+    "title": "Isekai Nonbiri Nouka",
     "cover": "isekai-nonbiri-houka-b5961ebca0",
-    "studio": "N/A",
+    "studio": "Zero-G",
     "source": "Light Novel",
     "genres": [
       "Fantasy",
@@ -166,8 +191,8 @@
     ]
   },
   "NbQL": {
-    "title": "Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu. II",
-    "cover": "itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu-2-f1a2c2208b",
+    "title": "Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu. 2",
+    "cover": "itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu-2-a05bb0778c",
     "studio": "SILVER LINK.",
     "source": "Light Novel",
     "genres": [
@@ -181,7 +206,7 @@
     ]
   },
   "nCzU": {
-    "title": "Kaiko Sareta Ankoku Heishi (30-dai) no Slow na Second Life",
+    "title": "Kaiko sareta Ankoku Heishi (30-dai) no Slow na Second Life",
     "cover": "kaiko-sareta-ankoku-heishi-30-dai-no-slow-na-second-life-17843ac985",
     "studio": "Encourage Films",
     "source": "Light Novel",
@@ -217,7 +242,7 @@
   },
   "eEme": {
     "title": "Kubo-san wa Mob wo Yurusanai",
-    "cover": "kubo-san-wa-mob-wo-yurusanai-4ab3326e39",
+    "cover": "kubo-san-wa-mob-wo-yurusanai-6f2bae5bf9",
     "studio": "Pine Jam",
     "source": "Manga",
     "genres": [
@@ -228,7 +253,7 @@
   },
   "OkH6": {
     "title": "Kyokou Suiri 2",
-    "cover": "kyokou-suiri-2-53e6746376",
+    "cover": "kyokou-suiri-2-c1211c0c7c",
     "studio": "Brain's Base",
     "source": "Manga",
     "genres": [
@@ -254,7 +279,7 @@
   },
   "PcgX": {
     "title": "Majutsushi Orphen Hagure Tabi: Urbanrama-hen",
-    "cover": "majutsushi-orphen-hagure-tabi-urbanrama-hen-9a27c813d4",
+    "cover": "majutsushi-orphen-hagure-tabi-urbanrama-hen-6c09f51923",
     "studio": "Studio DEEN",
     "source": "Light Novel",
     "genres": [
@@ -292,7 +317,7 @@
   },
   "qGJD": {
     "title": "Mou Ippon!",
-    "cover": "mou-ippon-3dafff4fb9",
+    "cover": "mou-ippon-5abb5ea406",
     "studio": "BAKKEN RECORD",
     "source": "Manga",
     "genres": [
@@ -325,7 +350,7 @@
   },
   "xmMK": {
     "title": "Ningen Fushin no Boukensha-tachi ga Sekai wo Sukuu you desu",
-    "cover": "ningen-fushin-no-boukensha-tachi-ga-sekai-wo-sukuu-you-desu-a56d8d1f28",
+    "cover": "ningen-fushin-no-boukensha-tachi-ga-sekai-wo-sukuu-you-desu-a13b2ba4b7",
     "studio": "Geek Toys",
     "source": "Light Novel",
     "genres": [
@@ -343,12 +368,13 @@
     "genres": [
       "Drama",
       "Fantasy",
-      "Romance"
+      "Romance",
+      "Shounen"
     ]
   },
   "FcB4": {
     "title": "Onii-chan wa Oshimai!",
-    "cover": "onii-chan-wa-oshimai-5cc987572c",
+    "cover": "onii-chan-wa-oshimai-a2a7b8f9f2",
     "studio": "Studio Bind",
     "source": "Manga",
     "genres": [
@@ -377,9 +403,21 @@
       "Slice of Life"
     ]
   },
+  "Fi15": {
+    "title": "Pokemon: Mezase Pokemon Master",
+    "cover": "pokemon-mezase-pokemon-master-f0d00d5bdf",
+    "studio": "OLM",
+    "source": "Video Game",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ]
+  },
   "sHeG": {
     "title": "REVENGER",
-    "cover": "revenger-f6e4946abb",
+    "cover": "revenger-07cd5fba44",
     "studio": "Ajia-Do",
     "source": "Original",
     "genres": [
@@ -412,7 +450,7 @@
   },
   "kTsu": {
     "title": "Shin Shinka no Mi: Shiranai Uchi ni Kachigumi Jinsei",
-    "cover": "shin-shinka-no-mi-shiranai-uchi-ni-kachigumi-jinsei-5fc346448c",
+    "cover": "shin-shinka-no-mi-shiranai-uchi-ni-kachigumi-jinsei-e071de191c",
     "studio": "Hotline",
     "source": "Light Novel",
     "genres": [
@@ -425,15 +463,14 @@
   },
   "TDNd": {
     "title": "Spy Kyoushitsu",
-    "cover": "spy-kyoushitsu-1cd177584a",
+    "cover": "spy-kyoushitsu-254fb060bf",
     "studio": "feel.",
     "source": "Light Novel",
     "genres": [
       "Action",
       "Comedy",
       "Drama",
-      "Mystery",
-      "Romance"
+      "Mystery"
     ]
   },
   "omco": {
@@ -454,7 +491,8 @@
     "studio": "Doga Kobo",
     "source": "Other",
     "genres": [
-      "Music"
+      "Music",
+      "Sci-Fi"
     ]
   },
   "WStF": {
@@ -499,7 +537,7 @@
   },
   "Cyod": {
     "title": "Tomo-chan wa Onnanoko!",
-    "cover": "tomo-chan-wa-onnanoko-377e4ebfa3",
+    "cover": "tomo-chan-wa-onnanoko-2fdcbb589e",
     "studio": "Lay-duce",
     "source": "Manga",
     "genres": [
@@ -511,7 +549,7 @@
   },
   "UEpU": {
     "title": "Tondemo Skill de Isekai Hourou Meshi",
-    "cover": "tondemo-skill-de-isekai-hourou-meshi-b704fecc71",
+    "cover": "tondemo-skill-de-isekai-hourou-meshi-483bd57ec6",
     "studio": "MAPPA",
     "source": "Light Novel",
     "genres": [
@@ -534,7 +572,7 @@
   },
   "DcVS": {
     "title": "Tsurune: Tsunagari no Issha",
-    "cover": "tsurune-tsunagari-no-issha-280076990b",
+    "cover": "tsurune-tsunagari-no-issha-81590cd52c",
     "studio": "Kyoto Animation",
     "source": "Light Novel",
     "genres": [
@@ -546,7 +584,7 @@
   },
   "Cl5z": {
     "title": "UniteUp!",
-    "cover": "uniteup-12686fa8c3",
+    "cover": "uniteup-d7d9ee1838",
     "studio": "CloverWorks",
     "source": "Other",
     "genres": [
