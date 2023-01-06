@@ -23,16 +23,6 @@
       "VRV": "https://vrv.co/series/GRMG8ZQZR/One-Piece"
     }
   },
-  "EU8P": {
-    "title": "Pok\u00e9mon Journeys: The Series",
-    "day": 5,
-    "time": "1:55 AM",
-    "cover": "pokemon-2019-41ff46b39d",
-    "streams": {
-      "Netflix": "https://www.netflix.com/title/81193140",
-      "YouTube": "https://www.youtube.com/playlist?list=PLQo7jlHehrYNE9PzaiGrywyGThkbwgclT"
-    }
-  },
   "NAVE": {
     "title": "Doraemon (2005)",
     "day": 5,
@@ -42,7 +32,7 @@
   },
   "ATJM": {
     "title": "Crayon Shin-chan",
-    "day": 5,
+    "day": 6,
     "time": "2:30 AM",
     "cover": "crayon-shin-chan-dc430f9db0",
     "streams": {}
@@ -74,7 +64,7 @@
   "ziMS": {
     "title": "Ninjala",
     "day": 5,
-    "time": "5:30 PM",
+    "time": "5:00 PM",
     "cover": "ninjala-c19a7f2bbe",
     "streams": {}
   },
@@ -124,37 +114,6 @@
     "cover": "yu-gi-oh-go-rush-9ca7d7e015",
     "streams": {}
   },
-  "ZRub": {
-    "title": "Uncle from Another World",
-    "day": 4,
-    "time": "5:30 AM",
-    "cover": "isekai-ojisan-b982453c58",
-    "streams": {
-      "Netflix": "https://www.netflix.com/title/81499847"
-    }
-  },
-  "nrVH": {
-    "title": "Lucifer and the Biscuit Hammer",
-    "day": 5,
-    "time": "11:25 AM",
-    "cover": "hoshi-no-samidare-7772c22dbe",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV22X",
-      "Hulu": "https://www.hulu.com/series/77f6448d-f15d-4f14-a3fa-989470cb08e1",
-      "VRV": "https://vrv.co/series/G1XHJV22X",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2mjV_pl9Dr_QTcn1nmNvB1"
-    }
-  },
-  "wlR1": {
-    "title": "Utawarerumono Mask of Truth",
-    "day": 6,
-    "time": "9:45 AM",
-    "cover": "utawarerumono-futari-no-hakuoro-cf8f853878",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/utawarerumono-mask-of-truth",
-      "VRV": "https://vrv.co/series/GMEHMEW4M"
-    }
-  },
   "PC6r": {
     "title": "Chibi Maruko-chan",
     "day": 7,
@@ -180,33 +139,6 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLb7AOG3cj7UyJfqsfXpvL2LUVdg0dOK7q"
     }
   },
-  "DiCt": {
-    "title": "Duel Masters Win",
-    "day": 6,
-    "time": "3:30 PM",
-    "cover": "duel-masters-win-9876734893",
-    "streams": {},
-    "status": true
-  },
-  "KL5q": {
-    "title": "Reincarnated as a Sword",
-    "day": 3,
-    "time": "6:30 AM",
-    "cover": "tensei-shitara-ken-deshita-64bbfc9f31",
-    "streams": {
-      "HiDive": "https://www.hidive.com/tv/reincarnated-as-a-sword"
-    }
-  },
-  "VVn1": {
-    "title": "My Master Has No Tail",
-    "day": 5,
-    "time": "6:30 AM",
-    "cover": "uchi-no-shishou-wa-shippo-ga-nai-e1392ac67e",
-    "streams": {
-      "HiDive": "https://www.hidive.com/tv/my-master-has-no-tail",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jj54oEa6oCmh1t0dw-goStt"
-    }
-  },
   "wq8X": {
     "title": "My Hero Academia",
     "day": 6,
@@ -217,71 +149,6 @@
       "Funimation": "https://www.funimation.com/shows/my-hero-academia",
       "Hulu": "https://www.hulu.com/series/my-hero-academia-b4859a95-39ba-4051-a550-256c42e70a1d",
       "VRV": "https://vrv.co/series/G6NQ5DWZ6"
-    }
-  },
-  "R8ic": {
-    "title": "Uzaki-chan Wants to Hang Out!",
-    "day": 6,
-    "time": "7:30 AM",
-    "cover": "uzaki-chan-wa-asobitai-2-1c585282ed",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/uzaki-chan-wants-to-hang-out",
-      "Funimation": "https://www.funimation.com/shows/uzaki-chan-wants-to-hang-out/",
-      "VRV": "https://vrv.co/series/GNVHKN7KZ"
-    }
-  },
-  "MLLV": {
-    "title": "I've Somehow Gotten Stronger When I Improved My Farm-Related Skills",
-    "day": 6,
-    "time": "5:30 AM",
-    "cover": "noumin-kanren-no-skill-bakka-agetetara-nazeka-tsuyoku-natta-fba95f896a",
-    "streams": {
-      "HiDive": "https://www.hidive.com/tv/ive-somehow-gotten-stronger-when-i-improved-my-farm-related-skills"
-    }
-  },
-  "g26O": {
-    "title": "I'm the Villainess, So I'm Taming the Final Boss",
-    "day": 6,
-    "time": "7:00 AM",
-    "cover": "akuyaku-reijo-nano-de-last-boss-wo-kattemimashita-2a69107ad6",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5X0JK",
-      "VRV": "https://vrv.co/series/GG5H5X0JK",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgAoOZW-Fbm-zIN0cIkNB8Z"
-    }
-  },
-  "Uuxq": {
-    "title": "SPY x FAMILY",
-    "day": 6,
-    "time": "8:30 AM",
-    "cover": "spy-x-family-part-2-5bad91ec16",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/spy-x-family",
-      "Hulu": "https://www.hulu.com/series/spy-x-family-65d158d4-443f-44c7-bd2c-eae39f6c60e9",
-      "Netflix": "https://www.netflix.com/title/81511410",
-      "VRV": "https://vrv.co/series/G4PH0WXVJ",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1wGMYg5oB3uEns0CZNl6sI"
-    }
-  },
-  "e4nn": {
-    "title": "Raven of the Inner Palace",
-    "day": 6,
-    "time": "9:00 AM",
-    "cover": "koukyuu-no-karasu-eb810d3bbf",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/raven-of-the-inner-palace",
-      "VRV": "https://vrv.co/series/GP5HJ8E99"
-    }
-  },
-  "gDyx": {
-    "title": "Pop Team Epic",
-    "day": 6,
-    "time": "10:30 AM",
-    "cover": "pop-team-epic-2-4cd529b2c8",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/pop-team-epic",
-      "Funimation": "https://www.funimation.com/shows/pop-team-epic/",
-      "VRV": "https://vrv.co/series/G69P1K90Y"
     }
   },
   "EYkk": {
@@ -295,17 +162,6 @@
       "YouTube": "https://www.crunchyroll.com/mobile-suit-gundam-the-witch-from-mercury"
     }
   },
-  "Bmlm": {
-    "title": "Beast Tamer",
-    "day": 6,
-    "time": "8:00 AM",
-    "cover": "yuusha-party-wo-tsuihou-sareta-beast-tamer-saikyoushu-no-nekomimi-shoujo-to-deau-0fc0391f1f",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/beast-tamer",
-      "VRV": "https://vrv.co/series/G8DHV743V",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1lv3DwQr43Dbdnjsxfa_cB"
-    }
-  },
   "sGLU": {
     "title": "IDOLiSH7",
     "day": 7,
@@ -316,52 +172,6 @@
       "VRV": "https://vrv.co/series/GRE50NQV6"
     }
   },
-  "cSFe": {
-    "title": "Legend of the Galactic Heroes: Die Neue These",
-    "day": 4,
-    "time": "4:00 PM",
-    "cover": "ginga-eiyuu-densetsu-die-neue-these-sakubou-1-440d0a6f4e",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/legend-of-the-galactic-heroes-die-neue-these",
-      "VRV": "https://vrv.co/series/GRW4DXNEY"
-    }
-  },
-  "349v": {
-    "title": "Management of a Novice Alchemist",
-    "day": 1,
-    "time": "5:00 AM",
-    "cover": "shinmai-renkinjutsushi-no-tenpo-keiei-33ed2aaa1f",
-    "streams": {
-      "HiDive": "https://www.hidive.com/tv/management-of-a-novice-alchemist"
-    }
-  },
-  "X82N": {
-    "title": "Shinobi no Ittoki",
-    "day": 2,
-    "time": "6:00 AM",
-    "cover": "shinobi-no-ittoki-25c11c3b0d",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/shinobi-no-ittoki",
-      "VRV": "https://vrv.co/series/G5PHNM7KG"
-    }
-  },
-  "KgKt": {
-    "title": "Encouragement of Climb: Next Summit",
-    "day": 2,
-    "time": "8:00 AM",
-    "cover": "yama-no-susume-next-summit-eea12b75f1",
-    "streams": {
-      "HiDive": "https://www.hidive.com/tv/encouragement-of-climb-next-summit"
-    }
-  },
-  "Nivt": {
-    "title": "Futoku no Guild",
-    "day": 3,
-    "time": "6:30 AM",
-    "cover": "futoku-no-guild-d8c36cb369",
-    "streams": {},
-    "status": true
-  },
   "9z9M": {
     "title": "The Eminence in Shadow",
     "day": 3,
@@ -369,69 +179,6 @@
     "cover": "kage-no-jitsuryokusha-ni-naritakute-78981dc7d8",
     "streams": {
       "HiDive": "https://www.hidive.com/tv/the-eminence-in-shadow"
-    }
-  },
-  "Ssik": {
-    "title": "VAZZROCK THE ANIMATION",
-    "day": 2,
-    "time": "7:30 AM",
-    "cover": "vazzrock-the-animation-4018bdcbcb",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/vazzrock-the-animation",
-      "VRV": "https://vrv.co/series/GW4HM75VZ"
-    }
-  },
-  "Ueu6": {
-    "title": "Do It Yourself!!",
-    "day": 3,
-    "time": "10:00 AM",
-    "cover": "do-it-yourself-8a3d36eb22",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/do-it-yourself",
-      "VRV": "https://vrv.co/series/GEXH3W4JP"
-    }
-  },
-  "xSH1": {
-    "title": "Mob Psycho 100",
-    "day": 3,
-    "time": "9:00 AM",
-    "cover": "mob-psycho-100-3-1efc0f539b",
-    "streams": {
-      "Amazon": "https://www.primevideo.com/detail/0N85HJJ4D1R183RJQN4G1G07WB",
-      "Crunchyroll": "https://www.crunchyroll.com/mob-psycho-100",
-      "Hulu": "https://www.hulu.com/series/fc9b8130-e1e3-420b-b28d-a72f0b235069",
-      "VRV": "https://vrv.co/series/GY190DKQR",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2VGzbi1867Ucw0vJzRfXYU"
-    }
-  },
-  "wBfj": {
-    "title": "Muv-Luv Alternative",
-    "day": 3,
-    "time": "10:25 AM",
-    "cover": "muv-luv-alternative-2-bb4fb4c808",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/muv-luv-alternative",
-      "VRV": "https://vrv.co/series/GVDHX8PP9",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1jvxZE-x5NVjJQz3pQquTI"
-    }
-  },
-  "vuUh": {
-    "title": "Bibliophile Princess",
-    "day": 4,
-    "time": "6:30 AM",
-    "cover": "mushikaburi-hime-1b2ac4296a",
-    "streams": {
-      "HiDive": "https://www.hidive.com/tv/bibliophile-princess"
-    }
-  },
-  "8ZOX": {
-    "title": "Akiba Maid War",
-    "day": 4,
-    "time": "9:00 AM",
-    "cover": "akiba-maid-sensou-10023df2ac",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/akiba-maid-war",
-      "HiDive": "https://www.hidive.com/tv/akiba-maid-war"
     }
   },
   "4O4o": {
@@ -442,16 +189,6 @@
     "streams": {},
     "status": true
   },
-  "hlCD": {
-    "title": "Legend of Mana -The Teardrop Crystal-",
-    "day": 5,
-    "time": "11:15 AM",
-    "cover": "seiken-densetsu-legend-of-mana-the-teardrop-crystal-b6130eb43f",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/legend-of-mana-the-teardrop-crystal-",
-      "VRV": "https://vrv.co/series/G9VHN91ZP"
-    }
-  },
   "ilIu": {
     "title": "Welcome to Demon School! Iruma-kun",
     "day": 6,
@@ -461,16 +198,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/welcome-to-demon-school-iruma-kun",
       "VRV": "https://vrv.co/series/G6NVG970Y",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3qq9KSn9zKK_DpaXxSxiKA"
-    }
-  },
-  "thkM": {
-    "title": "BOCCHI THE ROCK!",
-    "day": 6,
-    "time": "9:30 AM",
-    "cover": "bocchi-the-rock-0345f07686",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/bocchi-the-rock",
-      "VRV": "https://vrv.co/series/GXJHM3P19"
     }
   },
   "vy6r": {
@@ -495,17 +222,6 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jj17JiCvrOBjnjPjb930O2g"
     }
   },
-  "2kcR": {
-    "title": "More than a Married Couple, but Not Lovers.",
-    "day": 7,
-    "time": "7:00 AM",
-    "cover": "fuufu-ijou-koibito-miman-a292e88477",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/more-than-a-married-couple-but-not-lovers",
-      "VRV": "https://vrv.co/series/GJ0H7Q5N3",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jjat3PagSY2J_Z2QvqQBANH"
-    }
-  },
   "fViL": {
     "title": "Mamekichi Mameko NEET no Nichijou",
     "day": 2,
@@ -516,49 +232,6 @@
     },
     "status": true
   },
-  "PeXi": {
-    "title": "The Human Crazy University",
-    "day": 3,
-    "time": "6:30 AM",
-    "cover": "human-bug-daigaku-58b4737d40",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM5GQ",
-      "VRV": "https://vrv.co/series/G0XHWM5GQ",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jid3nlFTN73VlO6UDFPIr4_"
-    }
-  },
-  "bZOa": {
-    "title": "Bleach: Thousand-Year Blood War",
-    "day": 1,
-    "time": "7:30 AM",
-    "cover": "bleach-sennen-kessen-hen-0a077cb6a3",
-    "streams": {
-      "Amazon": "https://www.primevideo.com/detail/0U0SHH4OQIO8SD6GXYWX93N24X",
-      "Hulu": "https://www.hulu.com/series/bleach-thousand-year-blood-war-02a3c8c0-4f1d-4610-bbb4-5b8e9468d7b1",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jg3pUga3XbHeMfWLXRMGVQY"
-    }
-  },
-  "Ms51": {
-    "title": "Chainsaw Man",
-    "day": 2,
-    "time": "9:00 AM",
-    "cover": "chainsaw-man-7832b15cf8",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/chainsaw-man",
-      "Hulu": "https://www.hulu.com/series/chainsaw-man-7b71b5a4-560b-4d8b-98c4-c5dee6004c21",
-      "VRV": "https://vrv.co/series/GVDHX8QNW",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhfvHiWN-djJjCOjW8rxA6p"
-    }
-  },
-  "o2dE": {
-    "title": "Love Flops",
-    "day": 3,
-    "time": "8:05 AM",
-    "cover": "renai-flops-f7b73bcc2f",
-    "streams": {
-      "HiDive": "https://www.hidive.com/tv/love-flops"
-    }
-  },
   "p8OR": {
     "title": "Urusei Yatsura",
     "day": 4,
@@ -567,24 +240,6 @@
     "streams": {
       "HiDive": "https://www.hidive.com/tv/urusei-yatsura"
     }
-  },
-  "IPyE": {
-    "title": "The Little Lies We All Tell",
-    "day": 6,
-    "time": "11:45 AM",
-    "cover": "4-nin-wa-sorezore-uso-wo-tsuku-516cdf5b5c",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/the-little-lies-we-all-tell",
-      "VRV": "https://vrv.co/series/G5PHNM7NG"
-    }
-  },
-  "kyDf": {
-    "title": "Shinmai Renkinjutsushi no Tenpo Keiei Mini Anime",
-    "day": 5,
-    "time": "1:00 AM",
-    "cover": "shinmai-renkinjutsushi-no-tenpo-keiei-mini-anime-5b5b955d80",
-    "streams": {},
-    "status": true
   },
   "1zTT": {
     "title": "To Your Eternity",
@@ -606,15 +261,6 @@
     },
     "status": true
   },
-  "nUCA": {
-    "title": "Arknights: PRELUDE TO DAWN",
-    "day": 5,
-    "time": "10:00 AM",
-    "cover": "arknights-reimei-zensou-6a4d68faa8",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5X3VN/arknights-prelude-to-dawn"
-    }
-  },
   "KMhx": {
     "title": "KanColle",
     "day": 4,
@@ -625,21 +271,333 @@
       "VRV": "https://vrv.co/series/GYJQVX726"
     }
   },
-  "d3f4": {
-    "title": "JoJo's Bizarre Adventure",
-    "day": 4,
-    "time": "12:00 AM",
-    "cover": "jojo-no-kimyou-na-bouken-stone-ocean-part-3-1b81ba2c3e",
+  "xmMK": {
+    "title": "Ningen Fushin: Adventurers Who Don't Believe in Humanity Will Save the World",
+    "day": 2,
+    "time": "7:30 AM",
+    "cover": "ningen-fushin-no-boukensha-tachi-ga-sekai-wo-sukuu-you-desu-df17bd4b4d",
     "streams": {
-      "Netflix": "https://www.netflix.com/title/80179831"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G24H1N8ZN",
+      "VRV": "https://vrv.co/series/G24H1N8ZN",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0X9kRSmdiB5L2FfA_eTyMZ"
     }
   },
-  "csYX": {
-    "title": "Boku to Roboko",
-    "day": 7,
+  "66My": {
+    "title": "The Magical Revolution of the Reincarnated Princess and the Genius Young Lady",
+    "day": 3,
+    "time": "6:45 AM",
+    "cover": "tensei-oujo-to-tensai-reijou-no-mahou-kakumei-e0f0465706",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM7J2/the-magical-revolution-of-the-reincarnated-princess-and-the-genius-young-lady",
+      "VRV": "https://vrv.co/series/G5PHNM7J2"
+    }
+  },
+  "AOQW": {
+    "title": "Bungo Stray Dogs",
+    "day": 3,
     "time": "7:30 AM",
-    "cover": "boku-to-roboco-e45ad0f197",
+    "cover": "bungou-stray-dogs-4th-season-895632e191",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/bungo-stray-dogs",
+      "VRV": "https://vrv.co/series/GR5VXQ8PR"
+    }
+  },
+  "EaDB": {
+    "title": "The Ice Guy and His Cool Female Colleague",
+    "day": 3,
+    "time": "8:00 AM",
+    "cover": "koori-zokusei-danshi-to-cool-na-douryou-joshi-81e2221407",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GW4HM75NP",
+      "VRV": "https://vrv.co/series/GW4HM75NP"
+    }
+  },
+  "DcVS": {
+    "title": "Tsurune - The Linking Shot",
+    "day": 3,
+    "time": "8:00 AM",
+    "cover": "tsurune-tsunagari-no-issha-4b23f3e169",
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/tsurune-the-linking-shot"
+    }
+  },
+  "bltx": {
+    "title": "Technoroid OVERMIND",
+    "day": 3,
+    "time": "8:30 AM",
+    "cover": "technoroid-overmind-ecdfe41213",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5X37E",
+      "VRV": "https://vrv.co/series/GG5H5X37E"
+    }
+  },
+  "Cyod": {
+    "title": "Tomo-chan Is a Girl!",
+    "day": 3,
+    "time": "10:00 AM",
+    "cover": "tomo-chan-wa-onnanoko-2fdcbb589e",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM5Q4",
+      "VRV": "https://vrv.co/unavailable"
+    }
+  },
+  "sHeG": {
+    "title": "Revenger",
+    "day": 4,
+    "time": "6:30 AM",
+    "cover": "revenger-07cd5fba44",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G8DHV7425",
+      "VRV": "https://vrv.co/series/G8DHV7425"
+    }
+  },
+  "TDNd": {
+    "title": "Spy Classroom",
+    "day": 4,
+    "time": "6:30 AM",
+    "cover": "spy-kyoushitsu-254fb060bf",
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/spy-classroom"
+    }
+  },
+  "wE8s": {
+    "title": "Is It Wrong to Try to Pick Up Girls in a Dungeon? IV",
+    "day": 4,
+    "time": "7:00 AM",
+    "cover": "is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-iv-part-2-0900875464",
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-iv"
+    }
+  },
+  "arh6": {
+    "title": "Lupin ZERO",
+    "day": 4,
+    "time": "7:01 AM",
+    "cover": "lupin-zero-8f1e881ed4",
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/lupin-zero"
+    }
+  },
+  "FcB4": {
+    "title": "ONIMAI: I'm Now Your Sister!",
+    "day": 4,
+    "time": "8:30 AM",
+    "cover": "onii-chan-wa-oshimai-a2a7b8f9f2",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GZJH3D0P5",
+      "VRV": "https://vrv.co/series/GZJH3D0P5",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JibnhDWLCxfNSDVMhqVpRv4"
+    }
+  },
+  "npNC": {
+    "title": "The Iceblade Sorcerer Shall Rule the World",
+    "day": 4,
+    "time": "11:00 AM",
+    "cover": "hyouken-no-majutsushi-ga-sekai-wo-suberu-cf9ec97320",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GDKHZEP21",
+      "VRV": "https://vrv.co/series/GDKHZEP21"
+    }
+  },
+  "A9VI": {
+    "title": "Sore Ike! Anpanman",
+    "day": 4,
+    "time": "5:55 PM",
+    "cover": "sore-ike-anpanman-dbeb359c0e",
     "streams": {},
     "status": true
+  },
+  "ZDKn": {
+    "title": "Farming Life In Another World",
+    "day": 5,
+    "time": "5:00 AM",
+    "cover": "isekai-nonbiri-houka-b5961ebca0",
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/farming-life-in-another-world"
+    }
+  },
+  "omco": {
+    "title": "Sugar Apple Fairy Tale",
+    "day": 5,
+    "time": "6:00 AM",
+    "cover": "sugar-apple-fairy-tale-9b8105ed6e",
+    "streams": {},
+    "status": true
+  },
+  "cTgb": {
+    "title": "NIJIYON ANIMATION",
+    "day": 5,
+    "time": "6:24 AM",
+    "cover": "nijiyon-animation-764420729c",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GW4HM75PP",
+      "VRV": "https://vrv.co/series/GW4HM75PP"
+    }
+  },
+  "KF9c": {
+    "title": "The Legend of Heroes: Trails of Cold Steel - Northern War",
+    "day": 5,
+    "time": "6:30 AM",
+    "cover": "eiyuu-densetsu-sen-no-kiseki-ea4c4b4dba",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM594",
+      "VRV": "https://vrv.co/series/G0XHWM594"
+    }
+  },
+  "8ynW": {
+    "title": "Giant Beasts of ARS",
+    "day": 5,
+    "time": "9:30 AM",
+    "cover": "ars-no-kyojuu-f0a149317f",
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/giant-beasts-of-ars"
+    }
+  },
+  "mBbU": {
+    "title": "Buddy Daddies",
+    "day": 5,
+    "time": "9:30 AM",
+    "cover": "buddy-daddies-a934908bf4",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5X3DE",
+      "VRV": "https://vrv.co/series/GG5H5X3DE"
+    }
+  },
+  "Dhcb": {
+    "title": "Endo and Kobayashi Live! The Latest on Tsundere Villainess Lieselotte",
+    "day": 5,
+    "time": "10:25 AM",
+    "cover": "tsundere-akuyaku-reijou-liselotte-to-jikkyou-no-endou-kun-to-kaisetsu-no-kobayashi-san-d947ea5b6c",
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/endo-and-kobayashi-live-the-latest-on-tsundere-villainess-lieselotte"
+    }
+  },
+  "nCzU": {
+    "title": "Kaiko sareta Ankoku Heishi (30-dai) no Slow na Second Life",
+    "day": 6,
+    "time": "5:00 AM",
+    "cover": "kaiko-sareta-ankoku-heishi-30-dai-no-slow-na-second-life-17843ac985",
+    "streams": {},
+    "status": true
+  },
+  "Pocg": {
+    "title": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken",
+    "day": 6,
+    "time": "5:30 AM",
+    "cover": "otonari-no-tenshi-sama-ni-itsunomanika-dame-ningen-ni-sareteita-ken-8fa98e4fc0",
+    "streams": {},
+    "status": true
+  },
+  "WStF": {
+    "title": "TRIGUN STAMPEDE",
+    "day": 6,
+    "time": "6:00 AM",
+    "cover": "trigun-stampede-b636b14a0a",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgZya2bMfgi-2i95rSvUfjL"
+    },
+    "status": true
+  },
+  "Cl5z": {
+    "title": "UniteUp!",
+    "day": 6,
+    "time": "6:30 AM",
+    "cover": "uniteup-d7d9ee1838",
+    "streams": {},
+    "status": true
+  },
+  "9zLq": {
+    "title": "NieR:Automata Ver 1.1a",
+    "day": 6,
+    "time": "7:00 AM",
+    "cover": "nier-automata-67b05ed1b4",
+    "streams": {},
+    "status": true
+  },
+  "wj9b": {
+    "title": "Maou Gakuin no Futekigousha 2",
+    "day": 6,
+    "time": "7:30 AM",
+    "cover": "maou-gakuin-no-futekigousha-2-b8ce0c6698",
+    "streams": {},
+    "status": true
+  },
+  "KOvw": {
+    "title": "DON'T TOY WITH ME, MISS NAGATORO",
+    "day": 6,
+    "time": "8:00 AM",
+    "cover": "ijiranaide-nagatoro-san-2-222b94021a",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GQWH0M455",
+      "VRV": "https://vrv.co/series/GQWH0M455"
+    }
+  },
+  "PmLY": {
+    "title": "Saikyou Onmyouji no Isekai Tenseiki",
+    "day": 6,
+    "time": "8:30 AM",
+    "cover": "saikyou-onmyouji-no-isekai-tenseiki-b98e1f011b",
+    "streams": {},
+    "status": true
+  },
+  "bce6": {
+    "title": "Rougo ni Sonaete Isekai de 8-manmai no Kinka wo Tamemasu",
+    "day": 6,
+    "time": "9:00 AM",
+    "cover": "rougo-ni-sonaete-isekai-de-8-manmai-no-kinka-wo-tamemasu-768df91111",
+    "streams": {},
+    "status": true
+  },
+  "MLqR": {
+    "title": "Tokyo Revengers: Seiya Kessen-hen",
+    "day": 6,
+    "time": "9:08 AM",
+    "cover": "tokyo-revengers-seiya-kessen-hen-22a004ac8c",
+    "streams": {},
+    "status": true
+  },
+  "uUOP": {
+    "title": "By the Grace of the Gods",
+    "day": 7,
+    "time": "4:30 AM",
+    "cover": "kami-tachi-ni-hirowareta-otoko-2-c8388c7a83",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GP5HJ85ED/by-the-grace-of-the-gods",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgZhNUrkpwoksoSLEmTqB6U"
+    }
+  },
+  "roNf": {
+    "title": "Nokemono-tachi no Yoru",
+    "day": 7,
+    "time": "5:00 AM",
+    "cover": "nokemono-tachi-no-yoru-44cc49a710",
+    "streams": {},
+    "status": true
+  },
+  "1u6t": {
+    "title": "Benriya Saitou-san, Isekai ni Iku",
+    "day": 7,
+    "time": "5:30 AM",
+    "cover": "benriya-saitou-san-isekai-ni-iku-3d6efe916e",
+    "streams": {},
+    "status": true
+  },
+  "OkH6": {
+    "title": "In/Spectre",
+    "day": 7,
+    "time": "8:05 AM",
+    "cover": "kyokou-suiri-2-91f6371d10",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GYZJEEQGR/inspectre"
+    }
+  },
+  "qGJD": {
+    "title": "Ippon Again!",
+    "day": 7,
+    "time": "8:35 AM",
+    "cover": "mou-ippon-5abb5ea406",
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/ippon-again"
+    }
   }
 }

@@ -1,7 +1,7 @@
 {
   "8ynW": {
     "title": "Ars no Kyojuu",
-    "cover": "ars-no-kyojuu-6554ba4447",
+    "cover": "ars-no-kyojuu-f0a149317f",
     "studio": "Asahi Production",
     "source": "Original",
     "genres": [
@@ -26,7 +26,7 @@
   },
   "1u6t": {
     "title": "Benriya Saitou-san, Isekai ni Iku",
-    "cover": "benriya-saitou-san-isekai-ni-iku-5a9b5cad33",
+    "cover": "benriya-saitou-san-isekai-ni-iku-3d6efe916e",
     "studio": "C2C",
     "source": "4-koma Manga",
     "genres": [
@@ -48,7 +48,7 @@
   },
   "AOQW": {
     "title": "Bungou Stray Dogs 4",
-    "cover": "bungou-stray-dogs-4th-season-d629b190c7",
+    "cover": "bungou-stray-dogs-4th-season-895632e191",
     "studio": "bones",
     "source": "Manga",
     "genres": [
@@ -84,7 +84,7 @@
   },
   "wE8s": {
     "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Fuka Shou Yakusai-hen",
-    "cover": "is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-iv-part-2-150fec030f",
+    "cover": "is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-iv-part-2-0900875464",
     "studio": "J.C. Staff",
     "source": "Light Novel",
     "genres": [
@@ -148,8 +148,6 @@
     "genres": [
       "Action",
       "Adventure",
-      "Comedy",
-      "Ecchi",
       "Fantasy",
       "Magic",
       "School"
@@ -165,18 +163,6 @@
       "Romance",
       "School",
       "Slice of Life"
-    ]
-  },
-  "A7bJ": {
-    "title": "Inu ni Nattara Suki na Hito ni Hirowareta,",
-    "cover": "inu-ni-nattara-suki-na-hito-ni-hirowareta-148374311c",
-    "studio": "Quad",
-    "source": "Web Manga",
-    "genres": [
-      "Comedy",
-      "Ecchi",
-      "Romance",
-      "Supernatural"
     ]
   },
   "ZDKn": {
@@ -253,7 +239,7 @@
   },
   "OkH6": {
     "title": "Kyokou Suiri 2",
-    "cover": "kyokou-suiri-2-c1211c0c7c",
+    "cover": "kyokou-suiri-2-91f6371d10",
     "studio": "Brain's Base",
     "source": "Manga",
     "genres": [
@@ -306,7 +292,7 @@
   },
   "cqeX": {
     "title": "Mononogatari",
-    "cover": "mononogatari-f32f711fde",
+    "cover": "mononogatari-b545e53a51",
     "studio": "Bandai Namco Pictures",
     "source": "Manga",
     "genres": [
@@ -350,7 +336,7 @@
   },
   "xmMK": {
     "title": "Ningen Fushin no Boukensha-tachi ga Sekai wo Sukuu you desu",
-    "cover": "ningen-fushin-no-boukensha-tachi-ga-sekai-wo-sukuu-you-desu-a13b2ba4b7",
+    "cover": "ningen-fushin-no-boukensha-tachi-ga-sekai-wo-sukuu-you-desu-df17bd4b4d",
     "studio": "Geek Toys",
     "source": "Light Novel",
     "genres": [
@@ -379,6 +365,7 @@
     "source": "Manga",
     "genres": [
       "Comedy",
+      "School",
       "Slice of Life"
     ]
   },
@@ -422,6 +409,7 @@
     "source": "Original",
     "genres": [
       "Action",
+      "Historical",
       "Mystery"
     ]
   },
@@ -572,7 +560,7 @@
   },
   "DcVS": {
     "title": "Tsurune: Tsunagari no Issha",
-    "cover": "tsurune-tsunagari-no-issha-81590cd52c",
+    "cover": "tsurune-tsunagari-no-issha-4b23f3e169",
     "studio": "Kyoto Animation",
     "source": "Light Novel",
     "genres": [
