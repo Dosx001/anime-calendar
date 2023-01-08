@@ -274,7 +274,7 @@
   "xmMK": {
     "title": "Ningen Fushin: Adventurers Who Don't Believe in Humanity Will Save the World",
     "day": 2,
-    "time": "7:30 AM",
+    "time": "8:00 AM",
     "cover": "ningen-fushin-no-boukensha-tachi-ga-sekai-wo-sukuu-you-desu-df17bd4b4d",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G24H1N8ZN",
@@ -285,7 +285,7 @@
   "66My": {
     "title": "The Magical Revolution of the Reincarnated Princess and the Genius Young Lady",
     "day": 3,
-    "time": "6:45 AM",
+    "time": "6:00 AM",
     "cover": "tensei-oujo-to-tensai-reijou-no-mahou-kakumei-e0f0465706",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM7J2/the-magical-revolution-of-the-reincarnated-princess-and-the-genius-young-lady",
@@ -324,7 +324,7 @@
   "bltx": {
     "title": "Technoroid OVERMIND",
     "day": 3,
-    "time": "8:30 AM",
+    "time": "9:30 AM",
     "cover": "technoroid-overmind-ecdfe41213",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5X37E",
@@ -424,21 +424,11 @@
     "streams": {},
     "status": true
   },
-  "cTgb": {
-    "title": "NIJIYON ANIMATION",
-    "day": 5,
-    "time": "6:24 AM",
-    "cover": "nijiyon-animation-764420729c",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GW4HM75PP",
-      "VRV": "https://vrv.co/series/GW4HM75PP"
-    }
-  },
   "KF9c": {
     "title": "The Legend of Heroes: Trails of Cold Steel - Northern War",
     "day": 5,
     "time": "6:30 AM",
-    "cover": "eiyuu-densetsu-sen-no-kiseki-ea4c4b4dba",
+    "cover": "eiyuu-densetsu-sen-no-kiseki-1b8c79804e",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM594",
       "VRV": "https://vrv.co/series/G0XHWM594"
@@ -473,93 +463,108 @@
     }
   },
   "nCzU": {
-    "title": "Kaiko sareta Ankoku Heishi (30-dai) no Slow na Second Life",
+    "title": "Chillin' in My 30s after Getting Fired from the Demon King's Army",
     "day": 6,
-    "time": "5:00 AM",
+    "time": "10:45 AM",
     "cover": "kaiko-sareta-ankoku-heishi-30-dai-no-slow-na-second-life-17843ac985",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G79H23XWZ",
+      "VRV": "https://vrv.co/series/G79H23XWZ"
+    }
   },
   "Pocg": {
-    "title": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken",
+    "title": "The Angel Next Door Spoils Me Rotten",
     "day": 6,
-    "time": "5:30 AM",
+    "time": "8:00 AM",
     "cover": "otonari-no-tenshi-sama-ni-itsunomanika-dame-ningen-ni-sareteita-ken-8fa98e4fc0",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN91DJ",
+      "VRV": "https://vrv.co/series/G9VHN91DJ"
+    }
   },
   "WStF": {
     "title": "TRIGUN STAMPEDE",
     "day": 6,
-    "time": "6:00 AM",
+    "time": "8:30 AM",
     "cover": "trigun-stampede-b636b14a0a",
     "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3PK5",
+      "VRV": "https://vrv.co/series/GXJHM3PK5",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgZya2bMfgi-2i95rSvUfjL"
-    },
-    "status": true
+    }
   },
   "Cl5z": {
     "title": "UniteUp!",
     "day": 6,
-    "time": "6:30 AM",
+    "time": "9:00 AM",
     "cover": "uniteup-d7d9ee1838",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7Q5J9",
+      "VRV": "https://vrv.co/series/GJ0H7Q5J9"
+    }
   },
   "9zLq": {
     "title": "NieR:Automata Ver 1.1a",
     "day": 6,
-    "time": "7:00 AM",
+    "time": "9:30 AM",
     "cover": "nier-automata-67b05ed1b4",
     "streams": {},
     "status": true
   },
   "wj9b": {
-    "title": "Maou Gakuin no Futekigousha 2",
+    "title": "The Misfit of Demon King Academy",
     "day": 6,
-    "time": "7:30 AM",
+    "time": "10:00 AM",
     "cover": "maou-gakuin-no-futekigousha-2-b8ce0c6698",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GY243NN0R",
+      "VRV": "https://vrv.co/series/GY243NN0R"
+    }
   },
   "KOvw": {
     "title": "DON'T TOY WITH ME, MISS NAGATORO",
     "day": 6,
-    "time": "8:00 AM",
+    "time": "10:30 AM",
     "cover": "ijiranaide-nagatoro-san-2-222b94021a",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GQWH0M455",
-      "VRV": "https://vrv.co/series/GQWH0M455"
+      "VRV": "https://vrv.co/series/GQWH0M455",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jhkr9k44Isa7FVdZ0UTZOL-"
     }
   },
   "PmLY": {
-    "title": "Saikyou Onmyouji no Isekai Tenseiki",
+    "title": "The Reincarnation Of The Strongest Exorcist In Another World",
     "day": 6,
-    "time": "8:30 AM",
+    "time": "10:15 AM",
     "cover": "saikyou-onmyouji-no-isekai-tenseiki-b98e1f011b",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJVWXG/the-reincarnation-of-the-strongest-exorcist-in-another-world",
+      "VRV": "https://vrv.co/series/G1XHJVWXG"
+    }
   },
   "bce6": {
-    "title": "Rougo ni Sonaete Isekai de 8-manmai no Kinka wo Tamemasu",
+    "title": "Saving 80,000 Gold in Another World for my Retirement",
     "day": 6,
-    "time": "9:00 AM",
+    "time": "11:45 AM",
     "cover": "rougo-ni-sonaete-isekai-de-8-manmai-no-kinka-wo-tamemasu-768df91111",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WEM2",
+      "VRV": "https://vrv.co/series/G4PH0WEM2"
+    }
   },
   "MLqR": {
-    "title": "Tokyo Revengers: Seiya Kessen-hen",
+    "title": "Tokyo Revengers",
     "day": 6,
-    "time": "9:08 AM",
-    "cover": "tokyo-revengers-seiya-kessen-hen-22a004ac8c",
-    "streams": {},
-    "status": true
+    "time": "10:08 AM",
+    "cover": "tokyo-revengers-seiya-kessen-hen-81dd9dd03b",
+    "streams": {
+      "Hulu": "https://www.hulu.com/series/tokyo-revengers-1a195a35-e19c-4e36-b609-3b1c451f6ce4"
+    }
   },
   "uUOP": {
     "title": "By the Grace of the Gods",
     "day": 7,
-    "time": "4:30 AM",
+    "time": "6:00 AM",
     "cover": "kami-tachi-ni-hirowareta-otoko-2-c8388c7a83",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GP5HJ85ED/by-the-grace-of-the-gods",
@@ -569,23 +574,24 @@
   "roNf": {
     "title": "Nokemono-tachi no Yoru",
     "day": 7,
-    "time": "5:00 AM",
+    "time": "6:30 AM",
     "cover": "nokemono-tachi-no-yoru-44cc49a710",
     "streams": {},
     "status": true
   },
   "1u6t": {
-    "title": "Benriya Saitou-san, Isekai ni Iku",
+    "title": "Handyman Saitou in another world",
     "day": 7,
-    "time": "5:30 AM",
+    "time": "7:30 AM",
     "cover": "benriya-saitou-san-isekai-ni-iku-3d6efe916e",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GMEHME849/handyman-saitou-in-another-world"
+    }
   },
   "OkH6": {
     "title": "In/Spectre",
     "day": 7,
-    "time": "8:05 AM",
+    "time": "8:30 AM",
     "cover": "kyokou-suiri-2-91f6371d10",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GYZJEEQGR/inspectre"

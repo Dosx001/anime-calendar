@@ -262,7 +262,7 @@ class Shows:
         self.driver.get(url)
         self.driver.find_element(By.CLASS_NAME, "nav__items").find_elements(
             By.TAG_NAME, "a"
-        )[2].click()
+        ).pop().click()
         return self.driver.find_element(By.CLASS_NAME, "CollectionDetails__title").text
 
     def netflix(self, url: str) -> str | None:
