@@ -32,8 +32,8 @@
   },
   "ATJM": {
     "title": "Crayon Shin-chan",
-    "day": 6,
-    "time": "2:30 AM",
+    "day": 5,
+    "time": "11:30 PM",
     "cover": "crayon-shin-chan-dc430f9db0",
     "streams": {}
   },
@@ -285,8 +285,8 @@
   },
   "EaDB": {
     "title": "The Ice Guy and His Cool Female Colleague",
-    "day": 3,
-    "time": "8:00 AM",
+    "day": 2,
+    "time": "9:30 AM",
     "cover": "koori-zokusei-danshi-to-cool-na-douryou-joshi-81e2221407",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GW4HM75NP",
@@ -349,15 +349,6 @@
     "cover": "is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-iv-part-2-0900875464",
     "streams": {
       "HiDive": "https://www.hidive.com/tv/is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-iv"
-    }
-  },
-  "arh6": {
-    "title": "Lupin ZERO",
-    "day": 4,
-    "time": "7:01 AM",
-    "cover": "lupin-zero-8f1e881ed4",
-    "streams": {
-      "HiDive": "https://www.hidive.com/tv/lupin-zero"
     }
   },
   "FcB4": {
@@ -425,7 +416,8 @@
     "time": "9:30 AM",
     "cover": "ars-no-kyojuu-f0a149317f",
     "streams": {
-      "HiDive": "https://www.hidive.com/tv/giant-beasts-of-ars"
+      "HiDive": "https://www.hidive.com/tv/giant-beasts-of-ars",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgKW3992kASSUWm8jNcLbfV"
     }
   },
   "mBbU": {
@@ -486,7 +478,8 @@
     "cover": "uniteup-d7d9ee1838",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7Q5J9",
-      "VRV": "https://vrv.co/series/GJ0H7Q5J9"
+      "VRV": "https://vrv.co/series/GJ0H7Q5J9",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl25yJk8bF8P4CJadfJpvtkz"
     }
   },
   "9zLq": {
@@ -597,7 +590,8 @@
     "time": "9:35 AM",
     "cover": "mou-ippon-5abb5ea406",
     "streams": {
-      "HiDive": "https://www.hidive.com/tv/ippon-again"
+      "HiDive": "https://www.hidive.com/tv/ippon-again",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3T8RvBJQYB1xQc64AIFQ12"
     }
   },
   "DqSs": {
@@ -605,8 +599,10 @@
     "day": 1,
     "time": "5:30 AM",
     "cover": "high-card-cd6d62178b",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G8DHV74W5",
+      "VRV": "https://vrv.co/series/G8DHV74W5"
+    }
   },
   "xpZq": {
     "title": "The Vampire Dies in No Time",
@@ -615,6 +611,7 @@
     "cover": "kyuuketsuki-sugu-shinu-2-c729f08d09",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GZJH3DJ1X",
+      "Funimation": "https://www.funimation.com/shows/the-vampire-dies-in-no-time",
       "VRV": "https://vrv.co/series/GZJH3DJ1X"
     }
   },
@@ -630,12 +627,14 @@
     }
   },
   "cqeX": {
-    "title": "Mononogatari",
+    "title": "Malevolent Spirits: Mononogatari",
     "day": 1,
     "time": "10:00 AM",
     "cover": "mononogatari-b545e53a51",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GDKHZEPW1",
+      "VRV": "https://vrv.co/series/GDKHZEPW1"
+    }
   },
   "VNWD": {
     "title": "Ayakashi Triangle",
@@ -663,42 +662,53 @@
     "time": "7:30 AM",
     "cover": "kubo-san-wa-mob-wo-yurusanai-6f2bae5bf9",
     "streams": {
-      "HiDive": "https://www.hidive.com/tv/kubo-wont-let-me-be-invisible"
+      "HiDive": "https://www.hidive.com/tv/kubo-wont-let-me-be-invisible",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JiX27YReyiUaX4eiTdogphh"
     }
   },
   "UEpU": {
-    "title": "Tondemo Skill de Isekai Hourou Meshi",
+    "title": "Campfire Cooking in Another World with My Absurd Skills",
     "day": 2,
     "time": "9:30 AM",
     "cover": "tondemo-skill-de-isekai-hourou-meshi-483bd57ec6",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5X3EE/campfire-cooking-in-another-world-with-my-absurd-skills",
+      "VRV": "https://vrv.co/series/GG5H5X3EE",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2FdlHjWSXxwE26q05wv6_K"
+    }
   },
   "nLG5": {
-    "title": "Toutotsu ni Egypt Shin 2",
+    "title": "Oh, Suddenly Egyptian God",
     "day": 2,
     "time": "10:00 AM",
     "cover": "toutotsu-ni-egypt-shin-2-b78d0a1115",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G8DHV7KNW/"
+    }
   },
   "NbQL": {
     "title": "BOFURI: I Don't Want to Get Hurt, so I'll Max Out My Defense.",
     "day": 3,
-    "time": "6:30 AM",
+    "time": "10:30 AM",
     "cover": "itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu-2-a05bb0778c",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GKEH2G428",
-      "VRV": "https://vrv.co/series/GKEH2G428"
+      "Funimation": "https://www.funimation.com/shows/bofuri-i-dont-want-to-get-hurt-so-ill-max-out-my-defense/",
+      "Hulu": "https://www.hulu.com/series/bofuri-i-dont-want-to-get-hurt-so-ill-max-out-my-defense-c4ae49ae-5f29-45b1-b886-2440457a3897",
+      "VRV": "https://vrv.co/series/GKEH2G428",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0Kfd0S0D1PELpHYRUz-Owo"
     }
   },
   "QV5z": {
-    "title": "Ooyukiumi no Kaina",
+    "title": "Kaina of the Great Snow Sea",
     "day": 3,
-    "time": "7:55 AM",
+    "time": "12:25 PM",
     "cover": "ooyukiumi-no-kaina-a4f49b2405",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G79H23XVZ",
+      "VRV": "https://vrv.co/series/G79H23XVZ",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jg4qhWLS3o3fPIBNWGebpIh"
+    }
   },
   "Fi15": {
     "title": "Pokemon: Mezase Pokemon Master",
@@ -710,8 +720,8 @@
   },
   "p1Un": {
     "title": "D4DJ All Mix",
-    "day": 5,
-    "time": "6:00 AM",
+    "day": 7,
+    "time": "9:30 AM",
     "cover": "d4dj-all-mix-35eab09272",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEV032",
@@ -722,17 +732,18 @@
   "kTsu": {
     "title": "The Fruit of Evolution: Before I Knew It, My Life Had It Made",
     "day": 5,
-    "time": "8:23 AM",
+    "time": "11:00 AM",
     "cover": "shin-shinka-no-mi-shiranai-uchi-ni-kachigumi-jinsei-e071de191c",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN9DDX",
-      "VRV": "https://vrv.co/series/G9VHN9DDX"
+      "VRV": "https://vrv.co/series/G9VHN9DDX",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JiS5_iewJyAhFz7_L_f1Z6X"
     }
   },
   "xEFI": {
     "title": "CARDFIGHT!! VANGUARD overDress",
     "day": 5,
-    "time": "3:00 PM",
+    "time": "4:30 PM",
     "cover": "cardfight-vanguard-overdress-season-4-8dcd21f83e",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3NJ5",
@@ -741,11 +752,69 @@
     }
   },
   "k6Tu": {
-    "title": "Hikari no Ou",
+    "title": "The Fire Hunter",
     "day": 6,
-    "time": "5:30 AM",
-    "cover": "hikari-no-ou-d2d637ed8d",
+    "time": "9:30 AM",
+    "cover": "hikari-no-ou-85f8cc4fa1",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7Q5X9",
+      "VRV": "https://vrv.co/series/GJ0H7Q5X9"
+    }
+  },
+  "B3OG": {
+    "title": "FLAGLIA: Natsuyasumi No Monogatari",
+    "day": 2,
+    "time": "8:35 AM",
+    "cover": "flaglia-0752906a77",
     "streams": {},
     "status": true
+  },
+  "PcgX": {
+    "title": "Sorcerous Stabber Orphen",
+    "day": 3,
+    "time": "3:30 AM",
+    "cover": "majutsushi-orphen-hagure-tabi-urbanrama-hen-6c09f51923",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7QXDW"
+    }
+  },
+  "mrt6": {
+    "title": "Kage-Jitsu!",
+    "day": 3,
+    "time": "7:30 AM",
+    "cover": "kage-jitsu-e51d93ab6a",
+    "streams": {
+      "YouTube": "https://www.youtube.com/watch?v=W1o5QiUzcpE&list=PL3ongWuaWwZNBggs9x1Qcya3nRJzfMbkK"
+    },
+    "status": true
+  },
+  "cub9": {
+    "title": "Junji Ito Maniac: Japanese Tales of the Macabre",
+    "day": 4,
+    "time": "12:01 AM",
+    "cover": "itou-junji-maniac-e9da05094b",
+    "streams": {
+      "Netflix": "https://www.netflix.com/title/81295011"
+    }
+  },
+  "pCSF": {
+    "title": "Girigiri Warukunai Watame",
+    "day": 5,
+    "time": "2:00 AM",
+    "cover": "girigiri-warukunai-watame-802f987ac2",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLZ34fLWik_iASrR26p_41rirqp8GkPAr_"
+    },
+    "status": true
+  },
+  "3Bel": {
+    "title": "Doomsday With My Dog",
+    "day": 5,
+    "time": "2:30 AM",
+    "cover": "sekai-no-owari-ni-shiba-inu-to-04fa112a11",
+    "streams": {
+      "HiDive": "https://www.hidive.com/movies/doomsday-with-my-dog",
+      "YouTube": "https://www.youtube.com/watch?v=nKIkp0WXGrw&list=PLu41K_5X6dQUvvuQGAvQQ__-0Qt0EC_o-"
+    }
   }
 }
