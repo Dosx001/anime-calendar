@@ -1,5 +1,7 @@
-shows/*.html
 shows/pass.txt
-season/*.html
 node_modules/*
 **/__pycache__/
+**.css
+**.js
+!**.min.css
+!**.min.js
