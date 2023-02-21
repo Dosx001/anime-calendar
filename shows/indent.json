@@ -88,15 +88,6 @@
       "VRV": "https://vrv.co/series/GR75Q020Y/BORUTO-NARUTO-NEXT-GENERATIONS"
     }
   },
-  "ZhGm": {
-    "title": "Delicious Party\u2661Precure",
-    "day": 6,
-    "time": "5:30 PM",
-    "cover": "delicious-party-precure-ae8588aa03",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/delicious-party-pretty-cure"
-    }
-  },
   "aTnu": {
     "title": "Shadowverse",
     "day": 5,
@@ -112,13 +103,6 @@
     "day": 6,
     "time": "2:30 PM",
     "cover": "yu-gi-oh-go-rush-9ca7d7e015",
-    "streams": {}
-  },
-  "PC6r": {
-    "title": "Chibi Maruko-chan",
-    "day": 7,
-    "time": "1:00 AM",
-    "cover": "chibi-maruko-chan-1995-3c8b73a56f",
     "streams": {}
   },
   "ml2D": {
@@ -159,15 +143,6 @@
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/idolish7",
       "VRV": "https://vrv.co/series/GRE50NQV6"
-    }
-  },
-  "9z9M": {
-    "title": "The Eminence in Shadow",
-    "day": 3,
-    "time": "6:30 AM",
-    "cover": "kage-no-jitsuryokusha-ni-naritakute-78981dc7d8",
-    "streams": {
-      "HiDive": "https://www.hidive.com/tv/the-eminence-in-shadow"
     }
   },
   "4O4o": {
@@ -239,16 +214,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/to-your-eternity",
       "VRV": "https://vrv.co/series/GG5H5XMWV",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JglYLsUPMeExu8Yjn5hGYyn"
-    }
-  },
-  "KMhx": {
-    "title": "KanColle",
-    "day": 7,
-    "time": "4:30 AM",
-    "cover": "kantai-collection-kancolle-2-2cb683179b",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GYJQVX726/kancolle",
-      "VRV": "https://vrv.co/series/GYJQVX726"
     }
   },
   "xmMK": {
@@ -371,14 +336,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GDKHZEP21",
       "VRV": "https://vrv.co/series/GDKHZEP21"
     }
-  },
-  "A9VI": {
-    "title": "Sore Ike! Anpanman",
-    "day": 4,
-    "time": "5:55 PM",
-    "cover": "sore-ike-anpanman-dbeb359c0e",
-    "streams": {},
-    "status": true
   },
   "ZDKn": {
     "title": "Farming Life In Another World",
@@ -571,7 +528,8 @@
     "cover": "kyokou-suiri-2-91f6371d10",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GYZJEEQGR/inspectre",
-      "VRV": "https://vrv.co/series/GYZJEEQGR"
+      "VRV": "https://vrv.co/series/GYZJEEQGR",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl39JymKXj97LVea3rRo3-7h"
     }
   },
   "qGJD": {
@@ -643,7 +601,8 @@
     "cover": "eiyuu-ou-bu-wo-kiwameru-tame-tenseisu-soshite-sekai-saikyou-no-minarai-kishi-62f0a1841b",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GQWH0MP94",
-      "VRV": "https://vrv.co/series/GQWH0MP94"
+      "VRV": "https://vrv.co/series/GQWH0MP94",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1aAPuUflQZTsm6r9xyuK4z"
     }
   },
   "eEme": {
@@ -665,15 +624,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5X3EE/campfire-cooking-in-another-world-with-my-absurd-skills",
       "VRV": "https://vrv.co/series/GG5H5X3EE",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2FdlHjWSXxwE26q05wv6_K"
-    }
-  },
-  "nLG5": {
-    "title": "Oh, Suddenly Egyptian God",
-    "day": 2,
-    "time": "10:00 AM",
-    "cover": "toutotsu-ni-egypt-shin-2-b78d0a1115",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G8DHV7KNW/"
     }
   },
   "NbQL": {
@@ -716,7 +666,8 @@
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEV032",
       "Funimation": "https://www.funimation.com/shows/d4dj-first-mix/",
-      "VRV": "https://vrv.co/series/G3KHEV032"
+      "VRV": "https://vrv.co/series/G3KHEV032",
+      "YouTube": "https://www.youtube.com/playlist?list=PL58brFgdVYkp1lAjCTE7ZmsP6K2N4JzYy"
     }
   },
   "kTsu": {
@@ -730,17 +681,6 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JiS5_iewJyAhFz7_L_f1Z6X"
     }
   },
-  "xEFI": {
-    "title": "CARDFIGHT!! VANGUARD overDress",
-    "day": 5,
-    "time": "3:40 PM",
-    "cover": "cardfight-vanguard-overdress-season-4-8dcd21f83e",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3NJ5",
-      "HiDive": "https://www.hidive.com/tv/cardfight-vanguard-willdress",
-      "VRV": "https://vrv.co/series/GXJHM3NJ5"
-    }
-  },
   "k6Tu": {
     "title": "The Fire Hunter",
     "day": 6,
@@ -750,14 +690,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7Q5X9",
       "VRV": "https://vrv.co/series/GJ0H7Q5X9"
     }
-  },
-  "B3OG": {
-    "title": "FLAGLIA: Natsuyasumi No Monogatari",
-    "day": 2,
-    "time": "8:35 AM",
-    "cover": "flaglia-0752906a77",
-    "streams": {},
-    "status": true
   },
   "PcgX": {
     "title": "Sorcerous Stabber Orphen",
@@ -770,135 +702,6 @@
       "VRV": "https://vrv.co/series/GJ0H7QXDW"
     }
   },
-  "mrt6": {
-    "title": "Kage-Jitsu!",
-    "day": 3,
-    "time": "7:30 AM",
-    "cover": "kage-jitsu-e51d93ab6a",
-    "streams": {
-      "YouTube": "https://www.youtube.com/watch?v=W1o5QiUzcpE&list=PL3ongWuaWwZNBggs9x1Qcya3nRJzfMbkK"
-    },
-    "status": true
-  },
-  "3Bel": {
-    "title": "Doomsday With My Dog",
-    "day": 5,
-    "time": "2:30 AM",
-    "cover": "sekai-no-owari-ni-shiba-inu-to-04fa112a11",
-    "streams": {
-      "HiDive": "https://www.hidive.com/movies/doomsday-with-my-dog",
-      "YouTube": "https://www.youtube.com/watch?v=nKIkp0WXGrw&list=PLu41K_5X6dQUvvuQGAvQQ__-0Qt0EC_o-"
-    }
-  },
-  "TnuO": {
-    "title": "Eikyuu Shounen",
-    "day": 1,
-    "time": "9:20 AM",
-    "cover": "eikyuu-shounen-7f59e616fa",
-    "streams": {},
-    "status": true
-  },
-  "ENcF": {
-    "title": "Play It Cool, Guys",
-    "day": 1,
-    "time": "11:00 AM",
-    "cover": "cool-doji-danshi-c47e8b32f0",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN912P/play-it-cool-guys",
-      "VRV": "https://vrv.co/series/G9VHN912P"
-    }
-  },
-  "bFYl": {
-    "title": "Kanojo, Okarishimasu 2: Kanokari Call",
-    "day": 2,
-    "time": "4:00 PM",
-    "cover": "kanojo-okarishimasu-2-kanokari-call-0e936925df",
-    "streams": {},
-    "status": true
-  },
-  "yuIh": {
-    "title": "Record of Ragnarok",
-    "day": 4,
-    "time": "12:01 AM",
-    "cover": "shuumatsu-no-valkyrie-2-93f718dc1a",
-    "streams": {
-      "Netflix": "https://www.netflix.com/title/81281579"
-    }
-  },
-  "CvYI": {
-    "title": "Uchuu Nanchara Kotetsu-kun",
-    "day": 4,
-    "time": "1:40 AM",
-    "cover": "uchuu-nanchara-kotetsu-kun-dfe5b5d3e7",
-    "streams": {},
-    "status": true
-  },
-  "A7bJ": {
-    "title": "My Life as Inukai-san's Dog",
-    "day": 4,
-    "time": "7:30 AM",
-    "cover": "inu-ni-nattara-suki-na-hito-ni-hirowareta-148374311c",
-    "streams": {
-      "HiDive": "https://www.hidive.com/tv/my-life-as-inukai-sans-dog",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjlMMeX1l1fECfT6cPerSNN"
-    }
-  },
-  "SUpv": {
-    "title": "CHIIKAWA",
-    "day": 4,
-    "time": "2:40 PM",
-    "cover": "chiikawa-c656267c1a",
-    "streams": {
-      "HiDive": "https://www.hidive.com/tv/chiikawa",
-      "YouTube": "https://www.youtube.com/playlist?list=PLHIKP_Dyl1zwJy0JjSvVV5l8Kyg-8sjdv"
-    }
-  },
-  "uJbE": {
-    "title": "Lupin III vs. Cat's Eye",
-    "day": 4,
-    "time": "4:00 PM",
-    "cover": "lupin-iii-vs-cats-eye-29fc366f27",
-    "streams": {
-      "Amazon": "https://www.amazon.com/dp/B0B8TGGKN1"
-    },
-    "status": true
-  },
-  "ALDc": {
-    "title": "Space Idol",
-    "day": 4,
-    "time": "4:00 PM",
-    "cover": "space-idol-6f21ccc4a4",
-    "streams": {},
-    "status": true
-  },
-  "vGJp": {
-    "title": "Fushigi Dagashiya: Zenitendou",
-    "day": 5,
-    "time": "1:45 AM",
-    "cover": "fushigi-dagashiya-zenitendou-b66028e952",
-    "streams": {},
-    "status": true
-  },
-  "cTgb": {
-    "title": "NIJIYON ANIMATION",
-    "day": 5,
-    "time": "6:15 AM",
-    "cover": "nijiyon-animation-764420729c",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GW4HM75PP",
-      "VRV": "https://vrv.co/series/GW4HM75PP"
-    }
-  },
-  "fIOQ": {
-    "title": "BONO BONO",
-    "day": 6,
-    "time": "11:52 AM",
-    "cover": "bonobono-2016-d8ff3791d8",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/bono-bono",
-      "VRV": "https://vrv.co/series/G675K0G3R/BONO-BONO"
-    }
-  },
   "DiCt": {
     "title": "Duel Masters Win",
     "day": 6,
@@ -907,46 +710,14 @@
     "streams": {},
     "status": true
   },
-  "N861": {
-    "title": "Cap Kakumei Bottleman DX",
+  "9zLq": {
+    "title": "NieR:Automata Ver1.1a",
     "day": 6,
-    "time": "4:30 PM",
-    "cover": "cap-kakumei-bottleman-dx-6ed1b8adc9",
-    "streams": {},
-    "status": true
-  },
-  "k54n": {
-    "title": "Punirunes",
-    "day": 6,
-    "time": "4:45 PM",
-    "cover": "punirunes-6adfd2b6e9",
-    "streams": {},
-    "status": true
-  },
-  "FmvZ": {
-    "title": "Umayuru",
-    "day": 7,
-    "time": "4:00 AM",
-    "cover": "umayuru-542782abcd",
+    "time": "9:30 AM",
+    "cover": "nier-automata-67b05ed1b4",
     "streams": {
-      "YouTube": "https://www.youtube.com/watch?v=Q6ur7-o_YdI&list=PLzFNGS7Rcf-NQHlzyeN_TL_xsvKThT7hz&index=2"
-    },
-    "status": true
-  },
-  "XHgS": {
-    "title": "KJ File 2nd Season",
-    "day": 7,
-    "time": "7:00 AM",
-    "cover": "kj-file-zoku-hen-52c61a04bb",
-    "streams": {},
-    "status": true
-  },
-  "csYX": {
-    "title": "Boku to Roboko",
-    "day": 7,
-    "time": "7:30 AM",
-    "cover": "boku-to-roboco-e45ad0f197",
-    "streams": {},
-    "status": true
+      "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKNPW1",
+      "VRV": "https://vrv.co/series/GNVHKNPW1"
+    }
   }
 }
