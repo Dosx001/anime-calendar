@@ -1,7 +1,18 @@
 {
+  "O62x": {
+    "title": "Alice Gear Aegis Expansion",
+    "cover": "alice-gear-aegis-ac92557b92",
+    "studio": "Nomad",
+    "source": "Video Game",
+    "genres": [
+      "Action",
+      "Mecha",
+      "Sci-Fi"
+    ]
+  },
   "rKnt": {
     "title": "Ao no Orchestra",
-    "cover": "ao-no-orchestra-2daeef97d1",
+    "cover": "ao-no-orchestra-dad7c2d123",
     "studio": "Nippon Animation",
     "source": "Web Manga",
     "genres": [
@@ -12,7 +23,7 @@
   },
   "LFXd": {
     "title": "BIRDIE WING: Golf Girls' Story 2",
-    "cover": "birdie-wing-golf-girls-story-2-877ec1488a",
+    "cover": "birdie-wing-golf-girls-story-2-60187f2e71",
     "studio": "Bandai Namco Pictures",
     "source": "Original",
     "genres": [
@@ -21,7 +32,7 @@
   },
   "nPIP": {
     "title": "Boku no Kokoro no Yabai Yatsu",
-    "cover": "boku-no-kokoro-no-yabai-yatsu-e06da96d02",
+    "cover": "boku-no-kokoro-no-yabai-yatsu-e30afd204e",
     "studio": "Shin-Ei Animation",
     "source": "Manga",
     "genres": [
@@ -33,7 +44,7 @@
   },
   "594D": {
     "title": "Dead Mount Death Play",
-    "cover": "6b1c3af45c",
+    "cover": "dead-mount-death-play-23676b5c6e",
     "studio": "Geek Toys",
     "source": "Manga",
     "genres": [
@@ -57,7 +68,7 @@
   },
   "qDgG": {
     "title": "Edens Zero 2",
-    "cover": "edens-zero-2-05e5c55964",
+    "cover": "edens-zero-2-5e460a84f6",
     "studio": "J.C. Staff",
     "source": "Manga",
     "genres": [
@@ -71,6 +82,17 @@
       "Space"
     ]
   },
+  "dkV6": {
+    "title": "Edomae Elf",
+    "cover": "edomae-elf-0d7a7e93cb",
+    "studio": "C2C",
+    "source": "Manga",
+    "genres": [
+      "Comedy",
+      "Slice of Life",
+      "Supernatural"
+    ]
+  },
   "3R3k": {
     "title": "Gunma-chan Season 2",
     "cover": "gunma-chan-season-2-56812e8cfa",
@@ -82,7 +104,7 @@
   },
   "tmpO": {
     "title": "Isekai One Turn Kill Nee-san: Ane Douhan no Isekai Seikatsu Hajimemashita",
-    "cover": "6b1c3af45c",
+    "cover": "isekai-one-turn-kill-neesan-ane-douhan-no-isekai-seikatsu-hajimemashita-198bb9950f",
     "studio": "Gekkou",
     "source": "Web Novel",
     "genres": [
@@ -94,7 +116,7 @@
   },
   "wm3N": {
     "title": "Isekai Shoukan wa Nidome desu",
-    "cover": "isekai-shoukan-wa-nidome-desu-461170a33b",
+    "cover": "isekai-shoukan-wa-nidome-desu-ab9801cacb",
     "studio": "Studio elle",
     "source": "Light Novel",
     "genres": [
@@ -159,9 +181,23 @@
       "School"
     ]
   },
+  "QPUT": {
+    "title": "Kaminaki Sekai no Kamisama Katsudou",
+    "cover": "kaminaki-sekai-no-kamisama-katsudou-27c0b7eaee",
+    "studio": "Studio Palette",
+    "source": "Manga",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Drama",
+      "Ecchi",
+      "Fantasy",
+      "Isekai"
+    ]
+  },
   "ZV8K": {
     "title": "Kanojo ga Koushaku-tei ni Itta Riyuu",
-    "cover": "6b1c3af45c",
+    "cover": "kanojo-ga-koushaku-tei-ni-itta-riyuu-bfd5da9eed",
     "studio": "TYPHOON GRAPHICS",
     "source": "Web Manga",
     "genres": [
@@ -197,7 +233,7 @@
   },
   "oyPF": {
     "title": "Kimetsu no Yaiba: Katanakaji no Sato-hen",
-    "cover": "kimetsu-no-yaiba-katanakaji-no-sato-hen-d051f1c9d3",
+    "cover": "kimetsu-no-yaiba-katanakaji-no-sato-hen-080a08ad47",
     "studio": "ufotable",
     "source": "Manga",
     "genres": [
@@ -213,7 +249,7 @@
   },
   "Sf4p": {
     "title": "Kimi wa Houkago Insomnia",
-    "cover": "kimi-wa-houkago-insomnia-8e5e10f8cd",
+    "cover": "kimi-wa-houkago-insomnia-ed7050464f",
     "studio": "LIDENFILMS",
     "source": "Manga",
     "genres": [
@@ -221,6 +257,15 @@
       "School",
       "Seinen",
       "Slice of Life"
+    ]
+  },
+  "gHNs": {
+    "title": "Kizuna no Allele",
+    "cover": "kizuna-no-allele-693dd7d539",
+    "studio": "Signal.MD",
+    "source": "Other",
+    "genres": [
+      "Music"
     ]
   },
   "rh6y": {
@@ -249,7 +294,7 @@
   },
   "ZQ2b": {
     "title": "MASHLE",
-    "cover": "6b1c3af45c",
+    "cover": "mashle-88e71fad54",
     "studio": "A-1 Pictures",
     "source": "Manga",
     "genres": [
@@ -262,7 +307,7 @@
   },
   "9g3C": {
     "title": "Mahou Shoujo Magical Destroyers",
-    "cover": "mahou-shoujo-magical-destroyers-d8af455b78",
+    "cover": "mahou-shoujo-magical-destroyers-a3a1ce7cab",
     "studio": "Bibury Animation Studio",
     "source": "Original",
     "genres": [
@@ -299,7 +344,7 @@
   },
   "1e1s": {
     "title": "Megami no Caf\u00e9 Terrace",
-    "cover": "megami-no-cafe-terrace-71935057f4",
+    "cover": "megami-no-cafe-terrace-52a6c91f27",
     "studio": "Tezuka Productions",
     "source": "Manga",
     "genres": [
@@ -311,7 +356,7 @@
   },
   "flI9": {
     "title": "Mix: Meisei Story Season 2",
-    "cover": "mix-season-2-a7d1afabba",
+    "cover": "mix-season-2-62bdf14e4d",
     "studio": "OLM",
     "source": "Manga",
     "genres": [
@@ -336,7 +381,7 @@
   },
   "6Get": {
     "title": "Niehime to Kemono no Ou",
-    "cover": "6b1c3af45c",
+    "cover": "niehime-to-kemono-no-ou-837d6ad624",
     "studio": "J.C. Staff",
     "source": "Manga",
     "genres": [
@@ -359,7 +404,7 @@
   },
   "MeSs": {
     "title": "Otonari ni Ginga",
-    "cover": "6b1c3af45c",
+    "cover": "otonari-ni-ginga-4b51956bfd",
     "studio": "Asahi Production",
     "source": "Manga",
     "genres": [
@@ -410,7 +455,7 @@
   },
   "TSmT": {
     "title": "Skip to Loafer",
-    "cover": "skip-to-loafer-c06435eeda",
+    "cover": "skip-to-loafer-ca910906fb",
     "studio": "P.A. Works",
     "source": "Manga",
     "genres": [
@@ -420,9 +465,22 @@
       "Slice of Life"
     ]
   },
+  "aDXU": {
+    "title": "Tengoku Daimakyou",
+    "cover": "tengoku-daimakyou-e3d444655b",
+    "studio": "Production I.G",
+    "source": "Manga",
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Drama",
+      "Mystery",
+      "Seinen"
+    ]
+  },
   "HGvk": {
     "title": "Tensei Kizoku no Isekai Boukenroku: Jichou wo Shiranai Kamigami no Shito",
-    "cover": "tensei-kizoku-no-isekai-boukenroku-jichou-wo-shiranai-kamigami-no-shito-400a597f51",
+    "cover": "tensei-kizoku-no-isekai-boukenroku-jichou-wo-shiranai-kamigami-no-shito-b099b4ab4f",
     "studio": "EMT Squared",
     "source": "Light Novel",
     "genres": [
@@ -447,14 +505,14 @@
   },
   "HiQY": {
     "title": "The Marginal Service",
-    "cover": "the-marginal-service-2350dd7269",
+    "cover": "the-marginal-service-8c22440c2a",
     "studio": "Studio 3Hz",
     "source": "Original",
     "genres": []
   },
   "6bOg": {
     "title": "Tokyo Mew Mew New~\u2661 2",
-    "cover": "tokyo-mew-mew-new-2-7358947530",
+    "cover": "tokyo-mew-mew-new-2-56cfa641ba",
     "studio": "Graphinica",
     "source": "Manga",
     "genres": [
@@ -502,14 +560,14 @@
   },
   "28NI": {
     "title": "World Dai Star",
-    "cover": "world-dai-star-9962450121",
+    "cover": "world-dai-star-d481c27e72",
     "studio": "Lerche",
     "source": "Other",
     "genres": []
   },
   "3puk": {
     "title": "Yamada-kun to Lv999 no Koi wo Suru",
-    "cover": "6b1c3af45c",
+    "cover": "yamada-kun-to-lv999-no-koi-wo-suru-59b36d575f",
     "studio": "MADHOUSE",
     "source": "Manga",
     "genres": [
@@ -520,7 +578,7 @@
   },
   "6XYI": {
     "title": "Yuusha ga Shinda!",
-    "cover": "yuusha-ga-shinda-6eb7040638",
+    "cover": "yuusha-ga-shinda-2b7a936a8a",
     "studio": "LIDENFILMS",
     "source": "Manga",
     "genres": [
@@ -533,7 +591,7 @@
   },
   "aqk9": {
     "title": "[Oshi no Ko]",
-    "cover": "6b1c3af45c",
+    "cover": "oshi-no-ko-580af6863a",
     "studio": "Doga Kobo",
     "source": "Manga",
     "genres": [
