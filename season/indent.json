@@ -84,7 +84,7 @@
   },
   "dkV6": {
     "title": "Edomae Elf",
-    "cover": "edomae-elf-0d7a7e93cb",
+    "cover": "edomae-elf-8f0ee7bdd4",
     "studio": "C2C",
     "source": "Manga",
     "genres": [
@@ -183,7 +183,7 @@
   },
   "QPUT": {
     "title": "Kaminaki Sekai no Kamisama Katsudou",
-    "cover": "kaminaki-sekai-no-kamisama-katsudou-27c0b7eaee",
+    "cover": "kaminaki-sekai-no-kamisama-katsudou-e560321720",
     "studio": "Studio Palette",
     "source": "Manga",
     "genres": [
@@ -210,7 +210,7 @@
   },
   "6OUX": {
     "title": "Kawaisugi Crisis",
-    "cover": "kawaisugi-crisis-65ac504b4a",
+    "cover": "kawaisugi-crisis-5c91645468",
     "studio": "SynergySP",
     "source": "Manga",
     "genres": [
@@ -276,12 +276,13 @@
     "genres": [
       "Adventure",
       "Comedy",
-      "Fantasy"
+      "Fantasy",
+      "Magic"
     ]
   },
   "vgNc": {
     "title": "Kuma Kuma Kuma Bear Punch!",
-    "cover": "kuma-kuma-kuma-bear-2-f56d6d4d06",
+    "cover": "kuma-kuma-kuma-bear-2-c625a7e07b",
     "studio": "EMT Squared",
     "source": "Light Novel",
     "genres": [
@@ -294,15 +295,14 @@
   },
   "ZQ2b": {
     "title": "MASHLE",
-    "cover": "mashle-88e71fad54",
+    "cover": "mashle-a59bfe7d17",
     "studio": "A-1 Pictures",
     "source": "Manga",
     "genres": [
       "Action",
       "Comedy",
       "Parody",
-      "Shounen",
-      "Supernatural"
+      "Shounen"
     ]
   },
   "9g3C": {
@@ -327,6 +327,20 @@
       "Fantasy",
       "Magic",
       "Slice of Life"
+    ]
+  },
+  "9O2f": {
+    "title": "Majutsushi Orphen Hagure Tabi: Seiiki-hen",
+    "cover": "majutsushi-orphen-hagure-tabi-seiiki-hen-0b38199686",
+    "studio": "Studio DEEN",
+    "source": "Light Novel",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Fantasy",
+      "Magic",
+      "Martial Arts"
     ]
   },
   "FT4V": {
@@ -381,7 +395,7 @@
   },
   "6Get": {
     "title": "Niehime to Kemono no Ou",
-    "cover": "niehime-to-kemono-no-ou-837d6ad624",
+    "cover": "niehime-to-kemono-no-ou-9ef251b62f",
     "studio": "J.C. Staff",
     "source": "Manga",
     "genres": [
@@ -399,7 +413,8 @@
     "studio": "C-Station",
     "source": "Original",
     "genres": [
-      "School"
+      "School",
+      "Sci-Fi"
     ]
   },
   "MeSs": {
@@ -425,9 +440,19 @@
       "Seinen"
     ]
   },
+  "BkuV": {
+    "title": "Pok\u00e9mon Horizons: The Series",
+    "cover": "pokemon-2023-273f1b2226",
+    "studio": "OLM",
+    "source": "Video Game",
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ]
+  },
   "BFT7": {
     "title": "Rokudou no Onna-tachi",
-    "cover": "rokudou-no-onna-tachi-f29e87939f",
+    "cover": "rokudou-no-onna-tachi-084ba42ec4",
     "studio": "Satelight",
     "source": "Manga",
     "genres": [
@@ -508,7 +533,9 @@
     "cover": "the-marginal-service-8c22440c2a",
     "studio": "Studio 3Hz",
     "source": "Original",
-    "genres": []
+    "genres": [
+      "Action"
+    ]
   },
   "6bOg": {
     "title": "Tokyo Mew Mew New~\u2661 2",
@@ -528,7 +555,7 @@
   },
   "5f58": {
     "title": "Tonikaku Kawaii 2",
-    "cover": "tonikaku-kawaii-2-0af12c5a9e",
+    "cover": "tonikaku-kawaii-2-ea98cd2120",
     "studio": "Seven Arcs",
     "source": "Manga",
     "genres": [
@@ -539,10 +566,11 @@
   },
   "vn9Y": {
     "title": "Tousouchuu: Great Mission",
-    "cover": "tousouchuu-great-mission-6eb5a16ca9",
+    "cover": "tousouchuu-great-mission-949e3c5c63",
     "studio": "Toei Animation",
     "source": "Other",
     "genres": [
+      "Action",
       "Sci-Fi",
       "Thriller"
     ]
