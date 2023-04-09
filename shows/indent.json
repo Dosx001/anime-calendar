@@ -434,22 +434,25 @@
     }
   },
   "qDgG": {
-    "title": "Edens Zero 2",
+    "title": "EDENS ZERO",
     "day": 6,
-    "time": "8:55 AM",
+    "time": "9:55 AM",
     "cover": "edens-zero-2-5e460a84f6",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G79H23XJJ/edens-zero",
+      "VRV": "https://vrv.co/series/G79H23XJJ/EDENS-ZERO"
+    }
   },
   "MeSs": {
-    "title": "Otonari ni Ginga",
+    "title": "A Galaxy Next Door",
     "day": 6,
-    "time": "9:30 AM",
+    "time": "11:00 AM",
     "cover": "otonari-ni-ginga-4b51956bfd",
     "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3PZW/a-galaxy-next-door",
+      "VRV": "https://vrv.co/series/GXJHM3PZW/A-Galaxy-Next-Door",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jg3i4JfyhDkbbCApEL8MMif"
-    },
-    "status": true
+    }
   },
   "3puk": {
     "title": "My Love Story with Yamada-kun at Lv999",
@@ -471,12 +474,13 @@
     }
   },
   "wm3N": {
-    "title": "Isekai Shoukan wa Nidome desu",
+    "title": "Summoned to Another World for a Second Time",
     "day": 6,
     "time": "11:45 AM",
     "cover": "isekai-shoukan-wa-nidome-desu-b0b7defad8",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN91G5/summoned-to-another-world-for-a-second-time"
+    }
   },
   "vn9Y": {
     "title": "Tousouchuu: Great Mission",
