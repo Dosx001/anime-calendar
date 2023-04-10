@@ -12,7 +12,7 @@
   },
   "rKnt": {
     "title": "Ao no Orchestra",
-    "cover": "ao-no-orchestra-dad7c2d123",
+    "cover": "ao-no-orchestra-ac5bcfc54a",
     "studio": "Nippon Animation",
     "source": "Web Manga",
     "genres": [
@@ -50,12 +50,13 @@
     "genres": [
       "Action",
       "Fantasy",
-      "Supernatural"
+      "Supernatural",
+      "Thriller"
     ]
   },
   "Knjs": {
     "title": "Dr.Stone: New World",
-    "cover": "dr-stone-3-39064d9e06",
+    "cover": "dr-stone-3-5044ffb45e",
     "studio": "TMS Entertainment",
     "source": "Manga",
     "genres": [
@@ -66,9 +67,22 @@
       "Shounen"
     ]
   },
+  "vkEQ": {
+    "title": "Duel Masters Win: Duel Wars",
+    "cover": "duel-masters-win-duel-wars-aa7151ea18",
+    "studio": "Brain's Base",
+    "source": "Original",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy",
+      "Shounen"
+    ]
+  },
   "qDgG": {
     "title": "Edens Zero 2",
-    "cover": "edens-zero-2-5e460a84f6",
+    "cover": "edens-zero-2-054a33f421",
     "studio": "J.C. Staff",
     "source": "Manga",
     "genres": [
@@ -116,7 +130,7 @@
   },
   "wm3N": {
     "title": "Isekai Shoukan wa Nidome desu",
-    "cover": "isekai-shoukan-wa-nidome-desu-ab9801cacb",
+    "cover": "isekai-shoukan-wa-nidome-desu-b0b7defad8",
     "studio": "Studio elle",
     "source": "Light Novel",
     "genres": [
@@ -130,7 +144,7 @@
   },
   "a4JK": {
     "title": "Isekai de Cheat Skill wo Te ni Shita Ore wa, Genjitsu Sekai wo mo Musou Suru: Level Up wa Jinsei wo Kaeta",
-    "cover": "isekai-de-cheat-skill-wo-te-ni-shita-ore-wa-genjitsu-sekai-wo-mo-musou-suru-level-up-wa-jinsei-wo-kaeta-082e50172e",
+    "cover": "isekai-de-cheat-skill-wo-te-ni-shita-ore-wa-genjitsu-sekai-wo-mo-musou-suru-level-up-wa-jinsei-wo-kaeta-a1336aff3f",
     "studio": "Millepensee",
     "source": "Light Novel",
     "genres": [
@@ -172,7 +186,7 @@
   },
   "fQjS": {
     "title": "Jijou wo Shiranai Tenkousei ga Guigui Kuru.",
-    "cover": "jijou-wo-shiranai-tenkousei-ga-guigui-kuru-bdfd4889b8",
+    "cover": "jijou-wo-shiranai-tenkousei-ga-guigui-kuru-a164e9c228",
     "studio": "Studio Signpost",
     "source": "Manga",
     "genres": [
@@ -220,7 +234,7 @@
   },
   "xiPI": {
     "title": "Kidou Senshi Gundam: Suisei no Majo Part 2",
-    "cover": "kidou-senshi-gundam-suisei-no-majo-part-2-3b18770cf4",
+    "cover": "kidou-senshi-gundam-suisei-no-majo-part-2-e1e1af6907",
     "studio": "Sunrise",
     "source": "Original",
     "genres": [
@@ -233,7 +247,7 @@
   },
   "oyPF": {
     "title": "Kimetsu no Yaiba: Katanakaji no Sato-hen",
-    "cover": "kimetsu-no-yaiba-katanakaji-no-sato-hen-080a08ad47",
+    "cover": "kimetsu-no-yaiba-katanakaji-no-sato-hen-70cee58cb8",
     "studio": "ufotable",
     "source": "Manga",
     "genres": [
@@ -261,7 +275,7 @@
   },
   "gHNs": {
     "title": "Kizuna no Allele",
-    "cover": "kizuna-no-allele-693dd7d539",
+    "cover": "kizuna-no-allele-7f2112d7d5",
     "studio": "Signal.MD",
     "source": "Other",
     "genres": [
@@ -295,7 +309,7 @@
   },
   "ZQ2b": {
     "title": "MASHLE",
-    "cover": "mashle-a59bfe7d17",
+    "cover": "mashle-2a2d1f1906",
     "studio": "A-1 Pictures",
     "source": "Manga",
     "genres": [
@@ -331,7 +345,7 @@
   },
   "9O2f": {
     "title": "Majutsushi Orphen Hagure Tabi: Seiiki-hen",
-    "cover": "majutsushi-orphen-hagure-tabi-seiiki-hen-0b38199686",
+    "cover": "majutsushi-orphen-hagure-tabi-seiiki-hen-1bb177f4bd",
     "studio": "Studio DEEN",
     "source": "Light Novel",
     "genres": [
@@ -409,7 +423,7 @@
   },
   "L2LT": {
     "title": "Opus.COLORs",
-    "cover": "opus-colors-c9de7161b0",
+    "cover": "opus-colors-4b36363d61",
     "studio": "C-Station",
     "source": "Original",
     "genres": [
@@ -446,7 +460,9 @@
     "studio": "OLM",
     "source": "Video Game",
     "genres": [
+      "Action",
       "Adventure",
+      "Comedy",
       "Fantasy"
     ]
   },
@@ -518,7 +534,7 @@
   },
   "ar4x": {
     "title": "The IDOLM@STER Cinderella Girls: U149",
-    "cover": "the-idolmaster-cinderella-girls-u149-e856fe267c",
+    "cover": "the-idolmaster-cinderella-girls-u149-bc07f18e71",
     "studio": "CygamesPictures",
     "source": "Web Manga",
     "genres": [
@@ -530,16 +546,17 @@
   },
   "HiQY": {
     "title": "The Marginal Service",
-    "cover": "the-marginal-service-8c22440c2a",
+    "cover": "the-marginal-service-a23954a2e9",
     "studio": "Studio 3Hz",
     "source": "Original",
     "genres": [
-      "Action"
+      "Action",
+      "Sci-Fi"
     ]
   },
   "6bOg": {
     "title": "Tokyo Mew Mew New~\u2661 2",
-    "cover": "tokyo-mew-mew-new-2-56cfa641ba",
+    "cover": "tokyo-mew-mew-new-2-b7633821ba",
     "studio": "Graphinica",
     "source": "Manga",
     "genres": [
@@ -619,7 +636,7 @@
   },
   "aqk9": {
     "title": "[Oshi no Ko]",
-    "cover": "oshi-no-ko-580af6863a",
+    "cover": "oshi-no-ko-e0e3cfef43",
     "studio": "Doga Kobo",
     "source": "Manga",
     "genres": [

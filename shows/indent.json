@@ -147,17 +147,6 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0Kfd0S0D1PELpHYRUz-Owo"
     }
   },
-  "PcgX": {
-    "title": "Sorcerous Stabber Orphen",
-    "day": 3,
-    "time": "5:30 AM",
-    "cover": "majutsushi-orphen-hagure-tabi-urbanrama-hen-6c09f51923",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7QXDW",
-      "Funimation": "https://www.funimation.com/shows/sorcerous-stabber-orphen/",
-      "VRV": "https://vrv.co/series/GJ0H7QXDW"
-    }
-  },
   "9zLq": {
     "title": "NieR:Automata Ver1.1a",
     "day": 6,
@@ -437,7 +426,7 @@
     "title": "EDENS ZERO",
     "day": 6,
     "time": "9:55 AM",
-    "cover": "edens-zero-2-5e460a84f6",
+    "cover": "edens-zero-2-054a33f421",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G79H23XJJ/edens-zero",
       "VRV": "https://vrv.co/series/G79H23XJJ/EDENS-ZERO"
@@ -479,7 +468,8 @@
     "time": "11:45 AM",
     "cover": "isekai-shoukan-wa-nidome-desu-b0b7defad8",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN91G5/summoned-to-another-world-for-a-second-time"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN91G5/summoned-to-another-world-for-a-second-time",
+      "VRV": "https://vrv.co/series/G9VHN91G5/Summoned-to-Another-World-for-a-Second-Time"
     }
   },
   "vn9Y": {
@@ -548,6 +538,104 @@
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba",
       "VRV": "https://vrv.co/series/GY5P48XEY/Demon-Slayer-Kimetsu-no-Yaiba"
+    }
+  },
+  "ZV8K": {
+    "title": "Kanojo ga Koushaku-tei ni Itta Riyuu",
+    "day": 1,
+    "time": "6:00 AM",
+    "cover": "kanojo-ga-koushaku-tei-ni-itta-riyuu-bfd5da9eed",
+    "streams": {},
+    "status": true
+  },
+  "594D": {
+    "title": "Dead Mount Death Play",
+    "day": 1,
+    "time": "8:30 AM",
+    "cover": "dead-mount-death-play-23676b5c6e",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEV04J/dead-mount-death-play"
+    }
+  },
+  "Sf4p": {
+    "title": "Insomniacs After School",
+    "day": 1,
+    "time": "9:00 AM",
+    "cover": "kimi-wa-houkago-insomnia-ed7050464f",
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/insomniacs-after-school"
+    }
+  },
+  "HiQY": {
+    "title": "The Marginal Service",
+    "day": 2,
+    "time": "9:29 AM",
+    "cover": "the-marginal-service-a23954a2e9",
+    "streams": {},
+    "status": true
+  },
+  "9O2f": {
+    "title": "Sorcerous Stabber Orphen",
+    "day": 3,
+    "time": "5:30 AM",
+    "cover": "majutsushi-orphen-hagure-tabi-seiiki-hen-1bb177f4bd",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7QXDW/sorcerous-stabber-orphen",
+      "Funimation": "https://www.funimation.com/shows/sorcerous-stabber-orphen/",
+      "VRV": "https://vrv.co/series/GJ0H7QXDW/sorcerous-stabber-orphen"
+    }
+  },
+  "ar4x": {
+    "title": "The IDOLM@STER Cinderella Girls: U149",
+    "day": 3,
+    "time": "8:00 AM",
+    "cover": "the-idolmaster-cinderella-girls-u149-bc07f18e71",
+    "streams": {},
+    "status": true
+  },
+  "aqk9": {
+    "title": "Oshi No Ko",
+    "day": 3,
+    "time": "8:00 AM",
+    "cover": "oshi-no-ko-e0e3cfef43",
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/oshi-no-ko",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jhas5i3D5PMB2HNS6Z6HJF2"
+    }
+  },
+  "37VT": {
+    "title": "Ranking of Kings",
+    "day": 4,
+    "time": "11:00 AM",
+    "cover": "ousama-ranking-yuuki-no-takarabako-29a8ae2373",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G79H23W70/ranking-of-kings",
+      "VRV": "https://vrv.co/series/G79H23W70/Ranking-of-Kings"
+    }
+  },
+  "BkuV": {
+    "title": "Pok\u00e9mon Horizons: The Series",
+    "day": 5,
+    "time": "2:55 AM",
+    "cover": "pokemon-2023-273f1b2226",
+    "streams": {},
+    "status": true
+  },
+  "PC6r": {
+    "title": "Chibi Maruko-chan (1995)",
+    "day": 7,
+    "time": "2:00 AM",
+    "cover": "chibi-maruko-chan-1995-04c12bc3f4",
+    "streams": {},
+    "status": true
+  },
+  "28NI": {
+    "title": "Stella of the Theater: World Dai Star",
+    "day": 7,
+    "time": "8:30 AM",
+    "cover": "world-dai-star-d481c27e72",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GMEHME8PE/stella-of-the-theater-world-dai-star"
     }
   }
 }
