@@ -82,17 +82,6 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLb7AOG3cj7UyJfqsfXpvL2LUVdg0dOK7q"
     }
   },
-  "Cl5z": {
-    "title": "UniteUp!",
-    "day": 6,
-    "time": "9:00 AM",
-    "cover": "uniteup-d7d9ee1838",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7Q5J9",
-      "VRV": "https://vrv.co/series/GJ0H7Q5J9",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl25yJk8bF8P4CJadfJpvtkz"
-    }
-  },
   "wj9b": {
     "title": "The Misfit of Demon King Academy",
     "day": 6,
@@ -122,16 +111,6 @@
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GZJH3D0X5",
       "VRV": "https://vrv.co/series/GZJH3D0X5"
-    }
-  },
-  "eEme": {
-    "title": "Kubo Won't Let Me Be Invisible!",
-    "day": 2,
-    "time": "8:30 AM",
-    "cover": "kubo-san-wa-mob-wo-yurusanai-6f2bae5bf9",
-    "streams": {
-      "HiDive": "https://www.hidive.com/tv/kubo-wont-let-me-be-invisible",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JiX27YReyiUaX4eiTdogphh"
     }
   },
   "NbQL": {
@@ -296,7 +275,7 @@
     "title": "Opus.COLORs",
     "day": 4,
     "time": "9:00 AM",
-    "cover": "opus-colors-4b36363d61",
+    "cover": "opus-colors-1eda6382ac",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX8Q91/opuscolors",
       "VRV": "https://vrv.co/series/GVDHX8Q91/OpusCOLORs"
@@ -405,7 +384,7 @@
   "aDXU": {
     "title": "Tengoku Daimakyo",
     "day": 6,
-    "time": "6:00 AM",
+    "time": "6:01 AM",
     "cover": "tengoku-daimakyou-e3d444655b",
     "streams": {
       "Hulu": "https://www.hulu.com/series/tengoku-daimakyo-c0bba144-1fa6-4ee5-affc-1029c77cfb71"
@@ -591,7 +570,8 @@
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7QXDW/sorcerous-stabber-orphen",
       "Funimation": "https://www.funimation.com/shows/sorcerous-stabber-orphen/",
-      "VRV": "https://vrv.co/series/GJ0H7QXDW/sorcerous-stabber-orphen"
+      "VRV": "https://vrv.co/series/GJ0H7QXDW/sorcerous-stabber-orphen",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhKvixs2_IM5RKHHyDMGjRq"
     }
   },
   "ar4x": {
@@ -621,6 +601,8 @@
     "cover": "ousama-ranking-yuuki-no-takarabako-29a8ae2373",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G79H23W70/ranking-of-kings",
+      "Funimation": "https://www.funimation.com/shows/ranking-of-kings/",
+      "Netflix": "https://www.netflix.com/title/81644043",
       "VRV": "https://vrv.co/series/G79H23W70/Ranking-of-Kings"
     }
   },
@@ -641,5 +623,23 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GMEHME8PE/stella-of-the-theater-world-dai-star",
       "VRV": "https://vrv.co/series/GMEHME8PE/Stella-of-the-Theater-World-Dai-Star"
     }
+  },
+  "6Get": {
+    "title": "Niehime to Kemono no Ou",
+    "day": 3,
+    "time": "8:30 AM",
+    "cover": "niehime-to-kemono-no-ou-9ef251b62f",
+    "streams": {},
+    "status": true
+  },
+  "uSTy": {
+    "title": "Uma Musume: Pretty Derby - ROAD TO THE TOP",
+    "day": 7,
+    "time": "5:01 AM",
+    "cover": "uma-musume-pretty-derby-road-to-the-top-54b117bf7c",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLzFNGS7Rcf-PZC8MfcTJX7srArpLdvyfb"
+    },
+    "status": true
   }
 }
