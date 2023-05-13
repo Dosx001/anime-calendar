@@ -62,7 +62,7 @@
   },
   "AP28": {
     "title": "Higeki no Genkyou to Naru Saikyou Gedou Last Boss Joou wa Tami no Tame ni Tsukushimasu.",
-    "cover": "higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukushimasu-3e3fbf008b",
+    "cover": "higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukushimasu-38722c12f7",
     "studio": "OLM",
     "source": "Light Novel",
     "genres": [
@@ -81,6 +81,17 @@
       "Comedy",
       "Romance",
       "School",
+      "Slice of Life"
+    ]
+  },
+  "Veuk": {
+    "title": "Hyakushou Kizoku",
+    "cover": "hyakushou-kizoku-0d9d223578",
+    "studio": "Pie in the sky",
+    "source": "Manga",
+    "genres": [
+      "Comedy",
+      "Shoujo",
       "Slice of Life"
     ]
   },
@@ -123,6 +134,19 @@
       "School"
     ]
   },
+  "FT4V": {
+    "title": "Masamune-kun no Revenge R",
+    "cover": "masamune-kun-no-revenge-2-f87cd234ea",
+    "studio": "SILVER LINK.",
+    "source": "Manga",
+    "genres": [
+      "Comedy",
+      "Harem",
+      "Romance",
+      "School",
+      "Slice of Life"
+    ]
+  },
   "RAm1": {
     "title": "Mobius Dust",
     "cover": "mobius-dust-0672e69ead",
@@ -154,7 +178,23 @@
     "genres": [
       "Action",
       "Fantasy",
+      "Isekai",
       "Slice of Life"
+    ]
+  },
+  "BLC7": {
+    "title": "Rurouni Kenshin: Meiji Kenkaku Romantan (2023)",
+    "cover": "rurouni-kenshin-meiji-kenkaku-romantan-shin-anime-704770dac4",
+    "studio": "LIDENFILMS",
+    "source": "Manga",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Historical",
+      "Martial Arts",
+      "Romance",
+      "Shounen"
     ]
   },
   "Lx6h": {

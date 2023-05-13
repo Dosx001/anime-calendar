@@ -45,13 +45,6 @@
     "cover": "sazae-san-162010bbcb",
     "streams": {}
   },
-  "iM69": {
-    "title": "Youkai Watch \u266a",
-    "day": 5,
-    "time": "2:25 AM",
-    "cover": "youkai-watch-2021-1da5821743",
-    "streams": {}
-  },
   "ziMS": {
     "title": "Ninjala",
     "day": 5,
@@ -113,19 +106,6 @@
       "VRV": "https://vrv.co/series/GZJH3D0X5"
     }
   },
-  "NbQL": {
-    "title": "BOFURI: I Don't Want to Get Hurt, so I'll Max Out My Defense.",
-    "day": 3,
-    "time": "8:30 AM",
-    "cover": "itai-no-wa-iya-nano-de-bougyoryoku-ni-kyokufuri-shitai-to-omoimasu-2-a05bb0778c",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GKEH2G428",
-      "Funimation": "https://www.funimation.com/shows/bofuri-i-dont-want-to-get-hurt-so-ill-max-out-my-defense/",
-      "Hulu": "https://www.hulu.com/series/bofuri-i-dont-want-to-get-hurt-so-ill-max-out-my-defense-c4ae49ae-5f29-45b1-b886-2440457a3897",
-      "VRV": "https://vrv.co/series/GKEH2G428",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0Kfd0S0D1PELpHYRUz-Owo"
-    }
-  },
   "9zLq": {
     "title": "NieR:Automata Ver1.1a",
     "day": 6,
@@ -180,7 +160,7 @@
   "a4JK": {
     "title": "I Got a Cheat Skill in Another World and Became Unrivaled in The Real World, Too",
     "day": 1,
-    "time": "11:00 AM",
+    "time": "10:00 AM",
     "cover": "isekai-de-cheat-skill-wo-te-ni-shita-ore-wa-genjitsu-sekai-wo-mo-musou-suru-level-up-wa-jinsei-wo-kaeta-a1336aff3f",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W49E/i-got-a-cheat-skill-in-another-world-and-became-unrivaled-in-the-real-world-too",
@@ -625,21 +605,24 @@
     }
   },
   "6Get": {
-    "title": "Niehime to Kemono no Ou",
+    "title": "Sacrificial Princess and the King of Beasts",
     "day": 3,
     "time": "8:30 AM",
     "cover": "niehime-to-kemono-no-ou-9ef251b62f",
-    "streams": {},
-    "status": true
-  },
-  "uSTy": {
-    "title": "Uma Musume: Pretty Derby - ROAD TO THE TOP",
-    "day": 7,
-    "time": "5:01 AM",
-    "cover": "uma-musume-pretty-derby-road-to-the-top-54b117bf7c",
     "streams": {
-      "YouTube": "https://www.youtube.com/playlist?list=PLzFNGS7Rcf-PZC8MfcTJX7srArpLdvyfb"
-    },
-    "status": true
+      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM52V/sacrificial-princess-and-the-king-of-beasts",
+      "VRV": "https://vrv.co/series/G0XHWM52V/Sacrificial-Princess-and-the-King-of-Beasts"
+    }
+  },
+  "flI9": {
+    "title": "MIX",
+    "day": 6,
+    "time": "3:00 AM",
+    "cover": "mix-season-2-62bdf14e4d",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GY9VK9PWR/mix",
+      "Funimation": "https://www.funimation.com/shows/mix/",
+      "VRV": "https://vrv.co/series/GY9VK9PWR/MIX"
+    }
   }
 }
