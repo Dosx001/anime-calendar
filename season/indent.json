@@ -1,4 +1,16 @@
 {
+  "7S5I": {
+    "title": "AI no Idenshi",
+    "cover": "ai-no-idenshi-d14d10f210",
+    "studio": "MADHOUSE",
+    "source": "Manga",
+    "genres": [
+      "Drama",
+      "Psychological",
+      "Sci-Fi",
+      "Thriller"
+    ]
+  },
   "i4y8": {
     "title": "BLEACH: Sennen Kessen-hen - Ketsubetsu-tan",
     "cover": "bleach-sennen-kessen-hen-ketsubetsu-tan-5466f57850",
@@ -60,6 +72,19 @@
       "Supernatural"
     ]
   },
+  "zMfK": {
+    "title": "Helck",
+    "cover": "helck-15de2d7dae",
+    "studio": "Satelight",
+    "source": "Web Manga",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Demons",
+      "Fantasy"
+    ]
+  },
   "AP28": {
     "title": "Higeki no Genkyou to Naru Saikyou Gedou Last Boss Joou wa Tami no Tame ni Tsukushimasu.",
     "cover": "higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukushimasu-38722c12f7",
@@ -93,6 +118,17 @@
       "Comedy",
       "Shoujo",
       "Slice of Life"
+    ]
+  },
+  "6zAe": {
+    "title": "Jidou Hanbaiki ni Umarekawatta Ore wa Meikyuu wo Samayou",
+    "cover": "jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou-9b7ff5fed8",
+    "studio": "AXsiZ",
+    "source": "Light Novel",
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Isekai"
     ]
   },
   "7h6z": {
@@ -161,7 +197,7 @@
   },
   "1hsy": {
     "title": "Mononogatari 2nd Season",
-    "cover": "mononogatari-2nd-season-73e245a213",
+    "cover": "mononogatari-2nd-season-a75e215f2a",
     "studio": "Bandai Namco Pictures",
     "source": "Manga",
     "genres": [
@@ -170,9 +206,24 @@
       "Supernatural"
     ]
   },
+  "2AvD": {
+    "title": "Mushoku Tensei: Isekai Ittara Honki Dasu 2",
+    "cover": "mushoku-tensei-isekai-ittara-honki-dasu-2-3526e14426",
+    "studio": "Studio Bind",
+    "source": "Light Novel",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Ecchi",
+      "Fantasy",
+      "Isekai",
+      "Magic"
+    ]
+  },
   "Psmq": {
     "title": "Okashi na Tensei",
-    "cover": "okashi-na-tensei-0f0957b09c",
+    "cover": "okashi-na-tensei-ec3287eac8",
     "studio": "SynergySP",
     "source": "Light Novel",
     "genres": [
@@ -199,7 +250,7 @@
   },
   "Lx6h": {
     "title": "Ryza no Atelier: Tokoyami no Joou to Himitsu no Kakurega",
-    "cover": "ryza-no-atelier-tokoyami-no-joou-to-himitsu-no-kakurega-b509b04f3a",
+    "cover": "ryza-no-atelier-tokoyami-no-joou-to-himitsu-no-kakurega-1694d40a05",
     "studio": "LIDENFILMS",
     "source": "Video Game",
     "genres": [
@@ -208,6 +259,16 @@
       "Comedy",
       "Drama",
       "Fantasy"
+    ]
+  },
+  "Wu7h": {
+    "title": "SYNDUALITY Noir",
+    "cover": "synduality-149583684c",
+    "studio": "8bit",
+    "source": "Video Game",
+    "genres": [
+      "Mecha",
+      "Sci-Fi"
     ]
   },
   "mjLO": {
@@ -253,7 +314,6 @@
     "source": "Manga",
     "genres": [
       "Action",
-      "Adventure",
       "Comedy",
       "Horror",
       "Seinen",

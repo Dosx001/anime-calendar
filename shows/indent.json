@@ -7,8 +7,7 @@
     "streams": {
       "Amazon": "https://www.amazon.com/dp/B09Q2CH8RS",
       "Crunchyroll": "https://www.crunchyroll.com/case-closed",
-      "Netflix": "https://www.netflix.com/title/80090370",
-      "VRV": "https://vrv.co/series/G6JQVM3ER/Case-Closed"
+      "Netflix": "https://www.netflix.com/title/80090370"
     }
   },
   "urTI": {
@@ -20,8 +19,7 @@
       "Crunchyroll": "https://www.crunchyroll.com/one-piece",
       "Funimation": "https://www.funimation.com/shows/one-piece/",
       "Hulu": "https://www.hulu.com/series/one-piece-c7a08df6-d0d5-4dd3-afff-d1f90133cd4e",
-      "Netflix": "https://www.netflix.com/title/80107103",
-      "VRV": "https://vrv.co/series/GRMG8ZQZR/One-Piece"
+      "Netflix": "https://www.netflix.com/title/80107103"
     }
   },
   "NAVE": {
@@ -81,8 +79,7 @@
     "time": "10:00 AM",
     "cover": "maou-gakuin-no-futekigousha-2-b8ce0c6698",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GY243NN0R",
-      "VRV": "https://vrv.co/series/GY243NN0R"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GY243NN0R"
     }
   },
   "AeR7": {
@@ -92,8 +89,7 @@
     "cover": "vinland-saga-season-2-2da0d04fd5",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3WKK0",
-      "Netflix": "https://www.netflix.com/title/81249833",
-      "VRV": "https://vrv.co/series/GEXH3WKK0"
+      "Netflix": "https://www.netflix.com/title/81249833"
     }
   },
   "VNWD": {
@@ -102,8 +98,7 @@
     "time": "10:30 AM",
     "cover": "ayakashi-triangle-a0fbbcb580",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GZJH3D0X5",
-      "VRV": "https://vrv.co/series/GZJH3D0X5"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GZJH3D0X5"
     }
   },
   "9zLq": {
@@ -112,8 +107,7 @@
     "time": "9:30 AM",
     "cover": "nier-automata-67b05ed1b4",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKNPW1",
-      "VRV": "https://vrv.co/series/GNVHKNPW1"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKNPW1"
     }
   },
   "O62x": {
@@ -139,11 +133,10 @@
   "E8Bx": {
     "title": "Golden Kamuy",
     "day": 1,
-    "time": "9:00 AM",
+    "time": "8:00 AM",
     "cover": "golden-kamuy-4-3b4748186a",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/golden-kamuy",
-      "VRV": "https://vrv.co/series/GY8DWQN5Y"
+      "Crunchyroll": "https://www.crunchyroll.com/golden-kamuy"
     }
   },
   "GJAQ": {
@@ -153,7 +146,6 @@
     "cover": "isekai-wa-smartphone-to-tomo-ni-2-39dce504ab",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GYQ4ZWV46/in-another-world-with-my-smartphone",
-      "VRV": "https://vrv.co/series/GYQ4ZWV46/In-Another-World-With-My-Smartphone",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjBKiITGODjhqylQCpVmWgV"
     }
   },
@@ -164,7 +156,6 @@
     "cover": "isekai-de-cheat-skill-wo-te-ni-shita-ore-wa-genjitsu-sekai-wo-mo-musou-suru-level-up-wa-jinsei-wo-kaeta-a1336aff3f",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W49E/i-got-a-cheat-skill-in-another-world-and-became-unrivaled-in-the-real-world-too",
-      "VRV": "https://vrv.co/series/GEXH3W49E/I-Got-a-Cheat-Skill-in-Another-World-and-Became-Unrivaled-in-The-Real-World-Too",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3NIzWVo6NiXcorugfvyvVg"
     }
   },
@@ -174,8 +165,7 @@
     "time": "11:00 AM",
     "cover": "kizuna-no-allele-7f2112d7d5",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM577/kizuna-no-allele",
-      "VRV": "https://vrv.co/series/G0XHWM577/Kizuna-no-Allele"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM577/kizuna-no-allele"
     }
   },
   "TSmT": {
@@ -184,8 +174,7 @@
     "time": "8:30 AM",
     "cover": "skip-to-loafer-ca910906fb",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN9185/skip-and-loafer",
-      "VRV": "https://vrv.co/series/G9VHN9185/Skip-and-Loafer"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN9185/skip-and-loafer"
     }
   },
   "6bOg": {
@@ -204,7 +193,6 @@
     "cover": "kono-subarashii-sekai-ni-bakuen-wo-a5ba855024",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7Q5V7/konosuba--an-explosion-on-this-wonderful-world",
-      "VRV": "https://vrv.co/series/GJ0H7Q5V7/KONOSUBA-An-Explosion-on-This-Wonderful-World",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjMsIf4xqkBMZKgb8I5Ojxs"
     }
   },
@@ -214,8 +202,7 @@
     "time": "9:30 AM",
     "cover": "kaminaki-sekai-no-kamisama-katsudou-e560321720",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKNP4J/kamikatsu-working-for-god-in-a-godless-world",
-      "VRV": "https://vrv.co/series/GNVHKNP4J/KamiKatsu-Working-for-God-in-a-Godless-World"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKNP4J/kamikatsu-working-for-god-in-a-godless-world"
     }
   },
   "ok5J": {
@@ -224,8 +211,7 @@
     "time": "7:00 AM",
     "cover": "watashi-no-yuri-wa-oshigoto-desu-6f431376ac",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GMEHME8VE/yuri-is-my-job",
-      "VRV": "https://vrv.co/series/GMEHME8VE/Yuri-Is-My-Job"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GMEHME8VE/yuri-is-my-job"
     }
   },
   "Knjs": {
@@ -237,7 +223,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GYEXQKJG6/dr-stone",
       "Funimation": "https://www.funimation.com/shows/dr-stone/",
       "Netflix": "https://www.netflix.com/title/81046193",
-      "VRV": "https://vrv.co/series/GYEXQKJG6/Dr-STONE",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgOJnHWhu4PB9hzHwHgj228"
     }
   },
@@ -247,8 +232,7 @@
     "time": "8:00 AM",
     "cover": "mahoutsukai-no-yome-2-7919cf4955",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GRZXQJJ8Y/the-ancient-magus-bride",
-      "VRV": "https://vrv.co/series/GRZXQJJ8Y/The-Ancient-Magus-Bride"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GRZXQJJ8Y/the-ancient-magus-bride"
     }
   },
   "L2LT": {
@@ -257,8 +241,7 @@
     "time": "9:00 AM",
     "cover": "opus-colors-1eda6382ac",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX8Q91/opuscolors",
-      "VRV": "https://vrv.co/series/GVDHX8Q91/OpusCOLORs"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX8Q91/opuscolors"
     }
   },
   "6XYI": {
@@ -268,7 +251,6 @@
     "cover": "yuusha-ga-shinda-2b7a936a8a",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEV09J/the-legendary-hero-is-dead",
-      "VRV": "https://vrv.co/series/G3KHEV09J/The-Legendary-Hero-is-Dead",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3ZAdJvmFgtV9Zmyjbbwzw3"
     }
   },
@@ -278,15 +260,14 @@
     "time": "7:30 AM",
     "cover": "isekai-one-turn-kill-neesan-ane-douhan-no-isekai-seikatsu-hajimemashita-198bb9950f",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM717/my-one-hit-kill-sister",
-      "VRV": "https://vrv.co/series/G5PHNM717/My-One-Hit-Kill-Sister"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM717/my-one-hit-kill-sister"
     }
   },
   "6OUX": {
     "title": "Too Cute Crisis",
     "day": 5,
     "time": "7:30 AM",
-    "cover": "kawaisugi-crisis-5c91645468",
+    "cover": "kawaisugi-crisis-6b87623155",
     "streams": {
       "HiDive": "https://www.hidive.com/tv/too-cute-crisis"
     }
@@ -297,8 +278,7 @@
     "time": "9:30 AM",
     "cover": "mashle-2a2d1f1906",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GDKHZEP8W/mashle-magic-and-muscles",
-      "VRV": "https://vrv.co/series/GDKHZEP8W/MASHLE-MAGIC-AND-MUSCLES"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GDKHZEP8W/mashle-magic-and-muscles"
     }
   },
   "5f58": {
@@ -307,8 +287,7 @@
     "time": "10:15 AM",
     "cover": "tonikaku-kawaii-2-ea98cd2120",
     "streams": {
-      "Crunchyroll": "https://crunchyroll.com/series/GRWMGGQ86/tonikawa-over-the-moon-for-you",
-      "VRV": "https://vrv.co/series/GRWMGGQ86/TONIKAWA-Over-The-Moon-For-You"
+      "Crunchyroll": "https://crunchyroll.com/series/GRWMGGQ86/tonikawa-over-the-moon-for-you"
     }
   },
   "BFT7": {
@@ -317,8 +296,7 @@
     "time": "10:45 AM",
     "cover": "rokudou-no-onna-tachi-084ba42ec4",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GW4HM75QW/rokudos-bad-girls",
-      "VRV": "https://vrv.co/series/GW4HM75QW/Rokudos-Bad-Girls"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GW4HM75QW/rokudos-bad-girls"
     }
   },
   "1e1s": {
@@ -337,7 +315,6 @@
     "cover": "birdie-wing-golf-girls-story-2-60187f2e71",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKN714/birdie-wing--golf-girls-story-",
-      "VRV": "https://vrv.co/series/GNVHKN714/BIRDIE-WING-Golf-Girls-Story-",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jj20cgTjpBvhYVT_uWtVQrL"
     }
   },
@@ -347,8 +324,7 @@
     "time": "11:45 AM",
     "cover": "mahou-shoujo-magical-destroyers-a3a1ce7cab",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GZJH3D01P/magical-destroyers",
-      "VRV": "https://vrv.co/series/GZJH3D01P/Magical-Destroyers"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GZJH3D01P/magical-destroyers"
     }
   },
   "dkV6": {
@@ -377,8 +353,7 @@
     "cover": "jigokuraku-cee439a2b6",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7Q5ZJ/hells-paradise",
-      "Netflix": "https://www.netflix.com/title/81574246",
-      "VRV": "https://vrv.co/series/GJ0H7Q5ZJ/Hells-Paradise"
+      "Netflix": "https://www.netflix.com/title/81574246"
     }
   },
   "qDgG": {
@@ -387,8 +362,7 @@
     "time": "9:55 AM",
     "cover": "edens-zero-2-054a33f421",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G79H23XJJ/edens-zero",
-      "VRV": "https://vrv.co/series/G79H23XJJ/EDENS-ZERO"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G79H23XJJ/edens-zero"
     }
   },
   "MeSs": {
@@ -398,7 +372,6 @@
     "cover": "otonari-ni-ginga-4b51956bfd",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3PZW/a-galaxy-next-door",
-      "VRV": "https://vrv.co/series/GXJHM3PZW/A-Galaxy-Next-Door",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jg3i4JfyhDkbbCApEL8MMif"
     }
   },
@@ -408,8 +381,7 @@
     "time": "10:00 AM",
     "cover": "yamada-kun-to-lv999-no-koi-wo-suru-59b36d575f",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKNPQ7/my-love-story-with-yamada-kun-at-lv999",
-      "VRV": "https://vrv.co/series/GNVHKNPQ7/My-Love-Story-with-Yamada-kun-at-Lv999"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKNPQ7/my-love-story-with-yamada-kun-at-lv999"
     }
   },
   "nPIP": {
@@ -427,8 +399,7 @@
     "time": "11:45 AM",
     "cover": "isekai-shoukan-wa-nidome-desu-b0b7defad8",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN91G5/summoned-to-another-world-for-a-second-time",
-      "VRV": "https://vrv.co/series/G9VHN91G5/Summoned-to-Another-World-for-a-Second-Time"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN91G5/summoned-to-another-world-for-a-second-time"
     }
   },
   "vn9Y": {
@@ -455,7 +426,6 @@
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G79H2307W/mobile-suit-gundam-the-witch-from-mercury",
       "Netflix": "https://www.netflix.com/title/81643097",
-      "VRV": "https://vrv.co/series/G79H2307W/Mobile-Suit-Gundam-The-Witch-from-Mercury",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgY8RwCgV5CVcJGjCjkLkti"
     }
   },
@@ -465,8 +435,7 @@
     "time": "6:00 AM",
     "cover": "tensei-kizoku-no-isekai-boukenroku-jichou-wo-shiranai-kamigami-no-shito-b099b4ab4f",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX8QK5/the-aristocrats-otherworldly-adventure-serving-gods-who-go-too-far",
-      "VRV": "https://vrv.co/series/GVDHX8QK5/The-Aristocrats-Otherworldly-Adventure-Serving-Gods-Who-Go-Too-Far"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX8QK5/the-aristocrats-otherworldly-adventure-serving-gods-who-go-too-far"
     }
   },
   "fQjS": {
@@ -475,8 +444,7 @@
     "time": "6:30 AM",
     "cover": "jijou-wo-shiranai-tenkousei-ga-guigui-kuru-a164e9c228",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GMEHME8K8/my-clueless-first-friend",
-      "VRV": "https://vrv.co/series/GMEHME8K8/My-Clueless-First-Friend"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GMEHME8K8/my-clueless-first-friend"
     }
   },
   "5TQP": {
@@ -486,7 +454,6 @@
     "cover": "my-home-hero-5985f0cb6b",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5X389/my-home-hero",
-      "VRV": "https://vrv.co/series/GG5H5X389/My-Home-Hero",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jgrs9B0sIbeAydZ-IaNhcvh"
     }
   },
@@ -498,8 +465,7 @@
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba",
       "Funimation": "https://www.funimation.com/shows/demon-slayer-kimetsu-no-yaiba/",
-      "Netflix": "https://www.netflix.com/title/81091393",
-      "VRV": "https://vrv.co/series/GY5P48XEY/Demon-Slayer-Kimetsu-no-Yaiba"
+      "Netflix": "https://www.netflix.com/title/81091393"
     }
   },
   "ZV8K": {
@@ -508,8 +474,7 @@
     "time": "6:00 AM",
     "cover": "kanojo-ga-koushaku-tei-ni-itta-riyuu-bfd5da9eed",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX8Q71/why-raeliana-ended-up-at-the-dukes-mansion",
-      "VRV": "https://vrv.co/series/GVDHX8Q71/Why-Raeliana-Ended-Up-at-the-Dukes-Mansion"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX8Q71/why-raeliana-ended-up-at-the-dukes-mansion"
     }
   },
   "594D": {
@@ -519,7 +484,6 @@
     "cover": "dead-mount-death-play-23676b5c6e",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEV04J/dead-mount-death-play",
-      "VRV": "https://vrv.co/series/G3KHEV04J/Dead-Mount-Death-Play",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JiRY-B9_WFmAsqQzJvtBhQd"
     }
   },
@@ -538,8 +502,7 @@
     "time": "11:30 AM",
     "cover": "the-marginal-service-a23954a2e9",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G8DHV741D/the-marginal-service",
-      "VRV": "https://vrv.co/series/G8DHV741D/THE-MARGINAL-SERVICE"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G8DHV741D/the-marginal-service"
     }
   },
   "9O2f": {
@@ -550,7 +513,6 @@
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7QXDW/sorcerous-stabber-orphen",
       "Funimation": "https://www.funimation.com/shows/sorcerous-stabber-orphen/",
-      "VRV": "https://vrv.co/series/GJ0H7QXDW/sorcerous-stabber-orphen",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhKvixs2_IM5RKHHyDMGjRq"
     }
   },
@@ -582,8 +544,7 @@
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G79H23W70/ranking-of-kings",
       "Funimation": "https://www.funimation.com/shows/ranking-of-kings/",
-      "Netflix": "https://www.netflix.com/title/81644043",
-      "VRV": "https://vrv.co/series/G79H23W70/Ranking-of-Kings"
+      "Netflix": "https://www.netflix.com/title/81644043"
     }
   },
   "BkuV": {
@@ -600,8 +561,7 @@
     "time": "8:30 AM",
     "cover": "world-dai-star-d481c27e72",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GMEHME8PE/stella-of-the-theater-world-dai-star",
-      "VRV": "https://vrv.co/series/GMEHME8PE/Stella-of-the-Theater-World-Dai-Star"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GMEHME8PE/stella-of-the-theater-world-dai-star"
     }
   },
   "6Get": {
@@ -610,8 +570,7 @@
     "time": "8:30 AM",
     "cover": "niehime-to-kemono-no-ou-9ef251b62f",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM52V/sacrificial-princess-and-the-king-of-beasts",
-      "VRV": "https://vrv.co/series/G0XHWM52V/Sacrificial-Princess-and-the-King-of-Beasts"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM52V/sacrificial-princess-and-the-king-of-beasts"
     }
   },
   "flI9": {
@@ -621,8 +580,26 @@
     "cover": "mix-season-2-62bdf14e4d",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GY9VK9PWR/mix",
-      "Funimation": "https://www.funimation.com/shows/mix/",
-      "VRV": "https://vrv.co/series/GY9VK9PWR/MIX"
+      "Funimation": "https://www.funimation.com/shows/mix/"
+    }
+  },
+  "eEme": {
+    "title": "Kubo Won't Let Me Be Invisible!",
+    "day": 2,
+    "time": "8:30 AM",
+    "cover": "kubo-san-wa-mob-wo-yurusanai-6f2bae5bf9",
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/kubo-wont-let-me-be-invisible",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JiX27YReyiUaX4eiTdogphh"
+    }
+  },
+  "3CKQ": {
+    "title": "Soaring Sky! Pretty Cure",
+    "day": 6,
+    "time": "6:30 PM",
+    "cover": "hirogaru-sky-precure-0e14c3bfff",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM55N/soaring-sky-pretty-cure"
     }
   }
 }
