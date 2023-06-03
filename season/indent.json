@@ -1,7 +1,7 @@
 {
   "7S5I": {
     "title": "AI no Idenshi",
-    "cover": "ai-no-idenshi-d14d10f210",
+    "cover": "ai-no-idenshi-bd4b668d27",
     "studio": "MADHOUSE",
     "source": "Manga",
     "genres": [
@@ -13,7 +13,7 @@
   },
   "i4y8": {
     "title": "BLEACH: Sennen Kessen-hen - Ketsubetsu-tan",
-    "cover": "bleach-sennen-kessen-hen-ketsubetsu-tan-5466f57850",
+    "cover": "bleach-sennen-kessen-hen-ketsubetsu-tan-e4dd262bee",
     "studio": "Studio Pierrot",
     "source": "Manga",
     "genres": [
@@ -98,8 +98,8 @@
     ]
   },
   "Faat": {
-    "title": "Horimiya: Piece",
-    "cover": "horimiya-piece-7154d1daf2",
+    "title": "Horimiya -piece-",
+    "cover": "horimiya-piece-d05c4a5298",
     "studio": "CloverWorks",
     "source": "Manga",
     "genres": [
@@ -170,6 +170,19 @@
       "School"
     ]
   },
+  "Jelr": {
+    "title": "Lv1 Maou to One Room Yuusha",
+    "cover": "lv-1-maou-to-one-room-yuusha-0cb28d664a",
+    "studio": "BLADE",
+    "source": "Manga",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Ecchi",
+      "Fantasy"
+    ]
+  },
   "FT4V": {
     "title": "Masamune-kun no Revenge R",
     "cover": "masamune-kun-no-revenge-2-f87cd234ea",
@@ -208,7 +221,7 @@
   },
   "2AvD": {
     "title": "Mushoku Tensei: Isekai Ittara Honki Dasu 2",
-    "cover": "mushoku-tensei-isekai-ittara-honki-dasu-2-3526e14426",
+    "cover": "mushoku-tensei-isekai-ittara-honki-dasu-2-922f7db598",
     "studio": "Studio Bind",
     "source": "Light Novel",
     "genres": [
@@ -219,6 +232,18 @@
       "Fantasy",
       "Isekai",
       "Magic"
+    ]
+  },
+  "Qv37": {
+    "title": "Nanatsu no Maken ga Shihai Suru",
+    "cover": "nanatsu-no-maken-ga-shihai-suru-c8e1a61d33",
+    "studio": "J.C. Staff",
+    "source": "Light Novel",
+    "genres": [
+      "Action",
+      "Fantasy",
+      "Magic",
+      "School"
     ]
   },
   "Psmq": {
@@ -283,6 +308,20 @@
       "Mystery"
     ]
   },
+  "xPVT": {
+    "title": "Temple",
+    "cover": "temple-bc82319feb",
+    "studio": "Gekkou",
+    "source": "Manga",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Ecchi",
+      "Harem",
+      "Romance",
+      "Slice of Life"
+    ]
+  },
   "LrC4": {
     "title": "Tsuyokute New Saga",
     "cover": "tsuyokute-new-saga-4024788cbd",
@@ -293,6 +332,17 @@
       "Adventure",
       "Drama",
       "Fantasy"
+    ]
+  },
+  "3vlu": {
+    "title": "Uchi no Kaisha no Chiisai Senpai no Hanashi",
+    "cover": "uchi-no-kaisha-no-chiisai-senpai-no-hanashi-bcadfbe21f",
+    "studio": "project No.9",
+    "source": "Doujinshi",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Slice of Life"
     ]
   },
   "S3By": {
