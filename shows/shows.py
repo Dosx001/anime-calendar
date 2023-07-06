@@ -5,12 +5,10 @@ from re import search
 from time import sleep, strftime, strptime
 from typing import TypedDict
 
-from selenium import webdriver
+import undetected_chromedriver
 from selenium.common.exceptions import (NoSuchElementException,
                                         StaleElementReferenceException)
 from selenium.webdriver.common.by import By
-from selenium.webdriver.firefox.options import Options
-from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.remote.webelement import WebElement
 from typing_extensions import NotRequired
@@ -30,14 +28,7 @@ class Shows:
         if driver:
             self.driver = driver
         else:
-            profile = (
-                popen("ls ~/.mozilla/firefox/ | grep default").read().split("\n")[1]
-            )
-            options = Options()
-            options.set_preference("profile", "$HOME/.mozilla/firefox/" + profile)
-            self.driver = webdriver.Firefox(
-                service=Service(log_path="/dev/null"), options=options
-            )
+            self.driver = undetected_chromedriver.Chrome(use_subprocess=False)
         self.driver.maximize_window()
         with open("shows.json", encoding="utf-8") as file:
             self.shows: dict[str, ShowType] = load(file)
