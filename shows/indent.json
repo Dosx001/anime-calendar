@@ -239,7 +239,7 @@
   },
   "BIQm": {
     "title": "Bosanimal",
-    "day": 2,
+    "day": 3,
     "time": "5:50 PM",
     "cover": "bosanimal-ff6d5927e2",
     "streams": {
@@ -251,7 +251,7 @@
     "title": "Fate/Grand Order: Fujimaru Ritsuka wa Wakaranai",
     "day": 2,
     "time": "1:00 AM",
-    "cover": "fate-grand-order-fujimaru-ritsuka-wa-wakaranai-e0b32f8656",
+    "cover": "",
     "streams": {
       "YouTube": "https://www.youtube.com/watch?v=TgbLfyK0vlY&list=PLkybqduWZGqtDqXo4rBp1M0jMfCOaS0cr&index=2"
     },
@@ -268,7 +268,7 @@
   },
   "SUpv": {
     "title": "CHIIKAWA",
-    "day": 2,
+    "day": 5,
     "time": "3:40 PM",
     "cover": "chiikawa-c656267c1a",
     "streams": {
@@ -308,7 +308,7 @@
   "ujre": {
     "title": "My Happy Marriage",
     "day": 3,
-    "time": "7:30 AM",
+    "time": "7:31 AM",
     "cover": "watashi-no-shiawase-na-kekkon-a1fc313069",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81564905"
@@ -345,7 +345,7 @@
   "7h6z": {
     "title": "JUJUTSU KAISEN",
     "day": 4,
-    "time": "7:56 AM",
+    "time": "10:00 AM",
     "cover": "jujutsu-kaisen-2-d5c863b7c3",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GRDV0019R/jujutsu-kaisen"
@@ -361,20 +361,22 @@
     }
   },
   "BLC7": {
-    "title": "Rurouni Kenshin: Meiji Kenkaku Romantan (2023)",
+    "title": "Rurouni Kenshin",
     "day": 4,
-    "time": "8:55 AM",
+    "time": "11:00 AM",
     "cover": "rurouni-kenshin-meiji-kenkaku-romantan-shin-anime-24d8723543",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM1NK/rurouni-kenshin"
+    }
   },
   "zgHz": {
-    "title": "Seija Musou: Salaryman, Isekai de Ikinokoru Tame ni Ayumu Michi",
+    "title": "The Great Cleric",
     "day": 4,
-    "time": "10:00 AM",
+    "time": "10:30 AM",
     "cover": "seija-musou-salaryman-isekai-de-ikinokoru-tame-ni-ayumu-michi-f8345b2480",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQ24/the-great-cleric"
+    }
   },
   "qGCg": {
     "title": "BanG Dream! It's MyGO!!!!!",
@@ -403,12 +405,13 @@
     "status": true
   },
   "AEgQ": {
-    "title": "Sugar Apple Fairy Tale Part 2",
+    "title": "Sugar Apple Fairy Tale",
     "day": 5,
-    "time": "5:30 AM",
+    "time": "6:00 AM",
     "cover": "sugar-apple-fairy-tale-part-2-fb73bc6497",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM7E2/sugar-apple-fairy-tale"
+    }
   },
   "Veuk": {
     "title": "Hyakushou Kizoku",
@@ -419,17 +422,18 @@
     "status": true
   },
   "Qv37": {
-    "title": "Nanatsu no Maken ga Shihai Suru",
+    "title": "Reign of the Seven Spellblades",
     "day": 5,
-    "time": "8:30 AM",
+    "time": "9:30 AM",
     "cover": "nanatsu-no-maken-ga-shihai-suru-c8e1a61d33",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W2Z7/reign-of-the-seven-spellblades"
+    }
   },
   "26gQ": {
     "title": "Rent-a-Girlfriend",
     "day": 5,
-    "time": "9:23 AM",
+    "time": "11:30 AM",
     "cover": "kanojo-okarishimasu-3-ca2a07d5e5",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G6QWV3976/rent-a-girlfriend"
@@ -444,25 +448,27 @@
     "status": true
   },
   "7S5I": {
-    "title": "AI no Idenshi",
+    "title": "The Gene of AI",
     "day": 5,
-    "time": "9:53 AM",
+    "time": "12:00 PM",
     "cover": "ai-no-idenshi-0e9356a9a7",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN9Q9N/the-gene-of-ai"
+    }
   },
   "aGtf": {
-    "title": "Dekiru Neko wa Kyou mo Yuuutsu",
+    "title": "The Masterful Cat Is Depressed Again Today",
     "day": 5,
-    "time": "10:22 AM",
+    "time": "10:45 AM",
     "cover": "dekiru-neko-wa-kyou-mo-yuuutsu-e02b3f2d48",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G79H23Z3P/the-masterful-cat-is-depressed-again-today"
+    }
   },
   "U7W9": {
     "title": "CARDFIGHT!! VANGUARD overDress",
     "day": 5,
-    "time": "4:00 PM",
+    "time": "4:40 PM",
     "cover": "cardfight-vanguard-overdress-season-5-50f39afa94",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3NJ5/cardfight-vanguard-overdress"
