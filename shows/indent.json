@@ -239,7 +239,7 @@
   },
   "BIQm": {
     "title": "Bosanimal",
-    "day": 3,
+    "day": 2,
     "time": "5:50 PM",
     "cover": "bosanimal-ff6d5927e2",
     "streams": {
@@ -268,9 +268,9 @@
   },
   "SUpv": {
     "title": "CHIIKAWA",
-    "day": 5,
+    "day": 2,
     "time": "3:40 PM",
-    "cover": "chiikawa-c656267c1a",
+    "cover": "",
     "streams": {
       "HiDive": "https://www.hidive.com/tv/chiikawa",
       "YouTube": "https://www.youtube.com/playlist?list=PLHIKP_Dyl1zwJy0JjSvVV5l8Kyg-8sjdv"
@@ -483,37 +483,41 @@
     "status": true
   },
   "XZx2": {
-    "title": "Level 1 dakedo Unique Skill de Saikyou desu",
+    "title": "My Unique Skill Makes Me OP even at Level 1",
     "day": 6,
-    "time": "6:00 AM",
+    "time": "7:00 AM",
     "cover": "level-1-dakedo-unique-skill-de-saikyou-desu-517e97db80",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV0VV/my-unique-skill-makes-me-op-even-at-level-1",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1AUEELCJe2ghK9eDI5nGsQ"
+    }
   },
   "CrsT": {
-    "title": "Liar Liar",
+    "title": "Liar, Liar",
     "day": 6,
-    "time": "6:30 AM",
+    "time": "10:25 AM",
     "cover": "liar-liar-0dcbcb9084",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3G34/liar-liar"
+    }
   },
   "i4y8": {
     "title": "Bleach: Thousand-Year Blood War",
     "day": 6,
-    "time": "7:00 AM",
+    "time": "7:30 AM",
     "cover": "bleach-sennen-kessen-hen-ketsubetsu-tan-04f0f69ffc",
     "streams": {
       "Hulu": "https://www.hulu.com/series/bleach-thousand-year-blood-war-02a3c8c0-4f1d-4610-bbb4-5b8e9468d7b1"
     }
   },
   "xPVT": {
-    "title": "Temple",
+    "title": "TenPuru",
     "day": 6,
-    "time": "8:00 AM",
+    "time": "9:15 AM",
     "cover": "temple-2827b6e72c",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WJWQ/tenpuru"
+    }
   },
   "Faat": {
     "title": "Horimiya",
@@ -589,28 +593,32 @@
     "status": true
   },
   "PV8y": {
-    "title": "Zom 100: Zombie ni Naru Made ni Shitai 100 no Koto",
+    "title": "Zom 100: Bucket List of the Dead",
     "day": 7,
     "time": "2:00 AM",
     "cover": "zom-100-zombie-ni-naru-made-ni-shitai-100-no-koto-73654629a4",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7QGQK/zom-100-the-bucket-list-of-the-dead",
+      "Hulu": "https://www.hulu.com/series/zom-100-bucket-list-of-the-dead-1015792d-f811-47f9-a28e-bf0b30332bf3",
+      "Netflix": "https://www.netflix.com/title/81680101"
+    }
   },
   "W2aJ": {
     "title": "Shinigami Bocchan to Kuro Maid 2nd Season",
     "day": 7,
-    "time": "6:00 AM",
+    "time": "7:00 AM",
     "cover": "shinigami-bocchan-to-kuro-maid-zoku-hen-918c7e41bd",
     "streams": {},
     "status": true
   },
   "aXI8": {
-    "title": "Eiyuu Kyoushitsu",
+    "title": "CLASSROOM FOR HEROES",
     "day": 7,
-    "time": "7:00 AM",
+    "time": "7:30 AM",
     "cover": "eiyuu-kyoushitsu-95cbafcb76",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKN9N3/classroom-for-heroes"
+    }
   },
   "ekZN": {
     "title": "YOHANE THE PARHELION -SUNSHINE in the MIRROR",
@@ -648,6 +656,15 @@
     "cover": "yami-shibai-11-27283d5b1b",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G6WEM1V36/theatre-of-darkness-yamishibai"
+    }
+  },
+  "wi8t": {
+    "title": "Shadowverse",
+    "day": 5,
+    "time": "7:30 PM",
+    "cover": "poster-21fa193001",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GYEX244X6/shadowverse"
     }
   }
 }
