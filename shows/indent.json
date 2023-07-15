@@ -188,7 +188,8 @@
     "time": "6:30 AM",
     "cover": "lv-1-maou-to-one-room-yuusha-0cb28d664a",
     "streams": {
-      "HiDive": "https://www.hidive.com/tv/level-1-demon-lord-one-room-hero"
+      "HiDive": "https://www.hidive.com/tv/level-1-demon-lord-one-room-hero",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjdAWvKx5mOLsOQBUOcsKsw"
     }
   },
   "FT4V": {
@@ -197,7 +198,8 @@
     "time": "8:00 AM",
     "cover": "masamune-kun-no-revenge-2-f87cd234ea",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GYX02P3MR/masamune-kuns-revenge"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GYX02P3MR/masamune-kuns-revenge",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjKv_w9nBNL9p9lSipG96WB"
     }
   },
   "1hsy": {
@@ -215,7 +217,8 @@
     "time": "11:00 AM",
     "cover": "yumemiru-danshi-wa-genjitsushugisha-8e9d3ad3b4",
     "streams": {
-      "HiDive": "https://www.hidive.com/tv/the-dreaming-boy-is-a-realist"
+      "HiDive": "https://www.hidive.com/tv/the-dreaming-boy-is-a-realist",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjUr-UgHcM5VkSNVNTGBgmC"
     }
   },
   "Psmq": {
@@ -227,64 +230,15 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7QG2G/sweet-reincarnation"
     }
   },
-  "ADOO": {
-    "title": "YouTuNya",
-    "day": 1,
-    "time": "2:00 PM",
-    "cover": "youtunya-b2feb28b9f",
-    "streams": {
-      "YouTube": "https://www.youtube.com/playlist?list=PLt1RFRlgRnroTMyLN9XCNDxlrKS9V_X2c"
-    },
-    "status": true
-  },
-  "BIQm": {
-    "title": "Bosanimal",
-    "day": 2,
-    "time": "5:50 PM",
-    "cover": "bosanimal-ff6d5927e2",
-    "streams": {
-      "YouTube": "https://www.youtube.com/playlist?list=PLFNUyl__hoIivROXI-GSXs5sb3MPA3gnG"
-    },
-    "status": true
-  },
-  "u9UZ": {
-    "title": "Fate/Grand Order: Fujimaru Ritsuka wa Wakaranai",
-    "day": 2,
-    "time": "1:00 AM",
-    "cover": "",
-    "streams": {
-      "YouTube": "https://www.youtube.com/watch?v=TgbLfyK0vlY&list=PLkybqduWZGqtDqXo4rBp1M0jMfCOaS0cr&index=2"
-    },
-    "status": true
-  },
   "OXrB": {
     "title": "The Girl I Like Forgot Her Glasses",
     "day": 2,
     "time": "8:00 AM",
     "cover": "suki-na-ko-ga-megane-wo-wasureta-ea017109ee",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKN9DE/the-girl-i-like-forgot-her-glasses"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKN9DE/the-girl-i-like-forgot-her-glasses",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhOZuLkQIdZ8KRyNFyFiOtV"
     }
-  },
-  "SUpv": {
-    "title": "CHIIKAWA",
-    "day": 2,
-    "time": "3:40 PM",
-    "cover": "",
-    "streams": {
-      "HiDive": "https://www.hidive.com/tv/chiikawa",
-      "YouTube": "https://www.youtube.com/playlist?list=PLHIKP_Dyl1zwJy0JjSvVV5l8Kyg-8sjdv"
-    }
-  },
-  "sC9R": {
-    "title": "Mamekichi Mameko NEET no Nichijou 2",
-    "day": 2,
-    "time": "9:00 PM",
-    "cover": "mamekichi-mameko-neet-no-nichijou-2-ba58ca1bc0",
-    "streams": {
-      "YouTube": "https://www.youtube.com/playlist?list=PLipXal3ZZgwSTehBee1umRxK59MgLRxUL"
-    },
-    "status": true
   },
   "ZxIQ": {
     "title": "Yoru wa Neko to Issho Season 2",
@@ -324,31 +278,14 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jgye3e1_USJ1KdATNxP9svZ"
     }
   },
-  "UIza": {
-    "title": "Niehime to Kemono no Ou Mini Anime",
-    "day": 4,
-    "time": "2:00 AM",
-    "cover": "niehime-to-kemono-no-ou-mini-anime-aa8e4fa6d2",
-    "streams": {
-      "YouTube": "https://www.youtube.com/watch?v=NpBeBTL6NGk&list=PLpuUN99NIX-3iC_fDNospvIjwI8c4I3b_&index=1"
-    },
-    "status": true
-  },
-  "CvYI": {
-    "title": "Uchuu Nanchara Kotetsu-kun",
-    "day": 4,
-    "time": "2:40 AM",
-    "cover": "uchuu-nanchara-kotetsu-kun-dfe5b5d3e7",
-    "streams": {},
-    "status": true
-  },
   "7h6z": {
     "title": "JUJUTSU KAISEN",
     "day": 4,
     "time": "10:00 AM",
     "cover": "jujutsu-kaisen-2-d5c863b7c3",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GRDV0019R/jujutsu-kaisen"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GRDV0019R/jujutsu-kaisen",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjIe81K3Qd0l7PVaIiPi64r"
     }
   },
   "AP28": {
@@ -357,7 +294,8 @@
     "time": "8:30 AM",
     "cover": "higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukushimasu-99ed38f646",
     "streams": {
-      "HiDive": "https://www.hidive.com/tv/the-most-heretical-last-boss-queen-from-villainess-to-savior"
+      "HiDive": "https://www.hidive.com/tv/the-most-heretical-last-boss-queen-from-villainess-to-savior",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1gxoIoRFrIlzxe5FM1yZfe"
     }
   },
   "BLC7": {
@@ -375,26 +313,9 @@
     "time": "10:30 AM",
     "cover": "seija-musou-salaryman-isekai-de-ikinokoru-tame-ni-ayumu-michi-f8345b2480",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQ24/the-great-cleric"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQ24/the-great-cleric",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3r0PWvImxT2aNky9PgNVIJ"
     }
-  },
-  "qGCg": {
-    "title": "BanG Dream! It's MyGO!!!!!",
-    "day": 4,
-    "time": "10:30 AM",
-    "cover": "bang-dream-its-mygo-a970dfed43",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM1NV/bang-dream-its-mygo",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3DVtslUyw-MeBR5W7ktk1e"
-    }
-  },
-  "8eB2": {
-    "title": "Biohazard: Death Island",
-    "day": 4,
-    "time": "5:00 PM",
-    "cover": "biohazard-death-island-0a5523e1ba",
-    "streams": {},
-    "status": true
   },
   "A9VI": {
     "title": "Sore Ike! Anpanman",
@@ -410,16 +331,9 @@
     "time": "6:00 AM",
     "cover": "sugar-apple-fairy-tale-part-2-fb73bc6497",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM7E2/sugar-apple-fairy-tale"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM7E2/sugar-apple-fairy-tale",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1jW_xDvXXJOphlaMLZxsJ-"
     }
-  },
-  "Veuk": {
-    "title": "Hyakushou Kizoku",
-    "day": 5,
-    "time": "5:54 AM",
-    "cover": "hyakushou-kizoku-0d9d223578",
-    "streams": {},
-    "status": true
   },
   "Qv37": {
     "title": "Reign of the Seven Spellblades",
@@ -439,21 +353,14 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/G6QWV3976/rent-a-girlfriend"
     }
   },
-  "axtq": {
-    "title": "Ikimono-san",
-    "day": 5,
-    "time": "9:50 AM",
-    "cover": "ikimono-san-462c7396a2",
-    "streams": {},
-    "status": true
-  },
   "7S5I": {
     "title": "The Gene of AI",
     "day": 5,
     "time": "12:00 PM",
     "cover": "ai-no-idenshi-0e9356a9a7",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN9Q9N/the-gene-of-ai"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN9Q9N/the-gene-of-ai",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2t0zGbV1BJfJObckS2BmgD"
     }
   },
   "aGtf": {
@@ -462,25 +369,9 @@
     "time": "10:45 AM",
     "cover": "dekiru-neko-wa-kyou-mo-yuuutsu-e02b3f2d48",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G79H23Z3P/the-masterful-cat-is-depressed-again-today"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G79H23Z3P/the-masterful-cat-is-depressed-again-today",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Ji9i3sLYIkcIrhpMXTs7Hpo"
     }
-  },
-  "U7W9": {
-    "title": "CARDFIGHT!! VANGUARD overDress",
-    "day": 5,
-    "time": "4:40 PM",
-    "cover": "cardfight-vanguard-overdress-season-5-50f39afa94",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3NJ5/cardfight-vanguard-overdress"
-    }
-  },
-  "hhdV": {
-    "title": "Youjo Shachou R",
-    "day": 6,
-    "time": "5:00 AM",
-    "cover": "youjo-shachou-r-6ab1af785a",
-    "streams": {},
-    "status": true
   },
   "XZx2": {
     "title": "My Unique Skill Makes Me OP even at Level 1",
@@ -498,7 +389,8 @@
     "time": "10:25 AM",
     "cover": "liar-liar-0dcbcb9084",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3G34/liar-liar"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3G34/liar-liar",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjkPdp_FsLuBLF3bhThKUWd"
     }
   },
   "i4y8": {
@@ -507,7 +399,8 @@
     "time": "7:30 AM",
     "cover": "bleach-sennen-kessen-hen-ketsubetsu-tan-04f0f69ffc",
     "streams": {
-      "Hulu": "https://www.hulu.com/series/bleach-thousand-year-blood-war-02a3c8c0-4f1d-4610-bbb4-5b8e9468d7b1"
+      "Hulu": "https://www.hulu.com/series/bleach-thousand-year-blood-war-02a3c8c0-4f1d-4610-bbb4-5b8e9468d7b1",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhrtC5M6EHH5g_rAh6LXEni"
     }
   },
   "xPVT": {
@@ -516,7 +409,8 @@
     "time": "9:15 AM",
     "cover": "temple-2827b6e72c",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WJWQ/tenpuru"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WJWQ/tenpuru",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjuTOM1YyvLa6YyFEGOKWSC"
     }
   },
   "Faat": {
@@ -567,23 +461,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN9QED/am-i-actually-the-strongest"
     }
   },
-  "fIOQ": {
-    "title": "BONO BONO",
-    "day": 6,
-    "time": "12:52 PM",
-    "cover": "bonobono-2016-d8ff3791d8",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/bono-bono"
-    }
-  },
-  "vkEQ": {
-    "title": "Duel Masters Win: Duel Wars",
-    "day": 6,
-    "time": "4:30 PM",
-    "cover": "duel-masters-win-duel-wars-aa7151ea18",
-    "streams": {},
-    "status": true
-  },
   "PC6r": {
     "title": "Chibi Maruko-chan (1995)",
     "day": 7,
@@ -600,16 +477,19 @@
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7QGQK/zom-100-the-bucket-list-of-the-dead",
       "Hulu": "https://www.hulu.com/series/zom-100-bucket-list-of-the-dead-1015792d-f811-47f9-a28e-bf0b30332bf3",
-      "Netflix": "https://www.netflix.com/title/81680101"
+      "Netflix": "https://www.netflix.com/title/81680101",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0cJyc_zkaS2wgBge7kdPcF"
     }
   },
   "W2aJ": {
-    "title": "Shinigami Bocchan to Kuro Maid 2nd Season",
+    "title": "The Duke of Death and His Maid",
     "day": 7,
     "time": "7:00 AM",
     "cover": "shinigami-bocchan-to-kuro-maid-zoku-hen-918c7e41bd",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G79H23V0G/the-duke-of-death-and-his-maid",
+      "Funimation": "https://www.funimation.com/shows/the-duke-of-death-and-his-maid/"
+    }
   },
   "aXI8": {
     "title": "CLASSROOM FOR HEROES",
@@ -644,27 +524,11 @@
   "5hJA": {
     "title": "Dark Gathering",
     "day": 7,
-    "time": "9:05 AM",
+    "time": "10:00 AM",
     "cover": "dark-gathering-d2882b55f0",
-    "streams": {},
-    "status": true
-  },
-  "84UP": {
-    "title": "Theatre of Darkness: Yamishibai",
-    "day": 7,
-    "time": "10:35 AM",
-    "cover": "yami-shibai-11-27283d5b1b",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G6WEM1V36/theatre-of-darkness-yamishibai"
-    }
-  },
-  "wi8t": {
-    "title": "Shadowverse",
-    "day": 5,
-    "time": "7:30 PM",
-    "cover": "poster-21fa193001",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GYEX244X6/shadowverse"
+      "HiDive": "https://www.hidive.com/tv/dark-gathering",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl27LXaPp_ryQdu41PQGpWEq"
     }
   }
 }
