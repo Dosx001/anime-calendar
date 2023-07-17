@@ -102,15 +102,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKNPW1"
     }
   },
-  "QPUT": {
-    "title": "KamiKatsu: Working for God in a Godless World",
-    "day": 3,
-    "time": "9:30 AM",
-    "cover": "kaminaki-sekai-no-kamisama-katsudou-e560321720",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKNP4J/kamikatsu-working-for-god-in-a-godless-world"
-    }
-  },
   "qDgG": {
     "title": "EDENS ZERO",
     "day": 6,
@@ -135,16 +126,6 @@
     "cover": "ao-no-orchestra-ac5bcfc54a",
     "streams": {},
     "status": true
-  },
-  "Sf4p": {
-    "title": "Insomniacs After School",
-    "day": 1,
-    "time": "9:00 AM",
-    "cover": "kimi-wa-houkago-insomnia-ed7050464f",
-    "streams": {
-      "HiDive": "https://www.hidive.com/tv/insomniacs-after-school",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1fJTawowlPbOLfApiKSEOi"
-    }
   },
   "BkuV": {
     "title": "Pok\u00e9mon Horizons: The Series",
@@ -195,7 +176,7 @@
   "FT4V": {
     "title": "Masamune-kun's Revenge",
     "day": 1,
-    "time": "8:00 AM",
+    "time": "6:00 AM",
     "cover": "masamune-kun-no-revenge-2-f87cd234ea",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GYX02P3MR/masamune-kuns-revenge",
@@ -366,7 +347,7 @@
   "aGtf": {
     "title": "The Masterful Cat Is Depressed Again Today",
     "day": 5,
-    "time": "10:45 AM",
+    "time": "11:45 AM",
     "cover": "dekiru-neko-wa-kyou-mo-yuuutsu-e02b3f2d48",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G79H23Z3P/the-masterful-cat-is-depressed-again-today",
@@ -386,7 +367,7 @@
   "CrsT": {
     "title": "Liar, Liar",
     "day": 6,
-    "time": "10:25 AM",
+    "time": "8:00 AM",
     "cover": "liar-liar-0dcbcb9084",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3G34/liar-liar",
@@ -529,6 +510,197 @@
     "streams": {
       "HiDive": "https://www.hidive.com/tv/dark-gathering",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl27LXaPp_ryQdu41PQGpWEq"
+    }
+  },
+  "BIQm": {
+    "title": "Bosanimal",
+    "day": 3,
+    "time": "5:50 PM",
+    "cover": "bosanimal-ff6d5927e2",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLFNUyl__hoIivROXI-GSXs5sb3MPA3gnG"
+    },
+    "status": true
+  },
+  "u9UZ": {
+    "title": "Fate/Grand Order: Fujimaru Ritsuka wa Wakaranai",
+    "day": 2,
+    "time": "1:00 AM",
+    "cover": "fate-grand-order-fujimaru-ritsuka-wa-wakaranai-e0b32f8656",
+    "streams": {
+      "YouTube": "https://www.youtube.com/watch?v=TgbLfyK0vlY&list=PLkybqduWZGqtDqXo4rBp1M0jMfCOaS0cr&index=2"
+    },
+    "status": true
+  },
+  "zMfK": {
+    "title": "Helck",
+    "day": 2,
+    "time": "11:30 AM",
+    "cover": "helck-15de2d7dae",
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/helck"
+    }
+  },
+  "SUpv": {
+    "title": "CHIIKAWA",
+    "day": 5,
+    "time": "3:40 PM",
+    "cover": "chiikawa-c656267c1a",
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/chiikawa",
+      "YouTube": "https://www.youtube.com/playlist?list=PLHIKP_Dyl1zwJy0JjSvVV5l8Kyg-8sjdv"
+    }
+  },
+  "sC9R": {
+    "title": "Mamekichi Mameko NEET no Nichijou 2",
+    "day": 2,
+    "time": "9:00 PM",
+    "cover": "mamekichi-mameko-neet-no-nichijou-2-ba58ca1bc0",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLipXal3ZZgwSTehBee1umRxK59MgLRxUL"
+    },
+    "status": true
+  },
+  "Wu7h": {
+    "title": "Synduality Noir",
+    "day": 2,
+    "time": "10:00 PM",
+    "cover": "synduality-149583684c",
+    "streams": {
+      "Hulu": "https://www.hulu.com/series/synduality-noir-e9f6aba2-325f-4cb6-a8b4-aa5fef1106dd"
+    }
+  },
+  "vLlP": {
+    "title": "Bungo Stray Dogs",
+    "day": 3,
+    "time": "7:30 AM",
+    "cover": "bungou-stray-dogs-5th-season-54ec6a1843",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GR5VXQ8PR/bungo-stray-dogs"
+    }
+  },
+  "fyCM": {
+    "title": "Saint Cecilia and Pastor Lawrence",
+    "day": 3,
+    "time": "10:00 AM",
+    "cover": "shiro-seijo-to-kuro-bokushi-280c66ce30",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GKEH2G0G9/saint-cecilia-and-pastor-lawrence"
+    }
+  },
+  "CvYI": {
+    "title": "Uchuu Nanchara Kotetsu-kun",
+    "day": 4,
+    "time": "2:40 AM",
+    "cover": "uchuu-nanchara-kotetsu-kun-dfe5b5d3e7",
+    "streams": {},
+    "status": true
+  },
+  "mjLO": {
+    "title": "Spy Classroom",
+    "day": 4,
+    "time": "7:30 AM",
+    "cover": "spy-kyoushitsu-2nd-season-cd75d409bc",
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/spy-classroom/season-2"
+    }
+  },
+  "vYHa": {
+    "title": "The Devil is a Part-Timer!",
+    "day": 4,
+    "time": "7:31 AM",
+    "cover": "hataraku-maou-sama-3-8a8bb6546d",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GR75Z5KKY/the-devil-is-a-part-timer",
+      "Funimation": "https://www.funimation.com/shows/the-devil-is-a-part-timer/",
+      "Hulu": "https://www.hulu.com/series/the-devil-is-a-part-timer-8534ee83-b681-4dbc-bad9-b9a1d3f08483"
+    }
+  },
+  "qGCg": {
+    "title": "BanG Dream! It's MyGO!!!!!",
+    "day": 4,
+    "time": "10:30 AM",
+    "cover": "bang-dream-its-mygo-a970dfed43",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM1NV/bang-dream-its-mygo",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3DVtslUyw-MeBR5W7ktk1e"
+    }
+  },
+  "VrqS": {
+    "title": "Osomatsu-san: Tamashii no Takoyaki Party to Densetsu no Otomari-kai",
+    "day": 4,
+    "time": "5:00 PM",
+    "cover": "eiga-no-osomatsu-san-2-provisional-title-5e20a83fea",
+    "streams": {},
+    "status": true
+  },
+  "Veuk": {
+    "title": "Hyakushou Kizoku",
+    "day": 5,
+    "time": "5:54 AM",
+    "cover": "hyakushou-kizoku-0d9d223578",
+    "streams": {},
+    "status": true
+  },
+  "axtq": {
+    "title": "Ikimono-san",
+    "day": 5,
+    "time": "9:50 AM",
+    "cover": "ikimono-san-f1685217cf",
+    "streams": {},
+    "status": true
+  },
+  "U7W9": {
+    "title": "CARDFIGHT!! VANGUARD overDress",
+    "day": 5,
+    "time": "4:40 PM",
+    "cover": "cardfight-vanguard-overdress-season-5-50f39afa94",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3NJ5/cardfight-vanguard-overdress",
+      "HiDive": "https://www.hidive.com/tv/cardfight-vanguard-willdress"
+    }
+  },
+  "wi8t": {
+    "title": "Shadowverse",
+    "day": 5,
+    "time": "7:30 PM",
+    "cover": "shadowverse-flame-seven-shadows-hen-100c5a5877",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GYEX244X6/shadowverse"
+    }
+  },
+  "hhdV": {
+    "title": "Youjo Shachou R",
+    "day": 6,
+    "time": "5:00 AM",
+    "cover": "youjo-shachou-r-6ab1af785a",
+    "streams": {},
+    "status": true
+  },
+  "fIOQ": {
+    "title": "BONO BONO",
+    "day": 6,
+    "time": "12:52 PM",
+    "cover": "",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/bono-bono"
+    }
+  },
+  "vkEQ": {
+    "title": "Duel Masters Win: Duel Wars",
+    "day": 6,
+    "time": "4:30 PM",
+    "cover": "",
+    "streams": {},
+    "status": true
+  },
+  "84UP": {
+    "title": "Theatre of Darkness: Yamishibai",
+    "day": 7,
+    "time": "12:30 PM",
+    "cover": "yami-shibai-11-27283d5b1b",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G6WEM1V36/theatre-of-darkness-yamishibai"
     }
   }
 }

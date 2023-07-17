@@ -207,6 +207,7 @@ class Shows:
 
     def crunchyroll(self, url: str) -> str | None:
         self.driver.get(url)
+        sleep(1)
         try:
             return self.driver.find_element(By.CLASS_NAME, "hero-heading-line").text
         except NoSuchElementException:
