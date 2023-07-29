@@ -34,7 +34,7 @@
   },
   "ZTd2": {
     "title": "Boushoku no Berserk",
-    "cover": "boushoku-no-berserk-ceacb34eb8",
+    "cover": "boushoku-no-berserk-384a28c287",
     "studio": "A.C.G.T.",
     "source": "Light Novel",
     "genres": [
@@ -47,7 +47,7 @@
   },
   "YHQk": {
     "title": "Buta no Liver wa Kanetsu Shiro",
-    "cover": "buta-no-liver-wa-kanetsu-shiro-953a7e8533",
+    "cover": "buta-no-liver-wa-kanetsu-shiro-27d6ebfb23",
     "studio": "project No.9",
     "source": "Light Novel",
     "genres": [
@@ -58,7 +58,7 @@
   },
   "tG35": {
     "title": "Captain Tsubasa: Season 2 - Junior Youth-hen",
-    "cover": "captain-tsubasa-season-2-junior-youth-hen-6011da5567",
+    "cover": "captain-tsubasa-season-2-junior-youth-hen-17f2128c36",
     "studio": "Studio KAI",
     "source": "Manga",
     "genres": [
@@ -69,7 +69,7 @@
   },
   "TKTO": {
     "title": "Dead Mount Death Play Part 2",
-    "cover": "dead-mount-death-play-part-2-7326b940f3",
+    "cover": "dead-mount-death-play-part-2-4135644701",
     "studio": "Geek Toys",
     "source": "Manga",
     "genres": [
@@ -380,7 +380,7 @@
   },
   "9Jax": {
     "title": "Potion-danomi de Ikinobimasu!",
-    "cover": "potion-danomi-de-ikinobimasu-303cc82399",
+    "cover": "potion-danomi-de-ikinobimasu-e43afee0b7",
     "studio": "Jumondou",
     "source": "Light Novel",
     "genres": [
@@ -463,6 +463,18 @@
       "Slice of Life"
     ]
   },
+  "N9Jg": {
+    "title": "Seiken Gakuin no Maken Tsukai",
+    "cover": "seiken-gakuin-no-maken-tsukai-bb0afe3011",
+    "studio": "Passione",
+    "source": "Light Novel",
+    "genres": [
+      "Ecchi",
+      "Fantasy",
+      "Romance",
+      "School"
+    ]
+  },
   "ehz5": {
     "title": "Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su",
     "cover": "shangri-la-frontier-893b8a993f",
@@ -477,7 +489,7 @@
   },
   "Tav8": {
     "title": "Sousou no Frieren",
-    "cover": "sousou-no-frieren-72c7d97103",
+    "cover": "sousou-no-frieren-4a9afa65b7",
     "studio": "MADHOUSE",
     "source": "Manga",
     "genres": [

@@ -93,15 +93,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GZJH3D0X5"
     }
   },
-  "9zLq": {
-    "title": "NieR:Automata Ver1.1a",
-    "day": 7,
-    "time": "3:00 AM",
-    "cover": "nier-automata-67b05ed1b4",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKNPW1"
-    }
-  },
   "qDgG": {
     "title": "EDENS ZERO",
     "day": 6,
@@ -450,18 +441,6 @@
     "streams": {},
     "status": true
   },
-  "PV8y": {
-    "title": "Zom 100: Bucket List of the Dead",
-    "day": 7,
-    "time": "2:00 AM",
-    "cover": "zom-100-zombie-ni-naru-made-ni-shitai-100-no-koto-73654629a4",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7QGQK/zom-100-the-bucket-list-of-the-dead",
-      "Hulu": "https://www.hulu.com/series/zom-100-bucket-list-of-the-dead-1015792d-f811-47f9-a28e-bf0b30332bf3",
-      "Netflix": "https://www.netflix.com/title/81680101",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0cJyc_zkaS2wgBge7kdPcF"
-    }
-  },
   "W2aJ": {
     "title": "The Duke of Death and His Maid",
     "day": 7,
@@ -514,7 +493,7 @@
   },
   "BIQm": {
     "title": "Bosanimal",
-    "day": 3,
+    "day": 2,
     "time": "5:50 PM",
     "cover": "bosanimal-ff6d5927e2",
     "streams": {
@@ -536,14 +515,14 @@
     "title": "Helck",
     "day": 2,
     "time": "11:30 AM",
-    "cover": "helck-15de2d7dae",
+    "cover": "helck-76566784c6",
     "streams": {
       "HiDive": "https://www.hidive.com/tv/helck"
     }
   },
   "SUpv": {
     "title": "CHIIKAWA",
-    "day": 5,
+    "day": 2,
     "time": "3:40 PM",
     "cover": "chiikawa-c656267c1a",
     "streams": {
@@ -563,11 +542,11 @@
   },
   "Wu7h": {
     "title": "Synduality Noir",
-    "day": 2,
-    "time": "10:00 PM",
+    "day": 1,
+    "time": "8:30 AM",
     "cover": "synduality-149583684c",
     "streams": {
-      "Hulu": "https://www.hulu.com/series/synduality-noir-e9f6aba2-325f-4cb6-a8b4-aa5fef1106dd"
+      "Hulu": "https://www.hulu.com/series/synduality-noir-10f2d56d-87f3-469f-8004-a0d2bab3d57d"
     }
   },
   "vLlP": {
@@ -613,7 +592,8 @@
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GR75Z5KKY/the-devil-is-a-part-timer",
       "Funimation": "https://www.funimation.com/shows/the-devil-is-a-part-timer/",
-      "Hulu": "https://www.hulu.com/series/the-devil-is-a-part-timer-8534ee83-b681-4dbc-bad9-b9a1d3f08483"
+      "Hulu": "https://www.hulu.com/series/the-devil-is-a-part-timer-8534ee83-b681-4dbc-bad9-b9a1d3f08483",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1Q4OIgY3DIF31SO_9cOo8M"
     }
   },
   "qGCg": {
@@ -625,14 +605,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM1NV/bang-dream-its-mygo",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3DVtslUyw-MeBR5W7ktk1e"
     }
-  },
-  "VrqS": {
-    "title": "Osomatsu-san: Tamashii no Takoyaki Party to Densetsu no Otomari-kai",
-    "day": 4,
-    "time": "5:00 PM",
-    "cover": "eiga-no-osomatsu-san-2-provisional-title-5e20a83fea",
-    "streams": {},
-    "status": true
   },
   "Veuk": {
     "title": "Hyakushou Kizoku",
@@ -657,7 +629,8 @@
     "cover": "cardfight-vanguard-overdress-season-5-50f39afa94",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3NJ5/cardfight-vanguard-overdress",
-      "HiDive": "https://www.hidive.com/tv/cardfight-vanguard-willdress"
+      "HiDive": "https://www.hidive.com/tv/cardfight-vanguard-willdress",
+      "YouTube": "https://www.youtube.com/playlist?list=PLZaz0lCoygoz0kFcSQgb2KFjNXaoye0Jm"
     }
   },
   "wi8t": {
@@ -681,7 +654,7 @@
     "title": "BONO BONO",
     "day": 6,
     "time": "12:52 PM",
-    "cover": "",
+    "cover": "bonobono-2016-d8ff3791d8",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/bono-bono"
     }
@@ -690,7 +663,7 @@
     "title": "Duel Masters Win: Duel Wars",
     "day": 6,
     "time": "4:30 PM",
-    "cover": "",
+    "cover": "duel-masters-win-duel-wars-aa7151ea18",
     "streams": {},
     "status": true
   },
@@ -702,5 +675,31 @@
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G6WEM1V36/theatre-of-darkness-yamishibai"
     }
+  },
+  "fCVv": {
+    "title": "TONIKAWA: Over The Moon For You",
+    "day": 2,
+    "time": "10:00 PM",
+    "cover": "tonikaku-kawaii-joshikou-hen-3501e56992",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GRWMGGQ86/tonikawa-over-the-moon-for-you"
+    }
+  },
+  "JzqA": {
+    "title": "Baki Hanma",
+    "day": 3,
+    "time": "12:01 AM",
+    "cover": "hanma-baki-son-of-ogre-2-cc5965f634",
+    "streams": {
+      "Netflix": "https://www.netflix.com/title/81236338"
+    }
+  },
+  "DJ4w": {
+    "title": "Azur Lane: Queen's Orders OVA",
+    "day": 3,
+    "time": "5:00 PM",
+    "cover": "azur-lane-queens-orders-ova-2ca1f3ed12",
+    "streams": {},
+    "status": true
   }
 }
