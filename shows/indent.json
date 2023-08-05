@@ -676,29 +676,47 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/G6WEM1V36/theatre-of-darkness-yamishibai"
     }
   },
-  "fCVv": {
-    "title": "TONIKAWA: Over The Moon For You",
-    "day": 2,
-    "time": "10:00 PM",
-    "cover": "tonikaku-kawaii-joshikou-hen-3501e56992",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GRWMGGQ86/tonikawa-over-the-moon-for-you"
-    }
-  },
-  "JzqA": {
-    "title": "Baki Hanma",
-    "day": 3,
+  "EYJt": {
+    "title": "Bastard!!: Ankoku no Hakaishin - Jigoku no Chinkonka-hen",
+    "day": 1,
     "time": "12:01 AM",
-    "cover": "hanma-baki-son-of-ogre-2-cc5965f634",
+    "cover": "bastard-ankoku-no-hakaishin-ona-season-2-b475c5b583",
+    "streams": {},
+    "status": true
+  },
+  "PV8y": {
+    "title": "Zom 100: Bucket List of the Dead",
+    "day": 1,
+    "time": "3:00 AM",
+    "cover": "zom-100-zombie-ni-naru-made-ni-shitai-100-no-koto-73654629a4",
     "streams": {
-      "Netflix": "https://www.netflix.com/title/81236338"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7QGQK/zom-100-the-bucket-list-of-the-dead",
+      "Hulu": "https://www.hulu.com/series/zom-100-bucket-list-of-the-dead-1015792d-f811-47f9-a28e-bf0b30332bf3",
+      "Netflix": "https://www.netflix.com/title/81680101",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0cJyc_zkaS2wgBge7kdPcF"
     }
   },
-  "DJ4w": {
-    "title": "Azur Lane: Queen's Orders OVA",
-    "day": 3,
+  "hZxw": {
+    "title": "Odekake Kozame",
+    "day": 2,
+    "time": "4:00 AM",
+    "cover": "odekake-kozame-315b850ca6",
+    "streams": {},
+    "status": true
+  },
+  "oi9D": {
+    "title": "Crayon Shin-chan: Chounouryoku Daikessen - Tobe Tobe Temakizushi",
+    "day": 4,
     "time": "5:00 PM",
-    "cover": "azur-lane-queens-orders-ova-2ca1f3ed12",
+    "cover": "crayon-shin-chan-chounouryoku-daikessen-tobe-tobe-temakizushi-f12066dfc7",
+    "streams": {},
+    "status": true
+  },
+  "NysF": {
+    "title": "Tokubetsu-hen Hibike! Euphonium: Ensemble Contest",
+    "day": 4,
+    "time": "5:00 PM",
+    "cover": "hibike-euphonium-ensemble-contest-hen-d2b728d8c9",
     "streams": {},
     "status": true
   }
