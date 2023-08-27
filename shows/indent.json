@@ -337,7 +337,7 @@
   },
   "aGtf": {
     "title": "The Masterful Cat Is Depressed Again Today",
-    "day": 5,
+    "day": 4,
     "time": "11:45 AM",
     "cover": "dekiru-neko-wa-kyou-mo-yuuutsu-e02b3f2d48",
     "streams": {
@@ -393,7 +393,8 @@
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN9P43/horimiya",
       "Funimation": "https://www.funimation.com/shows/horimiya/",
-      "Hulu": "https://www.hulu.com/series/horimiya-90fccf0b-3f94-4105-98a8-3e1c6949b315"
+      "Hulu": "https://www.hulu.com/series/horimiya-90fccf0b-3f94-4105-98a8-3e1c6949b315",
+      "Netflix": "https://www.netflix.com/title/81020819"
     }
   },
   "Lx6h": {
@@ -478,6 +479,7 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/G24H1N3MP/mushoku-tensei-jobless-reincarnation",
       "Funimation": "https://www.funimation.com/shows/mushoku-tensei-jobless-reincarnation-p2/",
       "Hulu": "https://www.hulu.com/series/mushoku-tensei-jobless-reincarnation-787a5fb4-9cba-4a69-96b2-4fb3b10c860a",
+      "Netflix": "https://www.netflix.com/title/80987039",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3kNUmd8rDL2WnmI-C6LKgt"
     }
   },
@@ -493,21 +495,11 @@
   },
   "BIQm": {
     "title": "Bosanimal",
-    "day": 2,
+    "day": 3,
     "time": "5:50 PM",
     "cover": "bosanimal-ff6d5927e2",
     "streams": {
       "YouTube": "https://www.youtube.com/playlist?list=PLFNUyl__hoIivROXI-GSXs5sb3MPA3gnG"
-    },
-    "status": true
-  },
-  "u9UZ": {
-    "title": "Fate/Grand Order: Fujimaru Ritsuka wa Wakaranai",
-    "day": 2,
-    "time": "1:00 AM",
-    "cover": "fate-grand-order-fujimaru-ritsuka-wa-wakaranai-e0b32f8656",
-    "streams": {
-      "YouTube": "https://www.youtube.com/watch?v=TgbLfyK0vlY&list=PLkybqduWZGqtDqXo4rBp1M0jMfCOaS0cr&index=2"
     },
     "status": true
   },
@@ -522,7 +514,7 @@
   },
   "SUpv": {
     "title": "CHIIKAWA",
-    "day": 2,
+    "day": 5,
     "time": "3:40 PM",
     "cover": "chiikawa-c656267c1a",
     "streams": {
@@ -611,7 +603,9 @@
     "day": 5,
     "time": "5:54 AM",
     "cover": "hyakushou-kizoku-0d9d223578",
-    "streams": {},
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLkZ0Cdjz3KkipABBxqNuMBY0SeIUeCtCx"
+    },
     "status": true
   },
   "axtq": {
@@ -624,7 +618,7 @@
   },
   "U7W9": {
     "title": "CARDFIGHT!! VANGUARD overDress",
-    "day": 5,
+    "day": 6,
     "time": "4:40 PM",
     "cover": "cardfight-vanguard-overdress-season-5-50f39afa94",
     "streams": {
@@ -676,18 +670,10 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/G6WEM1V36/theatre-of-darkness-yamishibai"
     }
   },
-  "EYJt": {
-    "title": "Bastard!!: Ankoku no Hakaishin - Jigoku no Chinkonka-hen",
-    "day": 1,
-    "time": "12:01 AM",
-    "cover": "bastard-ankoku-no-hakaishin-ona-season-2-b475c5b583",
-    "streams": {},
-    "status": true
-  },
   "PV8y": {
     "title": "Zom 100: Bucket List of the Dead",
-    "day": 1,
-    "time": "3:00 AM",
+    "day": 7,
+    "time": "2:00 AM",
     "cover": "zom-100-zombie-ni-naru-made-ni-shitai-100-no-koto-73654629a4",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7QGQK/zom-100-the-bucket-list-of-the-dead",
@@ -704,20 +690,22 @@
     "streams": {},
     "status": true
   },
-  "oi9D": {
-    "title": "Crayon Shin-chan: Chounouryoku Daikessen - Tobe Tobe Temakizushi",
-    "day": 4,
-    "time": "5:00 PM",
-    "cover": "crayon-shin-chan-chounouryoku-daikessen-tobe-tobe-temakizushi-f12066dfc7",
-    "streams": {},
-    "status": true
+  "fCVv": {
+    "title": "TONIKAWA: Over The Moon For You",
+    "day": 2,
+    "time": "8:30 PM",
+    "cover": "tonikaku-kawaii-joshikou-hen-3501e56992",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GRWMGGQ86/tonikawa-over-the-moon-for-you"
+    }
   },
-  "NysF": {
-    "title": "Tokubetsu-hen Hibike! Euphonium: Ensemble Contest",
+  "JzqA": {
+    "title": "Baki Hanma",
     "day": 4,
-    "time": "5:00 PM",
-    "cover": "hibike-euphonium-ensemble-contest-hen-d2b728d8c9",
-    "streams": {},
-    "status": true
+    "time": "12:01 AM",
+    "cover": "hanma-baki-son-of-ogre-2-cc5965f634",
+    "streams": {
+      "Netflix": "https://www.netflix.com/title/81236338"
+    }
   }
 }

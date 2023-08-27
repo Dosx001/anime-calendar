@@ -1,4 +1,23 @@
 {
+  "cjTD": {
+    "title": "16bit Sensation: Another Layer",
+    "cover": "16bit-sensation-8ab4273756",
+    "studio": "Studio Silver",
+    "source": "Web Manga",
+    "genres": [
+      "Comedy",
+      "Slice of Life"
+    ]
+  },
+  "l4nW": {
+    "title": "Atarashii Joushi wa Dotennen",
+    "cover": "atarashii-joushi-wa-dotennen-87a5c94b79",
+    "studio": "A-1 Pictures",
+    "source": "Web Manga",
+    "genres": [
+      "Comedy"
+    ]
+  },
   "X13k": {
     "title": "B-PROJECT: Netsuretsu*Love Call",
     "cover": "b-project-3-269207cd23",
@@ -23,7 +42,7 @@
   },
   "MIBI": {
     "title": "Boukensha ni Naritai to Miyako ni Deteitta Musume ga S Rank ni Natteta",
-    "cover": "boukensha-ni-naritai-to-miyako-ni-deteitta-musume-ga-s-rank-ni-natteta-b9bf5661c2",
+    "cover": "boukensha-ni-naritai-to-miyako-ni-deteitta-musume-ga-s-rank-ni-natteta-b5578babb5",
     "studio": "TYPHOON GRAPHICS",
     "source": "Light Novel",
     "genres": [
@@ -112,6 +131,17 @@
       "Comedy",
       "Sci-Fi",
       "Shounen"
+    ]
+  },
+  "rqxA": {
+    "title": "Goblin Slayer 2",
+    "cover": "goblin-slayer-2-9f78eb6119",
+    "studio": "LIDENFILMS",
+    "source": "Light Novel",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
     ]
   },
   "yM7y": {
@@ -263,7 +293,7 @@
   },
   "T7w7": {
     "title": "Konyaku Haki sareta Reijou wo Hirotta Ore ga, Ikenai Koto wo Oshiekomu",
-    "cover": "konyaku-haki-ssareta-reijou-wo-hirotta-ore-ga-ikenai-koto-wo-oshiekomu-c82791eafc",
+    "cover": "konyaku-haki-ssareta-reijou-wo-hirotta-ore-ga-ikenai-koto-wo-oshiekomu-37b94f47e1",
     "studio": "Digital Network Animation",
     "source": "Light Novel",
     "genres": [
@@ -354,7 +384,7 @@
   "rsA7": {
     "title": "Ojou to Banken-kun",
     "cover": "ojou-to-banken-kun-bdfcf7c209",
-    "studio": "N/A",
+    "studio": "project No.9",
     "source": "Manga",
     "genres": [
       "Drama",
@@ -411,7 +441,7 @@
   },
   "6LIP": {
     "title": "Ragna Crimson",
-    "cover": "ragna-crimson-0383fc63c7",
+    "cover": "ragna-crimson-2f2fd638d0",
     "studio": "SILVER LINK.",
     "source": "Manga",
     "genres": [
@@ -449,7 +479,7 @@
     ]
   },
   "F8vX": {
-    "title": "Saihate no Paladin 2",
+    "title": "Saihate no Paladin: Tetsusabi no Yama no Ou",
     "cover": "saihate-no-paladin-2-3852d95db7",
     "studio": "OLM",
     "source": "Light Novel",
@@ -546,7 +576,7 @@
   },
   "RNdC": {
     "title": "Toaru Ossan no VRMMO Katsudouki",
-    "cover": "toaru-ossan-no-vrmmo-katsudouki-7f21679c2c",
+    "cover": "toaru-ossan-no-vrmmo-katsudouki-fb1baa6cd5",
     "studio": "Maho Film",
     "source": "Light Novel",
     "genres": [
@@ -568,6 +598,17 @@
       "Romance",
       "Shounen",
       "Supernatural"
+    ]
+  },
+  "I9p7": {
+    "title": "Uma Musume: Pretty Derby 3",
+    "cover": "uma-musume-pretty-derby-3-ddfc9ec6d7",
+    "studio": "Studio KAI",
+    "source": "Video Game",
+    "genres": [
+      "Drama",
+      "Slice of Life",
+      "Sports"
     ]
   },
   "BQpb": {
@@ -598,7 +639,7 @@
   },
   "fZc2": {
     "title": "Watashi no Oshi wa Akuyaku Reijou.",
-    "cover": "watashi-no-oshi-wa-akuyaku-reijou-6a46a449ca",
+    "cover": "watashi-no-oshi-wa-akuyaku-reijou-774104804b",
     "studio": "Platinum Vision",
     "source": "Light Novel",
     "genres": [
