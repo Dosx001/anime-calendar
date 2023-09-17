@@ -1,7 +1,7 @@
 {
   "cjTD": {
     "title": "16bit Sensation: Another Layer",
-    "cover": "16bit-sensation-8ab4273756",
+    "cover": "16bit-sensation-9900110d0f",
     "studio": "Studio Silver",
     "source": "Web Manga",
     "genres": [
@@ -11,7 +11,7 @@
   },
   "l4nW": {
     "title": "Atarashii Joushi wa Dotennen",
-    "cover": "atarashii-joushi-wa-dotennen-87a5c94b79",
+    "cover": "atarashii-joushi-wa-dotennen-06d128f72a",
     "studio": "A-1 Pictures",
     "source": "Web Manga",
     "genres": [
@@ -20,8 +20,8 @@
   },
   "X13k": {
     "title": "B-PROJECT: Netsuretsu*Love Call",
-    "cover": "b-project-3-269207cd23",
-    "studio": "N/A",
+    "cover": "b-project-3-fa96f0223c",
+    "studio": "Asahi Production",
     "source": "Other",
     "genres": [
       "Drama",
@@ -30,14 +30,34 @@
       "Shoujo"
     ]
   },
+  "DqGO": {
+    "title": "Beyblade X",
+    "cover": "beyblade-x-95219e5af0",
+    "studio": "OLM",
+    "source": "Manga",
+    "genres": [
+      "Adventure",
+      "Sports"
+    ]
+  },
   "Oq7F": {
     "title": "Bikkurimen",
-    "cover": "bikkurimen-5fe9edb484",
+    "cover": "bikkurimen-23be131c7f",
     "studio": "Lesprit",
     "source": "Other",
     "genres": [
       "Comedy",
       "Fantasy"
+    ]
+  },
+  "kKew": {
+    "title": "Bokura no Ameiro Protocol",
+    "cover": "bokura-no-ameiro-protocol-dc39c949f8",
+    "studio": "Quad",
+    "source": "Original",
+    "genres": [
+      "Action",
+      "Drama"
     ]
   },
   "MIBI": {
@@ -53,7 +73,7 @@
   },
   "ZTd2": {
     "title": "Boushoku no Berserk",
-    "cover": "boushoku-no-berserk-384a28c287",
+    "cover": "boushoku-no-berserk-8ae3bf096d",
     "studio": "A.C.G.T.",
     "source": "Light Novel",
     "genres": [
@@ -64,9 +84,20 @@
       "Romance"
     ]
   },
+  "L8Kc": {
+    "title": "Bullbuster",
+    "cover": "bullbuster-b995a53c7c",
+    "studio": "NUT",
+    "source": "Other",
+    "genres": [
+      "Action",
+      "Mecha",
+      "Sci-Fi"
+    ]
+  },
   "YHQk": {
     "title": "Buta no Liver wa Kanetsu Shiro",
-    "cover": "buta-no-liver-wa-kanetsu-shiro-27d6ebfb23",
+    "cover": "buta-no-liver-wa-kanetsu-shiro-a25613e42f",
     "studio": "project No.9",
     "source": "Light Novel",
     "genres": [
@@ -86,9 +117,19 @@
       "Sports"
     ]
   },
+  "AbQz": {
+    "title": "DOG SIGNAL",
+    "cover": "dog-signal-b72278dd05",
+    "studio": "N/A",
+    "source": "Manga",
+    "genres": [
+      "Josei",
+      "Slice of Life"
+    ]
+  },
   "TKTO": {
     "title": "Dead Mount Death Play Part 2",
-    "cover": "dead-mount-death-play-part-2-4135644701",
+    "cover": "dead-mount-death-play-part-2-d30d460007",
     "studio": "Geek Toys",
     "source": "Manga",
     "genres": [
@@ -101,23 +142,13 @@
   },
   "O4yD": {
     "title": "Dekoboko Majo no Oyako Jijou",
-    "cover": "dekoboko-majo-no-oyako-jijou-8ad2c00c8a",
+    "cover": "dekoboko-majo-no-oyako-jijou-fe8bb22616",
     "studio": "A-Real",
     "source": "4-koma Manga",
     "genres": [
       "Comedy",
       "Fantasy",
       "Magic"
-    ]
-  },
-  "AbQz": {
-    "title": "Dog Signal",
-    "cover": "dog-signal-b72278dd05",
-    "studio": "N/A",
-    "source": "Manga",
-    "genres": [
-      "Josei",
-      "Slice of Life"
     ]
   },
   "liHY": {
@@ -133,9 +164,21 @@
       "Shounen"
     ]
   },
+  "S7Zr": {
+    "title": "FLCL: Shoegaze",
+    "cover": "flcl-shoegaze-f6530d45f4",
+    "studio": "NUT",
+    "source": "Original",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Mecha",
+      "Sci-Fi"
+    ]
+  },
   "rqxA": {
     "title": "Goblin Slayer 2",
-    "cover": "goblin-slayer-2-9f78eb6119",
+    "cover": "goblin-slayer-2-28a5158f1b",
     "studio": "LIDENFILMS",
     "source": "Light Novel",
     "genres": [
@@ -146,7 +189,7 @@
   },
   "yM7y": {
     "title": "Hametsu no Oukoku",
-    "cover": "hametsu-no-oukoku-e498c4c98e",
+    "cover": "hametsu-no-oukoku-c1a55287ad",
     "studio": "Yokohama Animation Lab",
     "source": "Manga",
     "genres": [
@@ -158,7 +201,7 @@
   },
   "1yMc": {
     "title": "Hikikomari Kyuuketsuki no Monmon",
-    "cover": "hikikomari-kyuuketsuki-no-monmon-34dc11b058",
+    "cover": "hikikomari-kyuuketsuki-no-monmon-bfc279877f",
     "studio": "project No.9",
     "source": "Light Novel",
     "genres": [
@@ -170,7 +213,7 @@
   },
   "AObi": {
     "title": "Hoshikuzu Telepath",
-    "cover": "hoshizuku-telepath-6e9e01dd95",
+    "cover": "hoshizuku-telepath-c0485d4f68",
     "studio": "Studio Gokumi",
     "source": "4-koma Manga",
     "genres": [
@@ -183,7 +226,7 @@
   "1AGE": {
     "title": "Hypnosis Mic: Division Rap Battle - Rhyme Anima+",
     "cover": "hypnosis-mic-division-rap-battle-rhyme-anima-plus-1e6bdc4684",
-    "studio": "N/A",
+    "studio": "A-1 Pictures",
     "source": "Other",
     "genres": [
       "Action",
@@ -194,7 +237,7 @@
   },
   "PCq9": {
     "title": "Kage no Jitsuryokusha ni Naritakute! 2nd season",
-    "cover": "kage-no-jitsuryokusha-ni-naritakute-2nd-season-818ce79a82",
+    "cover": "kage-no-jitsuryokusha-ni-naritakute-2nd-season-7e4d03b674",
     "studio": "Nexus",
     "source": "Light Novel",
     "genres": [
@@ -207,14 +250,16 @@
   },
   "4PwL": {
     "title": "Kamierabi",
-    "cover": "kamierabi-bb01591582",
+    "cover": "kamierabi-919f0b114d",
     "studio": "UNEND",
     "source": "Original",
-    "genres": []
+    "genres": [
+      "Action"
+    ]
   },
   "6ipI": {
     "title": "Kanojo mo Kanojo 2",
-    "cover": "kanojo-mo-kanojo-2-d45dd0c5a1",
+    "cover": "kanojo-mo-kanojo-2-fe1d9890be",
     "studio": "SynergySP",
     "source": "Manga",
     "genres": [
@@ -249,7 +294,7 @@
   },
   "EkPk": {
     "title": "Kibou no Chikara: Otona Precure '23",
-    "cover": "kibou-no-chikara-otona-precure-23-a13d4d290a",
+    "cover": "kibou-no-chikara-otona-precure-23-5be3dc7b1b",
     "studio": "Studio DEEN",
     "source": "Original",
     "genres": [
@@ -259,7 +304,7 @@
   },
   "AkgW": {
     "title": "Kikansha no Mahou wa Tokubetsu desu",
-    "cover": "kikansha-no-mahou-wa-tokubetsu-desu-7f4b0907d9",
+    "cover": "kikansha-no-mahou-wa-tokubetsu-desu-b8f567d762",
     "studio": "Arvo Animation",
     "source": "Web Manga",
     "genres": [
@@ -283,7 +328,7 @@
   },
   "nr36": {
     "title": "Kizuna no Allele Season 2",
-    "cover": "kizuna-no-allele-season-2-e03d788175",
+    "cover": "kizuna-no-allele-season-2-5703051980",
     "studio": "Signal.MD",
     "source": "Original",
     "genres": [
@@ -305,7 +350,7 @@
   },
   "2TqS": {
     "title": "Kusuriya no Hitorigoto",
-    "cover": "kusuriya-no-hitorigoto-8421f6d094",
+    "cover": "kusuriya-no-hitorigoto-393de2094e",
     "studio": "OLM",
     "source": "Light Novel",
     "genres": [
@@ -337,6 +382,16 @@
       "Shounen"
     ]
   },
+  "5Cg5": {
+    "title": "Matsuinu",
+    "cover": "matsuinu-30ae674ade",
+    "studio": "Point Pictures",
+    "source": "Manga",
+    "genres": [
+      "Comedy",
+      "Slice of Life"
+    ]
+  },
   "oU6I": {
     "title": "Megumi no Daigo: Kyuukoku no Orange",
     "cover": "megumi-no-daigo-kyuukoku-no-orange-8fa0cf605c",
@@ -362,7 +417,7 @@
   },
   "MaIu": {
     "title": "Nanatsu no Taizai: Mokushiroku no Yonkishi",
-    "cover": "nanatsu-no-taizai-mokushiroku-no-yonkishi-29ad421b1c",
+    "cover": "nanatsu-no-taizai-mokushiroku-no-yonkishi-c2dc2c4491",
     "studio": "Telecom Animation Film",
     "source": "Manga",
     "genres": [
@@ -383,7 +438,7 @@
   },
   "rsA7": {
     "title": "Ojou to Banken-kun",
-    "cover": "ojou-to-banken-kun-bdfcf7c209",
+    "cover": "ojou-to-banken-kun-8dcc9b8d8e",
     "studio": "project No.9",
     "source": "Manga",
     "genres": [
@@ -420,7 +475,7 @@
   },
   "9Jax": {
     "title": "Potion-danomi de Ikinobimasu!",
-    "cover": "potion-danomi-de-ikinobimasu-e43afee0b7",
+    "cover": "potion-danomi-de-ikinobimasu-5ee8566b75",
     "studio": "Jumondou",
     "source": "Light Novel",
     "genres": [
@@ -467,7 +522,7 @@
   },
   "WLX6": {
     "title": "SPY\u00d7FAMILY Season 2",
-    "cover": "spy-x-family-season-2-2d311d395e",
+    "cover": "spy-x-family-season-2-b52b161bf7",
     "studio": "CloverWorks",
     "source": "Manga",
     "genres": [
@@ -480,7 +535,7 @@
   },
   "F8vX": {
     "title": "Saihate no Paladin: Tetsusabi no Yama no Ou",
-    "cover": "saihate-no-paladin-2-3852d95db7",
+    "cover": "saihate-no-paladin-2-adbd3918a9",
     "studio": "OLM",
     "source": "Light Novel",
     "genres": [
@@ -517,7 +572,7 @@
   },
   "ehz5": {
     "title": "Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su",
-    "cover": "shangri-la-frontier-893b8a993f",
+    "cover": "shangri-la-frontier-80ff2650b9",
     "studio": "C2C",
     "source": "Manga",
     "genres": [
@@ -529,7 +584,7 @@
   },
   "Tav8": {
     "title": "Sousou no Frieren",
-    "cover": "sousou-no-frieren-4a9afa65b7",
+    "cover": "sousou-no-frieren-ec564ae1d9",
     "studio": "MADHOUSE",
     "source": "Manga",
     "genres": [
@@ -567,7 +622,7 @@
   },
   "4HqZ": {
     "title": "The iDOLM@STER Million Live!",
-    "cover": "the-idolmaster-million-live-a37458c41e",
+    "cover": "the-idolmaster-million-live-2c71637a15",
     "studio": "Shirogumi",
     "source": "Video Game",
     "genres": [
@@ -589,7 +644,7 @@
   },
   "DtCb": {
     "title": "Tokyo Revengers: Tenjiku-hen",
-    "cover": "tokyo-revengers-tenjiku-hen-d33040d53a",
+    "cover": "tokyo-revengers-tenjiku-hen-b63585513d",
     "studio": "LIDENFILMS",
     "source": "Manga",
     "genres": [
@@ -602,7 +657,7 @@
   },
   "I9p7": {
     "title": "Uma Musume: Pretty Derby 3",
-    "cover": "uma-musume-pretty-derby-3-ddfc9ec6d7",
+    "cover": "uma-musume-pretty-derby-3-e76a2f9dd2",
     "studio": "Studio KAI",
     "source": "Video Game",
     "genres": [
@@ -613,7 +668,7 @@
   },
   "BQpb": {
     "title": "Undead Unluck",
-    "cover": "undead-unluck-95ba482b50",
+    "cover": "undead-unluck-d7a4b88861",
     "studio": "David Production",
     "source": "Manga",
     "genres": [
@@ -627,7 +682,7 @@
   },
   "KfCC": {
     "title": "Under Ninja",
-    "cover": "under-ninja-620339d7bb",
+    "cover": "under-ninja-76c397b865",
     "studio": "Tezuka Productions",
     "source": "Manga",
     "genres": [
@@ -652,7 +707,7 @@
   },
   "f1fO": {
     "title": "Yuzuki-san Chi no Yon Kyoudai.",
-    "cover": "yuzuki-san-chi-no-yon-kyoudai-3ae3dccf6d",
+    "cover": "yuzuki-san-chi-no-yon-kyoudai-9bd1f39c0d",
     "studio": "Studio Shuka",
     "source": "Manga",
     "genres": [

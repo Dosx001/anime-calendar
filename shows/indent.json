@@ -257,6 +257,7 @@
     "cover": "jujutsu-kaisen-2-d5c863b7c3",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GRDV0019R/jujutsu-kaisen",
+      "Netflix": "https://www.netflix.com/title/81278456",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjIe81K3Qd0l7PVaIiPi64r"
     }
   },
@@ -337,7 +338,7 @@
   },
   "aGtf": {
     "title": "The Masterful Cat Is Depressed Again Today",
-    "day": 4,
+    "day": 5,
     "time": "11:45 AM",
     "cover": "dekiru-neko-wa-kyou-mo-yuuutsu-e02b3f2d48",
     "streams": {
@@ -391,6 +392,7 @@
     "time": "9:00 AM",
     "cover": "horimiya-piece-d05c4a5298",
     "streams": {
+      "Amazon": "https://www.primevideo.com/region/eu/detail/0TXL8MWM8FFGS4GEMXVW7UWZGA",
       "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN9P43/horimiya",
       "Funimation": "https://www.funimation.com/shows/horimiya/",
       "Hulu": "https://www.hulu.com/series/horimiya-90fccf0b-3f94-4105-98a8-3e1c6949b315",
@@ -474,7 +476,7 @@
     "title": "Mushoku Tensei: Jobless Reincarnation",
     "day": 7,
     "time": "8:30 AM",
-    "cover": "mushoku-tensei-isekai-ittara-honki-dasu-2-c4ec11bc4a",
+    "cover": "mushoku-tensei-isekai-ittara-honki-dasu-2-ea4e93f9be",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G24H1N3MP/mushoku-tensei-jobless-reincarnation",
       "Funimation": "https://www.funimation.com/shows/mushoku-tensei-jobless-reincarnation-p2/",
@@ -495,8 +497,8 @@
   },
   "BIQm": {
     "title": "Bosanimal",
-    "day": 3,
-    "time": "5:50 PM",
+    "day": 2,
+    "time": "8:00 PM",
     "cover": "bosanimal-ff6d5927e2",
     "streams": {
       "YouTube": "https://www.youtube.com/playlist?list=PLFNUyl__hoIivROXI-GSXs5sb3MPA3gnG"
@@ -514,7 +516,7 @@
   },
   "SUpv": {
     "title": "CHIIKAWA",
-    "day": 5,
+    "day": 1,
     "time": "3:40 PM",
     "cover": "chiikawa-c656267c1a",
     "streams": {
@@ -618,7 +620,7 @@
   },
   "U7W9": {
     "title": "CARDFIGHT!! VANGUARD overDress",
-    "day": 6,
+    "day": 5,
     "time": "4:40 PM",
     "cover": "cardfight-vanguard-overdress-season-5-50f39afa94",
     "streams": {
@@ -672,7 +674,7 @@
   },
   "PV8y": {
     "title": "Zom 100: Bucket List of the Dead",
-    "day": 7,
+    "day": 1,
     "time": "2:00 AM",
     "cover": "zom-100-zombie-ni-naru-made-ni-shitai-100-no-koto-73654629a4",
     "streams": {
@@ -690,22 +692,45 @@
     "streams": {},
     "status": true
   },
-  "fCVv": {
-    "title": "TONIKAWA: Over The Moon For You",
+  "TRt4": {
+    "title": "Phoenix: Eden17",
     "day": 2,
-    "time": "8:30 PM",
-    "cover": "tonikaku-kawaii-joshikou-hen-3501e56992",
+    "time": "5:00 PM",
+    "cover": "phoenix-eden17-0a4d00143e",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GRWMGGQ86/tonikawa-over-the-moon-for-you"
+      "Hulu": "https://www.hulu.com/series/phoenix-eden17-1457424d-90f9-4310-9abe-89a7bc09b47d"
     }
   },
-  "JzqA": {
-    "title": "Baki Hanma",
+  "bQZM": {
+    "title": "Alice to Therese no Maboroshi Koujou",
     "day": 4,
+    "time": "5:00 PM",
+    "cover": "alice-to-therese-no-maboroshi-koujou-64ea649529",
+    "streams": {},
+    "status": true
+  },
+  "o9CU": {
+    "title": "Precure All Stars F",
+    "day": 4,
+    "time": "5:00 PM",
+    "cover": "precure-all-stars-f-6e22cdeb1f",
+    "streams": {},
+    "status": true
+  },
+  "s65V": {
+    "title": "Watashi no Oshi wa Akuyaku Reijou.: Rae to Claire ni Ichimon Ittou",
+    "day": 4,
+    "time": "5:00 PM",
+    "cover": "poster-21fa193001",
+    "streams": {},
+    "status": true
+  },
+  "pEXm": {
+    "title": "FLCL: Grunge",
+    "day": 7,
     "time": "12:01 AM",
-    "cover": "hanma-baki-son-of-ogre-2-cc5965f634",
-    "streams": {
-      "Netflix": "https://www.netflix.com/title/81236338"
-    }
+    "cover": "flcl-grunge-07b8cab19e",
+    "streams": {},
+    "status": true
   }
 }
