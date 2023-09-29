@@ -9,6 +9,16 @@
       "Slice of Life"
     ]
   },
+  "fXqJ": {
+    "title": "Arknights: Fuyukomori Kaerimichi",
+    "cover": "arknights-fuyukomori-kaerimichi-296dde239b",
+    "studio": "Yostar Pictures",
+    "source": "Video Game",
+    "genres": [
+      "Action",
+      "Fantasy"
+    ]
+  },
   "l4nW": {
     "title": "Atarashii Joushi wa Dotennen",
     "cover": "atarashii-joushi-wa-dotennen-06d128f72a",
@@ -62,7 +72,7 @@
   },
   "MIBI": {
     "title": "Boukensha ni Naritai to Miyako ni Deteitta Musume ga S Rank ni Natteta",
-    "cover": "boukensha-ni-naritai-to-miyako-ni-deteitta-musume-ga-s-rank-ni-natteta-b5578babb5",
+    "cover": "boukensha-ni-naritai-to-miyako-ni-deteitta-musume-ga-s-rank-ni-natteta-70dd133e9b",
     "studio": "TYPHOON GRAPHICS",
     "source": "Light Novel",
     "genres": [
@@ -153,7 +163,7 @@
   },
   "liHY": {
     "title": "Dr.Stone: New World Part 2",
-    "cover": "dr-stone-3-part-2-69574cb801",
+    "cover": "dr-stone-3-part-2-fc3fe6f12e",
     "studio": "TMS Entertainment",
     "source": "Manga",
     "genres": [
@@ -201,7 +211,7 @@
   },
   "1yMc": {
     "title": "Hikikomari Kyuuketsuki no Monmon",
-    "cover": "hikikomari-kyuuketsuki-no-monmon-bfc279877f",
+    "cover": "hikikomari-kyuuketsuki-no-monmon-41377ca16e",
     "studio": "project No.9",
     "source": "Light Novel",
     "genres": [
@@ -272,7 +282,7 @@
   },
   "fDqN": {
     "title": "Kawagoe Boys Sing",
-    "cover": "kawagoe-boys-sing-ff0d59dcb2",
+    "cover": "kawagoe-boys-sing-b199864822",
     "studio": "Telecom Animation Film",
     "source": "Original",
     "genres": [
@@ -282,7 +292,7 @@
   },
   "djTK": {
     "title": "Keikenzumi na Kimi to, Keiken Zero na Ore ga, Otsukiai suru Hanashi.",
-    "cover": "keikenzumi-na-kimi-to-keiken-zero-na-ore-ga-otsukiai-suru-hanashi-76ecaf473d",
+    "cover": "keikenzumi-na-kimi-to-keiken-zero-na-ore-ga-otsukiai-suru-hanashi-53974d906a",
     "studio": "ENGI",
     "source": "Light Novel",
     "genres": [
@@ -372,7 +382,7 @@
   },
   "jS8W": {
     "title": "Mahoutsukai no Yome 2 Part 2",
-    "cover": "mahoutsukai-no-yome-2-part-2-9587dfdb4d",
+    "cover": "mahoutsukai-no-yome-2-part-2-f50917a881",
     "studio": "Studio Kafka",
     "source": "Manga",
     "genres": [
@@ -564,6 +574,7 @@
     "studio": "Passione",
     "source": "Light Novel",
     "genres": [
+      "Action",
       "Ecchi",
       "Fantasy",
       "Romance",
