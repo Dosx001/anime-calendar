@@ -286,26 +286,6 @@
       "HiDive": "https://www.hidive.com/tv/helck"
     }
   },
-  "SUpv": {
-    "title": "CHIIKAWA",
-    "day": 4,
-    "time": "3:40 PM",
-    "cover": "chiikawa-c656267c1a",
-    "streams": {
-      "HiDive": "https://www.hidive.com/tv/chiikawa",
-      "YouTube": "https://www.youtube.com/playlist?list=PLHIKP_Dyl1zwJy0JjSvVV5l8Kyg-8sjdv"
-    }
-  },
-  "sC9R": {
-    "title": "Mamekichi Mameko NEET no Nichijou 2",
-    "day": 2,
-    "time": "9:00 PM",
-    "cover": "mamekichi-mameko-neet-no-nichijou-2-ba58ca1bc0",
-    "streams": {
-      "YouTube": "https://www.youtube.com/playlist?list=PLipXal3ZZgwSTehBee1umRxK59MgLRxUL"
-    },
-    "status": true
-  },
   "Wu7h": {
     "title": "Synduality Noir",
     "day": 1,
@@ -323,14 +303,6 @@
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GKEH2G0G9/saint-cecilia-and-pastor-lawrence"
     }
-  },
-  "CvYI": {
-    "title": "Uchuu Nanchara Kotetsu-kun",
-    "day": 4,
-    "time": "2:40 AM",
-    "cover": "uchuu-nanchara-kotetsu-kun-dfe5b5d3e7",
-    "streams": {},
-    "status": true
   },
   "mjLO": {
     "title": "Spy Classroom",
@@ -353,14 +325,6 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1Q4OIgY3DIF31SO_9cOo8M"
     }
   },
-  "axtq": {
-    "title": "Ikimono-san",
-    "day": 5,
-    "time": "9:50 AM",
-    "cover": "ikimono-san-f1685217cf",
-    "streams": {},
-    "status": true
-  },
   "U7W9": {
     "title": "CARDFIGHT!! VANGUARD overDress",
     "day": 5,
@@ -370,24 +334,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3NJ5/cardfight-vanguard-overdress",
       "HiDive": "https://www.hidive.com/tv/cardfight-vanguard-willdress",
       "YouTube": "https://www.youtube.com/playlist?list=PLZaz0lCoygoz0kFcSQgb2KFjNXaoye0Jm"
-    }
-  },
-  "wi8t": {
-    "title": "Shadowverse",
-    "day": 5,
-    "time": "7:30 PM",
-    "cover": "shadowverse-flame-seven-shadows-hen-100c5a5877",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GYEX244X6/shadowverse"
-    }
-  },
-  "fIOQ": {
-    "title": "BONO BONO",
-    "day": 6,
-    "time": "12:52 PM",
-    "cover": "bonobono-2016-d8ff3791d8",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/bono-bono"
     }
   },
   "vkEQ": {
@@ -409,7 +355,7 @@
   },
   "PV8y": {
     "title": "Zom 100: Bucket List of the Dead",
-    "day": 1,
+    "day": 7,
     "time": "2:00 AM",
     "cover": "zom-100-zombie-ni-naru-made-ni-shitai-100-no-koto-73654629a4",
     "streams": {
@@ -418,14 +364,6 @@
       "Netflix": "https://www.netflix.com/title/81680101",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0cJyc_zkaS2wgBge7kdPcF"
     }
-  },
-  "hZxw": {
-    "title": "Odekake Kozame",
-    "day": 2,
-    "time": "4:00 AM",
-    "cover": "odekake-kozame-315b850ca6",
-    "streams": {},
-    "status": true
   },
   "N9Jg": {
     "title": "Seiken Gakuin no Maken Tsukai",
@@ -463,20 +401,23 @@
     }
   },
   "oU6I": {
-    "title": "Megumi no Daigo: Kyuukoku no Orange",
+    "title": "Firefighter Daigo: Rescuer in Orange",
     "day": 6,
-    "time": "1:30 AM",
+    "time": "2:00 AM",
     "cover": "megumi-no-daigo-kyuukoku-no-orange-8fa0cf605c",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM1MK/firefighter-daigo-rescuer-in-orange",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjUyg2zOamli_yuodl2aQFO"
+    }
   },
   "6LIP": {
     "title": "Ragna Crimson",
     "day": 6,
-    "time": "9:00 AM",
+    "time": "9:01 AM",
     "cover": "ragna-crimson-2f2fd638d0",
-    "streams": {},
-    "status": true
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/ragna-crimson"
+    }
   },
   "S7Zr": {
     "title": "FLCL: Shoegaze",
@@ -487,59 +428,122 @@
     "status": true
   },
   "ehz5": {
-    "title": "Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su",
+    "title": "Shangri-La Frontier",
     "day": 7,
-    "time": "1:00 AM",
+    "time": "2:30 AM",
     "cover": "shangri-la-frontier-80ff2650b9",
-    "streams": {},
-    "status": true
-  },
-  "tG35": {
-    "title": "Captain Tsubasa: Season 2 - Junior Youth-hen",
-    "day": 7,
-    "time": "1:30 AM",
-    "cover": "captain-tsubasa-season-2-junior-youth-hen-17f2128c36",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G79H23Z8P/shangri-la-frontier"
+    }
   },
   "O4yD": {
-    "title": "Dekoboko Majo no Oyako Jijou",
+    "title": "The Family Circumstances of the Irregular Witch",
     "day": 7,
-    "time": "6:00 AM",
+    "time": "7:30 AM",
     "cover": "dekoboko-majo-no-oyako-jijou-fe8bb22616",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3G24/the-family-circumstances-of-the-irregular-witch",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JiPmO27caFIdVxvKS_ZYG_8"
+    }
   },
   "AiR9": {
     "title": "OVERTAKE!",
     "day": 7,
-    "time": "6:00 AM",
+    "time": "7:30 AM",
     "cover": "overtake-e987c9279f",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN9Q4N/overtake",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jgl97miORNHE_10Ht2buvWi"
+    }
   },
   "ZTd2": {
-    "title": "Boushoku no Berserk",
+    "title": "Berserk of Gluttony",
     "day": 7,
-    "time": "8:00 AM",
+    "time": "8:30 AM",
     "cover": "boushoku-no-berserk-8ae3bf096d",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV05V/berserk-of-gluttony"
+    }
   },
   "wosV": {
-    "title": "MF Ghost",
-    "day": 7,
-    "time": "8:00 AM",
+    "title": "MF GHOST",
+    "day": 6,
+    "time": "10:01 AM",
     "cover": "mf-ghost-f63cc9bfa0",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W2W7/mf-ghost",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jh4asVGiKSeBUV-E0JucCRv"
+    }
+  },
+  "SUpv": {
+    "title": "CHIIKAWA",
+    "day": 1,
+    "time": "3:40 PM",
+    "cover": "chiikawa-c656267c1a",
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/chiikawa",
+      "YouTube": "https://www.youtube.com/playlist?list=PLHIKP_Dyl1zwJy0JjSvVV5l8Kyg-8sjdv"
+    }
+  },
+  "hZxw": {
+    "title": "Odekake Kozame",
+    "day": 2,
+    "time": "4:00 AM",
+    "cover": "odekake-kozame-315b850ca6",
     "streams": {},
     "status": true
   },
-  "ibFk": {
-    "title": "Tensei Shitara Slime Datta Ken: Coleus no Yume",
-    "day": 6,
-    "time": "8:00 AM",
-    "cover": "tensei-shitara-slime-datta-ken-coleus-no-yume-0c2b7c9cd9",
+  "sC9R": {
+    "title": "Mamekichi Mameko NEET no Nichijou 2",
+    "day": 2,
+    "time": "9:00 PM",
+    "cover": "mamekichi-mameko-neet-no-nichijou-2-ba58ca1bc0",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLipXal3ZZgwSTehBee1umRxK59MgLRxUL"
+    },
+    "status": true
+  },
+  "CvYI": {
+    "title": "Uchuu Nanchara Kotetsu-kun",
+    "day": 4,
+    "time": "2:40 AM",
+    "cover": "uchuu-nanchara-kotetsu-kun-dfe5b5d3e7",
     "streams": {},
     "status": true
+  },
+  "axtq": {
+    "title": "Ikimono-san",
+    "day": 5,
+    "time": "9:50 AM",
+    "cover": "ikimono-san-f1685217cf",
+    "streams": {},
+    "status": true
+  },
+  "wi8t": {
+    "title": "Shadowverse",
+    "day": 5,
+    "time": "7:30 PM",
+    "cover": "shadowverse-flame-seven-shadows-hen-100c5a5877",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GYEX244X6/shadowverse"
+    }
+  },
+  "fIOQ": {
+    "title": "BONO BONO",
+    "day": 6,
+    "time": "12:52 PM",
+    "cover": "bonobono-2016-d8ff3791d8",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/bono-bono"
+    }
+  },
+  "tG35": {
+    "title": "Captain Tsubasa: Junior Youth Arc",
+    "day": 7,
+    "time": "2:30 AM",
+    "cover": "captain-tsubasa-season-2-junior-youth-hen-17f2128c36",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WJDQ/captain-tsubasa-junior-youth-arc"
+    }
   }
 }
