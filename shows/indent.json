@@ -372,7 +372,7 @@
     "title": "Migi&Dali",
     "day": 1,
     "time": "7:00 AM",
-    "cover": "migi-to-dali-f38c77e0aa",
+    "cover": "",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7QGKK/migidali"
     }
@@ -425,23 +425,25 @@
   "avMs": {
     "title": "Paradox Live THE ANIMATION",
     "day": 2,
-    "time": "7:00 AM",
+    "time": "8:00 AM",
     "cover": "paradox-live-the-animation-6493a453aa",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEVD87/paradox-live-the-animation"
+    }
   },
   "4GGb": {
-    "title": "Seijo no Maryoku wa Bannou desu 2",
+    "title": "The Saint's Magic Power is Omnipotent",
     "day": 2,
-    "time": "7:00 AM",
+    "time": "8:00 AM",
     "cover": "seijo-no-maryoku-wa-bannou-desu-2-5148fd8383",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV3P3/the-saints-magic-power-is-omnipotent"
+    }
   },
   "DtCb": {
     "title": "Tokyo Revengers: Tenjiku-hen",
     "day": 2,
-    "time": "8:00 AM",
+    "time": "7:00 AM",
     "cover": "tokyo-revengers-tenjiku-hen-b63585513d",
     "streams": {},
     "status": true
@@ -531,7 +533,7 @@
     "title": "Rail Romanesque 2",
     "day": 4,
     "time": "9:00 AM",
-    "cover": "",
+    "cover": "rail-romanesque-2-3ee43bbfa0",
     "streams": {},
     "status": true
   },
