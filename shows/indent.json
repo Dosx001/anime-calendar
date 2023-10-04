@@ -315,7 +315,7 @@
   },
   "SUpv": {
     "title": "CHIIKAWA",
-    "day": 4,
+    "day": 1,
     "time": "3:40 PM",
     "cover": "chiikawa-c656267c1a",
     "streams": {
@@ -327,7 +327,7 @@
     "title": "Odekake Kozame",
     "day": 2,
     "time": "4:00 AM",
-    "cover": "odekake-kozame-315b850ca6",
+    "cover": "",
     "streams": {
       "YouTube": "https://www.youtube.com/playlist?list=PLjrUB63ikczNcRItB8koEfoBfA7sjCZ-k"
     },
@@ -337,7 +337,7 @@
     "title": "Uchuu Nanchara Kotetsu-kun",
     "day": 4,
     "time": "2:40 AM",
-    "cover": "uchuu-nanchara-kotetsu-kun-dfe5b5d3e7",
+    "cover": "",
     "streams": {},
     "status": true
   },
@@ -372,7 +372,7 @@
     "title": "Migi&Dali",
     "day": 1,
     "time": "7:00 AM",
-    "cover": "",
+    "cover": "migi-to-dali-f38c77e0aa",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7QGKK/migidali"
     }
@@ -449,20 +449,22 @@
     "status": true
   },
   "L8Kc": {
-    "title": "Bullbuster",
-    "day": 3,
-    "time": "5:00 AM",
-    "cover": "bullbuster-b995a53c7c",
-    "streams": {},
-    "status": true
-  },
-  "T7w7": {
-    "title": "Konyaku Haki sareta Reijou wo Hirotta Ore ga, Ikenai Koto wo Oshiekomu",
+    "title": "BULLBUSTER",
     "day": 3,
     "time": "6:00 AM",
+    "cover": "bullbuster-b995a53c7c",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G24H1NW9J/bullbuster"
+    }
+  },
+  "T7w7": {
+    "title": "I'm Giving the Disgraced Noble Lady I Rescued a Crash Course in Naughtiness",
+    "day": 3,
+    "time": "6:15 AM",
     "cover": "konyaku-haki-ssareta-reijou-wo-hirotta-ore-ga-ikenai-koto-wo-oshiekomu-37b94f47e1",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GP5HJ84M5/im-giving-the-disgraced-noble-lady-i-rescued-a-crash-course-in-naughtiness"
+    }
   },
   "PCq9": {
     "title": "The Eminence in Shadow",
@@ -474,12 +476,13 @@
     }
   },
   "nr36": {
-    "title": "Kizuna no Allele Season 2",
+    "title": "Kizuna no Allele",
     "day": 3,
-    "time": "8:00 AM",
+    "time": "11:00 AM",
     "cover": "kizuna-no-allele-season-2-5703051980",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM577/kizuna-no-allele"
+    }
   },
   "I9p7": {
     "title": "Uma Musume: Pretty Derby 3",
@@ -490,20 +493,22 @@
     "status": true
   },
   "cjTD": {
-    "title": "16bit Sensation: ANOTHER LAYER",
+    "title": "16bit Sensation: Another Layer",
     "day": 3,
-    "time": "8:30 AM",
+    "time": "10:00 AM",
     "cover": "16bit-sensation-9900110d0f",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G8DHV7854/16bit-sensation-another-layer"
+    }
   },
   "4PwL": {
-    "title": "Kamierabi",
+    "title": "KamiErabi GOD.app",
     "day": 3,
-    "time": "8:55 AM",
+    "time": "10:25 AM",
     "cover": "kamierabi-919f0b114d",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GZJH3D898/kamierabi-godapp"
+    }
   },
   "jS8W": {
     "title": "Mahoutsukai no Yome 2 Part 2",
