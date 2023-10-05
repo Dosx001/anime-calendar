@@ -213,7 +213,7 @@
   "MIBI": {
     "title": "My Daughter Left the Nest and Returned an S-Rank Adventurer",
     "day": 4,
-    "time": "8:00 AM",
+    "time": "7:01 AM",
     "cover": "boukensha-ni-naritai-to-miyako-ni-deteitta-musume-ga-s-rank-ni-natteta-70dd133e9b",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM9M5/my-daughter-left-the-nest-and-returned-an-s-rank-adventurer"
@@ -315,7 +315,7 @@
   },
   "SUpv": {
     "title": "CHIIKAWA",
-    "day": 1,
+    "day": 4,
     "time": "3:40 PM",
     "cover": "chiikawa-c656267c1a",
     "streams": {
@@ -327,7 +327,7 @@
     "title": "Odekake Kozame",
     "day": 2,
     "time": "4:00 AM",
-    "cover": "",
+    "cover": "odekake-kozame-315b850ca6",
     "streams": {
       "YouTube": "https://www.youtube.com/playlist?list=PLjrUB63ikczNcRItB8koEfoBfA7sjCZ-k"
     },
@@ -337,7 +337,7 @@
     "title": "Uchuu Nanchara Kotetsu-kun",
     "day": 4,
     "time": "2:40 AM",
-    "cover": "",
+    "cover": "uchuu-nanchara-kotetsu-kun-dfe5b5d3e7",
     "streams": {},
     "status": true
   },
@@ -485,12 +485,13 @@
     }
   },
   "I9p7": {
-    "title": "Uma Musume: Pretty Derby 3",
+    "title": "Umamusume: Pretty Derby",
     "day": 3,
     "time": "8:00 AM",
     "cover": "uma-musume-pretty-derby-3-e76a2f9dd2",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GR79P2816/umamusume-pretty-derby"
+    }
   },
   "cjTD": {
     "title": "16bit Sensation: Another Layer",
@@ -511,12 +512,13 @@
     }
   },
   "jS8W": {
-    "title": "Mahoutsukai no Yome 2 Part 2",
+    "title": "The Ancient Magus' Bride",
     "day": 4,
-    "time": "6:00 AM",
+    "time": "8:00 AM",
     "cover": "mahoutsukai-no-yome-2-part-2-f50917a881",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GRZXQJJ8Y/the-ancient-magus-bride"
+    }
   },
   "Oq7F": {
     "title": "Bikkurimen",
@@ -527,12 +529,14 @@
     "status": true
   },
   "f1fO": {
-    "title": "Yuzuki-san Chi no Yon Kyoudai.",
+    "title": "The Yuzuki Family's Four Sons",
     "day": 4,
-    "time": "7:30 AM",
+    "time": "9:00 AM",
     "cover": "yuzuki-san-chi-no-yon-kyoudai-9bd1f39c0d",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GDKHZEJ7K/the-yuzuki-familys-four-sons",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhOZzCUOcQocjQ1sPjtpXHY"
+    }
   },
   "UnQj": {
     "title": "Rail Romanesque 2",
@@ -545,7 +549,7 @@
   "KfCC": {
     "title": "Under Ninja",
     "day": 4,
-    "time": "9:28 AM",
+    "time": "10:45 AM",
     "cover": "under-ninja-76c397b865",
     "streams": {},
     "status": true
