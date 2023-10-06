@@ -235,7 +235,8 @@
     "time": "8:00 AM",
     "cover": "sousou-no-frieren-ec564ae1d9",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQX4/frieren-beyond-journeys-end"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQX4/frieren-beyond-journeys-end",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl10YPPR7qDsVf10wZfYnIMK"
     }
   },
   "oU6I": {
@@ -313,34 +314,6 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jh4asVGiKSeBUV-E0JucCRv"
     }
   },
-  "SUpv": {
-    "title": "CHIIKAWA",
-    "day": 4,
-    "time": "3:40 PM",
-    "cover": "chiikawa-c656267c1a",
-    "streams": {
-      "HiDive": "https://www.hidive.com/tv/chiikawa",
-      "YouTube": "https://www.youtube.com/playlist?list=PLHIKP_Dyl1zwJy0JjSvVV5l8Kyg-8sjdv"
-    }
-  },
-  "hZxw": {
-    "title": "Odekake Kozame",
-    "day": 2,
-    "time": "4:00 AM",
-    "cover": "odekake-kozame-315b850ca6",
-    "streams": {
-      "YouTube": "https://www.youtube.com/playlist?list=PLjrUB63ikczNcRItB8koEfoBfA7sjCZ-k"
-    },
-    "status": true
-  },
-  "CvYI": {
-    "title": "Uchuu Nanchara Kotetsu-kun",
-    "day": 4,
-    "time": "2:40 AM",
-    "cover": "uchuu-nanchara-kotetsu-kun-dfe5b5d3e7",
-    "streams": {},
-    "status": true
-  },
   "wi8t": {
     "title": "Shadowverse",
     "day": 5,
@@ -348,15 +321,6 @@
     "cover": "shadowverse-flame-seven-shadows-hen-100c5a5877",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GYEX244X6/shadowverse"
-    }
-  },
-  "fIOQ": {
-    "title": "BONO BONO",
-    "day": 6,
-    "time": "12:52 PM",
-    "cover": "bonobono-2016-d8ff3791d8",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/bono-bono"
     }
   },
   "tG35": {
@@ -434,7 +398,7 @@
   "4GGb": {
     "title": "The Saint's Magic Power is Omnipotent",
     "day": 2,
-    "time": "8:00 AM",
+    "time": "8:30 AM",
     "cover": "seijo-no-maryoku-wa-bannou-desu-2-5148fd8383",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV3P3/the-saints-magic-power-is-omnipotent"
@@ -487,7 +451,7 @@
   "I9p7": {
     "title": "Umamusume: Pretty Derby",
     "day": 3,
-    "time": "8:00 AM",
+    "time": "5:00 PM",
     "cover": "uma-musume-pretty-derby-3-e76a2f9dd2",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GR79P2816/umamusume-pretty-derby"
@@ -538,14 +502,6 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhOZzCUOcQocjQ1sPjtpXHY"
     }
   },
-  "UnQj": {
-    "title": "Rail Romanesque 2",
-    "day": 4,
-    "time": "9:00 AM",
-    "cover": "rail-romanesque-2-3ee43bbfa0",
-    "streams": {},
-    "status": true
-  },
   "KfCC": {
     "title": "Under Ninja",
     "day": 4,
@@ -554,69 +510,43 @@
     "streams": {},
     "status": true
   },
-  "scjm": {
-    "title": "Girls und Panzer: Saishuushou 4",
-    "day": 4,
-    "time": "5:00 PM",
-    "cover": "girls-und-panzer-saishuushou-4-b83e7f8aec",
-    "streams": {},
-    "status": true
-  },
-  "wcFV": {
-    "title": "Gundam Build Metaverse",
-    "day": 5,
-    "time": "2:00 AM",
-    "cover": "gundam-build-metaverse-4aded27261",
-    "streams": {},
-    "status": true
-  },
-  "DqGO": {
-    "title": "Beyblade X",
-    "day": 5,
-    "time": "2:25 AM",
-    "cover": "beyblade-x-95219e5af0",
-    "streams": {},
-    "status": true
-  },
   "5OAQ": {
-    "title": "Tate no Yuusha no Nariagari 3",
+    "title": "The Rising of the Shield Hero",
     "day": 5,
-    "time": "5:00 AM",
+    "time": "5:30 AM",
     "cover": "tate-no-yuusha-no-nariagari-3-ca0b643e0a",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G6W4QKX0R/the-rising-of-the-shield-hero",
+      "Funimation": "https://www.funimation.com/shows/the-rising-of-the-shield-hero/",
+      "Hulu": "https://www.hulu.com/series/the-rising-of-the-shield-hero-97f1d394-0ac7-48c2-bb1b-7b2575848441"
+    }
   },
   "rqxA": {
-    "title": "Goblin Slayer 2",
-    "day": 5,
-    "time": "6:00 AM",
-    "cover": "goblin-slayer-2-28a5158f1b",
-    "streams": {},
-    "status": true
-  },
-  "djTK": {
-    "title": "Keikenzumi na Kimi to, Keiken Zero na Ore ga, Otsukiai suru Hanashi.",
+    "title": "GOBLIN SLAYER",
     "day": 5,
     "time": "6:30 AM",
-    "cover": "keikenzumi-na-kimi-to-keiken-zero-na-ore-ga-otsukiai-suru-hanashi-53974d906a",
-    "streams": {},
-    "status": true
+    "cover": "goblin-slayer-2-28a5158f1b",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G6VDMN306/goblin-slayer"
+    }
   },
-  "1AGE": {
-    "title": "Hypnosis Mic: Division Rap Battle - Rhyme Anima+",
+  "djTK": {
+    "title": "Our Dating Story: The Experienced You and The Inexperienced Me",
     "day": 5,
-    "time": "8:00 AM",
-    "cover": "hypnosis-mic-division-rap-battle-rhyme-anima-plus-1e6bdc4684",
-    "streams": {},
-    "status": true
+    "time": "7:30 AM",
+    "cover": "keikenzumi-na-kimi-to-keiken-zero-na-ore-ga-otsukiai-suru-hanashi-53974d906a",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM9G5/our-dating-story-the-experienced-you-and-the-inexperienced-me"
+    }
   },
   "fXqJ": {
-    "title": "Arknights: Fuyukomori Kaerimichi",
+    "title": "Arknights",
     "day": 5,
-    "time": "9:23 AM",
+    "time": "10:00 AM",
     "cover": "arknights-fuyukomori-kaerimichi-296dde239b",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5X3VN/arknights"
+    }
   },
   "BQpb": {
     "title": "Undead Unluck",
@@ -628,41 +558,27 @@
     }
   },
   "yM7y": {
-    "title": "Hametsu no Oukoku",
+    "title": "The Kingdoms of Ruin",
     "day": 5,
-    "time": "9:58 AM",
+    "time": "10:30 AM",
     "cover": "hametsu-no-oukoku-c1a55287ad",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQ14/the-kingdoms-of-ruin"
+    }
   },
   "6ipI": {
-    "title": "Kanojo mo Kanojo 2",
+    "title": "Girlfriend, Girlfriend",
     "day": 5,
-    "time": "10:28 AM",
+    "time": "12:00 PM",
     "cover": "kanojo-mo-kanojo-2-fe1d9890be",
-    "streams": {},
-    "status": true
-  },
-  "5Cg5": {
-    "title": "Matsuinu",
-    "day": 5,
-    "time": "3:00 PM",
-    "cover": "matsuinu-30ae674ade",
-    "streams": {},
-    "status": true
-  },
-  "EkPk": {
-    "title": "Kibou no Chikara: Otona Precure '23",
-    "day": 6,
-    "time": "2:25 AM",
-    "cover": "kibou-no-chikara-otona-precure-23-5be3dc7b1b",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3WP97/girlfriend-girlfriend"
+    }
   },
   "F8vX": {
     "title": "Saihate no Paladin: Tetsusabi no Yama no Ou",
     "day": 6,
-    "time": "6:00 AM",
+    "time": "6:30 AM",
     "cover": "saihate-no-paladin-2-adbd3918a9",
     "streams": {},
     "status": true
@@ -670,7 +586,7 @@
   "1yMc": {
     "title": "The Vexations of a Shut-In Vampire Princess",
     "day": 6,
-    "time": "6:30 AM",
+    "time": "7:00 AM",
     "cover": "hikikomari-kyuuketsuki-no-monmon-41377ca16e",
     "streams": {
       "HiDive": "https://www.hidive.com/tv/the-vexations-of-a-shut-in-vampire-princess"
@@ -679,7 +595,7 @@
   "WLX6": {
     "title": "SPY\u00d7FAMILY Season 2",
     "day": 6,
-    "time": "7:00 AM",
+    "time": "8:30 AM",
     "cover": "spy-x-family-season-2-b52b161bf7",
     "streams": {},
     "status": true
@@ -687,7 +603,7 @@
   "l4nW": {
     "title": "Atarashii Joushi wa Dotennen",
     "day": 6,
-    "time": "7:30 AM",
+    "time": "9:00 AM",
     "cover": "atarashii-joushi-wa-dotennen-06d128f72a",
     "streams": {},
     "status": true
@@ -695,23 +611,15 @@
   "AkgW": {
     "title": "Kikansha no Mahou wa Tokubetsu desu",
     "day": 6,
-    "time": "8:00 AM",
+    "time": "9:30 AM",
     "cover": "kikansha-no-mahou-wa-tokubetsu-desu-b8f567d762",
-    "streams": {},
-    "status": true
-  },
-  "B1VX": {
-    "title": "Ochibi-san",
-    "day": 6,
-    "time": "8:00 AM",
-    "cover": "ochibi-san-50f88822e0",
     "streams": {},
     "status": true
   },
   "YHQk": {
     "title": "Buta no Liver wa Kanetsu Shiro",
     "day": 6,
-    "time": "8:30 AM",
+    "time": "10:00 AM",
     "cover": "buta-no-liver-wa-kanetsu-shiro-a25613e42f",
     "streams": {},
     "status": true
@@ -719,7 +627,7 @@
   "wWBl": {
     "title": "Tearmoon Teikoku Monogatari: Dantoudai kara Hajimaru, Hime no Tensei Gyakuten Story",
     "day": 6,
-    "time": "9:00 AM",
+    "time": "9:15 AM",
     "cover": "tearmoon-teikoku-monogatari-dantoudai-kara-hajimaru-hime-no-tensei-gyakuten-story-2c2709b989",
     "streams": {},
     "status": true
@@ -740,14 +648,6 @@
     "streams": {},
     "status": true
   },
-  "4HqZ": {
-    "title": "The iDOLM@STER Million Live!",
-    "day": 6,
-    "time": "6:00 PM",
-    "cover": "the-idolmaster-million-live-2c71637a15",
-    "streams": {},
-    "status": true
-  },
   "MaIu": {
     "title": "Nanatsu no Taizai: Mokushiroku no Yonkishi",
     "day": 7,
@@ -759,7 +659,7 @@
   "6YIu": {
     "title": "Kimi no Koto ga Dai Dai Dai Dai Daisuki na 100-nin no Kanojo",
     "day": 7,
-    "time": "6:30 AM",
+    "time": "7:00 AM",
     "cover": "kimi-no-koto-ga-dai-dai-dai-dai-daisuki-na-100-nin-no-kanojo-72da18ee6b",
     "streams": {},
     "status": true
