@@ -551,7 +551,7 @@
   "BQpb": {
     "title": "Undead Unluck",
     "day": 5,
-    "time": "9:28 AM",
+    "time": "11:00 AM",
     "cover": "undead-unluck-d7a4b88861",
     "streams": {
       "Hulu": "https://www.hulu.com/series/undead-unluck-1e7b20f8-4f5c-46ab-8b24-fa2700a6c7a7"
@@ -576,12 +576,13 @@
     }
   },
   "F8vX": {
-    "title": "Saihate no Paladin: Tetsusabi no Yama no Ou",
+    "title": "The Faraway Paladin",
     "day": 6,
     "time": "6:30 AM",
     "cover": "saihate-no-paladin-2-adbd3918a9",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W8G1/the-faraway-paladin"
+    }
   },
   "1yMc": {
     "title": "The Vexations of a Shut-In Vampire Princess",
@@ -593,12 +594,13 @@
     }
   },
   "WLX6": {
-    "title": "SPY\u00d7FAMILY Season 2",
+    "title": "SPY x FAMILY",
     "day": 6,
     "time": "8:30 AM",
     "cover": "spy-x-family-season-2-b52b161bf7",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WXVJ/spy-x-family"
+    }
   },
   "l4nW": {
     "title": "Atarashii Joushi wa Dotennen",
@@ -635,7 +637,7 @@
   "kKew": {
     "title": "Bokura no Ameiro Protocol",
     "day": 6,
-    "time": "9:30 AM",
+    "time": "11:00 AM",
     "cover": "bokura-no-ameiro-protocol-dc39c949f8",
     "streams": {},
     "status": true
@@ -643,7 +645,7 @@
   "9Jax": {
     "title": "Potion-danomi de Ikinobimasu!",
     "day": 6,
-    "time": "10:00 AM",
+    "time": "10:30 AM",
     "cover": "potion-danomi-de-ikinobimasu-5ee8566b75",
     "streams": {},
     "status": true
@@ -661,6 +663,116 @@
     "day": 7,
     "time": "7:00 AM",
     "cover": "kimi-no-koto-ga-dai-dai-dai-dai-daisuki-na-100-nin-no-kanojo-72da18ee6b",
+    "streams": {},
+    "status": true
+  },
+  "SUpv": {
+    "title": "CHIIKAWA",
+    "day": 4,
+    "time": "3:40 PM",
+    "cover": "chiikawa-c656267c1a",
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/chiikawa",
+      "YouTube": "https://www.youtube.com/playlist?list=PLHIKP_Dyl1zwJy0JjSvVV5l8Kyg-8sjdv"
+    }
+  },
+  "hZxw": {
+    "title": "Odekake Kozame",
+    "day": 2,
+    "time": "4:00 AM",
+    "cover": "",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLjrUB63ikczNcRItB8koEfoBfA7sjCZ-k"
+    },
+    "status": true
+  },
+  "CvYI": {
+    "title": "Uchuu Nanchara Kotetsu-kun",
+    "day": 4,
+    "time": "2:40 AM",
+    "cover": "uchuu-nanchara-kotetsu-kun-dfe5b5d3e7",
+    "streams": {},
+    "status": true
+  },
+  "UnQj": {
+    "title": "Rail Romanesque 2",
+    "day": 4,
+    "time": "9:00 AM",
+    "cover": "rail-romanesque-2-3ee43bbfa0",
+    "streams": {},
+    "status": true
+  },
+  "scjm": {
+    "title": "Girls und Panzer: Saishuushou 4",
+    "day": 4,
+    "time": "5:00 PM",
+    "cover": "girls-und-panzer-saishuushou-4-b83e7f8aec",
+    "streams": {},
+    "status": true
+  },
+  "wcFV": {
+    "title": "Gundam Build Metaverse",
+    "day": 5,
+    "time": "2:00 AM",
+    "cover": "gundam-build-metaverse-4aded27261",
+    "streams": {},
+    "status": true
+  },
+  "DqGO": {
+    "title": "Beyblade X",
+    "day": 5,
+    "time": "2:25 AM",
+    "cover": "beyblade-x-95219e5af0",
+    "streams": {},
+    "status": true
+  },
+  "1AGE": {
+    "title": "HYPNOSISMIC -Division Rap Battle- Rhyme Anima",
+    "day": 5,
+    "time": "9:30 AM",
+    "cover": "hypnosis-mic-division-rap-battle-rhyme-anima-plus-1e6bdc4684",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GP5HJ8EV9/hypnosismic--division-rap-battle--rhyme-anima"
+    }
+  },
+  "5Cg5": {
+    "title": "Matsuinu",
+    "day": 5,
+    "time": "3:00 PM",
+    "cover": "matsuinu-30ae674ade",
+    "streams": {},
+    "status": true
+  },
+  "EkPk": {
+    "title": "Kibou no Chikara: Otona Precure '23",
+    "day": 6,
+    "time": "2:25 AM",
+    "cover": "kibou-no-chikara-otona-precure-23-5be3dc7b1b",
+    "streams": {},
+    "status": true
+  },
+  "B1VX": {
+    "title": "Ochibi-san",
+    "day": 6,
+    "time": "8:00 AM",
+    "cover": "ochibi-san-50f88822e0",
+    "streams": {},
+    "status": true
+  },
+  "fIOQ": {
+    "title": "BONO BONO",
+    "day": 6,
+    "time": "12:52 PM",
+    "cover": "bonobono-2016-d8ff3791d8",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/bono-bono"
+    }
+  },
+  "4HqZ": {
+    "title": "The iDOLM@STER Million Live!",
+    "day": 6,
+    "time": "6:00 PM",
+    "cover": "the-idolmaster-million-live-2c71637a15",
     "streams": {},
     "status": true
   }
