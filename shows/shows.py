@@ -135,7 +135,6 @@ class Shows:
 
     def update(self):
         if len(self.changes) != 0 or len(self.new) != 0 or len(self.static) != self.num:
-            system("cp shows.json past_shows.json")
             for key in list(self.shows):
                 if key in self.changes:
                     if "status" in self.shows[key]:
@@ -152,6 +151,7 @@ class Shows:
                     data["status"] = True
                     self.status = False
                 self.shows.update({key: data})
+            system("cp shows.json past_shows.json")
             with open("shows.json", "w", encoding="utf-8") as file:
                 dump(self.shows, file, separators=(",", ":"))
             with open("indent.json", "w", encoding="utf-8") as file:
@@ -213,10 +213,12 @@ class Shows:
         except NoSuchElementException:
             with open("pass.txt", encoding="utf-8") as file:
                 keys = file.readline().split()
-            self.driver.find_element(By.CLASS_NAME, "submitbtn").click()
-            self.driver.find_element(By.ID, "login_form_name").send_keys(keys[0])
-            self.driver.find_element(By.ID, "login_form_password").send_keys(keys[1])
-            self.driver.find_element(By.ID, "login_submit_button").click()
+            self.driver.find_elements(By.CLASS_NAME, "erc-user-menu-nav-item")[
+                1
+            ].click()
+            self.driver.find_element(By.ID, "username_input").send_keys(keys[0])
+            self.driver.find_element(By.ID, "password_input").send_keys(keys[1])
+            self.driver.find_element(By.ID, "submit_button").click()
             while True:
                 try:
                     text = self.driver.find_element(
