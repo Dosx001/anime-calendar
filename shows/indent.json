@@ -603,52 +603,58 @@
     }
   },
   "l4nW": {
-    "title": "Atarashii Joushi wa Dotennen",
+    "title": "My New Boss is Goofy",
     "day": 6,
     "time": "9:00 AM",
     "cover": "atarashii-joushi-wa-dotennen-06d128f72a",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM1ZK/my-new-boss-is-goofy"
+    }
   },
   "AkgW": {
-    "title": "Kikansha no Mahou wa Tokubetsu desu",
+    "title": "A Returner's Magic Should Be Special",
     "day": 6,
     "time": "9:30 AM",
     "cover": "kikansha-no-mahou-wa-tokubetsu-desu-b8f567d762",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W207/a-returners-magic-should-be-special"
+    }
   },
   "YHQk": {
-    "title": "Buta no Liver wa Kanetsu Shiro",
+    "title": "Butareba -The Story of a Man Turned into a Pig-",
     "day": 6,
     "time": "10:00 AM",
     "cover": "buta-no-liver-wa-kanetsu-shiro-a25613e42f",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G79H23ZNP/butareba--the-story-of-a-man-turned-into-a-pig-"
+    }
   },
   "wWBl": {
-    "title": "Tearmoon Teikoku Monogatari: Dantoudai kara Hajimaru, Hime no Tensei Gyakuten Story",
+    "title": "Tearmoon Empire",
     "day": 6,
     "time": "9:15 AM",
     "cover": "tearmoon-teikoku-monogatari-dantoudai-kara-hajimaru-hime-no-tensei-gyakuten-story-2c2709b989",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN9QVN/tearmoon-empire"
+    }
   },
   "kKew": {
-    "title": "Bokura no Ameiro Protocol",
+    "title": "Protocol: Rain",
     "day": 6,
     "time": "11:00 AM",
     "cover": "bokura-no-ameiro-protocol-dc39c949f8",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WJ4Q/protocol-rain"
+    }
   },
   "9Jax": {
-    "title": "Potion-danomi de Ikinobimasu!",
+    "title": "I Shall Survive Using Potions!",
     "day": 6,
     "time": "10:30 AM",
     "cover": "potion-danomi-de-ikinobimasu-5ee8566b75",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV0ZV/i-shall-survive-using-potions"
+    }
   },
   "MaIu": {
     "title": "Nanatsu no Taizai: Mokushiroku no Yonkishi",
@@ -659,12 +665,13 @@
     "status": true
   },
   "6YIu": {
-    "title": "Kimi no Koto ga Dai Dai Dai Dai Daisuki na 100-nin no Kanojo",
+    "title": "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You",
     "day": 7,
     "time": "7:00 AM",
     "cover": "kimi-no-koto-ga-dai-dai-dai-dai-daisuki-na-100-nin-no-kanojo-72da18ee6b",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKN933/the-100-girlfriends-who-really-really-really-really-really-love-you"
+    }
   },
   "SUpv": {
     "title": "CHIIKAWA",
@@ -680,7 +687,7 @@
     "title": "Odekake Kozame",
     "day": 2,
     "time": "4:00 AM",
-    "cover": "",
+    "cover": "odekake-kozame-315b850ca6",
     "streams": {
       "YouTube": "https://www.youtube.com/playlist?list=PLjrUB63ikczNcRItB8koEfoBfA7sjCZ-k"
     },
@@ -744,12 +751,13 @@
     "status": true
   },
   "EkPk": {
-    "title": "Kibou no Chikara: Otona Precure '23",
+    "title": "Power of Hope ~Precure Full Bloom~",
     "day": 6,
-    "time": "2:25 AM",
+    "time": "4:45 AM",
     "cover": "kibou-no-chikara-otona-precure-23-5be3dc7b1b",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3G84/power-of-hope-precure-full-bloom"
+    }
   },
   "B1VX": {
     "title": "Ochibi-san",
@@ -769,11 +777,12 @@
     }
   },
   "4HqZ": {
-    "title": "The iDOLM@STER Million Live!",
+    "title": "THE IDOLM@STER Million Live!",
     "day": 6,
-    "time": "6:00 PM",
+    "time": "7:00 PM",
     "cover": "the-idolmaster-million-live-2c71637a15",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/watch/G0DUND1GD/my-very-own-dream-just-for-me"
+    }
   }
 }
