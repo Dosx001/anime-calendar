@@ -438,7 +438,7 @@
   "I9p7": {
     "title": "Umamusume: Pretty Derby",
     "day": 3,
-    "time": "5:00 PM",
+    "time": "9:30 AM",
     "cover": "uma-musume-pretty-derby-3-e76a2f9dd2",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GR79P2816/umamusume-pretty-derby",
@@ -668,7 +668,7 @@
   },
   "SUpv": {
     "title": "CHIIKAWA",
-    "day": 1,
+    "day": 4,
     "time": "3:40 PM",
     "cover": "chiikawa-c656267c1a",
     "streams": {
@@ -680,7 +680,7 @@
     "title": "Odekake Kozame",
     "day": 2,
     "time": "4:00 AM",
-    "cover": "odekake-kozame-315b850ca6",
+    "cover": "",
     "streams": {
       "YouTube": "https://www.youtube.com/playlist?list=PLjrUB63ikczNcRItB8koEfoBfA7sjCZ-k"
     },
@@ -786,7 +786,7 @@
     "title": "Houkago Shounen Hanako-kun",
     "day": 2,
     "time": "11:00 AM",
-    "cover": "",
+    "cover": "jibaku-shounen-hanako-kun-2023-c15120f810",
     "streams": {},
     "status": true
   },
@@ -832,6 +832,14 @@
     "streams": {
       "YouTube": "https://www.youtube.com/playlist?list=PLZ34fLWik_iASrR26p_41rirqp8GkPAr_"
     },
+    "status": true
+  },
+  "xtOu": {
+    "title": "Zenryoku Usagi (Shin Anime)",
+    "day": 6,
+    "time": "10:50 AM",
+    "cover": "poster-21fa193001",
+    "streams": {},
     "status": true
   }
 }
