@@ -83,14 +83,6 @@
     "streams": {},
     "status": true
   },
-  "rKnt": {
-    "title": "Ao no Orchestra",
-    "day": 7,
-    "time": "1:00 AM",
-    "cover": "ao-no-orchestra-ac5bcfc54a",
-    "streams": {},
-    "status": true
-  },
   "BkuV": {
     "title": "Pok\u00e9mon Horizons: The Series",
     "day": 5,
@@ -177,20 +169,9 @@
     "title": "Helck",
     "day": 2,
     "time": "11:30 AM",
-    "cover": "helck-76566784c6",
+    "cover": "helck-e7e3cd838a",
     "streams": {
       "HiDive": "https://www.hidive.com/tv/helck"
-    }
-  },
-  "U7W9": {
-    "title": "CARDFIGHT!! VANGUARD overDress",
-    "day": 5,
-    "time": "4:40 PM",
-    "cover": "cardfight-vanguard-overdress-season-5-50f39afa94",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3NJ5/cardfight-vanguard-overdress",
-      "HiDive": "https://www.hidive.com/tv/cardfight-vanguard-willdress",
-      "YouTube": "https://www.youtube.com/playlist?list=PLZaz0lCoygoz0kFcSQgb2KFjNXaoye0Jm"
     }
   },
   "vkEQ": {
@@ -222,8 +203,8 @@
   "rsA7": {
     "title": "A Girl & Her Guard Dog",
     "day": 4,
-    "time": "9:30 AM",
-    "cover": "ojou-to-banken-kun-8dcc9b8d8e",
+    "time": "9:15 AM",
+    "cover": "ojou-to-banken-kun-8b8ec02af3",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GW4HM7W7Q/a-girl--her-guard-dog",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgkLRaw39-pfV6h1EurdzVs"
@@ -255,6 +236,7 @@
     "time": "9:01 AM",
     "cover": "ragna-crimson-2f2fd638d0",
     "streams": {
+      "Amazon": "https://www.primevideo.com/detail/Ragna-Crimson/0U5EZSNVUVMCD4Z0IGE1HHSFHW",
       "HiDive": "https://www.hidive.com/tv/ragna-crimson"
     }
   },
@@ -289,7 +271,7 @@
     "title": "OVERTAKE!",
     "day": 7,
     "time": "7:30 AM",
-    "cover": "overtake-e987c9279f",
+    "cover": "overtake-7a3b1f5a55",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN9Q4N/overtake",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jgl97miORNHE_10Ht2buvWi"
@@ -347,14 +329,15 @@
     "time": "7:30 AM",
     "cover": "kamonohashi-ron-no-kindan-suiri-34063576e7",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKN903/ron-kamonohashis-forbidden-deductions"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKN903/ron-kamonohashis-forbidden-deductions",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JiAloVDlPwhb4Cu2UOjyZwp"
     }
   },
   "RPlk": {
     "title": "SHY",
     "day": 1,
     "time": "9:00 AM",
-    "cover": "shy-d839391842",
+    "cover": "shy-dc9f46d4d7",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GKEH2G0W9/shy"
     }
@@ -383,6 +366,7 @@
     "time": "10:30 AM",
     "cover": "b-project-3-fa96f0223c",
     "streams": {
+      "Amazon": "https://www.amazon.com/dp/B0CJPBHBVJ",
       "Crunchyroll": "https://www.crunchyroll.com/series/GRGGPG53R/b-project"
     }
   },
@@ -401,16 +385,18 @@
     "time": "8:30 AM",
     "cover": "seijo-no-maryoku-wa-bannou-desu-2-5148fd8383",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV3P3/the-saints-magic-power-is-omnipotent"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV3P3/the-saints-magic-power-is-omnipotent",
+      "Funimation": "https://www.funimation.com/shows/the-saints-magic-power-is-omnipotent/"
     }
   },
   "DtCb": {
-    "title": "Tokyo Revengers: Tenjiku-hen",
+    "title": "Tokyo Revengers",
     "day": 2,
-    "time": "7:00 AM",
+    "time": "8:00 AM",
     "cover": "tokyo-revengers-tenjiku-hen-b63585513d",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Hulu": "https://www.hulu.com/series/tokyo-revengers-1a195a35-e19c-4e36-b609-3b1c451f6ce4"
+    }
   },
   "L8Kc": {
     "title": "BULLBUSTER",
@@ -418,7 +404,8 @@
     "time": "6:00 AM",
     "cover": "bullbuster-b995a53c7c",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G24H1NW9J/bullbuster"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G24H1NW9J/bullbuster",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhmSLLC_lWmOLM710bizh-a"
     }
   },
   "T7w7": {
@@ -454,7 +441,8 @@
     "time": "5:00 PM",
     "cover": "uma-musume-pretty-derby-3-e76a2f9dd2",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GR79P2816/umamusume-pretty-derby"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GR79P2816/umamusume-pretty-derby",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhASExBFWxdzJs4ZEruLKun"
     }
   },
   "cjTD": {
@@ -470,7 +458,7 @@
     "title": "KamiErabi GOD.app",
     "day": 3,
     "time": "10:25 AM",
-    "cover": "kamierabi-919f0b114d",
+    "cover": "kamierabi-2ba49025ac",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GZJH3D898/kamierabi-godapp"
     }
@@ -488,7 +476,7 @@
     "title": "Bikkurimen",
     "day": 4,
     "time": "7:30 AM",
-    "cover": "bikkurimen-23be131c7f",
+    "cover": "bikkurimen-deacc30d75",
     "streams": {},
     "status": true
   },
@@ -496,19 +484,20 @@
     "title": "The Yuzuki Family's Four Sons",
     "day": 4,
     "time": "9:00 AM",
-    "cover": "yuzuki-san-chi-no-yon-kyoudai-9bd1f39c0d",
+    "cover": "yuzuki-san-chi-no-yon-kyoudai-ea738e38a3",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GDKHZEJ7K/the-yuzuki-familys-four-sons",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhOZzCUOcQocjQ1sPjtpXHY"
     }
   },
   "KfCC": {
-    "title": "Under Ninja",
+    "title": "UNDER NINJA",
     "day": 4,
     "time": "10:45 AM",
-    "cover": "under-ninja-76c397b865",
-    "streams": {},
-    "status": true
+    "cover": "under-ninja-d7d7f59efc",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GQWH0M1WK/under-ninja"
+    }
   },
   "5OAQ": {
     "title": "The Rising of the Shield Hero",
@@ -536,7 +525,8 @@
     "time": "7:30 AM",
     "cover": "keikenzumi-na-kimi-to-keiken-zero-na-ore-ga-otsukiai-suru-hanashi-53974d906a",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM9G5/our-dating-story-the-experienced-you-and-the-inexperienced-me"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM9G5/our-dating-story-the-experienced-you-and-the-inexperienced-me",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0whg1P3W-GGjHV0roiqsFP"
     }
   },
   "fXqJ": {
@@ -572,7 +562,8 @@
     "time": "12:00 PM",
     "cover": "kanojo-mo-kanojo-2-fe1d9890be",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3WP97/girlfriend-girlfriend"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3WP97/girlfriend-girlfriend",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3fbgfxwor-qrUsEtOZ8bLC"
     }
   },
   "F8vX": {
@@ -581,7 +572,8 @@
     "time": "6:30 AM",
     "cover": "saihate-no-paladin-2-adbd3918a9",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W8G1/the-faraway-paladin"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W8G1/the-faraway-paladin",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgmEpP-7VKK1J5gMNOHINU2"
     }
   },
   "1yMc": {
@@ -599,7 +591,8 @@
     "time": "8:30 AM",
     "cover": "spy-x-family-season-2-b52b161bf7",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WXVJ/spy-x-family"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WXVJ/spy-x-family",
+      "Hulu": "https://www.hulu.com/series/65d158d4-443f-44c7-bd2c-eae39f6c60e9"
     }
   },
   "l4nW": {
@@ -675,7 +668,7 @@
   },
   "SUpv": {
     "title": "CHIIKAWA",
-    "day": 4,
+    "day": 1,
     "time": "3:40 PM",
     "cover": "chiikawa-c656267c1a",
     "streams": {
@@ -705,23 +698,7 @@
     "title": "Rail Romanesque 2",
     "day": 4,
     "time": "9:00 AM",
-    "cover": "rail-romanesque-2-3ee43bbfa0",
-    "streams": {},
-    "status": true
-  },
-  "scjm": {
-    "title": "Girls und Panzer: Saishuushou 4",
-    "day": 4,
-    "time": "5:00 PM",
-    "cover": "girls-und-panzer-saishuushou-4-b83e7f8aec",
-    "streams": {},
-    "status": true
-  },
-  "wcFV": {
-    "title": "Gundam Build Metaverse",
-    "day": 5,
-    "time": "2:00 AM",
-    "cover": "gundam-build-metaverse-4aded27261",
+    "cover": "rail-romanesque-2-7401340553",
     "streams": {},
     "status": true
   },
@@ -729,7 +706,7 @@
     "title": "Beyblade X",
     "day": 5,
     "time": "2:25 AM",
-    "cover": "beyblade-x-95219e5af0",
+    "cover": "beyblade-x-f02b468b74",
     "streams": {},
     "status": true
   },
@@ -759,18 +736,10 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3G84/power-of-hope-precure-full-bloom"
     }
   },
-  "B1VX": {
-    "title": "Ochibi-san",
-    "day": 6,
-    "time": "8:00 AM",
-    "cover": "ochibi-san-50f88822e0",
-    "streams": {},
-    "status": true
-  },
   "fIOQ": {
     "title": "BONO BONO",
-    "day": 6,
-    "time": "12:52 PM",
+    "day": 2,
+    "time": "1:22 PM",
     "cover": "bonobono-2016-d8ff3791d8",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/bono-bono"
@@ -784,5 +753,85 @@
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/watch/G0DUND1GD/my-very-own-dream-just-for-me"
     }
+  },
+  "AObi": {
+    "title": "Stardust Telepath",
+    "day": 1,
+    "time": "5:30 AM",
+    "cover": "hoshizuku-telepath-c0485d4f68",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GKEH2G0P9/stardust-telepath"
+    }
+  },
+  "fDqN": {
+    "title": "KAWAGOE BOYS SING -Now or Never-",
+    "day": 1,
+    "time": "7:45 AM",
+    "cover": "",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GMEHME7DJ/kawagoe-boys-sing--now-or-never-"
+    }
+  },
+  "TKTO": {
+    "title": "Dead Mount Death Play",
+    "day": 1,
+    "time": "8:30 AM",
+    "cover": "dead-mount-death-play-part-2-f933dd3ce2",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEV04J/dead-mount-death-play",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjmVgbQEBya4XiwhlfvjXlI"
+    }
+  },
+  "kiOz": {
+    "title": "Houkago Shounen Hanako-kun",
+    "day": 2,
+    "time": "11:00 AM",
+    "cover": "",
+    "streams": {},
+    "status": true
+  },
+  "SnJE": {
+    "title": "Good Night World",
+    "day": 4,
+    "time": "12:01 AM",
+    "cover": "good-night-world-fb3fa3f017",
+    "streams": {
+      "Netflix": "https://netflix.com/title/81340213"
+    },
+    "status": true
+  },
+  "liHY": {
+    "title": "Dr.Stone: New World Part 2",
+    "day": 4,
+    "time": "6:30 AM",
+    "cover": "dr-stone-3-part-2-fc3fe6f12e",
+    "streams": {},
+    "status": true
+  },
+  "6jCM": {
+    "title": "Ooyukiumi no Kaina: Hoshi no Kenja",
+    "day": 4,
+    "time": "5:00 PM",
+    "cover": "ooyukiumi-no-kaina-movie-1cfde56592",
+    "streams": {},
+    "status": true
+  },
+  "vGJp": {
+    "title": "Fushigi Dagashiya: Zenitendou",
+    "day": 5,
+    "time": "2:40 AM",
+    "cover": "fushigi-dagashiya-zenitendou-b66028e952",
+    "streams": {},
+    "status": true
+  },
+  "pCSF": {
+    "title": "Girigiri Warukunai Watame",
+    "day": 5,
+    "time": "3:00 AM",
+    "cover": "girigiri-warukunai-watame-802f987ac2",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLZ34fLWik_iASrR26p_41rirqp8GkPAr_"
+    },
+    "status": true
   }
 }
