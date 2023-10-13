@@ -680,7 +680,7 @@
     "title": "Odekake Kozame",
     "day": 2,
     "time": "4:00 AM",
-    "cover": "",
+    "cover": "odekake-kozame-315b850ca6",
     "streams": {
       "YouTube": "https://www.youtube.com/playlist?list=PLjrUB63ikczNcRItB8koEfoBfA7sjCZ-k"
     },
@@ -767,7 +767,7 @@
     "title": "KAWAGOE BOYS SING -Now or Never-",
     "day": 1,
     "time": "7:45 AM",
-    "cover": "",
+    "cover": "kawagoe-boys-sing-b199864822",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GMEHME7DJ/kawagoe-boys-sing--now-or-never-"
     }
@@ -803,7 +803,7 @@
   "liHY": {
     "title": "Dr.Stone: New World Part 2",
     "day": 4,
-    "time": "6:30 AM",
+    "time": "7:30 AM",
     "cover": "dr-stone-3-part-2-fc3fe6f12e",
     "streams": {},
     "status": true
