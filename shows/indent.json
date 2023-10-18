@@ -138,15 +138,6 @@
     "streams": {},
     "status": true
   },
-  "Qv37": {
-    "title": "Reign of the Seven Spellblades",
-    "day": 5,
-    "time": "9:30 AM",
-    "cover": "nanatsu-no-maken-ga-shihai-suru-c8e1a61d33",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W2Z7/reign-of-the-seven-spellblades"
-    }
-  },
   "PC6r": {
     "title": "Chibi Maruko-chan (1995)",
     "day": 7,
@@ -188,6 +179,7 @@
     "time": "9:30 AM",
     "cover": "seiken-gakuin-no-maken-tsukai-bb0afe3011",
     "streams": {
+      "Amazon": "https://www.amazon.com/The-Demon-Lord-Returns/dp/B0CJNP7VML/",
       "HiDive": "https://www.hidive.com/tv/the-demon-sword-master-of-excalibur-academy"
     }
   },
@@ -237,24 +229,18 @@
     "cover": "ragna-crimson-2f2fd638d0",
     "streams": {
       "Amazon": "https://www.primevideo.com/detail/Ragna-Crimson/0U5EZSNVUVMCD4Z0IGE1HHSFHW",
-      "HiDive": "https://www.hidive.com/tv/ragna-crimson"
+      "HiDive": "https://www.hidive.com/tv/ragna-crimson",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2gLJyLH6BkSr4l1XPaKDjT"
     }
-  },
-  "S7Zr": {
-    "title": "FLCL: Shoegaze",
-    "day": 7,
-    "time": "12:01 AM",
-    "cover": "flcl-shoegaze-f6530d45f4",
-    "streams": {},
-    "status": true
   },
   "ehz5": {
     "title": "Shangri-La Frontier",
     "day": 7,
-    "time": "2:00 AM",
+    "time": "2:30 AM",
     "cover": "shangri-la-frontier-80ff2650b9",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G79H23Z8P/shangri-la-frontier"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G79H23Z8P/shangri-la-frontier",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1k3PpCugshhYpSQVWUAaib"
     }
   },
   "O4yD": {
@@ -317,7 +303,7 @@
   "Uk9p": {
     "title": "Migi&Dali",
     "day": 1,
-    "time": "7:00 AM",
+    "time": "6:30 AM",
     "cover": "migi-to-dali-f38c77e0aa",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7QGKK/migidali"
@@ -357,7 +343,8 @@
     "time": "10:00 AM",
     "cover": "toaru-ossan-no-vrmmo-katsudouki-fb1baa6cd5",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GMEHME70J/a-playthrough-of-a-certain-dudes-vrmmo-life"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GMEHME70J/a-playthrough-of-a-certain-dudes-vrmmo-life",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2_YhCrD7kgWkEHEraqedPW"
     }
   },
   "X13k": {
@@ -386,7 +373,8 @@
     "cover": "seijo-no-maryoku-wa-bannou-desu-2-5148fd8383",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV3P3/the-saints-magic-power-is-omnipotent",
-      "Funimation": "https://www.funimation.com/shows/the-saints-magic-power-is-omnipotent/"
+      "Funimation": "https://www.funimation.com/shows/the-saints-magic-power-is-omnipotent/",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3crv3GtAZrfjreOsS9As35"
     }
   },
   "DtCb": {
@@ -439,7 +427,7 @@
     "title": "Umamusume: Pretty Derby",
     "day": 3,
     "time": "9:30 AM",
-    "cover": "uma-musume-pretty-derby-3-e76a2f9dd2",
+    "cover": "uma-musume-pretty-derby-3-2cb71ca707",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GR79P2816/umamusume-pretty-derby",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhASExBFWxdzJs4ZEruLKun"
@@ -553,7 +541,8 @@
     "time": "10:30 AM",
     "cover": "hametsu-no-oukoku-c1a55287ad",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQ14/the-kingdoms-of-ruin"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQ14/the-kingdoms-of-ruin",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JiPzwlPlv7MEoIDWTJ5qD2c"
     }
   },
   "6ipI": {
@@ -628,7 +617,8 @@
     "time": "9:15 AM",
     "cover": "tearmoon-teikoku-monogatari-dantoudai-kara-hajimaru-hime-no-tensei-gyakuten-story-2c2709b989",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN9QVN/tearmoon-empire"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN9QVN/tearmoon-empire",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1xwjPnSCLFHXdlH1HUcrfD"
     }
   },
   "kKew": {
@@ -637,7 +627,8 @@
     "time": "11:00 AM",
     "cover": "bokura-no-ameiro-protocol-dc39c949f8",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WJ4Q/protocol-rain"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WJ4Q/protocol-rain",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0QVdscY93WMTdqR0tl1b32"
     }
   },
   "9Jax": {
@@ -666,16 +657,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKN933/the-100-girlfriends-who-really-really-really-really-really-love-you"
     }
   },
-  "SUpv": {
-    "title": "CHIIKAWA",
-    "day": 4,
-    "time": "3:40 PM",
-    "cover": "chiikawa-c656267c1a",
-    "streams": {
-      "HiDive": "https://www.hidive.com/tv/chiikawa",
-      "YouTube": "https://www.youtube.com/playlist?list=PLHIKP_Dyl1zwJy0JjSvVV5l8Kyg-8sjdv"
-    }
-  },
   "hZxw": {
     "title": "Odekake Kozame",
     "day": 2,
@@ -684,22 +665,6 @@
     "streams": {
       "YouTube": "https://www.youtube.com/playlist?list=PLjrUB63ikczNcRItB8koEfoBfA7sjCZ-k"
     },
-    "status": true
-  },
-  "CvYI": {
-    "title": "Uchuu Nanchara Kotetsu-kun",
-    "day": 4,
-    "time": "2:40 AM",
-    "cover": "uchuu-nanchara-kotetsu-kun-dfe5b5d3e7",
-    "streams": {},
-    "status": true
-  },
-  "UnQj": {
-    "title": "Rail Romanesque 2",
-    "day": 4,
-    "time": "9:00 AM",
-    "cover": "rail-romanesque-2-7401340553",
-    "streams": {},
     "status": true
   },
   "DqGO": {
@@ -719,14 +684,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GP5HJ8EV9/hypnosismic--division-rap-battle--rhyme-anima"
     }
   },
-  "5Cg5": {
-    "title": "Matsuinu",
-    "day": 5,
-    "time": "3:00 PM",
-    "cover": "matsuinu-30ae674ade",
-    "streams": {},
-    "status": true
-  },
   "EkPk": {
     "title": "Power of Hope ~Precure Full Bloom~",
     "day": 6,
@@ -734,15 +691,6 @@
     "cover": "kibou-no-chikara-otona-precure-23-5be3dc7b1b",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3G84/power-of-hope-precure-full-bloom"
-    }
-  },
-  "fIOQ": {
-    "title": "BONO BONO",
-    "day": 2,
-    "time": "1:22 PM",
-    "cover": "bonobono-2016-d8ff3791d8",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/bono-bono"
     }
   },
   "4HqZ": {
@@ -782,47 +730,15 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjmVgbQEBya4XiwhlfvjXlI"
     }
   },
-  "kiOz": {
-    "title": "Houkago Shounen Hanako-kun",
-    "day": 2,
-    "time": "11:00 AM",
-    "cover": "jibaku-shounen-hanako-kun-2023-c15120f810",
-    "streams": {},
-    "status": true
-  },
-  "SnJE": {
-    "title": "Good Night World",
-    "day": 4,
-    "time": "12:01 AM",
-    "cover": "good-night-world-fb3fa3f017",
-    "streams": {
-      "Netflix": "https://netflix.com/title/81340213"
-    },
-    "status": true
-  },
   "liHY": {
-    "title": "Dr.Stone: New World Part 2",
+    "title": "Dr. STONE",
     "day": 4,
     "time": "7:30 AM",
     "cover": "dr-stone-3-part-2-fc3fe6f12e",
-    "streams": {},
-    "status": true
-  },
-  "6jCM": {
-    "title": "Ooyukiumi no Kaina: Hoshi no Kenja",
-    "day": 4,
-    "time": "5:00 PM",
-    "cover": "ooyukiumi-no-kaina-movie-1cfde56592",
-    "streams": {},
-    "status": true
-  },
-  "vGJp": {
-    "title": "Fushigi Dagashiya: Zenitendou",
-    "day": 5,
-    "time": "2:40 AM",
-    "cover": "fushigi-dagashiya-zenitendou-b66028e952",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GYEXQKJG6/dr-stone",
+      "Netflix": "https://www.netflix.com/title/81046193"
+    }
   },
   "pCSF": {
     "title": "Girigiri Warukunai Watame",
@@ -834,11 +750,47 @@
     },
     "status": true
   },
-  "xtOu": {
-    "title": "Zenryoku Usagi (Shin Anime)",
+  "Aj3p": {
+    "title": "Pok\u00e9mon: Houkago no Breath",
+    "day": 3,
+    "time": "6:00 AM",
+    "cover": "pokemon-houkago-no-breath-79861f8ffc",
+    "streams": {},
+    "status": true
+  },
+  "tHuA": {
+    "title": "Kyoukai Senki: Kyokkou no Souki",
+    "day": 4,
+    "time": "4:00 AM",
+    "cover": "kyoukai-senki-kyokkou-no-souki-067d12bc1e",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLZxqqBY932IJZernWL2CATr1bM_DedMUM"
+    },
+    "status": true
+  },
+  "wcFV": {
+    "title": "Gundam Build Metaverse",
+    "day": 5,
+    "time": "2:00 AM",
+    "cover": "gundam-build-metaverse-4aded27261",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLJV1h9xQ7Hx-41y3mef81FVIvQnWzMmXV"
+    },
+    "status": true
+  },
+  "2TqS": {
+    "title": "Kusuriya no Hitorigoto",
     "day": 6,
-    "time": "10:50 AM",
-    "cover": "poster-21fa193001",
+    "time": "9:05 AM",
+    "cover": "kusuriya-no-hitorigoto-393de2094e",
+    "streams": {},
+    "status": true
+  },
+  "AbQz": {
+    "title": "DOG SIGNAL",
+    "day": 7,
+    "time": "1:00 AM",
+    "cover": "dog-signal-b72278dd05",
     "streams": {},
     "status": true
   }
