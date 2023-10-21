@@ -16,7 +16,7 @@ def main():
     options.set_preference("profile", "/home/" + user + "/.mozilla/firefox/" + profile)
     driver = webdriver.Firefox(service=Service(log_path="/dev/null"), options=options)
     driver.maximize_window()
-    driver.get("https://animeschedule.net/seasons/fall-2023")
+    driver.get("https://animeschedule.net/seasons/winter-2024")
     shows = {}
     show: WebElement
     for show in driver.find_element(By.CLASS_NAME, "shows-container").find_elements(
