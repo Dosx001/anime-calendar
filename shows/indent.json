@@ -294,7 +294,7 @@
   "tG35": {
     "title": "Captain Tsubasa: Junior Youth Arc",
     "day": 7,
-    "time": "2:30 AM",
+    "time": "1:30 AM",
     "cover": "captain-tsubasa-season-2-junior-youth-hen-17f2128c36",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WJDQ/captain-tsubasa-junior-youth-arc"
@@ -417,7 +417,7 @@
   "nr36": {
     "title": "Kizuna no Allele",
     "day": 3,
-    "time": "11:00 AM",
+    "time": "12:45 PM",
     "cover": "kizuna-no-allele-season-2-5703051980",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM577/kizuna-no-allele"
@@ -426,7 +426,7 @@
   "I9p7": {
     "title": "Umamusume: Pretty Derby",
     "day": 3,
-    "time": "9:30 AM",
+    "time": "9:00 AM",
     "cover": "uma-musume-pretty-derby-3-2cb71ca707",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GR79P2816/umamusume-pretty-derby",
@@ -754,7 +754,7 @@
     "title": "Pok\u00e9mon: Houkago no Breath",
     "day": 3,
     "time": "6:00 AM",
-    "cover": "pokemon-houkago-no-breath-79861f8ffc",
+    "cover": "",
     "streams": {},
     "status": true
   },
@@ -779,19 +779,30 @@
     "status": true
   },
   "2TqS": {
-    "title": "Kusuriya no Hitorigoto",
+    "title": "The Apothecary Diaries",
     "day": 6,
     "time": "9:05 AM",
     "cover": "kusuriya-no-hitorigoto-393de2094e",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEVDJ7/the-apothecary-diaries"
+    }
   },
   "AbQz": {
     "title": "DOG SIGNAL",
     "day": 7,
     "time": "1:00 AM",
-    "cover": "dog-signal-b72278dd05",
+    "cover": "dog-signal-12ee1817e6",
     "streams": {},
+    "status": true
+  },
+  "CivX": {
+    "title": "I.CINNAMOROLL Animation",
+    "day": 4,
+    "time": "1:00 AM",
+    "cover": "poster-21fa193001",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLe-UftTUsMbk7fMwURgLZ6_kz71DGssQw"
+    },
     "status": true
   }
 }
