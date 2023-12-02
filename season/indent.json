@@ -1,7 +1,7 @@
 {
   "CQ14": {
     "title": "30-sai made Doutei da to Mahou Tsukai ni Nareru Rashii",
-    "cover": "30-sai-made-doutei-dato-mahou-tsukai-ni-nareru-rashii-676de99112",
+    "cover": "30-sai-made-doutei-dato-mahou-tsukai-ni-nareru-rashii-8a793f146b",
     "studio": "Satelight",
     "source": "Manga",
     "genres": [
@@ -53,7 +53,10 @@
     "cover": "bucchigiri-2024-83d0452036",
     "studio": "MAPPA",
     "source": "Original",
-    "genres": []
+    "genres": [
+      "Action",
+      "Supernatural"
+    ]
   },
   "Ehom": {
     "title": "Cardfight!! Vanguard: will+Dress Season 4",
@@ -78,6 +81,16 @@
       "Fantasy",
       "Isekai",
       "Magic"
+    ]
+  },
+  "Qnd7": {
+    "title": "Chou Futsuu Ken Chiba Densetsu",
+    "cover": "chou-futsuu-ken-chiba-densetsu-b05addf6bc",
+    "studio": "Super Normal Studio",
+    "source": "Original",
+    "genres": [
+      "Comedy",
+      "Fantasy"
     ]
   },
   "snqE": {
@@ -117,7 +130,7 @@
   },
   "bXrT": {
     "title": "Gekkan Mousou Kagaku",
-    "cover": "gekkan-mousou-kagaku-71b26e2eec",
+    "cover": "gekkan-mousou-kagaku-791cedbf59",
     "studio": "OLM",
     "source": "Original",
     "genres": [
@@ -137,7 +150,7 @@
   },
   "xOW4": {
     "title": "Hikari no Ou 2nd Season",
-    "cover": "hikari-no-ou-2nd-season-167c41ff2b",
+    "cover": "hikari-no-ou-2nd-season-7e0beecd91",
     "studio": "Signal.MD",
     "source": "Novel",
     "genres": [
@@ -150,17 +163,18 @@
   },
   "3b31": {
     "title": "Hime-sama, \"Goumon\" no Jikan desu",
-    "cover": "hime-sama-goumon-no-jikan-desu-c2dcd9d260",
+    "cover": "hime-sama-goumon-no-jikan-desu-9f11b342c7",
     "studio": "Pine Jam",
     "source": "Manga",
     "genres": [
       "Comedy",
+      "Demons",
       "Fantasy"
     ]
   },
   "WzQN": {
     "title": "Isekai de Mofumofu Nadenade suru Tame ni Ganbattemasu.",
-    "cover": "isekai-de-mofumofu-nadenade-suru-tame-ni-ganbattemasu-e981178c77",
+    "cover": "isekai-de-mofumofu-nadenade-suru-tame-ni-ganbattemasu-54da17e73e",
     "studio": "EMT Squared",
     "source": "Light Novel",
     "genres": [
@@ -184,7 +198,7 @@
   },
   "P98E": {
     "title": "Jaku-Chara Tomozaki-kun 2nd STAGE",
-    "cover": "jaku-chara-tomozaki-kun-shin-a392593820",
+    "cover": "jaku-chara-tomozaki-kun-shin-e01104bac2",
     "studio": "project No.9",
     "source": "Light Novel",
     "genres": [
@@ -197,7 +211,7 @@
   },
   "frVv": {
     "title": "Kekkon Yubiwa Monogatari",
-    "cover": "kekkon-yubiwa-monogatari-8eb91b8d47",
+    "cover": "kekkon-yubiwa-monogatari-1da44db60f",
     "studio": "Staple Entertainment",
     "source": "Manga",
     "genres": [
@@ -213,7 +227,7 @@
   },
   "zlI8": {
     "title": "Kingdom 5",
-    "cover": "kingdom-5-a1b0f0ab65",
+    "cover": "kingdom-5-75ec9c6105",
     "studio": "Studio Pierrot",
     "source": "Manga",
     "genres": [
@@ -245,7 +259,7 @@
   },
   "gH3D": {
     "title": "MASHLE 2nd Season",
-    "cover": "mashle-2nd-season-18667ac247",
+    "cover": "mashle-2nd-season-cd64d078d4",
     "studio": "A-1 Pictures",
     "source": "Manga",
     "genres": [
@@ -268,6 +282,33 @@
       "Sci-Fi"
     ]
   },
+  "gM9F": {
+    "title": "Mahou Shoujo ni Akogarete",
+    "cover": "mahou-shoujo-ni-akogarete-74fb58ce5d",
+    "studio": "Asahi Production",
+    "source": "Web Manga",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Ecchi",
+      "Fantasy",
+      "Magical Girl",
+      "Slice of Life"
+    ]
+  },
+  "2ZUg": {
+    "title": "Majo to Yajuu",
+    "cover": "majo-to-yajuu-80e9baace2",
+    "studio": "Yokohama Animation Lab",
+    "source": "Manga",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Fantasy",
+      "Seinen"
+    ]
+  },
   "lO3i": {
     "title": "Mato Seihei no Slave",
     "cover": "mato-seihei-no-slave-4e7495e634",
@@ -284,6 +325,29 @@
       "Supernatural"
     ]
   },
+  "PsGo": {
+    "title": "Meitou \"Isekai no Yu\" Kaitakuki: Around 40 Onsen Mania no Tensei Saki wa, Nonbiri Onsen Tengoku deshita",
+    "cover": "meitou-isekai-no-yu-kaitakuki-around-40-onsen-mania-no-tensei-saki-wa-nonbiri-onsen-tengoku-deshita-a43f90de3f",
+    "studio": "N/A",
+    "source": "Light Novel",
+    "genres": [
+      "Ecchi",
+      "Fantasy",
+      "Isekai"
+    ]
+  },
+  "wloG": {
+    "title": "Momochi-san Chi no Ayakashi Ouji",
+    "cover": "momochi-san-chi-no-ayakashi-ouji-d4dc30c25c",
+    "studio": "Drive",
+    "source": "Manga",
+    "genres": [
+      "Fantasy",
+      "Romance",
+      "Shoujo",
+      "Supernatural"
+    ]
+  },
   "TueF": {
     "title": "Nozomanu Fushi no Boukensha",
     "cover": "nozomanu-fushi-no-boukensha-0f6b19a05e",
@@ -295,9 +359,20 @@
       "Fantasy"
     ]
   },
+  "ZWTp": {
+    "title": "Oroka na Tenshi wa Akuma to Odoru",
+    "cover": "oroka-na-tenshi-wa-akuma-to-odoru-98090010ae",
+    "studio": "Children's Playground Entertainment",
+    "source": "Manga",
+    "genres": [
+      "Comedy",
+      "School",
+      "Supernatural"
+    ]
+  },
   "4kON": {
     "title": "Pon no Michi",
-    "cover": "pon-no-michi-6c6325f4f0",
+    "cover": "pon-no-michi-cbb4d6a8aa",
     "studio": "OLM",
     "source": "Original",
     "genres": [
@@ -306,7 +381,7 @@
   },
   "odBF": {
     "title": "SHAMAN KING FLOWERS",
-    "cover": "shaman-king-zoku-hen-6889c56afd",
+    "cover": "shaman-king-zoku-hen-4498ae7b58",
     "studio": "Bridge",
     "source": "Manga",
     "genres": [
@@ -328,7 +403,7 @@
   },
   "5ktD": {
     "title": "Saijaku Tamer wa Gomi Hiroi no Tabi wo Hajimemashita.",
-    "cover": "saijaku-tamer-wa-gomi-hiroi-no-tabi-wo-hajimemashita-a0806fd38c",
+    "cover": "saijaku-tamer-wa-gomi-hiroi-no-tabi-wo-hajimemashita-230c11c860",
     "studio": "Studio Massket",
     "source": "Light Novel",
     "genres": [
@@ -348,15 +423,16 @@
       "Fantasy"
     ]
   },
-  "DU3M": {
-    "title": "Sasayaku You ni Koi wo Utau",
-    "cover": "sasayaku-you-ni-koi-wo-utau-40581a62b4",
-    "studio": "CLOUDHEARTS",
-    "source": "Manga",
+  "uoDI": {
+    "title": "Sasaki to Pi-chan",
+    "cover": "sasaki-to-pii-chan-5aa0c9e31b",
+    "studio": "SILVER LINK.",
+    "source": "Light Novel",
     "genres": [
-      "Drama",
-      "Music",
-      "Romance"
+      "Adventure",
+      "Comedy",
+      "Fantasy",
+      "Magical Girl"
     ]
   },
   "YUtR": {
@@ -373,7 +449,7 @@
   },
   "pLOo": {
     "title": "Shin no Nakama ja Nai to Yuusha no Party wo Oidasareta node, Henkyou de Slow Life suru Koto ni shimashita 2nd Season",
-    "cover": "shin-no-nakama-ja-nai-to-yuusha-no-party-wo-oidasareta-node-henkyou-de-slow-life-suru-koto-ni-shimashita-2nd-season-87c3d38a2a",
+    "cover": "shin-no-nakama-ja-nai-to-yuusha-no-party-wo-oidasareta-node-henkyou-de-slow-life-suru-koto-ni-shimashita-2nd-season-344cb2a815",
     "studio": "Studio Flad",
     "source": "Light Novel",
     "genres": [
@@ -395,7 +471,7 @@
   },
   "9Jxh": {
     "title": "Sokushi Cheat ga Saikyou sugite, Isekai no Yatsura ga Marude Aite ni Naranai n desu ga.",
-    "cover": "sokushi-cheat-ga-saikyou-sugite-isekai-no-yatsura-ga-marude-aite-ni-naranai-n-desu-ga-7b72e7d0b9",
+    "cover": "sokushi-cheat-ga-saikyou-sugite-isekai-no-yatsura-ga-marude-aite-ni-naranai-n-desu-ga-475c508dcb",
     "studio": "Okuruto Noboru",
     "source": "Light Novel",
     "genres": [
@@ -408,7 +484,7 @@
   },
   "Bglq": {
     "title": "Tsuki ga Michibiku Isekai Douchuu 2",
-    "cover": "tsuki-ga-michibiku-isekai-douchuu-2-e807a0e8c1",
+    "cover": "tsuki-ga-michibiku-isekai-douchuu-2-17b31f3542",
     "studio": "J.C. Staff",
     "source": "Light Novel",
     "genres": [
@@ -436,7 +512,7 @@
   },
   "ov61": {
     "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 3",
-    "cover": "youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-3-27907ad1d3",
+    "cover": "youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-3-20de2685fa",
     "studio": "Lerche",
     "source": "Light Novel",
     "genres": [
@@ -448,13 +524,23 @@
   },
   "DtSA": {
     "title": "Yubisaki to Renren",
-    "cover": "yubisaki-to-renren-3c8b170e54",
+    "cover": "yubisaki-to-renren-ed73221abb",
     "studio": "Ajia-Do",
     "source": "Manga",
     "genres": [
       "Romance",
       "Shoujo",
       "Slice of Life"
+    ]
+  },
+  "F2qe": {
+    "title": "Yuuki Bakuhatsu Bang Bravern",
+    "cover": "yuuki-bakuhatsu-bang-bravern-22ee96834b",
+    "studio": "CygamesPictures",
+    "source": "Original",
+    "genres": [
+      "Action",
+      "Mecha"
     ]
   }
 }
