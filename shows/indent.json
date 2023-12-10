@@ -79,7 +79,7 @@
     "title": "Tousouchuu: Great Mission",
     "day": 6,
     "time": "4:01 PM",
-    "cover": "tousouchuu-great-mission-949e3c5c63",
+    "cover": "tousouchuu-great-mission-6eb5a16ca9",
     "streams": {},
     "status": true
   },
@@ -260,7 +260,8 @@
     "time": "8:30 AM",
     "cover": "boushoku-no-berserk-8ae3bf096d",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV05V/berserk-of-gluttony"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV05V/berserk-of-gluttony",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl16aN3dffy3DzuC9JLH3gDg"
     }
   },
   "wosV": {
@@ -724,7 +725,7 @@
     "title": "Dr. STONE",
     "day": 4,
     "time": "7:30 AM",
-    "cover": "dr-stone-3-part-2-fc3fe6f12e",
+    "cover": "dr-stone-3-part-2-43ad76a2f7",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GYEXQKJG6/dr-stone",
       "Funimation": "https://www.funimation.com/shows/dr-stone/",
@@ -761,15 +762,6 @@
     },
     "status": true
   },
-  "iUgJ": {
-    "title": "Onmyoji",
-    "day": 2,
-    "time": "12:01 AM",
-    "cover": "onmyouji-0e0b89b420",
-    "streams": {
-      "Netflix": "https://www.netflix.com/title/81215624"
-    }
-  },
   "XvhE": {
     "title": "Kusuriya no Hitorigoto Mini Anime",
     "day": 2,
@@ -780,19 +772,11 @@
     },
     "status": true
   },
-  "4aOm": {
-    "title": "Sousou no Frieren: \u25cf\u25cf no Mahou",
-    "day": 3,
-    "time": "1:00 AM",
-    "cover": "sousou-no-frieren-no-mahou-3ca22767cd",
-    "streams": {},
-    "status": true
-  },
   "7EQ3": {
     "title": "Xiaoke de Huatu Xie Hua",
     "day": 5,
     "time": "3:00 AM",
-    "cover": "xiaoke-de-huatu-xie-hua-c3b1d34de2",
+    "cover": "xiaoke-de-huatu-xie-hua-8dd81bea22",
     "streams": {},
     "status": true
   }

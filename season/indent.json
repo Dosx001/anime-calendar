@@ -134,12 +134,13 @@
     "studio": "OLM",
     "source": "Original",
     "genres": [
-      "Fantasy"
+      "Fantasy",
+      "Supernatural"
     ]
   },
   "yydS": {
     "title": "HIGH CARD Season 2",
-    "cover": "high-card-season-2-7125670685",
+    "cover": "high-card-season-2-582edf6cc7",
     "studio": "Studio Hibari",
     "source": "Other",
     "genres": [
@@ -284,7 +285,7 @@
   },
   "gM9F": {
     "title": "Mahou Shoujo ni Akogarete",
-    "cover": "mahou-shoujo-ni-akogarete-74fb58ce5d",
+    "cover": "mahou-shoujo-ni-akogarete-7b2f7d2d10.",
     "studio": "Asahi Production",
     "source": "Web Manga",
     "genres": [
@@ -372,7 +373,7 @@
   },
   "4kON": {
     "title": "Pon no Michi",
-    "cover": "pon-no-michi-cbb4d6a8aa",
+    "cover": "pon-no-michi-92669b5b1b",
     "studio": "OLM",
     "source": "Original",
     "genres": [
@@ -414,13 +415,14 @@
   },
   "nfpR": {
     "title": "Saikyou Tank no Meikyuu Kouryaku: Tairyoku 9999 no Rare Skill-mochi Tank, Yuusha Party wo Tsuihou Sareru",
-    "cover": "saikyou-tank-no-meikyuu-kouryaku-tairyoku-9999-no-rare-skill-mochi-tank-yuusha-party-wo-tsuihou-sareru-6f0c681611",
+    "cover": "saikyou-tank-no-meikyuu-kouryaku-tairyoku-9999-no-rare-skill-mochi-tank-yuusha-party-wo-tsuihou-sareru-8165976e9c",
     "studio": "STUDIO POLON",
     "source": "Manga",
     "genres": [
       "Action",
       "Adventure",
-      "Fantasy"
+      "Fantasy",
+      "Shounen"
     ]
   },
   "uoDI": {
@@ -480,6 +482,18 @@
       "Adventure",
       "Fantasy",
       "Isekai"
+    ]
+  },
+  "4DG1": {
+    "title": "Solo Leveling",
+    "cover": "solo-leveling-bdca4ca63c",
+    "studio": "A-1 Pictures",
+    "source": "Web Manga",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Magic"
     ]
   },
   "Bglq": {
