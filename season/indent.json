@@ -38,7 +38,7 @@
   },
   "nPeO": {
     "title": "Boku no Kokoro no Yabai Yatsu 2",
-    "cover": "boku-no-kokoro-no-yabai-yatsu-2-4f963d89ae",
+    "cover": "boku-no-kokoro-no-yabai-yatsu-2-09dce55f70",
     "studio": "Shin-Ei Animation",
     "source": "Manga",
     "genres": [
@@ -59,9 +59,9 @@
     ]
   },
   "Ehom": {
-    "title": "Cardfight!! Vanguard: will+Dress Season 4",
-    "cover": "cardfight-vanguard-overdress-season-6-bb5353f73c",
-    "studio": "N/A",
+    "title": "Cardfight!! Vanguard: Divinez",
+    "cover": "cardfight-vanguard-overdress-season-6-b45b0ad000",
+    "studio": "GIFTanimation",
     "source": "Card Game",
     "genres": [
       "Action",
@@ -72,7 +72,7 @@
   },
   "BBj5": {
     "title": "Chiyu Mahou no Machigatta Tsukaikata",
-    "cover": "chiyu-mahou-no-machigatta-tsukaikata-887ca43138",
+    "cover": "chiyu-mahou-no-machigatta-tsukaikata-bb8cb97ae8",
     "studio": "Shin-Ei Animation",
     "source": "Light Novel",
     "genres": [
@@ -107,7 +107,7 @@
   },
   "JN1Q": {
     "title": "Dungeon Meshi",
-    "cover": "dungeon-meshi-c15d85cc73",
+    "cover": "dungeon-meshi-4c1c47673a",
     "studio": "Trigger",
     "source": "Manga",
     "genres": [
@@ -119,7 +119,7 @@
   },
   "z2Nu": {
     "title": "Gekai Elise",
-    "cover": "gekai-elise-18cf631864",
+    "cover": "gekai-elise-dea9c2953d",
     "studio": "Maho Film",
     "source": "Web Manga",
     "genres": [
@@ -187,7 +187,7 @@
   },
   "kkLK": {
     "title": "Ishura",
-    "cover": "ishura-eddc05ce1e",
+    "cover": "ishura-dfe7952af3",
     "studio": "Passione",
     "source": "Light Novel",
     "genres": [
@@ -207,6 +207,7 @@
       "Drama",
       "Romance",
       "School",
+      "Shounen",
       "Slice of Life"
     ]
   },
@@ -245,7 +246,8 @@
     "source": "Web Manga",
     "genres": [
       "Comedy",
-      "Slice of Life"
+      "Slice of Life",
+      "Supernatural"
     ]
   },
   "iQld": {
@@ -259,7 +261,7 @@
     ]
   },
   "gH3D": {
-    "title": "MASHLE 2nd Season",
+    "title": "MASHLE: Kami Shinkakusha Kouho Senbatsu Shiken-hen",
     "cover": "mashle-2nd-season-cd64d078d4",
     "studio": "A-1 Pictures",
     "source": "Manga",
@@ -274,7 +276,7 @@
   },
   "vz76": {
     "title": "METALLIC ROUGE",
-    "cover": "metallic-rouge-a460370556",
+    "cover": "metallic-rouge-886659320c",
     "studio": "bones",
     "source": "Original",
     "genres": [
@@ -285,7 +287,7 @@
   },
   "gM9F": {
     "title": "Mahou Shoujo ni Akogarete",
-    "cover": "mahou-shoujo-ni-akogarete-7b2f7d2d10.",
+    "cover": "mahou-shoujo-ni-akogarete-74fb58ce5d",
     "studio": "Asahi Production",
     "source": "Web Manga",
     "genres": [
@@ -326,6 +328,16 @@
       "Supernatural"
     ]
   },
+  "datU": {
+    "title": "Meiji Gekken: 1874",
+    "cover": "meiji-gekken-1874-a145c00f21",
+    "studio": "Tsumugi Akita Animation Lab",
+    "source": "Original",
+    "genres": [
+      "Action",
+      "Historical"
+    ]
+  },
   "PsGo": {
     "title": "Meitou \"Isekai no Yu\" Kaitakuki: Around 40 Onsen Mania no Tensei Saki wa, Nonbiri Onsen Tengoku deshita",
     "cover": "meitou-isekai-no-yu-kaitakuki-around-40-onsen-mania-no-tensei-saki-wa-nonbiri-onsen-tengoku-deshita-a43f90de3f",
@@ -351,7 +363,7 @@
   },
   "TueF": {
     "title": "Nozomanu Fushi no Boukensha",
-    "cover": "nozomanu-fushi-no-boukensha-0f6b19a05e",
+    "cover": "nozomanu-fushi-no-boukensha-4bf62a8e64",
     "studio": "CONNECT",
     "source": "Light Novel",
     "genres": [
@@ -398,6 +410,7 @@
     "studio": "8bit",
     "source": "Video Game",
     "genres": [
+      "Action",
       "Mecha",
       "Sci-Fi"
     ]
@@ -431,6 +444,7 @@
     "studio": "SILVER LINK.",
     "source": "Light Novel",
     "genres": [
+      "Action",
       "Adventure",
       "Comedy",
       "Fantasy",
@@ -524,6 +538,16 @@
       "Supernatural"
     ]
   },
+  "AERt": {
+    "title": "Yami Shibai 12",
+    "cover": "yami-shibai-12-8a25aa802d.",
+    "studio": "ILCA",
+    "source": "Original",
+    "genres": [
+      "Horror",
+      "Supernatural"
+    ]
+  },
   "ov61": {
     "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 3",
     "cover": "youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-3-20de2685fa",
@@ -554,7 +578,9 @@
     "source": "Original",
     "genres": [
       "Action",
-      "Mecha"
+      "Mecha",
+      "Military",
+      "Sci-Fi"
     ]
   }
 }
