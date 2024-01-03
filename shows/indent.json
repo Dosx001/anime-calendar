@@ -195,7 +195,7 @@
   },
   "hZxw": {
     "title": "Odekake Kozame",
-    "day": 5,
+    "day": 2,
     "time": "3:00 AM",
     "cover": "odekake-kozame-315b850ca6",
     "streams": {
@@ -273,7 +273,7 @@
   "WzQN": {
     "title": "Fluffy Paradise",
     "day": 1,
-    "time": "7:30 AM",
+    "time": "7:00 AM",
     "cover": "isekai-de-mofumofu-nadenade-suru-tame-ni-ganbattemasu-54da17e73e",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GZJH3D858/fluffy-paradise"
@@ -281,35 +281,38 @@
   },
   "kkLK": {
     "title": "Ishura",
-    "day": 2,
-    "time": "4:00 PM",
+    "day": 3,
+    "time": "6:30 AM",
     "cover": "ishura-dfe7952af3",
     "streams": {},
     "status": true
   },
   "ov61": {
-    "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 3",
+    "title": "Classroom of the Elite",
     "day": 3,
-    "time": "5:30 AM",
+    "time": "7:00 AM",
     "cover": "youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-3-20de2685fa",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GRVN8MNQY/classroom-of-the-elite"
+    }
   },
   "P98E": {
-    "title": "Jaku-Chara Tomozaki-kun 2nd STAGE",
+    "title": "Bottom-Tier Character Tomozaki",
     "day": 3,
-    "time": "4:00 AM",
+    "time": "5:30 AM",
     "cover": "jaku-chara-tomozaki-kun-shin-e01104bac2",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GDKHZEWP9/bottom-tier-character-tomozaki"
+    }
   },
   "gM9F": {
-    "title": "Mahou Shoujo ni Akogarete",
+    "title": "Gushing Over Magical Girls",
     "day": 3,
     "time": "8:00 AM",
     "cover": "mahou-shoujo-ni-akogarete-7b2f7d2d10.",
-    "streams": {},
-    "status": true
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/gushing-over-magical-girls"
+    }
   },
   "lO3i": {
     "title": "Mato Seihei no Slave",
