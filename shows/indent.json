@@ -195,7 +195,7 @@
   },
   "hZxw": {
     "title": "Odekake Kozame",
-    "day": 2,
+    "day": 5,
     "time": "3:00 AM",
     "cover": "odekake-kozame-315b850ca6",
     "streams": {
@@ -284,8 +284,9 @@
     "day": 3,
     "time": "6:30 AM",
     "cover": "ishura-dfe7952af3",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Hulu": "https://www.hulu.com/series/ishura-811bac64-a492-4f1e-ba7a-393c825daeec"
+    }
   },
   "ov61": {
     "title": "Classroom of the Elite",
@@ -309,31 +310,33 @@
     "title": "Gushing Over Magical Girls",
     "day": 3,
     "time": "8:00 AM",
-    "cover": "mahou-shoujo-ni-akogarete-7b2f7d2d10.",
+    "cover": "mahou-shoujo-ni-akogarete-74fb58ce5d",
     "streams": {
       "HiDive": "https://www.hidive.com/tv/gushing-over-magical-girls"
     }
   },
   "lO3i": {
-    "title": "Mato Seihei no Slave",
+    "title": "Chained Soldier",
     "day": 4,
     "time": "7:00 AM",
     "cover": "mato-seihei-no-slave-4e7495e634",
-    "streams": {},
-    "status": true
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/chained-soldier"
+    }
   },
   "9Jxh": {
-    "title": "Sokushi Cheat ga Saikyou sugite, Isekai no Yatsura ga Marude Aite ni Naranai n desu ga.",
+    "title": "My Instant Death Ability is Overpowered",
     "day": 4,
     "time": "8:30 AM",
     "cover": "sokushi-cheat-ga-saikyou-sugite-isekai-no-yatsura-ga-marude-aite-ni-naranai-n-desu-ga-475c508dcb",
-    "streams": {},
-    "status": true
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/my-instant-death-ability-is-overpowered"
+    }
   },
   "JN1Q": {
     "title": "Delicious in Dungeon",
     "day": 4,
-    "time": "5:30 AM",
+    "time": "5:31 AM",
     "cover": "dungeon-meshi-4c1c47673a",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81564899"
