@@ -195,7 +195,7 @@
   },
   "hZxw": {
     "title": "Odekake Kozame",
-    "day": 5,
+    "day": 2,
     "time": "3:00 AM",
     "cover": "odekake-kozame-315b850ca6",
     "streams": {
@@ -343,17 +343,18 @@
     }
   },
   "BBj5": {
-    "title": "Chiyu Mahou no Machigatta Tsukaikata",
+    "title": "The Wrong Way to Use Healing Magic",
     "day": 5,
-    "time": "7:30 AM",
+    "time": "9:00 AM",
     "cover": "chiyu-mahou-no-machigatta-tsukaikata-bb8cb97ae8",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM1EK/the-wrong-way-to-use-healing-magic"
+    }
   },
   "uoDI": {
     "title": "Sasaki to Pi-chan",
     "day": 5,
-    "time": "4:00 AM",
+    "time": "5:30 AM",
     "cover": "sasaki-to-pii-chan-5aa0c9e31b",
     "streams": {},
     "status": true
@@ -367,12 +368,13 @@
     "status": true
   },
   "wloG": {
-    "title": "Momochi-san Chi no Ayakashi Ouji",
+    "title": "The Demon Prince of Momochi House",
     "day": 5,
-    "time": "7:00 AM",
+    "time": "8:30 AM",
     "cover": "momochi-san-chi-no-ayakashi-ouji-d4dc30c25c",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQP4/the-demon-prince-of-momochi-house"
+    }
   },
   "Qnd7": {
     "title": "Chou Futsuu Ken Chiba Densetsu",
@@ -407,12 +409,13 @@
     "status": true
   },
   "nPeO": {
-    "title": "Boku no Kokoro no Yabai Yatsu 2",
+    "title": "The Dangers in My Heart",
     "day": 6,
     "time": "10:00 AM",
     "cover": "boku-no-kokoro-no-yabai-yatsu-2-09dce55f70",
-    "streams": {},
-    "status": true
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/the-dangers-in-my-heart/season-2"
+    }
   },
   "frVv": {
     "title": "Kekkon Yubiwa Monogatari",
@@ -469,5 +472,14 @@
     "cover": "kyuujitsu-no-warumono-san-65f4ee1d20",
     "streams": {},
     "status": true
+  },
+  "TueF": {
+    "title": "The Unwanted Undead Adventurer",
+    "day": 5,
+    "time": "6:30 AM",
+    "cover": "nozomanu-fushi-no-boukensha-4bf62a8e64",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GW4HM7WZQ/the-unwanted-undead-adventurer"
+    }
   }
 }
