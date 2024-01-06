@@ -195,7 +195,7 @@
   },
   "hZxw": {
     "title": "Odekake Kozame",
-    "day": 2,
+    "day": 5,
     "time": "3:00 AM",
     "cover": "odekake-kozame-315b850ca6",
     "streams": {
@@ -387,26 +387,29 @@
   "4DG1": {
     "title": "Solo Leveling",
     "day": 6,
-    "time": "7:00 AM",
+    "time": "9:30 AM",
     "cover": "solo-leveling-bdca4ca63c",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GDKHZEJ0K/solo-leveling"
+    }
   },
   "gH3D": {
-    "title": "MASHLE: Kami Shinkakusha Kouho Senbatsu Shiken-hen",
+    "title": "MASHLE: MAGIC AND MUSCLES",
     "day": 6,
-    "time": "6:30 AM",
+    "time": "8:00 AM",
     "cover": "mashle-2nd-season-cd64d078d4",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GDKHZEP8W/mashle-magic-and-muscles"
+    }
   },
   "qp4S": {
-    "title": "Ao no Exorcist: Shimane Illuminati-hen",
+    "title": "Blue Exorcist",
     "day": 6,
-    "time": "7:30 AM",
+    "time": "9:00 AM",
     "cover": "ao-no-exorcist-shin-series-7a55613191",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G649PJ0JY/blue-exorcist"
+    }
   },
   "nPeO": {
     "title": "The Dangers in My Heart",
@@ -418,33 +421,39 @@
     }
   },
   "frVv": {
-    "title": "Kekkon Yubiwa Monogatari",
+    "title": "Tales of Wedding Rings",
     "day": 6,
-    "time": "4:30 AM",
+    "time": "6:00 AM",
     "cover": "kekkon-yubiwa-monogatari-1da44db60f",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G79H23ZGP/tales-of-wedding-rings",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgkXAKRkC3TZ53T9itBSZdQ"
+    }
   },
   "nfpR": {
     "title": "Saikyou Tank no Meikyuu Kouryaku: Tairyoku 9999 no Rare Skill-mochi Tank, Yuusha Party wo Tsuihou Sareru",
     "day": 6,
-    "time": "9:00 AM",
+    "time": "11:00 AM",
     "cover": "saikyou-tank-no-meikyuu-kouryaku-tairyoku-9999-no-rare-skill-mochi-tank-yuusha-party-wo-tsuihou-sareru-8165976e9c",
-    "streams": {},
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Ji3tb_Lb6OxaEz_cskN0WeZ"
+    },
     "status": true
   },
   "DtSA": {
-    "title": "Yubisaki to Renren",
+    "title": "A Sign of Affection",
     "day": 6,
-    "time": "5:30 AM",
+    "time": "7:00 AM",
     "cover": "yubisaki-to-renren-ed73221abb",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W2V7/a-sign-of-affection",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl14kD6iz4eILaU9kceG6UZL"
+    }
   },
   "zlI8": {
     "title": "Kingdom 5",
     "day": 6,
-    "time": "7:00 AM",
+    "time": "11:30 AM",
     "cover": "kingdom-5-75ec9c6105",
     "streams": {},
     "status": true
@@ -452,7 +461,7 @@
   "pLOo": {
     "title": "Shin no Nakama ja Nai to Yuusha no Party wo Oidasareta node, Henkyou de Slow Life suru Koto ni shimashita 2nd Season",
     "day": 7,
-    "time": "5:30 AM",
+    "time": "7:30 AM",
     "cover": "shin-no-nakama-ja-nai-to-yuusha-no-party-wo-oidasareta-node-henkyou-de-slow-life-suru-koto-ni-shimashita-2nd-season-344cb2a815",
     "streams": {},
     "status": true
@@ -460,7 +469,7 @@
   "iQld": {
     "title": "Loop 7-kaime no Akuyaku Reijou wa, Moto Tekikoku de Jiyuu Kimamana Hanayome Seikatsu wo Mankitsu Suru",
     "day": 7,
-    "time": "6:00 AM",
+    "time": "7:15 AM",
     "cover": "loop-7-kaime-no-akuyaku-reijou-wa-moto-tekikoku-de-jiyuu-kimama-na-hanayome-seikatsu-wo-mankitsu-suru-2afbf566e6",
     "streams": {},
     "status": true
@@ -468,7 +477,7 @@
   "BE18": {
     "title": "Kyuujitsu no Warumono-san",
     "day": 7,
-    "time": "8:35 AM",
+    "time": "10:45 AM",
     "cover": "kyuujitsu-no-warumono-san-65f4ee1d20",
     "streams": {},
     "status": true
