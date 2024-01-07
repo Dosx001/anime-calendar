@@ -195,7 +195,7 @@
   },
   "hZxw": {
     "title": "Odekake Kozame",
-    "day": 5,
+    "day": 2,
     "time": "3:00 AM",
     "cover": "odekake-kozame-315b850ca6",
     "streams": {
@@ -210,15 +210,6 @@
     "cover": "beyblade-x-f02b468b74",
     "streams": {},
     "status": true
-  },
-  "fDqN": {
-    "title": "KAWAGOE BOYS SING -Now or Never-",
-    "day": 1,
-    "time": "7:45 AM",
-    "cover": "kawagoe-boys-sing-b199864822",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GMEHME7DJ/kawagoe-boys-sing--now-or-never-"
-    }
   },
   "2TqS": {
     "title": "The Apothecary Diaries",
@@ -252,7 +243,7 @@
   },
   "XvhE": {
     "title": "Kusuriya no Hitorigoto Mini Anime",
-    "day": 2,
+    "day": 7,
     "time": "7:00 PM",
     "cover": "maomao-no-hitorigoto-dc8e52e711",
     "streams": {
@@ -272,7 +263,7 @@
   },
   "WzQN": {
     "title": "Fluffy Paradise",
-    "day": 1,
+    "day": 7,
     "time": "7:00 AM",
     "cover": "isekai-de-mofumofu-nadenade-suru-tame-ni-ganbattemasu-54da17e73e",
     "streams": {
@@ -453,7 +444,7 @@
   "zlI8": {
     "title": "Kingdom 5",
     "day": 6,
-    "time": "11:30 AM",
+    "time": "7:00 AM",
     "cover": "kingdom-5-75ec9c6105",
     "streams": {},
     "status": true
@@ -467,12 +458,13 @@
     "status": true
   },
   "iQld": {
-    "title": "Loop 7-kaime no Akuyaku Reijou wa, Moto Tekikoku de Jiyuu Kimamana Hanayome Seikatsu wo Mankitsu Suru",
+    "title": "7th Time Loop: The Villainess Enjoys a Carefree Life Married to Her Worst Enemy!",
     "day": 7,
     "time": "7:15 AM",
     "cover": "loop-7-kaime-no-akuyaku-reijou-wa-moto-tekikoku-de-jiyuu-kimama-na-hanayome-seikatsu-wo-mankitsu-suru-2afbf566e6",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WJGQ/7th-time-loop-the-villainess-enjoys-a-carefree-life-married-to-her-worst-enemy"
+    }
   },
   "BE18": {
     "title": "Kyuujitsu no Warumono-san",
@@ -490,5 +482,198 @@
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GW4HM7WZQ/the-unwanted-undead-adventurer"
     }
+  },
+  "Bglq": {
+    "title": "Tsuki ga Michibiku Isekai Douchuu 2",
+    "day": 1,
+    "time": "6:00 AM",
+    "cover": "tsuki-ga-michibiku-isekai-douchuu-2-17b31f3542",
+    "streams": {},
+    "status": true
+  },
+  "snqE": {
+    "title": "Dosanko Gal wa Namara Menkoi",
+    "day": 1,
+    "time": "9:45 AM",
+    "cover": "dosanko-gal-wa-namara-menkoi-890f2c3318",
+    "streams": {},
+    "status": true
+  },
+  "ZWTp": {
+    "title": "Oroka na Tenshi wa Akuma to Odoru",
+    "day": 1,
+    "time": "8:30 AM",
+    "cover": "oroka-na-tenshi-wa-akuma-to-odoru-98090010ae",
+    "streams": {},
+    "status": true
+  },
+  "3b31": {
+    "title": "Hime-sama, \"Goumon\" no Jikan desu",
+    "day": 1,
+    "time": "7:00 AM",
+    "cover": "hime-sama-goumon-no-jikan-desu-9f11b342c7",
+    "streams": {},
+    "status": true
+  },
+  "yydS": {
+    "title": "HIGH CARD",
+    "day": 1,
+    "time": "3:00 AM",
+    "cover": "high-card-season-2-582edf6cc7",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G8DHV74W5/high-card"
+    }
+  },
+  "c3OR": {
+    "title": "SYNDUALITY Noir: Part 2",
+    "day": 1,
+    "time": "7:00 AM",
+    "cover": "synduality-noir-part-2-ec9407983c",
+    "streams": {},
+    "status": true
+  },
+  "bxWG": {
+    "title": "Akuyaku Reijou Level 99: Watashi wa Ura Boss desu ga Maou de wa Arimasen",
+    "day": 2,
+    "time": "6:30 AM",
+    "cover": "akuyaku-reijou-level-99-watashi-wa-ura-boss-desu-ga-maou-dewa-arimasen-066d221855",
+    "streams": {},
+    "status": true
+  },
+  "odBF": {
+    "title": "SHAMAN KING FLOWERS",
+    "day": 2,
+    "time": "7:00 AM",
+    "cover": "shaman-king-zoku-hen-4498ae7b58",
+    "streams": {},
+    "status": true
+  },
+  "JPhm": {
+    "title": "Sakigake!! Reiwa no Otokojuku",
+    "day": 7,
+    "time": "2:00 PM",
+    "cover": "sakigake-reiwa-no-otokojuku-a1c343886f",
+    "streams": {},
+    "status": true
+  },
+  "vz76": {
+    "title": "METALLIC ROUGE",
+    "day": 3,
+    "time": "7:55 AM",
+    "cover": "metallic-rouge-886659320c",
+    "streams": {},
+    "status": true
+  },
+  "z2Nu": {
+    "title": "Gekai Elise",
+    "day": 3,
+    "time": "4:30 AM",
+    "cover": "gekai-elise-dea9c2953d",
+    "streams": {},
+    "status": true
+  },
+  "YUtR": {
+    "title": "Sengoku Youko",
+    "day": 3,
+    "time": "7:00 AM",
+    "cover": "sengoku-youko-7cd51c090d",
+    "streams": {},
+    "status": true
+  },
+  "CQ14": {
+    "title": "30-sai made Doutei da to Mahou Tsukai ni Nareru Rashii",
+    "day": 3,
+    "time": "7:00 AM",
+    "cover": "30-sai-made-doutei-dato-mahou-tsukai-ni-nareru-rashii-8a793f146b",
+    "streams": {},
+    "status": true
+  },
+  "2ZUg": {
+    "title": "Majo to Yajuu",
+    "day": 4,
+    "time": "8:28 AM",
+    "cover": "majo-to-yajuu-80e9baace2",
+    "streams": {},
+    "status": true
+  },
+  "2kDV": {
+    "title": "Urusei Yatsura (2022) 2nd Season",
+    "day": 4,
+    "time": "7:55 AM",
+    "cover": "urusei-yatsura-2022-2nd-season-6bcb315282",
+    "streams": {},
+    "status": true
+  },
+  "bXrT": {
+    "title": "Gekkan Mousou Kagaku",
+    "day": 4,
+    "time": "6:30 AM",
+    "cover": "gekkan-mousou-kagaku-791cedbf59",
+    "streams": {},
+    "status": true
+  },
+  "F2qe": {
+    "title": "Yuuki Bakuhatsu Bang Bravern",
+    "day": 4,
+    "time": "6:56 AM",
+    "cover": "yuuki-bakuhatsu-bang-bravern-22ee96834b",
+    "streams": {},
+    "status": true
+  },
+  "5ktD": {
+    "title": "Saijaku Tamer wa Gomi Hiroi no Tabi wo Hajimemashita.",
+    "day": 5,
+    "time": "5:00 AM",
+    "cover": "saijaku-tamer-wa-gomi-hiroi-no-tabi-wo-hajimemashita-230c11c860",
+    "streams": {},
+    "status": true
+  },
+  "TeYE": {
+    "title": "Snack Basue",
+    "day": 5,
+    "time": "8:05 AM",
+    "cover": "snack-basue-993665491f",
+    "streams": {},
+    "status": true
+  },
+  "Ehom": {
+    "title": "Cardfight!! Vanguard: Divinez",
+    "day": 5,
+    "time": "3:00 PM",
+    "cover": "cardfight-vanguard-overdress-season-6-b45b0ad000",
+    "streams": {},
+    "status": true
+  },
+  "54NC": {
+    "title": "Bucchigiri?!",
+    "day": 6,
+    "time": "6:00 AM",
+    "cover": "bucchigiri-2024-01a905e20c",
+    "streams": {},
+    "status": true
+  },
+  "AERt": {
+    "title": "Yami Shibai 12",
+    "day": 6,
+    "time": "9:35 AM",
+    "cover": "",
+    "streams": {},
+    "status": true
+  },
+  "xOW4": {
+    "title": "Hikari no Ou 2nd Season",
+    "day": 7,
+    "time": "6:00 AM",
+    "cover": "hikari-no-ou-2nd-season-7e0beecd91",
+    "streams": {},
+    "status": true
+  },
+  "datU": {
+    "title": "Meiji Gekken: 1874",
+    "day": 7,
+    "time": "6:00 AM",
+    "cover": "meiji-gekken-1874-a145c00f21",
+    "streams": {},
+    "status": true
   }
 }
