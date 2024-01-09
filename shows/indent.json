@@ -195,7 +195,7 @@
   },
   "hZxw": {
     "title": "Odekake Kozame",
-    "day": 2,
+    "day": 5,
     "time": "3:00 AM",
     "cover": "odekake-kozame-315b850ca6",
     "streams": {
@@ -231,33 +231,13 @@
     },
     "status": true
   },
-  "CivX": {
-    "title": "I.CINNAMOROLL Animation",
-    "day": 4,
-    "time": "12:00 AM",
-    "cover": "i-cinnamoroll-animation-6fa50ef829",
-    "streams": {
-      "YouTube": "https://www.youtube.com/playlist?list=PLe-UftTUsMbk7fMwURgLZ6_kz71DGssQw"
-    },
-    "status": true
-  },
   "XvhE": {
     "title": "Kusuriya no Hitorigoto Mini Anime",
-    "day": 7,
+    "day": 2,
     "time": "7:00 PM",
     "cover": "maomao-no-hitorigoto-dc8e52e711",
     "streams": {
       "YouTube": "https://www.youtube.com/playlist?list=PLtdSPZNWT1AtlB6oZ-OLqZKXwMdMnIDiC"
-    },
-    "status": true
-  },
-  "7EQ3": {
-    "title": "Xiaoke de Huatu Xie Hua",
-    "day": 5,
-    "time": "3:00 AM",
-    "cover": "xiaoke-de-huatu-xie-hua-8dd81bea22",
-    "streams": {
-      "YouTube": "https://www.youtube.com/playlist?list=PLbuSQ8SJFnFH7D7_hwX94t-u3tyUxknsl"
     },
     "status": true
   },
@@ -285,7 +265,8 @@
     "time": "7:00 AM",
     "cover": "youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-3-20de2685fa",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GRVN8MNQY/classroom-of-the-elite"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GRVN8MNQY/classroom-of-the-elite",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3ptRSYsrWpjb7_d8DXgxF3"
     }
   },
   "P98E": {
@@ -343,12 +324,14 @@
     }
   },
   "uoDI": {
-    "title": "Sasaki to Pi-chan",
+    "title": "Sasaki and Peeps",
     "day": 5,
     "time": "5:30 AM",
     "cover": "sasaki-to-pii-chan-5aa0c9e31b",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM935/sasaki-and-peeps",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3-9-2FJKBOwpaNg_K1oUoA"
+    }
   },
   "4kON": {
     "title": "Pon no Michi",
@@ -484,58 +467,65 @@
     }
   },
   "Bglq": {
-    "title": "Tsuki ga Michibiku Isekai Douchuu 2",
+    "title": "TSUKIMICHI -Moonlit Fantasy-",
     "day": 1,
-    "time": "6:00 AM",
+    "time": "8:00 AM",
     "cover": "tsuki-ga-michibiku-isekai-douchuu-2-17b31f3542",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GZJH3D719/tsukimichi--moonlit-fantasy-",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhJY1zEwijh3wClH5Gw1ylJ"
+    }
   },
   "snqE": {
-    "title": "Dosanko Gal wa Namara Menkoi",
+    "title": "Hokkaido Gals Are Super Adorable!",
     "day": 1,
     "time": "9:45 AM",
     "cover": "dosanko-gal-wa-namara-menkoi-890f2c3318",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7QGPK/hokkaido-gals-are-super-adorable"
+    }
   },
   "ZWTp": {
-    "title": "Oroka na Tenshi wa Akuma to Odoru",
+    "title": "The Foolish Angel Dances with the Devil",
     "day": 1,
-    "time": "8:30 AM",
+    "time": "10:00 AM",
     "cover": "oroka-na-tenshi-wa-akuma-to-odoru-98090010ae",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKN983/the-foolish-angel-dances-with-the-devil",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JiZZ4cscl39AHpgSzLwMooW"
+    }
   },
   "3b31": {
-    "title": "Hime-sama, \"Goumon\" no Jikan desu",
+    "title": "'Tis Time for \"Torture,\" Princess",
     "day": 1,
-    "time": "7:00 AM",
+    "time": "9:30 AM",
     "cover": "hime-sama-goumon-no-jikan-desu-9f11b342c7",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV0KV/tis-time-for-torture-princess"
+    }
   },
   "yydS": {
     "title": "HIGH CARD",
     "day": 1,
-    "time": "3:00 AM",
+    "time": "6:30 AM",
     "cover": "high-card-season-2-582edf6cc7",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G8DHV74W5/high-card"
     }
   },
   "c3OR": {
-    "title": "SYNDUALITY Noir: Part 2",
+    "title": "Synduality Noir",
     "day": 1,
     "time": "7:00 AM",
     "cover": "synduality-noir-part-2-ec9407983c",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Hulu": "https://www.hulu.com/series/10f2d56d-87f3-469f-8004-a0d2bab3d57d"
+    }
   },
   "bxWG": {
     "title": "Akuyaku Reijou Level 99: Watashi wa Ura Boss desu ga Maou de wa Arimasen",
     "day": 2,
-    "time": "6:30 AM",
+    "time": "8:30 AM",
     "cover": "akuyaku-reijou-level-99-watashi-wa-ura-boss-desu-ga-maou-dewa-arimasen-066d221855",
     "streams": {},
     "status": true
@@ -548,18 +538,10 @@
     "streams": {},
     "status": true
   },
-  "JPhm": {
-    "title": "Sakigake!! Reiwa no Otokojuku",
-    "day": 7,
-    "time": "2:00 PM",
-    "cover": "sakigake-reiwa-no-otokojuku-a1c343886f",
-    "streams": {},
-    "status": true
-  },
   "vz76": {
     "title": "METALLIC ROUGE",
     "day": 3,
-    "time": "7:55 AM",
+    "time": "10:25 AM",
     "cover": "metallic-rouge-886659320c",
     "streams": {},
     "status": true
@@ -567,7 +549,7 @@
   "z2Nu": {
     "title": "Gekai Elise",
     "day": 3,
-    "time": "4:30 AM",
+    "time": "6:30 AM",
     "cover": "gekai-elise-dea9c2953d",
     "streams": {},
     "status": true
@@ -575,7 +557,7 @@
   "YUtR": {
     "title": "Sengoku Youko",
     "day": 3,
-    "time": "7:00 AM",
+    "time": "8:30 AM",
     "cover": "sengoku-youko-7cd51c090d",
     "streams": {},
     "status": true
@@ -591,18 +573,19 @@
   "2ZUg": {
     "title": "Majo to Yajuu",
     "day": 4,
-    "time": "8:28 AM",
+    "time": "11:15 AM",
     "cover": "majo-to-yajuu-80e9baace2",
     "streams": {},
     "status": true
   },
   "2kDV": {
-    "title": "Urusei Yatsura (2022) 2nd Season",
+    "title": "Urusei Yatsura",
     "day": 4,
-    "time": "7:55 AM",
+    "time": "9:30 AM",
     "cover": "urusei-yatsura-2022-2nd-season-6bcb315282",
-    "streams": {},
-    "status": true
+    "streams": {
+      "HiDive": "https://www.hidive.com/tv/urusei-yatsura/season-3"
+    }
   },
   "bXrT": {
     "title": "Gekkan Mousou Kagaku",
@@ -636,27 +619,11 @@
     "streams": {},
     "status": true
   },
-  "Ehom": {
-    "title": "Cardfight!! Vanguard: Divinez",
-    "day": 5,
-    "time": "3:00 PM",
-    "cover": "cardfight-vanguard-overdress-season-6-b45b0ad000",
-    "streams": {},
-    "status": true
-  },
   "54NC": {
     "title": "Bucchigiri?!",
     "day": 6,
     "time": "6:00 AM",
     "cover": "bucchigiri-2024-01a905e20c",
-    "streams": {},
-    "status": true
-  },
-  "AERt": {
-    "title": "Yami Shibai 12",
-    "day": 6,
-    "time": "9:35 AM",
-    "cover": "",
     "streams": {},
     "status": true
   },
