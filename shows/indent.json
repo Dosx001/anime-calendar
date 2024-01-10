@@ -195,7 +195,7 @@
   },
   "hZxw": {
     "title": "Odekake Kozame",
-    "day": 5,
+    "day": 2,
     "time": "3:00 AM",
     "cover": "odekake-kozame-315b850ca6",
     "streams": {
@@ -253,7 +253,7 @@
   "kkLK": {
     "title": "Ishura",
     "day": 3,
-    "time": "6:30 AM",
+    "time": "6:15 AM",
     "cover": "ishura-dfe7952af3",
     "streams": {
       "Hulu": "https://www.hulu.com/series/ishura-811bac64-a492-4f1e-ba7a-393c825daeec"
@@ -293,7 +293,8 @@
     "time": "7:00 AM",
     "cover": "mato-seihei-no-slave-4e7495e634",
     "streams": {
-      "HiDive": "https://www.hidive.com/tv/chained-soldier"
+      "HiDive": "https://www.hidive.com/tv/chained-soldier",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3ICvMY_c9VTL6yduj59Osl"
     }
   },
   "9Jxh": {
@@ -302,7 +303,8 @@
     "time": "8:30 AM",
     "cover": "sokushi-cheat-ga-saikyou-sugite-isekai-no-yatsura-ga-marude-aite-ni-naranai-n-desu-ga-475c508dcb",
     "streams": {
-      "HiDive": "https://www.hidive.com/tv/my-instant-death-ability-is-overpowered"
+      "HiDive": "https://www.hidive.com/tv/my-instant-death-ability-is-overpowered",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl24uc_SVJohCJFLtMu2Iaey"
     }
   },
   "JN1Q": {
@@ -350,21 +352,14 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQP4/the-demon-prince-of-momochi-house"
     }
   },
-  "Qnd7": {
-    "title": "Chou Futsuu Ken Chiba Densetsu",
-    "day": 5,
-    "time": "4:54 AM",
-    "cover": "chou-futsuu-ken-chiba-densetsu-b05addf6bc",
-    "streams": {},
-    "status": true
-  },
   "4DG1": {
     "title": "Solo Leveling",
     "day": 6,
     "time": "9:30 AM",
     "cover": "solo-leveling-bdca4ca63c",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GDKHZEJ0K/solo-leveling"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GDKHZEJ0K/solo-leveling",
+      "Netflix": "https://www.netflix.com/title/81748512"
     }
   },
   "gH3D": {
@@ -405,14 +400,14 @@
     }
   },
   "nfpR": {
-    "title": "Saikyou Tank no Meikyuu Kouryaku: Tairyoku 9999 no Rare Skill-mochi Tank, Yuusha Party wo Tsuihou Sareru",
+    "title": "The Strongest Tank's Labyrinth Raids -A Tank with a Rare 9999 Resistance Skill Got Kicked from the Hero's Party-",
     "day": 6,
     "time": "11:00 AM",
     "cover": "saikyou-tank-no-meikyuu-kouryaku-tairyoku-9999-no-rare-skill-mochi-tank-yuusha-party-wo-tsuihou-sareru-8165976e9c",
     "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN9QKN/the-strongest-tanks-labyrinth-raids--a-tank-with-a-rare-9999-resistance-skill-got-kicked-from-the-heros-party-",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Ji3tb_Lb6OxaEz_cskN0WeZ"
-    },
-    "status": true
+    }
   },
   "DtSA": {
     "title": "A Sign of Affection",
@@ -433,12 +428,14 @@
     "status": true
   },
   "pLOo": {
-    "title": "Shin no Nakama ja Nai to Yuusha no Party wo Oidasareta node, Henkyou de Slow Life suru Koto ni shimashita 2nd Season",
+    "title": "Banished from the Hero's Party, I Decided to Live a Quiet Life in the Countryside",
     "day": 7,
     "time": "7:30 AM",
     "cover": "shin-no-nakama-ja-nai-to-yuusha-no-party-wo-oidasareta-node-henkyou-de-slow-life-suru-koto-ni-shimashita-2nd-season-344cb2a815",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN974E/banished-from-the-heros-party-i-decided-to-live-a-quiet-life-in-the-countryside",
+      "Funimation": "https://www.funimation.com/shows/banished-from-the-heros-party-i-decided-to-live-a-quiet-life-in-the-countryside/"
+    }
   },
   "iQld": {
     "title": "7th Time Loop: The Villainess Enjoys a Carefree Life Married to Her Worst Enemy!",
@@ -450,12 +447,13 @@
     }
   },
   "BE18": {
-    "title": "Kyuujitsu no Warumono-san",
+    "title": "Mr. Villain's Day Off",
     "day": 7,
     "time": "10:45 AM",
     "cover": "kyuujitsu-no-warumono-san-65f4ee1d20",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3GV4/mr-villains-day-off"
+    }
   },
   "TueF": {
     "title": "The Unwanted Undead Adventurer",
@@ -463,7 +461,8 @@
     "time": "6:30 AM",
     "cover": "nozomanu-fushi-no-boukensha-4bf62a8e64",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GW4HM7WZQ/the-unwanted-undead-adventurer"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GW4HM7WZQ/the-unwanted-undead-adventurer",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3tJE53C10vT7BjOzXaG5q5"
     }
   },
   "Bglq": {
@@ -523,12 +522,13 @@
     }
   },
   "bxWG": {
-    "title": "Akuyaku Reijou Level 99: Watashi wa Ura Boss desu ga Maou de wa Arimasen",
+    "title": "Villainess Level 99: I May Be the Hidden Boss But I'm Not the Demon Lord",
     "day": 2,
     "time": "8:30 AM",
     "cover": "akuyaku-reijou-level-99-watashi-wa-ura-boss-desu-ga-maou-dewa-arimasen-066d221855",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GKEH2G099/villainess-level-99-i-may-be-the-hidden-boss-but-im-not-the-demon-lord"
+    }
   },
   "odBF": {
     "title": "SHAMAN KING FLOWERS",
@@ -539,36 +539,40 @@
     "status": true
   },
   "vz76": {
-    "title": "METALLIC ROUGE",
+    "title": "Metallic Rouge",
     "day": 3,
     "time": "10:25 AM",
     "cover": "metallic-rouge-886659320c",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G24H1NWMJ/metallic-rouge"
+    }
   },
   "z2Nu": {
-    "title": "Gekai Elise",
+    "title": "Doctor Elise: The Royal Lady with the Lamp",
     "day": 3,
     "time": "6:30 AM",
     "cover": "gekai-elise-dea9c2953d",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX853V/doctor-elise-the-royal-lady-with-the-lamp"
+    }
   },
   "YUtR": {
     "title": "Sengoku Youko",
     "day": 3,
     "time": "8:30 AM",
     "cover": "sengoku-youko-7cd51c090d",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEVD57/sengoku-youko"
+    }
   },
   "CQ14": {
-    "title": "30-sai made Doutei da to Mahou Tsukai ni Nareru Rashii",
+    "title": "Cherry Magic! Thirty Years of Virginity Can Make You a Wizard?!",
     "day": 3,
-    "time": "7:00 AM",
+    "time": "9:30 AM",
     "cover": "30-sai-made-doutei-dato-mahou-tsukai-ni-nareru-rashii-8a793f146b",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GP5HJ8435/cherry-magic-thirty-years-of-virginity-can-make-you-a-wizard"
+    }
   },
   "2ZUg": {
     "title": "Majo to Yajuu",
@@ -606,7 +610,7 @@
   "5ktD": {
     "title": "Saijaku Tamer wa Gomi Hiroi no Tabi wo Hajimemashita.",
     "day": 5,
-    "time": "5:00 AM",
+    "time": "6:00 AM",
     "cover": "saijaku-tamer-wa-gomi-hiroi-no-tabi-wo-hajimemashita-230c11c860",
     "streams": {},
     "status": true
@@ -640,6 +644,32 @@
     "day": 7,
     "time": "6:00 AM",
     "cover": "meiji-gekken-1874-a145c00f21",
+    "streams": {},
+    "status": true
+  },
+  "JPhm": {
+    "title": "Sakigake!! Reiwa no Otokojuku",
+    "day": 7,
+    "time": "2:00 PM",
+    "cover": "sakigake-reiwa-no-otokojuku-a1c343886f",
+    "streams": {},
+    "status": true
+  },
+  "CivX": {
+    "title": "I.CINNAMOROLL Animation",
+    "day": 4,
+    "time": "12:00 AM",
+    "cover": "i-cinnamoroll-animation-6fa50ef829",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLe-UftTUsMbk7fMwURgLZ6_kz71DGssQw"
+    },
+    "status": true
+  },
+  "Ehom": {
+    "title": "Cardfight!! Vanguard: Divinez",
+    "day": 5,
+    "time": "3:00 PM",
+    "cover": "cardfight-vanguard-overdress-season-6-b45b0ad000",
     "streams": {},
     "status": true
   }
