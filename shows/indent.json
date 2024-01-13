@@ -195,7 +195,7 @@
   },
   "hZxw": {
     "title": "Odekake Kozame",
-    "day": 2,
+    "day": 5,
     "time": "3:00 AM",
     "cover": "odekake-kozame-315b850ca6",
     "streams": {
@@ -282,7 +282,7 @@
     "title": "Gushing Over Magical Girls",
     "day": 3,
     "time": "8:00 AM",
-    "cover": "mahou-shoujo-ni-akogarete-74fb58ce5d",
+    "cover": "mahou-shoujo-ni-akogarete-7b2f7d2d10.",
     "streams": {
       "HiDive": "https://www.hidive.com/tv/gushing-over-magical-girls"
     }
@@ -339,7 +339,7 @@
     "title": "Pon no Michi",
     "day": 5,
     "time": "8:53 AM",
-    "cover": "pon-no-michi-92669b5b1b",
+    "cover": "pon-no-michi-96a7ecf39b",
     "streams": {},
     "status": true
   },
@@ -422,7 +422,7 @@
   "zlI8": {
     "title": "Kingdom 5",
     "day": 6,
-    "time": "7:00 AM",
+    "time": "11:30 AM",
     "cover": "kingdom-5-75ec9c6105",
     "streams": {},
     "status": true
@@ -441,7 +441,7 @@
     "title": "7th Time Loop: The Villainess Enjoys a Carefree Life Married to Her Worst Enemy!",
     "day": 7,
     "time": "7:15 AM",
-    "cover": "loop-7-kaime-no-akuyaku-reijou-wa-moto-tekikoku-de-jiyuu-kimama-na-hanayome-seikatsu-wo-mankitsu-suru-2afbf566e6",
+    "cover": "loop-7-kaime-no-akuyaku-reijou-wa-moto-tekikoku-de-jiyuu-kimama-na-hanayome-seikatsu-wo-mankitsu-suru-5a63eb7398",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WJGQ/7th-time-loop-the-villainess-enjoys-a-carefree-life-married-to-her-worst-enemy"
     }
@@ -560,7 +560,7 @@
     "title": "Sengoku Youko",
     "day": 3,
     "time": "8:30 AM",
-    "cover": "sengoku-youko-7cd51c090d",
+    "cover": "sengoku-youko-a511ca05cb",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEVD57/sengoku-youko"
     }
@@ -569,7 +569,7 @@
     "title": "Cherry Magic! Thirty Years of Virginity Can Make You a Wizard?!",
     "day": 3,
     "time": "9:30 AM",
-    "cover": "30-sai-made-doutei-dato-mahou-tsukai-ni-nareru-rashii-8a793f146b",
+    "cover": "30-sai-made-doutei-dato-mahou-tsukai-ni-nareru-rashii-24538bdc44",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GP5HJ8435/cherry-magic-thirty-years-of-virginity-can-make-you-a-wizard"
     }
@@ -608,33 +608,38 @@
     "status": true
   },
   "5ktD": {
-    "title": "Saijaku Tamer wa Gomi Hiroi no Tabi wo Hajimemashita.",
+    "title": "The Weakest Tamer Began a Journey to Pick Up Trash",
     "day": 5,
-    "time": "6:00 AM",
+    "time": "7:30 AM",
     "cover": "saijaku-tamer-wa-gomi-hiroi-no-tabi-wo-hajimemashita-230c11c860",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GQWH0M1XK/the-weakest-tamer-began-a-journey-to-pick-up-trash",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgnIq99q08nr7z2jtgY73Y5"
+    }
   },
   "TeYE": {
     "title": "Snack Basue",
     "day": 5,
-    "time": "8:05 AM",
+    "time": "10:15 AM",
     "cover": "snack-basue-993665491f",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GDKHZEJ1K/snack-basue",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhOhIGAfgtgEeeIKiUOY-GC"
+    }
   },
   "54NC": {
-    "title": "Bucchigiri?!",
+    "title": "BUCCHIGIRI?!",
     "day": 6,
-    "time": "6:00 AM",
+    "time": "8:30 AM",
     "cover": "bucchigiri-2024-01a905e20c",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM985/bucchigiri"
+    }
   },
   "xOW4": {
     "title": "Hikari no Ou 2nd Season",
     "day": 7,
-    "time": "6:00 AM",
+    "time": "7:30 AM",
     "cover": "hikari-no-ou-2nd-season-7e0beecd91",
     "streams": {},
     "status": true
@@ -642,14 +647,14 @@
   "datU": {
     "title": "Meiji Gekken: 1874",
     "day": 7,
-    "time": "6:00 AM",
+    "time": "8:00 AM",
     "cover": "meiji-gekken-1874-a145c00f21",
     "streams": {},
     "status": true
   },
   "JPhm": {
     "title": "Sakigake!! Reiwa no Otokojuku",
-    "day": 7,
+    "day": 4,
     "time": "2:00 PM",
     "cover": "sakigake-reiwa-no-otokojuku-a1c343886f",
     "streams": {},
