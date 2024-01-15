@@ -420,12 +420,13 @@
     }
   },
   "zlI8": {
-    "title": "Kingdom 5",
+    "title": "Kingdom",
     "day": 6,
     "time": "11:30 AM",
     "cover": "kingdom-5-75ec9c6105",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GRWE89KMR/kingdom"
+    }
   },
   "pLOo": {
     "title": "Banished from the Hero's Party, I Decided to Live a Quiet Life in the Countryside",
@@ -544,7 +545,8 @@
     "time": "10:25 AM",
     "cover": "metallic-rouge-886659320c",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G24H1NWMJ/metallic-rouge"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G24H1NWMJ/metallic-rouge",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jix8lSA4pVU_gn3TbjTg1Pb"
     }
   },
   "z2Nu": {
@@ -562,7 +564,8 @@
     "time": "8:30 AM",
     "cover": "sengoku-youko-a511ca05cb",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEVD57/sengoku-youko"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEVD57/sengoku-youko",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgVdNKD0Q2XtDOs6n1KEceH"
     }
   },
   "CQ14": {
@@ -571,16 +574,18 @@
     "time": "9:30 AM",
     "cover": "30-sai-made-doutei-dato-mahou-tsukai-ni-nareru-rashii-24538bdc44",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GP5HJ8435/cherry-magic-thirty-years-of-virginity-can-make-you-a-wizard"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GP5HJ8435/cherry-magic-thirty-years-of-virginity-can-make-you-a-wizard",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhghWVNSwtEXXMZbvIW3efv"
     }
   },
   "2ZUg": {
-    "title": "Majo to Yajuu",
+    "title": "The Witch and the Beast",
     "day": 4,
     "time": "11:15 AM",
     "cover": "majo-to-yajuu-80e9baace2",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GZJH3D8W8/the-witch-and-the-beast"
+    }
   },
   "2kDV": {
     "title": "Urusei Yatsura",
@@ -592,17 +597,18 @@
     }
   },
   "bXrT": {
-    "title": "Gekkan Mousou Kagaku",
+    "title": "Delusional Monthly Magazine",
     "day": 4,
-    "time": "6:30 AM",
+    "time": "8:30 AM",
     "cover": "gekkan-mousou-kagaku-791cedbf59",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G8DHV78K4/delusional-monthly-magazine"
+    }
   },
   "F2qe": {
     "title": "Yuuki Bakuhatsu Bang Bravern",
     "day": 4,
-    "time": "6:56 AM",
+    "time": "9:30 AM",
     "cover": "yuuki-bakuhatsu-bang-bravern-22ee96834b",
     "streams": {},
     "status": true
@@ -637,20 +643,22 @@
     }
   },
   "xOW4": {
-    "title": "Hikari no Ou 2nd Season",
+    "title": "The Fire Hunter",
     "day": 7,
     "time": "7:30 AM",
     "cover": "hikari-no-ou-2nd-season-7e0beecd91",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7Q5X9/the-fire-hunter"
+    }
   },
   "datU": {
     "title": "Meiji Gekken: 1874",
     "day": 7,
     "time": "8:00 AM",
     "cover": "meiji-gekken-1874-a145c00f21",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GW4HM7W4Q/meiji-gekken-1874"
+    }
   },
   "JPhm": {
     "title": "Sakigake!! Reiwa no Otokojuku",
@@ -671,11 +679,21 @@
     "status": true
   },
   "Ehom": {
-    "title": "Cardfight!! Vanguard: Divinez",
+    "title": "CARDFIGHT!! VANGUARD overDress",
     "day": 5,
-    "time": "3:00 PM",
+    "time": "3:40 PM",
     "cover": "cardfight-vanguard-overdress-season-6-b45b0ad000",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3NJ5/cardfight-vanguard-overdress"
+    }
+  },
+  "fDqN": {
+    "title": "KAWAGOE BOYS SING -Now or Never-",
+    "day": 1,
+    "time": "7:45 AM",
+    "cover": "kawagoe-boys-sing-b199864822",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GMEHME7DJ/kawagoe-boys-sing--now-or-never-"
+    }
   }
 }
