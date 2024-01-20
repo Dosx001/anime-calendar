@@ -195,7 +195,7 @@
   },
   "hZxw": {
     "title": "Odekake Kozame",
-    "day": 5,
+    "day": 2,
     "time": "3:00 AM",
     "cover": "odekake-kozame-315b850ca6",
     "streams": {
@@ -507,7 +507,7 @@
   "yydS": {
     "title": "HIGH CARD",
     "day": 1,
-    "time": "6:30 AM",
+    "time": "5:30 AM",
     "cover": "high-card-season-2-582edf6cc7",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G8DHV74W5/high-card"
@@ -662,7 +662,7 @@
   },
   "JPhm": {
     "title": "Sakigake!! Reiwa no Otokojuku",
-    "day": 4,
+    "day": 7,
     "time": "2:00 PM",
     "cover": "sakigake-reiwa-no-otokojuku-a1c343886f",
     "streams": {},
@@ -695,5 +695,13 @@
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GMEHME7DJ/kawagoe-boys-sing--now-or-never-"
     }
+  },
+  "ILxG": {
+    "title": "MONSTERS: Ippyaku Sanjou Hiryuu Jigoku",
+    "day": 7,
+    "time": "12:01 AM",
+    "cover": "monsters-ippyaku-sanjou-hiryuu-jigoku-cf9b1086a7",
+    "streams": {},
+    "status": true
   }
 }
