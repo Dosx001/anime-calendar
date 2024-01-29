@@ -45,7 +45,7 @@
   },
   "ziMS": {
     "title": "Ninjala",
-    "day": 5,
+    "day": 4,
     "time": "7:00 PM",
     "cover": "ninjala-c19a7f2bbe",
     "streams": {
@@ -90,15 +90,6 @@
     "cover": "pokemon-2023-273f1b2226",
     "streams": {},
     "status": true
-  },
-  "3CKQ": {
-    "title": "Soaring Sky! Pretty Cure",
-    "day": 6,
-    "time": "6:30 PM",
-    "cover": "hirogaru-sky-precure-0e14c3bfff",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM55N/soaring-sky-pretty-cure"
-    }
   },
   "A9VI": {
     "title": "Sore Ike! Anpanman",
@@ -463,6 +454,7 @@
     "cover": "nozomanu-fushi-no-boukensha-4bf62a8e64",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GW4HM7WZQ/the-unwanted-undead-adventurer",
+      "Netflix": "https://netflix.com/title/81746882",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3tJE53C10vT7BjOzXaG5q5"
     }
   },
@@ -516,7 +508,7 @@
   "c3OR": {
     "title": "Synduality Noir",
     "day": 1,
-    "time": "7:00 AM",
+    "time": "8:00 AM",
     "cover": "synduality-noir-part-2-ec9407983c",
     "streams": {
       "Hulu": "https://www.hulu.com/series/10f2d56d-87f3-469f-8004-a0d2bab3d57d"
@@ -606,12 +598,13 @@
     }
   },
   "F2qe": {
-    "title": "Yuuki Bakuhatsu Bang Bravern",
+    "title": "Brave Bang Bravern!",
     "day": 4,
     "time": "9:30 AM",
     "cover": "yuuki-bakuhatsu-bang-bravern-22ee96834b",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W217/brave-bang-bravern"
+    }
   },
   "5ktD": {
     "title": "The Weakest Tamer Began a Journey to Pick Up Trash",
@@ -687,20 +680,11 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3NJ5/cardfight-vanguard-overdress"
     }
   },
-  "fDqN": {
-    "title": "KAWAGOE BOYS SING -Now or Never-",
-    "day": 1,
-    "time": "7:45 AM",
-    "cover": "kawagoe-boys-sing-b199864822",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GMEHME7DJ/kawagoe-boys-sing--now-or-never-"
-    }
-  },
-  "ILxG": {
-    "title": "MONSTERS: Ippyaku Sanjou Hiryuu Jigoku",
-    "day": 7,
-    "time": "12:01 AM",
-    "cover": "monsters-ippyaku-sanjou-hiryuu-jigoku-cf9b1086a7",
+  "zKyK": {
+    "title": "Wonderful Precure!",
+    "day": 6,
+    "time": "3:30 PM",
+    "cover": "wonderful-precure-53a6dc3b85",
     "streams": {},
     "status": true
   }

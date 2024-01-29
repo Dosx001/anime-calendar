@@ -22,6 +22,16 @@
       "Slice of Life"
     ]
   },
+  "8Vg9": {
+    "title": "Blue Archive The Animation",
+    "cover": "blue-archive-the-animation-cb11a8eccb",
+    "studio": "CANDY BOX",
+    "source": "Video Game",
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ]
+  },
   "UTcm": {
     "title": "Boku no Hero Academia 7",
     "cover": "boku-no-hero-academia-7-eb8edc835e",
@@ -45,6 +55,19 @@
       "School",
       "Shounen",
       "Sports"
+    ]
+  },
+  "XvH6": {
+    "title": "Dekisokonai to Yobareta Motoeiyuu wa Jikka kara Tsuihou sareta node Sukikatte ni Ikiru Koto ni Shita",
+    "cover": "dekisokonai-to-yobareta-motoeiyuu-wa-jikka-kara-tsuihou-sareta-node-sukikatte-ni-ikiru-koto-ni-shita-6f4d410871",
+    "studio": "Marvy Jack",
+    "source": "Light Novel",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Magic",
+      "Romance"
     ]
   },
   "CXP5": {
@@ -89,6 +112,15 @@
       "Music",
       "School",
       "Slice of Life"
+    ]
+  },
+  "vGHc": {
+    "title": "Himitsu no AiPri",
+    "cover": "poster-21fa193001",
+    "studio": "Dongwoo A&E",
+    "source": "Video Game",
+    "genres": [
+      "Music"
     ]
   },
   "J8He": {
@@ -207,6 +239,18 @@
       "Supernatural"
     ]
   },
+  "gzEp": {
+    "title": "Lv2 Kara Cheat datta Moto Yuusha Kouho no Mattari Isekai Life",
+    "cover": "lv2-kara-cheat-datta-motoyuusha-kouho-no-mattari-isekai-life-521e446a67",
+    "studio": "J.C. Staff",
+    "source": "Light Novel",
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Isekai",
+      "Romance"
+    ]
+  },
   "Dpe5": {
     "title": "Mahouka Koukou no Rettousei 3",
     "cover": "mahouka-koukou-no-rettousei-3-d0d1b16d93",
@@ -252,7 +296,7 @@
   "H3nW": {
     "title": "Ooi! Tonbo",
     "cover": "ooi-tonbo-b03eb3e9f3",
-    "studio": "N/A",
+    "studio": "OLM",
     "source": "Manga",
     "genres": [
       "Drama",
@@ -322,6 +366,17 @@
     "studio": "EMT Squared",
     "source": "Original",
     "genres": []
+  },
+  "EOLd": {
+    "title": "Tadaima, Okaeri",
+    "cover": "tadaima-okaeri-ae592f911c",
+    "studio": "Studio DEEN",
+    "source": "Manga",
+    "genres": [
+      "Drama",
+      "Romance",
+      "Slice of Life"
+    ]
   },
   "OlN5": {
     "title": "Tensei Kizoku, Kantei Skill de Nariagaru",
@@ -402,6 +457,17 @@
     "genres": [
       "Slice of Life",
       "Supernatural"
+    ]
+  },
+  "hfSX": {
+    "title": "Touken Ranbu Kai: Kyoden Moyuru Honnouji",
+    "cover": "poster-21fa193001",
+    "studio": "Domerica",
+    "source": "Other",
+    "genres": [
+      "Action",
+      "Fantasy",
+      "Historical"
     ]
   },
   "LOZI": {
