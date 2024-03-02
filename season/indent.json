@@ -24,7 +24,7 @@
   },
   "8Vg9": {
     "title": "Blue Archive The Animation",
-    "cover": "blue-archive-the-animation-cb11a8eccb",
+    "cover": "blue-archive-the-animation-dbf81bf099",
     "studio": "CANDY BOX",
     "source": "Video Game",
     "genres": [
@@ -57,9 +57,23 @@
       "Sports"
     ]
   },
+  "rjgL": {
+    "title": "Date A Live V",
+    "cover": "date-a-live-v-8decf2fe28",
+    "studio": "Geek Toys",
+    "source": "Light Novel",
+    "genres": [
+      "Comedy",
+      "Harem",
+      "Mecha",
+      "Romance",
+      "School",
+      "Sci-Fi"
+    ]
+  },
   "XvH6": {
     "title": "Dekisokonai to Yobareta Motoeiyuu wa Jikka kara Tsuihou sareta node Sukikatte ni Ikiru Koto ni Shita",
-    "cover": "dekisokonai-to-yobareta-motoeiyuu-wa-jikka-kara-tsuihou-sareta-node-sukikatte-ni-ikiru-koto-ni-shita-6f4d410871",
+    "cover": "dekisokonai-to-yobareta-motoeiyuu-wa-jikka-kara-tsuihou-sareta-node-sukikatte-ni-ikiru-koto-ni-shita-5f0aaf1d18",
     "studio": "Marvy Jack",
     "source": "Light Novel",
     "genres": [
@@ -68,6 +82,15 @@
       "Fantasy",
       "Magic",
       "Romance"
+    ]
+  },
+  "LCpr": {
+    "title": "Girls Band Cry",
+    "cover": "girls-band-cry-3a18cef9da",
+    "studio": "Toei Animation",
+    "source": "Original",
+    "genres": [
+      "Music"
     ]
   },
   "CXP5": {
@@ -85,6 +108,7 @@
     "studio": "East Fish Studio",
     "source": "Manga",
     "genres": [
+      "Drama",
       "Romance",
       "School",
       "Shoujo"
@@ -116,26 +140,15 @@
   },
   "vGHc": {
     "title": "Himitsu no AiPri",
-    "cover": "poster-21fa193001",
+    "cover": "himitsu-no-aipri-8731a6ee21",
     "studio": "Dongwoo A&E",
     "source": "Video Game",
     "genres": [
       "Music"
     ]
   },
-  "J8He": {
-    "title": "Jii-san Baa-san Wakagaeru",
-    "cover": "jii-san-baasan-wakagaeru-c87985dbcc",
-    "studio": "N/A",
-    "source": "Web Manga",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "Supernatural"
-    ]
-  },
   "VrIn": {
-    "title": "Jongtama Kan!!",
+    "title": "Jantama Kan!!",
     "cover": "poster-21fa193001",
     "studio": "Alke",
     "source": "Video Game",
@@ -143,11 +156,22 @@
       "Comedy"
     ]
   },
+  "J8He": {
+    "title": "Jii-san Baa-san Wakagaeru",
+    "cover": "jii-san-baasan-wakagaeru-c87985dbcc",
+    "studio": "Gekkou",
+    "source": "Web Manga",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Supernatural"
+    ]
+  },
   "T8nl": {
     "title": "Kaii to Otome to Kamikakushi",
     "cover": "kaii-to-otome-to-kamikakushi-1ba50b0d87",
     "studio": "Zero-G",
-    "source": "Manga",
+    "source": "Web Manga",
     "genres": [
       "Ecchi",
       "Mystery",
@@ -185,13 +209,23 @@
   },
   "TrVm": {
     "title": "Karasu wa Aruji wo Erabanai",
-    "cover": "karasu-wa-aruji-wo-erabanai-09d204691d",
+    "cover": "karasu-wa-aruji-wo-erabanai-9a668f0654",
     "studio": "N/A",
     "source": "Novel",
     "genres": [
       "Action",
       "Historical",
       "Supernatural"
+    ]
+  },
+  "cAAa": {
+    "title": "Kenka Dokugaku",
+    "cover": "kenka-dokugaku-d3dc6af255",
+    "studio": "Okuruto Noboru",
+    "source": "Web Manga",
+    "genres": [
+      "Action",
+      "Comedy"
     ]
   },
   "mA6Z": {
@@ -211,7 +245,7 @@
   },
   "al9W": {
     "title": "Kono Subarashii Sekai ni Shukufuku wo! 3",
-    "cover": "kono-subarashii-sekai-ni-shukufuku-wo-provisional-title-7d957aa5a2",
+    "cover": "kono-subarashii-sekai-ni-shukufuku-wo-provisional-title-3e18657f2d",
     "studio": "Drive",
     "source": "Light Novel",
     "genres": [
@@ -240,7 +274,7 @@
     ]
   },
   "gzEp": {
-    "title": "Lv2 Kara Cheat datta Moto Yuusha Kouho no Mattari Isekai Life",
+    "title": "Lv2 kara Cheat datta Motoyuusha Kouho no Mattari Isekai Life",
     "cover": "lv2-kara-cheat-datta-motoyuusha-kouho-no-mattari-isekai-life-521e446a67",
     "studio": "J.C. Staff",
     "source": "Light Novel",
@@ -265,9 +299,33 @@
       "Supernatural"
     ]
   },
+  "kAIN": {
+    "title": "Maou Gakuin no Futekigousha 2 Part 2",
+    "cover": "maou-gakuin-no-futekigousha-2-part-2-74a9780cf8",
+    "studio": "SILVER LINK.",
+    "source": "Light Novel",
+    "genres": [
+      "Action",
+      "Demons",
+      "Fantasy",
+      "Magic",
+      "School"
+    ]
+  },
+  "9FAT": {
+    "title": "Maou no Ore ga Dorei Elf wo Yome ni Shitanda ga, Dou Medereba Ii?",
+    "cover": "maou-no-ore-ga-dorei-elf-wo-yome-ni-shitanda-ga-dou-medereba-ii-867984d9ba",
+    "studio": "Brain's Base",
+    "source": "Light Novel",
+    "genres": [
+      "Action",
+      "Fantasy",
+      "Romance"
+    ]
+  },
   "nq5s": {
     "title": "Mushoku Tensei II: Isekai Ittara Honki Dasu Part 2",
-    "cover": "mushoku-tensei-isekai-ittara-honki-dasu-2-part-2-bd0f9ffd77",
+    "cover": "mushoku-tensei-isekai-ittara-honki-dasu-2-part-2-3b8cbb61a3",
     "studio": "Studio Bind",
     "source": "Light Novel",
     "genres": [
@@ -281,8 +339,8 @@
     ]
   },
   "ppS9": {
-    "title": "One Room, Hi Atari Futsuu, Tenshi Tsuki.",
-    "cover": "one-room-hiatari-futsuu-tenshi-tsuki-76bdea862e",
+    "title": "One Room, Hiatari Futsuu, Tenshi-tsuki.",
+    "cover": "one-room-hiatari-futsuu-tenshi-tsuki-a7e8d859b5",
     "studio": "Okuruto Noboru",
     "source": "Manga",
     "genres": [
@@ -295,7 +353,7 @@
   },
   "H3nW": {
     "title": "Ooi! Tonbo",
-    "cover": "ooi-tonbo-b03eb3e9f3",
+    "cover": "ooi-tonbo-02129f840a",
     "studio": "OLM",
     "source": "Manga",
     "genres": [
@@ -304,7 +362,7 @@
     ]
   },
   "XLds": {
-    "title": "Ookami to Koushinryou: merchant meets the wise wolf",
+    "title": "Ookami to Koushinryou (2024)",
     "cover": "ookami-to-koushinryou-shinsaku-anime-612c2ebf5d",
     "studio": "Passione",
     "source": "Light Novel",
@@ -331,7 +389,7 @@
   "s6ru": {
     "title": "Rinkai!",
     "cover": "rinkai-d02f891fdc",
-    "studio": "N/A",
+    "studio": "TMS Entertainment",
     "source": "Other",
     "genres": [
       "Sports"
@@ -348,6 +406,42 @@
       "Romance"
     ]
   },
+  "NbVZ": {
+    "title": "Seiyuu Radio no Uraomote",
+    "cover": "seiyuu-radio-no-uraomote-1933177710",
+    "studio": "CONNECT",
+    "source": "Light Novel",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "School",
+      "Slice of Life"
+    ]
+  },
+  "D9FZ": {
+    "title": "Sentai Daishikkaku",
+    "cover": "sentai-daishikkaku-314808c12c",
+    "studio": "Yostar Pictures",
+    "source": "Manga",
+    "genres": [
+      "Action",
+      "Fantasy",
+      "Sci-Fi",
+      "Shounen"
+    ]
+  },
+  "ONrt": {
+    "title": "Shadowverse Flame: Arc-hen",
+    "cover": "poster-21fa193001",
+    "studio": "ZEXCS",
+    "source": "Card Game",
+    "genres": [
+      "Fantasy",
+      "Game",
+      "Sci-Fi",
+      "Shounen"
+    ]
+  },
   "XNBA": {
     "title": "Shinigami Bocchan to Kuro Maid 3rd Season",
     "cover": "shinigami-bocchan-to-kuro-maid-3rd-season-bada3bd9ca",
@@ -360,12 +454,36 @@
       "Supernatural"
     ]
   },
+  "nMVN": {
+    "title": "Shinkalion: Change the World",
+    "cover": "shinkalion-change-the-world-70e8de7c94",
+    "studio": "Production I.G",
+    "source": "Other",
+    "genres": [
+      "Action",
+      "Mecha",
+      "Sci-Fi",
+      "Shounen"
+    ]
+  },
   "57Uf": {
     "title": "Shuumatsu Train Doko e Iku?",
     "cover": "shuumatsu-train-doko-e-iku-95d69b4a17",
     "studio": "EMT Squared",
     "source": "Original",
     "genres": []
+  },
+  "Bnz8": {
+    "title": "THE NEW GATE",
+    "cover": "the-new-gate-6a67e0e3b8",
+    "studio": "CLOUDHEARTS",
+    "source": "Light Novel",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Isekai"
+    ]
   },
   "EOLd": {
     "title": "Tadaima, Okaeri",
@@ -379,7 +497,7 @@
     ]
   },
   "OlN5": {
-    "title": "Tensei Kizoku, Kantei Skill de Nariagaru",
+    "title": "Tensei Kizoku Kantei Skill de Nariagaru",
     "cover": "tensei-kizoku-kantei-skill-de-nariagaru-43de80076f",
     "studio": "Studio Mother",
     "source": "Light Novel",
@@ -391,8 +509,8 @@
     ]
   },
   "M1CQ": {
-    "title": "Tensei Shitara Dai Nana Ouji Dattanode, Kimamani Majutsu wo Kiwamemasu",
-    "cover": "tensei-shitara-dainana-ouji-datta-node-kimama-ni-majutsu-wo-kiwamemasu-9928a84d76",
+    "title": "Tensei shitara Dainana Ouji Datta node, Kimama ni Majutsu wo Kiwamemasu",
+    "cover": "tensei-shitara-dainana-ouji-datta-node-kimama-ni-majutsu-wo-kiwamemasu-c52e0e2961",
     "studio": "Tsumugi Akita Animation Lab",
     "source": "Light Novel",
     "genres": [
@@ -418,7 +536,7 @@
   },
   "fleO": {
     "title": "The Fable",
-    "cover": "the-fable-c3247c34b9",
+    "cover": "the-fable-2bf55fd625",
     "studio": "Tezuka Productions",
     "source": "Manga",
     "genres": [
@@ -438,20 +556,9 @@
       "Music"
     ]
   },
-  "KA6Y": {
-    "title": "Tokidoki Bosotto Russiago de Dereru Tonari no Alya-san",
-    "cover": "tokidoki-bosotto-russiago-de-dereru-tonari-no-alya-san-781e43ca16",
-    "studio": "Doga Kobo",
-    "source": "Light Novel",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "Slice of Life"
-    ]
-  },
   "Epi2": {
     "title": "Tonari no Youkai-san",
-    "cover": "tonari-no-youkai-san-f919714f5d",
+    "cover": "tonari-no-youkai-san-6a33de4c83",
     "studio": "LIDENFILMS",
     "source": "Web Manga",
     "genres": [
@@ -461,7 +568,7 @@
   },
   "hfSX": {
     "title": "Touken Ranbu Kai: Kyoden Moyuru Honnouji",
-    "cover": "poster-21fa193001",
+    "cover": "touken-ranbu-kai-kyoden-moyuru-honnouji-5d98a8dd29",
     "studio": "Domerica",
     "source": "Other",
     "genres": [
@@ -482,7 +589,7 @@
     ]
   },
   "UQ8C": {
-    "title": "Vampire Danshiryou",
+    "title": "Vampire Dormitory",
     "cover": "vampire-dormitory-e25a8a93e6",
     "studio": "Studio Blanc",
     "source": "Manga",
@@ -507,7 +614,7 @@
   },
   "BxkY": {
     "title": "Yoru no Kurage wa Oyogenai",
-    "cover": "yoru-no-kurage-wa-oyogenai-82c103e18c",
+    "cover": "yoru-no-kurage-wa-oyogenai-b7262e4df7",
     "studio": "Doga Kobo",
     "source": "Original",
     "genres": [

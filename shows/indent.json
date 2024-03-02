@@ -13,7 +13,7 @@
   "urTI": {
     "title": "One Piece",
     "day": 6,
-    "time": "7:00 PM",
+    "time": "6:00 PM",
     "cover": "one-piece-f2f2a983a8",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/one-piece",
@@ -79,7 +79,7 @@
     "title": "Tousouchuu: Great Mission",
     "day": 6,
     "time": "4:01 PM",
-    "cover": "tousouchuu-great-mission-6eb5a16ca9",
+    "cover": "tousouchuu-great-mission-2b70ef3975",
     "streams": {},
     "status": true
   },
@@ -160,7 +160,7 @@
   "tG35": {
     "title": "Captain Tsubasa: Junior Youth Arc",
     "day": 7,
-    "time": "2:00 AM",
+    "time": "1:00 AM",
     "cover": "captain-tsubasa-season-2-junior-youth-hen-17f2128c36",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WJDQ/captain-tsubasa-junior-youth-arc"
@@ -169,7 +169,7 @@
   "BQpb": {
     "title": "Undead Unluck",
     "day": 5,
-    "time": "10:00 AM",
+    "time": "11:00 AM",
     "cover": "undead-unluck-d7a4b88861",
     "streams": {
       "Hulu": "https://www.hulu.com/series/undead-unluck-1e7b20f8-4f5c-46ab-8b24-fa2700a6c7a7"
@@ -205,7 +205,7 @@
   "2TqS": {
     "title": "The Apothecary Diaries",
     "day": 6,
-    "time": "11:05 AM",
+    "time": "10:45 AM",
     "cover": "kusuriya-no-hitorigoto-393de2094e",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEVDJ7/the-apothecary-diaries",
@@ -244,7 +244,7 @@
   "kkLK": {
     "title": "Ishura",
     "day": 3,
-    "time": "6:15 AM",
+    "time": "6:01 AM",
     "cover": "ishura-dfe7952af3",
     "streams": {
       "Hulu": "https://www.hulu.com/series/ishura-811bac64-a492-4f1e-ba7a-393c825daeec"
@@ -313,7 +313,8 @@
     "time": "9:00 AM",
     "cover": "chiyu-mahou-no-machigatta-tsukaikata-bb8cb97ae8",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM1EK/the-wrong-way-to-use-healing-magic"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM1EK/the-wrong-way-to-use-healing-magic",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2qQ39Obr5X2J0fIATD9M2M"
     }
   },
   "uoDI": {
@@ -331,13 +332,15 @@
     "day": 5,
     "time": "8:53 AM",
     "cover": "pon-no-michi-96a7ecf39b",
-    "streams": {},
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLhGamQZtJ7K8dbIbgjqpRMo803YvCwsep"
+    },
     "status": true
   },
   "wloG": {
     "title": "The Demon Prince of Momochi House",
     "day": 5,
-    "time": "8:30 AM",
+    "time": "9:30 AM",
     "cover": "momochi-san-chi-no-ayakashi-ouji-d4dc30c25c",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQP4/the-demon-prince-of-momochi-house"
@@ -356,7 +359,7 @@
   "gH3D": {
     "title": "MASHLE: MAGIC AND MUSCLES",
     "day": 6,
-    "time": "8:00 AM",
+    "time": "9:00 AM",
     "cover": "mashle-2nd-season-cd64d078d4",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GDKHZEP8W/mashle-magic-and-muscles"
@@ -365,7 +368,7 @@
   "qp4S": {
     "title": "Blue Exorcist",
     "day": 6,
-    "time": "9:00 AM",
+    "time": "10:00 AM",
     "cover": "ao-no-exorcist-shin-series-7a55613191",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G649PJ0JY/blue-exorcist"
@@ -508,7 +511,7 @@
   "c3OR": {
     "title": "Synduality Noir",
     "day": 1,
-    "time": "8:00 AM",
+    "time": "7:30 AM",
     "cover": "synduality-noir-part-2-ec9407983c",
     "streams": {
       "Hulu": "https://www.hulu.com/series/10f2d56d-87f3-469f-8004-a0d2bab3d57d"
@@ -518,7 +521,7 @@
     "title": "Villainess Level 99: I May Be the Hidden Boss But I'm Not the Demon Lord",
     "day": 2,
     "time": "8:30 AM",
-    "cover": "akuyaku-reijou-level-99-watashi-wa-ura-boss-desu-ga-maou-dewa-arimasen-066d221855",
+    "cover": "akuyaku-reijou-level-99-watashi-wa-ura-boss-desu-ga-maou-dewa-arimasen-4215da22d2",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GKEH2G099/villainess-level-99-i-may-be-the-hidden-boss-but-im-not-the-demon-lord"
     }
@@ -574,7 +577,7 @@
     "title": "The Witch and the Beast",
     "day": 4,
     "time": "11:15 AM",
-    "cover": "majo-to-yajuu-80e9baace2",
+    "cover": "majo-to-yajuu-26b1cd0de0",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GZJH3D8W8/the-witch-and-the-beast"
     }
@@ -592,7 +595,7 @@
     "title": "Delusional Monthly Magazine",
     "day": 4,
     "time": "8:30 AM",
-    "cover": "gekkan-mousou-kagaku-791cedbf59",
+    "cover": "gekkan-mousou-kagaku-5616550674",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G8DHV78K4/delusional-monthly-magazine"
     }
@@ -601,7 +604,7 @@
     "title": "Brave Bang Bravern!",
     "day": 4,
     "time": "9:30 AM",
-    "cover": "yuuki-bakuhatsu-bang-bravern-22ee96834b",
+    "cover": "yuuki-bakuhatsu-bang-bravern-3e143e8ecf",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W217/brave-bang-bravern"
     }
@@ -638,7 +641,7 @@
   "xOW4": {
     "title": "The Fire Hunter",
     "day": 7,
-    "time": "7:30 AM",
+    "time": "8:30 AM",
     "cover": "hikari-no-ou-2nd-season-7e0beecd91",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7Q5X9/the-fire-hunter"
@@ -653,24 +656,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GW4HM7W4Q/meiji-gekken-1874"
     }
   },
-  "JPhm": {
-    "title": "Sakigake!! Reiwa no Otokojuku",
-    "day": 7,
-    "time": "2:00 PM",
-    "cover": "sakigake-reiwa-no-otokojuku-a1c343886f",
-    "streams": {},
-    "status": true
-  },
-  "CivX": {
-    "title": "I.CINNAMOROLL Animation",
-    "day": 4,
-    "time": "12:00 AM",
-    "cover": "i-cinnamoroll-animation-6fa50ef829",
-    "streams": {
-      "YouTube": "https://www.youtube.com/playlist?list=PLe-UftTUsMbk7fMwURgLZ6_kz71DGssQw"
-    },
-    "status": true
-  },
   "Ehom": {
     "title": "CARDFIGHT!! VANGUARD overDress",
     "day": 5,
@@ -683,9 +668,38 @@
   "zKyK": {
     "title": "Wonderful Precure!",
     "day": 6,
-    "time": "3:30 PM",
+    "time": "5:30 PM",
     "cover": "wonderful-precure-53a6dc3b85",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN9QWN/wonderful-precure"
+    }
+  },
+  "tJCl": {
+    "title": "Ninja Kamui",
+    "day": 6,
+    "time": "9:01 PM",
+    "cover": "ninja-kamui-09d5b18bcb",
     "streams": {},
+    "status": true
+  },
+  "JPhm": {
+    "title": "Sakigake!! Reiwa no Otokojuku",
+    "day": 7,
+    "time": "2:00 PM",
+    "cover": "sakigake-reiwa-no-otokojuku-a1c343886f",
+    "streams": {
+      "YouTube": "https://www.youtube.com/watch?v=fW9cac2ff9Q&list=PLjAdvGm7WsFjHNRxRN9TpsSY5Pe3Yr_-5"
+    },
+    "status": true
+  },
+  "CivX": {
+    "title": "I.CINNAMOROLL Animation",
+    "day": 4,
+    "time": "12:00 AM",
+    "cover": "i-cinnamoroll-animation-6fa50ef829",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLe-UftTUsMbk7fMwURgLZ6_kz71DGssQw"
+    },
     "status": true
   }
 }
