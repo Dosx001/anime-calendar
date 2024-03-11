@@ -13,7 +13,7 @@
   "urTI": {
     "title": "One Piece",
     "day": 6,
-    "time": "6:00 PM",
+    "time": "7:00 PM",
     "cover": "one-piece-f2f2a983a8",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/one-piece",
@@ -25,28 +25,28 @@
   "NAVE": {
     "title": "Doraemon (2005)",
     "day": 6,
-    "time": "12:00 AM",
+    "time": "1:00 AM",
     "cover": "doraemon-2005-371cbec0f6",
     "streams": {}
   },
   "ATJM": {
     "title": "Crayon Shin-chan",
-    "day": 5,
-    "time": "11:30 PM",
+    "day": 6,
+    "time": "12:30 AM",
     "cover": "crayon-shin-chan-dc430f9db0",
     "streams": {}
   },
   "1C3r": {
     "title": "Sazae-san",
     "day": 7,
-    "time": "1:30 AM",
+    "time": "2:30 AM",
     "cover": "sazae-san-162010bbcb",
     "streams": {}
   },
   "ziMS": {
     "title": "Ninjala",
     "day": 4,
-    "time": "7:00 PM",
+    "time": "8:00 PM",
     "cover": "ninjala-c19a7f2bbe",
     "streams": {
       "HiDive": "https://www.hidive.com/tv/ninjala-the-animation"
@@ -55,21 +55,21 @@
   "eGsT": {
     "title": "PazuDora",
     "day": 7,
-    "time": "1:00 AM",
+    "time": "2:00 AM",
     "cover": "pazudora-ca05e64b75",
     "streams": {}
   },
   "wrIz": {
     "title": "Yu\u2606Gi\u2606Oh! Go Rush!!",
     "day": 6,
-    "time": "2:30 PM",
+    "time": "3:30 PM",
     "cover": "yu-gi-oh-go-rush-9ca7d7e015",
     "streams": {}
   },
   "dzBo": {
     "title": "Holo no Graffiti",
     "day": 7,
-    "time": "1:01 AM",
+    "time": "2:01 AM",
     "cover": "holo-no-graffiti-95cd497081",
     "streams": {
       "YouTube": "https://www.youtube.com/playlist?list=PLb7AOG3cj7UyJfqsfXpvL2LUVdg0dOK7q"
@@ -78,7 +78,7 @@
   "vn9Y": {
     "title": "Tousouchuu: Great Mission",
     "day": 6,
-    "time": "4:01 PM",
+    "time": "5:01 PM",
     "cover": "tousouchuu-great-mission-2b70ef3975",
     "streams": {},
     "status": true
@@ -86,7 +86,7 @@
   "BkuV": {
     "title": "Pok\u00e9mon Horizons: The Series",
     "day": 5,
-    "time": "1:55 AM",
+    "time": "2:55 AM",
     "cover": "pokemon-2023-273f1b2226",
     "streams": {},
     "status": true
@@ -94,7 +94,7 @@
   "A9VI": {
     "title": "Sore Ike! Anpanman",
     "day": 4,
-    "time": "5:55 PM",
+    "time": "6:55 PM",
     "cover": "sore-ike-anpanman-dbeb359c0e",
     "streams": {},
     "status": true
@@ -102,15 +102,15 @@
   "PC6r": {
     "title": "Chibi Maruko-chan (1995)",
     "day": 7,
-    "time": "1:00 AM",
-    "cover": "chibi-maruko-chan-1995-04c12bc3f4",
+    "time": "2:00 AM",
+    "cover": "chibi-maruko-chan-1995-f4f98bb3b7",
     "streams": {},
     "status": true
   },
   "vkEQ": {
     "title": "Duel Masters Win: Duel Wars",
     "day": 6,
-    "time": "3:30 PM",
+    "time": "4:30 PM",
     "cover": "duel-masters-win-duel-wars-aa7151ea18",
     "streams": {},
     "status": true
@@ -139,7 +139,7 @@
   "6LIP": {
     "title": "Ragna Crimson",
     "day": 6,
-    "time": "8:01 AM",
+    "time": "9:01 AM",
     "cover": "ragna-crimson-2f2fd638d0",
     "streams": {
       "Amazon": "https://www.primevideo.com/detail/Ragna-Crimson/0U5EZSNVUVMCD4Z0IGE1HHSFHW",
@@ -160,7 +160,7 @@
   "tG35": {
     "title": "Captain Tsubasa: Junior Youth Arc",
     "day": 7,
-    "time": "1:00 AM",
+    "time": "2:00 AM",
     "cover": "captain-tsubasa-season-2-junior-youth-hen-17f2128c36",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WJDQ/captain-tsubasa-junior-youth-arc"
@@ -169,7 +169,7 @@
   "BQpb": {
     "title": "Undead Unluck",
     "day": 5,
-    "time": "11:00 AM",
+    "time": "12:00 PM",
     "cover": "undead-unluck-d7a4b88861",
     "streams": {
       "Hulu": "https://www.hulu.com/series/undead-unluck-1e7b20f8-4f5c-46ab-8b24-fa2700a6c7a7"
@@ -177,8 +177,8 @@
   },
   "MaIu": {
     "title": "The Seven Deadly Sins: Four Knights of the Apocalypse",
-    "day": 6,
-    "time": "11:30 PM",
+    "day": 7,
+    "time": "12:30 AM",
     "cover": "nanatsu-no-taizai-mokushiroku-no-yonkishi-c2dc2c4491",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81562396"
@@ -187,7 +187,7 @@
   "hZxw": {
     "title": "Odekake Kozame",
     "day": 2,
-    "time": "3:00 AM",
+    "time": "4:00 AM",
     "cover": "odekake-kozame-315b850ca6",
     "streams": {
       "YouTube": "https://www.youtube.com/playlist?list=PLjrUB63ikczNcRItB8koEfoBfA7sjCZ-k"
@@ -197,7 +197,7 @@
   "DqGO": {
     "title": "Beyblade X",
     "day": 5,
-    "time": "1:25 AM",
+    "time": "2:25 AM",
     "cover": "beyblade-x-f02b468b74",
     "streams": {},
     "status": true
@@ -215,7 +215,7 @@
   "AbQz": {
     "title": "DOG SIGNAL",
     "day": 1,
-    "time": "4:00 AM",
+    "time": "5:00 AM",
     "cover": "dog-signal-85e1172054",
     "streams": {
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhSe-gomdI46wzX0lGWtLxv"
@@ -225,7 +225,7 @@
   "XvhE": {
     "title": "Kusuriya no Hitorigoto Mini Anime",
     "day": 2,
-    "time": "7:00 PM",
+    "time": "8:00 PM",
     "cover": "maomao-no-hitorigoto-dc8e52e711",
     "streams": {
       "YouTube": "https://www.youtube.com/playlist?list=PLtdSPZNWT1AtlB6oZ-OLqZKXwMdMnIDiC"
@@ -244,7 +244,7 @@
   "kkLK": {
     "title": "Ishura",
     "day": 3,
-    "time": "6:01 AM",
+    "time": "7:01 AM",
     "cover": "ishura-dfe7952af3",
     "streams": {
       "Hulu": "https://www.hulu.com/series/ishura-811bac64-a492-4f1e-ba7a-393c825daeec"
@@ -272,7 +272,7 @@
   "gM9F": {
     "title": "Gushing Over Magical Girls",
     "day": 3,
-    "time": "8:00 AM",
+    "time": "9:00 AM",
     "cover": "mahou-shoujo-ni-akogarete-7b2f7d2d10.",
     "streams": {
       "HiDive": "https://www.hidive.com/tv/gushing-over-magical-girls"
@@ -281,7 +281,7 @@
   "lO3i": {
     "title": "Chained Soldier",
     "day": 4,
-    "time": "7:00 AM",
+    "time": "8:00 AM",
     "cover": "mato-seihei-no-slave-4e7495e634",
     "streams": {
       "HiDive": "https://www.hidive.com/tv/chained-soldier",
@@ -291,7 +291,7 @@
   "9Jxh": {
     "title": "My Instant Death Ability is Overpowered",
     "day": 4,
-    "time": "8:30 AM",
+    "time": "9:30 AM",
     "cover": "sokushi-cheat-ga-saikyou-sugite-isekai-no-yatsura-ga-marude-aite-ni-naranai-n-desu-ga-475c508dcb",
     "streams": {
       "HiDive": "https://www.hidive.com/tv/my-instant-death-ability-is-overpowered",
@@ -301,7 +301,7 @@
   "JN1Q": {
     "title": "Delicious in Dungeon",
     "day": 4,
-    "time": "5:31 AM",
+    "time": "6:31 AM",
     "cover": "dungeon-meshi-4c1c47673a",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81564899"
@@ -330,10 +330,10 @@
   "4kON": {
     "title": "Pon no Michi",
     "day": 5,
-    "time": "8:53 AM",
+    "time": "9:53 AM",
     "cover": "pon-no-michi-96a7ecf39b",
     "streams": {
-      "YouTube": "https://www.youtube.com/playlist?list=PLhGamQZtJ7K8dbIbgjqpRMo803YvCwsep"
+      "YouTube": "https://www.youtube.com/playlist?list=PLHP75qdNzPXwZiQJzgBUEfxqrNxFgAoqs"
     },
     "status": true
   },
@@ -377,7 +377,7 @@
   "nPeO": {
     "title": "The Dangers in My Heart",
     "day": 6,
-    "time": "10:00 AM",
+    "time": "11:00 AM",
     "cover": "boku-no-kokoro-no-yabai-yatsu-2-09dce55f70",
     "streams": {
       "HiDive": "https://www.hidive.com/tv/the-dangers-in-my-heart/season-2"
@@ -511,7 +511,7 @@
   "c3OR": {
     "title": "Synduality Noir",
     "day": 1,
-    "time": "7:30 AM",
+    "time": "8:30 AM",
     "cover": "synduality-noir-part-2-ec9407983c",
     "streams": {
       "Hulu": "https://www.hulu.com/series/10f2d56d-87f3-469f-8004-a0d2bab3d57d"
@@ -529,7 +529,7 @@
   "odBF": {
     "title": "SHAMAN KING FLOWERS",
     "day": 2,
-    "time": "7:00 AM",
+    "time": "8:00 AM",
     "cover": "shaman-king-zoku-hen-4498ae7b58",
     "streams": {},
     "status": true
@@ -566,7 +566,7 @@
   "CQ14": {
     "title": "Cherry Magic! Thirty Years of Virginity Can Make You a Wizard?!",
     "day": 3,
-    "time": "9:30 AM",
+    "time": "8:30 AM",
     "cover": "30-sai-made-doutei-dato-mahou-tsukai-ni-nareru-rashii-24538bdc44",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GP5HJ8435/cherry-magic-thirty-years-of-virginity-can-make-you-a-wizard",
@@ -576,7 +576,7 @@
   "2ZUg": {
     "title": "The Witch and the Beast",
     "day": 4,
-    "time": "11:15 AM",
+    "time": "10:15 AM",
     "cover": "majo-to-yajuu-26b1cd0de0",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GZJH3D8W8/the-witch-and-the-beast"
@@ -585,7 +585,7 @@
   "2kDV": {
     "title": "Urusei Yatsura",
     "day": 4,
-    "time": "9:30 AM",
+    "time": "10:30 AM",
     "cover": "urusei-yatsura-2022-2nd-season-6bcb315282",
     "streams": {
       "HiDive": "https://www.hidive.com/tv/urusei-yatsura/season-3"
@@ -659,7 +659,7 @@
   "Ehom": {
     "title": "CARDFIGHT!! VANGUARD overDress",
     "day": 5,
-    "time": "3:40 PM",
+    "time": "4:40 PM",
     "cover": "cardfight-vanguard-overdress-season-6-b45b0ad000",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3NJ5/cardfight-vanguard-overdress"
@@ -668,7 +668,7 @@
   "zKyK": {
     "title": "Wonderful Precure!",
     "day": 6,
-    "time": "5:30 PM",
+    "time": "6:30 PM",
     "cover": "wonderful-precure-53a6dc3b85",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN9QWN/wonderful-precure"
@@ -677,28 +677,10 @@
   "tJCl": {
     "title": "Ninja Kamui",
     "day": 6,
-    "time": "9:01 PM",
+    "time": "10:01 PM",
     "cover": "ninja-kamui-09d5b18bcb",
-    "streams": {},
-    "status": true
-  },
-  "JPhm": {
-    "title": "Sakigake!! Reiwa no Otokojuku",
-    "day": 7,
-    "time": "2:00 PM",
-    "cover": "sakigake-reiwa-no-otokojuku-a1c343886f",
     "streams": {
-      "YouTube": "https://www.youtube.com/watch?v=fW9cac2ff9Q&list=PLjAdvGm7WsFjHNRxRN9TpsSY5Pe3Yr_-5"
-    },
-    "status": true
-  },
-  "CivX": {
-    "title": "I.CINNAMOROLL Animation",
-    "day": 4,
-    "time": "12:00 AM",
-    "cover": "i-cinnamoroll-animation-6fa50ef829",
-    "streams": {
-      "YouTube": "https://www.youtube.com/playlist?list=PLe-UftTUsMbk7fMwURgLZ6_kz71DGssQw"
+      "Amazon": "https://www.amazon.com/Ninja-Kamui-Season-1/dp/B0CV3XH1NS"
     },
     "status": true
   }

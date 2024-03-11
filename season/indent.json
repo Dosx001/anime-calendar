@@ -57,6 +57,15 @@
       "Sports"
     ]
   },
+  "El3K": {
+    "title": "Chibi Godzilla no Gyakushuu 2nd Season",
+    "cover": "poster-21fa193001",
+    "studio": "Pie in the sky",
+    "source": "Original",
+    "genres": [
+      "Fantasy"
+    ]
+  },
   "rjgL": {
     "title": "Date A Live V",
     "cover": "date-a-live-v-8decf2fe28",
@@ -96,7 +105,7 @@
   "CXP5": {
     "title": "HIGHSPEED \u00c9toile",
     "cover": "highspeed-etoile-86dea2136b",
-    "studio": "N/A",
+    "studio": "Studio A-CAT",
     "source": "Original",
     "genres": [
       "Sports"
@@ -104,7 +113,7 @@
   },
   "WrVC": {
     "title": "Hananoi-kun to Koi no Yamai",
-    "cover": "hananoi-kun-to-koi-no-yamai-c06b175914",
+    "cover": "hananoi-kun-to-koi-no-yamai-6d00d871ed",
     "studio": "East Fish Studio",
     "source": "Manga",
     "genres": [
@@ -158,7 +167,7 @@
   },
   "J8He": {
     "title": "Jii-san Baa-san Wakagaeru",
-    "cover": "jii-san-baasan-wakagaeru-c87985dbcc",
+    "cover": "jii-san-baasan-wakagaeru-78c4c9db03",
     "studio": "Gekkou",
     "source": "Web Manga",
     "genres": [
@@ -169,7 +178,7 @@
   },
   "T8nl": {
     "title": "Kaii to Otome to Kamikakushi",
-    "cover": "kaii-to-otome-to-kamikakushi-1ba50b0d87",
+    "cover": "kaii-to-otome-to-kamikakushi-c35744b71c",
     "studio": "Zero-G",
     "source": "Web Manga",
     "genres": [
@@ -204,13 +213,14 @@
       "Drama",
       "Ecchi",
       "Fantasy",
+      "Game",
       "Romance"
     ]
   },
   "TrVm": {
     "title": "Karasu wa Aruji wo Erabanai",
     "cover": "karasu-wa-aruji-wo-erabanai-9a668f0654",
-    "studio": "N/A",
+    "studio": "Studio Pierrot",
     "source": "Novel",
     "genres": [
       "Action",
@@ -260,7 +270,7 @@
   },
   "RcIU": {
     "title": "Kuroshitsuji: Kishuku Gakkou-hen",
-    "cover": "kuroshitsuji-kishuku-gakkou-hen-ad9bf76340",
+    "cover": "kuroshitsuji-kishuku-gakkou-hen-1f991e3913",
     "studio": "CloverWorks",
     "source": "Manga",
     "genres": [
@@ -362,7 +372,7 @@
     ]
   },
   "XLds": {
-    "title": "Ookami to Koushinryou (2024)",
+    "title": "Ookami to Koushinryou: Merchant Meets the Wise Wolf",
     "cover": "ookami-to-koushinryou-shinsaku-anime-612c2ebf5d",
     "studio": "Passione",
     "source": "Light Novel",
@@ -376,7 +386,7 @@
   },
   "tXUH": {
     "title": "Re:Monster",
-    "cover": "re-monster-3aebcd1511",
+    "cover": "re-monster-a90ca861ce",
     "studio": "Studio DEEN",
     "source": "Light Novel",
     "genres": [
@@ -408,7 +418,7 @@
   },
   "NbVZ": {
     "title": "Seiyuu Radio no Uraomote",
-    "cover": "seiyuu-radio-no-uraomote-1933177710",
+    "cover": "seiyuu-radio-no-uraomote-2d9984ff6a",
     "studio": "CONNECT",
     "source": "Light Novel",
     "genres": [
@@ -432,7 +442,7 @@
   },
   "ONrt": {
     "title": "Shadowverse Flame: Arc-hen",
-    "cover": "poster-21fa193001",
+    "cover": "shadowverse-flame-arc-hen-8f98f11d47",
     "studio": "ZEXCS",
     "source": "Card Game",
     "genres": [
@@ -602,9 +612,9 @@
   },
   "yVPD": {
     "title": "WIND BREAKER",
-    "cover": "wind-breaker-5187ea41e0",
+    "cover": "wind-breaker-d084e3854a",
     "studio": "CloverWorks",
-    "source": "Manga",
+    "source": "Web Manga",
     "genres": [
       "Action",
       "Comedy",
@@ -614,7 +624,7 @@
   },
   "BxkY": {
     "title": "Yoru no Kurage wa Oyogenai",
-    "cover": "yoru-no-kurage-wa-oyogenai-b7262e4df7",
+    "cover": "yoru-no-kurage-wa-oyogenai-ca2984c1cb",
     "studio": "Doga Kobo",
     "source": "Original",
     "genres": [
@@ -623,7 +633,7 @@
   },
   "X2U6": {
     "title": "Yozakura-san Chi no Daisakusen",
-    "cover": "yozakura-san-chi-no-daisakusen-03cfac999b",
+    "cover": "yozakura-san-chi-no-daisakusen-e2c4b66f1a",
     "studio": "SILVER LINK.",
     "source": "Manga",
     "genres": [
