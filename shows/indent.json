@@ -115,27 +115,6 @@
     "streams": {},
     "status": true
   },
-  "Tav8": {
-    "title": "Frieren: Beyond Journey's End",
-    "day": 5,
-    "time": "8:00 AM",
-    "cover": "sousou-no-frieren-ec564ae1d9",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQX4/frieren-beyond-journeys-end",
-      "Netflix": "https://www.netflix.com/title/81726714",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl10YPPR7qDsVf10wZfYnIMK"
-    }
-  },
-  "oU6I": {
-    "title": "Firefighter Daigo: Rescuer in Orange",
-    "day": 6,
-    "time": "2:00 AM",
-    "cover": "megumi-no-daigo-kyuukoku-no-orange-8fa0cf605c",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM1MK/firefighter-daigo-rescuer-in-orange",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjUyg2zOamli_yuodl2aQFO"
-    }
-  },
   "6LIP": {
     "title": "Ragna Crimson",
     "day": 6,
@@ -143,7 +122,7 @@
     "cover": "ragna-crimson-2f2fd638d0",
     "streams": {
       "Amazon": "https://www.primevideo.com/detail/Ragna-Crimson/0U5EZSNVUVMCD4Z0IGE1HHSFHW",
-      "HiDive": "https://www.hidive.com/tv/ragna-crimson",
+      "HiDive": "https://www.hidive.com/series/1801",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2gLJyLH6BkSr4l1XPaKDjT"
     }
   },
@@ -166,15 +145,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WJDQ/captain-tsubasa-junior-youth-arc"
     }
   },
-  "BQpb": {
-    "title": "Undead Unluck",
-    "day": 5,
-    "time": "12:00 PM",
-    "cover": "undead-unluck-d7a4b88861",
-    "streams": {
-      "Hulu": "https://www.hulu.com/series/undead-unluck-1e7b20f8-4f5c-46ab-8b24-fa2700a6c7a7"
-    }
-  },
   "MaIu": {
     "title": "The Seven Deadly Sins: Four Knights of the Apocalypse",
     "day": 7,
@@ -186,7 +156,7 @@
   },
   "hZxw": {
     "title": "Odekake Kozame",
-    "day": 2,
+    "day": 5,
     "time": "4:00 AM",
     "cover": "odekake-kozame-315b850ca6",
     "streams": {
@@ -202,53 +172,15 @@
     "streams": {},
     "status": true
   },
-  "2TqS": {
-    "title": "The Apothecary Diaries",
-    "day": 6,
-    "time": "10:45 AM",
-    "cover": "kusuriya-no-hitorigoto-393de2094e",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEVDJ7/the-apothecary-diaries",
-      "Netflix": "https://www.netflix.com/title/81712068"
-    }
-  },
-  "AbQz": {
-    "title": "DOG SIGNAL",
-    "day": 1,
-    "time": "5:00 AM",
-    "cover": "dog-signal-85e1172054",
-    "streams": {
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhSe-gomdI46wzX0lGWtLxv"
-    },
-    "status": true
-  },
   "XvhE": {
     "title": "Kusuriya no Hitorigoto Mini Anime",
-    "day": 2,
+    "day": 7,
     "time": "8:00 PM",
     "cover": "maomao-no-hitorigoto-dc8e52e711",
     "streams": {
       "YouTube": "https://www.youtube.com/playlist?list=PLtdSPZNWT1AtlB6oZ-OLqZKXwMdMnIDiC"
     },
     "status": true
-  },
-  "WzQN": {
-    "title": "Fluffy Paradise",
-    "day": 7,
-    "time": "7:00 AM",
-    "cover": "isekai-de-mofumofu-nadenade-suru-tame-ni-ganbattemasu-54da17e73e",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GZJH3D858/fluffy-paradise"
-    }
-  },
-  "kkLK": {
-    "title": "Ishura",
-    "day": 3,
-    "time": "7:01 AM",
-    "cover": "ishura-dfe7952af3",
-    "streams": {
-      "Hulu": "https://www.hulu.com/series/ishura-811bac64-a492-4f1e-ba7a-393c825daeec"
-    }
   },
   "ov61": {
     "title": "Classroom of the Elite",
@@ -273,29 +205,9 @@
     "title": "Gushing Over Magical Girls",
     "day": 3,
     "time": "9:00 AM",
-    "cover": "mahou-shoujo-ni-akogarete-7b2f7d2d10.",
+    "cover": "mahou-shoujo-ni-akogarete-74fb58ce5d",
     "streams": {
       "HiDive": "https://www.hidive.com/tv/gushing-over-magical-girls"
-    }
-  },
-  "lO3i": {
-    "title": "Chained Soldier",
-    "day": 4,
-    "time": "8:00 AM",
-    "cover": "mato-seihei-no-slave-4e7495e634",
-    "streams": {
-      "HiDive": "https://www.hidive.com/tv/chained-soldier",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3ICvMY_c9VTL6yduj59Osl"
-    }
-  },
-  "9Jxh": {
-    "title": "My Instant Death Ability is Overpowered",
-    "day": 4,
-    "time": "9:30 AM",
-    "cover": "sokushi-cheat-ga-saikyou-sugite-isekai-no-yatsura-ga-marude-aite-ni-naranai-n-desu-ga-475c508dcb",
-    "streams": {
-      "HiDive": "https://www.hidive.com/tv/my-instant-death-ability-is-overpowered",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl24uc_SVJohCJFLtMu2Iaey"
     }
   },
   "JN1Q": {
@@ -317,35 +229,6 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2qQ39Obr5X2J0fIATD9M2M"
     }
   },
-  "uoDI": {
-    "title": "Sasaki and Peeps",
-    "day": 5,
-    "time": "5:30 AM",
-    "cover": "sasaki-to-pii-chan-5aa0c9e31b",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM935/sasaki-and-peeps",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3-9-2FJKBOwpaNg_K1oUoA"
-    }
-  },
-  "4kON": {
-    "title": "Pon no Michi",
-    "day": 5,
-    "time": "9:53 AM",
-    "cover": "pon-no-michi-96a7ecf39b",
-    "streams": {
-      "YouTube": "https://www.youtube.com/playlist?list=PLHP75qdNzPXwZiQJzgBUEfxqrNxFgAoqs"
-    },
-    "status": true
-  },
-  "wloG": {
-    "title": "The Demon Prince of Momochi House",
-    "day": 5,
-    "time": "9:30 AM",
-    "cover": "momochi-san-chi-no-ayakashi-ouji-d4dc30c25c",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQP4/the-demon-prince-of-momochi-house"
-    }
-  },
   "4DG1": {
     "title": "Solo Leveling",
     "day": 6,
@@ -365,15 +248,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GDKHZEP8W/mashle-magic-and-muscles"
     }
   },
-  "qp4S": {
-    "title": "Blue Exorcist",
-    "day": 6,
-    "time": "10:00 AM",
-    "cover": "ao-no-exorcist-shin-series-7a55613191",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G649PJ0JY/blue-exorcist"
-    }
-  },
   "nPeO": {
     "title": "The Dangers in My Heart",
     "day": 6,
@@ -383,36 +257,6 @@
       "HiDive": "https://www.hidive.com/tv/the-dangers-in-my-heart/season-2"
     }
   },
-  "frVv": {
-    "title": "Tales of Wedding Rings",
-    "day": 6,
-    "time": "6:00 AM",
-    "cover": "kekkon-yubiwa-monogatari-1da44db60f",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G79H23ZGP/tales-of-wedding-rings",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgkXAKRkC3TZ53T9itBSZdQ"
-    }
-  },
-  "nfpR": {
-    "title": "The Strongest Tank's Labyrinth Raids -A Tank with a Rare 9999 Resistance Skill Got Kicked from the Hero's Party-",
-    "day": 6,
-    "time": "11:00 AM",
-    "cover": "saikyou-tank-no-meikyuu-kouryaku-tairyoku-9999-no-rare-skill-mochi-tank-yuusha-party-wo-tsuihou-sareru-8165976e9c",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN9QKN/the-strongest-tanks-labyrinth-raids--a-tank-with-a-rare-9999-resistance-skill-got-kicked-from-the-heros-party-",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Ji3tb_Lb6OxaEz_cskN0WeZ"
-    }
-  },
-  "DtSA": {
-    "title": "A Sign of Affection",
-    "day": 6,
-    "time": "7:00 AM",
-    "cover": "yubisaki-to-renren-ed73221abb",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W2V7/a-sign-of-affection",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl14kD6iz4eILaU9kceG6UZL"
-    }
-  },
   "zlI8": {
     "title": "Kingdom",
     "day": 6,
@@ -420,45 +264,6 @@
     "cover": "kingdom-5-75ec9c6105",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GRWE89KMR/kingdom"
-    }
-  },
-  "pLOo": {
-    "title": "Banished from the Hero's Party, I Decided to Live a Quiet Life in the Countryside",
-    "day": 7,
-    "time": "7:30 AM",
-    "cover": "shin-no-nakama-ja-nai-to-yuusha-no-party-wo-oidasareta-node-henkyou-de-slow-life-suru-koto-ni-shimashita-2nd-season-344cb2a815",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN974E/banished-from-the-heros-party-i-decided-to-live-a-quiet-life-in-the-countryside",
-      "Funimation": "https://www.funimation.com/shows/banished-from-the-heros-party-i-decided-to-live-a-quiet-life-in-the-countryside/"
-    }
-  },
-  "iQld": {
-    "title": "7th Time Loop: The Villainess Enjoys a Carefree Life Married to Her Worst Enemy!",
-    "day": 7,
-    "time": "7:15 AM",
-    "cover": "loop-7-kaime-no-akuyaku-reijou-wa-moto-tekikoku-de-jiyuu-kimama-na-hanayome-seikatsu-wo-mankitsu-suru-5a63eb7398",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WJGQ/7th-time-loop-the-villainess-enjoys-a-carefree-life-married-to-her-worst-enemy"
-    }
-  },
-  "BE18": {
-    "title": "Mr. Villain's Day Off",
-    "day": 7,
-    "time": "10:45 AM",
-    "cover": "kyuujitsu-no-warumono-san-65f4ee1d20",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3GV4/mr-villains-day-off"
-    }
-  },
-  "TueF": {
-    "title": "The Unwanted Undead Adventurer",
-    "day": 5,
-    "time": "6:30 AM",
-    "cover": "nozomanu-fushi-no-boukensha-4bf62a8e64",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GW4HM7WZQ/the-unwanted-undead-adventurer",
-      "Netflix": "https://netflix.com/title/81746882",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3tJE53C10vT7BjOzXaG5q5"
     }
   },
   "Bglq": {
@@ -638,24 +443,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM985/bucchigiri"
     }
   },
-  "xOW4": {
-    "title": "The Fire Hunter",
-    "day": 7,
-    "time": "8:30 AM",
-    "cover": "hikari-no-ou-2nd-season-7e0beecd91",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7Q5X9/the-fire-hunter"
-    }
-  },
-  "datU": {
-    "title": "Meiji Gekken: 1874",
-    "day": 7,
-    "time": "8:00 AM",
-    "cover": "meiji-gekken-1874-a145c00f21",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GW4HM7W4Q/meiji-gekken-1874"
-    }
-  },
   "Ehom": {
     "title": "CARDFIGHT!! VANGUARD overDress",
     "day": 5,
@@ -677,11 +464,55 @@
   "tJCl": {
     "title": "Ninja Kamui",
     "day": 6,
-    "time": "10:01 PM",
+    "time": "9:01 PM",
     "cover": "ninja-kamui-09d5b18bcb",
     "streams": {
       "Amazon": "https://www.amazon.com/Ninja-Kamui-Season-1/dp/B0CV3XH1NS"
     },
+    "status": true
+  },
+  "JPhm": {
+    "title": "Sakigake!! Reiwa no Otokojuku",
+    "day": 7,
+    "time": "3:00 PM",
+    "cover": "sakigake-reiwa-no-otokojuku-a1c343886f",
+    "streams": {
+      "YouTube": "https://www.youtube.com/watch?v=fW9cac2ff9Q&list=PLjAdvGm7WsFjHNRxRN9TpsSY5Pe3Yr_-5"
+    },
+    "status": true
+  },
+  "slZk": {
+    "title": "SAND LAND: THE SERIES",
+    "day": 3,
+    "time": "12:00 AM",
+    "cover": "sand-land-the-series-8fe6a60593",
+    "streams": {},
+    "status": true
+  },
+  "CivX": {
+    "title": "I.CINNAMOROLL Animation",
+    "day": 4,
+    "time": "1:00 AM",
+    "cover": "i-cinnamoroll-animation-6fa50ef829",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLe-UftTUsMbk7fMwURgLZ6_kz71DGssQw"
+    },
+    "status": true
+  },
+  "ppS9": {
+    "title": "One Room, Hiatari Futsuu, Tenshi-tsuki.",
+    "day": 6,
+    "time": "6:00 AM",
+    "cover": "one-room-hiatari-futsuu-tenshi-tsuki-a7e8d859b5",
+    "streams": {},
+    "status": true
+  },
+  "8KD4": {
+    "title": "Yubisaki Petit",
+    "day": 6,
+    "time": "8:00 PM",
+    "cover": "yubisaki-petit-26cbe83e92",
+    "streams": {},
     "status": true
   }
 }
