@@ -110,7 +110,7 @@
   },
   "hZxw": {
     "title": "Odekake Kozame",
-    "day": 2,
+    "day": 5,
     "time": "4:00 AM",
     "cover": "odekake-kozame-315b850ca6",
     "streams": {
@@ -184,7 +184,7 @@
   },
   "JPhm": {
     "title": "Sakigake!! Reiwa no Otokojuku",
-    "day": 4,
+    "day": 7,
     "time": "3:00 PM",
     "cover": "sakigake-reiwa-no-otokojuku-a1c343886f",
     "streams": {
@@ -232,7 +232,7 @@
     "title": "Gods' Games We Play",
     "day": 1,
     "time": "6:30 AM",
-    "cover": "kami-wa-game-ni-ueteiru-e56f15d1f2",
+    "cover": "kami-wa-game-ni-ueteiru-35c57345f7",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM1Q0/gods-games-we-play"
     }
@@ -258,7 +258,7 @@
     "title": "The Banished Former Hero Lives as He Pleases",
     "day": 1,
     "time": "11:30 AM",
-    "cover": "dekisokonai-to-yobareta-motoeiyuu-wa-jikka-kara-tsuihou-sareta-node-sukikatte-ni-ikiru-koto-ni-shita-5f0aaf1d18",
+    "cover": "dekisokonai-to-yobareta-motoeiyuu-wa-jikka-kara-tsuihou-sareta-node-sukikatte-ni-ikiru-koto-ni-shita-7e76f7cf27",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WJPN/the-banished-former-hero-lives-as-he-pleases"
     }
@@ -291,7 +291,7 @@
   },
   "2bC1": {
     "title": "Ensemble Stars!! Tsuioku Selection Checkmate",
-    "day": 6,
+    "day": 5,
     "time": "5:00 PM",
     "cover": "ensemble-stars-tsuioku-selection-checkmate-63a5a8fd00",
     "streams": {},
@@ -326,7 +326,7 @@
     "title": "Boukyaku Battery (TV)",
     "day": 2,
     "time": "8:00 AM",
-    "cover": "boukyaku-battery-tv-fb1f767a73",
+    "cover": "boukyaku-battery-tv-62abff6c96",
     "streams": {},
     "status": true
   },
@@ -335,14 +335,6 @@
     "day": 2,
     "time": "7:30 AM",
     "cover": "rinkai-d02f891fdc",
-    "streams": {},
-    "status": true
-  },
-  "El3K": {
-    "title": "Chibi Godzilla no Gyakushuu 2nd Season",
-    "day": 2,
-    "time": "3:05 PM",
-    "cover": "chibi-godzilla-no-gyakushuu-2nd-season-d1dcfb358f",
     "streams": {},
     "status": true
   },
@@ -430,13 +422,13 @@
     "title": "Mahouka Koukou no Rettousei 3",
     "day": 5,
     "time": "7:30 AM",
-    "cover": "mahouka-koukou-no-rettousei-3-d0d1b16d93",
+    "cover": "mahouka-koukou-no-rettousei-3-afed31c3d6",
     "streams": {},
     "status": true
   },
   "yVPD": {
     "title": "WIND BREAKER",
-    "day": 5,
+    "day": 4,
     "time": "8:26 AM",
     "cover": "wind-breaker-d084e3854a",
     "streams": {},
@@ -446,7 +438,7 @@
     "title": "Henjin no Salad Bowl",
     "day": 5,
     "time": "9:28 AM",
-    "cover": "henjin-no-salad-bowl-051a601300",
+    "cover": "henjin-no-salad-bowl-1eb5c959bc",
     "streams": {},
     "status": true
   },
@@ -462,7 +454,7 @@
     "title": "Girls Band Cry",
     "day": 5,
     "time": "8:30 AM",
-    "cover": "girls-band-cry-3a18cef9da",
+    "cover": "girls-band-cry-9afbfbd4c0",
     "streams": {},
     "status": true
   },
@@ -486,7 +478,7 @@
     "title": "The iDOLM@STER: Shiny Colors",
     "day": 5,
     "time": "9:23 AM",
-    "cover": "the-idolmaster-shiny-colors-20117374c4",
+    "cover": "the-idolmaster-shiny-colors-32b2b11b08",
     "streams": {},
     "status": true
   },
@@ -526,7 +518,7 @@
     "title": "Yoru no Kurage wa Oyogenai",
     "day": 6,
     "time": "9:00 AM",
-    "cover": "yoru-no-kurage-wa-oyogenai-ca2984c1cb",
+    "cover": "yoru-no-kurage-wa-oyogenai-6f551d3485",
     "streams": {},
     "status": true
   },
@@ -534,7 +526,7 @@
     "title": "The Fable",
     "day": 6,
     "time": "8:55 AM",
-    "cover": "the-fable-2bf55fd625",
+    "cover": "the-fable-e9f37144ba",
     "streams": {},
     "status": true
   },
@@ -566,7 +558,7 @@
     "title": "Shinkalion: Change the World",
     "day": 6,
     "time": "4:30 PM",
-    "cover": "shinkalion-change-the-world-70e8de7c94",
+    "cover": "shinkalion-change-the-world-9fdc0df233",
     "streams": {},
     "status": true
   },
@@ -574,7 +566,7 @@
     "title": "Himitsu no AiPri",
     "day": 6,
     "time": "6:00 PM",
-    "cover": "himitsu-no-aipri-8731a6ee21",
+    "cover": "himitsu-no-aipri-ca0a7e7636",
     "streams": {},
     "status": true
   },
@@ -614,7 +606,7 @@
     "title": "Sentai Daishikkaku",
     "day": 7,
     "time": "12:30 AM",
-    "cover": "sentai-daishikkaku-314808c12c",
+    "cover": "sentai-daishikkaku-d60b4cfda1",
     "streams": {},
     "status": true
   },
@@ -647,6 +639,14 @@
     "day": 7,
     "time": "1:00 AM",
     "cover": "hibike-euphonium-kumiko-3-nensei-hen-5eed192b6e",
+    "streams": {},
+    "status": true
+  },
+  "39ZT": {
+    "title": "Yuru Camp\u25b3: SEASON 3",
+    "day": 4,
+    "time": "7:00 AM",
+    "cover": "yuru-camp-3-293f17c2f9",
     "streams": {},
     "status": true
   }
