@@ -110,7 +110,7 @@
   },
   "hZxw": {
     "title": "Odekake Kozame",
-    "day": 2,
+    "day": 5,
     "time": "4:00 AM",
     "cover": "odekake-kozame-315b850ca6",
     "streams": {
@@ -184,7 +184,7 @@
   },
   "JPhm": {
     "title": "Sakigake!! Reiwa no Otokojuku",
-    "day": 4,
+    "day": 7,
     "time": "3:00 PM",
     "cover": "sakigake-reiwa-no-otokojuku-a1c343886f",
     "streams": {
@@ -301,20 +301,22 @@
     "status": true
   },
   "9FAT": {
-    "title": "Maou no Ore ga Dorei Elf wo Yome ni Shitanda ga, Dou Medereba Ii?",
+    "title": "An Archdemon's Dilemma: How to Love Your Elf Bride",
     "day": 4,
-    "time": "8:30 AM",
+    "time": "9:00 AM",
     "cover": "maou-no-ore-ga-dorei-elf-wo-yome-ni-shitanda-ga-dou-medereba-ii-867984d9ba",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G24H1NW20/an-archdemons-dilemma-how-to-love-your-elf-bride"
+    }
   },
   "WrVC": {
-    "title": "Hananoi-kun to Koi no Yamai",
+    "title": "A Condition Called Love",
     "day": 4,
-    "time": "7:56 AM",
+    "time": "10:00 AM",
     "cover": "hananoi-kun-to-koi-no-yamai-6d00d871ed",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GP5HJ84QX/a-condition-called-love"
+    }
   },
   "tvGW": {
     "title": "Tensei shitara Slime Datta Ken 3",
@@ -337,14 +339,15 @@
   "yVPD": {
     "title": "WIND BREAKER",
     "day": 4,
-    "time": "9:56 AM",
+    "time": "10:30 AM",
     "cover": "wind-breaker-d084e3854a",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEVDPE/wind-breaker"
+    }
   },
   "xP9o": {
     "title": "Henjin no Salad Bowl",
-    "day": 5,
+    "day": 4,
     "time": "9:28 AM",
     "cover": "henjin-no-salad-bowl-1eb5c959bc",
     "streams": {},
@@ -511,12 +514,14 @@
     "status": true
   },
   "39ZT": {
-    "title": "Yuru Camp\u25b3: SEASON 3",
+    "title": "Laid-Back Camp",
     "day": 4,
-    "time": "7:00 AM",
+    "time": "8:00 AM",
     "cover": "yuru-camp-3-293f17c2f9",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GRWEW95KR/laid-back-camp",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgpM3BhpeDhDvAXuIUQjOj6"
+    }
   },
   "odBF": {
     "title": "SHAMAN KING FLOWERS",

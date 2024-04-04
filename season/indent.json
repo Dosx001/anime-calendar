@@ -7,8 +7,7 @@
     "genres": [
       "Comedy",
       "Romance",
-      "Sci-Fi",
-      "Slice of Life"
+      "Sci-Fi"
     ]
   },
   "iVFQ": {
@@ -29,6 +28,9 @@
     "source": "Video Game",
     "genres": [
       "Action",
+      "Drama",
+      "Fantasy",
+      "School",
       "Sci-Fi"
     ]
   },
@@ -47,7 +49,7 @@
   },
   "KWoO": {
     "title": "Boukyaku Battery (TV)",
-    "cover": "boukyaku-battery-tv-fb1f767a73",
+    "cover": "boukyaku-battery-tv-62abff6c96",
     "studio": "MAPPA",
     "source": "Manga",
     "genres": [
@@ -55,15 +57,6 @@
       "School",
       "Shounen",
       "Sports"
-    ]
-  },
-  "El3K": {
-    "title": "Chibi Godzilla no Gyakushuu 2nd Season",
-    "cover": "chibi-godzilla-no-gyakushuu-2nd-season-d1dcfb358f",
-    "studio": "Pie in the sky",
-    "source": "Original",
-    "genres": [
-      "Fantasy"
     ]
   },
   "rjgL": {
@@ -82,7 +75,7 @@
   },
   "XvH6": {
     "title": "Dekisokonai to Yobareta Motoeiyuu wa Jikka kara Tsuihou sareta node Sukikatte ni Ikiru Koto ni Shita",
-    "cover": "dekisokonai-to-yobareta-motoeiyuu-wa-jikka-kara-tsuihou-sareta-node-sukikatte-ni-ikiru-koto-ni-shita-5f0aaf1d18",
+    "cover": "dekisokonai-to-yobareta-motoeiyuu-wa-jikka-kara-tsuihou-sareta-node-sukikatte-ni-ikiru-koto-ni-shita-7e76f7cf27",
     "studio": "Marvy Jack",
     "source": "Light Novel",
     "genres": [
@@ -95,7 +88,7 @@
   },
   "LCpr": {
     "title": "Girls Band Cry",
-    "cover": "girls-band-cry-3a18cef9da",
+    "cover": "girls-band-cry-9afbfbd4c0",
     "studio": "Toei Animation",
     "source": "Original",
     "genres": [
@@ -125,7 +118,7 @@
   },
   "xP9o": {
     "title": "Henjin no Salad Bowl",
-    "cover": "henjin-no-salad-bowl-051a601300",
+    "cover": "henjin-no-salad-bowl-1eb5c959bc",
     "studio": "Studio Comet",
     "source": "Light Novel",
     "genres": [
@@ -149,7 +142,7 @@
   },
   "vGHc": {
     "title": "Himitsu no AiPri",
-    "cover": "himitsu-no-aipri-8731a6ee21",
+    "cover": "himitsu-no-aipri-ca0a7e7636",
     "studio": "Dongwoo A&E",
     "source": "Video Game",
     "genres": [
@@ -205,7 +198,7 @@
   },
   "4vRT": {
     "title": "Kami wa Game ni Ueteiru.",
-    "cover": "kami-wa-game-ni-ueteiru-e56f15d1f2",
+    "cover": "kami-wa-game-ni-ueteiru-35c57345f7",
     "studio": "LIDENFILMS",
     "source": "Light Novel",
     "genres": [
@@ -297,7 +290,7 @@
   },
   "Dpe5": {
     "title": "Mahouka Koukou no Rettousei 3",
-    "cover": "mahouka-koukou-no-rettousei-3-d0d1b16d93",
+    "cover": "mahouka-koukou-no-rettousei-3-afed31c3d6",
     "studio": "8bit",
     "source": "Light Novel",
     "genres": [
@@ -430,7 +423,7 @@
   },
   "D9FZ": {
     "title": "Sentai Daishikkaku",
-    "cover": "sentai-daishikkaku-314808c12c",
+    "cover": "sentai-daishikkaku-d60b4cfda1",
     "studio": "Yostar Pictures",
     "source": "Manga",
     "genres": [
@@ -466,7 +459,7 @@
   },
   "nMVN": {
     "title": "Shinkalion: Change the World",
-    "cover": "shinkalion-change-the-world-70e8de7c94",
+    "cover": "shinkalion-change-the-world-9fdc0df233",
     "studio": "Production I.G",
     "source": "Other",
     "genres": [
@@ -481,7 +474,11 @@
     "cover": "shuumatsu-train-doko-e-iku-95d69b4a17",
     "studio": "EMT Squared",
     "source": "Original",
-    "genres": []
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Sci-Fi"
+    ]
   },
   "Bnz8": {
     "title": "THE NEW GATE",
@@ -513,7 +510,6 @@
     "source": "Light Novel",
     "genres": [
       "Adventure",
-      "Drama",
       "Fantasy",
       "Isekai"
     ]
@@ -546,7 +542,7 @@
   },
   "fleO": {
     "title": "The Fable",
-    "cover": "the-fable-2bf55fd625",
+    "cover": "the-fable-e9f37144ba",
     "studio": "Tezuka Productions",
     "source": "Manga",
     "genres": [
@@ -559,7 +555,7 @@
   },
   "cz8p": {
     "title": "The iDOLM@STER: Shiny Colors",
-    "cover": "the-idolmaster-shiny-colors-20117374c4",
+    "cover": "the-idolmaster-shiny-colors-32b2b11b08",
     "studio": "POLYGON PICTURES",
     "source": "Video Game",
     "genres": [
@@ -624,7 +620,7 @@
   },
   "BxkY": {
     "title": "Yoru no Kurage wa Oyogenai",
-    "cover": "yoru-no-kurage-wa-oyogenai-ca2984c1cb",
+    "cover": "yoru-no-kurage-wa-oyogenai-6f551d3485",
     "studio": "Doga Kobo",
     "source": "Original",
     "genres": [
@@ -645,7 +641,7 @@
   },
   "39ZT": {
     "title": "Yuru Camp\u25b3: SEASON 3",
-    "cover": "yuru-camp-3-1ce0039b3d",
+    "cover": "yuru-camp-3-293f17c2f9",
     "studio": "8bit",
     "source": "Manga",
     "genres": [
