@@ -110,7 +110,7 @@
   },
   "hZxw": {
     "title": "Odekake Kozame",
-    "day": 5,
+    "day": 2,
     "time": "4:00 AM",
     "cover": "odekake-kozame-315b850ca6",
     "streams": {
@@ -184,7 +184,7 @@
   },
   "JPhm": {
     "title": "Sakigake!! Reiwa no Otokojuku",
-    "day": 7,
+    "day": 4,
     "time": "3:00 PM",
     "cover": "sakigake-reiwa-no-otokojuku-a1c343886f",
     "streams": {
@@ -319,22 +319,23 @@
     }
   },
   "tvGW": {
-    "title": "Tensei shitara Slime Datta Ken 3",
+    "title": "That Time I Got Reincarnated as a Slime",
     "day": 5,
-    "time": "8:00 AM",
+    "time": "8:30 AM",
     "cover": "tensei-shitara-slime-datta-ken-3rd-season-307c003f5d",
     "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GYZJ43JMR/that-time-i-got-reincarnated-as-a-slime",
       "YouTube": "https://www.youtube.com/watch?v=MEDyQiOB7xk&list=PLwLSw1_eDZl0TccWcuNXEUCq0R6KBWYFW"
-    },
-    "status": true
+    }
   },
   "Dpe5": {
-    "title": "Mahouka Koukou no Rettousei 3",
+    "title": "The Irregular at Magic High School",
     "day": 5,
     "time": "7:30 AM",
     "cover": "mahouka-koukou-no-rettousei-3-afed31c3d6",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GRMGDGZVR/the-irregular-at-magic-high-school"
+    }
   },
   "yVPD": {
     "title": "WIND BREAKER",
@@ -346,20 +347,22 @@
     }
   },
   "xP9o": {
-    "title": "Henjin no Salad Bowl",
+    "title": "A Salad Bowl of Eccentrics",
     "day": 4,
-    "time": "9:28 AM",
+    "time": "11:45 AM",
     "cover": "henjin-no-salad-bowl-1eb5c959bc",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX85VN/a-salad-bowl-of-eccentrics"
+    }
   },
   "PljV": {
     "title": "Astro Note",
     "day": 5,
-    "time": "6:30 AM",
+    "time": "7:00 AM",
     "cover": "astro-note-d2d896d83a",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G8DHV78D7/astro-note"
+    }
   },
   "LCpr": {
     "title": "Girls Band Cry",
