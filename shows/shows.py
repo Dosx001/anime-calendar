@@ -79,9 +79,9 @@ class Shows:
                         for stream in show.find_elements(By.CLASS_NAME, "stream-link")
                     }
                     content: ShowType = {
-                        "title": self.shows[key]["title"]
-                        if key in self.shows
-                        else title,
+                        "title": (
+                            self.shows[key]["title"] if key in self.shows else title
+                        ),
                         "day": num,
                         "time": time,
                         "cover": str(cover)[77:-4],
@@ -245,12 +245,15 @@ class Shows:
 
     def hidive(self, url: str) -> str | None:
         self.driver.get(url)
-        text = (
-            self.driver.find_element(By.ID, "showInfoPage")
-            .find_element(By.TAG_NAME, "a")
-            .get_property("text")
-        )
-        return text if isinstance(text, str) else None
+        while True:
+            try:
+                return (
+                    self.driver.find_element(By.CLASS_NAME, "composed-page")
+                    .find_element(By.CLASS_NAME, "r-1its8ov")
+                    .text
+                )
+            except NoSuchElementException:
+                sleep(0.1)
 
     def hulu(self, url: str) -> str | None:
         self.driver.get(url)

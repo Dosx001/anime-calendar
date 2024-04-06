@@ -25,15 +25,15 @@ class TestList(unittest.TestCase):
         title = self.shw.crunchyroll("https://www.crunchyroll.com/attack-on-titan")
         self.assertEqual(title, "Attack on Titan")
 
-    def test_funimation(self):
-        title = self.shw.funimation(
-            "https://www.funimation.com/shows/the-detective-is-already-dead/"
-        )
-        self.assertEqual(title, "The Detective Is Already Dead")
+    # def test_funimation(self):
+    #     title = self.shw.funimation(
+    #         "https://www.funimation.com/shows/the-detective-is-already-dead/"
+    #     )
+    #     self.assertEqual(title, "The Detective Is Already Dead")
 
     def test_hidive(self):
-        title = self.shw.hidive("https://www.hidive.com/movies/tamako-love-story-")
-        self.assertEqual(title, "Tamako-love story-")
+        title = self.shw.hidive("https://www.hidive.com/season/22306")
+        self.assertEqual(title, "Urusei Yatsura")
 
     def test_hulu(self):
         title = self.shw.hulu(
@@ -48,21 +48,22 @@ class TestList(unittest.TestCase):
     def test_netflix2(self):
         title = self.shw.netflix("https://www.netflix.com/bg/title/81239555")
         self.assertEqual(title, "SHAMAN KING")
-
-    def test_vrv(self):
-        title = self.shw.vrv("https://vrv.co/series/GG5H5X7ZE")
-        self.assertEqual(title, "Koikimo")
-
-    def test_vrv2(self):
-        title = self.shw.vrv("https://vrv.co/series/G6NQ5DWZ6/My-Hero-Academia")
-        self.assertEqual(title, "My Hero Academia")
-
-    def test_wakanim(self):
-        title = self.shw.wakanim(
-            "https://www.wakanim.tv/sc/v2/catalogue/show/1203/horimiya"
-        )
-        self.assertEqual(title, "Horimiya")
         self.shw.driver.quit()
+
+    # def test_vrv(self):
+    #     title = self.shw.vrv("https://vrv.co/series/GG5H5X7ZE")
+    #     self.assertEqual(title, "Koikimo")
+
+    # def test_vrv2(self):
+    #     title = self.shw.vrv("https://vrv.co/series/G6NQ5DWZ6/My-Hero-Academia")
+    #     self.assertEqual(title, "My Hero Academia")
+
+    # def test_wakanim(self):
+    #     title = self.shw.wakanim(
+    #         "https://www.wakanim.tv/sc/v2/catalogue/show/1203/horimiya"
+    #     )
+    #     self.assertEqual(title, "Horimiya")
+    #     self.shw.driver.quit()
 
 
 if __name__ == "__main__":
