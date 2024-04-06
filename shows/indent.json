@@ -110,7 +110,7 @@
   },
   "hZxw": {
     "title": "Odekake Kozame",
-    "day": 2,
+    "day": 5,
     "time": "4:00 AM",
     "cover": "odekake-kozame-315b850ca6",
     "streams": {
@@ -184,7 +184,7 @@
   },
   "JPhm": {
     "title": "Sakigake!! Reiwa no Otokojuku",
-    "day": 4,
+    "day": 7,
     "time": "3:00 PM",
     "cover": "sakigake-reiwa-no-otokojuku-a1c343886f",
     "streams": {
@@ -212,12 +212,13 @@
     "status": true
   },
   "ppS9": {
-    "title": "One Room, Hiatari Futsuu, Tenshi-tsuki.",
+    "title": "Studio Apartment, Good Lighting, Angel Included",
     "day": 6,
     "time": "7:00 AM",
     "cover": "one-room-hiatari-futsuu-tenshi-tsuki-a7e8d859b5",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN9QWQ/studio-apartment-good-lighting-angel-included"
+    }
   },
   "M1CQ": {
     "title": "I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability",
@@ -331,7 +332,7 @@
   "Dpe5": {
     "title": "The Irregular at Magic High School",
     "day": 5,
-    "time": "7:30 AM",
+    "time": "9:00 AM",
     "cover": "mahouka-koukou-no-rettousei-3-afed31c3d6",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GRMGDGZVR/the-irregular-at-magic-high-school"
@@ -375,7 +376,7 @@
   "CXP5": {
     "title": "HIGHSPEED \u00c9toile",
     "day": 5,
-    "time": "9:53 AM",
+    "time": "11:00 AM",
     "cover": "highspeed-etoile-7a833cf67c",
     "streams": {},
     "status": true
@@ -383,7 +384,7 @@
   "H3nW": {
     "title": "Ooi! Tonbo",
     "day": 5,
-    "time": "6:00 PM",
+    "time": "6:30 PM",
     "cover": "ooi-tonbo-02129f840a",
     "streams": {},
     "status": true
@@ -397,20 +398,23 @@
     "status": true
   },
   "BxkY": {
-    "title": "Yoru no Kurage wa Oyogenai",
+    "title": "Jellyfish Can't Swim in the Night",
     "day": 6,
-    "time": "9:00 AM",
+    "time": "9:30 AM",
     "cover": "yoru-no-kurage-wa-oyogenai-6f551d3485",
-    "streams": {},
-    "status": true
+    "streams": {
+      "HiDive": "https://www.hidive.com/season/22309",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2z_raZP-3EdZOrEzjrGXco"
+    }
   },
   "fleO": {
     "title": "The Fable",
     "day": 6,
-    "time": "8:55 AM",
+    "time": "9:15 AM",
     "cover": "the-fable-e9f37144ba",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Hulu": "https://www.hulu.com/series/the-fable-36c2be07-2f2e-400f-9da5-aed0b5d401cb"
+    }
   },
   "TrVm": {
     "title": "Karasu wa Aruji wo Erabanai",
@@ -421,12 +425,13 @@
     "status": true
   },
   "Epi2": {
-    "title": "Tonari no Youkai-san",
+    "title": "Tonari no Yokai-san",
     "day": 6,
-    "time": "10:00 AM",
+    "time": "12:00 PM",
     "cover": "tonari-no-youkai-san-6a33de4c83",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GQWH0M1DX/tonari-no-yokai-san"
+    }
   },
   "nMVN": {
     "title": "Shinkalion: Change the World",
