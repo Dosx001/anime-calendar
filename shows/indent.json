@@ -110,7 +110,7 @@
   },
   "hZxw": {
     "title": "Odekake Kozame",
-    "day": 2,
+    "day": 5,
     "time": "4:00 AM",
     "cover": "odekake-kozame-315b850ca6",
     "streams": {
@@ -182,20 +182,10 @@
     },
     "status": true
   },
-  "JPhm": {
-    "title": "Sakigake!! Reiwa no Otokojuku",
-    "day": 4,
-    "time": "3:00 PM",
-    "cover": "sakigake-reiwa-no-otokojuku-a1c343886f",
-    "streams": {
-      "YouTube": "https://www.youtube.com/watch?v=fW9cac2ff9Q&list=PLjAdvGm7WsFjHNRxRN9TpsSY5Pe3Yr_-5"
-    },
-    "status": true
-  },
   "slZk": {
     "title": "SAND LAND: THE SERIES",
     "day": 3,
-    "time": "7:45 AM",
+    "time": "12:01 AM",
     "cover": "sand-land-the-series-8fe6a60593",
     "streams": {
       "Hulu": "https://www.hulu.com/series/sand-land-the-series-ede9d04a-8330-4524-8976-40b1520d4633"
@@ -245,7 +235,8 @@
     "time": "11:00 AM",
     "cover": "ookami-to-koushinryou-shinsaku-anime-612c2ebf5d",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV08M/spice-and-wolf-merchant-meets-the-wise-wolf"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV08M/spice-and-wolf-merchant-meets-the-wise-wolf",
+      "Netflix": "https://www.netflix.com/to/title/81768918"
     }
   },
   "XvH6": {
@@ -294,12 +285,13 @@
     "status": true
   },
   "iVFQ": {
-    "title": "Bartender: Kami no Glass",
+    "title": "BARTENDER Glass of God",
     "day": 3,
     "time": "9:30 AM",
     "cover": "bartender-kami-no-glass-9c5e4163b6",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX85DV/bartender-glass-of-god"
+    }
   },
   "9FAT": {
     "title": "An Archdemon's Dilemma: How to Love Your Elf Bride",
@@ -316,7 +308,8 @@
     "time": "10:00 AM",
     "cover": "hananoi-kun-to-koi-no-yamai-6d00d871ed",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GP5HJ84QX/a-condition-called-love"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GP5HJ84QX/a-condition-called-love",
+      "Netflix": "https://www.netflix.com/title/81765078"
     }
   },
   "tvGW": {
@@ -466,7 +459,7 @@
   "OlN5": {
     "title": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World",
     "day": 7,
-    "time": "8:00 AM",
+    "time": "8:15 AM",
     "cover": "tensei-kizoku-kantei-skill-de-nariagaru-43de80076f",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQMD/as-a-reincarnated-aristocrat-ill-use-my-appraisal-skill-to-rise-in-the-world"
@@ -544,60 +537,134 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgpM3BhpeDhDvAXuIUQjOj6"
     }
   },
-  "odBF": {
-    "title": "SHAMAN KING FLOWERS",
+  "gzEp": {
+    "title": "Chillin\u2019 in Another World with Level 2 Super Cheat Powers",
+    "day": 1,
+    "time": "7:30 AM",
+    "cover": "lv2-kara-cheat-datta-motoyuusha-kouho-no-mattari-isekai-life-521e446a67",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W2PK/chillin-in-another-world-with-level-2-super-cheat-powers"
+    }
+  },
+  "EOLd": {
+    "title": "Tadaima, Okaeri",
+    "day": 1,
+    "time": "9:00 AM",
+    "cover": "tadaima-okaeri-ae592f911c",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G79H23Z5X/tadaima-okaeri"
+    }
+  },
+  "LOZI": {
+    "title": "Unnamed Memory",
     "day": 2,
-    "time": "8:00 AM",
-    "cover": "shaman-king-zoku-hen-4498ae7b58",
+    "time": "7:30 AM",
+    "cover": "unnamed-memory-5d66a2e1bc",
     "streams": {},
     "status": true
   },
-  "vz76": {
-    "title": "Metallic Rouge",
+  "KWoO": {
+    "title": "Boukyaku Battery (TV)",
+    "day": 2,
+    "time": "8:00 AM",
+    "cover": "boukyaku-battery-tv-62abff6c96",
+    "streams": {},
+    "status": true
+  },
+  "s6ru": {
+    "title": "Rinkai!",
+    "day": 2,
+    "time": "7:30 AM",
+    "cover": "rinkai-d02f891fdc",
+    "streams": {},
+    "status": true
+  },
+  "al9W": {
+    "title": "Kono Subarashii Sekai ni Shukufuku wo! 3",
     "day": 3,
-    "time": "10:25 AM",
-    "cover": "metallic-rouge-886659320c",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G24H1NWMJ/metallic-rouge",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jix8lSA4pVU_gn3TbjTg1Pb"
-    }
+    "time": "7:00 AM",
+    "cover": "kono-subarashii-sekai-ni-shukufuku-wo-provisional-title-3e18657f2d",
+    "streams": {},
+    "status": true
   },
-  "YUtR": {
-    "title": "Sengoku Youko",
+  "rjgL": {
+    "title": "Date A Live V",
     "day": 3,
-    "time": "8:30 AM",
-    "cover": "sengoku-youko-a511ca05cb",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEVD57/sengoku-youko",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgVdNKD0Q2XtDOs6n1KEceH"
-    }
+    "time": "7:30 AM",
+    "cover": "date-a-live-v-8decf2fe28",
+    "streams": {},
+    "status": true
   },
-  "2ZUg": {
-    "title": "The Witch and the Beast",
-    "day": 4,
-    "time": "10:15 AM",
-    "cover": "majo-to-yajuu-26b1cd0de0",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GZJH3D8W8/the-witch-and-the-beast"
-    }
+  "T8nl": {
+    "title": "Kaii to Otome to Kamikakushi",
+    "day": 3,
+    "time": "6:30 AM",
+    "cover": "kaii-to-otome-to-kamikakushi-c35744b71c",
+    "streams": {},
+    "status": true
   },
-  "TeYE": {
-    "title": "Snack Basue",
+  "NbVZ": {
+    "title": "Seiyuu Radio no Uraomote",
+    "day": 3,
+    "time": "5:00 AM",
+    "cover": "seiyuu-radio-no-uraomote-2d9984ff6a",
+    "streams": {},
+    "status": true
+  },
+  "cAAa": {
+    "title": "Kenka Dokugaku",
+    "day": 3,
+    "time": "8:55 AM",
+    "cover": "kenka-dokugaku-68047a8263",
+    "streams": {},
+    "status": true
+  },
+  "kAIN": {
+    "title": "Maou Gakuin no Futekigousha 2 Part 2",
     "day": 5,
-    "time": "10:15 AM",
-    "cover": "snack-basue-993665491f",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GDKHZEJ1K/snack-basue",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhOhIGAfgtgEeeIKiUOY-GC"
-    }
+    "time": "6:00 AM",
+    "cover": "maou-gakuin-no-futekigousha-2-part-2-74a9780cf8",
+    "streams": {},
+    "status": true
   },
-  "54NC": {
-    "title": "BUCCHIGIRI?!",
+  "ONrt": {
+    "title": "Shadowverse Flame: Arc-hen",
+    "day": 5,
+    "time": "5:30 PM",
+    "cover": "shadowverse-flame-arc-hen-8f98f11d47",
+    "streams": {},
+    "status": true
+  },
+  "iox6": {
+    "title": "Kaijuu 8-gou",
     "day": 6,
     "time": "8:30 AM",
-    "cover": "bucchigiri-2024-01a905e20c",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM985/bucchigiri"
-    }
+    "cover": "kaijuu-8-gou-606db633ae",
+    "streams": {},
+    "status": true
+  },
+  "Bnz8": {
+    "title": "THE NEW GATE",
+    "day": 6,
+    "time": "9:30 AM",
+    "cover": "the-new-gate-cb2ad0ab4a",
+    "streams": {},
+    "status": true
+  },
+  "DU3M": {
+    "title": "Sasayaku You ni Koi wo Utau",
+    "day": 6,
+    "time": "9:30 AM",
+    "cover": "sasayaku-you-ni-koi-wo-utau-37ef8daa9b",
+    "streams": {},
+    "status": true
+  },
+  "RcIU": {
+    "title": "Kuroshitsuji: Kishuku Gakkou-hen",
+    "day": 6,
+    "time": "7:30 AM",
+    "cover": "kuroshitsuji-kishuku-gakkou-hen-1f991e3913",
+    "streams": {},
+    "status": true
   }
 }
