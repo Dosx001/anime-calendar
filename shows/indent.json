@@ -110,7 +110,7 @@
   },
   "hZxw": {
     "title": "Odekake Kozame",
-    "day": 5,
+    "day": 2,
     "time": "4:00 AM",
     "cover": "odekake-kozame-315b850ca6",
     "streams": {
@@ -453,7 +453,8 @@
     "time": "8:30 AM",
     "cover": "mushoku-tensei-isekai-ittara-honki-dasu-2-part-2-3b8cbb61a3",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G24H1N3MP/mushoku-tensei-jobless-reincarnation"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G24H1N3MP/mushoku-tensei-jobless-reincarnation",
+      "Hulu": "https://www.hulu.com/series/787a5fb4-9cba-4a69-96b2-4fb3b10c860a"
     }
   },
   "OlN5": {
@@ -462,7 +463,8 @@
     "time": "8:15 AM",
     "cover": "tensei-kizoku-kantei-skill-de-nariagaru-43de80076f",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQMD/as-a-reincarnated-aristocrat-ill-use-my-appraisal-skill-to-rise-in-the-world"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQMD/as-a-reincarnated-aristocrat-ill-use-my-appraisal-skill-to-rise-in-the-world",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Ji3p2oPXSaDlUtzRI0be2_d"
     }
   },
   "X2U6": {
@@ -515,7 +517,9 @@
     "day": 7,
     "time": "8:45 AM",
     "cover": "blue-archive-the-animation-dbf81bf099",
-    "streams": {},
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgzVV7Mg2OKYppcCHKtkNcO"
+    },
     "status": true
   },
   "TBQn": {
@@ -558,23 +562,25 @@
   "LOZI": {
     "title": "Unnamed Memory",
     "day": 2,
-    "time": "7:30 AM",
+    "time": "8:00 AM",
     "cover": "unnamed-memory-5d66a2e1bc",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN9QXQ/unnamed-memory"
+    }
   },
   "KWoO": {
-    "title": "Boukyaku Battery (TV)",
+    "title": "Oblivion Battery",
     "day": 2,
-    "time": "8:00 AM",
+    "time": "9:00 AM",
     "cover": "boukyaku-battery-tv-62abff6c96",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3GDX/oblivion-battery"
+    }
   },
   "s6ru": {
     "title": "Rinkai!",
     "day": 2,
-    "time": "7:30 AM",
+    "time": "8:30 AM",
     "cover": "rinkai-d02f891fdc",
     "streams": {},
     "status": true
@@ -636,12 +642,13 @@
     "status": true
   },
   "iox6": {
-    "title": "Kaijuu 8-gou",
+    "title": "Kaiju No. 8",
     "day": 6,
     "time": "8:30 AM",
     "cover": "kaijuu-8-gou-606db633ae",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQ7D/kaiju-no-8"
+    }
   },
   "Bnz8": {
     "title": "THE NEW GATE",
@@ -652,12 +659,13 @@
     "status": true
   },
   "DU3M": {
-    "title": "Sasayaku You ni Koi wo Utau",
+    "title": "Whisper Me a Love Song",
     "day": 6,
-    "time": "9:30 AM",
+    "time": "10:30 AM",
     "cover": "sasayaku-you-ni-koi-wo-utau-37ef8daa9b",
-    "streams": {},
-    "status": true
+    "streams": {
+      "HiDive": "https://www.hidive.com/season/22310"
+    }
   },
   "RcIU": {
     "title": "Kuroshitsuji: Kishuku Gakkou-hen",
