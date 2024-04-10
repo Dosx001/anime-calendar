@@ -110,7 +110,7 @@
   },
   "hZxw": {
     "title": "Odekake Kozame",
-    "day": 2,
+    "day": 5,
     "time": "4:00 AM",
     "cover": "odekake-kozame-315b850ca6",
     "streams": {
@@ -233,7 +233,7 @@
     "title": "Spice and Wolf: MERCHANT MEETS THE WISE WOLF",
     "day": 1,
     "time": "11:00 AM",
-    "cover": "ookami-to-koushinryou-shinsaku-anime-612c2ebf5d",
+    "cover": "ookami-to-koushinryou-shinsaku-anime-1c7f0e7cca",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV08M/spice-and-wolf-merchant-meets-the-wise-wolf",
       "Netflix": "https://www.netflix.com/to/title/81768918"
@@ -389,7 +389,7 @@
     "title": "The iDOLM@STER: Shiny Colors",
     "day": 5,
     "time": "9:23 AM",
-    "cover": "the-idolmaster-shiny-colors-32b2b11b08",
+    "cover": "the-idolmaster-shiny-colors-f13c131d18",
     "streams": {},
     "status": true
   },
@@ -545,7 +545,7 @@
     "title": "Chillin\u2019 in Another World with Level 2 Super Cheat Powers",
     "day": 1,
     "time": "7:30 AM",
-    "cover": "lv2-kara-cheat-datta-motoyuusha-kouho-no-mattari-isekai-life-521e446a67",
+    "cover": "lv2-kara-cheat-datta-motoyuusha-kouho-no-mattari-isekai-life-27c71ce2ad",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W2PK/chillin-in-another-world-with-level-2-super-cheat-powers"
     }
@@ -563,7 +563,7 @@
     "title": "Unnamed Memory",
     "day": 2,
     "time": "8:00 AM",
-    "cover": "unnamed-memory-5d66a2e1bc",
+    "cover": "unnamed-memory-ab91bb7bbc",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN9QXQ/unnamed-memory"
     }
@@ -586,44 +586,49 @@
     "status": true
   },
   "al9W": {
-    "title": "Kono Subarashii Sekai ni Shukufuku wo! 3",
+    "title": "KONOSUBA -God's blessing on this wonderful world!",
     "day": 3,
-    "time": "7:00 AM",
-    "cover": "kono-subarashii-sekai-ni-shukufuku-wo-provisional-title-3e18657f2d",
-    "streams": {},
-    "status": true
+    "time": "8:00 AM",
+    "cover": "kono-subarashii-sekai-ni-shukufuku-wo-provisional-title-a2e58a051a",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GYE5K3GQR/konosuba--gods-blessing-on-this-wonderful-world"
+    }
   },
   "rjgL": {
-    "title": "Date A Live V",
+    "title": "Date A Live",
     "day": 3,
-    "time": "7:30 AM",
+    "time": "7:31 AM",
     "cover": "date-a-live-v-8decf2fe28",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GYEX5E1G6/date-a-live"
+    }
   },
   "T8nl": {
-    "title": "Kaii to Otome to Kamikakushi",
+    "title": "Mysterious Disappearances",
     "day": 3,
-    "time": "6:30 AM",
+    "time": "7:00 AM",
     "cover": "kaii-to-otome-to-kamikakushi-c35744b71c",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV03M/mysterious-disappearances"
+    }
   },
   "NbVZ": {
-    "title": "Seiyuu Radio no Uraomote",
+    "title": "The Many Sides of Voice Actor Radio",
     "day": 3,
-    "time": "5:00 AM",
+    "time": "5:30 AM",
     "cover": "seiyuu-radio-no-uraomote-2d9984ff6a",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WJ3N/the-many-sides-of-voice-actor-radio"
+    }
   },
   "cAAa": {
-    "title": "Kenka Dokugaku",
+    "title": "Viral Hit",
     "day": 3,
-    "time": "8:55 AM",
-    "cover": "kenka-dokugaku-68047a8263",
-    "streams": {},
-    "status": true
+    "time": "10:25 AM",
+    "cover": "kenka-dokugaku-d7b9813aec",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7QGME/viral-hit"
+    }
   },
   "kAIN": {
     "title": "Maou Gakuin no Futekigousha 2 Part 2",
@@ -662,7 +667,7 @@
     "title": "Whisper Me a Love Song",
     "day": 6,
     "time": "10:30 AM",
-    "cover": "sasayaku-you-ni-koi-wo-utau-37ef8daa9b",
+    "cover": "sasayaku-you-ni-koi-wo-utau-5dba6a5f24",
     "streams": {
       "HiDive": "https://www.hidive.com/season/22310"
     }
