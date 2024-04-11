@@ -30,13 +30,12 @@
       "Action",
       "Drama",
       "Fantasy",
-      "School",
-      "Sci-Fi"
+      "School"
     ]
   },
   "UTcm": {
     "title": "Boku no Hero Academia 7",
-    "cover": "boku-no-hero-academia-7-eb8edc835e",
+    "cover": "boku-no-hero-academia-7-bae9e2f6c8",
     "studio": "bones",
     "source": "Manga",
     "genres": [
@@ -65,7 +64,9 @@
     "studio": "Geek Toys",
     "source": "Light Novel",
     "genres": [
+      "Action",
       "Comedy",
+      "Fantasy",
       "Harem",
       "Mecha",
       "Romance",
@@ -82,7 +83,6 @@
       "Action",
       "Adventure",
       "Fantasy",
-      "Magic",
       "Romance"
     ]
   },
@@ -151,7 +151,7 @@
   },
   "VrIn": {
     "title": "Jantama Kan!!",
-    "cover": "poster-21fa193001",
+    "cover": "jantama-kan-195b8ef039",
     "studio": "Alke",
     "source": "Video Game",
     "genres": [
@@ -188,9 +188,6 @@
     "source": "Manga",
     "genres": [
       "Action",
-      "Adventure",
-      "Comedy",
-      "Horror",
       "Military",
       "Sci-Fi",
       "Shounen"
@@ -223,12 +220,12 @@
   },
   "cAAa": {
     "title": "Kenka Dokugaku",
-    "cover": "kenka-dokugaku-68047a8263",
+    "cover": "kenka-dokugaku-d7b9813aec",
     "studio": "Okuruto Noboru",
     "source": "Web Manga",
     "genres": [
       "Action",
-      "Comedy"
+      "Martial Arts"
     ]
   },
   "mA6Z": {
@@ -248,7 +245,7 @@
   },
   "al9W": {
     "title": "Kono Subarashii Sekai ni Shukufuku wo! 3",
-    "cover": "kono-subarashii-sekai-ni-shukufuku-wo-provisional-title-3e18657f2d",
+    "cover": "kono-subarashii-sekai-ni-shukufuku-wo-provisional-title-a2e58a051a",
     "studio": "Drive",
     "source": "Light Novel",
     "genres": [
@@ -278,7 +275,7 @@
   },
   "gzEp": {
     "title": "Lv2 kara Cheat datta Motoyuusha Kouho no Mattari Isekai Life",
-    "cover": "lv2-kara-cheat-datta-motoyuusha-kouho-no-mattari-isekai-life-521e446a67",
+    "cover": "lv2-kara-cheat-datta-motoyuusha-kouho-no-mattari-isekai-life-27c71ce2ad",
     "studio": "J.C. Staff",
     "source": "Light Novel",
     "genres": [
@@ -366,14 +363,13 @@
   },
   "XLds": {
     "title": "Ookami to Koushinryou: Merchant Meets the Wise Wolf",
-    "cover": "ookami-to-koushinryou-shinsaku-anime-612c2ebf5d",
+    "cover": "ookami-to-koushinryou-shinsaku-anime-1c7f0e7cca",
     "studio": "Passione",
     "source": "Light Novel",
     "genres": [
       "Adventure",
       "Drama",
       "Fantasy",
-      "Historical",
       "Romance"
     ]
   },
@@ -400,7 +396,7 @@
   },
   "DU3M": {
     "title": "Sasayaku You ni Koi wo Utau",
-    "cover": "sasayaku-you-ni-koi-wo-utau-37ef8daa9b",
+    "cover": "sasayaku-you-ni-koi-wo-utau-5dba6a5f24",
     "studio": "CLOUDHEARTS",
     "source": "Manga",
     "genres": [
@@ -417,7 +413,6 @@
     "genres": [
       "Comedy",
       "Drama",
-      "School",
       "Slice of Life"
     ]
   },
@@ -522,6 +517,7 @@
     "genres": [
       "Adventure",
       "Fantasy",
+      "Magic",
       "Slice of Life"
     ]
   },
@@ -555,7 +551,7 @@
   },
   "cz8p": {
     "title": "The iDOLM@STER: Shiny Colors",
-    "cover": "the-idolmaster-shiny-colors-32b2b11b08",
+    "cover": "the-idolmaster-shiny-colors-f13c131d18",
     "studio": "POLYGON PICTURES",
     "source": "Video Game",
     "genres": [
@@ -585,7 +581,7 @@
   },
   "LOZI": {
     "title": "Unnamed Memory",
-    "cover": "unnamed-memory-5d66a2e1bc",
+    "cover": "unnamed-memory-ab91bb7bbc",
     "studio": "ENGI",
     "source": "Light Novel",
     "genres": [
@@ -645,9 +641,7 @@
     "studio": "8bit",
     "source": "Manga",
     "genres": [
-      "Adventure",
       "Comedy",
-      "Seinen",
       "Slice of Life"
     ]
   }
