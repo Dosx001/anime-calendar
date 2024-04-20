@@ -105,12 +105,13 @@
     "time": "2:00 AM",
     "cover": "captain-tsubasa-season-2-junior-youth-hen-17f2128c36",
     "streams": {
+      "Amazon": "https://www.amazon.com/dp/B0CJV2YVBR/",
       "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WJDQ/captain-tsubasa-junior-youth-arc"
     }
   },
   "hZxw": {
     "title": "Odekake Kozame",
-    "day": 2,
+    "day": 5,
     "time": "4:00 AM",
     "cover": "odekake-kozame-315b850ca6",
     "streams": {
@@ -277,12 +278,13 @@
     }
   },
   "hfSX": {
-    "title": "Touken Ranbu Kai: Kyoden Moyuru Honnouji",
+    "title": "TOUKEN RANBU KAI KYODEN",
     "day": 2,
-    "time": "7:00 AM",
+    "time": "8:30 AM",
     "cover": "touken-ranbu-kai-kyoden-moyuru-honnouji-5d98a8dd29",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX85PN/touken-ranbu-kai-kyoden"
+    }
   },
   "iVFQ": {
     "title": "BARTENDER Glass of God",
@@ -382,7 +384,9 @@
     "day": 5,
     "time": "6:30 PM",
     "cover": "ooi-tonbo-02129f840a",
-    "streams": {},
+    "streams": {
+      "Amazon": "https://www.primevideo.com/detail/0KCL7WEFBBBGSN3YIZBFAHO42H"
+    },
     "status": true
   },
   "cz8p": {
@@ -407,21 +411,20 @@
   "fleO": {
     "title": "The Fable",
     "day": 6,
-    "time": "9:15 AM",
+    "time": "9:30 AM",
     "cover": "the-fable-e9f37144ba",
     "streams": {
       "Hulu": "https://www.hulu.com/series/the-fable-36c2be07-2f2e-400f-9da5-aed0b5d401cb"
     }
   },
   "TrVm": {
-    "title": "Karasu wa Aruji wo Erabanai",
+    "title": "YATAGARASU: The Raven Does Not Choose Its Master",
     "day": 6,
-    "time": "7:45 AM",
+    "time": "11:30 AM",
     "cover": "karasu-wa-aruji-wo-erabanai-d13b110636",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM92J/yatagarasu-the-raven-does-not-choose-its-master"
-    },
-    "status": true
+    }
   },
   "Epi2": {
     "title": "Tonari no Yokai-san",
@@ -489,7 +492,7 @@
   "D9FZ": {
     "title": "Go! Go! Loser Ranger!",
     "day": 7,
-    "time": "12:30 AM",
+    "time": "1:00 AM",
     "cover": "sentai-daishikkaku-d60b4cfda1",
     "streams": {
       "Hulu": "https://www.hulu.com/series/go-go-loser-ranger-f3a712f6-b358-4b21-b28a-221f23e0eb48"
@@ -516,7 +519,7 @@
   "8Vg9": {
     "title": "Blue Archive The Animation",
     "day": 7,
-    "time": "8:45 AM",
+    "time": "8:30 AM",
     "cover": "blue-archive-the-animation-dbf81bf099",
     "streams": {
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgzVV7Mg2OKYppcCHKtkNcO"
@@ -592,7 +595,8 @@
     "time": "8:00 AM",
     "cover": "kono-subarashii-sekai-ni-shukufuku-wo-provisional-title-a2e58a051a",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GYE5K3GQR/konosuba--gods-blessing-on-this-wonderful-world"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GYE5K3GQR/konosuba--gods-blessing-on-this-wonderful-world",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhqZQW_-rc90fYAIV5dymcF"
     }
   },
   "rjgL": {
@@ -601,7 +605,8 @@
     "time": "7:31 AM",
     "cover": "date-a-live-v-8decf2fe28",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GYEX5E1G6/date-a-live"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GYEX5E1G6/date-a-live",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl24IchKz3a3eAcwPorGjU_t"
     }
   },
   "T8nl": {
@@ -634,19 +639,20 @@
   "kAIN": {
     "title": "The Misfit of Demon King Academy",
     "day": 5,
-    "time": "10:00 AM",
+    "time": "9:30 AM",
     "cover": "maou-gakuin-no-futekigousha-2-part-2-74a9780cf8",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GY243NN0R/the-misfit-of-demon-king-academy"
     }
   },
   "ONrt": {
-    "title": "Shadowverse Flame: Arc-hen",
+    "title": "Shadowverse",
     "day": 5,
-    "time": "5:30 PM",
+    "time": "7:30 PM",
     "cover": "shadowverse-flame-arc-hen-8f98f11d47",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GYEX244X6/shadowverse"
+    }
   },
   "iox6": {
     "title": "Kaiju No. 8",
@@ -677,10 +683,29 @@
     }
   },
   "RcIU": {
-    "title": "Kuroshitsuji: Kishuku Gakkou-hen",
+    "title": "Black Butler",
     "day": 6,
     "time": "9:00 AM",
     "cover": "kuroshitsuji-kishuku-gakkou-hen-1f991e3913",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GYQ43P3E6/black-butler"
+    }
+  },
+  "TuJW": {
+    "title": "Grimm Kumikyoku",
+    "day": 3,
+    "time": "12:01 AM",
+    "cover": "grimm-189141f494",
+    "streams": {
+      "Netflix": "https://www.netflix.com/title/81050091"
+    },
+    "status": true
+  },
+  "hoej": {
+    "title": "Yozakura-san Chi no Mini Sakusen",
+    "day": 4,
+    "time": "3:00 AM",
+    "cover": "yozakura-san-chi-no-mini-sakusen-6484213f0a",
     "streams": {},
     "status": true
   }
