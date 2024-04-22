@@ -254,8 +254,7 @@
       "Fantasy",
       "Isekai",
       "Magic",
-      "Parody",
-      "Supernatural"
+      "Parody"
     ]
   },
   "RcIU": {
@@ -423,9 +422,9 @@
     "source": "Manga",
     "genres": [
       "Action",
-      "Fantasy",
-      "Sci-Fi",
-      "Shounen"
+      "Comedy",
+      "Drama",
+      "Sci-Fi"
     ]
   },
   "ONrt": {

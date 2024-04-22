@@ -111,7 +111,7 @@
   },
   "hZxw": {
     "title": "Odekake Kozame",
-    "day": 5,
+    "day": 2,
     "time": "4:00 AM",
     "cover": "odekake-kozame-315b850ca6",
     "streams": {
@@ -153,15 +153,6 @@
     "cover": "urusei-yatsura-2022-2nd-season-6bcb315282",
     "streams": {
       "HiDive": "https://www.hidive.com/tv/urusei-yatsura/season-3"
-    }
-  },
-  "Ehom": {
-    "title": "CARDFIGHT!! VANGUARD overDress",
-    "day": 5,
-    "time": "4:40 PM",
-    "cover": "cardfight-vanguard-overdress-season-6-b45b0ad000",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3NJ5/cardfight-vanguard-overdress"
     }
   },
   "zKyK": {
@@ -266,15 +257,6 @@
     "cover": "shuumatsu-train-doko-e-iku-95d69b4a17",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3GNX/train-to-the-end-of-the-world"
-    }
-  },
-  "cop5": {
-    "title": "SAINT SEIYA: Knights of the Zodiac",
-    "day": 1,
-    "time": "1:01 AM",
-    "cover": "knights-of-the-zodiac-saint-seiya-3rd-season-fcdfac7f1d",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX8JKG/saint-seiya-knights-of-the-zodiac"
     }
   },
   "hfSX": {
@@ -645,19 +627,10 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GY243NN0R/the-misfit-of-demon-king-academy"
     }
   },
-  "ONrt": {
-    "title": "Shadowverse",
-    "day": 5,
-    "time": "7:30 PM",
-    "cover": "shadowverse-flame-arc-hen-8f98f11d47",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GYEX244X6/shadowverse"
-    }
-  },
   "iox6": {
     "title": "Kaiju No. 8",
     "day": 6,
-    "time": "8:30 AM",
+    "time": "7:30 AM",
     "cover": "kaijuu-8-gou-606db633ae",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQ7D/kaiju-no-8"
@@ -690,23 +663,5 @@
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GYQ43P3E6/black-butler"
     }
-  },
-  "TuJW": {
-    "title": "Grimm Kumikyoku",
-    "day": 3,
-    "time": "12:01 AM",
-    "cover": "grimm-189141f494",
-    "streams": {
-      "Netflix": "https://www.netflix.com/title/81050091"
-    },
-    "status": true
-  },
-  "hoej": {
-    "title": "Yozakura-san Chi no Mini Sakusen",
-    "day": 4,
-    "time": "3:00 AM",
-    "cover": "yozakura-san-chi-no-mini-sakusen-6484213f0a",
-    "streams": {},
-    "status": true
   }
 }
