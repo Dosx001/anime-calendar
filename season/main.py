@@ -10,13 +10,16 @@ from selenium.webdriver.remote.webelement import WebElement
 
 
 def main():
-    profile = popen('ls ~/.mozilla/firefox/ | grep "default"').read().split("\n")[1]
+    profile = popen('ls ~/.mozilla/firefox/ | grep "default"').read().split("\n")[0]
     user = popen("whoami").read()[0:-1]
     options = Options()
     options.set_preference("profile", "/home/" + user + "/.mozilla/firefox/" + profile)
-    driver = webdriver.Firefox(service=Service(log_path="/dev/null"), options=options)
+    driver = webdriver.Firefox(
+        service=Service(executable_path="/usr/bin/geckodriver", log_path="/dev/null"),
+        options=options,
+    )
     driver.maximize_window()
-    driver.get("https://animeschedule.net/seasons/spring-2024")
+    driver.get("https://animeschedule.net/seasons/summer-2024")
     shows = {}
     show: WebElement
     for show in driver.find_element(By.CLASS_NAME, "shows-container").find_elements(

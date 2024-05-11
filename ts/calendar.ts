@@ -636,7 +636,7 @@ class Calendar {
         this.right.style.visibility = 'hidden';
         document.getElementById('clear')!.style.visibility = 'hidden';
         document.getElementById('calendar')!.remove();
-        document.getElementById('month')!.innerHTML = 'Spring 2024';
+        document.getElementById('month')!.innerHTML = 'Summer 2024';
         SON.init();
       } else {
         this.right.style.visibility = 'visible';
