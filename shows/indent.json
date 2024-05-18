@@ -111,16 +111,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WJDQ/captain-tsubasa-junior-youth-arc"
     }
   },
-  "hZxw": {
-    "title": "Odekake Kozame",
-    "day": 2,
-    "time": "4:00 AM",
-    "cover": "odekake-kozame-315b850ca6",
-    "streams": {
-      "YouTube": "https://www.youtube.com/playlist?list=PLjrUB63ikczNcRItB8koEfoBfA7sjCZ-k"
-    },
-    "status": true
-  },
   "DqGO": {
     "title": "Beyblade X",
     "day": 5,
@@ -387,7 +377,7 @@
     "title": "YATAGARASU: The Raven Does Not Choose Its Master",
     "day": 6,
     "time": "11:30 AM",
-    "cover": "karasu-wa-aruji-wo-erabanai-d13b110636",
+    "cover": "karasu-wa-aruji-wo-erabanai-22a0730e6c",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM92J/yatagarasu-the-raven-does-not-choose-its-master"
     }
@@ -663,7 +653,9 @@
     "day": 4,
     "time": "3:00 AM",
     "cover": "yozakura-san-chi-no-mini-sakusen-6484213f0a",
-    "streams": {},
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLMyQxaghEY1E8Nad_gUa1rYE8LNJpLqy-"
+    },
     "status": true
   },
   "ONrt": {
@@ -687,10 +679,18 @@
   "mA6Z": {
     "title": "Demon Slayer: Kimetsu no Yaiba",
     "day": 7,
-    "time": "11:45 AM",
+    "time": "10:45 AM",
     "cover": "kimetsu-no-yaiba-hashira-geiko-hen-62826d1a5b",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba"
     }
+  },
+  "2JSX": {
+    "title": "Mahou Shoujo holoWitches!",
+    "day": 3,
+    "time": "5:00 PM",
+    "cover": "poster-21fa193001",
+    "streams": {},
+    "status": true
   }
 }
