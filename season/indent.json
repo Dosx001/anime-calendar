@@ -19,7 +19,8 @@
     "source": "Visual Novel",
     "genres": [
       "Drama",
-      "Romance"
+      "Romance",
+      "Sci-Fi"
     ]
   },
   "voT3": {
@@ -78,6 +79,13 @@
       "Fantasy"
     ]
   },
+  "UONM": {
+    "title": "Egumi Legacy",
+    "cover": "egumi-legacy-dd91def91b",
+    "studio": "N/A",
+    "source": "Card Game",
+    "genres": []
+  },
   "5LDO": {
     "title": "Elf-san wa Yaserarenai.",
     "cover": "elf-san-wa-yaserarenai-491907e87e",
@@ -92,7 +100,7 @@
   },
   "X7fg": {
     "title": "FAIRY TAIL: 100 YEARS QUEST",
-    "cover": "fairy-tail-100-years-quest-6b35acc3bc",
+    "cover": "fairy-tail-100-years-quest-57cfe12394",
     "studio": "J.C. Staff",
     "source": "Manga",
     "genres": [
@@ -178,6 +186,13 @@
       "Slice of Life"
     ]
   },
+  "cN3r": {
+    "title": "Jochum",
+    "cover": "jochum-7dccce776c",
+    "studio": "Fanworks",
+    "source": "Original",
+    "genres": []
+  },
   "huP3": {
     "title": "Kami no Tou: Tower of God 2",
     "cover": "kami-no-tou-tower-of-god-2-1fd92b0572",
@@ -191,30 +206,6 @@
       "Mystery",
       "Shounen",
       "Superpower"
-    ]
-  },
-  "Cdzs": {
-    "title": "Katsute Mahou Shoujo to Aku wa Tekitai shiteita.",
-    "cover": "katsute-mahou-shoujo-to-aku-wa-tekitai-shiteita-557066c392",
-    "studio": "bones",
-    "source": "Manga",
-    "genres": [
-      "Comedy",
-      "Fantasy",
-      "Magical Girl",
-      "Romance"
-    ]
-  },
-  "mRbq": {
-    "title": "Kijin Gentoushou",
-    "cover": "kijin-gentoushou-c2429b9cd6",
-    "studio": "Yokohama Animation Lab",
-    "source": "Novel",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy",
-      "Historical"
     ]
   },
   "ALnC": {
@@ -232,7 +223,7 @@
   },
   "AsPL": {
     "title": "Kinnikuman: Kanpeki Choujin Shiso-hen",
-    "cover": "kinnikuman-shin-anime-3be90a0ea7",
+    "cover": "kinnikuman-shin-anime-9e21a15060",
     "studio": "Production I.G",
     "source": "Manga",
     "genres": [
@@ -311,7 +302,7 @@
   },
   "JkeP": {
     "title": "Megami no Caf\u00e9 Terrace Season 2",
-    "cover": "megami-no-caf-terrace-season-2-e22d8b427f",
+    "cover": "megami-no-caf-terrace-season-2-38debe3656",
     "studio": "Tezuka Productions",
     "source": "Manga",
     "genres": [
@@ -353,6 +344,19 @@
       "Sci-Fi"
     ]
   },
+  "9noY": {
+    "title": "NieR:Automata Ver1.1a Part 2",
+    "cover": "nier-automata-ver1-1a-part-2-46d6fe8cfb",
+    "studio": "A-1 Pictures",
+    "source": "Video Game",
+    "genres": [
+      "Action",
+      "Drama",
+      "Fantasy",
+      "Psychological",
+      "Sci-Fi"
+    ]
+  },
   "QLkl": {
     "title": "Nige Jouzu no Wakagimi",
     "cover": "nige-jouzu-no-wakagimi-6b15cce92c",
@@ -368,7 +372,7 @@
   },
   "FN1v": {
     "title": "Ore wa Subete wo \"Parry\" suru: Gyaku Kanchigai no Sekai Saikyou wa Boukensha ni Naritai",
-    "cover": "ore-wa-subete-wo-parry-suru-gyaku-kanchigai-no-sekai-saikyou-wa-boukensha-ni-naritai-28f8708e40",
+    "cover": "ore-wa-subete-wo-parry-suru-gyaku-kanchigai-no-sekai-saikyou-wa-boukensha-ni-naritai-7cfaf74ed1",
     "studio": "OLM",
     "source": "Light Novel",
     "genres": [
@@ -414,7 +418,7 @@
   },
   "kO9K": {
     "title": "Shikanoko Nokonoko Koshitantan",
-    "cover": "shikanoko-nokonoko-koshitantan-a8cc06e3d6",
+    "cover": "shikanoko-nokonoko-koshitantan-0e4d170f36",
     "studio": "Wit Studio",
     "source": "Manga",
     "genres": [
@@ -426,7 +430,7 @@
   },
   "nWp9": {
     "title": "Shinmai Ossan Boukensha, Saikyou Party ni Shinu hodo Kitaerarete Muteki ni Naru.",
-    "cover": "shinmai-ossan-boukensha-saikyou-party-ni-shinu-hodo-kitaerarete-muteki-ni-naru-394803eb57",
+    "cover": "shinmai-ossan-boukensha-saikyou-party-ni-shinu-hodo-kitaerarete-muteki-ni-naru-c9172bb16c",
     "studio": "Yumeta Company",
     "source": "Light Novel",
     "genres": [
@@ -457,6 +461,18 @@
       "Superpower"
     ]
   },
+  "AHe3": {
+    "title": "Suicide Squad Isekai",
+    "cover": "suicide-squad-isekai-a88f44852a",
+    "studio": "Wit Studio",
+    "source": "Other",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Isekai"
+    ]
+  },
   "ZXhG": {
     "title": "Tasogare Outfocus",
     "cover": "tasogare-outfocus-d142fdb0f2",
@@ -466,6 +482,29 @@
       "Drama",
       "Romance",
       "School"
+    ]
+  },
+  "Qreh": {
+    "title": "Tasuuketsu",
+    "cover": "tasuuketsu-9f92c65be7",
+    "studio": "Satelight",
+    "source": "Web Manga",
+    "genres": [
+      "Action",
+      "Drama",
+      "Psychological",
+      "Superpower",
+      "Thriller"
+    ]
+  },
+  "Cfcx": {
+    "title": "Tensui no Sakuna-hime",
+    "cover": "tensui-no-sakuna-hime-94478eb215",
+    "studio": "P.A. Works",
+    "source": "Video Game",
+    "genres": [
+      "Action",
+      "Fantasy"
     ]
   },
   "KA6Y": {
@@ -494,7 +533,7 @@
   },
   "jkTD": {
     "title": "VTuber Nandaga Haishin Kiri Wasuretara Densetsu ni Natteta",
-    "cover": "vtuber-nandaga-haishin-kiri-wasuretara-densetsu-ni-natteta-50acd4ea06",
+    "cover": "vtuber-nandaga-haishin-kiri-wasuretara-densetsu-ni-natteta-b382e08da1",
     "studio": "TNK",
     "source": "Light Novel",
     "genres": [
@@ -502,9 +541,19 @@
       "Slice of Life"
     ]
   },
+  "Ic2m": {
+    "title": "Yami Shibai 13",
+    "cover": "poster-21fa193001",
+    "studio": "ILCA",
+    "source": "Original",
+    "genres": [
+      "Horror",
+      "Supernatural"
+    ]
+  },
   "nw6W": {
     "title": "[Oshi no Ko] 2nd Season",
-    "cover": "oshi-no-ko-season-2-35fe13fe22",
+    "cover": "oshi-no-ko-season-2-a58d6c74e0",
     "studio": "Doga Kobo",
     "source": "Manga",
     "genres": [

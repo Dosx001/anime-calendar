@@ -232,15 +232,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3GNX/train-to-the-end-of-the-world"
     }
   },
-  "hfSX": {
-    "title": "TOUKEN RANBU KAI KYODEN",
-    "day": 2,
-    "time": "8:30 AM",
-    "cover": "touken-ranbu-kai-kyoden-moyuru-honnouji-5d98a8dd29",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX85PN/touken-ranbu-kai-kyoden"
-    }
-  },
   "iVFQ": {
     "title": "BARTENDER Glass of God",
     "day": 3,
@@ -685,12 +676,30 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba"
     }
   },
-  "2JSX": {
-    "title": "Mahou Shoujo holoWitches!",
-    "day": 3,
+  "Ckjx": {
+    "title": "Atashin'chi Next",
+    "day": 2,
     "time": "5:00 PM",
     "cover": "poster-21fa193001",
     "streams": {},
     "status": true
+  },
+  "1AX5": {
+    "title": "DEAD DEAD DEMONS DEDEDEDE DESTRUCTION",
+    "day": 4,
+    "time": "8:01 PM",
+    "cover": "dead-dead-demons-dededede-destruction-ona-534b3fd00b",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G8DHV7827/dead-dead-demons-dededede-destruction"
+    }
+  },
+  "zpW3": {
+    "title": "Baki Hanma VS Kengan Ashura",
+    "day": 4,
+    "time": "12:01 AM",
+    "cover": "hanma-baki-vs-kengan-ashura-668cfcd5cf",
+    "streams": {
+      "Netflix": "https://www.netflix.com/title/81648184"
+    }
   }
 }
