@@ -57,25 +57,32 @@ class Shows:
             for col in self.driver.find_elements(By.CLASS_NAME, day):
                 for show in col.find_elements(By.CLASS_NAME, "timetable-column-show"):
                     if show.get_attribute("chinese") or search(
-                        "hidden|filtered-out", show.get_attribute("class")
+                        "hidden|filtered-out", show.get_attribute("class") or ""
                     ):
                         continue
                     title = show.find_element(
                         By.CLASS_NAME, "show-title-bar"
                     ).get_attribute("innerText")
+                    if not title:
+                        continue
                     key = show.get_attribute("showid")
-                    time = (
-                        show.find_element(By.CLASS_NAME, "show-air-time")
-                        .get_attribute("innerText")
-                        .strip()
-                    )
+                    if not key:
+                        continue
+                    time = show.find_element(
+                        By.CLASS_NAME, "show-air-time"
+                    ).get_attribute("innerText")
+                    if not time:
+                        continue
+                    time = time.strip()
                     if time[0] == "0":
                         time = time[1::]
                     cover = show.find_element(
                         By.CLASS_NAME, "show-poster"
                     ).get_property("src")
                     streams = {
-                        stream.get_attribute("title"): stream.get_attribute("href")
+                        stream.get_attribute("title")
+                        or "": stream.get_attribute("href")
+                        or ""
                         for stream in show.find_elements(By.CLASS_NAME, "stream-link")
                     }
                     content: ShowType = {
