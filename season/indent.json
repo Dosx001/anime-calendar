@@ -14,7 +14,7 @@
   },
   "zIrT": {
     "title": "ATRI: My Dear Moments",
-    "cover": "atri-my-dear-moments-d37038b1ea",
+    "cover": "atri-my-dear-moments-06a76514b3",
     "studio": "TROYCA",
     "source": "Visual Novel",
     "genres": [
@@ -48,7 +48,7 @@
   },
   "PsoN": {
     "title": "Cardfight!! Vanguard: Divinez Season 2",
-    "cover": "cardfight-vanguard-overdress-season-7-f8bdee379c",
+    "cover": "cardfight-vanguard-overdress-season-7-57e438acf9",
     "studio": "N/A",
     "source": "Card Game",
     "genres": [
@@ -65,12 +65,12 @@
     "source": "Other",
     "genres": [
       "Fantasy",
-      "Supernatural"
+      "Vampire"
     ]
   },
   "uahb": {
     "title": "Dungeon no Naka no Hito",
-    "cover": "dungeon-no-naka-no-hito-ca2be1a785",
+    "cover": "dungeon-no-naka-no-hito-006b96d8a8",
     "studio": "OLM",
     "source": "Web Manga",
     "genres": [
@@ -79,16 +79,9 @@
       "Fantasy"
     ]
   },
-  "UONM": {
-    "title": "Egumi Legacy",
-    "cover": "egumi-legacy-dd91def91b",
-    "studio": "N/A",
-    "source": "Card Game",
-    "genres": []
-  },
   "5LDO": {
     "title": "Elf-san wa Yaserarenai.",
-    "cover": "elf-san-wa-yaserarenai-491907e87e",
+    "cover": "elf-san-wa-yaserarenai-d83aeaa32e",
     "studio": "Elias",
     "source": "Manga",
     "genres": [
@@ -100,7 +93,7 @@
   },
   "X7fg": {
     "title": "FAIRY TAIL: 100 YEARS QUEST",
-    "cover": "fairy-tail-100-years-quest-57cfe12394",
+    "cover": "fairy-tail-100-years-quest-485a21c5d2",
     "studio": "J.C. Staff",
     "source": "Manga",
     "genres": [
@@ -114,7 +107,7 @@
   },
   "uTUo": {
     "title": "Giji Harem",
-    "cover": "giji-harem-e1cfbaa97d",
+    "cover": "giji-harem-bb088941d3",
     "studio": "Nomad",
     "source": "Manga",
     "genres": [
@@ -137,7 +130,7 @@
   },
   "WVlB": {
     "title": "Grendizer U",
-    "cover": "grendizer-u-59a794c62f",
+    "cover": "grendizer-u-06277a1292",
     "studio": "Gaina",
     "source": "Manga",
     "genres": [
@@ -161,7 +154,7 @@
   },
   "OfNW": {
     "title": "Isekai Shikkaku",
-    "cover": "isekai-shikkaku-fd16bc807a",
+    "cover": "isekai-shikkaku-ea404898bd",
     "studio": "Atelier Pontdarc",
     "source": "Web Manga",
     "genres": [
@@ -195,7 +188,7 @@
   },
   "huP3": {
     "title": "Kami no Tou: Tower of God 2",
-    "cover": "kami-no-tou-tower-of-god-2-1fd92b0572",
+    "cover": "kami-no-tou-tower-of-god-2-b7273ca1ac",
     "studio": "The Answer Studio",
     "source": "Web Manga",
     "genres": [
@@ -210,7 +203,7 @@
   },
   "ALnC": {
     "title": "Kimi to Boku no Saigo no Senjou, Aruiwa Sekai ga Hajimaru Seisen Season II",
-    "cover": "kimi-to-boku-no-saigo-no-senjou-aruiwa-sekai-ga-hajimaru-seisen-zoku-hen-0e8f437aa7",
+    "cover": "kimi-to-boku-no-saigo-no-senjou-aruiwa-sekai-ga-hajimaru-seisen-zoku-hen-516668a41d",
     "studio": "SILVER LINK.",
     "source": "Light Novel",
     "genres": [
@@ -256,7 +249,7 @@
   },
   "AH7T": {
     "title": "Madougushi Dahlia wa Utsumukanai: Kyou kara Jiyuu na Shokunin Life",
-    "cover": "madougushi-dahlia-wa-utsumukanai-kyou-kara-jiyuu-na-shokunin-life-1343f5b4f1",
+    "cover": "madougushi-dahlia-wa-utsumukanai-kyou-kara-jiyuu-na-shokunin-life-0a2ab92b42",
     "studio": "Imagica Infos",
     "source": "Light Novel",
     "genres": [
@@ -269,7 +262,7 @@
   },
   "c8Ef": {
     "title": "Make Heroine ga Oosugiru!",
-    "cover": "make-heroine-ga-oosugiru-816130a8b2",
+    "cover": "make-heroine-ga-oosugiru-a1c1761ea8",
     "studio": "A-1 Pictures",
     "source": "Light Novel",
     "genres": [
@@ -293,7 +286,7 @@
   },
   "YYtT": {
     "title": "Mayonaka Punch",
-    "cover": "mayonaka-punch-ef8606253e",
+    "cover": "mayonaka-punch-095d7c0bf4",
     "studio": "P.A. Works",
     "source": "Original",
     "genres": [
@@ -325,7 +318,7 @@
   },
   "cXh6": {
     "title": "Na-Nare Hana-Nare",
-    "cover": "na-nare-hana-nare-329f6acc9a",
+    "cover": "na-nare-hana-nare-1fb249f70b",
     "studio": "P.A. Works",
     "source": "Original",
     "genres": [
@@ -346,7 +339,7 @@
   },
   "9noY": {
     "title": "NieR:Automata Ver1.1a Part 2",
-    "cover": "nier-automata-ver1-1a-part-2-46d6fe8cfb",
+    "cover": "nier-automata-ver1-1a-part-2-384f802b6d",
     "studio": "A-1 Pictures",
     "source": "Video Game",
     "genres": [
@@ -394,7 +387,7 @@
   },
   "WXNw": {
     "title": "Sengoku Youko: Senma Konton-hen",
-    "cover": "sengoku-youko-senma-konton-hen-1fd293e973",
+    "cover": "sengoku-youko-senma-konton-hen-61406349dd",
     "studio": "White Fox",
     "source": "Manga",
     "genres": [
@@ -442,7 +435,7 @@
   },
   "Id5s": {
     "title": "Shoushimin Series",
-    "cover": "shoushimin-series-ee2b5ef1fc",
+    "cover": "shoushimin-series-2d7d14dba2",
     "studio": "Lapin Track",
     "source": "Novel",
     "genres": [
@@ -452,7 +445,7 @@
   },
   "juaZ": {
     "title": "Shy 2nd Season",
-    "cover": "shy-2nd-season-fb45e3075f",
+    "cover": "shy-2nd-season-f7a2632d6b",
     "studio": "8bit",
     "source": "Manga",
     "genres": [
@@ -543,7 +536,7 @@
   },
   "Ic2m": {
     "title": "Yami Shibai 13",
-    "cover": "poster-21fa193001",
+    "cover": "yami-shibai-13-27b22b3392",
     "studio": "ILCA",
     "source": "Original",
     "genres": [

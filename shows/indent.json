@@ -670,19 +670,11 @@
   "mA6Z": {
     "title": "Demon Slayer: Kimetsu no Yaiba",
     "day": 7,
-    "time": "10:45 AM",
+    "time": "8:45 AM",
     "cover": "kimetsu-no-yaiba-hashira-geiko-hen-62826d1a5b",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba"
     }
-  },
-  "Ckjx": {
-    "title": "Atashin'chi Next",
-    "day": 2,
-    "time": "5:00 PM",
-    "cover": "poster-21fa193001",
-    "streams": {},
-    "status": true
   },
   "1AX5": {
     "title": "DEAD DEAD DEMONS DEDEDEDE DESTRUCTION",
@@ -691,15 +683,6 @@
     "cover": "dead-dead-demons-dededede-destruction-ona-534b3fd00b",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G8DHV7827/dead-dead-demons-dededede-destruction"
-    }
-  },
-  "zpW3": {
-    "title": "Baki Hanma VS Kengan Ashura",
-    "day": 4,
-    "time": "12:01 AM",
-    "cover": "hanma-baki-vs-kengan-ashura-668cfcd5cf",
-    "streams": {
-      "Netflix": "https://www.netflix.com/title/81648184"
     }
   }
 }
