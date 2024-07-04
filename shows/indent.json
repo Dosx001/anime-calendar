@@ -61,7 +61,7 @@
   },
   "wrIz": {
     "title": "Yu\u2606Gi\u2606Oh! Go Rush!!",
-    "day": 7,
+    "day": 6,
     "time": "3:30 PM",
     "cover": "yu-gi-oh-go-rush-9ca7d7e015",
     "streams": {}
@@ -253,7 +253,8 @@
     "time": "10:30 AM",
     "cover": "shinmai-ossan-boukensha-saikyou-party-ni-shinu-hodo-kitaerarete-muteki-ni-naru-c9172bb16c",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3GKX/the-ossan-newbie-adventurer-trained-to-death-by-the-most-powerful-party-became-invincible"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3GKX/the-ossan-newbie-adventurer-trained-to-death-by-the-most-powerful-party-became-invincible",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3eT2fOFMIeAJZQpdxe9tmU"
     }
   },
   "juaZ": {
@@ -266,12 +267,13 @@
     }
   },
   "Qreh": {
-    "title": "Tasuuketsu",
+    "title": "Tasuketsu -Fate of the Majority-",
     "day": 2,
     "time": "10:00 AM",
     "cover": "tasuuketsu-9f92c65be7",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WJMN/tasuketsu--fate-of-the-majority-"
+    }
   },
   "4svW": {
     "title": "Rokurou no Daibouken",
@@ -292,7 +294,7 @@
   "KA6Y": {
     "title": "Tokidoki Bosotto Russiago de Dereru Tonari no Alya-san",
     "day": 3,
-    "time": "7:30 AM",
+    "time": "8:00 AM",
     "cover": "tokidoki-bosotto-russiago-de-dereru-tonari-no-alya-san-977075a960",
     "streams": {},
     "status": true
