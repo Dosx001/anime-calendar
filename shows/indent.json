@@ -314,20 +314,24 @@
     }
   },
   "CegE": {
-    "title": "Ramen Aka Neko",
+    "title": "Ramen Akaneko",
     "day": 4,
     "time": "9:00 AM",
     "cover": "ramen-akaneko-b5319e68e6",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX85ZN/ramen-akaneko",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jgl0X9tyPA2c88pbX-Q4I-m"
+    }
   },
   "Q2JC": {
-    "title": "Hazurewaku no \"Joutai Ijou Skill\" de Saikyou ni Natta Ore ga Subete wo Juurin suru made",
+    "title": "Failure Frame: I Became the Strongest and Annihilated Everything with Low-Level Spells",
     "day": 4,
     "time": "11:00 AM",
     "cover": "hazurewaku-no-joutai-ijou-skill-de-saikyou-ni-natta-ore-ga-subete-wo-juurin-suru-made-d8ba617b1f",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEVD3E/failure-frame-i-became-the-strongest-and-annihilated-everything-with-low-level-spells",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2Ylo_ZqR-Ian69US02f1GA"
+    }
   },
   "N179": {
     "title": "Days with My Stepsister",
@@ -354,7 +358,8 @@
     "time": "8:01 AM",
     "cover": "ore-wa-subete-wo-parry-suru-gyaku-kanchigai-no-sekai-saikyou-wa-boukensha-ni-naritai-7cfaf74ed1",
     "streams": {
-      "HiDive": "https://www.hidive.com/season/24576"
+      "HiDive": "https://www.hidive.com/season/24576",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3C3peDURtUL6yivoXKvuZ7"
     }
   },
   "uTUo": {
@@ -363,24 +368,27 @@
     "time": "9:30 AM",
     "cover": "giji-harem-bb088941d3",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GKEH2G08K/pseudo-harem"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GKEH2G08K/pseudo-harem",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjWo6Fc37gLC2NijjFtqkPF"
     }
   },
   "JkeP": {
-    "title": "Megami no Caf\u00e9 Terrace Season 2",
+    "title": "The Caf\u00e9 Terrace and Its Goddesses",
     "day": 4,
-    "time": "8:26 AM",
+    "time": "11:15 AM",
     "cover": "megami-no-caf-terrace-season-2-38debe3656",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GQWH0MPQ7/the-caf-terrace-and-its-goddesses"
+    }
   },
   "A4Os": {
-    "title": "Senpai wa Otokonoko",
+    "title": "Senpai is an Otokonoko",
     "day": 4,
-    "time": "8:55 AM",
+    "time": "11:30 AM",
     "cover": "senpai-wa-otokonoko-c45982397f",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GW4HM7WP9/senpai-is-an-otokonoko"
+    }
   },
   "ZXhG": {
     "title": "Twilight Out of Focus",
@@ -393,12 +401,13 @@
     }
   },
   "lmb2": {
-    "title": "2.5-jigen no Ririsa",
+    "title": "2.5 Dimensional Seduction",
     "day": 5,
     "time": "6:31 AM",
     "cover": "2-5-jigen-no-ririsa-2b484be50a",
-    "streams": {},
-    "status": true
+    "streams": {
+      "HiDive": "https://www.hidive.com/season/24579"
+    }
   },
   "EsmR": {
     "title": "Mob kara Hajimaru Tansaku Eiyuutan",
@@ -409,28 +418,32 @@
     "status": true
   },
   "ugfI": {
-    "title": "Kono Sekai wa Fukanzen Sugiru",
+    "title": "Quality Assurance in Another World",
     "day": 5,
-    "time": "10:30 AM",
+    "time": "11:30 AM",
     "cover": "kono-sekai-wa-fukanzen-sugiru-0964632480",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G24H1NW30/quality-assurance-in-another-world",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JiUn54Tck1P3jmylN7bQmSL"
+    }
   },
   "9noY": {
-    "title": "NieR:Automata Ver1.1a Part 2",
+    "title": "NieR:Automata Ver1.1a",
     "day": 5,
-    "time": "7:30 AM",
+    "time": "9:00 AM",
     "cover": "nier-automata-ver1-1a-part-2-384f802b6d",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKNPW1/nierautomata-ver11a"
+    }
   },
   "uahb": {
-    "title": "Dungeon no Naka no Hito",
+    "title": "Dungeon People",
     "day": 5,
     "time": "10:30 AM",
     "cover": "dungeon-no-naka-no-hito-006b96d8a8",
-    "streams": {},
-    "status": true
+    "streams": {
+      "HiDive": "https://www.hidive.com/season/24581"
+    }
   },
   "JW2F": {
     "title": "Monogatari Series: Off & Monster Season",
