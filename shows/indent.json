@@ -269,7 +269,7 @@
   "Qreh": {
     "title": "Tasuketsu -Fate of the Majority-",
     "day": 2,
-    "time": "10:00 AM",
+    "time": "12:00 PM",
     "cover": "tasuuketsu-9f92c65be7",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WJMN/tasuketsu--fate-of-the-majority-"
@@ -284,20 +284,24 @@
     "status": true
   },
   "nw6W": {
-    "title": "[Oshi no Ko] 2nd Season",
+    "title": "Oshi No Ko",
     "day": 3,
     "time": "8:00 AM",
     "cover": "oshi-no-ko-season-2-a58d6c74e0",
-    "streams": {},
-    "status": true
+    "streams": {
+      "HiDive": "https://www.hidive.com/season/24567",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjnfDK89UJui3A9wj9Ib6yF"
+    }
   },
   "KA6Y": {
-    "title": "Tokidoki Bosotto Russiago de Dereru Tonari no Alya-san",
+    "title": "Alya Sometimes Hides Her Feelings in Russian",
     "day": 3,
     "time": "8:00 AM",
     "cover": "tokidoki-bosotto-russiago-de-dereru-tonari-no-alya-san-977075a960",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV0XM/alya-sometimes-hides-her-feelings-in-russian",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jj-LKKsOzrbDe7b8sSg37gz"
+    }
   },
   "QtxX": {
     "title": "The Strongest Magician in the Demon Lord's Army Was a Human",
@@ -311,8 +315,8 @@
   },
   "CegE": {
     "title": "Ramen Aka Neko",
-    "day": 3,
-    "time": "7:56 PM",
+    "day": 4,
+    "time": "9:00 AM",
     "cover": "ramen-akaneko-b5319e68e6",
     "streams": {},
     "status": true
@@ -320,18 +324,19 @@
   "Q2JC": {
     "title": "Hazurewaku no \"Joutai Ijou Skill\" de Saikyou ni Natta Ore ga Subete wo Juurin suru made",
     "day": 4,
-    "time": "8:59 AM",
+    "time": "11:00 AM",
     "cover": "hazurewaku-no-joutai-ijou-skill-de-saikyou-ni-natta-ore-ga-subete-wo-juurin-suru-made-d8ba617b1f",
     "streams": {},
     "status": true
   },
   "N179": {
-    "title": "Gimai Seikatsu",
+    "title": "Days with My Stepsister",
     "day": 4,
-    "time": "5:00 AM",
+    "time": "5:30 AM",
     "cover": "gimai-seikatsu-40abc8735b",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM190/days-with-my-stepsister"
+    }
   },
   "AHe3": {
     "title": "Suicide Squad Isekai",
@@ -344,20 +349,22 @@
     }
   },
   "FN1v": {
-    "title": "Ore wa Subete wo \"Parry\" suru: Gyaku Kanchigai no Sekai Saikyou wa Boukensha ni Naritai",
+    "title": "I Parry Everything",
     "day": 4,
     "time": "8:01 AM",
     "cover": "ore-wa-subete-wo-parry-suru-gyaku-kanchigai-no-sekai-saikyou-wa-boukensha-ni-naritai-7cfaf74ed1",
-    "streams": {},
-    "status": true
+    "streams": {
+      "HiDive": "https://www.hidive.com/season/24576"
+    }
   },
   "uTUo": {
-    "title": "Giji Harem",
+    "title": "Pseudo Harem",
     "day": 4,
-    "time": "8:30 AM",
+    "time": "9:30 AM",
     "cover": "giji-harem-bb088941d3",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GKEH2G08K/pseudo-harem"
+    }
   },
   "JkeP": {
     "title": "Megami no Caf\u00e9 Terrace Season 2",
@@ -376,12 +383,14 @@
     "status": true
   },
   "ZXhG": {
-    "title": "Tasogare Outfocus",
+    "title": "Twilight Out of Focus",
     "day": 4,
-    "time": "7:30 AM",
+    "time": "8:00 AM",
     "cover": "tasogare-outfocus-d142fdb0f2",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GMEHME751/twilight-out-of-focus",
+      "YouTube": "https://www.youtube.com/watch?v=qpjefNQBGp8"
+    }
   },
   "lmb2": {
     "title": "2.5-jigen no Ririsa",
