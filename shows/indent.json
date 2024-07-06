@@ -189,7 +189,8 @@
     "time": "9:00 AM",
     "cover": "boukyaku-battery-tv-62abff6c96",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3GDX/oblivion-battery"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3GDX/oblivion-battery",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jgky4y0OA7mpCLeVd16XuuG"
     }
   },
   "kAIN": {
@@ -396,7 +397,7 @@
     "time": "8:00 AM",
     "cover": "tasogare-outfocus-d142fdb0f2",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GMEHME751/twilight-out-of-focus",
+      "Crunchyroll": "https://www.crunchyroll.com/watch/G0DUN21ZN/if-this-love-is-going-to-be-over-before-it-even-begins",
       "YouTube": "https://www.youtube.com/watch?v=qpjefNQBGp8"
     }
   },
@@ -406,16 +407,18 @@
     "time": "6:31 AM",
     "cover": "2-5-jigen-no-ririsa-2b484be50a",
     "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GP5HJ845X/25-dimensional-seduction",
       "HiDive": "https://www.hidive.com/season/24579"
     }
   },
   "EsmR": {
-    "title": "Mob kara Hajimaru Tansaku Eiyuutan",
-    "day": 5,
-    "time": "5:00 PM",
+    "title": "A Nobody\u2019s Way Up to an Exploration Hero",
+    "day": 6,
+    "time": "7:00 AM",
     "cover": "mob-kara-hajimaru-tansaku-eiyuutan-968629b88e",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GZJH3D8X9/a-nobodys-way-up-to-an-exploration-hero"
+    }
   },
   "ugfI": {
     "title": "Quality Assurance in Another World",
@@ -446,12 +449,13 @@
     }
   },
   "JW2F": {
-    "title": "Monogatari Series: Off & Monster Season",
-    "day": 5,
-    "time": "5:00 PM",
+    "title": "MONOGATARI Series OFF & MONSTER Season",
+    "day": 6,
+    "time": "7:30 AM",
     "cover": "monogatari-series-off-and-monster-season-f787e5de7e",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKN9W2/monogatari-series-off--monster-season"
+    }
   },
   "WVlB": {
     "title": "Grendizer U",
@@ -464,26 +468,27 @@
   "PsoN": {
     "title": "Cardfight!! Vanguard: Divinez Season 2",
     "day": 5,
-    "time": "5:00 PM",
+    "time": "4:40 PM",
     "cover": "cardfight-vanguard-overdress-season-7-57e438acf9",
     "streams": {},
     "status": true
   },
   "r3FK": {
     "title": "Tsue to Tsurugi no Wistoria",
-    "day": 6,
-    "time": "5:00 PM",
+    "day": 7,
+    "time": "12:30 AM",
     "cover": "tsue-to-tsurugi-no-wistoria-a2e0bdaa59",
     "streams": {},
     "status": true
   },
   "AH7T": {
-    "title": "Madougushi Dahlia wa Utsumukanai: Kyou kara Jiyuu na Shokunin Life",
+    "title": "Dahlia in Bloom: Crafting a Fresh Start with Magical Tools",
     "day": 6,
-    "time": "5:00 AM",
+    "time": "5:30 AM",
     "cover": "madougushi-dahlia-wa-utsumukanai-kyou-kara-jiyuu-na-shokunin-life-0a2ab92b42",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GDKHZEJW0/dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools"
+    }
   },
   "voT3": {
     "title": "My Wife Has No Emotion",
@@ -495,28 +500,23 @@
     }
   },
   "Id5s": {
-    "title": "Shoushimin Series",
+    "title": "SHOSHIMIN: How to become Ordinary",
     "day": 6,
     "time": "9:30 AM",
     "cover": "shoushimin-series-2d7d14dba2",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM94J/shoshimin-how-to-become-ordinary",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JiywGHdQ_PsbRUNdj5f7h8H"
+    }
   },
   "QLkl": {
-    "title": "Nige Jouzu no Wakagimi",
+    "title": "The Elusive Samurai",
     "day": 6,
-    "time": "7:30 AM",
+    "time": "9:00 AM",
     "cover": "nige-jouzu-no-wakagimi-6b15cce92c",
-    "streams": {},
-    "status": true
-  },
-  "5LDO": {
-    "title": "Elf-san wa Yaserarenai.",
-    "day": 6,
-    "time": "8:01 AM",
-    "cover": "elf-san-wa-yaserarenai-d83aeaa32e",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GQWH0M19X/the-elusive-samurai"
+    }
   },
   "vn9Y": {
     "title": "Tousouchuu: Great Mission",
@@ -527,12 +527,14 @@
     "status": true
   },
   "Cfcx": {
-    "title": "Tensui no Sakuna-hime",
+    "title": "Sakuna: Of Rice and Ruin",
     "day": 6,
-    "time": "7:00 AM",
+    "time": "8:30 AM",
     "cover": "tensui-no-sakuna-hime-94478eb215",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G8DHV78W7/sakuna-of-rice-and-ruin",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjFLq3eULh4CEX2ieIZv085"
+    }
   },
   "huP3": {
     "title": "Kami no Tou: Tower of God 2",
@@ -567,12 +569,13 @@
     "status": true
   },
   "jkTD": {
-    "title": "VTuber Nandaga Haishin Kiri Wasuretara Densetsu ni Natteta",
+    "title": "VTuber Legend: How I Went Viral after Forgetting to Turn Off My Stream",
     "day": 7,
-    "time": "8:30 AM",
+    "time": "7:30 AM",
     "cover": "vtuber-nandaga-haishin-kiri-wasuretara-densetsu-ni-natteta-b382e08da1",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GDKHZEJ20/vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream"
+    }
   },
   "cXh6": {
     "title": "Na-Nare Hana-Nare",
@@ -587,7 +590,9 @@
     "day": 7,
     "time": "7:30 AM",
     "cover": "kinnikuman-shin-anime-9e21a15060",
-    "streams": {},
+    "streams": {
+      "Netflix": "https://www.netflix.com/title/81781519"
+    },
     "status": true
   }
 }
