@@ -183,16 +183,6 @@
       "Hulu": "https://www.hulu.com/series/mission-yozakura-family-ac689bea-f955-4d95-8693-7b87b5a309cb"
     }
   },
-  "KWoO": {
-    "title": "Oblivion Battery",
-    "day": 2,
-    "time": "9:00 AM",
-    "cover": "boukyaku-battery-tv-3003a0620a",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3GDX/oblivion-battery",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jgky4y0OA7mpCLeVd16XuuG"
-    }
-  },
   "kAIN": {
     "title": "The Misfit of Demon King Academy",
     "day": 3,
@@ -275,14 +265,6 @@
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WJMN/tasuketsu--fate-of-the-majority-"
     }
-  },
-  "4svW": {
-    "title": "Rokurou no Daibouken",
-    "day": 2,
-    "time": "5:00 PM",
-    "cover": "rokurou-no-daibouken-b422ddc365",
-    "streams": {},
-    "status": true
   },
   "nw6W": {
     "title": "Oshi No Ko",
@@ -417,7 +399,8 @@
     "time": "7:00 AM",
     "cover": "mob-kara-hajimaru-tansaku-eiyuutan-4473a90c92",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GZJH3D8X9/a-nobodys-way-up-to-an-exploration-hero"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GZJH3D8X9/a-nobodys-way-up-to-an-exploration-hero",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0sGgFJa4A_jELqNXVv8dqg"
     }
   },
   "ugfI": {
@@ -466,12 +449,13 @@
     "status": true
   },
   "PsoN": {
-    "title": "Cardfight!! Vanguard: Divinez Season 2",
+    "title": "CARDFIGHT!! VANGUARD overDress",
     "day": 5,
     "time": "4:40 PM",
     "cover": "cardfight-vanguard-overdress-season-7-622e7522fd",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3NJ5/cardfight-vanguard-overdress"
+    }
   },
   "r3FK": {
     "title": "Wistoria: Wand and Sword",
@@ -558,14 +542,14 @@
     }
   },
   "KSva": {
-    "title": "Isekai Yururi Kikou: Kosodateshinagara Boukensha Shimasu",
+    "title": "A Journey Through Another World: Raising Kids While Adventuring",
     "day": 7,
     "time": "10:30 AM",
     "cover": "isekai-yururi-kikou-kosodateshinagara-boukensha-shimasu-04a12c291d",
     "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G79H23ZVX/a-journey-through-another-world-raising-kids-while-adventuring",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3YlF-AmAQWIFW1BV-Q84tW"
-    },
-    "status": true
+    }
   },
   "kO9K": {
     "title": "My Deer Friend Nokotan",
@@ -574,7 +558,8 @@
     "cover": "shikanoko-nokonoko-koshitantan-0e4d170f36",
     "streams": {
       "Amazon": "https://www.primevideo.com/region/eu/detail/0S1F67QBD8A9QJ9CYHZYSNM4B2",
-      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM100/my-deer-friend-nokotan"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM100/my-deer-friend-nokotan",
+      "YouTube": "https://www.youtube.com/playlist?list=PLhGamQZtJ7K8lx-LvlNooiy7rkG10Cf3Z"
     }
   },
   "jkTD": {
@@ -588,21 +573,103 @@
     }
   },
   "cXh6": {
-    "title": "Na-Nare Hana-Nare",
+    "title": "Narenare -Cheer for you!-",
     "day": 7,
     "time": "9:30 AM",
     "cover": "na-nare-hana-nare-1fb249f70b",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W2GK/narenare--cheer-for-you-"
+    }
   },
   "AsPL": {
-    "title": "Kinnikuman: Kanpeki Choujin Shiso-hen",
+    "title": "Kinnikuman Perfect Origin Arc",
     "day": 7,
-    "time": "7:55 AM",
+    "time": "7:30 AM",
     "cover": "kinnikuman-shin-anime-9e21a15060",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81781519"
-    },
+    }
+  },
+  "YYtT": {
+    "title": "MAYONAKA PUNCH",
+    "day": 1,
+    "time": "7:00 AM",
+    "cover": "mayonaka-punch-095d7c0bf4",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W28K/mayonaka-punch"
+    }
+  },
+  "OfNW": {
+    "title": "Isekai Shikkaku",
+    "day": 2,
+    "time": "7:30 AM",
+    "cover": "isekai-shikkaku-ea404898bd",
+    "streams": {},
+    "status": true
+  },
+  "nMVN": {
+    "title": "Shinkalion: Change the World",
+    "day": 6,
+    "time": "4:30 PM",
+    "cover": "shinkalion-change-the-world-9fdc0df233",
+    "streams": {},
+    "status": true
+  },
+  "ALnC": {
+    "title": "Kimi to Boku no Saigo no Senjou, Aruiwa Sekai ga Hajimaru Seisen Season II",
+    "day": 3,
+    "time": "6:30 AM",
+    "cover": "kimi-to-boku-no-saigo-no-senjou-aruiwa-sekai-ga-hajimaru-seisen-zoku-hen-516668a41d",
+    "streams": {},
+    "status": true
+  },
+  "hH2x": {
+    "title": "Love Is Indivisible by Twins",
+    "day": 3,
+    "time": "7:30 AM",
+    "cover": "koi-wa-futago-de-warikirenai-fe06789baf",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM9EJ/love-is-indivisible-by-twins"
+    }
+  },
+  "3fks": {
+    "title": "Bye Bye, Earth",
+    "day": 5,
+    "time": "7:30 AM",
+    "cover": "bye-bye-earth-29d6abf60c",
+    "streams": {},
+    "status": true
+  },
+  "cN3r": {
+    "title": "Jochum",
+    "day": 5,
+    "time": "2:00 PM",
+    "cover": "jochum-7dccce776c",
+    "streams": {},
+    "status": true
+  },
+  "FLYk": {
+    "title": "Naze Boku no Sekai wo Daremo Oboeteinai no ka?",
+    "day": 6,
+    "time": "6:30 AM",
+    "cover": "naze-boku-no-sekai-wo-daremo-oboeteinai-no-ka-3d3cdf4f0f",
+    "streams": {},
+    "status": true
+  },
+  "zIrT": {
+    "title": "ATRI: My Dear Moments",
+    "day": 6,
+    "time": "8:00 AM",
+    "cover": "atri-my-dear-moments-06a76514b3",
+    "streams": {},
+    "status": true
+  },
+  "c8Ef": {
+    "title": "Make Heroine ga Oosugiru!",
+    "day": 6,
+    "time": "8:30 AM",
+    "cover": "make-heroine-ga-oosugiru-a1c1761ea8",
+    "streams": {},
     "status": true
   }
 }
