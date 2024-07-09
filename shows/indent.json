@@ -596,20 +596,22 @@
     "time": "7:00 AM",
     "cover": "mayonaka-punch-095d7c0bf4",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W28K/mayonaka-punch"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W28K/mayonaka-punch",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgRtxr6-hzpqOVnKDFFVAEt"
     }
   },
   "OfNW": {
-    "title": "Isekai Shikkaku",
+    "title": "No Longer Allowed in Another World",
     "day": 2,
-    "time": "7:30 AM",
+    "time": "8:00 AM",
     "cover": "isekai-shikkaku-ea404898bd",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3G7X/no-longer-allowed-in-another-world"
+    }
   },
   "nMVN": {
     "title": "Shinkalion: Change the World",
-    "day": 6,
+    "day": 2,
     "time": "4:30 PM",
     "cover": "shinkalion-change-the-world-9fdc0df233",
     "streams": {},
