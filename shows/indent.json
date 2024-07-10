@@ -611,24 +611,25 @@
   },
   "nMVN": {
     "title": "Shinkalion: Change the World",
-    "day": 2,
+    "day": 6,
     "time": "4:30 PM",
     "cover": "shinkalion-change-the-world-9fdc0df233",
     "streams": {},
     "status": true
   },
   "ALnC": {
-    "title": "Kimi to Boku no Saigo no Senjou, Aruiwa Sekai ga Hajimaru Seisen Season II",
+    "title": "Our Last Crusade or the Rise of a New World",
     "day": 3,
-    "time": "6:30 AM",
+    "time": "7:30 AM",
     "cover": "kimi-to-boku-no-saigo-no-senjou-aruiwa-sekai-ga-hajimaru-seisen-zoku-hen-516668a41d",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX8ZD0/our-last-crusade-or-the-rise-of-a-new-world"
+    }
   },
   "hH2x": {
     "title": "Love Is Indivisible by Twins",
     "day": 3,
-    "time": "7:30 AM",
+    "time": "8:15 AM",
     "cover": "koi-wa-futago-de-warikirenai-fe06789baf",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM9EJ/love-is-indivisible-by-twins"
