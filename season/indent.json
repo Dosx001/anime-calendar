@@ -48,8 +48,8 @@
   },
   "PsoN": {
     "title": "Cardfight!! Vanguard: Divinez Season 2",
-    "cover": "cardfight-vanguard-overdress-season-7-57e438acf9",
-    "studio": "N/A",
+    "cover": "cardfight-vanguard-overdress-season-7-622e7522fd",
+    "studio": "GIFTanimation",
     "source": "Card Game",
     "genres": [
       "Action",
@@ -79,18 +79,6 @@
       "Fantasy"
     ]
   },
-  "5LDO": {
-    "title": "Elf-san wa Yaserarenai.",
-    "cover": "elf-san-wa-yaserarenai-d83aeaa32e",
-    "studio": "Elias",
-    "source": "Manga",
-    "genres": [
-      "Comedy",
-      "Ecchi",
-      "Fantasy",
-      "Slice of Life"
-    ]
-  },
   "X7fg": {
     "title": "FAIRY TAIL: 100 YEARS QUEST",
     "cover": "fairy-tail-100-years-quest-485a21c5d2",
@@ -118,7 +106,7 @@
   },
   "N179": {
     "title": "Gimai Seikatsu",
-    "cover": "gimai-seikatsu-40abc8735b",
+    "cover": "gimai-seikatsu-f2762ceaef",
     "studio": "Studio DEEN",
     "source": "Light Novel",
     "genres": [
@@ -141,8 +129,8 @@
     ]
   },
   "Q2JC": {
-    "title": "Hazurewaku no \"Joutai Ijou Skill\" de Saikyou ni Natta Ore ga Subete wo Juurin suru made",
-    "cover": "hazurewaku-no-joutai-ijou-skill-de-saikyou-ni-natta-ore-ga-subete-wo-juurin-suru-made-d8ba617b1f",
+    "title": "Hazure Waku no [Joutai Ijou Skill] de Saikyou ni Natta Ore ga Subete wo Juurin Suru made",
+    "cover": "hazurewaku-no-joutai-ijou-skill-de-saikyou-ni-natta-ore-ga-subete-wo-juurin-suru-made-e729fc0781",
     "studio": "Seven Arcs",
     "source": "Light Novel",
     "genres": [
@@ -162,13 +150,12 @@
       "Comedy",
       "Fantasy",
       "Isekai",
-      "Slice of Life",
       "Supernatural"
     ]
   },
   "KSva": {
     "title": "Isekai Yururi Kikou: Kosodateshinagara Boukensha Shimasu",
-    "cover": "isekai-yururi-kikou-kosodateshinagara-boukensha-shimasu-a1a6259531",
+    "cover": "isekai-yururi-kikou-kosodateshinagara-boukensha-shimasu-04a12c291d",
     "studio": "EMT Squared",
     "source": "Light Novel",
     "genres": [
@@ -187,7 +174,7 @@
     "genres": []
   },
   "huP3": {
-    "title": "Kami no Tou: Tower of God 2",
+    "title": "Kami no Tou 2",
     "cover": "kami-no-tou-tower-of-god-2-b7273ca1ac",
     "studio": "The Answer Studio",
     "source": "Web Manga",
@@ -272,7 +259,7 @@
     ]
   },
   "QtxX": {
-    "title": "Maougun Saikyou no Majutsushi wa Ningen datta",
+    "title": "Maou Gun Saikyou no Majutsushi wa Ningen datta",
     "cover": "maougun-saikyou-no-majutsushi-wa-ningen-datta-59177810a0",
     "studio": "Studio A-CAT",
     "source": "Light Novel",
@@ -290,7 +277,9 @@
     "studio": "P.A. Works",
     "source": "Original",
     "genres": [
-      "Comedy"
+      "Comedy",
+      "Supernatural",
+      "Vampire"
     ]
   },
   "JkeP": {
@@ -307,7 +296,7 @@
   },
   "EsmR": {
     "title": "Mob kara Hajimaru Tansaku Eiyuutan",
-    "cover": "mob-kara-hajimaru-tansaku-eiyuutan-968629b88e",
+    "cover": "mob-kara-hajimaru-tansaku-eiyuutan-4473a90c92",
     "studio": "Gekkou",
     "source": "Light Novel",
     "genres": [
@@ -387,7 +376,7 @@
   },
   "juaZ": {
     "title": "SHY 2nd Season",
-    "cover": "shy-2nd-season-f7a2632d6b",
+    "cover": "shy-2nd-season-1df88257c7",
     "studio": "8bit",
     "source": "Manga",
     "genres": [
@@ -434,7 +423,7 @@
   },
   "nWp9": {
     "title": "Shinmai Ossan Boukensha, Saikyou Party ni Shinu hodo Kitaerarete Muteki ni Naru.",
-    "cover": "shinmai-ossan-boukensha-saikyou-party-ni-shinu-hodo-kitaerarete-muteki-ni-naru-c9172bb16c",
+    "cover": "shinmai-ossan-boukensha-saikyou-party-ni-shinu-hodo-kitaerarete-muteki-ni-naru-d82758b8bb",
     "studio": "Yumeta Company",
     "source": "Light Novel",
     "genres": [
@@ -456,7 +445,7 @@
   },
   "AHe3": {
     "title": "Suicide Squad Isekai",
-    "cover": "suicide-squad-isekai-a88f44852a",
+    "cover": "suicide-squad-isekai-ab57fdd255",
     "studio": "Wit Studio",
     "source": "Other",
     "genres": [
@@ -479,7 +468,7 @@
   },
   "Qreh": {
     "title": "Tasuuketsu",
-    "cover": "tasuuketsu-9f92c65be7",
+    "cover": "tasuuketsu-c33ac8d2c5",
     "studio": "Satelight",
     "source": "Web Manga",
     "genres": [
@@ -492,7 +481,7 @@
   },
   "Cfcx": {
     "title": "Tensui no Sakuna-hime",
-    "cover": "tensui-no-sakuna-hime-94478eb215",
+    "cover": "tensui-no-sakuna-hime-fa7a9f6e7b",
     "studio": "P.A. Works",
     "source": "Video Game",
     "genres": [
@@ -508,12 +497,13 @@
     "genres": [
       "Comedy",
       "Romance",
+      "School",
       "Slice of Life"
     ]
   },
   "r3FK": {
     "title": "Tsue to Tsurugi no Wistoria",
-    "cover": "tsue-to-tsurugi-no-wistoria-a2e0bdaa59",
+    "cover": "tsue-to-tsurugi-no-wistoria-0ecc7f703c",
     "studio": "Actas",
     "source": "Manga",
     "genres": [
@@ -532,16 +522,6 @@
     "genres": [
       "Comedy",
       "Slice of Life"
-    ]
-  },
-  "Ic2m": {
-    "title": "Yami Shibai 13",
-    "cover": "yami-shibai-13-27b22b3392",
-    "studio": "ILCA",
-    "source": "Original",
-    "genres": [
-      "Horror",
-      "Supernatural"
     ]
   },
   "nw6W": {
