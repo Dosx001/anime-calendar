@@ -611,7 +611,7 @@
   },
   "nMVN": {
     "title": "Shinkalion: Change the World",
-    "day": 6,
+    "day": 2,
     "time": "4:30 PM",
     "cover": "shinkalion-change-the-world-9fdc0df233",
     "streams": {},
@@ -653,27 +653,31 @@
     "status": true
   },
   "FLYk": {
-    "title": "Naze Boku no Sekai wo Daremo Oboeteinai no ka?",
-    "day": 6,
-    "time": "6:30 AM",
-    "cover": "naze-boku-no-sekai-wo-daremo-oboeteinai-no-ka-3d3cdf4f0f",
-    "streams": {},
-    "status": true
-  },
-  "zIrT": {
-    "title": "ATRI: My Dear Moments",
+    "title": "Why Does Nobody Remember Me in This World?",
     "day": 6,
     "time": "8:00 AM",
+    "cover": "naze-boku-no-sekai-wo-daremo-oboeteinai-no-ka-3d3cdf4f0f",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7QGJE/why-does-nobody-remember-me-in-this-world",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhFO-Cgv7IsqBrOGmPpI-2G&si=jS_WdqAL85Zge23b"
+    }
+  },
+  "zIrT": {
+    "title": "ATRI -My Dear Moments-",
+    "day": 6,
+    "time": "9:30 AM",
     "cover": "atri-my-dear-moments-06a76514b3",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV0EM/atri--my-dear-moments-"
+    }
   },
   "c8Ef": {
-    "title": "Make Heroine ga Oosugiru!",
+    "title": "Makeine: Too Many Losing Heroines!",
     "day": 6,
-    "time": "8:30 AM",
+    "time": "10:00 AM",
     "cover": "make-heroine-ga-oosugiru-a1c1761ea8",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7QGXE/makeine-too-many-losing-heroines"
+    }
   }
 }
