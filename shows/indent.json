@@ -46,7 +46,7 @@
   "ziMS": {
     "title": "Ninjala",
     "day": 4,
-    "time": "8:00 PM",
+    "time": "7:30 PM",
     "cover": "ninjala-c19a7f2bbe",
     "streams": {
       "HiDive": "https://www.hidive.com/tv/ninjala-the-animation"
@@ -283,6 +283,7 @@
     "cover": "tokidoki-bosotto-russiago-de-dereru-tonari-no-alya-san-977075a960",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV0XM/alya-sometimes-hides-her-feelings-in-russian",
+      "Netflix": "https://www.netflix.com/title/81661821",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jj-LKKsOzrbDe7b8sSg37gz"
     }
   },
@@ -310,7 +311,7 @@
     "title": "Failure Frame: I Became the Strongest and Annihilated Everything with Low-Level Spells",
     "day": 4,
     "time": "11:00 AM",
-    "cover": "hazurewaku-no-joutai-ijou-skill-de-saikyou-ni-natta-ore-ga-subete-wo-juurin-suru-made-e729fc0781",
+    "cover": "hazurewaku-no-joutai-ijou-skill-de-saikyou-ni-natta-ore-ga-subete-wo-juurin-suru-made-e4764ca83b",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEVD3E/failure-frame-i-became-the-strongest-and-annihilated-everything-with-low-level-spells",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2Ylo_ZqR-Ian69US02f1GA"
@@ -489,7 +490,7 @@
     "title": "SHOSHIMIN: How to become Ordinary",
     "day": 6,
     "time": "11:00 AM",
-    "cover": "shoushimin-series-2d7d14dba2",
+    "cover": "shoushimin-series-ee2b5ef1fc",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM94J/shoshimin-how-to-become-ordinary",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JiywGHdQ_PsbRUNdj5f7h8H"
@@ -516,7 +517,7 @@
     "title": "Sakuna: Of Rice and Ruin",
     "day": 6,
     "time": "8:30 AM",
-    "cover": "tensui-no-sakuna-hime-fa7a9f6e7b",
+    "cover": "tensui-no-sakuna-hime-c32d693d7e",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G8DHV78W7/sakuna-of-rice-and-ruin",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjFLq3eULh4CEX2ieIZv085"
@@ -525,8 +526,8 @@
   "huP3": {
     "title": "Tower of God",
     "day": 7,
-    "time": "7:30 AM",
-    "cover": "kami-no-tou-tower-of-god-2-b7273ca1ac",
+    "time": "7:01 AM",
+    "cover": "kami-no-tou-tower-of-god-2-d4562f4030",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G6J0G49DR/tower-of-god"
     }
@@ -611,7 +612,7 @@
   },
   "nMVN": {
     "title": "Shinkalion: Change the World",
-    "day": 2,
+    "day": 6,
     "time": "4:30 PM",
     "cover": "shinkalion-change-the-world-9fdc0df233",
     "streams": {},
@@ -639,23 +640,15 @@
     "title": "Bye Bye, Earth",
     "day": 5,
     "time": "8:00 AM",
-    "cover": "bye-bye-earth-29d6abf60c",
+    "cover": "bye-bye-earth-09d5f992ad",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WJXN/bye-bye-earth"
     }
   },
-  "cN3r": {
-    "title": "Jochum",
-    "day": 5,
-    "time": "2:00 PM",
-    "cover": "jochum-7dccce776c",
-    "streams": {},
-    "status": true
-  },
   "FLYk": {
     "title": "Why Does Nobody Remember Me in This World?",
     "day": 6,
-    "time": "8:00 AM",
+    "time": "8:15 AM",
     "cover": "naze-boku-no-sekai-wo-daremo-oboeteinai-no-ka-3d3cdf4f0f",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7QGJE/why-does-nobody-remember-me-in-this-world",
@@ -675,9 +668,45 @@
     "title": "Makeine: Too Many Losing Heroines!",
     "day": 6,
     "time": "10:00 AM",
-    "cover": "make-heroine-ga-oosugiru-a1c1761ea8",
+    "cover": "make-heroine-ga-oosugiru-b9b8e967c3",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7QGXE/makeine-too-many-losing-heroines"
+    }
+  },
+  "WXNw": {
+    "title": "Sengoku Youko",
+    "day": 3,
+    "time": "8:30 AM",
+    "cover": "sengoku-youko-senma-konton-hen-61406349dd",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEVD57/sengoku-youko"
+    }
+  },
+  "IR7D": {
+    "title": "T\u30fbP BON",
+    "day": 3,
+    "time": "12:01 AM",
+    "cover": "t-p-bon-1e75b41528",
+    "streams": {
+      "Netflix": "https://www.netflix.com/title/81497635"
+    }
+  },
+  "KLGK": {
+    "title": "Code Geass: Roz\u00e9 of the Recapture",
+    "day": 5,
+    "time": "12:01 AM",
+    "cover": "code-geass-dakkan-no-z-0c0856769a",
+    "streams": {
+      "Hulu": "https://www.hulu.com/series/666998dc-6229-4057-9857-54da01132d33"
+    }
+  },
+  "sqk5": {
+    "title": "Chi\u2019s Sweet Adventure",
+    "day": 5,
+    "time": "12:00 AM",
+    "cover": "koneko-no-chi-ponponraa-natsuyasumi-b331fc93a4",
+    "streams": {
+      "Netflix": "https://www.netflix.com/title/81712502"
     }
   }
 }
