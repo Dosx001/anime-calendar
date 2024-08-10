@@ -241,7 +241,7 @@
   },
   "Qreh": {
     "title": "Tasuketsu -Fate of the Majority-",
-    "day": 3,
+    "day": 2,
     "time": "12:00 PM",
     "cover": "tasuuketsu-c33ac8d2c5",
     "streams": {
@@ -390,7 +390,7 @@
     "title": "Quality Assurance in Another World",
     "day": 5,
     "time": "11:30 AM",
-    "cover": "kono-sekai-wa-fukanzen-sugiru-0964632480",
+    "cover": "kono-sekai-wa-fukanzen-sugiru-4c56527779",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G24H1NW30/quality-assurance-in-another-world",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JiUn54Tck1P3jmylN7bQmSL"
@@ -537,8 +537,8 @@
   },
   "kO9K": {
     "title": "My Deer Friend Nokotan",
-    "day": 7,
-    "time": "8:00 AM",
+    "day": 3,
+    "time": "7:31 AM",
     "cover": "shikanoko-nokonoko-koshitantan-0e4d170f36",
     "streams": {
       "Amazon": "https://www.primevideo.com/region/eu/detail/0S1F67QBD8A9QJ9CYHZYSNM4B2",
@@ -674,20 +674,46 @@
       "Hulu": "https://www.hulu.com/series/666998dc-6229-4057-9857-54da01132d33"
     }
   },
-  "4gAE": {
-    "title": "From Me to You: Kimi ni Todoke",
-    "day": 4,
-    "time": "12:01 AM",
-    "cover": "kimi-ni-todoke-3rd-season-9a0e4d6793",
-    "streams": {
-      "Netflix": "https://www.netflix.com/title/80236253"
-    }
-  },
   "iEPH": {
     "title": "Shen Wu Tianzun (2024)",
     "day": 5,
     "time": "7:00 PM",
     "cover": "shen-wu-tianzun-2024-c63a9791a1",
+    "streams": {},
+    "status": true
+  },
+  "acb1": {
+    "title": "Rising Impact",
+    "day": 2,
+    "time": "12:01 AM",
+    "cover": "rising-impact-b340d0a8ee",
+    "streams": {
+      "Netflix": "https://www.netflix.com/title/81563026"
+    }
+  },
+  "OQKu": {
+    "title": "Delico's Nursery",
+    "day": 3,
+    "time": "10:00 AM",
+    "cover": "delicos-nursery-50607b1547",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GKEH2G04K/delicos-nursery"
+    }
+  },
+  "JlA8": {
+    "title": "True Beauty",
+    "day": 3,
+    "time": "9:31 AM",
+    "cover": "yeosingangnim-904e66b91c",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GMEHME741/true-beauty"
+    }
+  },
+  "sPcU": {
+    "title": "Fate/Grand Order: Fujimaru Ritsuka wa Wakaranai 2nd Season",
+    "day": 3,
+    "time": "12:00 PM",
+    "cover": "fate-grand-order-fujimaru-ritsuka-wa-wakaranai-2nd-season-7dd084672f",
     "streams": {},
     "status": true
   }
