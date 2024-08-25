@@ -283,7 +283,7 @@
     "title": "Ramen Akaneko",
     "day": 4,
     "time": "9:00 AM",
-    "cover": "ramen-akaneko-b5319e68e6",
+    "cover": "ramen-akaneko-44c1006710",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX85ZN/ramen-akaneko",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jgl0X9tyPA2c88pbX-Q4I-m"
@@ -314,6 +314,7 @@
     "time": "8:01 AM",
     "cover": "ore-wa-subete-wo-parry-suru-gyaku-kanchigai-no-sekai-saikyou-wa-boukensha-ni-naritai-7cfaf74ed1",
     "streams": {
+      "Amazon": "https://www.primevideo.com/-/fr/detail/I-Parry-Everything/0QM2391MATPGGX3FNXU8DHYQSA",
       "HiDive": "https://www.hidive.com/season/24576",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3C3peDURtUL6yivoXKvuZ7"
     }
@@ -352,7 +353,7 @@
     "time": "8:00 AM",
     "cover": "tasogare-outfocus-d142fdb0f2",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/watch/G0DUN21ZN/if-this-love-is-going-to-be-over-before-it-even-begins",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GMEHME751",
       "YouTube": "https://www.youtube.com/watch?v=qpjefNQBGp8"
     }
   },
@@ -493,6 +494,7 @@
     "cover": "tensui-no-sakuna-hime-c32d693d7e",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G8DHV78W7/sakuna-of-rice-and-ruin",
+      "Netflix": "https://www.netflix.com/title/81914001",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjFLq3eULh4CEX2ieIZv085"
     }
   },
@@ -591,15 +593,6 @@
     "streams": {},
     "status": true
   },
-  "ALnC": {
-    "title": "Our Last Crusade or the Rise of a New World",
-    "day": 3,
-    "time": "7:30 AM",
-    "cover": "kimi-to-boku-no-saigo-no-senjou-aruiwa-sekai-ga-hajimaru-seisen-zoku-hen-516668a41d",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX8ZD0/our-last-crusade-or-the-rise-of-a-new-world"
-    }
-  },
   "hH2x": {
     "title": "Love Is Indivisible by Twins",
     "day": 3,
@@ -652,7 +645,8 @@
     "time": "8:30 AM",
     "cover": "sengoku-youko-senma-konton-hen-61406349dd",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEVD57/sengoku-youko"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEVD57/sengoku-youko",
+      "YouTube": "https://www.youtube.com/watch?v=VBWVW4oX0T0&list=PLxSscENEp7Jg7-Gjeh9OSWOtADRl__bLB"
     }
   },
   "KLGK": {
@@ -684,7 +678,7 @@
   },
   "sPcU": {
     "title": "Fate/Grand Order: Fujimaru Ritsuka wa Wakaranai 2nd Season",
-    "day": 3,
+    "day": 2,
     "time": "12:00 PM",
     "cover": "fate-grand-order-fujimaru-ritsuka-wa-wakaranai-2nd-season-7dd084672f",
     "streams": {},
