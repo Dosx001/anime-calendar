@@ -1,7 +1,7 @@
 {
   "7EO3": {
     "title": "Acro Trip",
-    "cover": "acro-trip-c00aeff9b2",
+    "cover": "acro-trip-675342362e",
     "studio": "Voil",
     "source": "Manga",
     "genres": [
@@ -39,7 +39,7 @@
   },
   "RY3b": {
     "title": "Ao no Hako",
-    "cover": "ao-no-hako-f4c9462996",
+    "cover": "ao-no-hako-ff482db783",
     "studio": "Telecom Animation Film",
     "source": "Manga",
     "genres": [
@@ -51,7 +51,7 @@
   },
   "1fJU": {
     "title": "Ao no Miburo",
-    "cover": "ao-no-miburo-ed35a9177e",
+    "cover": "ao-no-miburo-093864c235",
     "studio": "Maho Film",
     "source": "Manga",
     "genres": [
@@ -90,7 +90,7 @@
     ]
   },
   "61Ws": {
-    "title": "Blue Lock VS",
+    "title": "Blue Lock VS. U-20 JAPAN",
     "cover": "blue-lock-2nd-season-614472fd53",
     "studio": "8bit",
     "source": "Manga",
@@ -103,7 +103,7 @@
   },
   "ViQF": {
     "title": "Chi.: Chikyuu no Undou ni Tsuite",
-    "cover": "chi-chikyuu-no-undou-ni-tsuite-8f71a515ef",
+    "cover": "chi-chikyuu-no-undou-ni-tsuite-9ebbda0dfc.",
     "studio": "MADHOUSE",
     "source": "Manga",
     "genres": [
@@ -130,10 +130,13 @@
     "title": "Dragon Ball DAIMA",
     "cover": "dragon-ball-daima-bc212f7cd2",
     "studio": "N/A",
-    "source": "Original",
+    "source": "Manga",
     "genres": [
       "Action",
-      "Adventure"
+      "Adventure",
+      "Comedy",
+      "Fantasy",
+      "Shounen"
     ]
   },
   "Ftnj": {
@@ -151,7 +154,7 @@
   },
   "Hfyu": {
     "title": "Goukon ni Ittara Onna ga Inakatta Hanashi",
-    "cover": "goukon-ni-ittara-onna-ga-inakatta-hanashi-d108b5642f",
+    "cover": "goukon-ni-ittara-onna-ga-inakatta-hanashi-db8b88a586",
     "studio": "Ashi Productions",
     "source": "Web Manga",
     "genres": [
@@ -211,7 +214,7 @@
   },
   "1GCM": {
     "title": "Kabushikigaisha Magi-Lumi\u00e8re",
-    "cover": "kabushikigaisha-magi-lumi-re-449cb3ac95",
+    "cover": "kabushikigaisha-magi-lumi-re-509aff7f45",
     "studio": "J.C. Staff",
     "source": "Manga",
     "genres": [
@@ -301,8 +304,8 @@
     ]
   },
   "YRK6": {
-    "title": "MF Ghost Second Season",
-    "cover": "mf-ghost-second-season-ee89fa6794",
+    "title": "MF Ghost 2nd Season",
+    "cover": "mf-ghost-second-season-82efe682ec",
     "studio": "Felix Film",
     "source": "Manga",
     "genres": [
@@ -350,7 +353,7 @@
   },
   "5PYn": {
     "title": "Mecha-ude (TV)",
-    "cover": "mecha-ude-tv-bf4c49e96c",
+    "cover": "mecha-ude-tv-25547b9a1d",
     "studio": "TriF Studio",
     "source": "Original",
     "genres": [
@@ -394,7 +397,7 @@
   },
   "VPnm": {
     "title": "Natsume Yuujinchou Shichi",
-    "cover": "natsume-yuujinchou-shichi-72408119c2",
+    "cover": "natsume-yuujinchou-shichi-9f35b2cd74",
     "studio": "Studio Shuka",
     "source": "Manga",
     "genres": [
@@ -407,21 +410,11 @@
   },
   "YIUL": {
     "title": "NegaPosi Angler",
-    "cover": "negaposi-angler-c1efe21462",
+    "cover": "negaposi-angler-b35cffffac",
     "studio": "NUT",
     "source": "Original",
     "genres": [
       "Drama"
-    ]
-  },
-  "GAh8": {
-    "title": "Neko ni Tensei shita Ojisan",
-    "cover": "neko-ni-tensei-shita-ojisan-002178de60",
-    "studio": "STUDIO EIGHTCOLORS",
-    "source": "Web Manga",
-    "genres": [
-      "Comedy",
-      "Slice of Life"
     ]
   },
   "po7G": {
@@ -436,7 +429,7 @@
   "JXR1": {
     "title": "Ooi! Tonbo 2nd Season",
     "cover": "ooi-tonbo-2nd-season-42e61ec918",
-    "studio": "N/A",
+    "studio": "OLM",
     "source": "Manga",
     "genres": [
       "Drama",
@@ -456,7 +449,7 @@
   },
   "pUbB": {
     "title": "Puniru wa Kawaii Slime",
-    "cover": "puniru-wa-kawaii-slime-d0ff1a4b45",
+    "cover": "puniru-wa-kawaii-slime-a1c349e13f",
     "studio": "TOHO animation STUDIO",
     "source": "Manga",
     "genres": [
@@ -627,7 +620,7 @@
   "u2wm": {
     "title": "Tono to Inu",
     "cover": "tono-to-inu-37eb84b205",
-    "studio": "N/A",
+    "studio": "Live2D Creative Studio",
     "source": "Web Manga",
     "genres": [
       "Comedy",
