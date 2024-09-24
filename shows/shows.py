@@ -56,21 +56,17 @@ class Shows:
         ):
             for col in self.driver.find_elements(By.CLASS_NAME, day):
                 for show in col.find_elements(By.CLASS_NAME, "timetable-column-show"):
-                    if show.get_attribute("chinese") or search(
-                        "hidden|filtered-out", show.get_attribute("class") or ""
+                    if show.get_dom_attribute("chinese") or search(
+                        "hidden|filtered-out", show.get_dom_attribute("class") or ""
                     ):
                         continue
-                    title = show.find_element(
-                        By.CLASS_NAME, "show-title-bar"
-                    ).get_attribute("innerText")
+                    title = show.find_element(By.CLASS_NAME, "show-title-bar").text
                     if not title:
                         continue
-                    key = show.get_attribute("showid")
+                    key = show.get_dom_attribute("showid")
                     if not key:
                         continue
-                    time = show.find_element(
-                        By.CLASS_NAME, "show-air-time"
-                    ).get_attribute("innerText")
+                    time = show.find_element(By.CLASS_NAME, "show-air-time").text
                     if not time:
                         continue
                     time = time.strip()
@@ -80,8 +76,8 @@ class Shows:
                         By.CLASS_NAME, "show-poster"
                     ).get_property("src")
                     streams = {
-                        stream.get_attribute("title")
-                        or "": stream.get_attribute("href")
+                        stream.get_dom_attribute("title")
+                        or "": "https:" + stream.get_dom_attribute("href")
                         or ""
                         for stream in show.find_elements(By.CLASS_NAME, "stream-link")
                     }
@@ -309,4 +305,4 @@ class Shows:
         self.driver.get(url)
         return self.driver.find_element(
             By.CLASS_NAME, "SerieHeader-thumb"
-        ).get_attribute("alt")
+        ).get_dom_attribute("alt")

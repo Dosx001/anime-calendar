@@ -25,35 +25,28 @@ def main():
     for show in driver.find_element(By.CLASS_NAME, "shows-container").find_elements(
         By.CLASS_NAME, "anime-tile"
     ):
-        title: str = show.find_element(By.CLASS_NAME, "anime-tile-title").get_attribute(
-            "innerText"
-        )
-        cover: str = show.find_element(
-            By.CLASS_NAME, "anime-tile-thumbnail"
-        ).get_attribute("src")[77:-4]
+        title = show.find_element(By.CLASS_NAME, "anime-tile-title").text
+        cover = show.find_element(By.CLASS_NAME, "anime-tile-thumbnail")
+        cover = cover.get_dom_attribute("src")
         # while "placeholder" in cover:
-        #     cover = show.find_element(By.CLASS_NAME, 'show-poster').get_attribute('src')
+        #     cover = show.find_element(By.CLASS_NAME, 'show-poster').get_dom_attribute('src')
         try:
-            studio = show.find_element(By.CLASS_NAME, "anime-tile-stu").get_attribute(
-                "innerText"
-            )
+            studio = show.find_element(By.CLASS_NAME, "anime-tile-stu").text
         except NoSuchElementException:
             studio = "N/A"
-        source = show.find_element(By.CLASS_NAME, "anime-tile-sou").get_attribute(
-            "innerText"
-        )
+        source = show.find_element(By.CLASS_NAME, "anime-tile-sou").text
         genres = [
-            ele.get_attribute("innerText")
+            ele.accessible_name
             for ele in show.find_elements(By.CLASS_NAME, "anime-tile-genre")
         ]
         content = {
             "title": title,
-            "cover": cover,
+            "cover": cover[77:-4],
             "studio": studio,
             "source": source,
             "genres": genres,
         }
-        shows.update({show.get_attribute("showid"): content})
+        shows.update({show.get_dom_attribute("showid"): content})
     shows = dict(sorted(shows.items(), key=lambda item: item[1]["title"]))
     with open("indent.json", "w", encoding="utf-8") as file:
         dump(shows, file, indent=2)
