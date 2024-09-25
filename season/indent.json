@@ -74,6 +74,18 @@
       "Isekai"
     ]
   },
+  "udju": {
+    "title": "Asatir 2: Mirai no Mukashi Banashi",
+    "cover": "asatir-2-mirai-no-mukashi-banashi-31117280c0",
+    "studio": "Toei Animation",
+    "source": "Original",
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Historical",
+      "Sci-Fi"
+    ]
+  },
   "DKrX": {
     "title": "Bleach: Sennen Kessen-hen - Soukoku-tan",
     "cover": "bleach-sennen-kessen-hen-soukoku-tan-f6d71ca038",
@@ -83,7 +95,6 @@
       "Action",
       "Adventure",
       "Drama",
-      "Fantasy",
       "Shounen",
       "Supernatural",
       "Superpower"
@@ -114,7 +125,7 @@
   },
   "y5eS": {
     "title": "Dandadan",
-    "cover": "dandadan-01ad7f9040",
+    "cover": "dandadan-74284c55e4",
     "studio": "Science SARU",
     "source": "Manga",
     "genres": [
@@ -122,6 +133,7 @@
       "Comedy",
       "Drama",
       "Romance",
+      "Sci-Fi",
       "Shounen",
       "Supernatural"
     ]
@@ -176,7 +188,7 @@
   },
   "B8mI": {
     "title": "Hitoribocchi no Isekai Kouryaku",
-    "cover": "hitoribocchi-no-isekai-kouryaku-1dcd164e1e",
+    "cover": "hitoribocchi-no-isekai-kouryaku-82177ed6d1",
     "studio": "Hayabusa Film",
     "source": "Light Novel",
     "genres": [
@@ -200,7 +212,7 @@
   },
   "F2cw": {
     "title": "Is It Wrong to Try to Pick Up Girls in a Dungeon? V: Goddess of Fertility Arc",
-    "cover": "is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-v-3f2450e9a9",
+    "cover": "is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-v-581d203d4e",
     "studio": "J.C. Staff",
     "source": "Light Novel",
     "genres": [
@@ -238,7 +250,7 @@
   },
   "Xgjt": {
     "title": "Kamierabi 2nd Season",
-    "cover": "kamierabi-2nd-season-da4e51de94",
+    "cover": "kamierabi-2nd-season-2b22c58047",
     "studio": "UNEND",
     "source": "Original",
     "genres": [
@@ -262,7 +274,7 @@
   },
   "Gk9m": {
     "title": "Kekkon Surutte, Hontou desuka",
-    "cover": "kekkon-suru-tte-hontou-desu-ka-80e3425e18",
+    "cover": "kekkon-suru-tte-hontou-desu-ka-9610f563b7",
     "studio": "Ashi Productions",
     "source": "Manga",
     "genres": [
@@ -305,7 +317,7 @@
   },
   "YRK6": {
     "title": "MF Ghost 2nd Season",
-    "cover": "mf-ghost-second-season-82efe682ec",
+    "cover": "mf-ghost-second-season-e627979b5a",
     "studio": "Felix Film",
     "source": "Manga",
     "genres": [
@@ -323,8 +335,7 @@
       "Drama",
       "Fantasy",
       "Magic",
-      "School",
-      "Slice of Life"
+      "School"
     ]
   },
   "v2z8": {
@@ -341,12 +352,13 @@
   },
   "3bZl": {
     "title": "Maou-sama, Retry! R",
-    "cover": "maou-sama-retry-r-acdcfb08c8",
+    "cover": "maou-sama-retry-r-99c18e7c59",
     "studio": "Gekkou",
-    "source": "Manga",
+    "source": "Web Manga",
     "genres": [
       "Action",
       "Adventure",
+      "Comedy",
       "Fantasy",
       "Isekai"
     ]
@@ -362,19 +374,20 @@
       "Sci-Fi"
     ]
   },
-  "ryIs": {
-    "title": "Murai no Koi",
-    "cover": "murai-no-koi-3dc18dc4c3",
-    "studio": "J.C. Staff",
-    "source": "Web Manga",
+  "ZKOV": {
+    "title": "Murder Mystery of the Dead",
+    "cover": "murder-mystery-of-the-dead-05a38037be",
+    "studio": "N/A",
+    "source": "Video Game",
     "genres": [
-      "Comedy",
-      "Romance"
+      "Mystery",
+      "Supernatural",
+      "Thriller"
     ]
   },
   "pv8u": {
     "title": "Nageki no Bourei wa Intai shitai",
-    "cover": "nageki-no-bourei-wa-intai-shitai-9cb5788274",
+    "cover": "nageki-no-bourei-wa-intai-shitai-6443641a7b",
     "studio": "Zero-G",
     "source": "Light Novel",
     "genres": [
@@ -385,7 +398,7 @@
   },
   "U8Yw": {
     "title": "Nanatsu no Taizai: Mokushiroku no Yonkishi 2nd Season",
-    "cover": "nanatsu-no-taizai-mokushiroku-no-yonkishi-2nd-season-b7762a89b5",
+    "cover": "nanatsu-no-taizai-mokushiroku-no-yonkishi-2nd-season-447905703a",
     "studio": "Telecom Animation Film",
     "source": "Manga",
     "genres": [
@@ -428,7 +441,7 @@
   },
   "JXR1": {
     "title": "Ooi! Tonbo 2nd Season",
-    "cover": "ooi-tonbo-2nd-season-42e61ec918",
+    "cover": "ooi-tonbo-2nd-season-165a6896fd",
     "studio": "OLM",
     "source": "Manga",
     "genres": [
@@ -456,6 +469,7 @@
       "Comedy",
       "Fantasy",
       "Romance",
+      "School",
       "Slice of Life"
     ]
   },
@@ -526,13 +540,15 @@
   },
   "OOY8": {
     "title": "Saikyou no Shienshoku \"Wajutsushi\" de Aru Ore wa Sekai Saikyou Clan wo Shitagaeru",
-    "cover": "saikyou-no-shienshoku-wajutsushi-de-aru-ore-wa-sekai-saikyou-clan-wo-shitagaeru-3e75877920",
+    "cover": "saikyou-no-shienshoku-wajutsushi-de-aru-ore-wa-sekai-saikyou-clan-wo-shitagaeru-8c4a5d1723",
     "studio": "Felix Film",
     "source": "Light Novel",
     "genres": [
       "Action",
       "Adventure",
-      "Fantasy"
+      "Comedy",
+      "Fantasy",
+      "Psychological"
     ]
   },
   "c1hB": {
@@ -587,7 +603,7 @@
   },
   "dIGW": {
     "title": "Sword Art Online Alternative: Gun Gale Online 2",
-    "cover": "sword-art-online-alternative-gun-gale-online-2-37bf3518fc",
+    "cover": "sword-art-online-alternative-gun-gale-online-2-19b7d12a1b",
     "studio": "A-1 Pictures",
     "source": "Light Novel",
     "genres": [
@@ -610,7 +626,7 @@
   },
   "uYJt": {
     "title": "The iDOLM@STER Shiny Colors 2nd Season",
-    "cover": "the-idolmaster-shiny-colors-2nd-season-f146056e8e",
+    "cover": "the-idolmaster-shiny-colors-2nd-season-3b57593636",
     "studio": "POLYGON PICTURES",
     "source": "Video Game",
     "genres": [
@@ -630,7 +646,7 @@
   },
   "CE78": {
     "title": "Touhai: Ura Rate Mahjong Touhai Roku",
-    "cover": "touhai-ura-rate-mahjong-touhai-roku-6804da756e",
+    "cover": "touhai-ura-rate-mahjong-touhai-roku-0ebdc14e0b",
     "studio": "East Fish Studio",
     "source": "Manga",
     "genres": [
@@ -682,7 +698,7 @@
   },
   "PwVp": {
     "title": "Yarinaoshi Reijou wa Ryuutei Heika wo Kouryakuchuu",
-    "cover": "yarinaoshi-reijou-wa-ryuutei-heika-wo-kouryakuchuu-342cf5d52b",
+    "cover": "yarinaoshi-reijou-wa-ryuutei-heika-wo-kouryakuchuu-3d78f4dfff",
     "studio": "J.C. Staff",
     "source": "Light Novel",
     "genres": [
@@ -701,7 +717,6 @@
       "Comedy",
       "Fantasy",
       "School",
-      "Shounen",
       "Supernatural"
     ]
   }

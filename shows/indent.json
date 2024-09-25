@@ -157,15 +157,6 @@
       "Hulu": "https://www.hulu.com/series/the-fable-36c2be07-2f2e-400f-9da5-aed0b5d401cb"
     }
   },
-  "TrVm": {
-    "title": "YATAGARASU: The Raven Does Not Choose Its Master",
-    "day": 6,
-    "time": "11:30 AM",
-    "cover": "karasu-wa-aruji-wo-erabanai-22a0730e6c",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM92J/yatagarasu-the-raven-does-not-choose-its-master"
-    }
-  },
   "vGHc": {
     "title": "Himitsu no AiPri",
     "day": 6,
@@ -211,15 +202,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/G6NQ5DWZ6/my-hero-academia"
     }
   },
-  "1AX5": {
-    "title": "DEAD DEAD DEMONS DEDEDEDE DESTRUCTION",
-    "day": 4,
-    "time": "8:01 PM",
-    "cover": "dead-dead-demons-dededede-destruction-ona-534b3fd00b",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G8DHV7827/dead-dead-demons-dededede-destruction"
-    }
-  },
   "nWp9": {
     "title": "The Ossan Newbie Adventurer, Trained to Death by the Most Powerful Party, Became Invincible",
     "day": 1,
@@ -258,37 +240,6 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjnfDK89UJui3A9wj9Ib6yF"
     }
   },
-  "KA6Y": {
-    "title": "Alya Sometimes Hides Her Feelings in Russian",
-    "day": 3,
-    "time": "8:00 AM",
-    "cover": "tokidoki-bosotto-russiago-de-dereru-tonari-no-alya-san-977075a960",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV0XM/alya-sometimes-hides-her-feelings-in-russian",
-      "Netflix": "https://www.netflix.com/title/81661821",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jj-LKKsOzrbDe7b8sSg37gz"
-    }
-  },
-  "QtxX": {
-    "title": "The Strongest Magician in the Demon Lord's Army Was a Human",
-    "day": 3,
-    "time": "7:00 AM",
-    "cover": "maougun-saikyou-no-majutsushi-wa-ningen-datta-59177810a0",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQDD/the-strongest-magician-in-the-demon-lords-army-was-a-human",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgunHOBYisGRlwPBvz-OgL7"
-    }
-  },
-  "CegE": {
-    "title": "Ramen Akaneko",
-    "day": 4,
-    "time": "9:00 AM",
-    "cover": "ramen-akaneko-44c1006710",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX85ZN/ramen-akaneko",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jgl0X9tyPA2c88pbX-Q4I-m"
-    }
-  },
   "Q2JC": {
     "title": "Failure Frame: I Became the Strongest and Annihilated Everything with Low-Level Spells",
     "day": 4,
@@ -297,45 +248,6 @@
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEVD3E/failure-frame-i-became-the-strongest-and-annihilated-everything-with-low-level-spells",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2Ylo_ZqR-Ian69US02f1GA"
-    }
-  },
-  "N179": {
-    "title": "Days with My Stepsister",
-    "day": 4,
-    "time": "5:30 AM",
-    "cover": "gimai-seikatsu-f2762ceaef",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM190/days-with-my-stepsister"
-    }
-  },
-  "FN1v": {
-    "title": "I Parry Everything",
-    "day": 4,
-    "time": "8:01 AM",
-    "cover": "ore-wa-subete-wo-parry-suru-gyaku-kanchigai-no-sekai-saikyou-wa-boukensha-ni-naritai-7cfaf74ed1",
-    "streams": {
-      "Amazon": "https://www.primevideo.com/-/fr/detail/I-Parry-Everything/0QM2391MATPGGX3FNXU8DHYQSA",
-      "HiDive": "https://www.hidive.com/season/24576",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3C3peDURtUL6yivoXKvuZ7"
-    }
-  },
-  "uTUo": {
-    "title": "Pseudo Harem",
-    "day": 4,
-    "time": "9:30 AM",
-    "cover": "giji-harem-bb088941d3",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GKEH2G08K/pseudo-harem",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjWo6Fc37gLC2NijjFtqkPF"
-    }
-  },
-  "JkeP": {
-    "title": "The Caf\u00e9 Terrace and Its Goddesses",
-    "day": 4,
-    "time": "10:30 AM",
-    "cover": "megami-no-caf-terrace-season-2-38debe3656",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GQWH0MPQ7/the-caf-terrace-and-its-goddesses"
     }
   },
   "A4Os": {
@@ -347,34 +259,15 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GW4HM7WP9/senpai-is-an-otokonoko"
     }
   },
-  "ZXhG": {
-    "title": "Twilight Out of Focus",
-    "day": 4,
-    "time": "8:00 AM",
-    "cover": "tasogare-outfocus-d142fdb0f2",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GMEHME751",
-      "YouTube": "https://www.youtube.com/watch?v=qpjefNQBGp8"
-    }
-  },
   "lmb2": {
     "title": "2.5 Dimensional Seduction",
     "day": 5,
     "time": "6:31 AM",
     "cover": "2-5-jigen-no-ririsa-2b484be50a",
     "streams": {
+      "Amazon": "https://www.primevideo.com/detail/25-Dimensional-Seduction/0RPPVG8WFKOLFZQREHL7L748WG",
       "Crunchyroll": "https://www.crunchyroll.com/series/GP5HJ845X/25-dimensional-seduction",
       "HiDive": "https://www.hidive.com/season/24579"
-    }
-  },
-  "EsmR": {
-    "title": "A Nobody\u2019s Way Up to an Exploration Hero",
-    "day": 6,
-    "time": "7:00 AM",
-    "cover": "mob-kara-hajimaru-tansaku-eiyuutan-4473a90c92",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GZJH3D8X9/a-nobodys-way-up-to-an-exploration-hero",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0sGgFJa4A_jELqNXVv8dqg"
     }
   },
   "ugfI": {
@@ -438,35 +331,8 @@
     "cover": "tsue-to-tsurugi-no-wistoria-0ecc7f703c",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GW4HM7WK9/wistoria-wand-and-sword",
+      "Netflix": "https://www.netflix.com/title/81900358",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3fj-ljtzKxYaTBgrqtcqoY"
-    }
-  },
-  "AH7T": {
-    "title": "Dahlia in Bloom: Crafting a Fresh Start with Magical Tools",
-    "day": 6,
-    "time": "5:30 AM",
-    "cover": "madougushi-dahlia-wa-utsumukanai-kyou-kara-jiyuu-na-shokunin-life-0a2ab92b42",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GDKHZEJW0/dahlia-in-bloom-crafting-a-fresh-start-with-magical-tools"
-    }
-  },
-  "voT3": {
-    "title": "My Wife Has No Emotion",
-    "day": 6,
-    "time": "8:00 AM",
-    "cover": "boku-no-tsuma-wa-kanjou-ga-nai-d4ce1f46ea",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G79H23ZWX/my-wife-has-no-emotion"
-    }
-  },
-  "Id5s": {
-    "title": "SHOSHIMIN: How to become Ordinary",
-    "day": 6,
-    "time": "11:00 AM",
-    "cover": "shoushimin-series-ee2b5ef1fc",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM94J/shoshimin-how-to-become-ordinary",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JiywGHdQ_PsbRUNdj5f7h8H"
     }
   },
   "QLkl": {
@@ -517,55 +383,6 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl23uIjbwVKoUA3dbo6FiGoX"
     }
   },
-  "KSva": {
-    "title": "A Journey Through Another World: Raising Kids While Adventuring",
-    "day": 7,
-    "time": "10:30 AM",
-    "cover": "isekai-yururi-kikou-kosodateshinagara-boukensha-shimasu-04a12c291d",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G79H23ZVX/a-journey-through-another-world-raising-kids-while-adventuring",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3YlF-AmAQWIFW1BV-Q84tW"
-    }
-  },
-  "kO9K": {
-    "title": "My Deer Friend Nokotan",
-    "day": 3,
-    "time": "7:31 AM",
-    "cover": "shikanoko-nokonoko-koshitantan-0e4d170f36",
-    "streams": {
-      "Amazon": "https://www.primevideo.com/region/eu/detail/0S1F67QBD8A9QJ9CYHZYSNM4B2",
-      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM100/my-deer-friend-nokotan",
-      "YouTube": "https://www.youtube.com/playlist?list=PLhGamQZtJ7K8lx-LvlNooiy7rkG10Cf3Z"
-    }
-  },
-  "jkTD": {
-    "title": "VTuber Legend: How I Went Viral after Forgetting to Turn Off My Stream",
-    "day": 7,
-    "time": "8:30 AM",
-    "cover": "vtuber-nandaga-haishin-kiri-wasuretara-densetsu-ni-natteta-b382e08da1",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GDKHZEJ20/vtuber-legend-how-i-went-viral-after-forgetting-to-turn-off-my-stream",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgHA9Q6FiSUTNBm02lGB9Ke"
-    }
-  },
-  "cXh6": {
-    "title": "Narenare -Cheer for you!-",
-    "day": 7,
-    "time": "9:30 AM",
-    "cover": "na-nare-hana-nare-1fb249f70b",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W2GK/narenare--cheer-for-you-"
-    }
-  },
-  "AsPL": {
-    "title": "Kinnikuman Perfect Origin Arc",
-    "day": 7,
-    "time": "8:30 AM",
-    "cover": "kinnikuman-shin-anime-9e21a15060",
-    "streams": {
-      "Netflix": "https://www.netflix.com/title/81781519"
-    }
-  },
   "YYtT": {
     "title": "MAYONAKA PUNCH",
     "day": 1,
@@ -600,15 +417,6 @@
     "cover": "koi-wa-futago-de-warikirenai-fe06789baf",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM9EJ/love-is-indivisible-by-twins"
-    }
-  },
-  "3fks": {
-    "title": "Bye Bye, Earth",
-    "day": 5,
-    "time": "8:00 AM",
-    "cover": "bye-bye-earth-09d5f992ad",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WJXN/bye-bye-earth"
     }
   },
   "FLYk": {
@@ -649,15 +457,6 @@
       "YouTube": "https://www.youtube.com/watch?v=VBWVW4oX0T0&list=PLxSscENEp7Jg7-Gjeh9OSWOtADRl__bLB"
     }
   },
-  "KLGK": {
-    "title": "Code Geass: Roz\u00e9 of the Recapture",
-    "day": 5,
-    "time": "12:01 AM",
-    "cover": "code-geass-dakkan-no-z-0c0856769a",
-    "streams": {
-      "Hulu": "https://www.hulu.com/series/666998dc-6229-4057-9857-54da01132d33"
-    }
-  },
   "OQKu": {
     "title": "Delico's Nursery",
     "day": 3,
@@ -681,6 +480,55 @@
     "day": 2,
     "time": "12:00 PM",
     "cover": "fate-grand-order-fujimaru-ritsuka-wa-wakaranai-2nd-season-7dd084672f",
+    "streams": {},
+    "status": true
+  },
+  "ryIs": {
+    "title": "Murai In Love",
+    "day": 3,
+    "time": "12:01 AM",
+    "cover": "murai-no-koi-3dc18dc4c3",
+    "streams": {
+      "Hulu": "https://www.hulu.com/series/murai-in-love-cd0d005f-85d3-4d8c-bfc7-a46be3f9a2ce"
+    }
+  },
+  "B8mI": {
+    "title": "Hitoribocchi no Isekai Kouryaku",
+    "day": 4,
+    "time": "8:01 AM",
+    "cover": "hitoribocchi-no-isekai-kouryaku-82177ed6d1",
+    "streams": {},
+    "status": true
+  },
+  "lEhD": {
+    "title": "Uzumaki",
+    "day": 6,
+    "time": "9:30 PM",
+    "cover": "uzumaki-d044719062",
+    "streams": {},
+    "status": true
+  },
+  "3bZl": {
+    "title": "Maou-sama, Retry! R",
+    "day": 6,
+    "time": "7:00 AM",
+    "cover": "maou-sama-retry-r-99c18e7c59",
+    "streams": {},
+    "status": true
+  },
+  "YOeN": {
+    "title": "Tensei Kizoku, Kantei Skill de Nariagaru 2nd Season",
+    "day": 7,
+    "time": "7:30 AM",
+    "cover": "tensei-kizoku-kantei-skill-de-nariagaru-2nd-season-b789a94bcb",
+    "streams": {},
+    "status": true
+  },
+  "Hfyu": {
+    "title": "Goukon ni Ittara Onna ga Inakatta Hanashi",
+    "day": 7,
+    "time": "11:00 AM",
+    "cover": "goukon-ni-ittara-onna-ga-inakatta-hanashi-db8b88a586",
     "streams": {},
     "status": true
   }
