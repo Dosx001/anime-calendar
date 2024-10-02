@@ -376,17 +376,18 @@
     }
   },
   "pgLD": {
-    "title": "Re:Zero kara Hajimeru Isekai Seikatsu 3",
+    "title": "Re:ZERO -Starting Life in Another World-",
     "day": 3,
-    "time": "5:25 AM",
+    "time": "7:30 AM",
     "cover": "re-zero-kara-hajimeru-isekai-seikatsu-3-4ff0e54be2",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GRGG9798R/rezero--starting-life-in-another-world-"
+    }
   },
   "7EO3": {
     "title": "Acro Trip",
     "day": 3,
-    "time": "6:00 AM",
+    "time": "7:00 AM",
     "cover": "acro-trip-675342362e",
     "streams": {},
     "status": true
@@ -396,14 +397,6 @@
     "day": 3,
     "time": "8:55 AM",
     "cover": "kamierabi-2nd-season-2b22c58047",
-    "streams": {},
-    "status": true
-  },
-  "je36": {
-    "title": "Shin Tennis no Oujisama: U-17 World Cup Semifinal",
-    "day": 3,
-    "time": "8:00 AM",
-    "cover": "shin-tennis-no-oujisama-u-17-world-cup-semifinal-c72bec8da2",
     "streams": {},
     "status": true
   },
@@ -464,22 +457,6 @@
     "streams": {},
     "status": true
   },
-  "lWU8": {
-    "title": "Kinoko Inu",
-    "day": 4,
-    "time": "5:00 AM",
-    "cover": "kinoko-inu-404318cd3c",
-    "streams": {},
-    "status": true
-  },
-  "YIUL": {
-    "title": "NegaPosi Angler",
-    "day": 4,
-    "time": "6:00 AM",
-    "cover": "negaposi-angler-b35cffffac",
-    "streams": {},
-    "status": true
-  },
   "F2cw": {
     "title": "Is It Wrong to Try to Pick Up Girls in a Dungeon? V: Goddess of Fertility Arc",
     "day": 5,
@@ -525,32 +502,6 @@
     "day": 5,
     "time": "4:00 AM",
     "cover": "duel-masters-lost-tsuioku-no-suishou-0d78841c56",
-    "streams": {},
-    "status": true
-  },
-  "Ckjx": {
-    "title": "Atashin'chi Next",
-    "day": 5,
-    "time": "2:30 PM",
-    "cover": "atashin-chi-next-05742d8e63",
-    "streams": {
-      "YouTube": "https://www.youtube.com/playlist?list=PLgqRc8AjEjeMuTJc6M2DVdkfszyaUhh1j"
-    },
-    "status": true
-  },
-  "JXR1": {
-    "title": "Ooi! Tonbo 2nd Season",
-    "day": 5,
-    "time": "6:00 PM",
-    "cover": "ooi-tonbo-2nd-season-165a6896fd",
-    "streams": {},
-    "status": true
-  },
-  "uYJt": {
-    "title": "The iDOLM@STER Shiny Colors 2nd Season",
-    "day": 5,
-    "time": "9:23 AM",
-    "cover": "the-idolmaster-shiny-colors-2nd-season-3b57593636",
     "streams": {},
     "status": true
   },
@@ -604,23 +555,6 @@
     },
     "status": true
   },
-  "2Hp8": {
-    "title": "Ranma1/2",
-    "day": 6,
-    "time": "8:50 AM",
-    "cover": "",
-    "streams": {
-      "Netflix": "https://www.netflix.com/title/81171925"
-    }
-  },
-  "EAZm": {
-    "title": "Kagaku x Bouken Survival!",
-    "day": 6,
-    "time": "2:25 AM",
-    "cover": "",
-    "streams": {},
-    "status": true
-  },
   "pv8u": {
     "title": "Let This Grieving Soul Retire",
     "day": 7,
@@ -660,14 +594,6 @@
     "day": 7,
     "time": "1:00 AM",
     "cover": "love-live-superstar-3-03152f3950",
-    "streams": {},
-    "status": true
-  },
-  "pUbB": {
-    "title": "Puniru wa Kawaii Slime",
-    "day": 7,
-    "time": "7:45 AM",
-    "cover": "puniru-wa-kawaii-slime-a1c349e13f",
     "streams": {},
     "status": true
   }

@@ -7,7 +7,7 @@
 document.getElementById('list')!.innerHTML =
   localStorage.getItem('list') ?? 'Your List';
 
-const CAL = new Calendar('24.3.2');
+const CAL = new Calendar('24.3.3');
 const SON = new Season();
 
 window.onload = () => {
