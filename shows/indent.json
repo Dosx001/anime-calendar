@@ -128,35 +128,6 @@
     },
     "status": true
   },
-  "XLds": {
-    "title": "Spice and Wolf: MERCHANT MEETS THE WISE WOLF",
-    "day": 1,
-    "time": "11:00 AM",
-    "cover": "ookami-to-koushinryou-shinsaku-anime-1c7f0e7cca",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV08M/spice-and-wolf-merchant-meets-the-wise-wolf",
-      "Netflix": "https://www.netflix.com/to/title/81768918"
-    }
-  },
-  "tvGW": {
-    "title": "That Time I Got Reincarnated as a Slime",
-    "day": 5,
-    "time": "8:30 AM",
-    "cover": "tensei-shitara-slime-datta-ken-3rd-season-307c003f5d",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GYZJ43JMR/that-time-i-got-reincarnated-as-a-slime",
-      "YouTube": "https://www.youtube.com/watch?v=MEDyQiOB7xk&list=PLwLSw1_eDZl0TccWcuNXEUCq0R6KBWYFW"
-    }
-  },
-  "fleO": {
-    "title": "The Fable",
-    "day": 6,
-    "time": "9:30 AM",
-    "cover": "the-fable-e9f37144ba",
-    "streams": {
-      "Hulu": "https://www.hulu.com/series/the-fable-36c2be07-2f2e-400f-9da5-aed0b5d401cb"
-    }
-  },
   "vGHc": {
     "title": "Himitsu no AiPri",
     "day": 6,
@@ -184,15 +155,6 @@
     },
     "status": true
   },
-  "ONrt": {
-    "title": "Shadowverse",
-    "day": 5,
-    "time": "7:30 PM",
-    "cover": "shadowverse-flame-arc-hen-8f98f11d47",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GYEX244X6/shadowverse"
-    }
-  },
   "UTcm": {
     "title": "My Hero Academia",
     "day": 6,
@@ -200,25 +162,6 @@
     "cover": "boku-no-hero-academia-7-bae9e2f6c8",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G6NQ5DWZ6/my-hero-academia"
-    }
-  },
-  "nWp9": {
-    "title": "The Ossan Newbie Adventurer, Trained to Death by the Most Powerful Party, Became Invincible",
-    "day": 1,
-    "time": "10:30 AM",
-    "cover": "shinmai-ossan-boukensha-saikyou-party-ni-shinu-hodo-kitaerarete-muteki-ni-naru-d82758b8bb",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3GKX/the-ossan-newbie-adventurer-trained-to-death-by-the-most-powerful-party-became-invincible",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3eT2fOFMIeAJZQpdxe9tmU"
-    }
-  },
-  "juaZ": {
-    "title": "SHY",
-    "day": 1,
-    "time": "9:00 AM",
-    "cover": "shy-2nd-season-1df88257c7",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GKEH2G0W9/shy"
     }
   },
   "Qreh": {
@@ -232,31 +175,12 @@
   },
   "nw6W": {
     "title": "Oshi No Ko",
-    "day": 3,
-    "time": "8:00 AM",
+    "day": 7,
+    "time": "4:00 AM",
     "cover": "oshi-no-ko-season-2-a58d6c74e0",
     "streams": {
       "HiDive": "https://www.hidive.com/season/24567",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjnfDK89UJui3A9wj9Ib6yF"
-    }
-  },
-  "Q2JC": {
-    "title": "Failure Frame: I Became the Strongest and Annihilated Everything with Low-Level Spells",
-    "day": 4,
-    "time": "11:00 AM",
-    "cover": "hazurewaku-no-joutai-ijou-skill-de-saikyou-ni-natta-ore-ga-subete-wo-juurin-suru-made-e4764ca83b",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEVD3E/failure-frame-i-became-the-strongest-and-annihilated-everything-with-low-level-spells",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2Ylo_ZqR-Ian69US02f1GA"
-    }
-  },
-  "A4Os": {
-    "title": "Senpai is an Otokonoko",
-    "day": 4,
-    "time": "11:30 AM",
-    "cover": "senpai-wa-otokonoko-c45982397f",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GW4HM7WP9/senpai-is-an-otokonoko"
     }
   },
   "lmb2": {
@@ -270,34 +194,6 @@
       "HiDive": "https://www.hidive.com/season/24579"
     }
   },
-  "ugfI": {
-    "title": "Quality Assurance in Another World",
-    "day": 5,
-    "time": "11:30 AM",
-    "cover": "kono-sekai-wa-fukanzen-sugiru-4c56527779",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G24H1NW30/quality-assurance-in-another-world",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JiUn54Tck1P3jmylN7bQmSL"
-    }
-  },
-  "9noY": {
-    "title": "NieR:Automata Ver1.1a",
-    "day": 5,
-    "time": "9:00 AM",
-    "cover": "nier-automata-ver1-1a-part-2-384f802b6d",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKNPW1/nierautomata-ver11a"
-    }
-  },
-  "uahb": {
-    "title": "Dungeon People",
-    "day": 5,
-    "time": "10:30 AM",
-    "cover": "dungeon-no-naka-no-hito-006b96d8a8",
-    "streams": {
-      "HiDive": "https://www.hidive.com/season/24581"
-    }
-  },
   "JW2F": {
     "title": "MONOGATARI Series OFF & MONSTER Season",
     "day": 6,
@@ -306,14 +202,6 @@
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKN9W2/monogatari-series-off--monster-season"
     }
-  },
-  "WVlB": {
-    "title": "Grendizer U",
-    "day": 5,
-    "time": "9:23 AM",
-    "cover": "grendizer-u-06277a1292",
-    "streams": {},
-    "status": true
   },
   "PsoN": {
     "title": "CARDFIGHT!! VANGUARD overDress",
@@ -324,27 +212,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3NJ5/cardfight-vanguard-overdress"
     }
   },
-  "r3FK": {
-    "title": "Wistoria: Wand and Sword",
-    "day": 7,
-    "time": "2:30 AM",
-    "cover": "tsue-to-tsurugi-no-wistoria-0ecc7f703c",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GW4HM7WK9/wistoria-wand-and-sword",
-      "Netflix": "https://www.netflix.com/title/81900358",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3fj-ljtzKxYaTBgrqtcqoY"
-    }
-  },
-  "QLkl": {
-    "title": "The Elusive Samurai",
-    "day": 6,
-    "time": "9:00 AM",
-    "cover": "nige-jouzu-no-wakagimi-6b15cce92c",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GQWH0M19X/the-elusive-samurai",
-      "Netflix": "https://www.netflix.com/title/81907835"
-    }
-  },
   "vn9Y": {
     "title": "Tousouchuu: Great Mission",
     "day": 6,
@@ -352,17 +219,6 @@
     "cover": "tousouchuu-great-mission-2b70ef3975",
     "streams": {},
     "status": true
-  },
-  "Cfcx": {
-    "title": "Sakuna: Of Rice and Ruin",
-    "day": 6,
-    "time": "8:30 AM",
-    "cover": "tensui-no-sakuna-hime-c32d693d7e",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G8DHV78W7/sakuna-of-rice-and-ruin",
-      "Netflix": "https://www.netflix.com/title/81914001",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjFLq3eULh4CEX2ieIZv085"
-    }
   },
   "huP3": {
     "title": "Tower of God",
@@ -383,25 +239,6 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl23uIjbwVKoUA3dbo6FiGoX"
     }
   },
-  "YYtT": {
-    "title": "MAYONAKA PUNCH",
-    "day": 1,
-    "time": "7:00 AM",
-    "cover": "mayonaka-punch-095d7c0bf4",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W28K/mayonaka-punch",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgRtxr6-hzpqOVnKDFFVAEt"
-    }
-  },
-  "OfNW": {
-    "title": "No Longer Allowed in Another World",
-    "day": 2,
-    "time": "8:00 AM",
-    "cover": "isekai-shikkaku-ea404898bd",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3G7X/no-longer-allowed-in-another-world"
-    }
-  },
   "nMVN": {
     "title": "Shinkalion: Change the World",
     "day": 6,
@@ -410,25 +247,6 @@
     "streams": {},
     "status": true
   },
-  "hH2x": {
-    "title": "Love Is Indivisible by Twins",
-    "day": 3,
-    "time": "8:15 AM",
-    "cover": "koi-wa-futago-de-warikirenai-fe06789baf",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM9EJ/love-is-indivisible-by-twins"
-    }
-  },
-  "FLYk": {
-    "title": "Why Does Nobody Remember Me in This World?",
-    "day": 6,
-    "time": "8:15 AM",
-    "cover": "naze-boku-no-sekai-wo-daremo-oboeteinai-no-ka-3d3cdf4f0f",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7QGJE/why-does-nobody-remember-me-in-this-world",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhFO-Cgv7IsqBrOGmPpI-2G&si=jS_WdqAL85Zge23b"
-    }
-  },
   "zIrT": {
     "title": "ATRI -My Dear Moments-",
     "day": 6,
@@ -436,15 +254,6 @@
     "cover": "atri-my-dear-moments-06a76514b3",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV0EM/atri--my-dear-moments-"
-    }
-  },
-  "c8Ef": {
-    "title": "Makeine: Too Many Losing Heroines!",
-    "day": 6,
-    "time": "10:00 AM",
-    "cover": "make-heroine-ga-oosugiru-b9b8e967c3",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7QGXE/makeine-too-many-losing-heroines"
     }
   },
   "WXNw": {
@@ -498,13 +307,14 @@
     "time": "8:01 AM",
     "cover": "hitoribocchi-no-isekai-kouryaku-82177ed6d1",
     "streams": {
-      "HiDive": "https://www.hidive.com/season/26571"
+      "HiDive": "https://www.hidive.com/season/26571",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1P3W7ws_S-dsq2zV3aIj-S"
     }
   },
   "lEhD": {
     "title": "Uzumaki",
     "day": 6,
-    "time": "9:30 PM",
+    "time": "9:31 PM",
     "cover": "uzumaki-d044719062",
     "streams": {},
     "status": true
@@ -520,18 +330,344 @@
     }
   },
   "YOeN": {
-    "title": "Tensei Kizoku, Kantei Skill de Nariagaru 2nd Season",
+    "title": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World",
     "day": 7,
     "time": "7:30 AM",
     "cover": "tensei-kizoku-kantei-skill-de-nariagaru-2nd-season-b789a94bcb",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQMD/as-a-reincarnated-aristocrat-ill-use-my-appraisal-skill-to-rise-in-the-world",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JilqikV6J0zGI6PPnMPkzrx"
+    }
   },
   "Hfyu": {
     "title": "Goukon ni Ittara Onna ga Inakatta Hanashi",
     "day": 7,
     "time": "11:00 AM",
     "cover": "goukon-ni-ittara-onna-ga-inakatta-hanashi-db8b88a586",
+    "streams": {},
+    "status": true
+  },
+  "OOY8": {
+    "title": "The Most Notorious \"Talker\" Runs the World's Greatest Clan",
+    "day": 1,
+    "time": "9:00 AM",
+    "cover": "saikyou-no-shienshoku-wajutsushi-de-aru-ore-wa-sekai-saikyou-clan-wo-shitagaeru-8c4a5d1723",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GDKHZEJD0/the-most-notorious-talker-runs-the-worlds-greatest-clan",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0dnyHyQUkE0ggdGHWwWogW"
+    }
+  },
+  "nhJw": {
+    "title": "Tying the Knot with an Amagami Sister",
+    "day": 2,
+    "time": "8:30 AM",
+    "cover": "amagami-san-chi-no-enmusubi-72d6512308",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G24H1NWJ0/tying-the-knot-with-an-amagami-sister"
+    }
+  },
+  "wWTm": {
+    "title": "I'll Become a Villainess Who Goes Down in History",
+    "day": 2,
+    "time": "8:00 AM",
+    "cover": "rekishi-ni-nokoru-akujo-ni-naru-zo-9745ead287",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GQWH0M17X/ill-become-a-villainess-who-goes-down-in-history"
+    }
+  },
+  "pgLD": {
+    "title": "Re:Zero kara Hajimeru Isekai Seikatsu 3",
+    "day": 3,
+    "time": "5:25 AM",
+    "cover": "re-zero-kara-hajimeru-isekai-seikatsu-3-4ff0e54be2",
+    "streams": {},
+    "status": true
+  },
+  "7EO3": {
+    "title": "Acro Trip",
+    "day": 3,
+    "time": "6:00 AM",
+    "cover": "acro-trip-675342362e",
+    "streams": {},
+    "status": true
+  },
+  "Xgjt": {
+    "title": "Kamierabi 2nd Season",
+    "day": 3,
+    "time": "8:55 AM",
+    "cover": "kamierabi-2nd-season-2b22c58047",
+    "streams": {},
+    "status": true
+  },
+  "je36": {
+    "title": "Shin Tennis no Oujisama: U-17 World Cup Semifinal",
+    "day": 3,
+    "time": "8:00 AM",
+    "cover": "shin-tennis-no-oujisama-u-17-world-cup-semifinal-c72bec8da2",
+    "streams": {},
+    "status": true
+  },
+  "y5eS": {
+    "title": "Dandadan",
+    "day": 4,
+    "time": "8:26 AM",
+    "cover": "dandadan-74284c55e4",
+    "streams": {},
+    "status": true
+  },
+  "RY3b": {
+    "title": "Blue Box",
+    "day": 4,
+    "time": "7:56 AM",
+    "cover": "ao-no-hako-ff482db783",
+    "streams": {
+      "Netflix": "https://www.netflix.com/title/81663323"
+    }
+  },
+  "c1hB": {
+    "title": "Sayounara Ryuusei, Konnichiwa Jinsei",
+    "day": 4,
+    "time": "10:00 AM",
+    "cover": "sayounara-ryuusei-konnichiwa-jinsei-7106fa6002",
+    "streams": {},
+    "status": true
+  },
+  "Gk9m": {
+    "title": "Kekkon Surutte, Hontou desuka",
+    "day": 4,
+    "time": "7:30 AM",
+    "cover": "kekkon-suru-tte-hontou-desu-ka-9610f563b7",
+    "streams": {},
+    "status": true
+  },
+  "W1Sx": {
+    "title": "Rurouni Kenshin: Meiji Kenkaku Romantan - Kyoto Douran",
+    "day": 4,
+    "time": "8:55 AM",
+    "cover": "rurouni-kenshin-meiji-kenkaku-romantan-kyoto-douran-5ab2f9e363",
+    "streams": {},
+    "status": true
+  },
+  "5PYn": {
+    "title": "Mecha-ude (TV)",
+    "day": 4,
+    "time": "8:30 AM",
+    "cover": "mecha-ude-tv-25547b9a1d",
+    "streams": {},
+    "status": true
+  },
+  "fyCV": {
+    "title": "Trillion Game",
+    "day": 4,
+    "time": "9:28 AM",
+    "cover": "trillion-game-6cd3a9723c",
+    "streams": {},
+    "status": true
+  },
+  "lWU8": {
+    "title": "Kinoko Inu",
+    "day": 4,
+    "time": "5:00 AM",
+    "cover": "kinoko-inu-404318cd3c",
+    "streams": {},
+    "status": true
+  },
+  "YIUL": {
+    "title": "NegaPosi Angler",
+    "day": 4,
+    "time": "6:00 AM",
+    "cover": "negaposi-angler-b35cffffac",
+    "streams": {},
+    "status": true
+  },
+  "F2cw": {
+    "title": "Is It Wrong to Try to Pick Up Girls in a Dungeon? V: Goddess of Fertility Arc",
+    "day": 5,
+    "time": "6:01 AM",
+    "cover": "is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-v-581d203d4e",
+    "streams": {},
+    "status": true
+  },
+  "dIGW": {
+    "title": "Sword Art Online Alternative: Gun Gale Online 2",
+    "day": 5,
+    "time": "8:00 AM",
+    "cover": "sword-art-online-alternative-gun-gale-online-2-19b7d12a1b",
+    "streams": {},
+    "status": true
+  },
+  "IYew": {
+    "title": "Mahoutsukai ni Narenakatta Onnanoko no Hanashi.",
+    "day": 5,
+    "time": "9:53 AM",
+    "cover": "mahoutsukai-ni-narenakatta-onnanoko-no-hanashi-f1536be0c9",
+    "streams": {},
+    "status": true
+  },
+  "CE78": {
+    "title": "Touhai: Ura Rate Mahjong Touhai Roku",
+    "day": 5,
+    "time": "10:23 AM",
+    "cover": "touhai-ura-rate-mahjong-touhai-roku-0ebdc14e0b",
+    "streams": {},
+    "status": true
+  },
+  "1GCM": {
+    "title": "Kabushikigaisha Magi-Lumi\u00e8re",
+    "day": 5,
+    "time": "7:00 AM",
+    "cover": "kabushikigaisha-magi-lumi-re-509aff7f45",
+    "streams": {},
+    "status": true
+  },
+  "Ftnj": {
+    "title": "Duel Masters LOST: Tsuioku no Suishou",
+    "day": 5,
+    "time": "4:00 AM",
+    "cover": "duel-masters-lost-tsuioku-no-suishou-0d78841c56",
+    "streams": {},
+    "status": true
+  },
+  "Ckjx": {
+    "title": "Atashin'chi Next",
+    "day": 5,
+    "time": "2:30 PM",
+    "cover": "atashin-chi-next-05742d8e63",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLgqRc8AjEjeMuTJc6M2DVdkfszyaUhh1j"
+    },
+    "status": true
+  },
+  "JXR1": {
+    "title": "Ooi! Tonbo 2nd Season",
+    "day": 5,
+    "time": "6:00 PM",
+    "cover": "ooi-tonbo-2nd-season-165a6896fd",
+    "streams": {},
+    "status": true
+  },
+  "uYJt": {
+    "title": "The iDOLM@STER Shiny Colors 2nd Season",
+    "day": 5,
+    "time": "9:23 AM",
+    "cover": "the-idolmaster-shiny-colors-2nd-season-3b57593636",
+    "streams": {},
+    "status": true
+  },
+  "61Ws": {
+    "title": "Blue Lock VS. U-20 JAPAN",
+    "day": 6,
+    "time": "7:30 AM",
+    "cover": "blue-lock-2nd-season-614472fd53",
+    "streams": {},
+    "status": true
+  },
+  "DKrX": {
+    "title": "Bleach: Sennen Kessen-hen - Soukoku-tan",
+    "day": 6,
+    "time": "7:00 AM",
+    "cover": "bleach-sennen-kessen-hen-soukoku-tan-f6d71ca038",
+    "streams": {},
+    "status": true
+  },
+  "AeGM": {
+    "title": "Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki",
+    "day": 6,
+    "time": "10:00 AM",
+    "cover": "party-kara-tsuihou-sareta-sono-chiyushi-jitsu-wa-saikyou-ni-tsuki-34e5e9c28b",
+    "streams": {},
+    "status": true
+  },
+  "Y7oL": {
+    "title": "Ao no Exorcist: Yuki no Hate-hen",
+    "day": 6,
+    "time": "8:30 AM",
+    "cover": "ao-no-exorcist-yuki-no-hate-hen-9cff15676e",
+    "streams": {},
+    "status": true
+  },
+  "DG56": {
+    "title": "Kimi wa Meido-sama.",
+    "day": 6,
+    "time": "9:30 AM",
+    "cover": "kimi-wa-meido-sama-ccca1ef3f2",
+    "streams": {},
+    "status": true
+  },
+  "ViQF": {
+    "title": "Chi.: Chikyuu no Undou ni Tsuite",
+    "day": 6,
+    "time": "7:45 AM",
+    "cover": "chi-chikyuu-no-undou-ni-tsuite-9ebbda0dfc.",
+    "streams": {
+      "Netflix": "https://www.netflix.com/title/81765022"
+    },
+    "status": true
+  },
+  "2Hp8": {
+    "title": "Ranma1/2",
+    "day": 6,
+    "time": "8:50 AM",
+    "cover": "",
+    "streams": {
+      "Netflix": "https://www.netflix.com/title/81171925"
+    }
+  },
+  "EAZm": {
+    "title": "Kagaku x Bouken Survival!",
+    "day": 6,
+    "time": "2:25 AM",
+    "cover": "",
+    "streams": {},
+    "status": true
+  },
+  "pv8u": {
+    "title": "Let This Grieving Soul Retire",
+    "day": 7,
+    "time": "8:30 AM",
+    "cover": "nageki-no-bourei-wa-intai-shitai-6443641a7b",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GZJH3D8J9/let-this-grieving-soul-retire",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl39ouByN0ujsTUV3jnaJVLu"
+    }
+  },
+  "zCBI": {
+    "title": "Tsuma, Shougakusei ni Naru.",
+    "day": 7,
+    "time": "6:00 AM",
+    "cover": "tsuma-shougakusei-ni-naru-91cd1cdac6",
+    "streams": {},
+    "status": true
+  },
+  "U8Yw": {
+    "title": "Nanatsu no Taizai: Mokushiroku no Yonkishi 2nd Season",
+    "day": 7,
+    "time": "12:30 AM",
+    "cover": "nanatsu-no-taizai-mokushiroku-no-yonkishi-2nd-season-447905703a",
+    "streams": {},
+    "status": true
+  },
+  "YRK6": {
+    "title": "MF Ghost 2nd Season",
+    "day": 7,
+    "time": "8:00 AM",
+    "cover": "mf-ghost-second-season-e627979b5a",
+    "streams": {},
+    "status": true
+  },
+  "CQal": {
+    "title": "Love Live! Superstar!! 3",
+    "day": 7,
+    "time": "1:00 AM",
+    "cover": "love-live-superstar-3-03152f3950",
+    "streams": {},
+    "status": true
+  },
+  "pUbB": {
+    "title": "Puniru wa Kawaii Slime",
+    "day": 7,
+    "time": "7:45 AM",
+    "cover": "puniru-wa-kawaii-slime-a1c349e13f",
     "streams": {},
     "status": true
   }
