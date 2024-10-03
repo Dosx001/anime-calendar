@@ -332,7 +332,7 @@
   "YOeN": {
     "title": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World",
     "day": 7,
-    "time": "7:30 AM",
+    "time": "8:15 AM",
     "cover": "tensei-kizoku-kantei-skill-de-nariagaru-2nd-season-b789a94bcb",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQMD/as-a-reincarnated-aristocrat-ill-use-my-appraisal-skill-to-rise-in-the-world",
@@ -381,29 +381,32 @@
     "time": "7:30 AM",
     "cover": "re-zero-kara-hajimeru-isekai-seikatsu-3-4ff0e54be2",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GRGG9798R/rezero--starting-life-in-another-world-"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GRGG9798R/rezero--starting-life-in-another-world-",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0mHfdQze0zVVrSRnLNr-yF"
     }
   },
   "7EO3": {
     "title": "Acro Trip",
     "day": 3,
-    "time": "7:00 AM",
+    "time": "6:15 AM",
     "cover": "acro-trip-675342362e",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GW4HM7WG9/acro-trip"
+    }
   },
   "Xgjt": {
-    "title": "Kamierabi 2nd Season",
+    "title": "KamiErabi GOD.app",
     "day": 3,
-    "time": "8:55 AM",
+    "time": "10:25 AM",
     "cover": "kamierabi-2nd-season-2b22c58047",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GZJH3D898/kamierabi-godapp"
+    }
   },
   "y5eS": {
     "title": "Dandadan",
     "day": 4,
-    "time": "8:26 AM",
+    "time": "9:00 AM",
     "cover": "dandadan-74284c55e4",
     "streams": {},
     "status": true
@@ -411,24 +414,25 @@
   "RY3b": {
     "title": "Blue Box",
     "day": 4,
-    "time": "7:56 AM",
+    "time": "7:57 AM",
     "cover": "ao-no-hako-ff482db783",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81663323"
     }
   },
   "c1hB": {
-    "title": "Sayounara Ryuusei, Konnichiwa Jinsei",
+    "title": "Good Bye, Dragon Life",
     "day": 4,
-    "time": "10:00 AM",
+    "time": "10:15 AM",
     "cover": "sayounara-ryuusei-konnichiwa-jinsei-7106fa6002",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G79H23Z0X/good-bye-dragon-life"
+    }
   },
   "Gk9m": {
     "title": "Kekkon Surutte, Hontou desuka",
     "day": 4,
-    "time": "7:30 AM",
+    "time": "8:30 AM",
     "cover": "kekkon-suru-tte-hontou-desu-ka-9610f563b7",
     "streams": {},
     "status": true
@@ -436,7 +440,7 @@
   "W1Sx": {
     "title": "Rurouni Kenshin: Meiji Kenkaku Romantan - Kyoto Douran",
     "day": 4,
-    "time": "8:55 AM",
+    "time": "11:00 AM",
     "cover": "rurouni-kenshin-meiji-kenkaku-romantan-kyoto-douran-5ab2f9e363",
     "streams": {},
     "status": true
@@ -444,31 +448,34 @@
   "5PYn": {
     "title": "Mecha-ude (TV)",
     "day": 4,
-    "time": "8:30 AM",
+    "time": "9:30 AM",
     "cover": "mecha-ude-tv-25547b9a1d",
     "streams": {},
     "status": true
   },
   "fyCV": {
-    "title": "Trillion Game",
+    "title": "TRILLION GAME",
     "day": 4,
-    "time": "9:28 AM",
+    "time": "10:45 AM",
     "cover": "trillion-game-6cd3a9723c",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN9Q7Q/trillion-game",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgWSohUFSUx4uQvvUZCAhj4"
+    }
   },
   "F2cw": {
-    "title": "Is It Wrong to Try to Pick Up Girls in a Dungeon? V: Goddess of Fertility Arc",
-    "day": 5,
+    "title": "Is It Wrong to Try to Pick Up Girls in a Dungeon?",
+    "day": 4,
     "time": "6:01 AM",
     "cover": "is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-v-581d203d4e",
-    "streams": {},
-    "status": true
+    "streams": {
+      "HiDive": "https://www.hidive.com/season/26756"
+    }
   },
   "dIGW": {
     "title": "Sword Art Online Alternative: Gun Gale Online 2",
     "day": 5,
-    "time": "8:00 AM",
+    "time": "9:30 AM",
     "cover": "sword-art-online-alternative-gun-gale-online-2-19b7d12a1b",
     "streams": {},
     "status": true
@@ -476,7 +483,7 @@
   "IYew": {
     "title": "Mahoutsukai ni Narenakatta Onnanoko no Hanashi.",
     "day": 5,
-    "time": "9:53 AM",
+    "time": "11:30 AM",
     "cover": "mahoutsukai-ni-narenakatta-onnanoko-no-hanashi-f1536be0c9",
     "streams": {},
     "status": true
@@ -494,7 +501,9 @@
     "day": 5,
     "time": "7:00 AM",
     "cover": "kabushikigaisha-magi-lumi-re-509aff7f45",
-    "streams": {},
+    "streams": {
+      "Amazon": "https://www.primevideo.com/detail/0QA3P8T387P0WAV0KXUYBWDDYR"
+    },
     "status": true
   },
   "Ftnj": {
@@ -508,7 +517,7 @@
   "61Ws": {
     "title": "Blue Lock VS. U-20 JAPAN",
     "day": 6,
-    "time": "7:30 AM",
+    "time": "9:00 AM",
     "cover": "blue-lock-2nd-season-614472fd53",
     "streams": {},
     "status": true
@@ -516,7 +525,7 @@
   "DKrX": {
     "title": "Bleach: Sennen Kessen-hen - Soukoku-tan",
     "day": 6,
-    "time": "7:00 AM",
+    "time": "7:30 AM",
     "cover": "bleach-sennen-kessen-hen-soukoku-tan-f6d71ca038",
     "streams": {},
     "status": true
@@ -548,7 +557,7 @@
   "ViQF": {
     "title": "Chi.: Chikyuu no Undou ni Tsuite",
     "day": 6,
-    "time": "7:45 AM",
+    "time": "7:46 AM",
     "cover": "chi-chikyuu-no-undou-ni-tsuite-9ebbda0dfc.",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81765022"
@@ -594,6 +603,82 @@
     "day": 7,
     "time": "1:00 AM",
     "cover": "love-live-superstar-3-03152f3950",
+    "streams": {},
+    "status": true
+  },
+  "je36": {
+    "title": "Shin Tennis no Oujisama: U-17 World Cup Semifinal",
+    "day": 3,
+    "time": "9:00 AM",
+    "cover": "shin-tennis-no-oujisama-u-17-world-cup-semifinal-c72bec8da2",
+    "streams": {},
+    "status": true
+  },
+  "lWU8": {
+    "title": "Kinoko Inu",
+    "day": 4,
+    "time": "6:00 AM",
+    "cover": "kinoko-inu-404318cd3c",
+    "streams": {},
+    "status": true
+  },
+  "YIUL": {
+    "title": "NegaPosi Angler",
+    "day": 4,
+    "time": "6:30 AM",
+    "cover": "negaposi-angler-b35cffffac",
+    "streams": {},
+    "status": true
+  },
+  "Ckjx": {
+    "title": "Atashin'chi Next",
+    "day": 5,
+    "time": "2:30 PM",
+    "cover": "atashin-chi-next-05742d8e63",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLgqRc8AjEjeMuTJc6M2DVdkfszyaUhh1j"
+    },
+    "status": true
+  },
+  "JXR1": {
+    "title": "Ooi! Tonbo 2nd Season",
+    "day": 5,
+    "time": "6:00 PM",
+    "cover": "ooi-tonbo-2nd-season-165a6896fd",
+    "streams": {},
+    "status": true
+  },
+  "uYJt": {
+    "title": "THE iDOLM@STER SHINY COLORS",
+    "day": 5,
+    "time": "10:30 AM",
+    "cover": "the-idolmaster-shiny-colors-2nd-season-3b57593636",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GKEH2G0ZK/the-idolmster-shiny-colors"
+    }
+  },
+  "2Hp8": {
+    "title": "Ranma1/2",
+    "day": 6,
+    "time": "8:51 AM",
+    "cover": "ranma-2024-ff1651527e",
+    "streams": {
+      "Netflix": "https://www.netflix.com/title/81171925"
+    }
+  },
+  "EAZm": {
+    "title": "Kagaku x Bouken Survival!",
+    "day": 6,
+    "time": "2:25 AM",
+    "cover": "kagaku-manga-survival-tv-25de11afd1",
+    "streams": {},
+    "status": true
+  },
+  "pUbB": {
+    "title": "Puniru wa Kawaii Slime",
+    "day": 7,
+    "time": "7:45 AM",
+    "cover": "puniru-wa-kawaii-slime-a1c349e13f",
     "streams": {},
     "status": true
   }
