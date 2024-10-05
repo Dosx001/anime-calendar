@@ -426,7 +426,7 @@
     "time": "10:15 AM",
     "cover": "sayounara-ryuusei-konnichiwa-jinsei-7106fa6002",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G79H23Z0X/good-bye-dragon-life"
+      "Crunchyroll": "https://www.crunchyroll.com/watch/GN7UNXWME/goodbye-dragon-life"
     }
   },
   "Gk9m": {
@@ -473,12 +473,13 @@
     }
   },
   "dIGW": {
-    "title": "Sword Art Online Alternative: Gun Gale Online 2",
+    "title": "Sword Art Online Alternative: Gun Gale Online",
     "day": 5,
     "time": "9:30 AM",
     "cover": "sword-art-online-alternative-gun-gale-online-2-19b7d12a1b",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GY79P41KR/sword-art-online-alternative-gun-gale-online"
+    }
   },
   "IYew": {
     "title": "Mahoutsukai ni Narenakatta Onnanoko no Hanashi.",
@@ -499,10 +500,10 @@
   "1GCM": {
     "title": "Kabushikigaisha Magi-Lumi\u00e8re",
     "day": 5,
-    "time": "7:00 AM",
+    "time": "8:30 AM",
     "cover": "kabushikigaisha-magi-lumi-re-509aff7f45",
     "streams": {
-      "Amazon": "https://www.primevideo.com/detail/0QA3P8T387P0WAV0KXUYBWDDYR"
+      "Amazon": "https://www.amazon.com/dp/B0DDJ1T9ZB"
     },
     "status": true
   },
@@ -515,54 +516,61 @@
     "status": true
   },
   "61Ws": {
-    "title": "Blue Lock VS. U-20 JAPAN",
+    "title": "BLUE LOCK",
     "day": 6,
     "time": "9:00 AM",
     "cover": "blue-lock-2nd-season-614472fd53",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WEKE/blue-lock"
+    }
   },
   "DKrX": {
-    "title": "Bleach: Sennen Kessen-hen - Soukoku-tan",
+    "title": "BLEACH: Thousand-Year Blood War",
     "day": 6,
     "time": "7:30 AM",
     "cover": "bleach-sennen-kessen-hen-soukoku-tan-f6d71ca038",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Hulu": "https://www.hulu.com/series/bleach-thousand-year-blood-war-02a3c8c0-4f1d-4610-bbb4-5b8e9468d7b1",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgOSk5QmPX6aolSUsXgCMc-"
+    }
   },
   "AeGM": {
-    "title": "Party kara Tsuihou sareta Sono Chiyushi, Jitsu wa Saikyou ni Tsuki",
+    "title": "The Healer Who Was Banished From His Party, Is, in Fact, the Strongest",
     "day": 6,
-    "time": "10:00 AM",
+    "time": "11:30 AM",
     "cover": "party-kara-tsuihou-sareta-sono-chiyushi-jitsu-wa-saikyou-ni-tsuki-34e5e9c28b",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WJZN/the-healer-who-was-banished-from-his-party-is-in-fact-the-strongest",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhjvN8nBbvOSLr8SKkzwmkm"
+    }
   },
   "Y7oL": {
-    "title": "Ao no Exorcist: Yuki no Hate-hen",
+    "title": "Blue Exorcist",
     "day": 6,
-    "time": "8:30 AM",
+    "time": "10:00 AM",
     "cover": "ao-no-exorcist-yuki-no-hate-hen-9cff15676e",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G649PJ0JY/blue-exorcist"
+    }
   },
   "DG56": {
-    "title": "Kimi wa Meido-sama.",
+    "title": "You are Ms. Servant",
     "day": 6,
     "time": "9:30 AM",
     "cover": "kimi-wa-meido-sama-ccca1ef3f2",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV02M/you-are-ms-servant",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Ji1uCQlEQs2xNsM3drnWtvm"
+    }
   },
   "ViQF": {
-    "title": "Chi.: Chikyuu no Undou ni Tsuite",
+    "title": "Orb: On the Movements of the Earth",
     "day": 6,
-    "time": "7:46 AM",
-    "cover": "chi-chikyuu-no-undou-ni-tsuite-9ebbda0dfc.",
+    "time": "9:00 AM",
+    "cover": "chi-chikyuu-no-undou-ni-tsuite-bb40a0380f",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81765022"
-    },
-    "status": true
+    }
   },
   "pv8u": {
     "title": "Let This Grieving Soul Retire",
@@ -660,7 +668,7 @@
   "2Hp8": {
     "title": "Ranma1/2",
     "day": 6,
-    "time": "8:51 AM",
+    "time": "10:00 AM",
     "cover": "ranma-2024-ff1651527e",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81171925"
