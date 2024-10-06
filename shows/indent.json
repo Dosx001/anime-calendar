@@ -340,12 +340,13 @@
     }
   },
   "Hfyu": {
-    "title": "Goukon ni Ittara Onna ga Inakatta Hanashi",
+    "title": "How I Attended an All-Guy's Mixer",
     "day": 7,
     "time": "11:00 AM",
     "cover": "goukon-ni-ittara-onna-ga-inakatta-hanashi-db8b88a586",
-    "streams": {},
-    "status": true
+    "streams": {
+      "HiDive": "https://www.hidive.com/season/26753"
+    }
   },
   "OOY8": {
     "title": "The Most Notorious \"Talker\" Runs the World's Greatest Clan",
@@ -556,7 +557,7 @@
   "DG56": {
     "title": "You are Ms. Servant",
     "day": 6,
-    "time": "9:30 AM",
+    "time": "11:45 AM",
     "cover": "kimi-wa-meido-sama-ccca1ef3f2",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV02M/you-are-ms-servant",
@@ -583,36 +584,40 @@
     }
   },
   "zCBI": {
-    "title": "Tsuma, Shougakusei ni Naru.",
+    "title": "TsumaSho",
     "day": 7,
-    "time": "6:00 AM",
+    "time": "6:45 AM",
     "cover": "tsuma-shougakusei-ni-naru-91cd1cdac6",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7QG8E/tsumasho",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jh0ECnqFsNWdlLCAiYVUxFq"
+    }
   },
   "U8Yw": {
-    "title": "Nanatsu no Taizai: Mokushiroku no Yonkishi 2nd Season",
+    "title": "The Seven Deadly Sins: Four Knights of the Apocalypse",
     "day": 7,
-    "time": "12:30 AM",
+    "time": "1:30 AM",
     "cover": "nanatsu-no-taizai-mokushiroku-no-yonkishi-2nd-season-447905703a",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Netflix": "https://www.netflix.com/title/81562396"
+    }
   },
   "YRK6": {
     "title": "MF Ghost 2nd Season",
     "day": 7,
-    "time": "8:00 AM",
+    "time": "9:00 AM",
     "cover": "mf-ghost-second-season-e627979b5a",
     "streams": {},
     "status": true
   },
   "CQal": {
-    "title": "Love Live! Superstar!! 3",
+    "title": "Love Live! Superstar!!",
     "day": 7,
     "time": "1:00 AM",
     "cover": "love-live-superstar-3-03152f3950",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEVPWE/love-live-superstar"
+    }
   },
   "je36": {
     "title": "Shin Tennis no Oujisama: U-17 World Cup Semifinal",
