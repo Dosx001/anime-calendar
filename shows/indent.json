@@ -136,15 +136,6 @@
     "streams": {},
     "status": true
   },
-  "X2U6": {
-    "title": "Mission: Yozakura Family",
-    "day": 7,
-    "time": "1:30 AM",
-    "cover": "yozakura-san-chi-no-daisakusen-e2c4b66f1a",
-    "streams": {
-      "Hulu": "https://www.hulu.com/series/mission-yozakura-family-ac689bea-f955-4d95-8693-7b87b5a309cb"
-    }
-  },
   "hoej": {
     "title": "Yozakura-san Chi no Mini Sakusen",
     "day": 4,
@@ -171,16 +162,6 @@
     "cover": "tasuuketsu-c33ac8d2c5",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WJMN/tasuketsu--fate-of-the-majority-"
-    }
-  },
-  "nw6W": {
-    "title": "Oshi No Ko",
-    "day": 7,
-    "time": "4:00 AM",
-    "cover": "oshi-no-ko-season-2-a58d6c74e0",
-    "streams": {
-      "HiDive": "https://www.hidive.com/season/24567",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjnfDK89UJui3A9wj9Ib6yF"
     }
   },
   "lmb2": {
@@ -246,15 +227,6 @@
     "cover": "shinkalion-change-the-world-9fdc0df233",
     "streams": {},
     "status": true
-  },
-  "zIrT": {
-    "title": "ATRI -My Dear Moments-",
-    "day": 6,
-    "time": "9:30 AM",
-    "cover": "atri-my-dear-moments-06a76514b3",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV0EM/atri--my-dear-moments-"
-    }
   },
   "WXNw": {
     "title": "Sengoku Youko",
@@ -603,12 +575,13 @@
     }
   },
   "YRK6": {
-    "title": "MF Ghost 2nd Season",
+    "title": "MF GHOST",
     "day": 7,
     "time": "9:00 AM",
     "cover": "mf-ghost-second-season-e627979b5a",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W2W7/mf-ghost"
+    }
   },
   "CQal": {
     "title": "Love Live! Superstar!!",
@@ -643,22 +616,14 @@
     "streams": {},
     "status": true
   },
-  "Ckjx": {
-    "title": "Atashin'chi Next",
-    "day": 5,
-    "time": "2:30 PM",
-    "cover": "atashin-chi-next-05742d8e63",
-    "streams": {
-      "YouTube": "https://www.youtube.com/playlist?list=PLgqRc8AjEjeMuTJc6M2DVdkfszyaUhh1j"
-    },
-    "status": true
-  },
   "JXR1": {
     "title": "Ooi! Tonbo 2nd Season",
     "day": 5,
-    "time": "6:00 PM",
+    "time": "6:30 PM",
     "cover": "ooi-tonbo-2nd-season-165a6896fd",
-    "streams": {},
+    "streams": {
+      "Amazon": "https://www.amazon.com/dp/B0DH8D89GR"
+    },
     "status": true
   },
   "uYJt": {
@@ -688,10 +653,113 @@
     "status": true
   },
   "pUbB": {
-    "title": "Puniru wa Kawaii Slime",
+    "title": "Puniru is a Kawaii Slime",
     "day": 7,
-    "time": "7:45 AM",
+    "time": "8:45 AM",
     "cover": "puniru-wa-kawaii-slime-a1c349e13f",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKN9G2/puniru-is-a-kawaii-slime",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhstXla-FpyHRj3shzQqLio"
+    }
+  },
+  "FBit": {
+    "title": "Seirei Gensouki 2",
+    "day": 1,
+    "time": "10:30 AM",
+    "cover": "seirei-gensouki-2-4cd2251449",
+    "streams": {},
+    "status": true
+  },
+  "PdaM": {
+    "title": "Nina the Starry Bride",
+    "day": 1,
+    "time": "7:00 AM",
+    "cover": "hoshifuru-oukoku-no-nina-42c7a247c7",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GKEH2G0QK/nina-the-starry-bride"
+    }
+  },
+  "HcFw": {
+    "title": "Haigakura",
+    "day": 1,
+    "time": "8:00 AM",
+    "cover": "haigakura-635f1e089e",
+    "streams": {
+      "Amazon": "https://www.amazon.com/dp/B0DHDGVXFD"
+    },
+    "status": true
+  },
+  "7NLJ": {
+    "title": "Ron Kamonohashi's Forbidden Deductions",
+    "day": 1,
+    "time": "7:30 AM",
+    "cover": "kamonohashi-ron-no-kindan-suiri-season-2-40b2d4a74a",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKN903/ron-kamonohashis-forbidden-deductions"
+    }
+  },
+  "ZnG4": {
+    "title": "Yakuza Fianc\u00e9: Raise wa Tanin ga Ii",
+    "day": 1,
+    "time": "7:45 AM",
+    "cover": "raise-wa-tanin-ga-ii-60767a84f7",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GMEHME7W1/yakuza-fianc-raise-wa-tanin-ga-ii"
+    }
+  },
+  "VPnm": {
+    "title": "Natsume Yuujinchou Shichi",
+    "day": 1,
+    "time": "10:00 AM",
+    "cover": "natsume-yuujinchou-shichi-9f35b2cd74",
+    "streams": {},
+    "status": true
+  },
+  "Kywp": {
+    "title": "Youkai Gakkou no Sensei Hajimemashita!",
+    "day": 2,
+    "time": "7:00 AM",
+    "cover": "youkai-gakkou-no-sensei-hajimemashita-12115e4f36",
+    "streams": {},
+    "status": true
+  },
+  "PwVp": {
+    "title": "Yarinaoshi Reijou wa Ryuutei Heika wo Kouryakuchuu",
+    "day": 3,
+    "time": "6:00 AM",
+    "cover": "yarinaoshi-reijou-wa-ryuutei-heika-wo-kouryakuchuu-3d78f4dfff",
+    "streams": {},
+    "status": true
+  },
+  "u2wm": {
+    "title": "Tono to Inu",
+    "day": 4,
+    "time": "5:54 AM",
+    "cover": "tono-to-inu-37eb84b205",
+    "streams": {},
+    "status": true
+  },
+  "4XYR": {
+    "title": "Dragon Ball DAIMA",
+    "day": 5,
+    "time": "7:40 AM",
+    "cover": "dragon-ball-daima-bc212f7cd2",
+    "streams": {},
+    "status": true
+  },
+  "v2z8": {
+    "title": "Maou 2099",
+    "day": 6,
+    "time": "8:00 AM",
+    "cover": "maou-2099-cd3610de0a",
+    "streams": {},
+    "status": true
+  },
+  "S9ZF": {
+    "title": "Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su 2nd Season",
+    "day": 7,
+    "time": "1:00 AM",
+    "cover": "shangri-la-frontier-2nd-season-5a85029187",
     "streams": {},
     "status": true
   }
