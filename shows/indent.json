@@ -377,12 +377,16 @@
     }
   },
   "y5eS": {
-    "title": "Dandadan",
+    "title": "DAN DA DAN",
     "day": 4,
     "time": "9:00 AM",
     "cover": "dandadan-74284c55e4",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQ0D/dan-da-dan",
+      "Hulu": "https://www.hulu.com/series/bad0bb31-0fa5-4a69-b9a5-5e5ed5032a48",
+      "Netflix": "https://www.netflix.com/title/81736884",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2OF_CmbcBOUk_216rwS1wD"
+    }
   },
   "RY3b": {
     "title": "Blue Box",
@@ -403,28 +407,31 @@
     }
   },
   "Gk9m": {
-    "title": "Kekkon Surutte, Hontou desuka",
+    "title": "365 Days To The Wedding",
     "day": 4,
     "time": "8:30 AM",
     "cover": "kekkon-suru-tte-hontou-desu-ka-9610f563b7",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G8DHV78E7/365-days-to-the-wedding"
+    }
   },
   "W1Sx": {
-    "title": "Rurouni Kenshin: Meiji Kenkaku Romantan - Kyoto Douran",
+    "title": "Rurouni Kenshin",
     "day": 4,
     "time": "11:00 AM",
     "cover": "rurouni-kenshin-meiji-kenkaku-romantan-kyoto-douran-5ab2f9e363",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM1NK/rurouni-kenshin"
+    }
   },
   "5PYn": {
-    "title": "Mecha-ude (TV)",
+    "title": "Mecha-Ude: Mechanical Arms",
     "day": 4,
     "time": "9:30 AM",
     "cover": "mecha-ude-tv-25547b9a1d",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W2KK/mecha-ude-mechanical-arms"
+    }
   },
   "fyCV": {
     "title": "TRILLION GAME",
@@ -455,12 +462,13 @@
     }
   },
   "IYew": {
-    "title": "Mahoutsukai ni Narenakatta Onnanoko no Hanashi.",
+    "title": "The Stories of Girls Who Couldn't Be Magicians",
     "day": 5,
     "time": "11:30 AM",
     "cover": "mahoutsukai-ni-narenakatta-onnanoko-no-hanashi-f1536be0c9",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3G9X/the-stories-of-girls-who-couldnt-be-magicians"
+    }
   },
   "CE78": {
     "title": "Touhai: Ura Rate Mahjong Touhai Roku",
@@ -558,7 +566,7 @@
   "zCBI": {
     "title": "TsumaSho",
     "day": 7,
-    "time": "6:45 AM",
+    "time": "7:00 AM",
     "cover": "tsuma-shougakusei-ni-naru-91cd1cdac6",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7QG8E/tsumasho",
@@ -586,35 +594,38 @@
   "CQal": {
     "title": "Love Live! Superstar!!",
     "day": 7,
-    "time": "1:00 AM",
+    "time": "3:00 PM",
     "cover": "love-live-superstar-3-03152f3950",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEVPWE/love-live-superstar"
     }
   },
   "je36": {
-    "title": "Shin Tennis no Oujisama: U-17 World Cup Semifinal",
+    "title": "The Prince of Tennis II U-17 World Cup",
     "day": 3,
     "time": "9:00 AM",
     "cover": "shin-tennis-no-oujisama-u-17-world-cup-semifinal-c72bec8da2",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNMWWN/the-prince-of-tennis-ii-u-17-world-cup"
+    }
   },
   "lWU8": {
-    "title": "Kinoko Inu",
+    "title": "Kinokoinu Mushroom Pup",
     "day": 4,
     "time": "6:00 AM",
     "cover": "kinoko-inu-404318cd3c",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM9WJ/kinokoinu-mushroom-pup"
+    }
   },
   "YIUL": {
-    "title": "NegaPosi Angler",
+    "title": "Negative Positive Angler",
     "day": 4,
     "time": "6:30 AM",
     "cover": "negaposi-angler-b35cffffac",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM140/negative-positive-angler"
+    }
   },
   "JXR1": {
     "title": "Ooi! Tonbo 2nd Season",
@@ -663,12 +674,13 @@
     }
   },
   "FBit": {
-    "title": "Seirei Gensouki 2",
+    "title": "Seirei Gensouki: Spirit Chronicles",
     "day": 1,
     "time": "10:30 AM",
     "cover": "seirei-gensouki-2-4cd2251449",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM380/seirei-gensouki-spirit-chronicles"
+    }
   },
   "PdaM": {
     "title": "Nina the Starry Bride",
@@ -695,7 +707,8 @@
     "time": "7:30 AM",
     "cover": "kamonohashi-ron-no-kindan-suiri-season-2-40b2d4a74a",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKN903/ron-kamonohashis-forbidden-deductions"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKN903/ron-kamonohashis-forbidden-deductions",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JiAloVDlPwhb4Cu2UOjyZwp"
     }
   },
   "ZnG4": {
@@ -708,17 +721,18 @@
     }
   },
   "VPnm": {
-    "title": "Natsume Yuujinchou Shichi",
+    "title": "Natsume's Book of Friends",
     "day": 1,
     "time": "10:00 AM",
     "cover": "natsume-yuujinchou-shichi-9f35b2cd74",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GRE5XQJV6/natsumes-book-of-friends"
+    }
   },
   "Kywp": {
     "title": "Youkai Gakkou no Sensei Hajimemashita!",
     "day": 2,
-    "time": "7:00 AM",
+    "time": "7:30 AM",
     "cover": "youkai-gakkou-no-sensei-hajimemashita-12115e4f36",
     "streams": {},
     "status": true
@@ -728,14 +742,6 @@
     "day": 3,
     "time": "6:00 AM",
     "cover": "yarinaoshi-reijou-wa-ryuutei-heika-wo-kouryakuchuu-3d78f4dfff",
-    "streams": {},
-    "status": true
-  },
-  "u2wm": {
-    "title": "Tono to Inu",
-    "day": 4,
-    "time": "5:54 AM",
-    "cover": "tono-to-inu-37eb84b205",
     "streams": {},
     "status": true
   },
@@ -758,8 +764,16 @@
   "S9ZF": {
     "title": "Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su 2nd Season",
     "day": 7,
-    "time": "1:00 AM",
+    "time": "2:30 AM",
     "cover": "shangri-la-frontier-2nd-season-5a85029187",
+    "streams": {},
+    "status": true
+  },
+  "oomQ": {
+    "title": "Re:Zero kara Hajimeru Kyuukei Jikan (Break Time) 3rd Season",
+    "day": 3,
+    "time": "8:00 AM",
+    "cover": "poster-21fa193001",
     "streams": {},
     "status": true
   }
