@@ -650,7 +650,7 @@
     "title": "Ranma1/2",
     "day": 6,
     "time": "10:00 AM",
-    "cover": "ranma-2024-ff1651527e",
+    "cover": "",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81171925"
     }
@@ -659,7 +659,7 @@
     "title": "Kagaku x Bouken Survival!",
     "day": 6,
     "time": "2:25 AM",
-    "cover": "kagaku-manga-survival-tv-25de11afd1",
+    "cover": "",
     "streams": {},
     "status": true
   },
@@ -730,20 +730,22 @@
     }
   },
   "Kywp": {
-    "title": "Youkai Gakkou no Sensei Hajimemashita!",
+    "title": "A Terrified Teacher at Ghoul School!",
     "day": 2,
     "time": "7:30 AM",
     "cover": "youkai-gakkou-no-sensei-hajimemashita-12115e4f36",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX85QN/a-terrified-teacher-at-ghoul-school"
+    }
   },
   "PwVp": {
-    "title": "Yarinaoshi Reijou wa Ryuutei Heika wo Kouryakuchuu",
+    "title": "The Do-Over Damsel Conquers the Dragon Emperor",
     "day": 3,
-    "time": "6:00 AM",
+    "time": "6:30 AM",
     "cover": "yarinaoshi-reijou-wa-ryuutei-heika-wo-kouryakuchuu-3d78f4dfff",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM15X/the-do-over-damsel-conquers-the-dragon-emperor"
+    }
   },
   "4XYR": {
     "title": "Dragon Ball DAIMA",
