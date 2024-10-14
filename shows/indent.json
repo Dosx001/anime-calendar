@@ -136,25 +136,6 @@
     "streams": {},
     "status": true
   },
-  "hoej": {
-    "title": "Yozakura-san Chi no Mini Sakusen",
-    "day": 4,
-    "time": "3:00 AM",
-    "cover": "yozakura-san-chi-no-mini-sakusen-6484213f0a",
-    "streams": {
-      "YouTube": "https://www.youtube.com/playlist?list=PLMyQxaghEY1E8Nad_gUa1rYE8LNJpLqy-"
-    },
-    "status": true
-  },
-  "UTcm": {
-    "title": "My Hero Academia",
-    "day": 6,
-    "time": "2:30 AM",
-    "cover": "boku-no-hero-academia-7-bae9e2f6c8",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G6NQ5DWZ6/my-hero-academia"
-    }
-  },
   "Qreh": {
     "title": "Tasuketsu -Fate of the Majority-",
     "day": 2,
@@ -182,15 +163,6 @@
     "cover": "monogatari-series-off-and-monster-season-f787e5de7e",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKN9W2/monogatari-series-off--monster-season"
-    }
-  },
-  "PsoN": {
-    "title": "CARDFIGHT!! VANGUARD overDress",
-    "day": 5,
-    "time": "4:40 PM",
-    "cover": "cardfight-vanguard-overdress-season-7-622e7522fd",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3NJ5/cardfight-vanguard-overdress"
     }
   },
   "vn9Y": {
@@ -488,14 +460,6 @@
     },
     "status": true
   },
-  "Ftnj": {
-    "title": "Duel Masters LOST: Tsuioku no Suishou",
-    "day": 5,
-    "time": "4:00 AM",
-    "cover": "duel-masters-lost-tsuioku-no-suishou-0d78841c56",
-    "streams": {},
-    "status": true
-  },
   "61Ws": {
     "title": "BLUE LOCK",
     "day": 6,
@@ -547,8 +511,8 @@
   "ViQF": {
     "title": "Orb: On the Movements of the Earth",
     "day": 6,
-    "time": "9:00 AM",
-    "cover": "chi-chikyuu-no-undou-ni-tsuite-bb40a0380f",
+    "time": "10:00 AM",
+    "cover": "chi-chikyuu-no-undou-ni-tsuite-9ebbda0dfc.",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81765022"
     }
@@ -576,7 +540,7 @@
   "U8Yw": {
     "title": "The Seven Deadly Sins: Four Knights of the Apocalypse",
     "day": 7,
-    "time": "1:30 AM",
+    "time": "1:10 AM",
     "cover": "nanatsu-no-taizai-mokushiroku-no-yonkishi-2nd-season-447905703a",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81562396"
@@ -650,7 +614,7 @@
     "title": "Ranma1/2",
     "day": 6,
     "time": "10:00 AM",
-    "cover": "",
+    "cover": "ranma-2024-ff1651527e",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81171925"
     }
@@ -659,7 +623,7 @@
     "title": "Kagaku x Bouken Survival!",
     "day": 6,
     "time": "2:25 AM",
-    "cover": "",
+    "cover": "kagaku-manga-survival-tv-25de11afd1",
     "streams": {},
     "status": true
   },
@@ -750,32 +714,62 @@
   "4XYR": {
     "title": "Dragon Ball DAIMA",
     "day": 5,
-    "time": "7:40 AM",
+    "time": "10:00 AM",
     "cover": "dragon-ball-daima-bc212f7cd2",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQ35/dragon-ball-daima",
+      "Hulu": "https://www.hulu.com/series/7c2e04e4-3f77-4dfe-9a62-167b7065d6b3",
+      "Netflix": "https://www.netflix.com/title/81943491"
+    }
   },
   "v2z8": {
-    "title": "Maou 2099",
+    "title": "DEMON LORD 2099",
     "day": 6,
-    "time": "8:00 AM",
+    "time": "9:30 AM",
     "cover": "maou-2099-cd3610de0a",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G79H23ZX3/demon-lord-2099"
+    }
   },
   "S9ZF": {
-    "title": "Shangri-La Frontier: Kusoge Hunter, Kamige ni Idoman to su 2nd Season",
+    "title": "Shangri-La Frontier",
     "day": 7,
     "time": "2:30 AM",
     "cover": "shangri-la-frontier-2nd-season-5a85029187",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G79H23Z8P/shangri-la-frontier"
+    }
   },
   "oomQ": {
     "title": "Re:Zero kara Hajimeru Kyuukei Jikan (Break Time) 3rd Season",
     "day": 3,
     "time": "8:00 AM",
     "cover": "poster-21fa193001",
+    "streams": {},
+    "status": true
+  },
+  "5Nv8": {
+    "title": "Arifureta Shokugyou de Sekai Saikyou 3",
+    "day": 1,
+    "time": "7:00 AM",
+    "cover": "arifureta-from-commonplace-to-worlds-strongest-3-ca5fc0943c",
+    "streams": {},
+    "status": true
+  },
+  "m4YH": {
+    "title": "Gundam: Requiem for Vengeance",
+    "day": 4,
+    "time": "12:01 AM",
+    "cover": "kidou-senshi-gundam-fukushuu-no-requiem-151e343f98",
+    "streams": {
+      "Netflix": "https://www.netflix.com/title/81276500"
+    }
+  },
+  "1fJU": {
+    "title": "Ao no Miburo",
+    "day": 6,
+    "time": "1:30 AM",
+    "cover": "ao-no-miburo-093864c235",
     "streams": {},
     "status": true
   }
