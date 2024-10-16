@@ -107,9 +107,8 @@ class Shows:
         data = self.new if new else self.changes
         for stream in data[key]["streams"]:
             match stream:
-                # Geo Locked
-                # case 'AnimeLab':
-                #    title = self.animelab(data[show]['streams'][stream])
+                case "Amazon":
+                    title = self.amazon(data[key]["streams"][stream])
                 case "Crunchyroll":
                     title = self.crunchyroll(data[key]["streams"][stream])
                 case "Funimation":
@@ -196,16 +195,9 @@ class Shows:
         pipe.close()
         return data
 
-    def animelab(self, url: str) -> str | None:
-        boolans = [False, False]
-        for line in self.get_data(url):
-            if boolans[0]:
-                if boolans[1]:
-                    return line[1::]
-                boolans[1] = True
-            elif "title" in line:
-                boolans[0] = True
-        return None
+    def amazon(self, url: str) -> str | None:
+        self.driver.get(url)
+        return self.driver.find_element(By.TAG_NAME, "h1").text
 
     def crunchyroll(self, url: str) -> str | None:
         self.driver.get(url)
