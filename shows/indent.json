@@ -511,7 +511,7 @@
   "ViQF": {
     "title": "Orb: On the Movements of the Earth",
     "day": 6,
-    "time": "10:00 AM",
+    "time": "9:00 AM",
     "cover": "chi-chikyuu-no-undou-ni-tsuite-9ebbda0dfc.",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81765022"
@@ -540,7 +540,7 @@
   "U8Yw": {
     "title": "The Seven Deadly Sins: Four Knights of the Apocalypse",
     "day": 7,
-    "time": "1:10 AM",
+    "time": "12:30 AM",
     "cover": "nanatsu-no-taizai-mokushiroku-no-yonkishi-2nd-season-447905703a",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81562396"
@@ -557,8 +557,8 @@
   },
   "CQal": {
     "title": "Love Live! Superstar!!",
-    "day": 7,
-    "time": "3:00 PM",
+    "day": 2,
+    "time": "6:00 PM",
     "cover": "love-live-superstar-3-03152f3950",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEVPWE/love-live-superstar"
@@ -656,14 +656,13 @@
     }
   },
   "HcFw": {
-    "title": "Haigakura",
+    "title": "HAIGAKURA",
     "day": 1,
-    "time": "8:00 AM",
+    "time": "7:00 AM",
     "cover": "haigakura-635f1e089e",
     "streams": {
       "Amazon": "https://www.amazon.com/dp/B0DHDGVXFD"
-    },
-    "status": true
+    }
   },
   "7NLJ": {
     "title": "Ron Kamonohashi's Forbidden Deductions",
@@ -699,7 +698,8 @@
     "time": "7:30 AM",
     "cover": "youkai-gakkou-no-sensei-hajimemashita-12115e4f36",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX85QN/a-terrified-teacher-at-ghoul-school"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX85QN/a-terrified-teacher-at-ghoul-school",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jj1WcEwx5MbqYoV3zIwGFwd"
     }
   },
   "PwVp": {
@@ -749,12 +749,14 @@
     "status": true
   },
   "5Nv8": {
-    "title": "Arifureta Shokugyou de Sekai Saikyou 3",
+    "title": "Arifureta: From Commonplace to World's Strongest",
     "day": 1,
-    "time": "7:00 AM",
+    "time": "8:00 AM",
     "cover": "arifureta-from-commonplace-to-worlds-strongest-3-ca5fc0943c",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WXD1/arifureta-from-commonplace-to-worlds-strongest",
+      "Hulu": "https://www.hulu.com/series/f3ebfa6a-c651-4e2b-b939-6c46dec8a66a"
+    }
   },
   "m4YH": {
     "title": "Gundam: Requiem for Vengeance",
@@ -770,6 +772,14 @@
     "day": 6,
     "time": "1:30 AM",
     "cover": "ao-no-miburo-093864c235",
+    "streams": {},
+    "status": true
+  },
+  "Ftnj": {
+    "title": "Duel Masters LOST: Tsuioku no Suishou",
+    "day": 5,
+    "time": "4:00 AM",
+    "cover": "duel-masters-lost-tsuioku-no-suishou-0d78841c56",
     "streams": {},
     "status": true
   }
