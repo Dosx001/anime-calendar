@@ -65,7 +65,8 @@
     "source": "Other",
     "genres": [
       "Drama",
-      "Music"
+      "Music",
+      "Slice of Life"
     ]
   },
   "iIBj": {
@@ -75,7 +76,8 @@
     "source": "Light Novel",
     "genres": [
       "Adventure",
-      "Fantasy"
+      "Fantasy",
+      "Magic"
     ]
   },
   "tVLT": {
@@ -99,6 +101,19 @@
       "Romance",
       "School",
       "Shoujo"
+    ]
+  },
+  "JLry": {
+    "title": "Dr. Stone: Science Future",
+    "cover": "dr-stone-science-future-7663ac71f6",
+    "studio": "TMS Entertainment",
+    "source": "Manga",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Sci-Fi",
+      "Shounen"
     ]
   },
   "qsBv": {
@@ -146,6 +161,17 @@
       "Drama",
       "School",
       "Slice of Life"
+    ]
+  },
+  "zEY6": {
+    "title": "Hazure Skill \"Kinomi Master\": Skill no Mi (Tabetara Shinu) wo Mugen ni Taberareru You ni Natta Ken ni Tsuite",
+    "cover": "hazure-skill-kinomi-master-skill-no-mi-tabetara-shinu-wo-mugen-ni-taberareru-you-ni-natta-ken-ni-tsuite-4f360fa90d",
+    "studio": "Asahi Production",
+    "source": "Manga",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
     ]
   },
   "9U97": {
@@ -242,6 +268,20 @@
       "School"
     ]
   },
+  "qcDl": {
+    "title": "Magic Maker: Isekai Mahou no Tsukurikata",
+    "cover": "magic-maker-isekai-mahou-no-tsukurikata-a48e6da099",
+    "studio": "Studio DEEN",
+    "source": "Light Novel",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Isekai",
+      "Magic",
+      "Slice of Life"
+    ]
+  },
   "DMu1": {
     "title": "Mahoutsukai Precure!! MIRAI DAYS",
     "cover": "mahoutsukai-precure-2-18f3c79f0f",
@@ -307,6 +347,18 @@
       "Ecchi",
       "Romance",
       "Supernatural"
+    ]
+  },
+  "jcI4": {
+    "title": "Nihon e Youkoso Elf-san.",
+    "cover": "nihon-e-youkoso-elf-san-00f544522d",
+    "studio": "Zero-G",
+    "source": "Light Novel",
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Romance",
+      "Slice of Life"
     ]
   },
   "rzX9": {
@@ -378,6 +430,17 @@
       "Sports"
     ]
   },
+  "GvcJ": {
+    "title": "Sousei no Aquarion: Myth of Emotions",
+    "cover": "sousei-no-aquarion-myth-of-emotions-f54ceeeb37",
+    "studio": "Satelight",
+    "source": "Original",
+    "genres": [
+      "Action",
+      "Mecha",
+      "Sci-Fi"
+    ]
+  },
   "75L8": {
     "title": "Tasokare Hotel",
     "cover": "tasokare-hotel-5445e809a4",
@@ -420,6 +483,16 @@
       "Historical",
       "Romance",
       "Supernatural"
+    ]
+  },
+  "ssAq": {
+    "title": "Zenshuu.",
+    "cover": "zenshu-2f733ce765",
+    "studio": "MAPPA",
+    "source": "Original",
+    "genres": [
+      "Comedy",
+      "Romance"
     ]
   },
   "eP3z": {
