@@ -156,15 +156,6 @@
       "HiDive": "https://www.hidive.com/season/24579"
     }
   },
-  "JW2F": {
-    "title": "MONOGATARI Series OFF & MONSTER Season",
-    "day": 6,
-    "time": "7:30 AM",
-    "cover": "monogatari-series-off-and-monster-season-f787e5de7e",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKN9W2/monogatari-series-off--monster-season"
-    }
-  },
   "vn9Y": {
     "title": "Tousouchuu: Great Mission",
     "day": 6,
@@ -255,14 +246,6 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1P3W7ws_S-dsq2zV3aIj-S"
     }
   },
-  "lEhD": {
-    "title": "Uzumaki",
-    "day": 6,
-    "time": "9:31 PM",
-    "cover": "uzumaki-d044719062",
-    "streams": {},
-    "status": true
-  },
   "3bZl": {
     "title": "Demon Lord, Retry!",
     "day": 6,
@@ -285,11 +268,12 @@
   },
   "Hfyu": {
     "title": "How I Attended an All-Guy's Mixer",
-    "day": 7,
+    "day": 5,
     "time": "11:00 AM",
     "cover": "goukon-ni-ittara-onna-ga-inakatta-hanashi-db8b88a586",
     "streams": {
-      "HiDive": "https://www.hidive.com/season/26753"
+      "HiDive": "https://www.hidive.com/season/26753",
+      "YouTube": "https://www.youtube.com/watch?v=hOZ6dfA8jPo&list=PLxSscENEp7JiQWCerTH65nEg1Q2UOFF-i"
     }
   },
   "OOY8": {
@@ -465,7 +449,8 @@
     "time": "9:00 AM",
     "cover": "blue-lock-2nd-season-614472fd53",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WEKE/blue-lock"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WEKE/blue-lock",
+      "YouTube": "https://www.youtube.com/watch?v=R_AU57A24PY&list=PLxSscENEp7JgJMTfV7-vC5k0hW4kYaSAi"
     }
   },
   "DKrX": {
@@ -694,7 +679,7 @@
     "title": "A Terrified Teacher at Ghoul School!",
     "day": 2,
     "time": "7:30 AM",
-    "cover": "youkai-gakkou-no-sensei-hajimemashita-12115e4f36",
+    "cover": "youkai-gakkou-no-sensei-hajimemashita-134f8bdabe",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX85QN/a-terrified-teacher-at-ghoul-school",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jj1WcEwx5MbqYoV3zIwGFwd"
@@ -735,7 +720,8 @@
     "time": "2:30 AM",
     "cover": "shangri-la-frontier-2nd-season-5a85029187",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G79H23Z8P/shangri-la-frontier"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G79H23Z8P/shangri-la-frontier",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1k3PpCugshhYpSQVWUAaib"
     }
   },
   "oomQ": {
@@ -756,15 +742,6 @@
       "Hulu": "https://www.hulu.com/series/f3ebfa6a-c651-4e2b-b939-6c46dec8a66a"
     }
   },
-  "m4YH": {
-    "title": "Gundam: Requiem for Vengeance",
-    "day": 4,
-    "time": "12:01 AM",
-    "cover": "kidou-senshi-gundam-fukushuu-no-requiem-151e343f98",
-    "streams": {
-      "Netflix": "https://www.netflix.com/title/81276500"
-    }
-  },
   "1fJU": {
     "title": "Blue Miburo",
     "day": 6,
@@ -773,63 +750,6 @@
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3GP8/blue-miburo"
     }
-  },
-  "SUpv": {
-    "title": "CHIIKAWA",
-    "day": 4,
-    "time": "3:40 PM",
-    "cover": "chiikawa-c656267c1a",
-    "streams": {
-      "HiDive": "https://www.hidive.com/tv/chiikawa",
-      "YouTube": "https://www.youtube.com/playlist?list=PLHIKP_Dyl1zwJy0JjSvVV5l8Kyg-8sjdv"
-    }
-  },
-  "iqMO": {
-    "title": "After-school Hanako-kun",
-    "day": 1,
-    "time": "11:00 AM",
-    "cover": "houkago-shounen-hanako-kun-2-02e687738d",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX85GV/after-school-hanako-kun"
-    }
-  },
-  "N5qN": {
-    "title": "Bananya",
-    "day": 1,
-    "time": "12:00 AM",
-    "cover": "bananya-around-the-world-579d102ba4",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GY2PW4EMY",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jjvn-QSq2pOOwltUAUJx7pT"
-    }
-  },
-  "El3K": {
-    "title": "Chibi Godzilla no Gyakushuu 2nd Season",
-    "day": 2,
-    "time": "3:05 PM",
-    "cover": "chibi-godzilla-no-gyakushuu-2nd-season-aaf80d37cf",
-    "streams": {
-      "YouTube": "https://www.youtube.com/playlist?list=PLg0UgpeODbGH2QnvnptwCJMrwFtZ5Mdwb"
-    },
-    "status": true
-  },
-  "GAh8": {
-    "title": "Neko ni Tensei shita Ojisan",
-    "day": 2,
-    "time": "9:00 PM",
-    "cover": "neko-ni-tensei-shita-ojisan-002178de60",
-    "streams": {},
-    "status": true
-  },
-  "EHm1": {
-    "title": "Pochars",
-    "day": 2,
-    "time": "9:25 AM",
-    "cover": "pochars-05c327bafe",
-    "streams": {
-      "YouTube": "https://www.youtube.com/@pochars_info"
-    },
-    "status": true
   },
   "Xo6b": {
     "title": "POK\u00c9TOON (2024)",
@@ -841,92 +761,19 @@
     },
     "status": true
   },
-  "SwLa": {
-    "title": "Wish Cat",
-    "day": 3,
-    "time": "1:50 PM",
-    "cover": "wish-cat-9440fabba5",
-    "streams": {},
-    "status": true
-  },
-  "R8uV": {
-    "title": "Hamidashi Creative",
-    "day": 4,
-    "time": "9:00 AM",
-    "cover": "hamidashi-creative-72b6b7fee9",
-    "streams": {},
-    "status": true
-  },
-  "u2wm": {
-    "title": "Tono to Inu",
-    "day": 4,
-    "time": "5:54 AM",
-    "cover": "tono-to-inu-37eb84b205",
-    "streams": {},
-    "status": true
-  },
-  "Z9YF": {
-    "title": "Shooting Star Catch! Tiniping",
-    "day": 4,
-    "time": "11:00 AM",
-    "cover": "shooting-star-catch-tiniping-4613919021",
-    "streams": {},
-    "status": true
-  },
-  "fIOQ": {
-    "title": "BONO BONO",
+  "Ftnj": {
+    "title": "Duel Masters LOST: Tsuioku no Suishou",
     "day": 5,
-    "time": "1:22 PM",
-    "cover": "bonobono-2016-d8ff3791d8",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/bono-bono"
-    }
-  },
-  "vGJp": {
-    "title": "Fushigi Dagashiya: Zenitendou",
-    "day": 5,
-    "time": "2:40 AM",
-    "cover": "fushigi-dagashiya-zenitendou-b66028e952",
+    "time": "4:00 AM",
+    "cover": "duel-masters-lost-tsuioku-no-suishou-600b3fb2b8",
     "streams": {},
     "status": true
   },
-  "AMXQ": {
-    "title": "Sai-Kyo-Oh! Zukan: The Ultimate Battles",
+  "nW7u": {
+    "title": "Shimajirou no Wow!",
     "day": 5,
-    "time": "3:00 PM",
-    "cover": "sai-kyo-oh-zukan-the-ultimate-battles-68456d0377",
-    "streams": {},
-    "status": true
-  },
-  "giWM": {
-    "title": "Hyakushou Kizoku 2nd Season",
-    "day": 5,
-    "time": "5:54 AM",
-    "cover": "hyakushou-kizoku-2nd-season-028dbe1616",
-    "streams": {},
-    "status": true
-  },
-  "po5X": {
-    "title": "Kumarba Season 2",
-    "day": 5,
-    "time": "3:00 PM",
-    "cover": "kumarba-season-2-c580904637",
-    "streams": {},
-    "status": true
-  },
-  "yh8v": {
-    "title": "Shibuya\u2661Hachi Part 2",
-    "day": 5,
-    "time": "3:00 PM",
-    "cover": "shibuya-hachi-part-2-354fd76858",
-    "streams": {},
-    "status": true
-  },
-  "Geiq": {
-    "title": "Punirunes Puni 2",
-    "day": 6,
-    "time": "5:30 PM",
-    "cover": "punirunes-puni-2-1e89a60ece",
+    "time": "4:30 PM",
+    "cover": "shimajirou-no-wow-4b0c1cf53c",
     "streams": {},
     "status": true
   }

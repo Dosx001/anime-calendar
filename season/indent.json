@@ -199,7 +199,7 @@
   },
   "ngAT": {
     "title": "Izure Saikyou no Renkinjutsushi?",
-    "cover": "izure-saikyou-no-renkinjutsushi-0172975cc7",
+    "cover": "izure-saikyou-no-renkinjutsushi-cff6fe9db5",
     "studio": "Studio Comet",
     "source": "Light Novel",
     "genres": [
@@ -266,6 +266,17 @@
       "Ecchi",
       "Romance",
       "School"
+    ]
+  },
+  "dJCx": {
+    "title": "Kusuriya no Hitorigoto 2nd Season",
+    "cover": "kusuriya-no-hitorigoto-2nd-season-bf807d4c90",
+    "studio": "OLM",
+    "source": "Light Novel",
+    "genres": [
+      "Drama",
+      "Historical",
+      "Mystery"
     ]
   },
   "qcDl": {
@@ -372,6 +383,19 @@
       "School"
     ]
   },
+  "nOaL": {
+    "title": "S-Rank Monster no \"Behemoth\" dakedo, Neko to Machigawarete Elf Musume no Pet toshite Kurashitemasu",
+    "cover": "s-rank-monster-no-behemoth-dakedo-neko-to-machigawarete-elf-musume-no-pet-toshite-kurashitemasu-dd1d9fcc3c",
+    "studio": "Saber Works",
+    "source": "Manga",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Ecchi",
+      "Fantasy"
+    ]
+  },
   "gnt2": {
     "title": "SAKAMOTO DAYS",
     "cover": "sakamoto-days-990b2ec375",
@@ -385,7 +409,7 @@
   },
   "OxBj": {
     "title": "Salaryman ga Isekai ni Ittara Shitennou ni Natta Hanashi",
-    "cover": "salaryman-ga-isekai-ni-ittara-shitennou-ni-natta-hanashi-8c5177505b",
+    "cover": "salaryman-ga-isekai-ni-ittara-shitennou-ni-natta-hanashi-6a1e8c5981",
     "studio": "CompTown",
     "source": "Web Manga",
     "genres": [
