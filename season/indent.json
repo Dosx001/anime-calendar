@@ -1,7 +1,18 @@
 {
+  "k8dd": {
+    "title": "0-saiji Start Dash Monogatari 2nd Season",
+    "cover": "0-saiji-start-dash-monogatari-season-2-7bdaee50c0",
+    "studio": "N/A",
+    "source": "Manga",
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Isekai"
+    ]
+  },
   "mgJA": {
     "title": "A-Rank Party wo Ridatsu shita Ore wa, Moto Oshiego-tachi to Meikyuu Shinbu wo Mezasu.",
-    "cover": "a-rank-party-wo-ridatsu-shita-ore-wa-moto-oshiego-tachi-to-meikyuu-shinbu-wo-mezasu-55a74a74c3",
+    "cover": "a-rank-party-wo-ridatsu-shita-ore-wa-moto-oshiego-tachi-to-meikyuu-shinbu-wo-mezasu-5ac08f5edc",
     "studio": "Bandai Namco Pictures",
     "source": "Light Novel",
     "genres": [
@@ -13,7 +24,7 @@
   },
   "wAp4": {
     "title": "Akuyaku Reijou Tensei Ojisan",
-    "cover": "akuyaku-reijou-tensei-ojisan-56a2635ec0",
+    "cover": "akuyaku-reijou-tensei-ojisan-877621d436",
     "studio": "Ajia-Do",
     "source": "Manga",
     "genres": [
@@ -25,7 +36,7 @@
   },
   "Sebs": {
     "title": "Ameku Takao no Suiri Karte",
-    "cover": "ameku-takao-no-suiri-karte-212fe7e329",
+    "cover": "ameku-takao-no-suiri-karte-5982506362",
     "studio": "project No.9",
     "source": "Novel",
     "genres": [
@@ -35,7 +46,7 @@
   },
   "Agm5": {
     "title": "Ao no Exorcist: Yosuga-hen",
-    "cover": "ao-no-exorcist-yosuga-hen-39e8e1220f",
+    "cover": "ao-no-exorcist-yosuga-hen-43c219d79d",
     "studio": "Studio VOLN",
     "source": "Manga",
     "genres": [
@@ -44,6 +55,19 @@
       "Fantasy",
       "Shounen",
       "Supernatural"
+    ]
+  },
+  "yc8j": {
+    "title": "Arafou Otoko no Isekai Tsuuhan Seikatsu",
+    "cover": "arafou-otoko-no-isekai-tsuuhan-seikatsu-afad47fee6",
+    "studio": "East Fish Studio",
+    "source": "Manga",
+    "genres": [
+      "Ecchi",
+      "Fantasy",
+      "Harem",
+      "Isekai",
+      "Shounen"
     ]
   },
   "WwjP": {
@@ -60,8 +84,8 @@
   },
   "5JX4": {
     "title": "BanG Dream! Ave Mujica",
-    "cover": "bang-dream-ave-mujica-705cdcdeeb",
-    "studio": "N/A",
+    "cover": "bang-dream-ave-mujica-6717f9f652",
+    "studio": "SANZIGEN",
     "source": "Other",
     "genres": [
       "Drama",
@@ -80,9 +104,21 @@
       "Magic"
     ]
   },
+  "6jKB": {
+    "title": "Cardfight!! Vanguard: Divinez Deluxe-hen",
+    "cover": "cardfight-vanguard-divinez-deluxe-hen-5aa6f47457",
+    "studio": "GIFTanimation",
+    "source": "Card Game",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Game"
+    ]
+  },
   "tVLT": {
     "title": "Class no Daikirai na Joshi to Kekkon suru Koto ni Natta.",
-    "cover": "class-no-daikirai-na-joshi-to-kekkon-suru-koto-ni-natta-11f0dc7de8",
+    "cover": "class-no-daikirai-na-joshi-to-kekkon-suru-koto-ni-natta-b5f5c27641",
     "studio": "AXsiZ",
     "source": "Light Novel",
     "genres": [
@@ -105,7 +141,7 @@
   },
   "JLry": {
     "title": "Dr. Stone: Science Future",
-    "cover": "dr-stone-science-future-7663ac71f6",
+    "cover": "dr-stone-science-future-a696ffecab",
     "studio": "TMS Entertainment",
     "source": "Manga",
     "genres": [
@@ -116,10 +152,20 @@
       "Shounen"
     ]
   },
+  "oqz6": {
+    "title": "FARMAGIA",
+    "cover": "farmagia-be51dedd2c",
+    "studio": "Bridge",
+    "source": "Video Game",
+    "genres": [
+      "Action",
+      "Fantasy"
+    ]
+  },
   "qsBv": {
     "title": "Fuguushoku \"Kanteishi\" ga Jitsu wa Saikyou Datta",
-    "cover": "fuguushoku-kanteishi-ga-jitsu-wa-saikyou-datta-e491c78e9d",
-    "studio": "N/A",
+    "cover": "fuguushoku-kanteishi-ga-jitsu-wa-saikyou-datta-dba0678974",
+    "studio": "Okuruto Noboru",
     "source": "Light Novel",
     "genres": [
       "Action",
@@ -154,7 +200,7 @@
   },
   "DHqg": {
     "title": "Hana wa Saku, Shura no Gotoku",
-    "cover": "hana-wa-saku-shura-no-gotoku-0a833fd39e",
+    "cover": "hana-wa-saku-shura-no-gotoku-38637801f3",
     "studio": "Studio Bind",
     "source": "Manga",
     "genres": [
@@ -165,9 +211,9 @@
   },
   "zEY6": {
     "title": "Hazure Skill \"Kinomi Master\": Skill no Mi (Tabetara Shinu) wo Mugen ni Taberareru You ni Natta Ken ni Tsuite",
-    "cover": "hazure-skill-kinomi-master-skill-no-mi-tabetara-shinu-wo-mugen-ni-taberareru-you-ni-natta-ken-ni-tsuite-4f360fa90d",
+    "cover": "hazure-skill-kinomi-master-skill-no-mi-tabetara-shinu-wo-mugen-ni-taberareru-you-ni-natta-ken-ni-tsuite-669aa1a5e5",
     "studio": "Asahi Production",
-    "source": "Manga",
+    "source": "Web Novel",
     "genres": [
       "Action",
       "Adventure",
@@ -176,7 +222,7 @@
   },
   "9U97": {
     "title": "Honey Lemon Soda",
-    "cover": "honey-lemon-soda-9c7633b458",
+    "cover": "honey-lemon-soda-d505d0a2a6",
     "studio": "J.C. Staff",
     "source": "Manga",
     "genres": [
@@ -187,8 +233,8 @@
   },
   "xgzl": {
     "title": "Ishura 2nd Season",
-    "cover": "ishura-2nd-season-5a37625ea7",
-    "studio": "N/A",
+    "cover": "ishura-2nd-season-af75ccca80",
+    "studio": "Passione",
     "source": "Light Novel",
     "genres": [
       "Action",
@@ -210,7 +256,7 @@
   },
   "qMvn": {
     "title": "Jibaku Shounen Hanako-kun 2nd Season",
-    "cover": "jibaku-shounen-hanako-kun-2nd-season-0caabe40f6",
+    "cover": "jibaku-shounen-hanako-kun-2nd-season-739632418e",
     "studio": "Lerche",
     "source": "Manga",
     "genres": [
@@ -236,8 +282,8 @@
   },
   "ngTV": {
     "title": "Kinnikuman: Kanpeki Ch\u043eujin Shiso-hen Season 2",
-    "cover": "kinnikuman-kanpeki-ch-ujin-shiso-hen-season-2-82c864b5ed",
-    "studio": "N/A",
+    "cover": "kinnikuman-kanpeki-ch-ujin-shiso-hen-season-2-e0eff4718f",
+    "studio": "Production I.G",
     "source": "Manga",
     "genres": [
       "Comedy",
@@ -245,9 +291,20 @@
       "Sports"
     ]
   },
+  "gTk2": {
+    "title": "Kisaki Kyouiku kara Nigetai Watashi",
+    "cover": "kisaki-kyouiki-kara-nigeitai-watashi-8b16e01b85",
+    "studio": "EMT Squared",
+    "source": "Light Novel",
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Romance"
+    ]
+  },
   "xeAQ": {
     "title": "Kono Kaisha ni Suki na Hito ga Imasu",
-    "cover": "kono-kaisha-ni-suki-na-hito-ga-imasu-c3b43d5855",
+    "cover": "kono-kaisha-ni-suki-na-hito-ga-imasu-f3a2aa0c63",
     "studio": "BLADE",
     "source": "Manga",
     "genres": [
@@ -258,7 +315,7 @@
   },
   "yFwR": {
     "title": "Kuroiwa Medaka ni Watashi no Kawaii ga Tsuujinai",
-    "cover": "kuroiwa-medaka-ni-watashi-no-kawaii-ga-tsuujinai-c74261a723",
+    "cover": "kuroiwa-medaka-ni-watashi-no-kawaii-ga-tsuujinai-41ef584644",
     "studio": "SynergySP",
     "source": "Manga",
     "genres": [
@@ -281,7 +338,7 @@
   },
   "qcDl": {
     "title": "Magic Maker: Isekai Mahou no Tsukurikata",
-    "cover": "magic-maker-isekai-mahou-no-tsukurikata-a48e6da099",
+    "cover": "magic-maker-isekai-mahou-no-tsukurikata-3b2aace5c4",
     "studio": "Studio DEEN",
     "source": "Light Novel",
     "genres": [
@@ -295,7 +352,7 @@
   },
   "DMu1": {
     "title": "Mahoutsukai Precure!! MIRAI DAYS",
-    "cover": "mahoutsukai-precure-2-18f3c79f0f",
+    "cover": "mahoutsukai-precure-2-d274067af8",
     "studio": "Toei Animation",
     "source": "Original",
     "genres": [
@@ -307,11 +364,12 @@
   },
   "dVcl": {
     "title": "Mahoutsukai no Yakusoku",
-    "cover": "mahoutsukai-no-yakusoku-a1bf9dc3af",
+    "cover": "mahoutsukai-no-yakusoku-ee98a34612",
     "studio": "LIDENFILMS",
     "source": "Video Game",
     "genres": [
       "Fantasy",
+      "Isekai",
       "Magic"
     ]
   },
@@ -324,12 +382,13 @@
       "Action",
       "Adventure",
       "Comedy",
-      "Mecha"
+      "Mecha",
+      "Sci-Fi"
     ]
   },
   "aLBi": {
     "title": "Medalist",
-    "cover": "medalist-781604cc8d",
+    "cover": "medalist-b0752302f7",
     "studio": "ENGI",
     "source": "Manga",
     "genres": [
@@ -348,21 +407,9 @@
       "Action"
     ]
   },
-  "kElO": {
-    "title": "NEET Kunoichi to Nazeka Dousei Hajimemashita",
-    "cover": "neet-kunoichi-to-nazeka-dousei-hajimemashita-6e2b6b8f21",
-    "studio": "Quad",
-    "source": "Web Manga",
-    "genres": [
-      "Comedy",
-      "Ecchi",
-      "Romance",
-      "Supernatural"
-    ]
-  },
   "jcI4": {
     "title": "Nihon e Youkoso Elf-san.",
-    "cover": "nihon-e-youkoso-elf-san-00f544522d",
+    "cover": "nihon-e-youkoso-elf-san-7ddbacfe39",
     "studio": "Zero-G",
     "source": "Light Novel",
     "genres": [
@@ -374,7 +421,7 @@
   },
   "rzX9": {
     "title": "Okinawa de Suki ni Natta Ko ga Hougen Sugite Tsura Sugiru",
-    "cover": "okinawa-de-suk-ni-natta-ko-ga-hougen-sugite-tsura-sugiru-d690bcfee9",
+    "cover": "okinawa-de-suk-ni-natta-ko-ga-hougen-sugite-tsura-sugiru-3e1a7eb660",
     "studio": "Millepensee",
     "source": "Web Manga",
     "genres": [
@@ -385,7 +432,7 @@
   },
   "nOaL": {
     "title": "S-Rank Monster no \"Behemoth\" dakedo, Neko to Machigawarete Elf Musume no Pet toshite Kurashitemasu",
-    "cover": "s-rank-monster-no-behemoth-dakedo-neko-to-machigawarete-elf-musume-no-pet-toshite-kurashitemasu-dd1d9fcc3c",
+    "cover": "s-rank-monster-no-behemoth-dakedo-neko-to-machigawarete-elf-musume-no-pet-toshite-kurashitemasu-c2ece3125c",
     "studio": "Saber Works",
     "source": "Manga",
     "genres": [
@@ -398,7 +445,7 @@
   },
   "gnt2": {
     "title": "SAKAMOTO DAYS",
-    "cover": "sakamoto-days-990b2ec375",
+    "cover": "sakamoto-days-1c85ba245f",
     "studio": "TMS Entertainment",
     "source": "Manga",
     "genres": [
@@ -409,7 +456,7 @@
   },
   "OxBj": {
     "title": "Salaryman ga Isekai ni Ittara Shitennou ni Natta Hanashi",
-    "cover": "salaryman-ga-isekai-ni-ittara-shitennou-ni-natta-hanashi-6a1e8c5981",
+    "cover": "salaryman-ga-isekai-ni-ittara-shitennou-ni-natta-hanashi-8c5177505b",
     "studio": "CompTown",
     "source": "Web Manga",
     "genres": [
@@ -421,7 +468,7 @@
   },
   "5JtG": {
     "title": "Sentai Red Isekai de Boukensha ni Naru",
-    "cover": "sentai-red-isekai-de-boukensha-ni-naru-2eda8ece31",
+    "cover": "sentai-red-isekai-de-boukensha-ni-naru-c93a41f7d4",
     "studio": "Satelight",
     "source": "Manga",
     "genres": [
@@ -446,7 +493,7 @@
   },
   "3AEQ": {
     "title": "Sorairo Utility (TV)",
-    "cover": "sorairo-utility-tv-dea2e96061",
+    "cover": "sorairo-utility-tv-5a8602b514",
     "studio": "Yostar Pictures",
     "source": "Original",
     "genres": [
@@ -456,7 +503,7 @@
   },
   "GvcJ": {
     "title": "Sousei no Aquarion: Myth of Emotions",
-    "cover": "sousei-no-aquarion-myth-of-emotions-f54ceeeb37",
+    "cover": "sousei-no-aquarion-myth-of-emotions-80217a86fd",
     "studio": "Satelight",
     "source": "Original",
     "genres": [
@@ -487,7 +534,7 @@
   },
   "gXK7": {
     "title": "Unnamed Memory Act.2",
-    "cover": "unnamed-memory-act-2-5d29132d9a",
+    "cover": "unnamed-memory-act-2-48313054ea",
     "studio": "ENGI",
     "source": "Light Novel",
     "genres": [
@@ -499,7 +546,7 @@
   },
   "7Buz": {
     "title": "Watashi no Shiawase na Kekkon 2nd Season",
-    "cover": "watashi-no-shiawase-na-kekkon-2nd-season-5bf9caeab9",
+    "cover": "watashi-no-shiawase-na-kekkon-2nd-season-0ff293b3f9",
     "studio": "Kinema Citrus",
     "source": "Light Novel",
     "genres": [
@@ -511,7 +558,7 @@
   },
   "ssAq": {
     "title": "Zenshuu.",
-    "cover": "zenshu-2f733ce765",
+    "cover": "zenshu-a879a5e5ec",
     "studio": "MAPPA",
     "source": "Original",
     "genres": [
@@ -521,7 +568,7 @@
   },
   "eP3z": {
     "title": "\u00dcbel Blatt",
-    "cover": "ubel-blatt-81767121b8",
+    "cover": "ubel-blatt-c614d3e664",
     "studio": "Satelight",
     "source": "Manga",
     "genres": [
