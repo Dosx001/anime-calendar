@@ -2,7 +2,7 @@
   "k8dd": {
     "title": "0-saiji Start Dash Monogatari 2nd Season",
     "cover": "0-saiji-start-dash-monogatari-season-2-7bdaee50c0",
-    "studio": "N/A",
+    "studio": "Dai Nippon Printing",
     "source": "Manga",
     "genres": [
       "Adventure",
@@ -95,7 +95,7 @@
   },
   "iIBj": {
     "title": "Botsuraku Yotei no Kizoku dakedo, Hima Datta kara Mahou wo Kiwametemita",
-    "cover": "botsuraku-yotei-no-kizoku-dakedo-hima-datta-kara-mahou-wo-kiwametemita-21dc9085d5",
+    "cover": "botsuraku-yotei-no-kizoku-dakedo-hima-datta-kara-mahou-wo-kiwametemita-10e1d78bc8",
     "studio": "Marvy Jack",
     "source": "Light Novel",
     "genres": [
@@ -106,7 +106,7 @@
   },
   "6jKB": {
     "title": "Cardfight!! Vanguard: Divinez Deluxe-hen",
-    "cover": "cardfight-vanguard-divinez-deluxe-hen-5aa6f47457",
+    "cover": "cardfight-vanguard-divinez-deluxe-hen-8c0a2e9e72",
     "studio": "GIFTanimation",
     "source": "Card Game",
     "genres": [
@@ -160,6 +160,19 @@
     "genres": [
       "Action",
       "Fantasy"
+    ]
+  },
+  "Odjs": {
+    "title": "Fate/strange Fake",
+    "cover": "fate-strange-fake-fd4cbe6f55",
+    "studio": "A-1 Pictures",
+    "source": "Light Novel",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Mystery",
+      "Supernatural"
     ]
   },
   "qsBv": {
@@ -256,7 +269,7 @@
   },
   "qMvn": {
     "title": "Jibaku Shounen Hanako-kun 2nd Season",
-    "cover": "jibaku-shounen-hanako-kun-2nd-season-739632418e",
+    "cover": "jibaku-shounen-hanako-kun-2nd-season-f8951ff35f",
     "studio": "Lerche",
     "source": "Manga",
     "genres": [
@@ -269,7 +282,7 @@
   },
   "bHGF": {
     "title": "Kimi no Koto ga Daidaidaidaidaisuki na 100-nin no Kanojo Season 2",
-    "cover": "kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-season-2-8ae7bfb613",
+    "cover": "kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-season-2-893807ada0",
     "studio": "Bibury Animation Studio",
     "source": "Manga",
     "genres": [
@@ -352,7 +365,7 @@
   },
   "DMu1": {
     "title": "Mahoutsukai Precure!! MIRAI DAYS",
-    "cover": "mahoutsukai-precure-2-d274067af8",
+    "cover": "mahoutsukai-precure-2-d9604230b9",
     "studio": "Toei Animation",
     "source": "Original",
     "genres": [
@@ -388,7 +401,7 @@
   },
   "aLBi": {
     "title": "Medalist",
-    "cover": "medalist-b0752302f7",
+    "cover": "medalist-3c6f5f3ba8",
     "studio": "ENGI",
     "source": "Manga",
     "genres": [
@@ -409,7 +422,7 @@
   },
   "jcI4": {
     "title": "Nihon e Youkoso Elf-san.",
-    "cover": "nihon-e-youkoso-elf-san-7ddbacfe39",
+    "cover": "nihon-e-youkoso-elf-san-c1a4c192b5",
     "studio": "Zero-G",
     "source": "Light Novel",
     "genres": [
@@ -456,7 +469,7 @@
   },
   "OxBj": {
     "title": "Salaryman ga Isekai ni Ittara Shitennou ni Natta Hanashi",
-    "cover": "salaryman-ga-isekai-ni-ittara-shitennou-ni-natta-hanashi-8c5177505b",
+    "cover": "salaryman-ga-isekai-ni-ittara-shitennou-ni-natta-hanashi-57a0736592",
     "studio": "CompTown",
     "source": "Web Manga",
     "genres": [
@@ -534,7 +547,7 @@
   },
   "gXK7": {
     "title": "Unnamed Memory Act.2",
-    "cover": "unnamed-memory-act-2-48313054ea",
+    "cover": "unnamed-memory-act-2-8a9a0c551a",
     "studio": "ENGI",
     "source": "Light Novel",
     "genres": [
@@ -558,7 +571,7 @@
   },
   "ssAq": {
     "title": "Zenshuu.",
-    "cover": "zenshu-a879a5e5ec",
+    "cover": "zenshu-90c577e2b4",
     "studio": "MAPPA",
     "source": "Original",
     "genres": [
