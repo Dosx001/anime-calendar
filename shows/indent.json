@@ -144,29 +144,11 @@
     "streams": {},
     "status": true
   },
-  "X7fg": {
-    "title": "FAIRY TAIL 100 YEARS QUEST",
-    "day": 7,
-    "time": "2:00 AM",
-    "cover": "fairy-tail-100-years-quest-485a21c5d2",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQED/fairy-tail-100-years-quest",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl23uIjbwVKoUA3dbo6FiGoX"
-    }
-  },
   "nMVN": {
     "title": "Shinkalion: Change the World",
     "day": 6,
     "time": "3:30 PM",
     "cover": "shinkalion-change-the-world-9fdc0df233",
-    "streams": {},
-    "status": true
-  },
-  "sPcU": {
-    "title": "Fate/Grand Order: Fujimaru Ritsuka wa Wakaranai 2nd Season",
-    "day": 2,
-    "time": "11:00 AM",
-    "cover": "fate-grand-order-fujimaru-ritsuka-wa-wakaranai-2nd-season-7dd084672f",
     "streams": {},
     "status": true
   },
@@ -243,15 +225,6 @@
       "Netflix": "https://www.netflix.com/title/81765022"
     }
   },
-  "JXR1": {
-    "title": "Tonbo!",
-    "day": 5,
-    "time": "5:30 PM",
-    "cover": "ooi-tonbo-2nd-season-c15726c602",
-    "streams": {
-      "Amazon": "https://www.amazon.com/dp/B0DH8D89GR"
-    }
-  },
   "EAZm": {
     "title": "Kagaku x Bouken Survival!",
     "day": 6,
@@ -259,16 +232,6 @@
     "cover": "kagaku-manga-survival-tv-a881d4c0b1",
     "streams": {},
     "status": true
-  },
-  "7NLJ": {
-    "title": "Ron Kamonohashi's Forbidden Deductions",
-    "day": 1,
-    "time": "7:30 AM",
-    "cover": "kamonohashi-ron-no-kindan-suiri-season-2-40b2d4a74a",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKN903/ron-kamonohashis-forbidden-deductions",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JiAloVDlPwhb4Cu2UOjyZwp"
-    }
   },
   "Kywp": {
     "title": "A Terrified Teacher at Ghoul School!",
@@ -391,15 +354,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GZJH3D801/bogus-skill-fruitmaster-about-that-time-i-became-able-to-eat-unlimited-numbers-of-skill-fruits-that-kill-you"
     }
   },
-  "Odjs": {
-    "title": "Fate/strange Fake",
-    "day": 2,
-    "time": "6:00 AM",
-    "cover": "fate-strange-fake-fd4cbe6f55",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WJQZ/fatestrange-fake"
-    }
-  },
   "Sebs": {
     "title": "Ameku M.D.: Doctor Detective",
     "day": 3,
@@ -429,7 +383,7 @@
   },
   "OxBj": {
     "title": "Headhunted to Another World: From Salaryman to Big Four!",
-    "day": 3,
+    "day": 1,
     "time": "7:45 AM",
     "cover": "salaryman-ga-isekai-ni-ittara-shitennou-ni-natta-hanashi-57a0736592",
     "streams": {
@@ -452,8 +406,10 @@
     "day": 4,
     "time": "9:30 AM",
     "cover": "momentary-lily-99fa901f6b",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQQ5/momentary-lily",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3ML-kzI3sjoetbnmSaealc"
+    }
   },
   "tVLT": {
     "title": "I'm Getting Married to a Girl I Hate in My Class",
@@ -467,7 +423,7 @@
   "75L8": {
     "title": "Tasokare Hotel",
     "day": 5,
-    "time": "5:30 AM",
+    "time": "6:30 AM",
     "cover": "tasokare-hotel-5445e809a4",
     "streams": {
       "YouTube": "https://www.youtube.com/playlist?list=PLhGamQZtJ7K9QtAw-sIhv1v8j7UZPGk5R"
@@ -485,17 +441,18 @@
     }
   },
   "F4OU": {
-    "title": "Solo Leveling 2nd Season: Arise from the Shadow",
+    "title": "Solo Leveling",
     "day": 6,
     "time": "9:30 AM",
     "cover": "solo-leveling-arise-from-the-shadow-ce9a7e24ed",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GDKHZEJ0K/solo-leveling"
+    }
   },
   "Agm5": {
     "title": "Blue Exorcist",
     "day": 6,
-    "time": "7:30 AM",
+    "time": "10:00 AM",
     "cover": "ao-no-exorcist-yosuga-hen-43c219d79d",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G649PJ0JY/blue-exorcist"
@@ -521,34 +478,289 @@
     }
   },
   "rzX9": {
-    "title": "Okinawa de Suki ni Natta Ko ga Hougen Sugite Tsura Sugiru",
+    "title": "OKITSURA: Fell in Love with an Okinawan Girl, but I Just Wish I Know What She's Saying",
     "day": 6,
     "time": "10:15 AM",
     "cover": "okinawa-de-suk-ni-natta-ko-ga-hougen-sugite-tsura-sugiru-3e1a7eb660",
-    "streams": {},
-    "status": true
-  },
-  "k8dd": {
-    "title": "0-saiji Start Dash Monogatari 2nd Season",
-    "day": 7,
-    "time": "12:55 AM",
-    "cover": "0-saiji-start-dash-monogatari-season-2-7bdaee50c0",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G79H23ZZ3/okitsura-fell-in-love-with-an-okinawan-girl-but-i-just-wish-i-know-what-shes-saying"
+    }
   },
   "gTk2": {
-    "title": "Kisaki Kyouiku kara Nigetai Watashi",
+    "title": "I Want to Escape from Princess Lessons",
     "day": 7,
     "time": "6:15 AM",
     "cover": "kisaki-kyouiki-kara-nigeitai-watashi-8b16e01b85",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN9QQ4/i-want-to-escape-from-princess-lessons",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1DlUDCVK433fUMRHqlggDM"
+    }
   },
   "ssAq": {
-    "title": "Zenshuu.",
+    "title": "ZENSHU",
     "day": 7,
     "time": "9:15 AM",
     "cover": "zenshu-90c577e2b4",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G24H1NW8E/zenshu"
+    }
+  },
+  "iIBj": {
+    "title": "Botsuraku Yotei no Kizoku dakedo, Hima Datta kara Mahou wo Kiwametemita",
+    "day": 1,
+    "time": "10:15 AM",
+    "cover": "botsuraku-yotei-no-kizoku-dakedo-hima-datta-kara-mahou-wo-kiwametemita-10e1d78bc8",
+    "streams": {},
+    "status": true
+  },
+  "7Buz": {
+    "title": "Watashi no Shiawase na Kekkon 2nd Season",
+    "day": 1,
+    "time": "5:31 AM",
+    "cover": "watashi-no-shiawase-na-kekkon-2nd-season-0ff293b3f9",
+    "streams": {},
+    "status": true
+  },
+  "yFwR": {
+    "title": "Kuroiwa Medaka ni Watashi no Kawaii ga Tsuujinai",
+    "day": 1,
+    "time": "9:00 AM",
+    "cover": "kuroiwa-medaka-ni-watashi-no-kawaii-ga-tsuujinai-41ef584644",
+    "streams": {},
+    "status": true
+  },
+  "dVcl": {
+    "title": "Mahoutsukai no Yakusoku",
+    "day": 1,
+    "time": "7:30 AM",
+    "cover": "mahoutsukai-no-yakusoku-ee98a34612",
+    "streams": {},
+    "status": true
+  },
+  "xeAQ": {
+    "title": "Kono Kaisha ni Suki na Hito ga Imasu",
+    "day": 1,
+    "time": "6:00 AM",
+    "cover": "kono-kaisha-ni-suki-na-hito-ga-imasu-f3a2aa0c63",
+    "streams": {},
+    "status": true
+  },
+  "DHqg": {
+    "title": "Flower and Asura",
+    "day": 2,
+    "time": "9:35 AM",
+    "cover": "hana-wa-saku-shura-no-gotoku-38637801f3",
+    "streams": {
+      "HiDive": "https://www.hidive.com/season/28119"
+    }
+  },
+  "gXK7": {
+    "title": "Unnamed Memory Act.2",
+    "day": 2,
+    "time": "9:00 AM",
+    "cover": "unnamed-memory-act-2-8a9a0c551a",
+    "streams": {},
+    "status": true
+  },
+  "9U97": {
+    "title": "Honey Lemon Soda",
+    "day": 3,
+    "time": "10:25 AM",
+    "cover": "honey-lemon-soda-d505d0a2a6",
+    "streams": {},
+    "status": true
+  },
+  "xgzl": {
+    "title": "Ishura 2nd Season",
+    "day": 3,
+    "time": "6:01 AM",
+    "cover": "ishura-2nd-season-af75ccca80",
+    "streams": {},
+    "status": true
+  },
+  "qcDl": {
+    "title": "Magic Maker: Isekai Mahou no Tsukurikata",
+    "day": 3,
+    "time": "9:00 AM",
+    "cover": "magic-maker-isekai-mahou-no-tsukurikata-3b2aace5c4",
+    "streams": {},
+    "status": true
+  },
+  "JLry": {
+    "title": "Dr. Stone: Science Future",
+    "day": 4,
+    "time": "5:00 AM",
+    "cover": "dr-stone-science-future-a696ffecab",
+    "streams": {},
+    "status": true
+  },
+  "qsBv": {
+    "title": "Fuguushoku \"Kanteishi\" ga Jitsu wa Saikyou Datta",
+    "day": 4,
+    "time": "6:30 AM",
+    "cover": "fuguushoku-kanteishi-ga-jitsu-wa-saikyou-datta-dba0678974",
+    "streams": {},
+    "status": true
+  },
+  "yc8j": {
+    "title": "Arafou Otoko no Isekai Tsuuhan Seikatsu",
+    "day": 4,
+    "time": "4:00 AM",
+    "cover": "arafou-otoko-no-isekai-tsuuhan-seikatsu-afad47fee6",
+    "streams": {},
+    "status": true
+  },
+  "wAp4": {
+    "title": "Akuyaku Reijou Tensei Ojisan",
+    "day": 4,
+    "time": "8:00 AM",
+    "cover": "akuyaku-reijou-tensei-ojisan-877621d436",
+    "streams": {},
+    "status": true
+  },
+  "oqz6": {
+    "title": "FARMAGIA",
+    "day": 4,
+    "time": "5:30 AM",
+    "cover": "farmagia-be51dedd2c",
+    "streams": {},
+    "status": true
+  },
+  "iSDQ": {
+    "title": "Douse, Koishite Shimaunda.",
+    "day": 4,
+    "time": "8:28 AM",
+    "cover": "douse-koishite-shimaunda-4decfd6c46",
+    "streams": {},
+    "status": true
+  },
+  "GvcJ": {
+    "title": "Sousei no Aquarion: Myth of Emotions",
+    "day": 4,
+    "time": "7:30 AM",
+    "cover": "sousei-no-aquarion-myth-of-emotions-80217a86fd",
+    "streams": {},
+    "status": true
+  },
+  "E6MU": {
+    "title": "Guild no Uketsukejou desu ga, Zangyou wa Iya nanode Boss wo Solo Toubatsu Shiyou to Omoimasu",
+    "day": 5,
+    "time": "7:00 AM",
+    "cover": "guild-no-uketsukejou-desu-ga-zangyou-wa-iya-nanode-boss-wo-solo-toubatsu-shiyou-to-omoimasu-6349c4ee7f",
+    "streams": {},
+    "status": true
+  },
+  "dJCx": {
+    "title": "Kusuriya no Hitorigoto 2nd Season",
+    "day": 5,
+    "time": "6:40 AM",
+    "cover": "kusuriya-no-hitorigoto-2nd-season-bf807d4c90",
+    "streams": {},
+    "status": true
+  },
+  "eP3z": {
+    "title": "\u00dcbel Blatt",
+    "day": 5,
+    "time": "8:30 AM",
+    "cover": "ubel-blatt-c614d3e664",
+    "streams": {},
+    "status": true
+  },
+  "jcI4": {
+    "title": "Nihon e Youkoso Elf-san.",
+    "day": 5,
+    "time": "5:00 AM",
+    "cover": "nihon-e-youkoso-elf-san-c1a4c192b5",
+    "streams": {},
+    "status": true
+  },
+  "6jKB": {
+    "title": "Cardfight!! Vanguard: Divinez Deluxe-hen",
+    "day": 5,
+    "time": "3:00 PM",
+    "cover": "cardfight-vanguard-divinez-deluxe-hen-8c0a2e9e72",
+    "streams": {},
+    "status": true
+  },
+  "DMu1": {
+    "title": "Mahoutsukai Precure!! MIRAI DAYS",
+    "day": 5,
+    "time": "9:00 AM",
+    "cover": "mahoutsukai-precure-2-d9604230b9",
+    "streams": {},
+    "status": true
+  },
+  "WwjP": {
+    "title": "Baban Baban Ban Vampire",
+    "day": 6,
+    "time": "6:30 AM",
+    "cover": "baban-baban-ban-vampire-b799a102d7",
+    "streams": {
+      "Netflix": "https://www.netflix.com/title/81949674"
+    },
+    "status": true
+  },
+  "gnt2": {
+    "title": "SAKAMOTO DAYS",
+    "day": 6,
+    "time": "6:00 AM",
+    "cover": "sakamoto-days-1c85ba245f",
+    "streams": {},
+    "status": true
+  },
+  "qMvn": {
+    "title": "Jibaku Shounen Hanako-kun 2nd Season",
+    "day": 6,
+    "time": "11:30 PM",
+    "cover": "jibaku-shounen-hanako-kun-2nd-season-f8951ff35f",
+    "streams": {},
+    "status": true
+  },
+  "xAbM": {
+    "title": "UniteUp!: Uni:Birth",
+    "day": 6,
+    "time": "6:30 AM",
+    "cover": "uniteup-2nd-season-5041c0619a",
+    "streams": {},
+    "status": true
+  },
+  "mgJA": {
+    "title": "A-Rank Party wo Ridatsu shita Ore wa, Moto Oshiego-tachi to Meikyuu Shinbu wo Mezasu.",
+    "day": 7,
+    "time": "7:55 AM",
+    "cover": "a-rank-party-wo-ridatsu-shita-ore-wa-moto-oshiego-tachi-to-meikyuu-shinbu-wo-mezasu-5ac08f5edc",
+    "streams": {},
+    "status": true
+  },
+  "bHGF": {
+    "title": "Kimi no Koto ga Daidaidaidaidaisuki na 100-nin no Kanojo Season 2",
+    "day": 7,
+    "time": "5:30 AM",
+    "cover": "kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-season-2-893807ada0",
+    "streams": {},
+    "status": true
+  },
+  "5JtG": {
+    "title": "Sentai Red Isekai de Boukensha ni Naru",
+    "day": 7,
+    "time": "6:30 AM",
+    "cover": "sentai-red-isekai-de-boukensha-ni-naru-c93a41f7d4",
+    "streams": {},
+    "status": true
+  },
+  "ZtvR": {
+    "title": "Mashin Souzouden Wataru",
+    "day": 7,
+    "time": "12:30 AM",
+    "cover": "mashin-souzouden-wataru-4e8fb5c012",
+    "streams": {},
+    "status": true
+  },
+  "ngTV": {
+    "title": "Kinnikuman: Kanpeki Ch\u043eujin Shiso-hen Season 2",
+    "day": 7,
+    "time": "6:30 AM",
+    "cover": "kinnikuman-kanpeki-ch-ujin-shiso-hen-season-2-e0eff4718f",
     "streams": {},
     "status": true
   }
