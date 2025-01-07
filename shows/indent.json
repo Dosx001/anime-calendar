@@ -506,43 +506,49 @@
     }
   },
   "iIBj": {
-    "title": "Botsuraku Yotei no Kizoku dakedo, Hima Datta kara Mahou wo Kiwametemita",
+    "title": "I'm a Noble on the Brink of Ruin, So I Might as Well Try Mastering Magic",
     "day": 1,
     "time": "10:15 AM",
     "cover": "botsuraku-yotei-no-kizoku-dakedo-hima-datta-kara-mahou-wo-kiwametemita-10e1d78bc8",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV008/im-a-noble-on-the-brink-of-ruin-so-i-might-as-well-try-mastering-magic"
+    }
   },
   "7Buz": {
-    "title": "Watashi no Shiawase na Kekkon 2nd Season",
+    "title": "My Happy Marriage",
     "day": 1,
     "time": "5:31 AM",
     "cover": "watashi-no-shiawase-na-kekkon-2nd-season-0ff293b3f9",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Netflix": "https://www.netflix.com/title/81564905"
+    }
   },
   "yFwR": {
-    "title": "Kuroiwa Medaka ni Watashi no Kawaii ga Tsuujinai",
+    "title": "Medaka Kuroiwa is Impervious to My Charms",
     "day": 1,
     "time": "9:00 AM",
     "cover": "kuroiwa-medaka-ni-watashi-no-kawaii-ga-tsuujinai-41ef584644",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WJJG/medaka-kuroiwa-is-impervious-to-my-charms"
+    }
   },
   "dVcl": {
-    "title": "Mahoutsukai no Yakusoku",
+    "title": "Promise of Wizard",
     "day": 1,
     "time": "7:30 AM",
     "cover": "mahoutsukai-no-yakusoku-ee98a34612",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3GG8/promise-of-wizard"
+    }
   },
   "xeAQ": {
     "title": "Kono Kaisha ni Suki na Hito ga Imasu",
     "day": 1,
-    "time": "6:00 AM",
+    "time": "6:01 AM",
     "cover": "kono-kaisha-ni-suki-na-hito-ga-imasu-f3a2aa0c63",
-    "streams": {},
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhCFHIPcW85-IUQ-q9T1eTl"
+    },
     "status": true
   },
   "DHqg": {
