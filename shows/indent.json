@@ -561,92 +561,105 @@
     }
   },
   "gXK7": {
-    "title": "Unnamed Memory Act.2",
+    "title": "Unnamed Memory",
     "day": 2,
     "time": "9:00 AM",
     "cover": "unnamed-memory-act-2-8a9a0c551a",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN9QXQ/unnamed-memory"
+    }
   },
   "9U97": {
     "title": "Honey Lemon Soda",
     "day": 3,
     "time": "10:25 AM",
     "cover": "honey-lemon-soda-d505d0a2a6",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GMEHME77W/honey-lemon-soda"
+    }
   },
   "xgzl": {
-    "title": "Ishura 2nd Season",
+    "title": "Ishura",
     "day": 3,
     "time": "6:01 AM",
     "cover": "ishura-2nd-season-af75ccca80",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Hulu": "https://www.hulu.com/series/811bac64-a492-4f1e-ba7a-393c825daeec"
+    }
   },
   "qcDl": {
-    "title": "Magic Maker: Isekai Mahou no Tsukurikata",
+    "title": "Magic Maker: How to Make Magic in Another World",
     "day": 3,
     "time": "9:00 AM",
     "cover": "magic-maker-isekai-mahou-no-tsukurikata-3b2aace5c4",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GP5HJ8417/magic-maker-how-to-make-magic-in-another-world"
+    }
   },
   "JLry": {
-    "title": "Dr. Stone: Science Future",
+    "title": "Dr. STONE",
     "day": 4,
-    "time": "5:00 AM",
+    "time": "7:00 AM",
     "cover": "dr-stone-science-future-a696ffecab",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GYEXQKJG6/dr-stone",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jj4AHW3_HqDp39-puRHVfNA"
+    }
   },
   "qsBv": {
-    "title": "Fuguushoku \"Kanteishi\" ga Jitsu wa Saikyou Datta",
+    "title": "Even Given the Worthless \"Appraiser\" Class, I'm Actually the Strongest",
     "day": 4,
     "time": "6:30 AM",
     "cover": "fuguushoku-kanteishi-ga-jitsu-wa-saikyou-datta-dba0678974",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKN99W/even-given-the-worthless-appraiser-class--im-actually-the-strongest",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2VtrcMiIwEPC5RetXymTDz"
+    }
   },
   "yc8j": {
-    "title": "Arafou Otoko no Isekai Tsuuhan Seikatsu",
+    "title": "The Daily Life of a Middle-Aged Online Shopper in Another World",
     "day": 4,
     "time": "4:00 AM",
     "cover": "arafou-otoko-no-isekai-tsuuhan-seikatsu-afad47fee6",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX855Q/the-daily-life-of-a-middle-aged-online-shopper-in-another-world"
+    }
   },
   "wAp4": {
-    "title": "Akuyaku Reijou Tensei Ojisan",
+    "title": "From Bureaucrat to Villainess: Dad\u2019s Been Reincarnated!",
     "day": 4,
     "time": "8:00 AM",
     "cover": "akuyaku-reijou-tensei-ojisan-877621d436",
-    "streams": {},
-    "status": true
+    "streams": {
+      "HiDive": "https://www.hidive.com/season/28118"
+    }
   },
   "oqz6": {
     "title": "FARMAGIA",
-    "day": 4,
+    "day": 5,
     "time": "5:30 AM",
     "cover": "farmagia-be51dedd2c",
     "streams": {},
     "status": true
   },
   "iSDQ": {
-    "title": "Douse, Koishite Shimaunda.",
+    "title": "Anyway, I'm Falling in Love with You.",
     "day": 4,
     "time": "8:28 AM",
     "cover": "douse-koishite-shimaunda-4decfd6c46",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7QGGM/anyway-im-falling-in-love-with-you",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhJgjNYZDJJFH1R3LAsfoq5"
+    }
   },
   "GvcJ": {
-    "title": "Sousei no Aquarion: Myth of Emotions",
+    "title": "AQUARION Myth of Emotions",
     "day": 4,
     "time": "7:30 AM",
     "cover": "sousei-no-aquarion-myth-of-emotions-80217a86fd",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/watch/GJWUQ7DQ1"
+    }
   },
   "E6MU": {
     "title": "Guild no Uketsukejou desu ga, Zangyou wa Iya nanode Boss wo Solo Toubatsu Shiyou to Omoimasu",
