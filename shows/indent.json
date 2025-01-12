@@ -102,12 +102,13 @@
     }
   },
   "DqGO": {
-    "title": "Beyblade X",
+    "title": "BEYBLADE X",
     "day": 5,
     "time": "1:25 AM",
     "cover": "beyblade-x-f02b468b74",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Netflix": "https://www.netflix.com/title/81924739"
+    }
   },
   "zKyK": {
     "title": "Wonderful Precure!",
@@ -367,7 +368,7 @@
     "title": "Grisaia Phantom Trigger",
     "day": 3,
     "time": "8:30 AM",
-    "cover": "grisaia-phantom-trigger-the-animation-tv-f09447756f",
+    "cover": "grisaia-phantom-trigger-the-animation-tv-99050f03ba",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GW4HM7WWV/grisaia-phantom-trigger"
     }
@@ -421,14 +422,14 @@
     }
   },
   "75L8": {
-    "title": "Tasokare Hotel",
+    "title": "TASOKARE HOTEL",
     "day": 5,
     "time": "6:30 AM",
     "cover": "tasokare-hotel-5445e809a4",
     "streams": {
+      "Amazon": "https://www.amazon.com/dp/B0DLHBH9YM",
       "YouTube": "https://www.youtube.com/playlist?list=PLhGamQZtJ7K9QtAw-sIhv1v8j7UZPGk5R"
-    },
-    "status": true
+    }
   },
   "3AEQ": {
     "title": "Sorairo Utility",
@@ -609,7 +610,7 @@
   "qsBv": {
     "title": "Even Given the Worthless \"Appraiser\" Class, I'm Actually the Strongest",
     "day": 4,
-    "time": "6:30 AM",
+    "time": "7:45 AM",
     "cover": "fuguushoku-kanteishi-ga-jitsu-wa-saikyou-datta-dba0678974",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKN99W/even-given-the-worthless-appraiser-class--im-actually-the-strongest",
@@ -619,7 +620,7 @@
   "yc8j": {
     "title": "The Daily Life of a Middle-Aged Online Shopper in Another World",
     "day": 4,
-    "time": "4:00 AM",
+    "time": "5:30 AM",
     "cover": "arafou-otoko-no-isekai-tsuuhan-seikatsu-afad47fee6",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX855Q/the-daily-life-of-a-middle-aged-online-shopper-in-another-world"
@@ -637,15 +638,17 @@
   "oqz6": {
     "title": "FARMAGIA",
     "day": 5,
-    "time": "5:30 AM",
+    "time": "7:30 AM",
     "cover": "farmagia-be51dedd2c",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GP5HJ8447/farmagia",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jju9jZyfPvPCWVljX8k4yjY"
+    }
   },
   "iSDQ": {
     "title": "Anyway, I'm Falling in Love with You.",
     "day": 4,
-    "time": "8:28 AM",
+    "time": "10:15 AM",
     "cover": "douse-koishite-shimaunda-4decfd6c46",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7QGGM/anyway-im-falling-in-love-with-you",
@@ -655,55 +658,62 @@
   "GvcJ": {
     "title": "AQUARION Myth of Emotions",
     "day": 4,
-    "time": "7:30 AM",
+    "time": "9:00 AM",
     "cover": "sousei-no-aquarion-myth-of-emotions-80217a86fd",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/watch/GJWUQ7DQ1"
     }
   },
   "E6MU": {
-    "title": "Guild no Uketsukejou desu ga, Zangyou wa Iya nanode Boss wo Solo Toubatsu Shiyou to Omoimasu",
+    "title": "I May Be a Guild Receptionist, but I\u2019ll Solo Any Boss to Clock Out on Time",
     "day": 5,
-    "time": "7:00 AM",
+    "time": "9:30 AM",
     "cover": "guild-no-uketsukejou-desu-ga-zangyou-wa-iya-nanode-boss-wo-solo-toubatsu-shiyou-to-omoimasu-6349c4ee7f",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G8DHV784M/i-may-be-a-guild-receptionist-but-ill-solo-any-boss-to-clock-out-on-time"
+    }
   },
   "dJCx": {
-    "title": "Kusuriya no Hitorigoto 2nd Season",
+    "title": "The Apothecary Diaries",
     "day": 5,
-    "time": "6:40 AM",
+    "time": "9:15 AM",
     "cover": "kusuriya-no-hitorigoto-2nd-season-bf807d4c90",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEVDJ7/the-apothecary-diaries"
+    }
   },
   "eP3z": {
     "title": "\u00dcbel Blatt",
     "day": 5,
     "time": "8:30 AM",
     "cover": "ubel-blatt-c614d3e664",
-    "streams": {},
+    "streams": {
+      "Amazon": "https://www.amazon.com/dp/B0DMFX5MJM"
+    },
     "status": true
   },
   "jcI4": {
-    "title": "Nihon e Youkoso Elf-san.",
+    "title": "Welcome to Japan, Ms. Elf!",
     "day": 5,
-    "time": "5:00 AM",
+    "time": "7:00 AM",
     "cover": "nihon-e-youkoso-elf-san-c1a4c192b5",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G24H1NWWE/welcome-to-japan-ms-elf"
+    }
   },
   "6jKB": {
     "title": "Cardfight!! Vanguard: Divinez Deluxe-hen",
     "day": 5,
     "time": "3:00 PM",
     "cover": "cardfight-vanguard-divinez-deluxe-hen-8c0a2e9e72",
-    "streams": {},
+    "streams": {
+      "YouTube": "https://www.youtube.com/watch?v=rU3uwdtBJe8&list=PLZaz0lCoygoyg34cbrbAPlAYfwswfs70F&index=1"
+    },
     "status": true
   },
   "DMu1": {
     "title": "Mahoutsukai Precure!! MIRAI DAYS",
-    "day": 5,
+    "day": 6,
     "time": "9:00 AM",
     "cover": "mahoutsukai-precure-2-d9604230b9",
     "streams": {},
@@ -722,15 +732,16 @@
   "gnt2": {
     "title": "SAKAMOTO DAYS",
     "day": 6,
-    "time": "6:00 AM",
+    "time": "6:01 AM",
     "cover": "sakamoto-days-1c85ba245f",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Netflix": "https://www.netflix.com/title/81663325"
+    }
   },
   "qMvn": {
     "title": "Jibaku Shounen Hanako-kun 2nd Season",
-    "day": 6,
-    "time": "11:30 PM",
+    "day": 7,
+    "time": "2:00 AM",
     "cover": "jibaku-shounen-hanako-kun-2nd-season-f8951ff35f",
     "streams": {},
     "status": true
@@ -738,23 +749,24 @@
   "xAbM": {
     "title": "UniteUp!: Uni:Birth",
     "day": 6,
-    "time": "6:30 AM",
+    "time": "9:00 AM",
     "cover": "uniteup-2nd-season-5041c0619a",
     "streams": {},
     "status": true
   },
   "mgJA": {
-    "title": "A-Rank Party wo Ridatsu shita Ore wa, Moto Oshiego-tachi to Meikyuu Shinbu wo Mezasu.",
-    "day": 7,
-    "time": "7:55 AM",
+    "title": "I Left my A-Rank Party to Help My Former Students Reach the Dungeon Depths!",
+    "day": 6,
+    "time": "9:45 AM",
     "cover": "a-rank-party-wo-ridatsu-shita-ore-wa-moto-oshiego-tachi-to-meikyuu-shinbu-wo-mezasu-5ac08f5edc",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GKEH2G004/i-left-my-a-rank-party-to-help-my-former-students-reach-the-dungeon-depths"
+    }
   },
   "bHGF": {
     "title": "Kimi no Koto ga Daidaidaidaidaisuki na 100-nin no Kanojo Season 2",
     "day": 7,
-    "time": "5:30 AM",
+    "time": "7:00 AM",
     "cover": "kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-season-2-893807ada0",
     "streams": {},
     "status": true
@@ -762,7 +774,7 @@
   "5JtG": {
     "title": "Sentai Red Isekai de Boukensha ni Naru",
     "day": 7,
-    "time": "6:30 AM",
+    "time": "8:00 AM",
     "cover": "sentai-red-isekai-de-boukensha-ni-naru-c93a41f7d4",
     "streams": {},
     "status": true
