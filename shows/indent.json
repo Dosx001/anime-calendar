@@ -720,14 +720,13 @@
     "status": true
   },
   "WwjP": {
-    "title": "Baban Baban Ban Vampire",
+    "title": "Babanba Banban Vampire",
     "day": 6,
-    "time": "6:30 AM",
+    "time": "7:00 AM",
     "cover": "baban-baban-ban-vampire-b799a102d7",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81949674"
-    },
-    "status": true
+    }
   },
   "gnt2": {
     "title": "SAKAMOTO DAYS",
@@ -739,20 +738,23 @@
     }
   },
   "qMvn": {
-    "title": "Jibaku Shounen Hanako-kun 2nd Season",
+    "title": "Toilet-bound Hanako-kun",
     "day": 7,
     "time": "2:00 AM",
     "cover": "jibaku-shounen-hanako-kun-2nd-season-f8951ff35f",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G24H1N3ZP/toilet-bound-hanako-kun",
+      "Hulu": "https://www.hulu.com/series/toilet-bound-hanako-kun-87b3d986-cbae-47ce-9076-0fe61fce06e3"
+    }
   },
   "xAbM": {
-    "title": "UniteUp!: Uni:Birth",
+    "title": "UniteUp!",
     "day": 6,
     "time": "9:00 AM",
     "cover": "uniteup-2nd-season-5041c0619a",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7Q5J9/uniteup"
+    }
   },
   "mgJA": {
     "title": "I Left my A-Rank Party to Help My Former Students Reach the Dungeon Depths!",
@@ -760,24 +762,28 @@
     "time": "9:45 AM",
     "cover": "a-rank-party-wo-ridatsu-shita-ore-wa-moto-oshiego-tachi-to-meikyuu-shinbu-wo-mezasu-5ac08f5edc",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GKEH2G004/i-left-my-a-rank-party-to-help-my-former-students-reach-the-dungeon-depths"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GKEH2G004/i-left-my-a-rank-party-to-help-my-former-students-reach-the-dungeon-depths",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl03q6rAPvEC-sRXeGiy6qMM"
     }
   },
   "bHGF": {
-    "title": "Kimi no Koto ga Daidaidaidaidaisuki na 100-nin no Kanojo Season 2",
+    "title": "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You",
     "day": 7,
     "time": "7:00 AM",
     "cover": "kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-season-2-893807ada0",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKN933/the-100-girlfriends-who-really-really-really-really-really-love-you",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2ilZQ5Xv1xozab_cm90ugI"
+    }
   },
   "5JtG": {
-    "title": "Sentai Red Isekai de Boukensha ni Naru",
+    "title": "The Red Ranger Becomes an Adventurer in Another World",
     "day": 7,
     "time": "8:00 AM",
     "cover": "sentai-red-isekai-de-boukensha-ni-naru-c93a41f7d4",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G8DHV788M/the-red-ranger-becomes-an-adventurer-in-another-world"
+    }
   },
   "ZtvR": {
     "title": "Mashin Souzouden Wataru",
@@ -790,9 +796,11 @@
   "ngTV": {
     "title": "Kinnikuman: Kanpeki Ch\u043eujin Shiso-hen Season 2",
     "day": 7,
-    "time": "6:30 AM",
+    "time": "7:30 AM",
     "cover": "kinnikuman-kanpeki-ch-ujin-shiso-hen-season-2-e0eff4718f",
-    "streams": {},
+    "streams": {
+      "Netflix": "https://netflix.com/title/81781519"
+    },
     "status": true
   }
 }
