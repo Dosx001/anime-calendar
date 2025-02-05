@@ -19,7 +19,7 @@ def main():
         options=options,
     )
     driver.maximize_window()
-    driver.get("https://animeschedule.net/seasons/winter-2025")
+    driver.get("https://animeschedule.net/seasons/spring-2025")
     shows = {}
     show: WebElement
     for show in driver.find_element(By.CLASS_NAME, "shows-container").find_elements(

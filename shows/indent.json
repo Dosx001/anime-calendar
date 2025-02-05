@@ -110,15 +110,6 @@
       "Netflix": "https://www.netflix.com/title/81924739"
     }
   },
-  "zKyK": {
-    "title": "Wonderful Precure!",
-    "day": 6,
-    "time": "5:30 PM",
-    "cover": "wonderful-precure-14863c5fb3",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN9QWN/wonderful-precure"
-    }
-  },
   "CivX": {
     "title": "I.CINNAMOROLL Animation",
     "day": 4,
@@ -145,14 +136,6 @@
     "streams": {},
     "status": true
   },
-  "nMVN": {
-    "title": "Shinkalion: Change the World",
-    "day": 6,
-    "time": "3:30 PM",
-    "cover": "shinkalion-change-the-world-9fdc0df233",
-    "streams": {},
-    "status": true
-  },
   "nhJw": {
     "title": "Tying the Knot with an Amagami Sister",
     "day": 2,
@@ -175,7 +158,7 @@
   "RY3b": {
     "title": "Blue Box",
     "day": 4,
-    "time": "6:56 AM",
+    "time": "7:00 AM",
     "cover": "ao-no-hako-ff482db783",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81663323"
@@ -202,7 +185,7 @@
   },
   "F2cw": {
     "title": "Is It Wrong to Try to Pick Up Girls in a Dungeon?",
-    "day": 4,
+    "day": 5,
     "time": "5:01 AM",
     "cover": "is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-v-581d203d4e",
     "streams": {
@@ -574,7 +557,7 @@
     "title": "Honey Lemon Soda",
     "day": 3,
     "time": "10:25 AM",
-    "cover": "honey-lemon-soda-d505d0a2a6",
+    "cover": "honey-lemon-soda-ba3afd639c",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GMEHME77W/honey-lemon-soda"
     }
@@ -632,7 +615,8 @@
     "time": "8:00 AM",
     "cover": "akuyaku-reijou-tensei-ojisan-877621d436",
     "streams": {
-      "HiDive": "https://www.hidive.com/season/28118"
+      "HiDive": "https://www.hidive.com/season/28118",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl031zNeBVFi0zLndX_M3PhN"
     }
   },
   "oqz6": {
@@ -668,7 +652,7 @@
     "title": "I May Be a Guild Receptionist, but I\u2019ll Solo Any Boss to Clock Out on Time",
     "day": 5,
     "time": "9:30 AM",
-    "cover": "guild-no-uketsukejou-desu-ga-zangyou-wa-iya-nanode-boss-wo-solo-toubatsu-shiyou-to-omoimasu-6349c4ee7f",
+    "cover": "guild-no-uketsukejou-desu-ga-zangyou-wa-iya-nanode-boss-wo-solo-toubatsu-shiyou-to-omoimasu-772740e7ca",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G8DHV784M/i-may-be-a-guild-receptionist-but-ill-solo-any-boss-to-clock-out-on-time"
     }
@@ -712,18 +696,19 @@
     "status": true
   },
   "DMu1": {
-    "title": "Mahoutsukai Precure!! MIRAI DAYS",
+    "title": "Witchy Precure!! ~MIRAI DAYS~",
     "day": 6,
-    "time": "9:00 AM",
-    "cover": "mahoutsukai-precure-2-d9604230b9",
-    "streams": {},
-    "status": true
+    "time": "12:00 PM",
+    "cover": "mahoutsukai-precure-2-86c41e6e61",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GZJH3D881/witchy-precure-mirai-days"
+    }
   },
   "WwjP": {
     "title": "Babanba Banban Vampire",
     "day": 6,
     "time": "7:00 AM",
-    "cover": "baban-baban-ban-vampire-b799a102d7",
+    "cover": "baban-baban-ban-vampire-52572e525e",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81949674"
     }
@@ -782,15 +767,17 @@
     "time": "8:00 AM",
     "cover": "sentai-red-isekai-de-boukensha-ni-naru-c93a41f7d4",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G8DHV788M/the-red-ranger-becomes-an-adventurer-in-another-world"
+      "Crunchyroll": "https://www.crunchyroll.com/watch/GEVUW3VE4"
     }
   },
   "ZtvR": {
     "title": "Mashin Souzouden Wataru",
     "day": 7,
-    "time": "12:30 AM",
+    "time": "1:00 AM",
     "cover": "mashin-souzouden-wataru-4e8fb5c012",
-    "streams": {},
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhKVWP6J8KAjulzH95c3Zur"
+    },
     "status": true
   },
   "ngTV": {

@@ -196,7 +196,11 @@ class Shows:
         self.driver.get(url)
         sleep(1)
         try:
-            return self.driver.find_element(By.CLASS_NAME, "hero-heading-line").text
+            return (
+                self.driver.find_element(By.CLASS_NAME, "series-hero-wrapper")
+                .find_element(By.TAG_NAME, "h1")
+                .text
+            )
         except NoSuchElementException:
             with open("pass.txt", encoding="utf-8") as file:
                 keys = file.readline().split()
