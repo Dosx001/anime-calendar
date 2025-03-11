@@ -6,6 +6,7 @@
     "cover": "detective-conan-8d9a48d3dd",
     "streams": {
       "Amazon": "https://www.amazon.com/dp/B09Q2CH8RS",
+      "Apple": "https://apple.co/42QOUo9",
       "Crunchyroll": "https://www.crunchyroll.com/case-closed",
       "Netflix": "https://www.netflix.com/title/80090370"
     }
@@ -16,6 +17,7 @@
     "time": "7:45 PM",
     "cover": "one-piece-f2f2a983a8",
     "streams": {
+      "Apple": "https://apple.co/3Qfhg3W",
       "Crunchyroll": "https://www.crunchyroll.com/one-piece",
       "Funimation": "https://www.funimation.com/shows/one-piece/",
       "Hulu": "https://www.hulu.com/series/one-piece-c7a08df6-d0d5-4dd3-afff-d1f90133cd4e",
@@ -25,51 +27,54 @@
   "NAVE": {
     "title": "Doraemon (2005)",
     "day": 6,
-    "time": "12:00 AM",
+    "time": "1:00 AM",
     "cover": "doraemon-2005-371cbec0f6",
     "streams": {}
   },
   "ATJM": {
     "title": "Crayon Shin-chan",
-    "day": 5,
-    "time": "11:30 PM",
+    "day": 6,
+    "time": "12:30 AM",
     "cover": "crayon-shin-chan-dc430f9db0",
     "streams": {}
   },
   "1C3r": {
     "title": "Sazae-san",
     "day": 7,
-    "time": "1:30 AM",
+    "time": "2:30 AM",
     "cover": "sazae-san-162010bbcb",
     "streams": {}
   },
   "ziMS": {
     "title": "Ninjala",
     "day": 5,
-    "time": "2:30 PM",
+    "time": "3:30 PM",
     "cover": "ninjala-c19a7f2bbe",
     "streams": {
+      "Apple": "https://apple.co/412i8h4",
       "HiDive": "https://www.hidive.com/tv/ninjala-the-animation"
     }
   },
   "eGsT": {
     "title": "PazuDora",
     "day": 7,
-    "time": "1:00 AM",
+    "time": "2:00 AM",
     "cover": "pazudora-ca05e64b75",
     "streams": {}
   },
   "wrIz": {
     "title": "Yu\u2606Gi\u2606Oh! Go Rush!!",
     "day": 6,
-    "time": "2:30 PM",
+    "time": "3:30 PM",
     "cover": "yu-gi-oh-go-rush-9ca7d7e015",
-    "streams": {}
+    "streams": {
+      "Apple": "https://apple.co/3X4CN31"
+    }
   },
   "dzBo": {
     "title": "Holo no Graffiti",
     "day": 7,
-    "time": "1:01 AM",
+    "time": "2:01 AM",
     "cover": "holo-no-graffiti-95cd497081",
     "streams": {
       "YouTube": "https://www.youtube.com/playlist?list=PLb7AOG3cj7UyJfqsfXpvL2LUVdg0dOK7q"
@@ -78,7 +83,7 @@
   "BkuV": {
     "title": "Pok\u00e9mon Horizons: The Series",
     "day": 5,
-    "time": "1:55 AM",
+    "time": "2:55 AM",
     "cover": "pokemon-2023-273f1b2226",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81696980"
@@ -87,7 +92,7 @@
   "A9VI": {
     "title": "Sore Ike! Anpanman",
     "day": 4,
-    "time": "5:55 PM",
+    "time": "6:55 PM",
     "cover": "sore-ike-anpanman-dbeb359c0e",
     "streams": {},
     "status": true
@@ -104,16 +109,17 @@
   "DqGO": {
     "title": "BEYBLADE X",
     "day": 5,
-    "time": "1:25 AM",
+    "time": "2:25 AM",
     "cover": "beyblade-x-f02b468b74",
     "streams": {
+      "Apple": "https://apple.co/4i07X3w",
       "Netflix": "https://www.netflix.com/title/81924739"
     }
   },
   "CivX": {
     "title": "I.CINNAMOROLL Animation",
     "day": 4,
-    "time": "12:00 AM",
+    "time": "1:00 AM",
     "cover": "i-cinnamoroll-animation-6fa50ef829",
     "streams": {
       "YouTube": "https://www.youtube.com/playlist?list=PLe-UftTUsMbk7fMwURgLZ6_kz71DGssQw"
@@ -123,7 +129,7 @@
   "vGHc": {
     "title": "Himitsu no AiPri",
     "day": 6,
-    "time": "5:00 PM",
+    "time": "6:00 PM",
     "cover": "himitsu-no-aipri-ca0a7e7636",
     "streams": {},
     "status": true
@@ -131,7 +137,7 @@
   "vn9Y": {
     "title": "Tousouchuu: Great Mission",
     "day": 6,
-    "time": "4:01 PM",
+    "time": "5:01 PM",
     "cover": "tousouchuu-great-mission-2b70ef3975",
     "streams": {},
     "status": true
@@ -151,6 +157,7 @@
     "time": "7:30 AM",
     "cover": "re-zero-kara-hajimeru-isekai-seikatsu-3-4ff0e54be2",
     "streams": {
+      "Apple": "https://apple.co/3CMHQyd",
       "Crunchyroll": "https://www.crunchyroll.com/series/GRGG9798R/rezero--starting-life-in-another-world-",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0mHfdQze0zVVrSRnLNr-yF"
     }
@@ -158,7 +165,7 @@
   "RY3b": {
     "title": "Blue Box",
     "day": 4,
-    "time": "7:00 AM",
+    "time": "8:00 AM",
     "cover": "ao-no-hako-ff482db783",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81663323"
@@ -170,6 +177,7 @@
     "time": "11:00 AM",
     "cover": "rurouni-kenshin-meiji-kenkaku-romantan-kyoto-douran-ed6d5ba111",
     "streams": {
+      "Apple": "https://apple.co/41nTj0R",
       "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM1NK/rurouni-kenshin"
     }
   },
@@ -183,19 +191,10 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgWSohUFSUx4uQvvUZCAhj4"
     }
   },
-  "F2cw": {
-    "title": "Is It Wrong to Try to Pick Up Girls in a Dungeon?",
-    "day": 5,
-    "time": "5:01 AM",
-    "cover": "is-it-wrong-to-try-to-pick-up-girls-in-a-dungeon-v-581d203d4e",
-    "streams": {
-      "HiDive": "https://www.hidive.com/season/26756"
-    }
-  },
   "CE78": {
     "title": "Touhai: Ura Rate Mahjong Touhai Roku",
     "day": 5,
-    "time": "9:23 AM",
+    "time": "10:23 AM",
     "cover": "touhai-ura-rate-mahjong-touhai-roku-0ebdc14e0b",
     "streams": {},
     "status": true
@@ -203,7 +202,7 @@
   "ViQF": {
     "title": "Orb: On the Movements of the Earth",
     "day": 6,
-    "time": "8:00 AM",
+    "time": "9:00 AM",
     "cover": "chi-chikyuu-no-undou-ni-tsuite-c0ff89ed08",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81765022"
@@ -212,7 +211,7 @@
   "EAZm": {
     "title": "Kagaku x Bouken Survival!",
     "day": 6,
-    "time": "1:25 AM",
+    "time": "2:25 AM",
     "cover": "kagaku-manga-survival-tv-a881d4c0b1",
     "streams": {},
     "status": true
@@ -223,27 +222,18 @@
     "time": "7:30 AM",
     "cover": "youkai-gakkou-no-sensei-hajimemashita-134f8bdabe",
     "streams": {
+      "Apple": "https://apple.co/4jWBU6u",
       "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX85QN/a-terrified-teacher-at-ghoul-school",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jj1WcEwx5MbqYoV3zIwGFwd"
-    }
-  },
-  "4XYR": {
-    "title": "Dragon Ball DAIMA",
-    "day": 5,
-    "time": "10:00 AM",
-    "cover": "dragon-ball-daima-bc212f7cd2",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQ35/dragon-ball-daima",
-      "Hulu": "https://www.hulu.com/series/7c2e04e4-3f77-4dfe-9a62-167b7065d6b3",
-      "Netflix": "https://www.netflix.com/title/81943491"
     }
   },
   "S9ZF": {
     "title": "Shangri-La Frontier",
     "day": 7,
-    "time": "2:30 AM",
+    "time": "3:30 AM",
     "cover": "shangri-la-frontier-2nd-season-5a85029187",
     "streams": {
+      "Apple": "https://apple.co/4aYQkPq",
       "Crunchyroll": "https://www.crunchyroll.com/series/G79H23Z8P/shangri-la-frontier",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1k3PpCugshhYpSQVWUAaib"
     }
@@ -251,20 +241,10 @@
   "oomQ": {
     "title": "Re:Zero kara Hajimeru Kyuukei Jikan (Break Time) 3rd Season",
     "day": 3,
-    "time": "7:00 AM",
+    "time": "8:00 AM",
     "cover": "re-zero-kara-hajimeru-break-time-3rd-season-10c6aa1050",
     "streams": {},
     "status": true
-  },
-  "5Nv8": {
-    "title": "Arifureta: From Commonplace to World's Strongest",
-    "day": 1,
-    "time": "8:00 AM",
-    "cover": "arifureta-from-commonplace-to-worlds-strongest-3-ca5fc0943c",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WXD1/arifureta-from-commonplace-to-worlds-strongest",
-      "Hulu": "https://www.hulu.com/series/f3ebfa6a-c651-4e2b-b939-6c46dec8a66a"
-    }
   },
   "1fJU": {
     "title": "Blue Miburo",
@@ -272,30 +252,22 @@
     "time": "3:00 AM",
     "cover": "ao-no-miburo-093864c235",
     "streams": {
+      "Apple": "https://apple.co/4gDtwGi",
       "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3GP8/blue-miburo"
     }
   },
   "nW7u": {
     "title": "Shimajirou no Wow!",
     "day": 5,
-    "time": "3:30 PM",
+    "time": "4:30 PM",
     "cover": "shimajirou-no-wow-4b0c1cf53c",
     "streams": {},
     "status": true
   },
-  "udju": {
-    "title": "Future Folktales",
-    "day": 1,
-    "time": "7:00 AM",
-    "cover": "asatir-2-mirai-no-mukashi-banashi-c704640d3c",
-    "streams": {
-      "HiDive": "https://www.hidive.com/season/27287"
-    }
-  },
   "1PZo": {
     "title": "Yoru wa Neko to Issho Season 3",
     "day": 3,
-    "time": "3:00 AM",
+    "time": "4:00 AM",
     "cover": "yoru-wa-neko-to-issho-season-3-ae4c521312",
     "streams": {
       "YouTube": "https://www.youtube.com/watch?v=RGwVx8MbbJg&list=PL21PGVTtHmxgpTZwSrn-1QMUcbaJdnxZM&index=66"
@@ -305,7 +277,7 @@
   "po7G": {
     "title": "Okaimono Panda!",
     "day": 3,
-    "time": "4:54 AM",
+    "time": "5:54 AM",
     "cover": "okaimono-panda-a3ba085be4",
     "streams": {
       "YouTube": "https://www.youtube.com/playlist?list=PLqTy76Pu9VX23-Nfai8GhXutBvKx95TPq"
@@ -315,7 +287,7 @@
   "2Rbu": {
     "title": "Nui Story 2",
     "day": 5,
-    "time": "7:00 PM",
+    "time": "8:00 PM",
     "cover": "nui-story-2-a4dfe6980f",
     "streams": {},
     "status": true
@@ -335,6 +307,7 @@
     "time": "8:15 AM",
     "cover": "hazure-skill-kinomi-master-skill-no-mi-tabetara-shinu-wo-mugen-ni-taberareru-you-ni-natta-ken-ni-tsuite-669aa1a5e5",
     "streams": {
+      "Apple": "https://apple.co/3X2VRih",
       "Crunchyroll": "https://www.crunchyroll.com/series/GZJH3D801/bogus-skill-fruitmaster-about-that-time-i-became-able-to-eat-unlimited-numbers-of-skill-fruits-that-kill-you"
     }
   },
@@ -353,6 +326,7 @@
     "time": "8:30 AM",
     "cover": "grisaia-phantom-trigger-the-animation-tv-99050f03ba",
     "streams": {
+      "Apple": "https://apple.co/4k2m9eb",
       "Crunchyroll": "https://www.crunchyroll.com/series/GW4HM7WWV/grisaia-phantom-trigger"
     }
   },
@@ -362,6 +336,7 @@
     "time": "8:00 AM",
     "cover": "izure-saikyou-no-renkinjutsushi-cff6fe9db5",
     "streams": {
+      "Apple": "https://apple.co/4155s9A",
       "Crunchyroll": "https://www.crunchyroll.com/series/GQWH0M1P3/possibly-the-greatest-alchemist-of-all-time"
     }
   },
@@ -371,6 +346,7 @@
     "time": "7:45 AM",
     "cover": "salaryman-ga-isekai-ni-ittara-shitennou-ni-natta-hanashi-57a0736592",
     "streams": {
+      "Apple": "https://apple.co/4hwl10O",
       "Crunchyroll": "https://www.crunchyroll.com/series/GDKHZEJPQ/headhunted-to-another-world-from-salaryman-to-big-four",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jj9WjsCCnhQehPwk1vwiwnN"
     }
@@ -381,6 +357,7 @@
     "time": "8:00 AM",
     "cover": "bang-dream-ave-mujica-6717f9f652",
     "streams": {
+      "Apple": "https://apple.co/4hYjWyD",
       "Crunchyroll": "https://www.crunchyroll.com/watch/GG1UX5XXM",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl322PZfaZqVFMuAmmGGephH"
     }
@@ -391,6 +368,7 @@
     "time": "9:30 AM",
     "cover": "momentary-lily-99fa901f6b",
     "streams": {
+      "Apple": "https://apple.co/4hUKBfN",
       "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQQ5/momentary-lily",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3ML-kzI3sjoetbnmSaealc"
     }
@@ -401,25 +379,28 @@
     "time": "9:00 AM",
     "cover": "class-no-daikirai-na-joshi-to-kekkon-suru-koto-ni-natta-b5f5c27641",
     "streams": {
+      "Apple": "https://apple.co/41jCVNF",
       "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W22Z/im-getting-married-to-a-girl-i-hate-in-my-class"
     }
   },
   "75L8": {
     "title": "TASOKARE HOTEL",
     "day": 5,
-    "time": "6:30 AM",
+    "time": "7:30 AM",
     "cover": "tasokare-hotel-5445e809a4",
     "streams": {
       "Amazon": "https://www.amazon.com/dp/B0DLHBH9YM",
+      "Apple": "https://apple.co/3EDiPGl",
       "YouTube": "https://www.youtube.com/playlist?list=PLhGamQZtJ7K9QtAw-sIhv1v8j7UZPGk5R"
     }
   },
   "3AEQ": {
     "title": "Sorairo Utility",
     "day": 5,
-    "time": "9:00 AM",
+    "time": "10:00 AM",
     "cover": "sorairo-utility-tv-5a8602b514",
     "streams": {
+      "Apple": "https://apple.co/4hVYgmO",
       "HiDive": "https://www.hidive.com/season/28112",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhMSCE12UK6Au5HYWL2FLGr"
     }
@@ -430,6 +411,7 @@
     "time": "9:30 AM",
     "cover": "solo-leveling-arise-from-the-shadow-ce9a7e24ed",
     "streams": {
+      "Apple": "https://apple.co/41atbWN",
       "Crunchyroll": "https://www.crunchyroll.com/series/GDKHZEJ0K/solo-leveling"
     }
   },
@@ -439,15 +421,17 @@
     "time": "10:00 AM",
     "cover": "ao-no-exorcist-yosuga-hen-43c219d79d",
     "streams": {
+      "Apple": "https://apple.co/3EA3rdH",
       "Crunchyroll": "https://www.crunchyroll.com/series/G649PJ0JY/blue-exorcist"
     }
   },
   "nOaL": {
     "title": "Beheneko: The Elf-Girl's Cat is Secretly an S-Ranked Monster!",
     "day": 6,
-    "time": "6:01 AM",
+    "time": "7:01 AM",
     "cover": "s-rank-monster-no-behemoth-dakedo-neko-to-machigawarete-elf-musume-no-pet-toshite-kurashitemasu-c2ece3125c",
     "streams": {
+      "Apple": "https://apple.co/3CRREqE",
       "HiDive": "https://www.hidive.com/season/28068",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0kTapKR1aoeVPXca6KIPPc"
     }
@@ -455,7 +439,7 @@
   "aLBi": {
     "title": "Medalist",
     "day": 6,
-    "time": "8:31 AM",
+    "time": "9:31 AM",
     "cover": "medalist-3c6f5f3ba8",
     "streams": {
       "Hulu": "https://www.hulu.com/series/bb33d0c2-b077-4bc0-a549-d2ca27d4afa8"
@@ -467,6 +451,7 @@
     "time": "10:15 AM",
     "cover": "okinawa-de-suk-ni-natta-ko-ga-hougen-sugite-tsura-sugiru-3e1a7eb660",
     "streams": {
+      "Apple": "https://apple.co/4b5ALFB",
       "Crunchyroll": "https://www.crunchyroll.com/series/G79H23ZZ3/okitsura-fell-in-love-with-an-okinawan-girl-but-i-just-wish-i-know-what-shes-saying"
     }
   },
@@ -476,6 +461,7 @@
     "time": "6:15 AM",
     "cover": "kisaki-kyouiki-kara-nigeitai-watashi-8b16e01b85",
     "streams": {
+      "Apple": "https://apple.co/40Z7Yhx",
       "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN9QQ4/i-want-to-escape-from-princess-lessons",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1DlUDCVK433fUMRHqlggDM"
     }
@@ -486,6 +472,7 @@
     "time": "9:15 AM",
     "cover": "zenshu-90c577e2b4",
     "streams": {
+      "Apple": "https://apple.co/4aWS0Jl",
       "Crunchyroll": "https://www.crunchyroll.com/series/G24H1NW8E/zenshu"
     }
   },
@@ -495,13 +482,14 @@
     "time": "10:15 AM",
     "cover": "botsuraku-yotei-no-kizoku-dakedo-hima-datta-kara-mahou-wo-kiwametemita-10e1d78bc8",
     "streams": {
+      "Apple": "https://apple.co/4hBfBln",
       "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV008/im-a-noble-on-the-brink-of-ruin-so-i-might-as-well-try-mastering-magic"
     }
   },
   "7Buz": {
     "title": "My Happy Marriage",
     "day": 1,
-    "time": "5:31 AM",
+    "time": "6:31 AM",
     "cover": "watashi-no-shiawase-na-kekkon-2nd-season-0ff293b3f9",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81564905"
@@ -522,13 +510,14 @@
     "time": "7:30 AM",
     "cover": "mahoutsukai-no-yakusoku-ee98a34612",
     "streams": {
+      "Apple": "https://apple.co/4hBQPRV",
       "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3GG8/promise-of-wizard"
     }
   },
   "xeAQ": {
     "title": "Kono Kaisha ni Suki na Hito ga Imasu",
     "day": 1,
-    "time": "6:01 AM",
+    "time": "7:01 AM",
     "cover": "kono-kaisha-ni-suki-na-hito-ga-imasu-f3a2aa0c63",
     "streams": {
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhCFHIPcW85-IUQ-q9T1eTl"
@@ -538,9 +527,10 @@
   "DHqg": {
     "title": "Flower and Asura",
     "day": 2,
-    "time": "9:35 AM",
+    "time": "10:35 AM",
     "cover": "hana-wa-saku-shura-no-gotoku-38637801f3",
     "streams": {
+      "Apple": "https://apple.co/4gOq3Vu",
       "HiDive": "https://www.hidive.com/season/28119"
     }
   },
@@ -548,8 +538,9 @@
     "title": "Unnamed Memory",
     "day": 2,
     "time": "9:00 AM",
-    "cover": "unnamed-memory-act-2-8a9a0c551a",
+    "cover": "unnamed-memory-act-2-e88bdcd5e5",
     "streams": {
+      "Apple": "https://apple.co/3X32IZ0",
       "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN9QXQ/unnamed-memory"
     }
   },
@@ -559,13 +550,14 @@
     "time": "10:25 AM",
     "cover": "honey-lemon-soda-ba3afd639c",
     "streams": {
+      "Apple": "https://apple.co/41fj435",
       "Crunchyroll": "https://www.crunchyroll.com/series/GMEHME77W/honey-lemon-soda"
     }
   },
   "xgzl": {
     "title": "Ishura",
     "day": 3,
-    "time": "6:01 AM",
+    "time": "7:01 AM",
     "cover": "ishura-2nd-season-af75ccca80",
     "streams": {
       "Hulu": "https://www.hulu.com/series/811bac64-a492-4f1e-ba7a-393c825daeec"
@@ -586,6 +578,7 @@
     "time": "7:00 AM",
     "cover": "dr-stone-science-future-a696ffecab",
     "streams": {
+      "Apple": "https://apple.co/40WayF1",
       "Crunchyroll": "https://www.crunchyroll.com/series/GYEXQKJG6/dr-stone",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jj4AHW3_HqDp39-puRHVfNA"
     }
@@ -596,6 +589,7 @@
     "time": "7:45 AM",
     "cover": "fuguushoku-kanteishi-ga-jitsu-wa-saikyou-datta-dba0678974",
     "streams": {
+      "Apple": "https://apple.co/4gPvtQ4",
       "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKN99W/even-given-the-worthless-appraiser-class--im-actually-the-strongest",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2VtrcMiIwEPC5RetXymTDz"
     }
@@ -606,15 +600,17 @@
     "time": "5:30 AM",
     "cover": "arafou-otoko-no-isekai-tsuuhan-seikatsu-afad47fee6",
     "streams": {
+      "Apple": "https://apple.co/4i1MWWp",
       "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX855Q/the-daily-life-of-a-middle-aged-online-shopper-in-another-world"
     }
   },
   "wAp4": {
     "title": "From Bureaucrat to Villainess: Dad\u2019s Been Reincarnated!",
     "day": 4,
-    "time": "8:00 AM",
+    "time": "9:00 AM",
     "cover": "akuyaku-reijou-tensei-ojisan-877621d436",
     "streams": {
+      "Apple": "https://apple.co/4b2rDll",
       "HiDive": "https://www.hidive.com/season/28118",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl031zNeBVFi0zLndX_M3PhN"
     }
@@ -625,6 +621,7 @@
     "time": "7:30 AM",
     "cover": "farmagia-be51dedd2c",
     "streams": {
+      "Apple": "https://apple.co/3EE3qFK",
       "Crunchyroll": "https://www.crunchyroll.com/series/GP5HJ8447/farmagia",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jju9jZyfPvPCWVljX8k4yjY"
     }
@@ -663,16 +660,18 @@
     "time": "9:15 AM",
     "cover": "kusuriya-no-hitorigoto-2nd-season-bf807d4c90",
     "streams": {
+      "Apple": "https://apple.co/42TvpLz",
       "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEVDJ7/the-apothecary-diaries"
     }
   },
   "eP3z": {
     "title": "\u00dcbel Blatt",
     "day": 5,
-    "time": "8:30 AM",
+    "time": "9:30 AM",
     "cover": "ubel-blatt-c614d3e664",
     "streams": {
-      "Amazon": "https://www.amazon.com/dp/B0DMFX5MJM"
+      "Amazon": "https://www.amazon.com/dp/B0DMFX5MJM",
+      "Apple": "https://apple.co/4hBc1HH"
     },
     "status": true
   },
@@ -682,13 +681,14 @@
     "time": "7:00 AM",
     "cover": "nihon-e-youkoso-elf-san-c1a4c192b5",
     "streams": {
+      "Apple": "https://apple.co/4jW9A4f",
       "Crunchyroll": "https://www.crunchyroll.com/series/G24H1NWWE/welcome-to-japan-ms-elf"
     }
   },
   "6jKB": {
     "title": "Cardfight!! Vanguard: Divinez Deluxe-hen",
     "day": 5,
-    "time": "3:00 PM",
+    "time": "8:00 PM",
     "cover": "cardfight-vanguard-divinez-deluxe-hen-8c0a2e9e72",
     "streams": {
       "YouTube": "https://www.youtube.com/watch?v=rU3uwdtBJe8&list=PLZaz0lCoygoyg34cbrbAPlAYfwswfs70F&index=1"
@@ -701,13 +701,14 @@
     "time": "12:00 PM",
     "cover": "mahoutsukai-precure-2-86c41e6e61",
     "streams": {
+      "Apple": "https://apple.co/40XBl3M",
       "Crunchyroll": "https://www.crunchyroll.com/series/GZJH3D881/witchy-precure-mirai-days"
     }
   },
   "WwjP": {
     "title": "Babanba Banban Vampire",
     "day": 6,
-    "time": "7:00 AM",
+    "time": "8:00 AM",
     "cover": "baban-baban-ban-vampire-52572e525e",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81949674"
@@ -716,7 +717,7 @@
   "gnt2": {
     "title": "SAKAMOTO DAYS",
     "day": 6,
-    "time": "6:01 AM",
+    "time": "7:01 AM",
     "cover": "sakamoto-days-1c85ba245f",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81663325"
@@ -725,9 +726,10 @@
   "qMvn": {
     "title": "Toilet-bound Hanako-kun",
     "day": 7,
-    "time": "2:00 AM",
+    "time": "3:00 AM",
     "cover": "jibaku-shounen-hanako-kun-2nd-season-f8951ff35f",
     "streams": {
+      "Apple": "https://apple.co/4aY7lJo",
       "Crunchyroll": "https://www.crunchyroll.com/series/G24H1N3ZP/toilet-bound-hanako-kun",
       "Hulu": "https://www.hulu.com/series/toilet-bound-hanako-kun-87b3d986-cbae-47ce-9076-0fe61fce06e3"
     }
@@ -738,6 +740,7 @@
     "time": "9:00 AM",
     "cover": "uniteup-2nd-season-5041c0619a",
     "streams": {
+      "Apple": "https://apple.co/40Usi3v",
       "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7Q5J9/uniteup"
     }
   },
@@ -767,13 +770,14 @@
     "time": "8:00 AM",
     "cover": "sentai-red-isekai-de-boukensha-ni-naru-c93a41f7d4",
     "streams": {
+      "Apple": "https://apple.co/3ECTxYW",
       "Crunchyroll": "https://www.crunchyroll.com/watch/GEVUW3VE4"
     }
   },
   "ZtvR": {
     "title": "Mashin Souzouden Wataru",
     "day": 7,
-    "time": "1:00 AM",
+    "time": "2:00 AM",
     "cover": "mashin-souzouden-wataru-4e8fb5c012",
     "streams": {
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhKVWP6J8KAjulzH95c3Zur"
@@ -783,11 +787,60 @@
   "ngTV": {
     "title": "Kinnikuman: Kanpeki Ch\u043eujin Shiso-hen Season 2",
     "day": 7,
-    "time": "7:30 AM",
+    "time": "8:30 AM",
     "cover": "kinnikuman-kanpeki-ch-ujin-shiso-hen-season-2-e0eff4718f",
     "streams": {
       "Netflix": "https://netflix.com/title/81781519"
     },
     "status": true
+  },
+  "PrWq": {
+    "title": "Kusuriya no Hitorigoto Mini Anime 2nd Season",
+    "day": 2,
+    "time": "5:00 PM",
+    "cover": "maomao-no-hitorigoto-2nd-season-a876fbef7c",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLtdSPZNWT1AtlB6oZ-OLqZKXwMdMnIDiC"
+    },
+    "status": true
+  },
+  "zhT8": {
+    "title": "Alps no Roujin Heidi no Ojii-san",
+    "day": 2,
+    "time": "3:00 PM",
+    "cover": "alps-no-roujin-heidi-no-ojii-san-feb73c2485",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLaWGw0t9iqLt9KIac9kYMRCVf4rIOVp6m"
+    },
+    "status": true
+  },
+  "ALnC": {
+    "title": "Our Last Crusade or the Rise of a New World",
+    "day": 4,
+    "time": "7:30 AM",
+    "cover": "kimi-to-boku-no-saigo-no-senjou-aruiwa-sekai-ga-hajimaru-seisen-zoku-hen-516668a41d",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX8ZD0/our-last-crusade-or-the-rise-of-a-new-world"
+    }
+  },
+  "8V6O": {
+    "title": "minute! kaiju no. 8",
+    "day": 5,
+    "time": "2:00 AM",
+    "cover": "minute-kaiju-no-8-9ac0d65391",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLtdSPZNWT1AvvuyMgXTdq2cHeAO8xRTZH"
+    },
+    "status": true
+  },
+  "t4JI": {
+    "title": "You and Idol Precure \u266a",
+    "day": 6,
+    "time": "5:30 PM",
+    "cover": "kimi-to-idol-precure-bc7d1e6187",
+    "streams": {
+      "Apple": "https://apple.co/3EyQVes",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GDKHZEJJQ/you-and-idol-precure-"
+    }
   }
 }

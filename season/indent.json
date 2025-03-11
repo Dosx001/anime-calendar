@@ -43,13 +43,26 @@
   },
   "ljZA": {
     "title": "Aru Majo ga Shinu Made",
-    "cover": "aru-majo-ga-shinu-made-48427eb164",
+    "cover": "aru-majo-ga-shinu-made-5219a033b3",
     "studio": "EMT Squared",
     "source": "Light Novel",
     "genres": [
       "Adventure",
       "Drama",
       "Fantasy"
+    ]
+  },
+  "1J6m": {
+    "title": "Ballpark de Tsukamaete!",
+    "cover": "ballpark-de-tsukamaete-aea268ff57",
+    "studio": "EMT Squared",
+    "source": "Manga",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Seinen",
+      "Slice of Life",
+      "Sports"
     ]
   },
   "PNyC": {
@@ -100,7 +113,7 @@
   },
   "T36W": {
     "title": "Danjo no Yuujou wa Seiritsu suru? (Iya, Shinai!!)",
-    "cover": "danjo-no-yuujou-wa-seiritsu-suru-iya-shinai-33ddd0eb8c",
+    "cover": "danjo-no-yuujou-wa-seiritsu-suru-iya-shinai-0aec422519",
     "studio": "J.C. Staff",
     "source": "Light Novel",
     "genres": [
@@ -125,7 +138,7 @@
   },
   "DjNe": {
     "title": "Gorilla no Kami kara Kago sareta Reijou wa Ouritsu Kishidan de Kawaigarareru",
-    "cover": "gorilla-no-kami-kara-kago-sareta-reijou-wa-ouritsu-kishidan-de-kawaigarareru-f6910ffa51",
+    "cover": "gorilla-no-kami-kara-kago-sareta-reijou-wa-ouritsu-kishidan-de-kawaigarareru-93754b6985",
     "studio": "Kachigarasu",
     "source": "Web Novel",
     "genres": [
@@ -177,6 +190,28 @@
       "Fantasy"
     ]
   },
+  "WFIg": {
+    "title": "Kaijuu Sekai Seifuku (TV)",
+    "cover": "kaijuu-sekai-seifuku-tv-9d9e28e7b4",
+    "studio": "DLE",
+    "source": "Web Manga",
+    "genres": [
+      "Slice of Life"
+    ]
+  },
+  "YTq5": {
+    "title": "Kakushite! Makina-san!!",
+    "cover": "kakushite-makina-san-74602a32f4",
+    "studio": "BloomZ",
+    "source": "Manga",
+    "genres": [
+      "Comedy",
+      "Ecchi",
+      "Romance",
+      "School",
+      "Sci-Fi"
+    ]
+  },
   "mjfH": {
     "title": "Kanchigai no Atelier Meister: Eiyuu Party no Moto Zatsuyougakari ga, Jitsu wa Sentou Igai ga SSS Rank Datta to Iu Yoku Aru Hanashi",
     "cover": "kanchigai-no-atelier-meister-eiyuu-party-no-moto-zatsuyougakari-ga-jitsu-wa-sentou-igai-ga-sss-rank-datta-to-iu-yoku-aru-hanashi-497d2e4cf5",
@@ -190,7 +225,7 @@
   },
   "j8I2": {
     "title": "Kanpeki Sugite Kawai-ge ga Nai to Konyaku Haki Sareta Seijo wa Ringoku ni Ura Reru",
-    "cover": "kanpekisugite-kawaige-ga-nai-to-konyaku-haki-sareta-seijo-wa-ringoku-ni-urareru-cbf43f4e07",
+    "cover": "kanpekisugite-kawaige-ga-nai-to-konyaku-haki-sareta-seijo-wa-ringoku-ni-urareru-2e74db2ded",
     "studio": "TROYCA",
     "source": "Light Novel",
     "genres": [
@@ -210,9 +245,34 @@
       "Fantasy"
     ]
   },
+  "9iYl": {
+    "title": "Kidou Senshi Gundam: GQuuuuuuX",
+    "cover": "kidou-senshi-gundam-gquuuuuux-4d85dd80df",
+    "studio": "Studio Khara",
+    "source": "Original",
+    "genres": [
+      "Action",
+      "Drama",
+      "Mecha",
+      "Sci-Fi",
+      "Space"
+    ]
+  },
+  "mRbq": {
+    "title": "Kijin Gentoushou",
+    "cover": "kijin-gentoushou-c2429b9cd6",
+    "studio": "Yokohama Animation Lab",
+    "source": "Novel",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Historical"
+    ]
+  },
   "pGzP": {
     "title": "Kowloon Generic Romance",
-    "cover": "kowloon-generic-romance-93556714e9",
+    "cover": "kowloon-generic-romance-ab587a6a89",
     "studio": "Arvo Animation",
     "source": "Manga",
     "genres": [
@@ -221,6 +281,19 @@
       "Romance",
       "Sci-Fi",
       "Slice of Life"
+    ]
+  },
+  "qaer": {
+    "title": "Kuroshitsuji: Midori no Majo-hen",
+    "cover": "kuroshitsuji-midori-no-majo-hen-cb00b26ea9",
+    "studio": "CloverWorks",
+    "source": "Manga",
+    "genres": [
+      "Action",
+      "Fantasy",
+      "Historical",
+      "Mystery",
+      "Supernatural"
     ]
   },
   "nC2P": {
@@ -278,7 +351,7 @@
   },
   "ZXNW": {
     "title": "Ore wa Seikan Kokka no Akutoku Ryoushu!",
-    "cover": "ore-wa-seikan-kokka-no-akutoku-ryoushu-28e525f5ac",
+    "cover": "ore-wa-seikan-kokka-no-akutoku-ryoushu-98c2982d5a",
     "studio": "Quad",
     "source": "Light Novel",
     "genres": [
@@ -314,7 +387,7 @@
   },
   "tjk2": {
     "title": "Rock wa Lady no Tashinami deshite",
-    "cover": "rock-wa-lady-no-tashinami-deshite-d3a263a47b",
+    "cover": "rock-wa-lady-no-tashinami-deshite-25e03e4a92",
     "studio": "Bandai Namco Pictures",
     "source": "Manga",
     "genres": [
@@ -348,7 +421,7 @@
   },
   "FK16": {
     "title": "Shin Samurai-den YAIBA",
-    "cover": "yaiba-dc4c3a3d87",
+    "cover": "yaiba-2f600016f8",
     "studio": "Wit Studio",
     "source": "Manga",
     "genres": [
@@ -359,7 +432,7 @@
   },
   "w38z": {
     "title": "Shiunji-ke no Kodomotachi",
-    "cover": "shiunji-ke-no-kodomotachi-fb884fc310",
+    "cover": "shiunji-ke-no-kodomotachi-2419d02d09",
     "studio": "Doga Kobo",
     "source": "Manga",
     "genres": [
@@ -370,7 +443,7 @@
   },
   "UqOl": {
     "title": "Shoushimin Series 2nd Season",
-    "cover": "shoushimin-series-2nd-season-884deef6d1",
+    "cover": "shoushimin-series-2nd-season-88255f2d09",
     "studio": "N/A",
     "source": "Novel",
     "genres": [
@@ -405,7 +478,7 @@
   },
   "JThZ": {
     "title": "Teogonia",
-    "cover": "teogonia-387ee87b58",
+    "cover": "teogonia-3dc7748820",
     "studio": "Asahi Production",
     "source": "Light Novel",
     "genres": [
@@ -437,7 +510,7 @@
   },
   "1vAI": {
     "title": "Vigilante: Boku no Hero Academia ILLEGALS",
-    "cover": "vigilante-boku-no-hero-academia-illegals-2bbbbb6d3e",
+    "cover": "vigilante-boku-no-hero-academia-illegals-313b6f6d93",
     "studio": "BONES FILM",
     "source": "Manga",
     "genres": [
