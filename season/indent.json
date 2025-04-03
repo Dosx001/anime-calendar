@@ -11,7 +11,7 @@
   },
   "8z8K": {
     "title": "Aharen-san wa Hakarenai 2nd Season",
-    "cover": "aharen-san-wa-hakarenai-2nd-season-f7556ce459",
+    "cover": "aharen-san-wa-hakarenai-2nd-season-6b10116b30",
     "studio": "Felix Film",
     "source": "Manga",
     "genres": [
@@ -23,7 +23,7 @@
   },
   "WsqD": {
     "title": "Anne Shirley",
-    "cover": "anne-shirley-bcebbe5758",
+    "cover": "anne-shirley-4ef2279de2",
     "studio": "The Answer Studio",
     "source": "Novel",
     "genres": [
@@ -34,7 +34,7 @@
   },
   "iuWS": {
     "title": "Apocalypse Hotel",
-    "cover": "apocalypse-hotel-880c10d320",
+    "cover": "apocalypse-hotel-ed6bdc2061",
     "studio": "CygamesPictures",
     "source": "Original",
     "genres": [
@@ -43,18 +43,19 @@
   },
   "ljZA": {
     "title": "Aru Majo ga Shinu Made",
-    "cover": "aru-majo-ga-shinu-made-5219a033b3",
+    "cover": "aru-majo-ga-shinu-made-0dcbefc5d2",
     "studio": "EMT Squared",
     "source": "Light Novel",
     "genres": [
       "Adventure",
       "Drama",
-      "Fantasy"
+      "Fantasy",
+      "Magic"
     ]
   },
   "1J6m": {
     "title": "Ballpark de Tsukamaete!",
-    "cover": "ballpark-de-tsukamaete-aea268ff57",
+    "cover": "ballpark-de-tsukamaete-6d69c796ad",
     "studio": "EMT Squared",
     "source": "Manga",
     "genres": [
@@ -67,7 +68,7 @@
   },
   "PNyC": {
     "title": "Bye Bye, Earth 2nd Season",
-    "cover": "bye-bye-earth-2nd-season-875720611f",
+    "cover": "bye-bye-earth-2nd-season-b49635659b",
     "studio": "LIDENFILMS",
     "source": "Light Novel",
     "genres": [
@@ -76,21 +77,9 @@
       "Fantasy"
     ]
   },
-  "qvZI": {
-    "title": "Chotto dake Ai ga Omoi Dark Elf ga Isekai kara Oikaketekita",
-    "cover": "chotto-dake-ai-ga-omoi-dark-elf-ga-isekai-kara-oikaketekita-dbdb54ae8f",
-    "studio": "Elias",
-    "source": "Web Manga",
-    "genres": [
-      "Comedy",
-      "Ecchi",
-      "Fantasy",
-      "Romance"
-    ]
-  },
   "wfvn": {
     "title": "Chuuzenji-sensei Mononoke Kougiroku: Sensei ga Nazo wo Hodoite Shimau kara.",
-    "cover": "chuuzenji-sensei-mononoke-kougiroku-sensei-ga-nazo-wo-hodoite-shimau-kara-360a586b96",
+    "cover": "chuuzenji-sensei-mononoke-kougiroku-sensei-ga-nazo-wo-hodoite-shimau-kara-efef7eaa00",
     "studio": "100studio",
     "source": "Manga",
     "genres": [
@@ -103,7 +92,7 @@
   },
   "34Tv": {
     "title": "Classic\u2605Stars",
-    "cover": "classic-stars-3e600d469a",
+    "cover": "classic-stars-02f98faf52",
     "studio": "Platinum Vision",
     "source": "Other",
     "genres": [
@@ -113,7 +102,7 @@
   },
   "T36W": {
     "title": "Danjo no Yuujou wa Seiritsu suru? (Iya, Shinai!!)",
-    "cover": "danjo-no-yuujou-wa-seiritsu-suru-iya-shinai-0aec422519",
+    "cover": "danjo-no-yuujou-wa-seiritsu-suru-iya-shinai-8eb5b51305",
     "studio": "J.C. Staff",
     "source": "Light Novel",
     "genres": [
@@ -138,7 +127,7 @@
   },
   "DjNe": {
     "title": "Gorilla no Kami kara Kago sareta Reijou wa Ouritsu Kishidan de Kawaigarareru",
-    "cover": "gorilla-no-kami-kara-kago-sareta-reijou-wa-ouritsu-kishidan-de-kawaigarareru-93754b6985",
+    "cover": "gorilla-no-kami-kara-kago-sareta-reijou-wa-ouritsu-kishidan-de-kawaigarareru-024fd64a3b",
     "studio": "Kachigarasu",
     "source": "Web Novel",
     "genres": [
@@ -149,7 +138,7 @@
   },
   "eQ8o": {
     "title": "Guilty Gear Strive: Dual Rulers",
-    "cover": "guilty-gear-strive-dual-rulers-ff43f9e384",
+    "cover": "guilty-gear-strive-dual-rulers-da2801e31a",
     "studio": "SANZIGEN",
     "source": "Video Game",
     "genres": [
@@ -159,7 +148,7 @@
   },
   "m2Fq": {
     "title": "Haite Kudasai, Takamine-san",
-    "cover": "haite-kudasai-takamine-san-c1c80890df",
+    "cover": "haite-kudasai-takamine-san-fd80a21ae2",
     "studio": "LIDENFILMS",
     "source": "Manga",
     "genres": [
@@ -175,6 +164,24 @@
     "cover": "hana-doll-reinterpretation-of-flowering-efefdb5728",
     "studio": "A-Real",
     "source": "Other",
+    "genres": [
+      "Music"
+    ]
+  },
+  "v2rX": {
+    "title": "Hibi wa Sugiredo Meshi Umashi",
+    "cover": "hibi-wa-sugiredo-meshi-umashi-5bdee02490",
+    "studio": "P.A. Works",
+    "source": "Original",
+    "genres": [
+      "Slice of Life"
+    ]
+  },
+  "Ucex": {
+    "title": "Himitsu no AiPri: Ring-hen",
+    "cover": "himitsu-no-aipri-ring-hen-c223e10e60",
+    "studio": "Dongwoo A&E",
+    "source": "Video Game",
     "genres": [
       "Music"
     ]
@@ -199,22 +206,9 @@
       "Slice of Life"
     ]
   },
-  "YTq5": {
-    "title": "Kakushite! Makina-san!!",
-    "cover": "kakushite-makina-san-74602a32f4",
-    "studio": "BloomZ",
-    "source": "Manga",
-    "genres": [
-      "Comedy",
-      "Ecchi",
-      "Romance",
-      "School",
-      "Sci-Fi"
-    ]
-  },
   "mjfH": {
     "title": "Kanchigai no Atelier Meister: Eiyuu Party no Moto Zatsuyougakari ga, Jitsu wa Sentou Igai ga SSS Rank Datta to Iu Yoku Aru Hanashi",
-    "cover": "kanchigai-no-atelier-meister-eiyuu-party-no-moto-zatsuyougakari-ga-jitsu-wa-sentou-igai-ga-sss-rank-datta-to-iu-yoku-aru-hanashi-497d2e4cf5",
+    "cover": "kanchigai-no-atelier-meister-eiyuu-party-no-moto-zatsuyougakari-ga-jitsu-wa-sentou-igai-ga-sss-rank-datta-to-iu-yoku-aru-hanashi-425adcb0ba",
     "studio": "EMT Squared",
     "source": "Light Novel",
     "genres": [
@@ -225,7 +219,7 @@
   },
   "j8I2": {
     "title": "Kanpeki Sugite Kawai-ge ga Nai to Konyaku Haki Sareta Seijo wa Ringoku ni Ura Reru",
-    "cover": "kanpekisugite-kawaige-ga-nai-to-konyaku-haki-sareta-seijo-wa-ringoku-ni-urareru-2e74db2ded",
+    "cover": "kanpekisugite-kawaige-ga-nai-to-konyaku-haki-sareta-seijo-wa-ringoku-ni-urareru-b97fe0c629",
     "studio": "TROYCA",
     "source": "Light Novel",
     "genres": [
@@ -235,7 +229,7 @@
   },
   "INYy": {
     "title": "Katainaka no Ossan, Kensei ni Naru",
-    "cover": "katainaka-no-ossan-kensei-ni-naru-87b67d2ba8",
+    "cover": "katainaka-no-ossan-kensei-ni-naru-53af4ea2d7",
     "studio": "Hayabusa Film",
     "source": "Light Novel",
     "genres": [
@@ -247,7 +241,7 @@
   },
   "9iYl": {
     "title": "Kidou Senshi Gundam: GQuuuuuuX",
-    "cover": "kidou-senshi-gundam-gquuuuuux-4d85dd80df",
+    "cover": "kidou-senshi-gundam-gquuuuuux-06f5924bd9",
     "studio": "Studio Khara",
     "source": "Original",
     "genres": [
@@ -260,19 +254,20 @@
   },
   "mRbq": {
     "title": "Kijin Gentoushou",
-    "cover": "kijin-gentoushou-c2429b9cd6",
+    "cover": "kijin-gentoushou-da46995eb5",
     "studio": "Yokohama Animation Lab",
     "source": "Novel",
     "genres": [
       "Action",
       "Adventure",
+      "Demons",
       "Fantasy",
       "Historical"
     ]
   },
   "pGzP": {
     "title": "Kowloon Generic Romance",
-    "cover": "kowloon-generic-romance-ab587a6a89",
+    "cover": "kowloon-generic-romance-ba800b7318",
     "studio": "Arvo Animation",
     "source": "Manga",
     "genres": [
@@ -285,7 +280,7 @@
   },
   "qaer": {
     "title": "Kuroshitsuji: Midori no Majo-hen",
-    "cover": "kuroshitsuji-midori-no-majo-hen-cb00b26ea9",
+    "cover": "kuroshitsuji-midori-no-majo-hen-e671134617",
     "studio": "CloverWorks",
     "source": "Manga",
     "genres": [
@@ -298,7 +293,7 @@
   },
   "nC2P": {
     "title": "Lazarus",
-    "cover": "lazarus-9e66a50c07",
+    "cover": "lazarus-88c210537c",
     "studio": "MAPPA",
     "source": "Original",
     "genres": [
@@ -308,7 +303,7 @@
   },
   "mnRr": {
     "title": "Maebashi Witches",
-    "cover": "maebashi-witches-3166eab91f",
+    "cover": "maebashi-witches-6086bab775",
     "studio": "Sunrise",
     "source": "Original",
     "genres": [
@@ -316,9 +311,20 @@
       "Slice of Life"
     ]
   },
+  "NEah": {
+    "title": "Miru: Watashi no Mirai",
+    "cover": "miru-watashi-no-mirai-52fc83f45a",
+    "studio": "Larx Entertainment",
+    "source": "Original",
+    "genres": [
+      "Adventure",
+      "Mecha",
+      "Sci-Fi"
+    ]
+  },
   "7lYE": {
     "title": "Mono",
-    "cover": "mono-c364ca6939",
+    "cover": "mono-d8f3e7a298",
     "studio": "Soigne",
     "source": "4-koma Manga",
     "genres": [
@@ -328,7 +334,7 @@
   },
   "5BXZ": {
     "title": "Nazotoki wa Dinner no Ato de",
-    "cover": "nazotoki-wa-dinner-no-ato-de-2086f46179",
+    "cover": "nazotoki-wa-dinner-no-ato-de-f80d3429e6",
     "studio": "MADHOUSE",
     "source": "Novel",
     "genres": [
@@ -345,13 +351,12 @@
     "source": "Manga",
     "genres": [
       "Comedy",
-      "Shounen",
       "Slice of Life"
     ]
   },
   "ZXNW": {
     "title": "Ore wa Seikan Kokka no Akutoku Ryoushu!",
-    "cover": "ore-wa-seikan-kokka-no-akutoku-ryoushu-98c2982d5a",
+    "cover": "ore-wa-seikan-kokka-no-akutoku-ryoushu-b0bf38cf68",
     "studio": "Quad",
     "source": "Light Novel",
     "genres": [
@@ -376,7 +381,7 @@
   },
   "a5ez": {
     "title": "Prinsession Orchestra",
-    "cover": "prinsession-orchestra-dffdbe4484",
+    "cover": "prinsession-orchestra-4edca988dd",
     "studio": "SILVER LINK.",
     "source": "Original",
     "genres": [
@@ -387,7 +392,7 @@
   },
   "tjk2": {
     "title": "Rock wa Lady no Tashinami deshite",
-    "cover": "rock-wa-lady-no-tashinami-deshite-25e03e4a92",
+    "cover": "rock-wa-lady-no-tashinami-deshite-f69fae74fe",
     "studio": "Bandai Namco Pictures",
     "source": "Manga",
     "genres": [
@@ -398,18 +403,19 @@
   },
   "UGco": {
     "title": "Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru?",
-    "cover": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-a5502b3f48",
+    "cover": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-12d6c46c49",
     "studio": "Studio A-CAT",
     "source": "Web Novel",
     "genres": [
       "Action",
       "Adventure",
-      "Fantasy"
+      "Fantasy",
+      "Magic"
     ]
   },
   "NPmx": {
     "title": "Sentai Daishikkaku 2nd Season",
-    "cover": "sentai-daishikkaku-2nd-season-f23780b614",
+    "cover": "sentai-daishikkaku-2nd-season-e2e2533491",
     "studio": "Yostar Pictures",
     "source": "Manga",
     "genres": [
@@ -421,7 +427,7 @@
   },
   "FK16": {
     "title": "Shin Samurai-den YAIBA",
-    "cover": "yaiba-2f600016f8",
+    "cover": "yaiba-ac76509ade",
     "studio": "Wit Studio",
     "source": "Manga",
     "genres": [
@@ -430,9 +436,20 @@
       "Shounen"
     ]
   },
+  "xSqu": {
+    "title": "Shirobuta Kizoku desu ga Zense no Kioku ga Haeta node Hiyoko na Otouto Sodatemasu",
+    "cover": "shirobuta-kizoku-desu-ga-zense-no-kioku-ga-haeta-node-hiyoko-na-otouto-sodatemasu-a7c3d6c462",
+    "studio": "Studio Comet",
+    "source": "Light Novel",
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Slice of Life"
+    ]
+  },
   "w38z": {
     "title": "Shiunji-ke no Kodomotachi",
-    "cover": "shiunji-ke-no-kodomotachi-2419d02d09",
+    "cover": "shiunji-ke-no-kodomotachi-47f74a9e77",
     "studio": "Doga Kobo",
     "source": "Manga",
     "genres": [
@@ -443,8 +460,8 @@
   },
   "UqOl": {
     "title": "Shoushimin Series 2nd Season",
-    "cover": "shoushimin-series-2nd-season-88255f2d09",
-    "studio": "N/A",
+    "cover": "shoushimin-series-2nd-season-8d5b28c444",
+    "studio": "Lapin Track",
     "source": "Novel",
     "genres": [
       "Mystery",
@@ -478,7 +495,7 @@
   },
   "JThZ": {
     "title": "Teogonia",
-    "cover": "teogonia-3dc7748820",
+    "cover": "teogonia-370a0627be",
     "studio": "Asahi Production",
     "source": "Light Novel",
     "genres": [
@@ -489,7 +506,7 @@
   },
   "wsye": {
     "title": "Uchuujin Muumuu",
-    "cover": "uchuujin-muumuu-ff8ed65542",
+    "cover": "uchuujin-muumuu-e9363f6452",
     "studio": "OLM",
     "source": "Manga",
     "genres": [
@@ -500,7 +517,7 @@
   },
   "EgaD": {
     "title": "Uma Musume: Cinderella Gray",
-    "cover": "uma-musume-cinderella-gray-6e7ad6b0fd",
+    "cover": "uma-musume-cinderella-gray-d3cefeb42c",
     "studio": "CygamesPictures",
     "source": "Manga",
     "genres": [
@@ -523,7 +540,7 @@
   },
   "EER8": {
     "title": "WIND BREAKER Season 2",
-    "cover": "wind-breaker-season-2-1861e3e24e",
+    "cover": "wind-breaker-season-2-c74f9da36b",
     "studio": "CloverWorks",
     "source": "Web Manga",
     "genres": [
@@ -535,7 +552,7 @@
   },
   "yuBy": {
     "title": "Witch Watch",
-    "cover": "witch-watch-5ed1470287",
+    "cover": "witch-watch-a3d0ab51e0",
     "studio": "Bibury Animation Studio",
     "source": "Manga",
     "genres": [
@@ -549,7 +566,7 @@
   },
   "EdQE": {
     "title": "Your Forma",
-    "cover": "your-forma-9ed2872566",
+    "cover": "your-forma-3f2913d733",
     "studio": "Geno Studio",
     "source": "Light Novel",
     "genres": [
@@ -561,7 +578,7 @@
   },
   "tL3Y": {
     "title": "Zatsu Tabi: That's Journey",
-    "cover": "zatsu-tabi-thats-journey-d2b320747b",
+    "cover": "zatsu-tabi-thats-journey-82b34a5e5e",
     "studio": "Makaria",
     "source": "Manga",
     "genres": [

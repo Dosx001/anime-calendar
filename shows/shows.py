@@ -99,27 +99,31 @@ class Shows:
     def title(self, key: str, new: bool) -> str:
         data = self.new if new else self.changes
         for stream in data[key]["streams"]:
-            match stream:
-                case "Amazon":
-                    title = self.amazon(data[key]["streams"][stream])
-                case "Crunchyroll":
-                    title = self.crunchyroll(data[key]["streams"][stream])
-                case "Funimation":
-                    title = self.funimation(data[key]["streams"][stream])
-                    if title == "TIME_OUT":
+            try:
+                match stream:
+                    case "Amazon":
+                        title = self.amazon(data[key]["streams"][stream])
+                    case "Crunchyroll":
+                        title = self.crunchyroll(data[key]["streams"][stream])
+                    case "Funimation":
+                        title = self.funimation(data[key]["streams"][stream])
+                        if title == "TIME_OUT":
+                            continue
+                    case "HiDive":
+                        title = self.hidive(data[key]["streams"][stream])
+                    case "Hulu":
+                        title = self.hulu(data[key]["streams"][stream])
+                    case "Netflix":
+                        title = self.netflix(data[key]["streams"][stream])
+                    case "VRV":
+                        title = self.vrv(data[key]["streams"][stream])
+                    case "Wakanim":
+                        title = self.wakanim(data[key]["streams"][stream])
+                    case _:
                         continue
-                case "HiDive":
-                    title = self.hidive(data[key]["streams"][stream])
-                case "Hulu":
-                    title = self.hulu(data[key]["streams"][stream])
-                case "Netflix":
-                    title = self.netflix(data[key]["streams"][stream])
-                case "VRV":
-                    title = self.vrv(data[key]["streams"][stream])
-                case "Wakanim":
-                    title = self.wakanim(data[key]["streams"][stream])
-                case _:
-                    continue
+            except Exception as err:
+                print(data[key]["title"], data[key]["streams"][stream])
+                raise Exception(err) from err
             if title:
                 while title != unescape(title):
                     title = unescape(title)
