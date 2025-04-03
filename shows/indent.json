@@ -13,7 +13,7 @@
   },
   "urTI": {
     "title": "One Piece",
-    "day": 7,
+    "day": 6,
     "time": "8:45 AM",
     "cover": "one-piece-f2f2a983a8",
     "streams": {
@@ -360,12 +360,13 @@
     "status": true
   },
   "VIgy": {
-    "title": "Isshun de Chiryou shiteita noni Yakutatazu to Tsuihou sareta Tensai Chiyushi, Yami Healer toshite Tanoshiku Ikiru",
+    "title": "The Brilliant Healer's New Life in the Shadows",
     "day": 4,
     "time": "8:00 AM",
     "cover": "isshun-de-chiryou-shiteita-noni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-4114a7fae7",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/G4PH0WJ9G"
+    }
   },
   "tjk2": {
     "title": "Rock is a Lady's Modesty",
@@ -377,12 +378,13 @@
     }
   },
   "EER8": {
-    "title": "WIND BREAKER Season 2",
+    "title": "WIND BREAKER",
     "day": 4,
     "time": "10:30 AM",
     "cover": "wind-breaker-season-2-c74f9da36b",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/G3KHEVDPE"
+    }
   },
   "bSiC": {
     "title": "PetitCure: Precure Fairies",
@@ -393,28 +395,31 @@
     "status": true
   },
   "xxN9": {
-    "title": "Enen no Shouboutai: San no Shou",
+    "title": "Fire Force",
     "day": 5,
     "time": "11:00 AM",
     "cover": "enen-no-shouboutai-3-602bac7b91",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/GYQWNXPZY"
+    }
   },
   "T36W": {
-    "title": "Danjo no Yuujou wa Seiritsu suru? (Iya, Shinai!!)",
+    "title": "Can a Boy-Girl Friendship Survive?",
     "day": 5,
     "time": "7:00 AM",
     "cover": "danjo-no-yuujou-wa-seiritsu-suru-iya-shinai-8eb5b51305",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/G1XHJV0D8"
+    }
   },
   "PNyC": {
-    "title": "Bye Bye, Earth 2nd Season",
+    "title": "Bye Bye, Earth",
     "day": 5,
     "time": "8:00 AM",
     "cover": "bye-bye-earth-2nd-season-b49635659b",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/G4PH0WJXN"
+    }
   },
   "5BXZ": {
     "title": "Nazotoki wa Dinner no Ato de",
@@ -441,12 +446,13 @@
     "status": true
   },
   "ylNe": {
-    "title": "Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita 2",
+    "title": "I've Been Killing Slimes For 300 Years And Maxed Out My Level",
     "day": 6,
     "time": "6:00 AM",
     "cover": "slime-taoshite-300-nen-shiranai-uchi-ni-level-max-ni-nattemashita-2-47b497300d",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/GW4HM79VM"
+    }
   },
   "INYy": {
     "title": "Katainaka no Ossan, Kensei ni Naru",
@@ -465,12 +471,13 @@
     "status": true
   },
   "UqOl": {
-    "title": "Shoushimin Series 2nd Season",
+    "title": "SHOSHIMIN: How to become Ordinary",
     "day": 6,
     "time": "11:00 AM",
     "cover": "shoushimin-series-2nd-season-8d5b28c444",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/G5PHNM94J"
+    }
   },
   "eQ8o": {
     "title": "Guilty Gear Strive: Dual Rulers",
@@ -481,12 +488,13 @@
     "status": true
   },
   "qaer": {
-    "title": "Kuroshitsuji: Midori no Majo-hen",
+    "title": "Black Butler",
     "day": 6,
     "time": "9:00 AM",
     "cover": "kuroshitsuji-midori-no-majo-hen-e671134617",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/GYQ43P3E6"
+    }
   },
   "WsqD": {
     "title": "Anne Shirley",
