@@ -13,7 +13,7 @@
   },
   "urTI": {
     "title": "One Piece",
-    "day": 6,
+    "day": 7,
     "time": "8:45 AM",
     "cover": "one-piece-f2f2a983a8",
     "streams": {
@@ -400,7 +400,9 @@
     "time": "11:00 AM",
     "cover": "enen-no-shouboutai-3-602bac7b91",
     "streams": {
-      "Crunchyroll": "https://crunchyroll.com/series/GYQWNXPZY"
+      "Crunchyroll": "https://crunchyroll.com/series/GYQWNXPZY",
+      "Hulu": "https://hulu.com/series/5973d358-1997-47d0-942d-e85b455ed9db",
+      "Netflix": "https://netflix.com/title/81143589"
     }
   },
   "T36W": {
@@ -422,12 +424,13 @@
     }
   },
   "5BXZ": {
-    "title": "Nazotoki wa Dinner no Ato de",
+    "title": "The Dinner Table Detective",
     "day": 5,
-    "time": "7:30 AM",
+    "time": "8:00 PM",
     "cover": "nazotoki-wa-dinner-no-ato-de-f80d3429e6",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Amazon": "https://amazon.com/dp/B0DNDHQTB1"
+    }
   },
   "Gj7c": {
     "title": "Oshiri Tantei 9",
@@ -455,12 +458,13 @@
     }
   },
   "INYy": {
-    "title": "Katainaka no Ossan, Kensei ni Naru",
+    "title": "From Old Country Bumpkin to Master Swordsman",
     "day": 6,
-    "time": "7:30 AM",
+    "time": "8:00 AM",
     "cover": "katainaka-no-ossan-kensei-ni-naru-53af4ea2d7",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Amazon": "https://amazon.com/dp/B0DJ1KGTR9"
+    }
   },
   "pGzP": {
     "title": "Kowloon Generic Romance",
@@ -480,12 +484,13 @@
     }
   },
   "eQ8o": {
-    "title": "Guilty Gear Strive: Dual Rulers",
+    "title": "GUILTY GEAR STRIVE: DUAL RULERS",
     "day": 6,
     "time": "7:00 AM",
     "cover": "guilty-gear-strive-dual-rulers-da2801e31a",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/GEXH3W2MZ"
+    }
   },
   "qaer": {
     "title": "Black Butler",
@@ -509,7 +514,9 @@
     "day": 6,
     "time": "5:00 PM",
     "cover": "prinsession-orchestra-4edca988dd",
-    "streams": {},
+    "streams": {
+      "YouTube": "https://youtube.com/watch?v=XzDDA7ZODBE"
+    },
     "status": true
   },
   "34Tv": {
@@ -517,16 +524,19 @@
     "day": 6,
     "time": "10:15 AM",
     "cover": "classic-stars-02f98faf52",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/GDKHZEJKQ"
+    }
   },
   "FK16": {
-    "title": "Shin Samurai-den YAIBA",
+    "title": "YAIBA: Samurai Legend",
     "day": 6,
-    "time": "1:30 AM",
+    "time": "3:00 AM",
     "cover": "yaiba-ac76509ade",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Hulu": "https://hulu.com/series/5dcf8f0f-4262-4d50-9a57-1814838dbf4d",
+      "Netflix": "https://netflix.com/title/82030192"
+    }
   },
   "Ucex": {
     "title": "Himitsu no AiPri: Ring-hen",
