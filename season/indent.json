@@ -194,16 +194,8 @@
     "genres": [
       "Action",
       "Comedy",
-      "Fantasy"
-    ]
-  },
-  "WFIg": {
-    "title": "Kaijuu Sekai Seifuku (TV)",
-    "cover": "kaijuu-sekai-seifuku-tv-9d9e28e7b4",
-    "studio": "DLE",
-    "source": "Web Manga",
-    "genres": [
-      "Slice of Life"
+      "Fantasy",
+      "Magic"
     ]
   },
   "mjfH": {
@@ -224,7 +216,8 @@
     "source": "Light Novel",
     "genres": [
       "Fantasy",
-      "Romance"
+      "Romance",
+      "Shoujo"
     ]
   },
   "INYy": {
