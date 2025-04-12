@@ -205,7 +205,7 @@
   "ALnC": {
     "title": "Our Last Crusade or the Rise of a New World",
     "day": 4,
-    "time": "7:30 AM",
+    "time": "5:00 AM",
     "cover": "kimi-to-boku-no-saigo-no-senjou-aruiwa-sekai-ga-hajimaru-seisen-zoku-hen-516668a41d",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX8ZD0/our-last-crusade-or-the-rise-of-a-new-world"
@@ -265,7 +265,7 @@
     "time": "10:25 AM",
     "cover": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-12d6c46c49",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/watch/GD9UEZXQJ/the-rebirth-of-the-king",
+      "Crunchyroll": "https://www.crunchyroll.com/series/G24H1NWKE/the-beginning-after-the-end",
       "YouTube": "https://youtu.be/zDUFPDe8DNE"
     }
   },
@@ -571,16 +571,18 @@
     "day": 1,
     "time": "8:00 AM",
     "cover": "summer-pockets-e8b74b7bf4",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/G0XHWM17X"
+    }
   },
   "5iNr": {
-    "title": "#Compass 2.0: Sentou Setsuri Kaiseki System",
+    "title": "#COMPASS2.0 ANIMATION PROJECT",
     "day": 1,
     "time": "9:00 AM",
     "cover": "compass-2-0-sentou-setsuri-kaiseki-system-c6cf50ddb4",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/GEXH3W29Z"
+    }
   },
   "wfvn": {
     "title": "Chuuzenji-sensei Mononoke Kougiroku: Sensei ga Nazo wo Hodoite Shimau kara.",
@@ -593,44 +595,47 @@
     "status": true
   },
   "tL3Y": {
-    "title": "Zatsu Tabi: That's Journey",
+    "title": "ZatsuTabi -That's Journey-",
     "day": 1,
     "time": "6:30 AM",
     "cover": "zatsu-tabi-thats-journey-82b34a5e5e",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/GG5H5XQ85"
+    }
   },
   "1vAI": {
     "title": "My Hero Academia: Vigilantes",
     "day": 1,
     "time": "8:15 AM",
-    "cover": "vigilante-boku-no-hero-academia-illegals-313b6f6d93",
+    "cover": "vigilante-boku-no-hero-academia-illegals-cae29629f8",
     "streams": {
       "Crunchyroll": "https://crunchyroll.com/series/G79H23ZQ3",
       "YouTube": "https://www.youtube.com/watch?v=j9D-bw5MFg4&list=PLxSscENEp7Ji6xNpTPVde69l-VVcWyhVR"
     }
   },
   "w38z": {
-    "title": "Shiunji-ke no Kodomotachi",
+    "title": "The Shiunji Family Children",
     "day": 2,
     "time": "7:00 AM",
     "cover": "shiunji-ke-no-kodomotachi-47f74a9e77",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/G9VHN9Q84"
+    }
   },
   "iuWS": {
     "title": "Apocalypse Hotel",
     "day": 2,
     "time": "12:00 PM",
     "cover": "apocalypse-hotel-ed6bdc2061",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/GXJHM3G58"
+    }
   },
   "9iYl": {
     "title": "Mobile Suit Gundam GQuuuuuuX",
     "day": 2,
     "time": "9:00 AM",
-    "cover": "kidou-senshi-gundam-gquuuuuux-06f5924bd9",
+    "cover": "kidou-senshi-gundam-gquuuuuux-9ba366d56d",
     "streams": {
       "Amazon": "https://amazon.com/dp/B0CY9PN1NC"
     }
@@ -652,18 +657,19 @@
     "status": true
   },
   "VNS6": {
-    "title": "Ninja to Koroshiya no Futarigurashi",
+    "title": "A Ninja and an Assassin Under One Roof",
     "day": 4,
-    "time": "5:30 AM",
+    "time": "6:00 AM",
     "cover": "ninja-to-koroshiya-no-futarigurashi-2010887672",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/GNVHKN9EW"
+    }
   },
   "E4h6": {
     "title": "Moonrise",
     "day": 4,
     "time": "12:01 AM",
-    "cover": "moonrise-9f4c141387",
+    "cover": "moonrise-d12ad00444",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81251383"
     }
@@ -671,7 +677,7 @@
   "JThZ": {
     "title": "Teogonia",
     "day": 5,
-    "time": "8:30 AM",
+    "time": "9:00 AM",
     "cover": "teogonia-370a0627be",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3GX8/teogonia"
@@ -680,7 +686,7 @@
   "7lYE": {
     "title": "Mono",
     "day": 6,
-    "time": "8:00 AM",
+    "time": "9:30 AM",
     "cover": "mono-d8f3e7a298",
     "streams": {},
     "status": true
@@ -688,8 +694,8 @@
   "v2rX": {
     "title": "Hibi wa Sugiredo Meshi Umashi",
     "day": 6,
-    "time": "8:30 AM",
-    "cover": "hibi-wa-sugiredo-meshi-umashi-5bdee02490",
+    "time": "10:00 AM",
+    "cover": "hibi-wa-sugiredo-meshi-umashi-0f87212276",
     "streams": {},
     "status": true
   },
@@ -701,5 +707,13 @@
     "streams": {
       "Hulu": "https://www.hulu.com/series/9d994955-d20b-43c7-99be-3dfd3c6b6f22"
     }
+  },
+  "9Gs7": {
+    "title": "Kanchigai no Atelier Meister Mini Anime",
+    "day": 6,
+    "time": "5:00 PM",
+    "cover": "poster-21fa193001",
+    "streams": {},
+    "status": true
   }
 }
