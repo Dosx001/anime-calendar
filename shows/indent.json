@@ -143,15 +143,6 @@
     "streams": {},
     "status": true
   },
-  "7Buz": {
-    "title": "My Happy Marriage",
-    "day": 3,
-    "time": "8:00 AM",
-    "cover": "watashi-no-shiawase-na-kekkon-2nd-season-0ff293b3f9",
-    "streams": {
-      "Netflix": "https://www.netflix.com/title/81564905"
-    }
-  },
   "dJCx": {
     "title": "The Apothecary Diaries",
     "day": 5,
@@ -161,16 +152,6 @@
       "Apple": "https://apple.co/42TvpLz",
       "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEVDJ7/the-apothecary-diaries"
     }
-  },
-  "6jKB": {
-    "title": "Cardfight!! Vanguard: Divinez Deluxe-hen",
-    "day": 5,
-    "time": "8:00 PM",
-    "cover": "cardfight-vanguard-divinez-deluxe-hen-8c0a2e9e72",
-    "streams": {
-      "YouTube": "https://www.youtube.com/watch?v=rU3uwdtBJe8&list=PLZaz0lCoygoyg34cbrbAPlAYfwswfs70F&index=1"
-    },
-    "status": true
   },
   "mgJA": {
     "title": "I Left my A-Rank Party to Help My Former Students Reach the Dungeon Depths!",
@@ -511,9 +492,9 @@
   },
   "nC2P": {
     "title": "Lazarus",
-    "day": 7,
-    "time": "12:00 AM",
-    "cover": "lazarus-88c210537c",
+    "day": 6,
+    "time": "11:00 PM",
+    "cover": "lazarus-3ace7fe305",
     "streams": {
       "Hulu": "https://www.hulu.com/series/a47ec22b-79c9-4e65-9407-2f73778eca4b"
     }
@@ -665,15 +646,6 @@
       "Crunchyroll": "https://crunchyroll.com/series/GNVHKN9EW"
     }
   },
-  "E4h6": {
-    "title": "Moonrise",
-    "day": 4,
-    "time": "12:01 AM",
-    "cover": "moonrise-d12ad00444",
-    "streams": {
-      "Netflix": "https://www.netflix.com/title/81251383"
-    }
-  },
   "JThZ": {
     "title": "Teogonia",
     "day": 5,
@@ -684,25 +656,27 @@
     }
   },
   "7lYE": {
-    "title": "Mono",
+    "title": "mono",
     "day": 6,
     "time": "9:30 AM",
     "cover": "mono-d8f3e7a298",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/G1XHJV0N8"
+    }
   },
   "v2rX": {
-    "title": "Hibi wa Sugiredo Meshi Umashi",
+    "title": "Food for the Soul",
     "day": 6,
     "time": "10:00 AM",
     "cover": "hibi-wa-sugiredo-meshi-umashi-0f87212276",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/GJ0H7QGZM"
+    }
   },
   "NPmx": {
     "title": "Go! Go! Loser Ranger!",
     "day": 7,
-    "time": "7:30 AM",
+    "time": "8:00 AM",
     "cover": "sentai-daishikkaku-2nd-season-e2e2533491",
     "streams": {
       "Hulu": "https://www.hulu.com/series/9d994955-d20b-43c7-99be-3dfd3c6b6f22"
@@ -712,7 +686,23 @@
     "title": "Kanchigai no Atelier Meister Mini Anime",
     "day": 6,
     "time": "5:00 PM",
-    "cover": "poster-21fa193001",
+    "cover": "kanchigai-no-atelier-meister-mini-anime-f8a4d7e2b7",
+    "streams": {},
+    "status": true
+  },
+  "qotN": {
+    "title": "Lycoris Recoil: Friends are Thieves of Time.",
+    "day": 3,
+    "time": "5:00 AM",
+    "cover": "lycoris-recoil-short-movies-878baed80c",
+    "streams": {},
+    "status": true
+  },
+  "xSqu": {
+    "title": "Shirobuta Kizoku desu ga Zense no Kioku ga Haeta node Hiyoko na Otouto Sodatemasu",
+    "day": 7,
+    "time": "5:00 AM",
+    "cover": "shirobuta-kizoku-desu-ga-zense-no-kioku-ga-haeta-node-hiyoko-na-otouto-sodatemasu-a7c3d6c462",
     "streams": {},
     "status": true
   }
