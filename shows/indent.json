@@ -302,7 +302,8 @@
     "time": "8:00 AM",
     "cover": "isshun-de-chiryou-shiteita-noni-yakutatazu-to-tsuihou-sareta-tensai-chiyushi-yami-healer-toshite-tanoshiku-ikiru-4114a7fae7",
     "streams": {
-      "Crunchyroll": "https://crunchyroll.com/series/G4PH0WJ9G"
+      "Crunchyroll": "https://crunchyroll.com/series/G4PH0WJ9G",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jhxd9fB5UOMFdk-OuZvaw7a"
     }
   },
   "tjk2": {
@@ -544,6 +545,7 @@
     "time": "6:15 AM",
     "cover": "aharen-san-wa-hakarenai-2nd-season-6b10116b30",
     "streams": {
+      "Amazon": "https://www.amazon.com/dp/B0F2FG9YN6/",
       "Crunchyroll": "https://crunchyroll.com/series/GNVHKN72N"
     }
   },
