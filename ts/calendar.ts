@@ -403,6 +403,9 @@ class Calendar {
           case 'AnimeLab':
             img.src = 'assets/animelab.svg';
             break;
+          case 'Apple':
+            img.src = 'assets/apple.png';
+            break;
           case 'Crunchyroll':
             img.src = 'assets/crunchyroll.svg';
             break;
@@ -415,6 +418,9 @@ class Calendar {
           case 'Hulu':
             img.src = 'assets/hulu.svg';
             break;
+          case 'Netflix':
+            img.src = 'assets/netflix.svg';
+            break;
           case 'VRV':
             img.src = 'assets/vrv.svg';
             break;
@@ -425,7 +431,7 @@ class Calendar {
             img.src = 'assets/youtube.svg';
             break;
           default:
-            img.src = 'assets/netflix.svg';
+            img.src = '';
         }
         const a = document.createElement('a');
         a.id = index.toString();
