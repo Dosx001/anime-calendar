@@ -41,7 +41,7 @@ class Shows:
     def html(self):
         show: WebElement
         self.driver.get("https://animeschedule.net")
-        self.driver.find_element(By.ID, "timetable-filters-filter-popularity").click()
+        # self.driver.find_element(By.ID, "timetable-filters-filter-popularity").click()
         for num, day in enumerate(
             [
                 "Monday",
