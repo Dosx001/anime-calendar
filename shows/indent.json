@@ -571,7 +571,8 @@
     "time": "8:00 AM",
     "cover": "gachiakuta-39ad997d70",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GP5HJ84P7/gachiakuta"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GP5HJ84P7/gachiakuta",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JihSS6ypHUEKS1n_6afn-X0"
     }
   },
   "uVmK": {
@@ -628,7 +629,8 @@
     "time": "9:30 AM",
     "cover": "hotel-inhumans-ca5db079d8",
     "streams": {
-      "Crunchyroll": "https://crunchyroll.com/series/GXJHM3G08"
+      "Crunchyroll": "https://crunchyroll.com/series/GXJHM3G08",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjWATZTieze6DkSUxWjo5dG"
     }
   },
   "tGXT": {
@@ -687,7 +689,8 @@
     "time": "6:00 AM",
     "cover": "food-court-de-mata-ashita-ab56a683f0",
     "streams": {
-      "Crunchyroll": "https://crunchyroll.com/series/GJ0H7QGEN"
+      "Crunchyroll": "https://crunchyroll.com/series/GJ0H7QGEN",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhtKJCbR-BlQatFfQ8GGcNz"
     }
   },
   "o4IF": {
@@ -709,36 +712,39 @@
     "status": true
   },
   "CSke": {
-    "title": "Kakkou no Iinazuke 2nd Season",
+    "title": "A Couple of Cuckoos",
     "day": 2,
     "time": "7:30 AM",
     "cover": "kakkou-no-iinazuke-2nd-season-80c93c8b4b",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM39MP/a-couple-of-cuckoos"
+    }
   },
   "PjHB": {
-    "title": "Osomatsu-san 4",
+    "title": "Mr. Osomatsu",
     "day": 2,
     "time": "10:00 AM",
     "cover": "osomatsu-san-4-315bd3b194",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GYQ4Q3DP6/mr-osomatsu"
+    }
   },
   "nG5Z": {
     "title": "Turkey!",
     "day": 2,
-    "time": "9:29 AM",
+    "time": "11:30 AM",
     "cover": "turkey-182a77b6fb",
     "streams": {},
     "status": true
   },
   "TbhP": {
-    "title": "Tate no Yuusha no Nariagari 4",
+    "title": "The Rising of the Shield Hero",
     "day": 3,
     "time": "5:30 AM",
     "cover": "tate-no-yuusha-no-nariagari-4-f5783c3ea7",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G6W4QKX0R/the-rising-of-the-shield-hero"
+    }
   },
   "plR9": {
     "title": "Tensei shitara Dainana Ouji Datta node, Kimama ni Majutsu wo Kiwamemasu 2nd Season",
