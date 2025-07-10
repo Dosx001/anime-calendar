@@ -762,20 +762,22 @@
     }
   },
   "plR9": {
-    "title": "Tensei shitara Dainana Ouji Datta node, Kimama ni Majutsu wo Kiwamemasu 2nd Season",
+    "title": "I Was Reincarnated as the 7th Prince so I Can Take My Time Perfecting My Magical Ability",
     "day": 3,
     "time": "9:30 AM",
     "cover": "tensei-shitara-dainana-ouji-datta-node-kimama-ni-majutsu-wo-kiwamemasu-2nd-season-bc281bd8e5",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/GJ0H7QG4E"
+    }
   },
   "7vtt": {
-    "title": "Mikadono Sanshimai wa Angai, Choroi.",
+    "title": "Dealing with Mikadono Sisters Is a Breeze",
     "day": 3,
     "time": "10:00 AM",
     "cover": "mikadono-sanshimai-wa-angai-choroi-f0b1a87554",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/GVDHX8548"
+    }
   },
   "wUUg": {
     "title": "New Panty & Stocking with Garterbelt",
@@ -788,27 +790,28 @@
     "status": true
   },
   "oak9": {
-    "title": "Dr. Stone: Science Future Part 2",
+    "title": "Dr. STONE",
     "day": 4,
     "time": "7:00 AM",
     "cover": "dr-stone-science-future-part-2-5bc2245ea3",
     "streams": {
-      "Apple": "https://apple.co/40WayF1"
-    },
-    "status": true
+      "Apple": "https://apple.co/40WayF1",
+      "Crunchyroll": "https://crunchyroll.com/series/GYEXQKJG6"
+    }
   },
   "vlOl": {
-    "title": "Futari Solo Camp",
+    "title": "Solo Camping for Two",
     "day": 4,
     "time": "9:30 AM",
     "cover": "futari-solo-camp-cb2f8e4587",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/G3KHEVDZ8"
+    }
   },
   "PYBB": {
     "title": "Leviathan",
     "day": 4,
-    "time": "12:00 AM",
+    "time": "12:01 AM",
     "cover": "leviathan-8c1d74c418",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81152269"
@@ -822,5 +825,15 @@
     "streams": {
       "Netflix": "https://www.netflix.com/title/81969861"
     }
+  },
+  "ATQR": {
+    "title": "Cardfight!! Vanguard: Divinez Deluxe Kesshou-hen",
+    "day": 5,
+    "time": "4:01 PM",
+    "cover": "poster-21fa193001",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLZaz0lCoygoxVEdDee3sCVz0Cxz_CRqCM"
+    },
+    "status": true
   }
 }
