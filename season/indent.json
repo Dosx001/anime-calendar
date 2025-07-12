@@ -79,6 +79,18 @@
       "Seinen"
     ]
   },
+  "ATQR": {
+    "title": "Cardfight!! Vanguard: Divinez Deluxe Kesshou-hen",
+    "cover": "poster-21fa193001",
+    "studio": "GIFTanimation",
+    "source": "Card Game",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Game"
+    ]
+  },
   "tGXT": {
     "title": "City The Animation",
     "cover": "city-the-animation-b57636107d",
@@ -652,8 +664,9 @@
     "studio": "BAKKEN RECORD",
     "source": "Original",
     "genres": [
-      "Slice of Life",
-      "Sports"
+      "Adventure",
+      "Sports",
+      "Supernatural"
     ]
   },
   "xl35": {
@@ -685,6 +698,7 @@
     "source": "Light Novel",
     "genres": [
       "Comedy",
+      "Harem",
       "Romance",
       "School"
     ]
