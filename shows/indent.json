@@ -147,16 +147,6 @@
       "Hulu": "https://www.hulu.jp/nui-story-2"
     }
   },
-  "PrWq": {
-    "title": "Kusuriya no Hitorigoto Mini Anime 2nd Season",
-    "day": 2,
-    "time": "5:00 PM",
-    "cover": "maomao-no-hitorigoto-2nd-season-a876fbef7c",
-    "streams": {
-      "YouTube": "https://www.youtube.com/playlist?list=PLtdSPZNWT1AtlB6oZ-OLqZKXwMdMnIDiC"
-    },
-    "status": true
-  },
   "t4JI": {
     "title": "You and Idol Precure \u266a",
     "day": 6,
@@ -808,15 +798,6 @@
       "Crunchyroll": "https://crunchyroll.com/series/G3KHEVDZ8"
     }
   },
-  "PYBB": {
-    "title": "Leviathan",
-    "day": 4,
-    "time": "12:01 AM",
-    "cover": "leviathan-8c1d74c418",
-    "streams": {
-      "Netflix": "https://www.netflix.com/title/81152269"
-    }
-  },
   "m5kG": {
     "title": "Tougen Anki",
     "day": 5,
@@ -835,6 +816,47 @@
     "streams": {
       "YouTube": "https://www.youtube.com/playlist?list=PLZaz0lCoygoxVEdDee3sCVz0Cxz_CRqCM"
     },
+    "status": true
+  },
+  "FIkr": {
+    "title": "SAKAMOTO DAYS",
+    "day": 1,
+    "time": "8:30 AM",
+    "cover": "sakamoto-days-part-2-1f6da60c73",
+    "streams": {
+      "Netflix": "https://www.netflix.com/title/81663325"
+    }
+  },
+  "BK3J": {
+    "title": "BULLET/BULLET",
+    "day": 3,
+    "time": "12:01 AM",
+    "cover": "bullet-bullet-ef554acef1",
+    "streams": {},
+    "status": true
+  },
+  "xl35": {
+    "title": "Utagoe wa Mille-Feuille",
+    "day": 4,
+    "time": "6:30 AM",
+    "cover": "utagoe-ha-mille-feuille-b0fcd57486",
+    "streams": {},
+    "status": true
+  },
+  "WEdj": {
+    "title": "Nukitashi THE ANIMATION",
+    "day": 5,
+    "time": "10:05 AM",
+    "cover": "nukitashi-the-animation-76eac1f5c3",
+    "streams": {},
+    "status": true
+  },
+  "vXDM": {
+    "title": "Kaijuu 8-gou 2nd Season",
+    "day": 6,
+    "time": "7:30 AM",
+    "cover": "kaijuu-8-gou-zoku-hen-49d66c93a6",
+    "streams": {},
     "status": true
   }
 }
