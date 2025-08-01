@@ -161,7 +161,7 @@
     "title": "Sword of the Demon Hunter",
     "day": 1,
     "time": "8:01 AM",
-    "cover": "kijin-gentoushou-c2429b9cd6",
+    "cover": "",
     "streams": {
       "Apple": "https://apple.co/4cKdBWk",
       "HiDive": "https://www.hidive.com/season/30168",
@@ -250,7 +250,7 @@
     "title": "Rent-a-Girlfriend",
     "day": 2,
     "time": "6:30 AM",
-    "cover": "kanojo-okarishimasu-4-5b18b1c611",
+    "cover": "",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G6QWV3976/rent-a-girlfriend"
     }
@@ -259,7 +259,7 @@
     "title": "Detectives These Days Are Crazy!",
     "day": 2,
     "time": "8:00 AM",
-    "cover": "mattaku-saikin-no-tantei-to-kitara-1b3ba4dda0",
+    "cover": "",
     "streams": {
       "Apple": "https://apple.co/4lhq873",
       "Crunchyroll": "https://www.crunchyroll.com/series/G79H23Z93/detectives-these-days-are-crazy",
@@ -290,7 +290,7 @@
     "title": "Clevatess",
     "day": 3,
     "time": "5:00 AM",
-    "cover": "clevatess-majuu-no-ou-to-akago-to-shikabane-no-yuusha-8ff4fc00df",
+    "cover": "",
     "streams": {
       "Apple": "https://apple.co/4evV2pu",
       "Crunchyroll": "https://www.crunchyroll.com/series/G8DHV78ZM/clevatess",
@@ -812,7 +812,7 @@
     "title": "Cardfight!! Vanguard: Divinez Deluxe Kesshou-hen",
     "day": 5,
     "time": "4:01 PM",
-    "cover": "poster-21fa193001",
+    "cover": "cardfight-vanguard-divinez-deluxe-kesshou-hen-31a1973371",
     "streams": {
       "YouTube": "https://www.youtube.com/playlist?list=PLZaz0lCoygoxVEdDee3sCVz0Cxz_CRqCM"
     },
@@ -827,14 +827,6 @@
       "Netflix": "https://www.netflix.com/title/81663325"
     }
   },
-  "BK3J": {
-    "title": "BULLET/BULLET",
-    "day": 3,
-    "time": "12:01 AM",
-    "cover": "bullet-bullet-ef554acef1",
-    "streams": {},
-    "status": true
-  },
   "xl35": {
     "title": "Utagoe wa Mille-Feuille",
     "day": 4,
@@ -846,17 +838,27 @@
   "WEdj": {
     "title": "Nukitashi THE ANIMATION",
     "day": 5,
-    "time": "10:05 AM",
+    "time": "11:05 AM",
     "cover": "nukitashi-the-animation-76eac1f5c3",
     "streams": {},
     "status": true
   },
   "vXDM": {
-    "title": "Kaijuu 8-gou 2nd Season",
+    "title": "Kaiju No. 8",
     "day": 6,
     "time": "7:30 AM",
     "cover": "kaijuu-8-gou-zoku-hen-49d66c93a6",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/GG5H5XQ7D"
+    }
+  },
+  "QKIc": {
+    "title": "Let's Go Karaoke!",
+    "day": 4,
+    "time": "6:00 AM",
+    "cover": "karaoke-iko-f2035510ce",
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/GJ0H7QGVM"
+    }
   }
 }
