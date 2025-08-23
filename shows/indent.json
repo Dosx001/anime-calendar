@@ -5,8 +5,7 @@
     "time": "4:30 AM",
     "cover": "detective-conan-8d9a48d3dd",
     "streams": {
-      "Amazon": "https://www.amazon.com/dp/B09Q2CH8RS",
-      "Apple": "https://apple.co/42QOUo9",
+      "BiliBili": "https://www.bilibili.tv/media/1022690",
       "Crunchyroll": "https://www.crunchyroll.com/case-closed",
       "Netflix": "https://www.netflix.com/title/80090370"
     }
@@ -18,8 +17,8 @@
     "cover": "one-piece-f2f2a983a8",
     "streams": {
       "Apple": "https://apple.co/3Qfhg3W",
+      "BiliBili": "https://www.bilibili.tv/media/37976",
       "Crunchyroll": "https://www.crunchyroll.com/one-piece",
-      "Funimation": "https://www.funimation.com/shows/one-piece/",
       "Hulu": "https://www.hulu.com/series/one-piece-c7a08df6-d0d5-4dd3-afff-d1f90133cd4e",
       "Netflix": "https://www.netflix.com/title/80107103"
     }
@@ -121,12 +120,13 @@
     "status": true
   },
   "nW7u": {
-    "title": "Shimajirou no Wow!",
+    "title": "Shimajiro: A Wonderful Adventure",
     "day": 5,
     "time": "4:30 PM",
     "cover": "shimajirou-no-wow-4b0c1cf53c",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Netflix": "https://www.netflix.com/title/81235103"
+    }
   },
   "1PZo": {
     "title": "Yoru wa Neko to Issho Season 3",
@@ -161,9 +161,10 @@
     "title": "Sword of the Demon Hunter",
     "day": 1,
     "time": "8:01 AM",
-    "cover": "",
+    "cover": "kijin-gentoushou-c2429b9cd6",
     "streams": {
       "Apple": "https://apple.co/4cKdBWk",
+      "BiliBili": "https://www.bilibili.tv/en/media/2126386",
       "HiDive": "https://www.hidive.com/season/30168",
       "YouTube": "https://www.youtube.com/watch?v=ETok7qCYSis&list=PLxSscENEp7Jhve97gk77TX6seY4UaVkQn"
     }
@@ -202,6 +203,7 @@
     "cover": "yaiba-ac76509ade",
     "streams": {
       "Apple": "https://apple.co/3Gdf5Mr",
+      "BiliBili": "https://www.bilibili.tv/en/media/2125837",
       "Hulu": "https://hulu.com/series/5dcf8f0f-4262-4d50-9a57-1814838dbf4d",
       "Netflix": "https://netflix.com/title/82030192"
     }
@@ -221,6 +223,7 @@
     "cover": "witch-watch-a3d0ab51e0",
     "streams": {
       "Apple": "https://apple.co/3Y3eOBR",
+      "BiliBili": "https://www.bilibili.tv/en/media/2126684",
       "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM9P0/witch-watch",
       "Hulu": "https://www.hulu.com/series/witch-watch-7f008578-f8b2-4c27-8e5b-64320349ce63",
       "Netflix": "https://www.netflix.com/title/81991687"
@@ -250,7 +253,7 @@
     "title": "Rent-a-Girlfriend",
     "day": 2,
     "time": "6:30 AM",
-    "cover": "",
+    "cover": "kanojo-okarishimasu-4-5b18b1c611",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G6QWV3976/rent-a-girlfriend"
     }
@@ -259,9 +262,10 @@
     "title": "Detectives These Days Are Crazy!",
     "day": 2,
     "time": "8:00 AM",
-    "cover": "",
+    "cover": "mattaku-saikin-no-tantei-to-kitara-1b3ba4dda0",
     "streams": {
       "Apple": "https://apple.co/4lhq873",
+      "BiliBili": "https://www.bilibili.tv/en/media/2141863",
       "Crunchyroll": "https://www.crunchyroll.com/series/G79H23Z93/detectives-these-days-are-crazy",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jj6CNtTYBAGqNvm6KcSzAYU"
     }
@@ -290,9 +294,10 @@
     "title": "Clevatess",
     "day": 3,
     "time": "5:00 AM",
-    "cover": "",
+    "cover": "clevatess-majuu-no-ou-to-akago-to-shikabane-no-yuusha-8ff4fc00df",
     "streams": {
       "Apple": "https://apple.co/4evV2pu",
+      "BiliBili": "https://www.bilibili.tv/en/media/2141024",
       "Crunchyroll": "https://www.crunchyroll.com/series/G8DHV78ZM/clevatess",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JiIImQMFiu9H2lp2NZgcKk2"
     }
@@ -312,7 +317,9 @@
     "day": 3,
     "time": "7:45 AM",
     "cover": "jigoku-sensei-nube-2025-7459b44779",
-    "streams": {},
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLhGamQZtJ7K9NljzDXOMx02GwfyiCTy_b"
+    },
     "status": true
   },
   "YL9q": {
@@ -333,9 +340,11 @@
     "cover": "dandadan-2nd-season-91aa9343b1",
     "streams": {
       "Apple": "https://apple.co/4le8zoh",
+      "BiliBili": "https://www.bilibili.tv/en/media/2129416",
       "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQ0D/dan-da-dan",
       "Hulu": "https://www.hulu.com/series/bad0bb31-0fa5-4a69-b9a5-5e5ed5032a48",
-      "Netflix": "https://www.netflix.com/title/81736884"
+      "Netflix": "https://www.netflix.com/title/81736884",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2OF_CmbcBOUk_216rwS1wD"
     }
   },
   "5j6F": {
@@ -365,7 +374,9 @@
     "cover": "tsuihousha-shokudou-e-youkoso-9830ee7b09",
     "streams": {
       "Apple": "https://apple.co/401ZWF0",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W2E9/welcome-to-the-outcasts-restaurant"
+      "BiliBili": "https://www.bilibili.tv/en/media/2142708",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W2E9/welcome-to-the-outcasts-restaurant",
+      "YouTube": "https://www.youtube.com/playlist?list=PLbuF5Onrcu9e5l4Gv5c7Knwsoxwy_3EJr"
     }
   },
   "HcFw": {
@@ -384,7 +395,7 @@
     "time": "9:30 AM",
     "cover": "silent-witch-chinmoku-no-majo-no-kakushigoto-5e654c5968",
     "streams": {
-      "Apple": "https://apple.co/3TV7llJ",
+      "BiliBili": "https://www.bilibili.tv/en/media/2142833",
       "Crunchyroll": "https://crunchyroll.com/series/G9VHN9Q3G"
     }
   },
@@ -401,9 +412,11 @@
   "qZFj": {
     "title": "Busu ni Hanataba wo.",
     "day": 5,
-    "time": "6:30 AM",
+    "time": "7:00 AM",
     "cover": "busu-ni-hanataba-wo-235342a54d",
-    "streams": {},
+    "streams": {
+      "BiliBili": "https://www.bilibili.tv/en/media/2142577"
+    },
     "status": true
   },
   "S3Hu": {
@@ -412,20 +425,7 @@
     "time": "8:05 AM",
     "cover": "yofukashi-no-uta-2nd-season-021e9645ef",
     "streams": {
-      "Apple": "https://apple.co/44k341y",
       "HiDive": "https://www.hidive.com/season/31574"
-    }
-  },
-  "9aDK": {
-    "title": "Takopi's Original Sin",
-    "day": 5,
-    "time": "8:15 AM",
-    "cover": "takopii-no-genzai-485481a1f7",
-    "streams": {
-      "Apple": "https://apple.co/4lI4l8s",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GKEH2G0X4",
-      "Netflix": "https://www.netflix.com/title/82040459",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JiXIF_XC3Q8zWzNLgWesqLY&si=RLVH4Sv9e3H4FsB0"
     }
   },
   "Nlnj": {
@@ -434,7 +434,6 @@
     "time": "9:15 AM",
     "cover": "watari-kun-no-xx-ga-houkai-sunzen-5928ee449b",
     "streams": {
-      "Apple": "https://apple.co/4nzKrOF",
       "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM18X/watari-kuns--is-about-to-collapse"
     }
   },
@@ -445,6 +444,7 @@
     "cover": "zutaboro-reijou-wa-ane-no-moto-konyakusha-ni-dekiai-sareru-a3fa2d3dc7",
     "streams": {
       "Apple": "https://apple.co/4lhOmOz",
+      "BiliBili": "https://www.bilibili.tv/en/media/2141222",
       "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN9Q34/betrothed-to-my-sisters-ex"
     }
   },
@@ -455,6 +455,7 @@
     "cover": "sono-bisque-doll-wa-koi-wo-suru-zoku-hen-4d24648f2b",
     "streams": {
       "Apple": "https://apple.co/45RI8QB",
+      "BiliBili": "https://www.bilibili.tv/en/media/2129492",
       "Crunchyroll": "https://www.crunchyroll.com/series/GQWH0M9N8/my-dress-up-darling"
     }
   },
@@ -465,6 +466,7 @@
     "cover": "seishun-buta-yarou-daigakusei-hen-d437aaf0c6",
     "streams": {
       "Apple": "https://apple.co/44w2rR9",
+      "BiliBili": "https://www.bilibili.tv/en/media/2142375",
       "Crunchyroll": "https://crunchyroll.com/series/GYW4MG9G6"
     }
   },
@@ -493,6 +495,7 @@
     "cover": "koujo-denka-no-kateikyoushi-3aa5c1e4b5",
     "streams": {
       "Apple": "https://apple.co/4lbC0qV",
+      "BiliBili": "https://www.bilibili.tv/en/media/2140675",
       "Crunchyroll": "https://crunchyroll.com/series/GG5H5XQGQ"
     }
   },
@@ -503,6 +506,7 @@
     "cover": "kizetsu-yuusha-to-ansatsu-hime-66c807b497",
     "streams": {
       "Apple": "https://apple.co/4nz0dJx",
+      "BiliBili": "https://www.bilibili.tv/en/media/2129562",
       "Crunchyroll": "https://crunchyroll.com/series/GXJHM3G0J"
     }
   },
@@ -531,10 +535,10 @@
   "eVu8": {
     "title": "Fermat no Ryouri",
     "day": 6,
-    "time": "7:30 AM",
+    "time": "8:00 AM",
     "cover": "fermat-no-ryouri-498a723fdd",
     "streams": {
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjJXnFpYs7h4bERNq1zV3zZ"
+      "YouTube": "https://www.youtube.com/watch?v=AVea4mrldP8"
     },
     "status": true
   },
@@ -553,6 +557,7 @@
     "cover": "yuusha-party-wo-tsuihou-sareta-shiromadoushi-s-rank-boukensha-ni-hirowareru-kono-shiromadoushi-ga-kikakugai-sugiru-dda882f353",
     "streams": {
       "Apple": "https://apple.co/44iNLpG",
+      "BiliBili": "https://www.bilibili.tv/en/media/2140899",
       "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM9Q0/scooped-up-by-an-s-rank-adventurer",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JiHRqg4JFdCEUGH8CyjRILm"
     }
@@ -564,6 +569,7 @@
     "cover": "gachiakuta-39ad997d70",
     "streams": {
       "Apple": "https://apple.co/4eFdWKB",
+      "BiliBili": "https://www.bilibili.tv/en/media/2141581",
       "Crunchyroll": "https://www.crunchyroll.com/series/GP5HJ84P7/gachiakuta",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JihSS6ypHUEKS1n_6afn-X0"
     }
@@ -575,6 +581,7 @@
     "cover": "isekai-mokushiroku-mynoghra-hametsu-no-bunmei-de-hajimeru-sekai-seifuku-e4f108e6ae",
     "streams": {
       "Apple": "https://apple.co/4lBSGaU",
+      "BiliBili": "https://www.bilibili.tv/en/media/2129668",
       "Crunchyroll": "https://crunchyroll.com/series/G1XHJV0M7",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0ah79jTczH6CBPDr0uZcji"
     }
@@ -586,6 +593,7 @@
     "cover": "dekin-no-mogura-adacade689",
     "streams": {
       "Apple": "https://apple.co/44QyWuB",
+      "BiliBili": "https://www.bilibili.tv/en/media/2141965",
       "Crunchyroll": "https://crunchyroll.com/series/GZJH3D8Z1",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjZvaBNSy675xLGi3IB9Oxb"
     }
@@ -607,8 +615,9 @@
     "cover": "busamen-gachi-fighter-90fc0a0684",
     "streams": {
       "Apple": "https://apple.co/4liUI03",
+      "BiliBili": "https://www.bilibili.tv/en/media/2140736",
       "Crunchyroll": "https://crunchyroll.com/series/GNVHKN9VK",
-      "YouTube": "https://www.youtube.com/channel/UC0wNSTMWIL3qaorLx0jie6A"
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jj5kZUrOfRjfzRRfhLnih1J"
     }
   },
   "Jb9y": {
@@ -686,24 +695,14 @@
       "Crunchyroll": "https://crunchyroll.com/series/GNVHKN94W"
     }
   },
-  "ZrcU": {
-    "title": "See You Tomorrow at the Food Court",
-    "day": 1,
-    "time": "6:00 AM",
-    "cover": "food-court-de-mata-ashita-ab56a683f0",
-    "streams": {
-      "Apple": "https://apple.co/460AoM7",
-      "Crunchyroll": "https://crunchyroll.com/series/GJ0H7QGEN",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhtKJCbR-BlQatFfQ8GGcNz"
-    }
-  },
   "o4IF": {
-    "title": "Binan Koukou Chikyuu Bouei-bu Haikara!",
+    "title": "Cute High Earth Defense Club Hi-CARA!",
     "day": 1,
-    "time": "7:00 AM",
+    "time": "7:30 AM",
     "cover": "binan-koukou-chikyuu-bouei-bu-haikara-86054d0dd2",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Amazon": "https://www.primevideo.com/detail/0OYT83CRTBWBDMDXWRGP9FOPF2"
+    }
   },
   "6UdB": {
     "title": "Watashi ga Koibito ni Nareru Wake Nai jan, Muri Muri! (\u203bMuri ja Nakatta!?)",
@@ -711,6 +710,7 @@
     "time": "9:30 AM",
     "cover": "watashi-ga-koibito-ni-nareru-wake-nai-jan-muri-muri-muri-ja-nakatta-d9430f17c1",
     "streams": {
+      "BiliBili": "https://www.bilibili.tv/en/media/2141768",
       "YouTube": "https://www.youtube.com/playlist?list=PLhGamQZtJ7K8yocPHbrtrYmX8NdN6hvOW"
     },
     "status": true
@@ -721,6 +721,7 @@
     "time": "7:30 AM",
     "cover": "kakkou-no-iinazuke-2nd-season-80c93c8b4b",
     "streams": {
+      "BiliBili": "https://www.bilibili.tv/en/media/2142092",
       "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM39MP/a-couple-of-cuckoos"
     }
   },
@@ -748,6 +749,7 @@
     "time": "5:30 AM",
     "cover": "tate-no-yuusha-no-nariagari-4-f5783c3ea7",
     "streams": {
+      "BiliBili": "https://www.bilibili.tv/en/media/2142229",
       "Crunchyroll": "https://www.crunchyroll.com/series/G6W4QKX0R/the-rising-of-the-shield-hero"
     }
   },
@@ -757,6 +759,7 @@
     "time": "9:30 AM",
     "cover": "tensei-shitara-dainana-ouji-datta-node-kimama-ni-majutsu-wo-kiwamemasu-2nd-season-bc281bd8e5",
     "streams": {
+      "BiliBili": "https://www.bilibili.tv/en/media/2141353",
       "Crunchyroll": "https://crunchyroll.com/series/GJ0H7QG4E"
     }
   },
@@ -766,6 +769,7 @@
     "time": "10:00 AM",
     "cover": "mikadono-sanshimai-wa-angai-choroi-f0b1a87554",
     "streams": {
+      "BiliBili": "https://www.bilibili.tv/en/media/2142430",
       "Crunchyroll": "https://crunchyroll.com/series/GVDHX8548"
     }
   },
@@ -786,6 +790,7 @@
     "cover": "dr-stone-science-future-part-2-5bc2245ea3",
     "streams": {
       "Apple": "https://apple.co/40WayF1",
+      "BiliBili": "https://www.bilibili.tv/en/media/2123789",
       "Crunchyroll": "https://crunchyroll.com/series/GYEXQKJG6"
     }
   },
@@ -795,7 +800,8 @@
     "time": "9:30 AM",
     "cover": "futari-solo-camp-cb2f8e4587",
     "streams": {
-      "Crunchyroll": "https://crunchyroll.com/series/G3KHEVDZ8"
+      "Crunchyroll": "https://crunchyroll.com/series/G3KHEVDZ8",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhZV6ibsaXk5Qy_0zVGKwu-"
     }
   },
   "m5kG": {
@@ -804,6 +810,8 @@
     "time": "8:30 AM",
     "cover": "tougen-anki-d229b4fd56",
     "streams": {
+      "Amazon": "https://www.amazon.com/dp/B0FG7S42LF",
+      "BiliBili": "https://www.bilibili.tv/en/media/2141466",
       "Crunchyroll": "https://crunchyroll.com/series/GP5HJ84D2",
       "Netflix": "https://www.netflix.com/title/81969861"
     }
@@ -830,8 +838,8 @@
   "xl35": {
     "title": "Utagoe wa Mille-Feuille",
     "day": 4,
-    "time": "6:30 AM",
-    "cover": "utagoe-ha-mille-feuille-b0fcd57486",
+    "time": "5:25 AM",
+    "cover": "utagoe-ha-mille-feuille-686c32f077",
     "streams": {},
     "status": true
   },
@@ -840,7 +848,9 @@
     "day": 5,
     "time": "11:05 AM",
     "cover": "nukitashi-the-animation-76eac1f5c3",
-    "streams": {},
+    "streams": {
+      "OceanVeil": "https://oceanveil.net/anime_titles/230"
+    },
     "status": true
   },
   "vXDM": {
@@ -849,16 +859,40 @@
     "time": "7:30 AM",
     "cover": "kaijuu-8-gou-zoku-hen-49d66c93a6",
     "streams": {
-      "Crunchyroll": "https://crunchyroll.com/series/GG5H5XQ7D"
+      "BiliBili": "https://www.bilibili.tv/en/media/2141413",
+      "Crunchyroll": "https://crunchyroll.com/series/GG5H5XQ7D",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjBFTyOmpLiobwouSY2fCJM"
     }
   },
   "QKIc": {
     "title": "Let's Go Karaoke!",
     "day": 4,
     "time": "6:00 AM",
-    "cover": "karaoke-iko-f2035510ce",
+    "cover": "karaoke-iko-9caa2512f8",
     "streams": {
-      "Crunchyroll": "https://crunchyroll.com/series/GJ0H7QGVM"
+      "BiliBili": "https://www.bilibili.tv/en/media/2141683",
+      "Crunchyroll": "https://crunchyroll.com/series/GJ0H7QGVM",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jj7H_29_-ZpnYRA0Gx-ESrI"
     }
+  },
+  "mojK": {
+    "title": "Captivated, By You",
+    "day": 4,
+    "time": "6:00 AM",
+    "cover": "muchuu-sa-kimi-ni-0be82edbef",
+    "streams": {
+      "BiliBili": "https://www.bilibili.tv/en/media/2142992",
+      "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV0M8/captivated-by-you"
+    }
+  },
+  "b8oV": {
+    "title": "Fate/Grand Order: Fujimaru Ritsuka wa Wakaranai Season 3",
+    "day": 5,
+    "time": "5:00 PM",
+    "cover": "fate-grand-order-fujimaru-ritsuka-wa-wakaranai-season-3-334766a04b",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLkybqduWZGqtDqXo4rBp1M0jMfCOaS0cr"
+    },
+    "status": true
   }
 }

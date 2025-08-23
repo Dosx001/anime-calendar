@@ -1,7 +1,7 @@
 {
   "GpMb": {
     "title": "3-nen Z-gumi Ginpachi-sensei",
-    "cover": "3-nen-z-gumi-ginpachi-sensei-eac1a63baf",
+    "cover": "3-nen-z-gumi-ginpachi-sensei-1d7e9be835",
     "studio": "Bandai Namco Pictures",
     "source": "Light Novel",
     "genres": [
@@ -12,8 +12,8 @@
   },
   "zbmv": {
     "title": "Akujiki Reijou to Kyouketsu Koushaku",
-    "cover": "akujiki-reijou-to-kyouketsu-koushaku-6e8fbec3a7",
-    "studio": "N/A",
+    "cover": "akujiki-reijou-to-kyouketsu-koushaku-b1f729d8a9",
+    "studio": "Asahi Production",
     "source": "Web Manga",
     "genres": [
       "Fantasy",
@@ -91,7 +91,7 @@
   },
   "fnEH": {
     "title": "Chitose-kun wa Ramune Bin no Naka",
-    "cover": "chitose-kun-wa-ramune-bin-no-naka-3c52ed9997",
+    "cover": "chitose-kun-wa-ramune-bin-no-naka-6e268d6e8c",
     "studio": "feel.",
     "source": "Light Novel",
     "genres": [
@@ -115,7 +115,7 @@
   },
   "zTms": {
     "title": "Digimon Beatbreak",
-    "cover": "digimon-beatbreak-8472bf102a",
+    "cover": "digimon-beatbreak-1c84cfe92a",
     "studio": "N/A",
     "source": "Original",
     "genres": [
@@ -127,7 +127,7 @@
   },
   "3P1h": {
     "title": "Disney: Twisted-Wonderland",
-    "cover": "disney-twisted-wonderland-554f5819b2",
+    "cover": "disney-twisted-wonderland-1cd46cbb0d",
     "studio": "Graphinica",
     "source": "Video Game",
     "genres": [
@@ -163,7 +163,7 @@
   },
   "osTs": {
     "title": "Fumetsu no Anata e 3",
-    "cover": "fumetsu-no-anata-e-3-db086584c4",
+    "cover": "fumetsu-no-anata-e-3-cb2f2400ca",
     "studio": "Drive",
     "source": "Manga",
     "genres": [
@@ -210,8 +210,8 @@
   },
   "Za57": {
     "title": "Kakuriyo no Yadomeshi 2",
-    "cover": "kakuriyo-no-yadomeshi-2-eae9a763d6",
-    "studio": "N/A",
+    "cover": "kakuriyo-no-yadomeshi-2-031328ff2d",
+    "studio": "GONZO",
     "source": "Light Novel",
     "genres": [
       "Drama",
@@ -259,7 +259,7 @@
   },
   "ibqT": {
     "title": "Kingdom 6",
-    "cover": "kingdom-6th-season-0cd3437fce",
+    "cover": "kingdom-6th-season-f0b4f55629",
     "studio": "Studio Pierrot",
     "source": "Manga",
     "genres": [
@@ -350,6 +350,16 @@
       "Mystery"
     ]
   },
+  "H7wb": {
+    "title": "Potion, Wagami wo Tasukeru",
+    "cover": "potion-wagami-wo-tasukeru-57e322f5bf",
+    "studio": "Imageworks Studio",
+    "source": "Light Novel",
+    "genres": [
+      "Fantasy",
+      "Isekai"
+    ]
+  },
   "kguJ": {
     "title": "Ranma \u00bd (2024) 2nd Season",
     "cover": "ranma-2024-2nd-season-a8fe370f44",
@@ -375,6 +385,16 @@
       "Drama",
       "Mystery",
       "Shounen"
+    ]
+  },
+  "a9l7": {
+    "title": "SI-VIS: The Sound of Heroes",
+    "cover": "poster-21fa193001",
+    "studio": "N/A",
+    "source": "Original",
+    "genres": [
+      "Music",
+      "Superpower"
     ]
   },
   "fIgA": {
@@ -434,6 +454,17 @@
     "genres": [
       "Comedy",
       "Slice of Life"
+    ]
+  },
+  "A9pa": {
+    "title": "Shinjiteita Nakama-tachi ni Dungeon Okuchi de Korosarekaketa ga Gift \"Mugen Gacha\" de Level 9999 no Nakama-tachi wo Te ni Irete Moto Party Member to Sekai ni Fukushuu & \"Zamaa!\" Shimasu!",
+    "cover": "shinjiteita-nakama-tachi-ni-dungeon-okuchi-de-korosarekaketa-ga-gift-mugen-gacha-de-level-9999-no-nakama-tachi-wo-te-ni-irete-moto-party-member-to-sekai-ni-fukushuu-and-zamaa-shimasu-fce530175b",
+    "studio": "J.C. Staff",
+    "source": "Light Novel",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
     ]
   },
   "Ua7I": {
@@ -533,7 +564,7 @@
   },
   "wFHb": {
     "title": "WonDance",
-    "cover": "wondance-34f0712174",
+    "cover": "wondance-fad9ab79b6",
     "studio": "Cyclone Graphics",
     "source": "Manga",
     "genres": [
@@ -544,7 +575,7 @@
   },
   "79xe": {
     "title": "Yano-kun no Futsuu no Hibi",
-    "cover": "yano-kun-no-futsuu-no-hibi-bf26d84996",
+    "cover": "yano-kun-no-futsuu-no-hibi-526c3af7de",
     "studio": "Ajia-Do",
     "source": "Web Manga",
     "genres": [
