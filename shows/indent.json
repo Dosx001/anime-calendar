@@ -381,8 +381,8 @@
   },
   "HcFw": {
     "title": "HAIGAKURA",
-    "day": 5,
-    "time": "7:00 AM",
+    "day": 4,
+    "time": "10:30 AM",
     "cover": "haigakura-b175e035a7",
     "streams": {
       "Amazon": "https://www.amazon.com/dp/B0DHDGVXFD",
@@ -692,7 +692,8 @@
     "cover": "grand-blue-2nd-season-3f4ef79b73",
     "streams": {
       "Apple": "https://apple.co/4lNv2Zs",
-      "Crunchyroll": "https://crunchyroll.com/series/GNVHKN94W"
+      "Crunchyroll": "https://crunchyroll.com/series/GNVHKN94W",
+      "YouTube": "https://www.youtube.com/playlist?list=PLbuF5Onrcu9euvzKp4BbWaV1NJYw2PoDT"
     }
   },
   "o4IF": {
