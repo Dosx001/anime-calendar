@@ -28,7 +28,9 @@ class Shows:
         if driver:
             self.driver = driver
         else:
-            self.driver = undetected_chromedriver.Chrome(use_subprocess=False)
+            self.driver = undetected_chromedriver.Chrome(
+                driver_executable_path="/usr/bin/chromedriver", use_subprocess=False
+            )
         self.driver.maximize_window()
         with open("shows.json", encoding="utf-8") as file:
             self.shows: dict[str, ShowType] = load(file)

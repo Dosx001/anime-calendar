@@ -109,16 +109,6 @@
       "YouTube": "https://youtube.com/playlist?list=PLfX0BhjZoHNlzLJSi0-CPYQXfV_JPWPUh"
     }
   },
-  "CivX": {
-    "title": "I.CINNAMOROLL Animation",
-    "day": 4,
-    "time": "1:00 AM",
-    "cover": "i-cinnamoroll-animation-6fa50ef829",
-    "streams": {
-      "YouTube": "https://www.youtube.com/playlist?list=PLe-UftTUsMbk7fMwURgLZ6_kz71DGssQw"
-    },
-    "status": true
-  },
   "nW7u": {
     "title": "Shimajiro: A Wonderful Adventure",
     "day": 5,
@@ -127,16 +117,6 @@
     "streams": {
       "Netflix": "https://www.netflix.com/title/81235103"
     }
-  },
-  "1PZo": {
-    "title": "Yoru wa Neko to Issho Season 3",
-    "day": 3,
-    "time": "4:00 AM",
-    "cover": "yoru-wa-neko-to-issho-season-3-ae4c521312",
-    "streams": {
-      "YouTube": "https://www.youtube.com/watch?v=RGwVx8MbbJg&list=PL21PGVTtHmxgpTZwSrn-1QMUcbaJdnxZM&index=66"
-    },
-    "status": true
   },
   "2Rbu": {
     "title": "Nui Story 2",
@@ -235,6 +215,7 @@
     "time": "8:00 AM",
     "cover": "summer-pockets-e8b74b7bf4",
     "streams": {
+      "Amazon": "https://www.amazon.com/dp/B0F1BF6D2M/",
       "Apple": "https://apple.co/3YxubTg",
       "Crunchyroll": "https://crunchyroll.com/series/G0XHWM17X"
     }
@@ -397,16 +378,6 @@
     "streams": {
       "BiliBili": "https://www.bilibili.tv/en/media/2142833",
       "Crunchyroll": "https://crunchyroll.com/series/G9VHN9Q3G"
-    }
-  },
-  "8SQ9": {
-    "title": "Arknights",
-    "day": 5,
-    "time": "8:00 AM",
-    "cover": "arknights-enshin-shomei-ac297c1eeb",
-    "streams": {
-      "Apple": "https://apple.co/3TpOOhj",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5X3VN/arknights"
     }
   },
   "qZFj": {
@@ -788,7 +759,7 @@
     "title": "Dr. STONE",
     "day": 4,
     "time": "7:00 AM",
-    "cover": "dr-stone-science-future-part-2-5bc2245ea3",
+    "cover": "dr-stone-science-future-part-2-16e5ba1633",
     "streams": {
       "Apple": "https://apple.co/40WayF1",
       "BiliBili": "https://www.bilibili.tv/en/media/2123789",
@@ -886,14 +857,20 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV0M8/captivated-by-you"
     }
   },
-  "b8oV": {
-    "title": "Fate/Grand Order: Fujimaru Ritsuka wa Wakaranai Season 3",
-    "day": 5,
+  "Y4Et": {
+    "title": "Kunshu-sama ni Muneyake",
+    "day": 3,
     "time": "5:00 PM",
-    "cover": "fate-grand-order-fujimaru-ritsuka-wa-wakaranai-season-3-334766a04b",
-    "streams": {
-      "YouTube": "https://www.youtube.com/playlist?list=PLkybqduWZGqtDqXo4rBp1M0jMfCOaS0cr"
-    },
+    "cover": "poster-21fa193001",
+    "streams": {},
+    "status": true
+  },
+  "dPkf": {
+    "title": "Chikyuu no Latair",
+    "day": 5,
+    "time": "2:40 AM",
+    "cover": "chikyuu-no-latair-dbe7eb56d3",
+    "streams": {},
     "status": true
   }
 }

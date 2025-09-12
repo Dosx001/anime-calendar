@@ -20,6 +20,18 @@
       "Romance"
     ]
   },
+  "mmy7": {
+    "title": "Alma-chan wa Kazoku ni Naritai",
+    "cover": "alma-chan-wa-kazoku-ni-naritai-5ae8b2cf35",
+    "studio": "Studio Flad",
+    "source": "Web Manga",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Sci-Fi",
+      "Slice of Life"
+    ]
+  },
   "EXvW": {
     "title": "Ansatsusha de Aru Ore no Status ga Yuusha yori mo Akiraka ni Tsuyoi no da ga",
     "cover": "ansatsusha-de-aru-ore-no-status-ga-yuusha-yori-mo-akiraka-ni-tsuyoi-no-da-ga-94f34d35de",
@@ -34,8 +46,8 @@
   },
   "Vpx7": {
     "title": "Ao no Orchestra 2nd Season",
-    "cover": "ao-no-orchestra-2nd-season-edf3eb55c6",
-    "studio": "N/A",
+    "cover": "ao-no-orchestra-2nd-season-7d50383b85",
+    "studio": "Nippon Animation",
     "source": "Web Manga",
     "genres": [
       "Drama",
@@ -68,7 +80,7 @@
   },
   "eUOz": {
     "title": "Chanto Suenai Kyuuketsuki-chan",
-    "cover": "chanto-suenai-kyuuketsuki-chan-408c5eb191",
+    "cover": "chanto-suenai-kyuuketsuki-chan-5f725edeb7",
     "studio": "feel.",
     "source": "Manga",
     "genres": [
@@ -80,7 +92,7 @@
   },
   "2Rqa": {
     "title": "Chichi wa Eiyuu, Haha wa Seirei, Musume no Watashi wa Tenseisha.",
-    "cover": "chichi-wa-eiyuu-haha-wa-seirei-musume-no-watashi-wa-tenseisha-cca8a93cb4",
+    "cover": "chichi-wa-eiyuu-haha-wa-seirei-musume-no-watashi-wa-tenseisha-d3709cf4c4",
     "studio": "J.C. Staff",
     "source": "Light Novel",
     "genres": [
@@ -103,8 +115,8 @@
   },
   "EVTt": {
     "title": "Debu to Love to Ayamachi to!",
-    "cover": "debu-to-love-to-ayamachi-to-42305bdbbf",
-    "studio": "N/A",
+    "cover": "debu-to-love-to-ayamachi-to-2f0e014906",
+    "studio": "Marvy Jack",
     "source": "Manga",
     "genres": [
       "Comedy",
@@ -140,7 +152,7 @@
   },
   "a19J": {
     "title": "Egao no Taenai Shokuba desu.",
-    "cover": "egao-no-taenai-shokuba-desu-0783dafb3e",
+    "cover": "egao-no-taenai-shokuba-desu-7f5aa50a52",
     "studio": "Voil",
     "source": "Web Manga",
     "genres": [
@@ -186,15 +198,16 @@
       "Thriller"
     ]
   },
-  "YrJF": {
-    "title": "Himekishi wa Barbaroi no Yome",
-    "cover": "himekishi-wa-barbaroi-no-yome-acd128800d",
-    "studio": "Jumondou",
-    "source": "Manga",
+  "AhZ3": {
+    "title": "Isekai Munchkin: HP1 no Mama de Saikyou Saisoku Dungeon Kouryaku",
+    "cover": "isekai-munchkin-hp1-no-mama-de-saikyou-saisoku-dungeon-kouryaku-f454eb4528",
+    "studio": "Durandal",
+    "source": "Web Manga",
     "genres": [
-      "Comedy",
+      "Action",
+      "Adventure",
       "Fantasy",
-      "Romance"
+      "Isekai"
     ]
   },
   "LQcT": {
@@ -223,7 +236,7 @@
   },
   "TS8o": {
     "title": "Kao ni Denai Kashiwada-san to Kao ni Deru Oota-kun",
-    "cover": "kao-ni-denai-kashiwada-san-to-kao-ni-deru-oota-kun-2983e16de2",
+    "cover": "kao-ni-denai-kashiwada-san-to-kao-ni-deru-oota-kun-009581d3b4",
     "studio": "STUDIO POLON",
     "source": "Web Manga",
     "genres": [
@@ -231,6 +244,22 @@
       "Romance",
       "School",
       "Slice of Life"
+    ]
+  },
+  "mxBO": {
+    "title": "Kekkon Yubiwa Monogatari 2nd Season",
+    "cover": "kekkon-yubiwa-monogatari-2nd-season-4a1263c07f",
+    "studio": "Staple Entertainment",
+    "source": "Manga",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Ecchi",
+      "Fantasy",
+      "Harem",
+      "Isekai",
+      "Romance"
     ]
   },
   "sFgS": {
@@ -248,7 +277,7 @@
   },
   "zglz": {
     "title": "Kimi to Koete Koi ni Naru",
-    "cover": "kimi-to-koete-koi-ni-naru-43a840810c",
+    "cover": "kimi-to-koete-koi-ni-naru-08530b039d",
     "studio": "Millepensee",
     "source": "Web Manga",
     "genres": [
@@ -291,9 +320,19 @@
       "Magic"
     ]
   },
+  "QmvZ": {
+    "title": "Monster Strike: Deadverse Reloaded",
+    "cover": "monster-strike-deadverse-reloaded-f349335300",
+    "studio": "Yumeta Company",
+    "source": "Game",
+    "genres": [
+      "Action",
+      "Fantasy"
+    ]
+  },
   "Uh9a": {
     "title": "Mushoku no Eiyuu: Betsu ni Skill nanka Ira Nakattan Daga",
-    "cover": "mushoku-no-eiyuu-betsu-ni-skill-nanka-ira-nakkatan-daga-b5324cae6b",
+    "cover": "mushoku-no-eiyuu-betsu-ni-skill-nanka-ira-nakkatan-daga-f7b091b74a",
     "studio": "Studio A-CAT",
     "source": "Light Novel",
     "genres": [
@@ -322,6 +361,7 @@
     "source": "Web Manga",
     "genres": [
       "Action",
+      "Drama",
       "Martial Arts"
     ]
   },
@@ -389,7 +429,7 @@
   },
   "a9l7": {
     "title": "SI-VIS: The Sound of Heroes",
-    "cover": "poster-21fa193001",
+    "cover": "si-vis-the-sound-of-heroes-61ae5d7fcd",
     "studio": "N/A",
     "source": "Original",
     "genres": [
@@ -399,7 +439,7 @@
   },
   "fIgA": {
     "title": "SPY\u00d7FAMILY Season 3",
-    "cover": "spy-x-family-season-3-b024ce79b0",
+    "cover": "spy-x-family-season-3-4a19585b1c",
     "studio": "CloverWorks",
     "source": "Manga",
     "genres": [
@@ -423,21 +463,9 @@
       "Romance"
     ]
   },
-  "OzpH": {
-    "title": "Sawaranaide Kotesashi-kun",
-    "cover": "sawaranaide-kotesashi-kun-112da53b0c",
-    "studio": "Quad",
-    "source": "Web Manga",
-    "genres": [
-      "Ecchi",
-      "Harem",
-      "School",
-      "Sports"
-    ]
-  },
   "SmmZ": {
     "title": "Shabake (2025)",
-    "cover": "shabake-2025-c073dc4ee5",
+    "cover": "shabake-2025-3fb2be42cc",
     "studio": "Bandai Namco Pictures",
     "source": "Novel",
     "genres": [
@@ -467,6 +495,18 @@
       "Fantasy"
     ]
   },
+  "8OQM": {
+    "title": "Shuumatsu Touring",
+    "cover": "shuumatsu-touring-0e24c8bd0c",
+    "studio": "Nexus",
+    "source": "Manga",
+    "genres": [
+      "Adventure",
+      "Sci-Fi",
+      "Seinen",
+      "Slice of Life"
+    ]
+  },
   "Ua7I": {
     "title": "Souzai Saishuka no Isekai Ryokouki",
     "cover": "souzai-saishuka-no-isekai-ryokouki-345a7bc94c",
@@ -482,7 +522,7 @@
   },
   "hO7j": {
     "title": "Taiyou yori mo Mabushii Hoshi",
-    "cover": "taiyou-yori-mo-mabushii-hoshi-93d59314d2",
+    "cover": "taiyou-yori-mo-mabushii-hoshi-7ca2a92dc8",
     "studio": "Studio KAI",
     "source": "Manga",
     "genres": [
@@ -518,7 +558,7 @@
   },
   "2IEs": {
     "title": "Tondemo Skill de Isekai Hourou Meshi 2nd Season",
-    "cover": "tondemo-skill-de-isekai-hourou-meshi-2nd-season-f7cbc65167",
+    "cover": "tondemo-skill-de-isekai-hourou-meshi-2nd-season-67eac52f73",
     "studio": "MAPPA",
     "source": "Light Novel",
     "genres": [
@@ -530,7 +570,7 @@
   },
   "fuGv": {
     "title": "Towa no Yuugure",
-    "cover": "towa-no-yuugure-f558d9e2fb",
+    "cover": "towa-no-yuugure-c3f835851a",
     "studio": "P.A. Works",
     "source": "Original",
     "genres": [
