@@ -12,7 +12,7 @@
   },
   "zbmv": {
     "title": "Akujiki Reijou to Kyouketsu Koushaku",
-    "cover": "akujiki-reijou-to-kyouketsu-koushaku-b1f729d8a9",
+    "cover": "akujiki-reijou-to-kyouketsu-koushaku-94fcb5dba4",
     "studio": "Asahi Production",
     "source": "Web Manga",
     "genres": [
@@ -103,7 +103,7 @@
   },
   "fnEH": {
     "title": "Chitose-kun wa Ramune Bin no Naka",
-    "cover": "chitose-kun-wa-ramune-bin-no-naka-6e268d6e8c",
+    "cover": "chitose-kun-wa-ramune-bin-no-naka-95713a2f64",
     "studio": "feel.",
     "source": "Light Novel",
     "genres": [
@@ -160,19 +160,6 @@
       "Slice of Life"
     ]
   },
-  "Odjs": {
-    "title": "Fate/strange Fake",
-    "cover": "fate-strange-fake-fd4cbe6f55",
-    "studio": "A-1 Pictures",
-    "source": "Light Novel",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy",
-      "Mystery",
-      "Supernatural"
-    ]
-  },
   "osTs": {
     "title": "Fumetsu no Anata e 3",
     "cover": "fumetsu-no-anata-e-3-cb2f2400ca",
@@ -188,7 +175,7 @@
   },
   "2MDn": {
     "title": "Gnosia",
-    "cover": "gnosia-31f1433d52",
+    "cover": "gnosia-b259564275",
     "studio": "Domerica",
     "source": "Video Game",
     "genres": [
@@ -264,7 +251,7 @@
   },
   "sFgS": {
     "title": "Kikaijikake no Marie",
-    "cover": "kikaijikake-no-marie-65a71b1706",
+    "cover": "kikaijikake-no-marie-fdf2a852f9",
     "studio": "Liber",
     "source": "Manga",
     "genres": [
@@ -344,7 +331,7 @@
   },
   "ajvl": {
     "title": "Nageki no Bourei wa Intai shitai 2nd Season",
-    "cover": "nageki-no-bourei-wa-intai-shitai-2nd-season-0c4192be66",
+    "cover": "nageki-no-bourei-wa-intai-shitai-2nd-season-350aebb7f0",
     "studio": "Zero-G",
     "source": "Light Novel",
     "genres": [
@@ -430,9 +417,10 @@
   "a9l7": {
     "title": "SI-VIS: The Sound of Heroes",
     "cover": "si-vis-the-sound-of-heroes-61ae5d7fcd",
-    "studio": "N/A",
+    "studio": "Studio VOLN",
     "source": "Original",
     "genres": [
+      "Action",
       "Music",
       "Superpower"
     ]
@@ -474,16 +462,6 @@
       "Supernatural"
     ]
   },
-  "ph4l": {
-    "title": "Shibuya\u2661Hachi Part 4",
-    "cover": "shibuya-hachi-part-4-5693dc9cdc",
-    "studio": "Nippon Animation",
-    "source": "Other",
-    "genres": [
-      "Comedy",
-      "Slice of Life"
-    ]
-  },
   "A9pa": {
     "title": "Shinjiteita Nakama-tachi ni Dungeon Okuchi de Korosarekaketa ga Gift \"Mugen Gacha\" de Level 9999 no Nakama-tachi wo Te ni Irete Moto Party Member to Sekai ni Fukushuu & \"Zamaa!\" Shimasu!",
     "cover": "shinjiteita-nakama-tachi-ni-dungeon-okuchi-de-korosarekaketa-ga-gift-mugen-gacha-de-level-9999-no-nakama-tachi-wo-te-ni-irete-moto-party-member-to-sekai-ni-fukushuu-and-zamaa-shimasu-fce530175b",
@@ -497,7 +475,7 @@
   },
   "8OQM": {
     "title": "Shuumatsu Touring",
-    "cover": "shuumatsu-touring-0e24c8bd0c",
+    "cover": "shuumatsu-touring-56826fcccb",
     "studio": "Nexus",
     "source": "Manga",
     "genres": [
@@ -509,7 +487,7 @@
   },
   "Ua7I": {
     "title": "Souzai Saishuka no Isekai Ryokouki",
-    "cover": "souzai-saishuka-no-isekai-ryokouki-345a7bc94c",
+    "cover": "souzai-saishuka-no-isekai-ryokouki-cece308ed9",
     "studio": "SynergySP",
     "source": "Light Novel",
     "genres": [
@@ -566,6 +544,17 @@
       "Comedy",
       "Fantasy",
       "Isekai"
+    ]
+  },
+  "4FMh": {
+    "title": "Toujima Tanzaburou wa Kamen Rider ni Naritai",
+    "cover": "toujima-tanzaburou-wa-kamen-rider-ni-naritai-f36e1a1d2d",
+    "studio": "LIDENFILMS",
+    "source": "Manga",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Superpower"
     ]
   },
   "fuGv": {
