@@ -1,4 +1,14 @@
 {
+  "A42s": {
+    "title": "#Kanagawa ni Sunderu Elf",
+    "cover": "kanagawa-ni-sunderu-elf-598b4ed144",
+    "studio": "Imageworks Studio",
+    "source": "Manga",
+    "genres": [
+      "Comedy",
+      "Fantasy"
+    ]
+  },
   "GpMb": {
     "title": "3-nen Z-gumi Ginpachi-sensei",
     "cover": "3-nen-z-gumi-ginpachi-sensei-1d7e9be835",
@@ -57,7 +67,7 @@
   },
   "Eh9X": {
     "title": "Boku no Hero Academia: Final Season",
-    "cover": "boku-no-hero-academia-final-season-c35b04140b",
+    "cover": "boku-no-hero-academia-final-season-0c1c431dcd",
     "studio": "BONES FILM",
     "source": "Manga",
     "genres": [
@@ -70,7 +80,7 @@
   },
   "q8or": {
     "title": "Bukiyou na Senpai.",
-    "cover": "bukiyou-na-senpai-a1a899aa36",
+    "cover": "bukiyou-na-senpai-592a3b2f0a",
     "studio": "Studio elle",
     "source": "Manga",
     "genres": [
@@ -126,15 +136,16 @@
     ]
   },
   "zTms": {
-    "title": "Digimon Beatbreak",
+    "title": "Digimon BeatBreak",
     "cover": "digimon-beatbreak-1c84cfe92a",
-    "studio": "N/A",
+    "studio": "Toei Animation",
     "source": "Original",
     "genres": [
       "Action",
       "Adventure",
       "Comedy",
-      "Fantasy"
+      "Fantasy",
+      "Sci-Fi"
     ]
   },
   "3P1h": {
@@ -185,21 +196,9 @@
       "Thriller"
     ]
   },
-  "AhZ3": {
-    "title": "Isekai Munchkin: HP1 no Mama de Saikyou Saisoku Dungeon Kouryaku",
-    "cover": "isekai-munchkin-hp1-no-mama-de-saikyou-saisoku-dungeon-kouryaku-f454eb4528",
-    "studio": "Durandal",
-    "source": "Web Manga",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy",
-      "Isekai"
-    ]
-  },
   "LQcT": {
     "title": "Kagaku x Bouken Survival! 2nd Season",
-    "cover": "kagaku-x-bouken-survival-2nd-season-f6c379c5ec",
+    "cover": "kagaku-x-bouken-survival-2nd-season-ad696a3599",
     "studio": "Studio Gallop",
     "source": "Manga",
     "genres": [
@@ -210,7 +209,7 @@
   },
   "Za57": {
     "title": "Kakuriyo no Yadomeshi 2",
-    "cover": "kakuriyo-no-yadomeshi-2-031328ff2d",
+    "cover": "kakuriyo-no-yadomeshi-2-8fab4b0396",
     "studio": "GONZO",
     "source": "Light Novel",
     "genres": [
@@ -223,7 +222,7 @@
   },
   "TS8o": {
     "title": "Kao ni Denai Kashiwada-san to Kao ni Deru Oota-kun",
-    "cover": "kao-ni-denai-kashiwada-san-to-kao-ni-deru-oota-kun-009581d3b4",
+    "cover": "kao-ni-denai-kashiwada-san-to-kao-ni-deru-oota-kun-52511e3377",
     "studio": "STUDIO POLON",
     "source": "Web Manga",
     "genres": [
@@ -286,18 +285,19 @@
     ]
   },
   "fnDs": {
-    "title": "Let's Play: Quest-darake no My Life",
-    "cover": "lets-play-325e794ba1",
+    "title": "Let\u2019s Play: Quest Darake no My Life",
+    "cover": "lets-play-0752374bec",
     "studio": "OLM",
     "source": "Web Manga",
     "genres": [
       "Comedy",
-      "Romance"
+      "Romance",
+      "Slice of Life"
     ]
   },
   "TsbZ": {
     "title": "Mikata ga Yowasugite Hojo Mahou ni Tesshiteita Kyuutei Mahoushi, Tsuihou sarete Saikyou wo Mezashimasu",
-    "cover": "mikata-ga-yowasugite-hojo-mahou-ni-tesshiteita-kyuutei-mahoushi-tsuihou-sarete-saikyou-wo-mezashimasu-4472968159",
+    "cover": "mikata-ga-yowasugite-hojo-mahou-ni-tesshiteita-kyuutei-mahoushi-tsuihou-sarete-saikyou-wo-mezashimasu-9f95756962",
     "studio": "Gekkou",
     "source": "Light Novel",
     "genres": [
@@ -311,7 +311,7 @@
     "title": "Monster Strike: Deadverse Reloaded",
     "cover": "monster-strike-deadverse-reloaded-f349335300",
     "studio": "Yumeta Company",
-    "source": "Game",
+    "source": "Video Game",
     "genres": [
       "Action",
       "Fantasy"
@@ -343,7 +343,7 @@
   },
   "BBy7": {
     "title": "Ninja to Gokudou",
-    "cover": "ninja-to-gokudou-a791326a4c",
+    "cover": "ninja-to-gokudou-f44fd768bb",
     "studio": "Studio DEEN",
     "source": "Web Manga",
     "genres": [
@@ -352,9 +352,19 @@
       "Martial Arts"
     ]
   },
+  "l64Y": {
+    "title": "Nohara Hiroshi: Hiru Meshi no Ryuugi",
+    "cover": "nohara-hiroshi-hiru-meshi-no-ryuugi-954731d55d",
+    "studio": "DLE",
+    "source": "Manga",
+    "genres": [
+      "Comedy",
+      "Slice of Life"
+    ]
+  },
   "2Rc6": {
     "title": "One Punch Man 3",
-    "cover": "one-punch-man-3-7243d9cfca",
+    "cover": "one-punch-man-3-2603cd8793",
     "studio": "J.C. Staff",
     "source": "Manga",
     "genres": [
@@ -379,7 +389,7 @@
   },
   "H7wb": {
     "title": "Potion, Wagami wo Tasukeru",
-    "cover": "potion-wagami-wo-tasukeru-57e322f5bf",
+    "cover": "potion-wagami-wo-tasukeru-8661649b88",
     "studio": "Imageworks Studio",
     "source": "Light Novel",
     "genres": [
@@ -389,7 +399,7 @@
   },
   "kguJ": {
     "title": "Ranma \u00bd (2024) 2nd Season",
-    "cover": "ranma-2024-2nd-season-a8fe370f44",
+    "cover": "ranma-2024-2nd-season-aa61dff3ba",
     "studio": "MAPPA",
     "source": "Manga",
     "genres": [
@@ -404,7 +414,7 @@
   },
   "zIKJ": {
     "title": "SANDA",
-    "cover": "poster-21fa193001",
+    "cover": "sanda-75dc7c6a95",
     "studio": "Science SARU",
     "source": "Manga",
     "genres": [
@@ -463,7 +473,7 @@
     ]
   },
   "A9pa": {
-    "title": "Shinjiteita Nakama-tachi ni Dungeon Okuchi de Korosarekaketa ga Gift \"Mugen Gacha\" de Level 9999 no Nakama-tachi wo Te ni Irete Moto Party Member to Sekai ni Fukushuu & \"Zamaa!\" Shimasu!",
+    "title": "Shinjiteita Nakamatachi ni Dungeon Okuchi de Korosarekaketa ga Gift \"Mugen Gacha\" de Level 9999 no Nakamatachi wo Te ni Irete Moto Party Member to Sekai ni Fukushuu & \"Zamaa!\" Shimasu!",
     "cover": "shinjiteita-nakama-tachi-ni-dungeon-okuchi-de-korosarekaketa-ga-gift-mugen-gacha-de-level-9999-no-nakama-tachi-wo-te-ni-irete-moto-party-member-to-sekai-ni-fukushuu-and-zamaa-shimasu-fce530175b",
     "studio": "J.C. Staff",
     "source": "Light Novel",
@@ -524,7 +534,7 @@
   },
   "pS4P": {
     "title": "Tomodachi no Imouto ga Ore ni dake Uzai",
-    "cover": "tomodachi-no-imouto-ga-ore-ni-dake-uzai-4656b9898c",
+    "cover": "tomodachi-no-imouto-ga-ore-ni-dake-uzai-4d5962cdc5",
     "studio": "BLADE",
     "source": "Light Novel",
     "genres": [
@@ -548,7 +558,7 @@
   },
   "4FMh": {
     "title": "Toujima Tanzaburou wa Kamen Rider ni Naritai",
-    "cover": "toujima-tanzaburou-wa-kamen-rider-ni-naritai-f36e1a1d2d",
+    "cover": "toujima-tanzaburou-wa-kamen-rider-ni-naritai-6f640793ae",
     "studio": "LIDENFILMS",
     "source": "Manga",
     "genres": [
@@ -563,24 +573,25 @@
     "studio": "P.A. Works",
     "source": "Original",
     "genres": [
+      "Action",
+      "Drama",
       "Romance",
       "Sci-Fi"
     ]
   },
   "vrVB": {
     "title": "Uma Musume: Cinderella Gray Part 2",
-    "cover": "uma-musume-cinderella-gray-part-2-9740a6a287",
+    "cover": "uma-musume-cinderella-gray-part-2-51f1ff64be",
     "studio": "CygamesPictures",
     "source": "Manga",
     "genres": [
       "Drama",
-      "Seinen",
       "Sports"
     ]
   },
   "EscW": {
     "title": "Watashi wo Tabetai, Hitodenashi",
-    "cover": "watashi-wo-tabetai-hitodenashi-ada371eebc",
+    "cover": "watashi-wo-tabetai-hitodenashi-699fa1d098",
     "studio": "Studio Lings",
     "source": "Manga",
     "genres": [
@@ -616,14 +627,15 @@
   },
   "os31": {
     "title": "Yasei no Last Boss ga Arawareta!",
-    "cover": "yasei-no-last-boss-ga-arawareta-cfa69bd6e5",
+    "cover": "yasei-no-last-boss-ga-arawareta-78bde1dcb2",
     "studio": "WAO World",
     "source": "Light Novel",
     "genres": [
       "Action",
       "Adventure",
       "Fantasy",
-      "Isekai"
+      "Isekai",
+      "Magic"
     ]
   }
 }
