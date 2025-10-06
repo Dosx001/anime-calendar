@@ -199,6 +199,8 @@ class Shows:
         return self.driver.find_element(By.TAG_NAME, "h1").text
 
     def crunchyroll(self, url: str) -> str | None:
+        if url == "https://www.crunchyroll.com/":
+            return None
         self.driver.get(url)
         sleep(1)
         try:
@@ -254,6 +256,8 @@ class Shows:
                 sleep(0.1)
 
     def hulu(self, url: str) -> str | None:
+        if url == "https://www.hulu.com/hub/anime":
+            return None
         self.driver.get(url)
         self.driver.find_element(By.CLASS_NAME, "nav__items").find_elements(
             By.TAG_NAME, "a"
