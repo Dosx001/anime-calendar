@@ -128,14 +128,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GDKHZEJJQ/you-and-idol-precure-"
     }
   },
-  "bSiC": {
-    "title": "PetitCure: Precure Fairies",
-    "day": 4,
-    "time": "2:30 AM",
-    "cover": "petitcure-precure-fairies-b63a76bf96",
-    "streams": {},
-    "status": true
-  },
   "a5ez": {
     "title": "Prinsession Orchestra",
     "day": 6,
@@ -203,6 +195,7 @@
     "time": "9:00 AM",
     "cover": "souzai-saishuka-no-isekai-ryokouki-cece308ed9",
     "streams": {
+      "Apple": "https://apple.co/48NPMwD",
       "BiliBili TV": "https://www.bilibili.tv/en/media/2247354",
       "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV0G7/a-gatherers-adventure-in-isekai",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl15GuyNnaoSrjuBATA-sA3R"
@@ -214,16 +207,9 @@
     "time": "10:35 AM",
     "cover": "yano-kun-no-futsuu-no-hibi-526c3af7de",
     "streams": {
+      "Apple": "https://apple.co/3IVRce5",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00362335/yano-kuns-ordinary-days"
     }
-  },
-  "UAJE": {
-    "title": "Zhege Nianji Huan Neng Dang Daxia Ma 2nd Season",
-    "day": 2,
-    "time": "7:00 PM",
-    "cover": "poster-21fa193001",
-    "streams": {},
-    "status": true
   },
   "Uh9a": {
     "title": "Hero Without a Class: Who Even Needs Skills?!",
@@ -231,6 +217,7 @@
     "time": "6:01 AM",
     "cover": "mushoku-no-eiyuu-betsu-ni-skill-nanka-ira-nakkatan-daga-f7b091b74a",
     "streams": {
+      "Apple": "https://apple.co/48NfAZS",
       "BiliBili TV": "https://www.bilibili.tv/media/2247104",
       "HiDive": "https://www.hidive.com/season/32819?seriesId=3552",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jg4B_E2Pp7_q0KZB1IKF_US"
@@ -243,6 +230,7 @@
     "cover": "kakuriyo-no-yadomeshi-2-8fab4b0396",
     "streams": {
       "Amazon": "https://www.amazon.com/dp/B0FP2CZ4M4",
+      "Apple": "https://apple.co/4mWbJxd",
       "Crunchyroll": "https://www.crunchyroll.com/series/G6MEK1ZGR/kakuriyo--bed--breakfast-for-spirits-"
     }
   },
@@ -252,6 +240,7 @@
     "time": "9:15 AM",
     "cover": "lets-play-0752374bec",
     "streams": {
+      "Apple": "https://apple.co/3KBhnHw",
       "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W2N9/lets-play"
     }
   },
@@ -272,6 +261,7 @@
     "time": "7:00 AM",
     "cover": "bukiyou-na-senpai-592a3b2f0a",
     "streams": {
+      "Apple": "https://apple.co/42u4gy1",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00365233/my-awkward-senpai"
     }
   },
@@ -289,7 +279,8 @@
     "time": "8:56 AM",
     "cover": "taiyou-yori-mo-mabushii-hoshi-7ca2a92dc8",
     "streams": {
-      "Amazon": "https://www.amazon.com/dp/B0FN3Y6LC2"
+      "Amazon": "https://www.amazon.com/dp/B0FN3Y6LC2",
+      "Apple": "https://apple.co/4nBuFlH"
     },
     "status": true
   },
@@ -299,6 +290,7 @@
     "time": "7:30 AM",
     "cover": "watashi-wo-tabetai-hitodenashi-699fa1d098",
     "streams": {
+      "Apple": "https://apple.co/3KBCFVq",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00362279/this-monster-wants-to-eat-me"
     }
   },
@@ -308,6 +300,7 @@
     "time": "8:56 AM",
     "cover": "towa-no-yuugure-c3f835851a",
     "streams": {
+      "Apple": "https://apple.co/470cRd3",
       "HiDive": "https://www.hidive.com/season/32844",
       "YouTube": "https://www.youtube.com/watch?v=GHBXUF7HpEE&list=PLbuF5Onrcu9dnocvFWvfHkBTiOFA4X3Nw"
     }
@@ -318,6 +311,7 @@
     "time": "10:00 AM",
     "cover": "saigo-ni-hitotsu-dake-onegai-shitemo-yoroshii-deshou-ka-694e8917c3",
     "streams": {
+      "Apple": "https://apple.co/4nOjTJ5",
       "BiliBili TV": "https://www.bilibili.tv/en/media/2246667",
       "Crunchyroll": "https://www.crunchyroll.com/series/GW4HM7WQ5/may-i-ask-for-one-final-thing"
     }
@@ -328,6 +322,7 @@
     "time": "8:00 AM",
     "cover": "shinjiteita-nakama-tachi-ni-dungeon-okuchi-de-korosarekaketa-ga-gift-mugen-gacha-de-level-9999-no-nakama-tachi-wo-te-ni-irete-moto-party-member-to-sekai-ni-fukushuu-and-zamaa-shimasu-fce530175b",
     "streams": {
+      "Apple": "https://apple.co/48eUELb",
       "BiliBili TV": "https://www.bilibili.tv/en/media/2246246",
       "HiDive": "https://www.hidive.com/season/33099",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1gBwBsgwk8WFIcWW_YatlT"
@@ -349,7 +344,8 @@
     "time": "10:53 AM",
     "cover": "sanda-75dc7c6a95",
     "streams": {
-      "Amazon": "https://amazon.com/dp/B0FMQQP92B"
+      "Amazon": "https://amazon.com/dp/B0FMQQP92B",
+      "Apple": "https://apple.co/4nEaFPv"
     },
     "status": true
   },
@@ -359,6 +355,7 @@
     "time": "9:00 AM",
     "cover": "shabake-2025-3fb2be42cc",
     "streams": {
+      "Apple": "https://apple.co/3VSVQwh",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00362195/shabake"
     }
   },
@@ -368,6 +365,7 @@
     "time": "2:30 AM",
     "cover": "boku-no-hero-academia-final-season-0c1c431dcd",
     "streams": {
+      "Apple": "https://apple.co/42oLfgo",
       "BiliBili TV": "https://www.bilibili.tv/en/media/2247677",
       "Crunchyroll": "https://www.crunchyroll.com/series/G6NQ5DWZ6/my-hero-academia",
       "Hulu": "https://www.hulu.com/series/my-hero-academia-b4859a95-39ba-4051-a550-256c42e70a1d",
@@ -380,6 +378,7 @@
     "time": "8:45 AM",
     "cover": "fumetsu-no-anata-e-3-cb2f2400ca",
     "streams": {
+      "Apple": "https://apple.co/46QhiqQ",
       "BiliBili TV": "https://www.bilibili.tv/en/media/2247882",
       "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XMWV/to-your-eternity"
     }
@@ -390,6 +389,7 @@
     "time": "8:00 AM",
     "cover": "mikata-ga-yowasugite-hojo-mahou-ni-tesshiteita-kyuutei-mahoushi-tsuihou-sarete-saikyou-wo-mezashimasu-9f95756962",
     "streams": {
+      "Apple": "https://apple.co/48ezmxd",
       "BiliBili TV": "https://www.bilibili.tv/en/media/2246848",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00364918/the-banished-court-magician-aims-to-become-the-strongest",
       "YouTube": "https://youtube.com/playlist?list=PLxSscENEp7JjE60E-VU9vG2WX5y73ONWG&si=hvN1TPwrFHs-drF5"
@@ -401,6 +401,7 @@
     "time": "8:00 AM",
     "cover": "spy-x-family-season-3-4a19585b1c",
     "streams": {
+      "Apple": "https://apple.co/4pW2aAU",
       "BiliBili TV": "https://www.bilibili.tv/en/media/2246006",
       "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WXVJ/spy-x-family",
       "Hulu": "https://www.hulu.com/series/65d158d4-443f-44c7-bd2c-eae39f6c60e9",
@@ -413,6 +414,7 @@
     "time": "6:00 AM",
     "cover": "kekkon-yubiwa-monogatari-2nd-season-4a1263c07f",
     "streams": {
+      "Apple": "https://apple.co/3KIiKE9",
       "BiliBili TV": "https://www.bilibili.tv/en/media/2246108",
       "Crunchyroll": "https://www.crunchyroll.com/series/G79H23ZGP/tales-of-wedding-rings",
       "YouTube": "https://youtube.com/playlist?list=PLxSscENEp7JhiANaVNyhX1BNijjLOvdbC&si=lLqzKMOMOMpgKe-w"
@@ -434,6 +436,7 @@
     "time": "6:00 AM",
     "cover": "kao-ni-denai-kashiwada-san-to-kao-ni-deru-oota-kun-52511e3377",
     "streams": {
+      "Apple": "https://apple.co/47ctiUW",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00362007/inexpressive-kashiwada-and-expressive-oota"
     }
   },
@@ -443,19 +446,10 @@
     "time": "8:00 PM",
     "cover": "digimon-beatbreak-1c84cfe92a",
     "streams": {
+      "Apple": "https://apple.co/46H4d4p",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00364378/digimon-beatbreak",
       "Hulu": "https://www.hulu.com/series/4c47f9ab-f6b8-45ec-8fb9-fbd5ed1a5529"
     }
-  },
-  "UDbW": {
-    "title": "Dungeons & Television",
-    "day": 6,
-    "time": "5:00 AM",
-    "cover": "dungeons-and-television-db2abadf8e",
-    "streams": {
-      "YouTube": "https://www.youtube.com/playlist?list=PLNvIaLeDfXreaIapXT3eOYjgB5bVcnYC_"
-    },
-    "status": true
   },
   "ibqT": {
     "title": "Kingdom",
@@ -463,6 +457,7 @@
     "time": "11:35 AM",
     "cover": "kingdom-6th-season-f0b4f55629",
     "streams": {
+      "Apple": "https://apple.co/3IwpC7a",
       "Crunchyroll": "https://www.crunchyroll.com/series/GRWE89KMR/kingdom"
     }
   },
@@ -472,6 +467,7 @@
     "time": "9:00 AM",
     "cover": "shuumatsu-touring-56826fcccb",
     "streams": {
+      "Apple": "https://apple.co/48jT8HM",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00364667/touring-after-the-apocalypse"
     }
   },
@@ -489,6 +485,7 @@
     "time": "7:00 PM",
     "cover": "si-vis-the-sound-of-heroes-61ae5d7fcd",
     "streams": {
+      "Apple": "https://apple.co/47dvgnV",
       "BiliBili TV": "https://www.bilibili.tv/en/media/2247441",
       "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WJ8V/si-vis-the-sound-of-heroes"
     }
@@ -499,6 +496,7 @@
     "time": "10:00 AM",
     "cover": "toujima-tanzaburou-wa-kamen-rider-ni-naritai-6f640793ae",
     "streams": {
+      "Apple": "https://apple.co/48imlCT",
       "BiliBili TV": "https://www.bilibili.tv/en/media/2246609",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00364945/tojima-wants-to-be-a-kamen-rider"
     }
@@ -509,15 +507,17 @@
     "time": "7:00 AM",
     "cover": "yasei-no-last-boss-ga-arawareta-78bde1dcb2",
     "streams": {
+      "Apple": "https://apple.co/4h2AxSL",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00361955/a-wild-last-boss-appeared"
     }
   },
   "2Rqa": {
     "title": "Dad is a hero, Mom is a spirit, I'm a reincarnator",
     "day": 7,
-    "time": "7:30 AM",
+    "time": "8:30 AM",
     "cover": "chichi-wa-eiyuu-haha-wa-seirei-musume-no-watashi-wa-tenseisha-d3709cf4c4",
     "streams": {
+      "Apple": "https://apple.co/3WrIvLA",
       "BiliBili TV": "https://www.bilibili.tv/en/media/2247557",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00364479",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jiu6HlKwcOdoXw3VczOGSw-"
@@ -529,6 +529,7 @@
     "time": "7:00 AM",
     "cover": "kikaijikake-no-marie-fdf2a852f9",
     "streams": {
+      "Apple": "https://apple.co/46P8nHz",
       "BiliBili TV": "https://www.bilibili.tv/en/media/2247986",
       "Crunchyroll": "https://www.crunchyroll.com/series/G79H23ZJ9/mechanical-marie",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jj3kkVKI2haLNIppBzxBXve"
@@ -540,13 +541,14 @@
     "time": "7:30 AM",
     "cover": "alma-chan-wa-kazoku-ni-naritai-5ae8b2cf35",
     "streams": {
+      "Apple": "https://apple.co/48kfzwi",
       "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3GZJ/alma-chan-wants-to-be-a-family"
     }
   },
   "Vpx7": {
     "title": "Ao no Orchestra 2nd Season",
     "day": 7,
-    "time": "1:00 AM",
+    "time": "3:00 PM",
     "cover": "ao-no-orchestra-2nd-season-7d50383b85",
     "streams": {},
     "status": true
@@ -563,59 +565,71 @@
     }
   },
   "EXvW": {
-    "title": "Ansatsusha de Aru Ore no Status ga Yuusha yori mo Akiraka ni Tsuyoi no da ga",
+    "title": "My Status as an Assassin Obviously Exceeds the Hero's",
     "day": 1,
-    "time": "9:30 AM",
+    "time": "10:00 AM",
     "cover": "ansatsusha-de-aru-ore-no-status-ga-yuusha-yori-mo-akiraka-ni-tsuyoi-no-da-ga-94f34d35de",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4o6XeYg",
+      "BiliBili TV": "https://www.bilibili.tv/en/media/2246476",
+      "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM1JP/my-status-as-an-assassin-obviously-exceeds-the-heros",
+      "Netflix": "https://www.netflix.com/title/82159136",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0dSCBzzknNWxuXuMJ0xwmk"
+    }
   },
   "a19J": {
-    "title": "Egao no Taenai Shokuba desu.",
+    "title": "A Mangaka\u2019s Weirdly Wonderful Workplace",
     "day": 1,
     "time": "6:00 AM",
-    "cover": "egao-no-taenai-shokuba-desu-7f5aa50a52",
+    "cover": "egao-no-taenai-shokuba-desu-28a99d6716",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/"
-    },
-    "status": true
+      "Apple": "https://apple.co/4o5hKs2",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00361926/a-mangakas-weirdly-wonderful-workplace"
+    }
   },
   "GpMb": {
-    "title": "3-nen Z-gumi Ginpachi-sensei",
+    "title": "Gintama: Mr. Ginpachi's Zany Class",
     "day": 1,
-    "time": "7:00 PM",
-    "cover": "3-nen-z-gumi-ginpachi-sensei-1d7e9be835",
+    "time": "9:00 AM",
+    "cover": "3-nen-z-gumi-ginpachi-sensei-8d390567b6",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/"
-    },
-    "status": true
+      "BiliBili TV": "https://www.bilibili.tv/en/media/2247821",
+      "Crunchyroll": "https://www.crunchyroll.com/",
+      "Hulu": "https://www.hulu.com/series/67757c50-057c-4503-ba0e-6a826590db65"
+    }
   },
   "EVTt": {
     "title": "Plus-sized Misadventures in Love!",
     "day": 1,
-    "time": "7:00 AM",
+    "time": "8:00 AM",
     "cover": "debu-to-love-to-ayamachi-to-2f0e014906",
     "streams": {
+      "Apple": "https://apple.co/3IykCin",
       "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN9QGG/plus-sized-misadventures-in-love"
     }
   },
   "fnEH": {
-    "title": "Chitose-kun wa Ramune Bin no Naka",
+    "title": "Chitose Is in the Ramune Bottle",
     "day": 2,
-    "time": "2:00 AM",
+    "time": "3:30 AM",
     "cover": "chitose-kun-wa-ramune-bin-no-naka-95713a2f64",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/"
-    },
-    "status": true
+      "Apple": "https://apple.co/48SSjWk",
+      "BiliBili TV": "https://www.bilibili.tv/en/media/2247268",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00364783/chitose-is-in-the-ramune-bottle",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jgz0nvNyM-z3UVzYpGY70Et"
+    }
   },
   "2IEs": {
     "title": "Campfire Cooking in Another World with My Absurd Skill",
     "day": 2,
-    "time": "8:00 AM",
+    "time": "8:30 AM",
     "cover": "tondemo-skill-de-isekai-hourou-meshi-2nd-season-67eac52f73",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5X3EE/campfire-cooking-in-another-world-with-my-absurd-skill"
+      "Apple": "https://apple.co/48Scsf9",
+      "BiliBili TV": "https://www.bilibili.tv/en/media/2245896",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5X3EE/campfire-cooking-in-another-world-with-my-absurd-skill",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0HK0kxwDBy96LKoNFa8Qnt"
     }
   },
   "BBy7": {
@@ -624,7 +638,8 @@
     "time": "10:30 AM",
     "cover": "ninja-to-gokudou-f44fd768bb",
     "streams": {
-      "Amazon": "https://www.amazon.com/dp/B0FNV7LF55"
+      "Amazon": "https://www.amazon.com/dp/B0FNV7LF55",
+      "Apple": "https://apple.co/3WrAxlB"
     },
     "status": true
   },
@@ -632,7 +647,7 @@
     "title": "The Dark History of the Reincarnated Villainess",
     "day": 3,
     "time": "8:00 AM",
-    "cover": "tensei-akujo-no-kuro-rekishi-d910523d30",
+    "cover": "tensei-akujo-no-kuro-rekishi-2fe450e1f4",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQZQ/the-dark-history-of-the-reincarnated-villainess"
     }
@@ -641,17 +656,15 @@
     "title": "WonDance",
     "day": 3,
     "time": "7:45 AM",
-    "cover": "wondance-fad9ab79b6",
-    "streams": {
-      "Hulu": "https://www.hulu.com/hub/anime"
-    },
+    "cover": "wondance-7b042917e2",
+    "streams": {},
     "status": true
   },
   "ajvl": {
     "title": "Let This Grieving Soul Retire",
     "day": 6,
     "time": "8:30 AM",
-    "cover": "nageki-no-bourei-wa-intai-shitai-2nd-season-350aebb7f0",
+    "cover": "nageki-no-bourei-wa-intai-shitai-2nd-season-9f70e7c549",
     "streams": {
       "BiliBili TV": "https://www.bilibili.tv/en/media/2116038",
       "Crunchyroll": "https://www.crunchyroll.com/series/GZJH3D8J9/let-this-grieving-soul-retire",
@@ -664,6 +677,7 @@
     "time": "10:30 AM",
     "cover": "tomodachi-no-imouto-ga-ore-ni-dake-uzai-4d5962cdc5",
     "streams": {
+      "Apple": "https://apple.co/3KzUW5z",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00364756"
     }
   },
@@ -671,10 +685,8 @@
     "title": "Gnosia",
     "day": 6,
     "time": "8:00 AM",
-    "cover": "gnosia-b259564275",
-    "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/"
-    },
+    "cover": "gnosia-13d6f000ed",
+    "streams": {},
     "status": true
   },
   "2Rc6": {
@@ -690,6 +702,30 @@
     "day": 7,
     "time": "7:30 AM",
     "cover": "chanto-suenai-kyuuketsuki-chan-5f725edeb7",
+    "streams": {},
+    "status": true
+  },
+  "QXyb": {
+    "title": "Koala Enikki",
+    "day": 4,
+    "time": "4:00 AM",
+    "cover": "koala-enikki-cdd7e50f2d",
+    "streams": {},
+    "status": true
+  },
+  "NnCA": {
+    "title": "PetitCure: Precure Fairies 2nd Season",
+    "day": 4,
+    "time": "2:30 AM",
+    "cover": "petitcure-precure-fairies-2nd-season-f30af73fe5",
+    "streams": {},
+    "status": true
+  },
+  "cdg8": {
+    "title": "Oshiri Tantei 9 Part 2",
+    "day": 5,
+    "time": "5:00 PM",
+    "cover": "oshiri-tantei-9-part-2-7e5976b836",
     "streams": {},
     "status": true
   }

@@ -6,12 +6,13 @@
     "source": "Manga",
     "genres": [
       "Comedy",
-      "Fantasy"
+      "Fantasy",
+      "Slice of Life"
     ]
   },
   "GpMb": {
     "title": "3-nen Z-gumi Ginpachi-sensei",
-    "cover": "3-nen-z-gumi-ginpachi-sensei-1d7e9be835",
+    "cover": "3-nen-z-gumi-ginpachi-sensei-8d390567b6",
     "studio": "Bandai Namco Pictures",
     "source": "Light Novel",
     "genres": [
@@ -163,7 +164,7 @@
   },
   "a19J": {
     "title": "Egao no Taenai Shokuba desu.",
-    "cover": "egao-no-taenai-shokuba-desu-7f5aa50a52",
+    "cover": "egao-no-taenai-shokuba-desu-28a99d6716",
     "studio": "Voil",
     "source": "Web Manga",
     "genres": [
@@ -186,7 +187,7 @@
   },
   "2MDn": {
     "title": "Gnosia",
-    "cover": "gnosia-b259564275",
+    "cover": "gnosia-13d6f000ed",
     "studio": "Domerica",
     "source": "Video Game",
     "genres": [
@@ -331,7 +332,7 @@
   },
   "ajvl": {
     "title": "Nageki no Bourei wa Intai shitai 2nd Season",
-    "cover": "nageki-no-bourei-wa-intai-shitai-2nd-season-350aebb7f0",
+    "cover": "nageki-no-bourei-wa-intai-shitai-2nd-season-9f70e7c549",
     "studio": "Zero-G",
     "source": "Light Novel",
     "genres": [
@@ -511,7 +512,7 @@
   },
   "EJUx": {
     "title": "Tensei Akujo no Kuro Rekishi",
-    "cover": "tensei-akujo-no-kuro-rekishi-d910523d30",
+    "cover": "tensei-akujo-no-kuro-rekishi-2fe450e1f4",
     "studio": "Studio DEEN",
     "source": "Manga",
     "genres": [
@@ -594,7 +595,7 @@
   },
   "wFHb": {
     "title": "WonDance",
-    "cover": "wondance-fad9ab79b6",
+    "cover": "wondance-7b042917e2",
     "studio": "Cyclone Graphics",
     "source": "Manga",
     "genres": [
