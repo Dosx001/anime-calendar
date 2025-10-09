@@ -570,10 +570,8 @@
     "time": "10:00 AM",
     "cover": "ansatsusha-de-aru-ore-no-status-ga-yuusha-yori-mo-akiraka-ni-tsuyoi-no-da-ga-94f34d35de",
     "streams": {
-      "Apple": "https://apple.co/4o6XeYg",
       "BiliBili TV": "https://www.bilibili.tv/en/media/2246476",
       "Crunchyroll": "https://www.crunchyroll.com/series/G0XHWM1JP/my-status-as-an-assassin-obviously-exceeds-the-heros",
-      "Netflix": "https://www.netflix.com/title/82159136",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0dSCBzzknNWxuXuMJ0xwmk"
     }
   },
@@ -614,7 +612,6 @@
     "time": "3:30 AM",
     "cover": "chitose-kun-wa-ramune-bin-no-naka-95713a2f64",
     "streams": {
-      "Apple": "https://apple.co/48SSjWk",
       "BiliBili TV": "https://www.bilibili.tv/en/media/2247268",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00364783/chitose-is-in-the-ramune-bottle",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jgz0nvNyM-z3UVzYpGY70Et"
@@ -646,19 +643,24 @@
   "EJUx": {
     "title": "The Dark History of the Reincarnated Villainess",
     "day": 3,
-    "time": "8:00 AM",
+    "time": "9:00 AM",
     "cover": "tensei-akujo-no-kuro-rekishi-2fe450e1f4",
     "streams": {
+      "Apple": "https://apple.co/46IQ5Yh",
+      "BiliBili TV": "https://www.bilibili.tv/en/media/2246336",
       "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQZQ/the-dark-history-of-the-reincarnated-villainess"
     }
   },
   "wFHb": {
-    "title": "WonDance",
+    "title": "Wandance",
     "day": 3,
-    "time": "7:45 AM",
+    "time": "8:15 AM",
     "cover": "wondance-7b042917e2",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4h37uhJ",
+      "Disney+": "https://www.disneyplus.com/browse/entity-8019edc8-5f73-4c70-88eb-02ea35f724d4",
+      "Hulu": "https://www.hulu.com/series/3da4e677-9efe-4c21-b726-be734889b151"
+    }
   },
   "ajvl": {
     "title": "Let This Grieving Soul Retire",
@@ -708,9 +710,11 @@
   "QXyb": {
     "title": "Koala Enikki",
     "day": 4,
-    "time": "4:00 AM",
+    "time": "4:01 AM",
     "cover": "koala-enikki-cdd7e50f2d",
-    "streams": {},
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jg8-ovZUfZSZYidXFSwIpA9"
+    },
     "status": true
   },
   "NnCA": {
@@ -718,7 +722,9 @@
     "day": 4,
     "time": "2:30 AM",
     "cover": "petitcure-precure-fairies-2nd-season-f30af73fe5",
-    "streams": {},
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLq34MZPUzQ9mGMf3-p798NI3FNNROkDMR"
+    },
     "status": true
   },
   "cdg8": {
