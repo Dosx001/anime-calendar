@@ -13,7 +13,7 @@
   "urTI": {
     "title": "One Piece",
     "day": 7,
-    "time": "8:45 AM",
+    "time": "9:00 AM",
     "cover": "one-piece-f2f2a983a8",
     "streams": {
       "Apple": "https://apple.co/3Qfhg3W",
@@ -268,8 +268,8 @@
   },
   "l64Y": {
     "title": "Nohara Hiroshi: Hiru Meshi no Ryuugi",
-    "day": 4,
-    "time": "7:00 PM",
+    "day": 5,
+    "time": "7:00 AM",
     "cover": "nohara-hiroshi-hiru-meshi-no-ryuugi-954731d55d",
     "streams": {},
     "status": true
@@ -292,7 +292,8 @@
     "cover": "watashi-wo-tabetai-hitodenashi-699fa1d098",
     "streams": {
       "Apple": "https://apple.co/3KBCFVq",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00362279/this-monster-wants-to-eat-me"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00362279/this-monster-wants-to-eat-me",
+      "YouTube": "https://www.youtube.com/watch?v=akScFvwJnWw&list=PLxSscENEp7Jj08w5BqJ83bSeTd1DgtpxL"
     }
   },
   "fuGv": {
@@ -381,7 +382,8 @@
     "streams": {
       "Apple": "https://apple.co/46QhiqQ",
       "BiliBili TV": "https://www.bilibili.tv/en/media/2247882",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XMWV/to-your-eternity"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XMWV/to-your-eternity",
+      "YouTube": "https://www.youtube.com/watch?v=DrjbHLh9jGY&list=PLxSscENEp7JjvqYOw9bukuV7llYmXF6zu"
     }
   },
   "TsbZ": {
@@ -444,7 +446,7 @@
   "zTms": {
     "title": "Digimon Beatbreak",
     "day": 6,
-    "time": "8:00 PM",
+    "time": "8:01 PM",
     "cover": "digimon-beatbreak-1c84cfe92a",
     "streams": {
       "Apple": "https://apple.co/46H4d4p",
@@ -455,7 +457,7 @@
   "ibqT": {
     "title": "Kingdom",
     "day": 6,
-    "time": "11:35 AM",
+    "time": "12:05 PM",
     "cover": "kingdom-6th-season-f0b4f55629",
     "streams": {
       "Apple": "https://apple.co/3IwpC7a",
@@ -549,7 +551,7 @@
   "Vpx7": {
     "title": "Ao no Orchestra 2nd Season",
     "day": 7,
-    "time": "3:00 PM",
+    "time": "3:00 AM",
     "cover": "ao-no-orchestra-2nd-season-7d50383b85",
     "streams": {},
     "status": true
@@ -557,10 +559,11 @@
   "vrVB": {
     "title": "Umamusume: Cinderella Gray",
     "day": 7,
-    "time": "1:25 AM",
+    "time": "1:00 AM",
     "cover": "uma-musume-cinderella-gray-part-2-51f1ff64be",
     "streams": {
       "Amazon": "https://www.primevideo.com/detail/0K6S3ADL4O8MDCRV79NL5OOMVD",
+      "Apple": "https://apple.co/4nHrEQY",
       "Netflix": "https://www.netflix.com/title/82030222",
       "YouTube": "https://www.youtube.com/playlist?list=PLhGamQZtJ7K9aElhFk89DyndS6JDvLh7z"
     }
@@ -593,10 +596,11 @@
     "time": "9:00 AM",
     "cover": "3-nen-z-gumi-ginpachi-sensei-8d390567b6",
     "streams": {
-      "Apple": "https://apple.co/4obpHfr",
+      "Apple": "https://apple.co/4q9snMi",
       "BiliBili TV": "https://www.bilibili.tv/en/media/2247821",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00365105/gintama-mr-ginpachis-zany-class",
-      "Hulu": "https://www.hulu.com/series/67757c50-057c-4503-ba0e-6a826590db65"
+      "Hulu": "https://www.hulu.com/series/67757c50-057c-4503-ba0e-6a826590db65",
+      "YouTube": "https://www.youtube.com/watch?v=e_WWbmrJejE&list=PLxSscENEp7Jgh6cZEHDqpzMfQ3Owfs6ne"
     }
   },
   "EVTt": {
@@ -612,7 +616,7 @@
   "fnEH": {
     "title": "Chitose Is in the Ramune Bottle",
     "day": 2,
-    "time": "3:30 AM",
+    "time": "9:30 AM",
     "cover": "chitose-kun-wa-ramune-bin-no-naka-95713a2f64",
     "streams": {
       "Apple": "https://apple.co/48SSjWk",
@@ -672,6 +676,7 @@
     "time": "8:30 AM",
     "cover": "nageki-no-bourei-wa-intai-shitai-2nd-season-9f70e7c549",
     "streams": {
+      "Apple": "https://apple.co/4h8cou1",
       "BiliBili TV": "https://www.bilibili.tv/en/media/2116038",
       "Crunchyroll": "https://www.crunchyroll.com/series/GZJH3D8J9/let-this-grieving-soul-retire",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl39ouByN0ujsTUV3jnaJVLu"
@@ -688,28 +693,40 @@
     }
   },
   "2MDn": {
-    "title": "Gnosia",
+    "title": "GNOSIA",
     "day": 6,
-    "time": "8:00 AM",
+    "time": "9:30 AM",
     "cover": "gnosia-13d6f000ed",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4ndoZO8",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00365132"
+    }
   },
   "2Rc6": {
-    "title": "One Punch Man 3",
+    "title": "One-Punch Man",
     "day": 7,
-    "time": "7:45 AM",
+    "time": "8:15 AM",
     "cover": "one-punch-man-3-2603cd8793",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4q5Oqnl",
+      "BiliBili TV": "https://www.bilibili.tv/en/media/2246170",
+      "Crunchyroll": "https://www.crunchyroll.com/series/G63K98PZ6",
+      "Disney+": "https://www.disneyplus.com/browse/entity-62114046-aeac-442f-aa99-21ce55571bb2",
+      "Hulu": "https://www.hulu.com/series/one-punch-man-54a25fcf-a472-4d40-9968-13e2957e5abf",
+      "Netflix": "https://www.netflix.com/title/80117291",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3oUZb_EHQopJ631it09D00"
+    }
   },
   "eUOz": {
-    "title": "Chanto Suenai Kyuuketsuki-chan",
+    "title": "Li'l Miss Vampire Can't Suck Right",
     "day": 7,
-    "time": "7:30 AM",
+    "time": "7:31 AM",
     "cover": "chanto-suenai-kyuuketsuki-chan-5f725edeb7",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/3J5qIXv",
+      "BiliBili TV": "https://www.bilibili.tv/en/media/2246769",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00362058"
+    }
   },
   "QXyb": {
     "title": "Koala Enikki",
@@ -735,8 +752,28 @@
     "title": "Oshiri Tantei 9 Part 2",
     "day": 5,
     "time": "5:00 PM",
-    "cover": "oshiri-tantei-9-part-2-7e5976b836",
+    "cover": "oshiri-tantei-9-part-2-5eba9bd2d1",
     "streams": {},
+    "status": true
+  },
+  "zglz": {
+    "title": "With you, Our Love will Make it Through",
+    "day": 2,
+    "time": "8:00 AM",
+    "cover": "kimi-to-koete-koi-ni-naru-08530b039d",
+    "streams": {
+      "Apple": "https://apple.co/4omDj7B",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00362308/with-you-our-love-will-make-it-through"
+    }
+  },
+  "a5T3": {
+    "title": "Ugoku! Neko Mukashibanashi",
+    "day": 3,
+    "time": "4:01 AM",
+    "cover": "ugoku-neko-mukashibanashi-126a1a70d1",
+    "streams": {
+      "YouTube": "https://www.youtube.com/watch?v=xNcuYP_6tvI&list=PLxSscENEp7JjkeEZzEWJeZQuPZMk0Yee1"
+    },
     "status": true
   }
 }

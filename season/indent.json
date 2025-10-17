@@ -270,7 +270,8 @@
     "genres": [
       "Drama",
       "Fantasy",
-      "Romance"
+      "Romance",
+      "Shoujo"
     ]
   },
   "ibqT": {
@@ -286,7 +287,7 @@
     ]
   },
   "fnDs": {
-    "title": "Let\u2019s Play: Quest Darake no My Life",
+    "title": "Let's Play: Quest Darake no My Life",
     "cover": "lets-play-0752374bec",
     "studio": "OLM",
     "source": "Web Manga",
@@ -310,7 +311,7 @@
   },
   "QmvZ": {
     "title": "Monster Strike: Deadverse Reloaded",
-    "cover": "monster-strike-deadverse-reloaded-f349335300",
+    "cover": "monster-strike-deadverse-reloaded-60e5aca17d",
     "studio": "Yumeta Company",
     "source": "Video Game",
     "genres": [
@@ -379,7 +380,7 @@
   },
   "cdg8": {
     "title": "Oshiri Tantei 9 Part 2",
-    "cover": "oshiri-tantei-9-part-2-7e5976b836",
+    "cover": "oshiri-tantei-9-part-2-5eba9bd2d1",
     "studio": "Toei Animation",
     "source": "Picture book",
     "genres": [
@@ -487,7 +488,7 @@
     ]
   },
   "Ua7I": {
-    "title": "Souzai Saishuka no Isekai Ryokouki",
+    "title": "Sozai Saishuka no Isekai Ryokouki",
     "cover": "souzai-saishuka-no-isekai-ryokouki-cece308ed9",
     "studio": "SynergySP",
     "source": "Light Novel",
@@ -580,6 +581,17 @@
       "Sports"
     ]
   },
+  "wFHb": {
+    "title": "WanDance",
+    "cover": "wondance-7b042917e2",
+    "studio": "Cyclone Graphics",
+    "source": "Manga",
+    "genres": [
+      "Drama",
+      "School",
+      "Sports"
+    ]
+  },
   "EscW": {
     "title": "Watashi wo Tabetai, Hitodenashi",
     "cover": "watashi-wo-tabetai-hitodenashi-699fa1d098",
@@ -591,17 +603,6 @@
       "Psychological",
       "Romance",
       "Supernatural"
-    ]
-  },
-  "wFHb": {
-    "title": "WonDance",
-    "cover": "wondance-7b042917e2",
-    "studio": "Cyclone Graphics",
-    "source": "Manga",
-    "genres": [
-      "Drama",
-      "School",
-      "Sports"
     ]
   },
   "79xe": {
