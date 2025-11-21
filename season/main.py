@@ -19,7 +19,7 @@ def main():
         options=options,
     )
     driver.maximize_window()
-    driver.get("https://animeschedule.net/seasons/fall-2025")
+    driver.get("https://animeschedule.net/seasons/winter-2026")
     shows = {}
     show: WebElement
     for show in driver.find_element(By.CLASS_NAME, "shows-container").find_elements(
@@ -34,7 +34,10 @@ def main():
             studio = show.find_element(By.CLASS_NAME, "anime-tile-stu").text
         except NoSuchElementException:
             studio = "N/A"
-        source = show.find_element(By.CLASS_NAME, "anime-tile-sou").text
+        try:
+            source = show.find_element(By.CLASS_NAME, "anime-tile-sou").text
+        except NoSuchElementException:
+            source = "N/A"
         genres = [
             ele.accessible_name
             for ele in show.find_elements(By.CLASS_NAME, "anime-tile-genre")
