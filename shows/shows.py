@@ -36,7 +36,7 @@ class Shows:
             self.shows: dict[str, ShowType] = load(file)
         self.num = len(self.shows)
         self.status = False
-        self.static: dict[str, None] = {}
+        self.static: set[str] = set()
         self.changes: dict[str, ShowType] = {}
         self.new: dict[str, ShowType] = {}
 
@@ -92,7 +92,7 @@ class Shows:
                         if "status" in check:
                             check.pop("status")
                         if check == content:
-                            self.static.update({key: None})
+                            self.static.add(key)
                         else:
                             self.changes.update({key: content})
                     else:
