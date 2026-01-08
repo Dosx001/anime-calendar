@@ -6,8 +6,7 @@ from time import sleep, strftime, strptime
 from typing import TypedDict
 
 import undetected_chromedriver
-from selenium.common.exceptions import (NoSuchElementException,
-                                        StaleElementReferenceException)
+from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.remote.webelement import WebElement
@@ -109,20 +108,12 @@ class Shows:
                         title = self.amazon(data[key]["streams"][stream])
                     case "Crunchyroll":
                         title = self.crunchyroll(data[key]["streams"][stream])
-                    case "Funimation":
-                        title = self.funimation(data[key]["streams"][stream])
-                        if title == "TIME_OUT":
-                            continue
                     case "HiDive":
                         title = self.hidive(data[key]["streams"][stream])
                     case "Hulu":
                         title = self.hulu(data[key]["streams"][stream])
                     case "Netflix":
                         title = self.netflix(data[key]["streams"][stream])
-                    case "VRV":
-                        title = self.vrv(data[key]["streams"][stream])
-                    case "Wakanim":
-                        title = self.wakanim(data[key]["streams"][stream])
                     case _:
                         continue
             except Exception as err:
@@ -189,13 +180,6 @@ class Shows:
             output.append(time[1::] if time[0] == "0" else time)
         return output
 
-    @staticmethod
-    def get_data(url: str) -> list[str]:
-        pipe = popen(f"curl -k {url} -H 'User-Agent: Firefox/60.'")
-        data = pipe.read().split("\n")
-        pipe.close()
-        return data
-
     def apple(self, url: str) -> str:
         pipe = popen(f"curl -L '{url}' | grep partOfTVSeries | jq -r '.partOfTVSeries'")
         data = pipe.read().split("\n")
@@ -239,18 +223,6 @@ class Shows:
                 except NoSuchElementException:
                     sleep(0.1)
 
-    def funimation(self, url: str) -> str | None:
-        self.driver.get(url)
-        try:
-            while True:
-                try:
-                    return self.driver.find_element(By.CLASS_NAME, "text-md-h1").text
-                except NoSuchElementException:
-                    sleep(0.1)
-        except StaleElementReferenceException:
-            pass
-        return None
-
     def hidive(self, url: str) -> str | None:
         self.driver.get(url)
         while True:
@@ -273,43 +245,5 @@ class Shows:
         return self.driver.find_element(By.CLASS_NAME, "CollectionDetails__title").text
 
     def netflix(self, url: str) -> str | None:
-        title = []
-        boolan = False
-        if "/bg/" in url:
-            url = url.replace("/bg", "")
-        for line in self.get_data(url)[0].split(" "):
-            if boolan:
-                if line != "|":
-                    title.append(line)
-                else:
-                    title = " ".join(title[1::])
-                    if title == " ":
-                        return None
-                    return title
-            elif "/><title>" in line:
-                title.append(line[267::])
-                boolan = True
-        return None
-
-    def vrv(self, url: str) -> str | None:
-        boolans = [False, False]
-        title = []
-        for line in self.get_data(url):
-            if boolans[0]:
-                for item in line.split(" "):
-                    if boolans[1]:
-                        if '"/>' in item:
-                            title.append(item.split('"/>')[0])
-                            return " ".join(title)
-                        title.append(item)
-                    elif item == 'content="Watch':
-                        boolans[1] = True
-            elif "</script>" in line:
-                boolans[0] = True
-        return None
-
-    def wakanim(self, url: str) -> str | None:
         self.driver.get(url)
-        return self.driver.find_element(
-            By.CLASS_NAME, "SerieHeader-thumb"
-        ).get_dom_attribute("alt")
+        return self.driver.find_element(By.CSS_SELECTOR, "main h2").text
