@@ -14,7 +14,7 @@
   },
   "TXkS": {
     "title": "29-sai Dokushin Chuuken Boukensha no Nichijou",
-    "cover": "29-sai-dokushin-chuuken-boukensha-no-nichijou-c9a7b7cf1f",
+    "cover": "29-sai-dokushin-chuuken-boukensha-no-nichijou-1029c20371",
     "studio": "HORNETS",
     "source": "Manga",
     "genres": [
@@ -35,20 +35,10 @@
       "Shoujo"
     ]
   },
-  "fIJN": {
-    "title": "Android wa Keiken Ninzuu ni Hairimasu ka??",
-    "cover": "android-wa-keiken-ninzuu-ni-hairimasu-ka-6867aeea62",
-    "studio": "Nyan Pollution",
-    "source": "Manga",
-    "genres": [
-      "Romance",
-      "Sci-Fi"
-    ]
-  },
   "nwph": {
     "title": "Ao no Miburo: Serizawa Ansatsu-hen",
     "cover": "ao-no-miburo-serizawa-ansatsu-hen-d48af9bef4",
-    "studio": "N/A",
+    "studio": "Maho Film",
     "source": "Manga",
     "genres": [
       "Action",
@@ -70,11 +60,13 @@
   },
   "4ygn": {
     "title": "Cardfight!! Vanguard: Divinez Genma Seisen-hen",
-    "cover": "cardfight-vanguard-divinez-genma-seisen-hen-505444402a",
-    "studio": "N/A",
+    "cover": "cardfight-vanguard-divinez-genma-seisen-hen-2a2f009b9a",
+    "studio": "GIFTanimation",
     "source": "Original",
     "genres": [
       "Action",
+      "Adventure",
+      "Comedy",
       "Game"
     ]
   },
@@ -116,7 +108,7 @@
   },
   "dSqD": {
     "title": "Dead Account",
-    "cover": "dead-account-eb57835f04",
+    "cover": "dead-account-5e4d0d5d57",
     "studio": "SynergySP",
     "source": "Manga",
     "genres": [
@@ -127,7 +119,7 @@
   },
   "WsYr": {
     "title": "Douse, Koishite Shimaunda. 2nd Season",
-    "cover": "douse-koishite-shimaunda-2nd-season-4d619a2e9c",
+    "cover": "douse-koishite-shimaunda-2nd-season-3c732338a8",
     "studio": "TYPHOON GRAPHICS",
     "source": "Manga",
     "genres": [
@@ -152,7 +144,7 @@
   },
   "erl8": {
     "title": "Eris no Seihai",
-    "cover": "eris-no-seihai-10f7a3295a",
+    "cover": "eris-no-seihai-ff26708096",
     "studio": "Ashi Productions",
     "source": "Light Novel",
     "genres": [
@@ -176,9 +168,9 @@
     ]
   },
   "t4Ul": {
-    "title": "Golden Kamuy: Saishuu Shou",
-    "cover": "golden-kamuy-saishuu-shou-5c074a7350",
-    "studio": "N/A",
+    "title": "Golden Kamuy: Saishuushou",
+    "cover": "golden-kamuy-saishuu-shou-c78eb33173",
+    "studio": "Brain's Base",
     "source": "Manga",
     "genres": [
       "Action",
@@ -212,7 +204,7 @@
   },
   "9JuJ": {
     "title": "Hell Mode: Yarikomizuki no Gamer wa Hai Settei no Isekai de Musou suru",
-    "cover": "hell-mode-yarikomizuki-no-gamer-wa-hai-settei-no-isekai-de-musou-suru-52e538a595",
+    "cover": "hell-mode-yarikomizuki-no-gamer-wa-hai-settei-no-isekai-de-musou-suru-3cd529db5c",
     "studio": "Yokohama Animation Lab",
     "source": "Light Novel",
     "genres": [
@@ -224,7 +216,7 @@
   },
   "EoGi": {
     "title": "High School! Kimengumi (2026)",
-    "cover": "high-school-kimengumi-2026-4d70d4d218",
+    "cover": "high-school-kimengumi-2026-09161b51c7",
     "studio": "Seven",
     "source": "Manga",
     "genres": [
@@ -242,12 +234,13 @@
     "source": "Novel",
     "genres": [
       "Action",
+      "Drama",
       "Historical"
     ]
   },
   "dL92": {
     "title": "Himesama \"Goumon\" no Jikan desu 2nd Season",
-    "cover": "himesama-goumon-no-jikan-desu-2nd-season-dd86721118",
+    "cover": "himesama-goumon-no-jikan-desu-2nd-season-e5ebdac6b9",
     "studio": "Pine Jam",
     "source": "Manga",
     "genres": [
@@ -256,11 +249,21 @@
       "Fantasy"
     ]
   },
+  "LZdA": {
+    "title": "Hoppe-chan: Sun Oukoku to Kuro Hoppe-dan no Himitsu",
+    "cover": "hoppe-chan-sun-oukoku-to-kuro-hoppe-dan-no-himitsu-040b8ba9ad",
+    "studio": "Toon Harbor Works",
+    "source": "Other",
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ]
+  },
   "yzJJ": {
     "title": "Ikoku Nikki",
-    "cover": "ikoku-nikki-fcc7fb9e05",
+    "cover": "ikoku-nikki-f19af75eb4",
     "studio": "Studio Shuka",
-    "source": "N/A",
+    "source": "Manga",
     "genres": [
       "Drama",
       "Josei",
@@ -269,7 +272,7 @@
   },
   "XePJ": {
     "title": "Isekai no Sata wa Shachiku Shidai",
-    "cover": "isekai-no-sata-wa-shachiku-shidai-c2e095e985",
+    "cover": "isekai-no-sata-wa-shachiku-shidai-5d8fe982e4",
     "studio": "Studio DEEN",
     "source": "Light Novel",
     "genres": [
@@ -280,9 +283,23 @@
       "Slice of Life"
     ]
   },
+  "6ure": {
+    "title": "Jigoku Sensei Nube (2025) Part 2",
+    "cover": "jigoku-sensei-nube-2025-part-2-2ebf24cf6f",
+    "studio": "Studio KAI",
+    "source": "Manga",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Horror",
+      "School",
+      "Shounen",
+      "Supernatural"
+    ]
+  },
   "mkIF": {
     "title": "Jigokuraku 2nd Season",
-    "cover": "jigokuraku-2nd-season-b63b2868be",
+    "cover": "jigokuraku-2nd-season-440032cc9a",
     "studio": "MAPPA",
     "source": "Manga",
     "genres": [
@@ -309,7 +326,7 @@
   },
   "Ehsz": {
     "title": "Jujutsu Kaisen Shimetsu Kaiyuu - Zenpen",
-    "cover": "jujutsu-kaisen-shimetsu-kaiyuu-714f6e6a61",
+    "cover": "jujutsu-kaisen-shimetsu-kaiyuu-11e85ed040",
     "studio": "MAPPA",
     "source": "Manga",
     "genres": [
@@ -335,7 +352,7 @@
   },
   "ZgZL": {
     "title": "Kirei ni Shitemoraemasu ka.",
-    "cover": "kirei-ni-shitemoraemasu-ka-1d52b99388",
+    "cover": "kirei-ni-shitemoraemasu-ka-4d96a65961",
     "studio": "Okuruto Noboru",
     "source": "Manga",
     "genres": [
@@ -346,7 +363,7 @@
   },
   "cCaB": {
     "title": "Kizoku Tensei: Megumareta Umare kara Saikyou no Chikara wo Eru",
-    "cover": "kizoku-tensei-megumareta-umare-kara-saikyou-no-chikara-wo-eru-2b19b035b4",
+    "cover": "kizoku-tensei-megumareta-umare-kara-saikyou-no-chikara-wo-eru-53a8608221",
     "studio": "CompTown",
     "source": "Light Novel",
     "genres": [
@@ -357,10 +374,11 @@
   },
   "m2bU": {
     "title": "MF Ghost 3rd Season",
-    "cover": "mf-ghost-3rd-season-4c92bfb962",
+    "cover": "mf-ghost-3rd-season-a2f00444d0",
     "studio": "Felix Film",
     "source": "Manga",
     "genres": [
+      "Drama",
       "Sci-Fi",
       "Seinen",
       "Sports"
@@ -368,7 +386,7 @@
   },
   "eoC4": {
     "title": "Majutsushi Kunon wa Mieteiru",
-    "cover": "majutsushi-kunon-wa-mieteiru-1e072672e9",
+    "cover": "majutsushi-kunon-wa-mieteiru-05cfdef2ef",
     "studio": "Platinum Vision",
     "source": "Light Novel",
     "genres": [
@@ -380,7 +398,7 @@
   },
   "4Avh": {
     "title": "Maou no Musume wa Yasashisugiru!!",
-    "cover": "maou-no-musume-wa-yasashisugiru-606fe44333",
+    "cover": "maou-no-musume-wa-yasashisugiru-6c042195e9",
     "studio": "EMT Squared",
     "source": "Manga",
     "genres": [
@@ -407,7 +425,7 @@
   },
   "WjNM": {
     "title": "Mayonaka Heart Tune",
-    "cover": "mayonaka-heart-tune-ab2301e8ef",
+    "cover": "mayonaka-heart-tune-57f354d3ed",
     "studio": "Gekkou",
     "source": "Manga",
     "genres": [
@@ -420,8 +438,8 @@
   },
   "oy3p": {
     "title": "Medalist 2nd Season",
-    "cover": "medalist-2nd-season-67a9250fc2",
-    "studio": "N/A",
+    "cover": "medalist-2nd-season-e1d4c438bb",
+    "studio": "ENGI",
     "source": "Manga",
     "genres": [
       "Drama",
@@ -433,7 +451,7 @@
   "j3pj": {
     "title": "Odayaka Kizoku no Kyuuka no Susume.",
     "cover": "odayaka-kizoku-no-kyuuka-no-susume-2cb491cb95",
-    "studio": "SynergySP",
+    "studio": "Ascension",
     "source": "Light Novel",
     "genres": [
       "Adventure",
@@ -443,17 +461,23 @@
   },
   "8pdz": {
     "title": "Okiraku Ryoushu no Tanoshii Ryouchi Bouei: Seisankei Majutsu de Na mo Naki Mura wo Saikyou no Jousai Toshi ni",
-    "cover": "okiraku-ryoushu-no-tanoshii-ryouchi-bouei-seisankei-majutsu-de-na-mo-naki-mura-wo-saikyou-no-jousai-toshi-ni-0922093ee8",
+    "cover": "okiraku-ryoushu-no-tanoshii-ryouchi-bouei-seisankei-majutsu-de-na-mo-naki-mura-wo-saikyou-no-jousai-toshi-ni-561ee58bf7",
     "studio": "NAZ",
     "source": "Light Novel",
     "genres": [
-      "Action",
       "Adventure",
-      "Comedy",
-      "Drama",
-      "Fantasy",
       "Fantasy",
       "Isekai"
+    ]
+  },
+  "aNAY": {
+    "title": "Omae wa Mada Gunma wo Shiranai: Reiwa-ban",
+    "cover": "omae-wa-mada-gunma-wo-shiranai-reiwa-ban-a541ee0b35",
+    "studio": "Imageworks Studio",
+    "source": "Web Manga",
+    "genres": [
+      "Comedy",
+      "School"
     ]
   },
   "Z6wh": {
@@ -466,16 +490,6 @@
       "Harem",
       "Romance",
       "School"
-    ]
-  },
-  "grCa": {
-    "title": "Saioshi no Gikei wo Mederu Tame, Nagaiki shimasu!",
-    "cover": "saioshi-no-gikei-wo-mederu-tame-nagaiki-shimasu-749853daf3",
-    "studio": "Imageworks Studio",
-    "source": "Novel",
-    "genres": [
-      "Fantasy",
-      "Isekai"
     ]
   },
   "MQnz": {
@@ -493,7 +507,7 @@
   },
   "mB1F": {
     "title": "Shibou Yuugi de Meshi wo Kuu.",
-    "cover": "shibou-yuugi-de-meshi-wo-kuu-9a653a83e0",
+    "cover": "shibou-yuugi-de-meshi-wo-kuu-c9edfb3423",
     "studio": "Studio DEEN",
     "source": "Light Novel",
     "genres": [
@@ -530,7 +544,7 @@
   },
   "kkOI": {
     "title": "Tamon-kun Ima Docchi!?",
-    "cover": "tamon-kun-ima-docchi-655cf872d4",
+    "cover": "tamon-kun-ima-docchi-01baba4366",
     "studio": "J.C. Staff",
     "source": "Manga",
     "genres": [
@@ -541,7 +555,7 @@
   },
   "7FTe": {
     "title": "Tensei shitara Dragon no Tamago datta",
-    "cover": "tensei-shitara-dragon-no-tamago-datta-60c44297fc",
+    "cover": "tensei-shitara-dragon-no-tamago-datta-b8692f89a1",
     "studio": "Felix Film",
     "source": "Light Novel",
     "genres": [
@@ -549,21 +563,6 @@
       "Adventure",
       "Fantasy",
       "Isekai"
-    ]
-  },
-  "zNmQ": {
-    "title": "Tensei shitara Slime Datta Ken 4",
-    "cover": "tensei-shitara-slime-datta-ken-4th-season-2c5172c409",
-    "studio": "N/A",
-    "source": "Light Novel",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Comedy",
-      "Fantasy",
-      "Isekai",
-      "Magic",
-      "Shounen"
     ]
   },
   "lNoF": {
@@ -579,7 +578,7 @@
   },
   "PMRk": {
     "title": "Uruwashi no Yoi no Tsuki",
-    "cover": "uruwashi-no-yoi-no-tsuki-e1cfbb53f8",
+    "cover": "uruwashi-no-yoi-no-tsuki-4d736294b4",
     "studio": "East Fish Studio",
     "source": "Manga",
     "genres": [
@@ -591,7 +590,7 @@
   },
   "3te8": {
     "title": "Vigilante: Boku no Hero Academia Illegals 2nd Season",
-    "cover": "vigilante-boku-no-hero-academia-illegals-2nd-season-aebadba102",
+    "cover": "vigilante-boku-no-hero-academia-illegals-2nd-season-0425f475b8",
     "studio": "BONES FILM",
     "source": "Manga",
     "genres": [
@@ -603,9 +602,21 @@
       "Superpower"
     ]
   },
+  "53ME": {
+    "title": "Watashi ga Koibito ni Nareru Wake Naijan, Murimuri! (\u203bMuri ja Nakatta!?): Next Shine!",
+    "cover": "watashi-ga-koibito-ni-nareru-wake-nai-jan-muri-muri-muri-ja-nakatta-next-shine-71f67eeab9",
+    "studio": "Studio Mother",
+    "source": "Light Novel",
+    "genres": [
+      "Comedy",
+      "Harem",
+      "Romance",
+      "School"
+    ]
+  },
   "uMIE": {
     "title": "Yoroi Shin Den Samurai Troopers",
-    "cover": "yoroi-shin-den-samurai-troopers-a1c27a26b6",
+    "cover": "yoroi-shin-den-samurai-troopers-52a44e030f",
     "studio": "Sunrise",
     "source": "Original",
     "genres": [
@@ -628,7 +639,7 @@
   },
   "AQkt": {
     "title": "Yuusha Party ni Kawaii Ko ga Ita node, Kokuhaku shitemita.",
-    "cover": "yuusha-party-ni-kawaii-ko-ga-ita-node-kokuhaku-shitemita-c5750b5e93",
+    "cover": "yuusha-party-ni-kawaii-ko-ga-ita-node-kokuhaku-shitemita-6bd7de3b32",
     "studio": "Gekkou",
     "source": "Light Novel",
     "genres": [
@@ -641,7 +652,7 @@
   },
   "6rlM": {
     "title": "Yuusha Party wo Oidasareta Kiyoubinbou",
-    "cover": "yuusha-party-wo-oidasareta-kiyoubinbou-e963cfd51c",
+    "cover": "yuusha-party-wo-oidasareta-kiyoubinbou-6ef662e9a8",
     "studio": "animation studio42",
     "source": "Light Novel",
     "genres": [
@@ -652,7 +663,7 @@
   },
   "iF7D": {
     "title": "Yuusha no Kuzu",
-    "cover": "yuusha-no-kuzu-69a2ebfbdb",
+    "cover": "yuusha-no-kuzu-3a3821f147",
     "studio": "OLM",
     "source": "Web Manga",
     "genres": [
