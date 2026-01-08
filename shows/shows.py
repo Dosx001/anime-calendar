@@ -103,6 +103,8 @@ class Shows:
         for stream in data[key]["streams"]:
             try:
                 match stream:
+                    case "Apple":
+                        title = self.apple(data[key]["streams"][stream])
                     case "Amazon":
                         title = self.amazon(data[key]["streams"][stream])
                     case "Crunchyroll":
@@ -193,6 +195,12 @@ class Shows:
         data = pipe.read().split("\n")
         pipe.close()
         return data
+
+    def apple(self, url: str) -> str:
+        pipe = popen(f"curl -L '{url}' | grep partOfTVSeries | jq -r '.partOfTVSeries'")
+        data = pipe.read().split("\n")
+        pipe.close()
+        return data[0]
 
     def amazon(self, url: str) -> str | None:
         self.driver.get(url)
