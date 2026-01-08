@@ -116,13 +116,15 @@ class Shows:
                         title = self.netflix(data[key]["streams"][stream])
                     case _:
                         continue
+                if title:
+                    while title != unescape(title):
+                        title = unescape(title)
+                    return str(title)
             except Exception as err:
-                print(data[key]["title"], data[key]["streams"][stream])
-                raise Exception(err) from err
-            if title:
-                while title != unescape(title):
-                    title = unescape(title)
-                return str(title)
+                print(
+                    err,
+                    f"\033[93m{data[key]["title"], data[key]["streams"][stream]}\033[0m",
+                )
         self.status = True
         return data[key]["title"]
 
