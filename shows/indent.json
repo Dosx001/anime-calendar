@@ -358,6 +358,7 @@
     "time": "9:30 AM",
     "cover": "arne-no-jikenbo-88a34d9f73",
     "streams": {
+      "Apple": "https://apple.co/4jtk9vC",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00365733/the-casebook-of-arne"
     }
   },
@@ -407,6 +408,7 @@
     "time": "5:01 AM",
     "cover": "okiraku-ryoushu-no-tanoshii-ryouchi-bouei-seisankei-majutsu-de-na-mo-naki-mura-wo-saikyou-no-jousai-toshi-ni-561ee58bf7",
     "streams": {
+      "Apple": "https://apple.co/3N4FVtN",
       "BiliBili TV": "https://www.bilibili.tv/en/media/2288556",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00365565/easygoing-territory-defense-by-the-optimistic-lord",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3oMlnB7bBRbcdnIbrj9wNv"
@@ -418,6 +420,7 @@
     "time": "5:00 AM",
     "cover": "29-sai-dokushin-chuuken-boukensha-no-nichijou-1029c20371",
     "streams": {
+      "Apple": "https://apple.co/4syDJLc",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00365607/an-adventurers-daily-grind-at-age-29"
     }
   },
@@ -427,6 +430,7 @@
     "time": "7:01 AM",
     "cover": "odayaka-kizoku-no-kyuuka-no-susume-2cb491cb95",
     "streams": {
+      "Apple": "https://apple.co/4pzn6MN",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00365550/a-gentle-nobles-vacation-recommendation"
     }
   },
@@ -436,20 +440,21 @@
     "time": "6:01 AM",
     "cover": "shibou-yuugi-de-meshi-wo-kuu-c9edfb3423",
     "streams": {
+      "Apple": "https://apple.co/4qayJe1",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00365787/shiboyugi-playing-death-games-to-put-food-on-the-table",
       "Netflix": "https://www.netflix.com/title/82047155",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1yaZiMDinSA80dyCgrQPcj"
     }
   },
   "6ure": {
-    "title": "Jigoku Sensei Nube (2025) Part 2",
+    "title": "Hell Teacher: Jigoku Sensei Nube",
     "day": 3,
     "time": "8:15 AM",
     "cover": "jigoku-sensei-nube-2025-part-2-2ebf24cf6f",
     "streams": {
+      "Amazon": "https://www.amazon.com/dp/B0G6GRL79P",
       "YouTube": "https://www.youtube.com/playlist?list=PLhGamQZtJ7K9NljzDXOMx02GwfyiCTy_b"
-    },
-    "status": true
+    }
   },
   "kkOI": {
     "title": "Tamon's B-Side",
@@ -475,44 +480,58 @@
     }
   },
   "Ehsz": {
-    "title": "Jujutsu Kaisen Shimetsu Kaiyuu - Zenpen",
+    "title": "JUJUTSU KAISEN",
     "day": 4,
-    "time": "8:00 AM",
+    "time": "9:00 AM",
     "cover": "jujutsu-kaisen-shimetsu-kaiyuu-11e85ed040",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4puckqQ",
+      "BiliBili TV": "https://www.bilibili.tv/media/2288197",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GRDV0019R",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhRHMXloduRBZmrGlDW5gmC"
+    }
   },
   "Oemf": {
-    "title": "Mato Seihei no Slave 2nd Season",
+    "title": "Chained Soldier",
     "day": 4,
     "time": "7:30 AM",
     "cover": "mato-seihei-no-slave-2nd-season-e6fc9d5a79",
-    "streams": {},
-    "status": true
+    "streams": {
+      "BiliBili TV": "https://www.bilibili.tv/en/media/2289748",
+      "HiDive": "https://www.hidive.com/season/34350",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3ICvMY_c9VTL6yduj59Osl"
+    }
   },
   "mcxv": {
-    "title": "\"Omae Gotoki ga Maou ni Kateru to Omouna\" to Yuusha Party wo Tsuihou sareta node, Outo de Kimama ni Kurashitai",
+    "title": "ROLL OVER AND DIE: I Will Fight for an Ordinary Life with My Love and Cursed Sword!",
     "day": 4,
-    "time": "7:30 AM",
+    "time": "8:00 AM",
     "cover": "omae-gotoki-ga-maou-ni-kateru-to-omouna-to-yuusha-party-wo-tsuihou-sareta-node-outo-de-kimama-ni-kurashitai-ec62baaa12",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/49rQGxE",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00365592"
+    }
   },
   "erl8": {
-    "title": "Eris no Seihai",
+    "title": "The Holy Grail of Eris",
     "day": 4,
-    "time": "6:56 AM",
+    "time": "7:00 AM",
     "cover": "eris-no-seihai-ff26708096",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4jxtKl2",
+      "BiliBili TV": "https://www.bilibili.tv/media/2290065",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00365781"
+    }
   },
   "wDDn": {
-    "title": "Champignon no Majo",
+    "title": "Champignon Witch",
     "day": 4,
-    "time": "8:58 AM",
+    "time": "10:00 AM",
     "cover": "champignon-no-majo-8e10b31a6c",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4qKNgwP",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00365553"
+    }
   },
   "m2bU": {
     "title": "MF GHOST",
@@ -538,49 +557,61 @@
     }
   },
   "WsYr": {
-    "title": "Douse, Koishite Shimaunda. 2nd Season",
+    "title": "Anyway, I'm Falling in Love with You.",
     "day": 4,
-    "time": "8:28 AM",
+    "time": "9:00 AM",
     "cover": "douse-koishite-shimaunda-2nd-season-3c732338a8",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7QGGM",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjpQd7HlUeumX6M6zMPXFyw"
+    }
   },
   "lNoF": {
-    "title": "Toumei Otoko to Ningen Onna: Sonouchi Fuufu ni Naru Futari",
+    "title": "The Invisible Man and His Soon to Be Wife",
     "day": 4,
-    "time": "6:30 AM",
+    "time": "7:00 AM",
     "cover": "toumei-otoko-to-ningen-onna-sonouchi-fuufu-ni-naru-futari-54dcae0f9c",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/49vLoBq",
+      "BiliBili TV": "https://www.bilibili.tv/en/media/2290152",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00365610"
+    }
   },
   "9JuJ": {
-    "title": "Hell Mode: Yarikomizuki no Gamer wa Hai Settei no Isekai de Musou suru",
+    "title": "HELL MODE: The Hardcore Gamer Dominates in Another World with Garbage Balancing",
     "day": 5,
     "time": "8:35 AM",
     "cover": "hell-mode-yarikomizuki-no-gamer-wa-hai-settei-no-isekai-de-musou-suru-3cd529db5c",
-    "streams": {},
-    "status": true
+    "streams": {
+      "HiDive": "https://www.hidive.com/season/34351"
+    }
   },
   "WyBg": {
-    "title": "Enen no Shouboutai: San no Shou Part 2",
+    "title": "Fire Force",
     "day": 5,
     "time": "9:30 AM",
     "cover": "enen-no-shouboutai-san-no-shou-part-2-7550df2ac6",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/GYQWNXPZY",
+      "Hulu": "https://hulu.com/series/5973d35",
+      "Netflix": "https://netflix.com/title/81143589"
+    }
   },
   "Qaxw": {
-    "title": "Dark Moon: Tsuki no Saidan",
+    "title": "DARK MOON: THE BLOOD ALTAR",
     "day": 5,
-    "time": "7:00 AM",
+    "time": "8:30 AM",
     "cover": "dark-moon-tsuki-no-saidan-1050af9b94",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/49sUHSB",
+      "BiliBili TV": "https://www.bilibili.tv/en/media/2289383",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00365556/dark-moon-the-blood-altar"
+    }
   },
   "EoGi": {
     "title": "High School! Kimengumi (2026)",
     "day": 5,
-    "time": "6:30 AM",
+    "time": "8:00 AM",
     "cover": "high-school-kimengumi-2026-09161b51c7",
     "streams": {},
     "status": true
@@ -604,7 +635,7 @@
   "Odjs": {
     "title": "Fate/strange Fake",
     "day": 6,
-    "time": "6:30 AM",
+    "time": "8:00 AM",
     "cover": "fate-strange-fake-fd4cbe6f55",
     "streams": {
       "Apple": "https://apple.co/49t7CUG",
@@ -614,18 +645,24 @@
   "dSqD": {
     "title": "Dead Account",
     "day": 6,
-    "time": "6:30 AM",
+    "time": "7:00 AM",
     "cover": "dead-account-5e4d0d5d57",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4aPBkp7",
+      "BiliBili TV": "https://www.bilibili.tv/en/media/2288703",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00365559",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JiQXR4zJbzIwxsiMHu_HSZK"
+    }
   },
   "uJkb": {
-    "title": "Jingai Kyoushitsu no Ningengirai Kyoushi",
+    "title": "A Misanthrope Teaches a Class for Demi-Humans",
     "day": 6,
-    "time": "7:00 AM",
+    "time": "7:30 AM",
     "cover": "jingai-kyoushitsu-no-ningengirai-kyoushi-e944f2dbee",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/3Z7REKA",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00365542"
+    }
   },
   "nwph": {
     "title": "Blue Miburo",
@@ -639,12 +676,15 @@
     }
   },
   "FAYO": {
-    "title": "TRIGUN STARGAZE",
+    "title": "TRIGUN STAMPEDE",
     "day": 6,
-    "time": "8:00 AM",
+    "time": "7:00 AM",
     "cover": "trigun-stampede-kanketsu-hen-6361a0eec8",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/3NnkfJf",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3PK5",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JggUBXP_li2EfufYwIJ7q_A"
+    }
   },
   "aNAY": {
     "title": "Omae wa Mada Gunma wo Shiranai: Reiwa-ban",
@@ -655,20 +695,23 @@
     "status": true
   },
   "7FTe": {
-    "title": "Tensei shitara Dragon no Tamago datta",
+    "title": "Reincarnated as a Dragon Hatchling",
     "day": 6,
     "time": "5:00 AM",
     "cover": "tensei-shitara-dragon-no-tamago-datta-b8692f89a1",
-    "streams": {},
-    "status": true
+    "streams": {
+      "HiDive": "https://www.hidive.com/season/34352"
+    }
   },
   "iF7D": {
-    "title": "Yuusha no Kuzu",
+    "title": "Scum of the Brave",
     "day": 6,
-    "time": "7:55 AM",
+    "time": "9:00 AM",
     "cover": "yuusha-no-kuzu-3a3821f147",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4qr7egk",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00365730"
+    }
   },
   "PMRk": {
     "title": "Uruwashi no Yoi no Tsuki",
@@ -748,7 +791,7 @@
   "MQnz": {
     "title": "Seihantai na Kimi to Boku",
     "day": 7,
-    "time": "12:00 AM",
+    "time": "12:30 AM",
     "cover": "seihantai-na-kimi-to-boku-5cc40549ba",
     "streams": {},
     "status": true
