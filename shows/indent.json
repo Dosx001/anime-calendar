@@ -285,7 +285,7 @@
     "title": "You Can't Be in a Rom-Com with Your Childhood Friends!",
     "day": 1,
     "time": "7:30 AM",
-    "cover": "osananajimi-to-wa-love-comedy-ni-naranai-c7356245e2",
+    "cover": "osananajimi-to-wa-love-comedy-ni-naranai-cc7b784fb2",
     "streams": {
       "Apple": "https://apple.co/4jqHTAN",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00365622/you-cant-be-in-a-rom-com-with-your-childhood-friends"
@@ -295,7 +295,7 @@
     "title": "Golden Kamuy",
     "day": 1,
     "time": "6:30 AM",
-    "cover": "golden-kamuy-saishuu-shou-c78eb33173",
+    "cover": "golden-kamuy-saishuu-shou-c52277e515d9a98b4d0d20fce3b215f9",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/GY8DWQN5Y"
     }
@@ -346,7 +346,7 @@
     "title": "The Darwin Incident",
     "day": 2,
     "time": "7:30 AM",
-    "cover": "darwin-jihen-328e74dbdb",
+    "cover": "darwin-jihen-832a83655a",
     "streams": {
       "Amazon": "https://www.amazon.com/gp/video/detail/B0G5647BNF/",
       "Apple": "https://apple.co/4qdjktr"
@@ -484,7 +484,7 @@
     "title": "JUJUTSU KAISEN",
     "day": 4,
     "time": "9:00 AM",
-    "cover": "jujutsu-kaisen-shimetsu-kaiyuu-11e85ed040",
+    "cover": "jujutsu-kaisen-shimetsu-kaiyuu-42b85bec772f632c8b4ac79b04fbf52a",
     "streams": {
       "Apple": "https://apple.co/4puckqQ",
       "BiliBili TV": "https://www.bilibili.tv/media/2288197",
@@ -663,7 +663,7 @@
     "title": "A Misanthrope Teaches a Class for Demi-Humans",
     "day": 6,
     "time": "7:30 AM",
-    "cover": "jingai-kyoushitsu-no-ningengirai-kyoushi-e944f2dbee",
+    "cover": "jingai-kyoushitsu-no-ningengirai-kyoushi-b529205827",
     "streams": {
       "Apple": "https://apple.co/3Z7REKA",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00365542"
@@ -684,7 +684,7 @@
     "title": "TRIGUN STAMPEDE",
     "day": 6,
     "time": "7:00 AM",
-    "cover": "trigun-stampede-kanketsu-hen-6361a0eec8",
+    "cover": "trigun-stampede-kanketsu-hen-dc1805ba0404dc0495365b00f4895418",
     "streams": {
       "Apple": "https://apple.co/3NnkfJf",
       "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3PK5",
@@ -772,7 +772,8 @@
     "streams": {
       "Apple": "https://apple.co/4q3KJy1",
       "BiliBili TV": "https://www.bilibili.tv/en/media/2289079",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00365604/the-daily-life-of-a-part-time-torturer"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00365604/the-daily-life-of-a-part-time-torturer",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgUxt6tc6t1Qxjn4AsD_CCn"
     }
   },
   "yzJJ": {
@@ -791,6 +792,7 @@
     "time": "1:00 AM",
     "cover": "kaya-chan-wa-kowakunai-ab49f4bffb",
     "streams": {
+      "Apple": "https://apple.co/4qP50as",
       "BiliBili TV": "https://www.bilibili.tv/en/media/2289458",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00365583/kaya-chan-isnt-scary",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jis0F2QZax-uSX38BtSw_-B"
@@ -831,19 +833,24 @@
     }
   },
   "dL92": {
-    "title": "Himesama \"Goumon\" no Jikan desu 2nd Season",
+    "title": "Himesama Goumon No Jikandesu",
     "day": 1,
-    "time": "6:30 AM",
+    "time": "8:00 AM",
     "cover": "himesama-goumon-no-jikan-desu-2nd-season-e5ebdac6b9",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/3Z7hHS7",
+      "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV0KV/tis-time-for-torture-princess",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgSFeEiMRb0xXPlMqugXaWT"
+    }
   },
   "JTRo": {
     "title": "[Oshi no Ko] 3rd Season",
     "day": 3,
     "time": "6:00 AM",
     "cover": "oshi-no-ko-3rd-season-c695cd1333",
-    "streams": {},
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JivLForf2SE-ypFD1wcLNC6"
+    },
     "status": true
   },
   "qvg7": {
@@ -856,11 +863,13 @@
     }
   },
   "XyBH": {
-    "title": "Sousou no Frieren 2nd Season",
+    "title": "Frieren: Beyond Journey's End",
     "day": 5,
     "time": "6:00 AM",
     "cover": "sousou-no-frieren-2nd-season-bfd6488b62",
-    "streams": {},
-    "status": true
+    "streams": {
+      "BiliBili TV": "https://www.bilibili.tv/en/media/2287773",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQX4/frieren-beyond-journeys-end"
+    }
   }
 }
