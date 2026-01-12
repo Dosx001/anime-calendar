@@ -343,14 +343,14 @@
     }
   },
   "sIGp": {
-    "title": "Darwin Jihen",
+    "title": "The Darwin Incident",
     "day": 2,
     "time": "7:30 AM",
     "cover": "darwin-jihen-328e74dbdb",
     "streams": {
-      "Amazon": "https://www.amazon.com/gp/video/detail/B0G5647BNF/"
-    },
-    "status": true
+      "Amazon": "https://www.amazon.com/gp/video/detail/B0G5647BNF/",
+      "Apple": "https://apple.co/4qdjktr"
+    }
   },
   "WEqx": {
     "title": "The Casebook of Arne",
@@ -453,6 +453,7 @@
     "cover": "jigoku-sensei-nube-2025-part-2-2ebf24cf6f",
     "streams": {
       "Amazon": "https://www.amazon.com/dp/B0G6GRL79P",
+      "Apple": "https://apple.co/45I3I91",
       "YouTube": "https://www.youtube.com/playlist?list=PLhGamQZtJ7K9NljzDXOMx02GwfyiCTy_b"
     }
   },
@@ -497,6 +498,7 @@
     "time": "7:30 AM",
     "cover": "mato-seihei-no-slave-2nd-season-e6fc9d5a79",
     "streams": {
+      "Apple": "https://apple.co/3Noe47M",
       "BiliBili TV": "https://www.bilibili.tv/en/media/2289748",
       "HiDive": "https://www.hidive.com/season/34350",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3ICvMY_c9VTL6yduj59Osl"
@@ -583,6 +585,7 @@
     "time": "8:35 AM",
     "cover": "hell-mode-yarikomizuki-no-gamer-wa-hai-settei-no-isekai-de-musou-suru-3cd529db5c",
     "streams": {
+      "Apple": "https://apple.co/4qLBrqa",
       "HiDive": "https://www.hidive.com/season/34351"
     }
   },
@@ -592,6 +595,7 @@
     "time": "9:30 AM",
     "cover": "enen-no-shouboutai-san-no-shou-part-2-7550df2ac6",
     "streams": {
+      "Apple": "https://apple.co/4cDYHRi",
       "Crunchyroll": "https://crunchyroll.com/series/GYQWNXPZY",
       "Hulu": "https://hulu.com/series/5973d35",
       "Netflix": "https://netflix.com/title/81143589"
@@ -609,12 +613,13 @@
     }
   },
   "EoGi": {
-    "title": "High School! Kimengumi (2026)",
+    "title": "High School! Kimengumi",
     "day": 5,
     "time": "8:00 AM",
     "cover": "high-school-kimengumi-2026-09161b51c7",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Amazon": "https://www.amazon.com/dp/B0G5HC4NG9/"
+    }
   },
   "4ygn": {
     "title": "Cardfight!! Vanguard: Divinez Genma Seisen-hen",
@@ -686,20 +691,13 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JggUBXP_li2EfufYwIJ7q_A"
     }
   },
-  "aNAY": {
-    "title": "Omae wa Mada Gunma wo Shiranai: Reiwa-ban",
-    "day": 6,
-    "time": "4:30 AM",
-    "cover": "omae-wa-mada-gunma-wo-shiranai-reiwa-ban-a541ee0b35",
-    "streams": {},
-    "status": true
-  },
   "7FTe": {
     "title": "Reincarnated as a Dragon Hatchling",
     "day": 6,
     "time": "5:00 AM",
     "cover": "tensei-shitara-dragon-no-tamago-datta-b8692f89a1",
     "streams": {
+      "Apple": "https://apple.co/4pCqYfU",
       "HiDive": "https://www.hidive.com/season/34352"
     }
   },
@@ -710,16 +708,19 @@
     "cover": "yuusha-no-kuzu-3a3821f147",
     "streams": {
       "Apple": "https://apple.co/4qr7egk",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00365730"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00365730",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2jocaAW0S6IpbSv01XLHkV"
     }
   },
   "PMRk": {
-    "title": "Uruwashi no Yoi no Tsuki",
-    "day": 6,
-    "time": "11:30 PM",
+    "title": "In the Clear Moonlit Dusk",
+    "day": 7,
+    "time": "12:00 AM",
     "cover": "uruwashi-no-yoi-no-tsuki-4d736294b4",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4qkIYN9",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00334040"
+    }
   },
   "mkIF": {
     "title": "Hell's Paradise",
@@ -727,7 +728,9 @@
     "time": "7:15 AM",
     "cover": "jigokuraku-2nd-season-440032cc9a",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7Q5ZJ/hells-paradise"
+      "Apple": "https://apple.co/49ylZqL",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7Q5ZJ/hells-paradise",
+      "Netflix": "https://netflix.com/title/81574246"
     }
   },
   "cCaB": {
@@ -752,12 +755,14 @@
     }
   },
   "qpZB": {
-    "title": "Akuyaku Reijou wa Ringoku no Outaishi ni Dekiai sareru",
+    "title": "The Villainess Is Adored by the Prince of the Neighbor Kingdom",
     "day": 7,
-    "time": "6:00 AM",
+    "time": "6:30 AM",
     "cover": "akuyaku-reijou-wa-ringoku-no-outaishi-ni-dekiai-sareru-0bd482842b",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4jxQi5g",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00365613/the-villainess-is-adored-by-the-prince-of-the-neighbor-kingdom"
+    }
   },
   "QSN2": {
     "title": "The Daily Life of a Part-Time Torturer",
@@ -781,20 +786,28 @@
     }
   },
   "Ax7j": {
-    "title": "Kaya-chan wa Kowakunai",
+    "title": "Kaya-chan Isn't Scary",
     "day": 7,
-    "time": "12:30 AM",
+    "time": "1:00 AM",
     "cover": "kaya-chan-wa-kowakunai-ab49f4bffb",
-    "streams": {},
-    "status": true
+    "streams": {
+      "BiliBili TV": "https://www.bilibili.tv/en/media/2289458",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00365583/kaya-chan-isnt-scary",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jis0F2QZax-uSX38BtSw_-B"
+    }
   },
   "MQnz": {
-    "title": "Seihantai na Kimi to Boku",
+    "title": "You and I Are Polar Opposites",
     "day": 7,
     "time": "12:30 AM",
     "cover": "seihantai-na-kimi-to-boku-5cc40549ba",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/3NdqPSJ",
+      "BiliBili TV": "https://www.bilibili.tv/en/media/2288405",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00365624",
+      "Netflix": "https://www.netflix.com/title/82653227",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jhq08yiz58yytNN3EGYsKwu"
+    }
   },
   "xfcc": {
     "title": "Hana-Kimi",
@@ -807,10 +820,46 @@
     }
   },
   "iwIu": {
-    "title": "Hikuidori: Ushuu Boro Tobi-gumi",
+    "title": "Oedo Fire Slayer -The Legend of Phoenix-",
     "day": 7,
-    "time": "6:30 AM",
+    "time": "8:00 AM",
     "cover": "hikuidori-ushuu-boro-tobi-gumi-fcf527dc2f",
+    "streams": {
+      "Apple": "https://apple.co/4qgrwsW",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00365724/oedo-fire-slayer--the-legend-of-phoenix-",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jgg8qGQKMckY8CM8ewbQAFo"
+    }
+  },
+  "dL92": {
+    "title": "Himesama \"Goumon\" no Jikan desu 2nd Season",
+    "day": 1,
+    "time": "6:30 AM",
+    "cover": "himesama-goumon-no-jikan-desu-2nd-season-e5ebdac6b9",
+    "streams": {},
+    "status": true
+  },
+  "JTRo": {
+    "title": "[Oshi no Ko] 3rd Season",
+    "day": 3,
+    "time": "6:00 AM",
+    "cover": "oshi-no-ko-3rd-season-c695cd1333",
+    "streams": {},
+    "status": true
+  },
+  "qvg7": {
+    "title": "Love Through a Prism",
+    "day": 4,
+    "time": "12:01 AM",
+    "cover": "prism-rondo-ca74342520",
+    "streams": {
+      "Netflix": "https://www.netflix.com/title/81498882"
+    }
+  },
+  "XyBH": {
+    "title": "Sousou no Frieren 2nd Season",
+    "day": 5,
+    "time": "6:00 AM",
+    "cover": "sousou-no-frieren-2nd-season-bfd6488b62",
     "streams": {},
     "status": true
   }

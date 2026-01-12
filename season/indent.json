@@ -347,6 +347,7 @@
     "genres": [
       "Horror",
       "School",
+      "Slice of Life",
       "Supernatural"
     ]
   },
@@ -448,6 +449,18 @@
       "Sports"
     ]
   },
+  "2a1N": {
+    "title": "Meitantei Precure!",
+    "cover": "meitantei-precure-edf251d955",
+    "studio": "Toei Animation",
+    "source": "Original",
+    "genres": [
+      "Action",
+      "Fantasy",
+      "Magical Girl",
+      "Mystery"
+    ]
+  },
   "j3pj": {
     "title": "Odayaka Kizoku no Kyuuka no Susume.",
     "cover": "odayaka-kizoku-no-kyuuka-no-susume-2cb491cb95",
@@ -468,16 +481,6 @@
       "Adventure",
       "Fantasy",
       "Isekai"
-    ]
-  },
-  "aNAY": {
-    "title": "Omae wa Mada Gunma wo Shiranai: Reiwa-ban",
-    "cover": "omae-wa-mada-gunma-wo-shiranai-reiwa-ban-a541ee0b35",
-    "studio": "Imageworks Studio",
-    "source": "Web Manga",
-    "genres": [
-      "Comedy",
-      "School"
     ]
   },
   "Z6wh": {
