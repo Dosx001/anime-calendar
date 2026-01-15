@@ -383,7 +383,7 @@
   "uMIE": {
     "title": "Yoroi-Shinden Samurai Troopers",
     "day": 2,
-    "time": "7:00 AM",
+    "time": "11:00 AM",
     "cover": "yoroi-shin-den-samurai-troopers-52a44e030f",
     "streams": {
       "Apple": "https://apple.co/3LeviUD",
@@ -437,7 +437,7 @@
   "mB1F": {
     "title": "SHIBOYUGI: Playing Death Games to Put Food on the Table",
     "day": 3,
-    "time": "6:01 AM",
+    "time": "6:31 AM",
     "cover": "shibou-yuugi-de-meshi-wo-kuu-c9edfb3423",
     "streams": {
       "Apple": "https://apple.co/4qayJe1",
@@ -844,14 +844,16 @@
     }
   },
   "JTRo": {
-    "title": "[Oshi no Ko] 3rd Season",
+    "title": "\u3010OSHI NO KO\u3011",
     "day": 3,
-    "time": "6:00 AM",
+    "time": "7:00 AM",
     "cover": "oshi-no-ko-3rd-season-c695cd1333",
     "streams": {
+      "BiliBili TV": "https://www.bilibili.tv/en/media/2080019",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00366791",
+      "HiDive": "https://www.hidive.com/season/34391",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JivLForf2SE-ypFD1wcLNC6"
-    },
-    "status": true
+    }
   },
   "qvg7": {
     "title": "Love Through a Prism",
