@@ -2,7 +2,7 @@
   "Kyep": {
     "title": "Case Closed",
     "day": 6,
-    "time": "3:30 AM",
+    "time": "4:30 AM",
     "cover": "detective-conan-8d9a48d3dd",
     "streams": {
       "Apple": "https://apple.co/3JuGH1w",
@@ -297,6 +297,7 @@
     "time": "6:30 AM",
     "cover": "golden-kamuy-saishuu-shou-c52277e515d9a98b4d0d20fce3b215f9",
     "streams": {
+      "Apple": "https://apple.co/49vzOaE",
       "Crunchyroll": "https://www.crunchyroll.com/series/GY8DWQN5Y"
     }
   },
@@ -383,7 +384,7 @@
   "uMIE": {
     "title": "Yoroi-Shinden Samurai Troopers",
     "day": 2,
-    "time": "11:00 AM",
+    "time": "10:45 AM",
     "cover": "yoroi-shin-den-samurai-troopers-52a44e030f",
     "streams": {
       "Apple": "https://apple.co/3LeviUD",
@@ -483,7 +484,7 @@
   "Ehsz": {
     "title": "JUJUTSU KAISEN",
     "day": 4,
-    "time": "9:00 AM",
+    "time": "8:30 AM",
     "cover": "jujutsu-kaisen-shimetsu-kaiyuu-42b85bec772f632c8b4ac79b04fbf52a",
     "streams": {
       "Apple": "https://apple.co/4puckqQ",
@@ -564,6 +565,7 @@
     "time": "9:00 AM",
     "cover": "douse-koishite-shimaunda-2nd-season-3c732338a8",
     "streams": {
+      "Apple": "https://apple.co/4bGZDG1",
       "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7QGGM",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjpQd7HlUeumX6M6zMPXFyw"
     }
@@ -605,7 +607,7 @@
     "title": "DARK MOON: THE BLOOD ALTAR",
     "day": 5,
     "time": "8:30 AM",
-    "cover": "dark-moon-tsuki-no-saidan-1050af9b94",
+    "cover": "dark-moon-tsuki-no-saidan-d2faf0bdec3e3f3213bf93f94786bbb2",
     "streams": {
       "Apple": "https://apple.co/49sUHSB",
       "BiliBili TV": "https://www.bilibili.tv/en/media/2289383",
@@ -833,7 +835,7 @@
     }
   },
   "dL92": {
-    "title": "Himesama Goumon No Jikandesu",
+    "title": "Tis Time for \"Torture,\" Princess",
     "day": 1,
     "time": "8:00 AM",
     "cover": "himesama-goumon-no-jikan-desu-2nd-season-e5ebdac6b9",
@@ -849,29 +851,43 @@
     "time": "7:00 AM",
     "cover": "oshi-no-ko-3rd-season-c695cd1333",
     "streams": {
+      "Apple": "https://apple.co/4b1lpEc",
       "BiliBili TV": "https://www.bilibili.tv/en/media/2080019",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00366791",
       "HiDive": "https://www.hidive.com/season/34391",
+      "Netflix": "https://www.netflix.com/title/81684733",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JivLForf2SE-ypFD1wcLNC6"
-    }
-  },
-  "qvg7": {
-    "title": "Love Through a Prism",
-    "day": 4,
-    "time": "12:01 AM",
-    "cover": "prism-rondo-ca74342520",
-    "streams": {
-      "Netflix": "https://www.netflix.com/title/81498882"
     }
   },
   "XyBH": {
     "title": "Frieren: Beyond Journey's End",
     "day": 5,
-    "time": "6:00 AM",
+    "time": "7:00 AM",
     "cover": "sousou-no-frieren-2nd-season-bfd6488b62",
     "streams": {
+      "Apple": "https://apple.co/3LDCY2T",
       "BiliBili TV": "https://www.bilibili.tv/en/media/2287773",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQX4/frieren-beyond-journeys-end"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQX4/frieren-beyond-journeys-end",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl10YPPR7qDsVf10wZfYnIMK"
+    }
+  },
+  "lMml": {
+    "title": "Cosmic Princess Kaguya!",
+    "day": 4,
+    "time": "12:01 AM",
+    "cover": "chou-kaguya-hime-835c49f259",
+    "streams": {
+      "Netflix": "https://www.netflix.com/title/81756595"
+    }
+  },
+  "oy3p": {
+    "title": "Medalist",
+    "day": 6,
+    "time": "8:30 AM",
+    "cover": "medalist-2nd-season-ce42515a919d92779c8ab76111b8085d",
+    "streams": {
+      "Disney+": "https://www.disneyplus.com/series/medalist/4LgC0zEd5JEx",
+      "Hulu": "https://www.hulu.com/series/bb33d0c2-b077-4bc0-a549-d2ca27d4afa8"
     }
   }
 }
