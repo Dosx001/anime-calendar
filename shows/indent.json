@@ -119,16 +119,6 @@
       "Hulu": "https://www.hulu.jp/nui-story-2"
     }
   },
-  "t4JI": {
-    "title": "You and Idol Precure \u266a",
-    "day": 6,
-    "time": "5:30 PM",
-    "cover": "kimi-to-idol-precure-bc7d1e6187",
-    "streams": {
-      "Apple": "https://apple.co/3EyQVes",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GDKHZEJJQ/you-and-idol-precure-"
-    }
-  },
   "a5ez": {
     "title": "Prinsession Orchestra",
     "day": 6,
@@ -146,16 +136,6 @@
     "cover": "himitsu-no-aipri-ring-hen-c223e10e60",
     "streams": {},
     "status": true
-  },
-  "XTEf": {
-    "title": "Cat's Eye (ENG Dub)",
-    "day": 5,
-    "time": "12:01 AM",
-    "cover": "cats-eye-2025-18c0b28b16",
-    "streams": {
-      "Disney+": "https://www.disneyplus.com/browse/entity-21240dd9-5fb4-4334-be13-687a6bd230f7",
-      "Hulu": "https://www.hulu.com/series/ce2ed865-080d-4edb-8377-ed8dfbcfce45"
-    }
   },
   "osTs": {
     "title": "To Your Eternity",
@@ -267,7 +247,7 @@
     "time": "3:01 AM",
     "cover": "ugoku-neko-mukashibanashi-3e23f32363",
     "streams": {
-      "YouTube": "https://www.youtube.com/watch?v=xNcuYP_6tvI&list=PLxSscENEp7JjkeEZzEWJeZQuPZMk0Yee1"
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjkeEZzEWJeZQuPZMk0Yee1"
     },
     "status": true
   },
@@ -384,7 +364,7 @@
   "uMIE": {
     "title": "Yoroi-Shinden Samurai Troopers",
     "day": 2,
-    "time": "10:45 AM",
+    "time": "7:00 AM",
     "cover": "yoroi-shin-den-samurai-troopers-52a44e030f",
     "streams": {
       "Apple": "https://apple.co/3LeviUD",
@@ -438,7 +418,7 @@
   "mB1F": {
     "title": "SHIBOYUGI: Playing Death Games to Put Food on the Table",
     "day": 3,
-    "time": "6:31 AM",
+    "time": "7:30 AM",
     "cover": "shibou-yuugi-de-meshi-wo-kuu-c9edfb3423",
     "streams": {
       "Apple": "https://apple.co/4qayJe1",
@@ -584,7 +564,7 @@
   "9JuJ": {
     "title": "HELL MODE: The Hardcore Gamer Dominates in Another World with Garbage Balancing",
     "day": 5,
-    "time": "8:35 AM",
+    "time": "8:36 AM",
     "cover": "hell-mode-yarikomizuki-no-gamer-wa-hai-settei-no-isekai-de-musou-suru-3cd529db5c",
     "streams": {
       "Apple": "https://apple.co/4qLBrqa",
@@ -620,7 +600,8 @@
     "time": "8:00 AM",
     "cover": "high-school-kimengumi-2026-09161b51c7",
     "streams": {
-      "Amazon": "https://www.amazon.com/dp/B0G5HC4NG9/"
+      "Amazon": "https://www.amazon.com/dp/B0G5HC4NG9/",
+      "Apple": "https://apple.co/4rdaBYn"
     }
   },
   "4ygn": {
@@ -731,8 +712,7 @@
     "cover": "jigokuraku-2nd-season-440032cc9a",
     "streams": {
       "Apple": "https://apple.co/49ylZqL",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7Q5ZJ/hells-paradise",
-      "Netflix": "https://netflix.com/title/81574246"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GJ0H7Q5ZJ/hells-paradise"
     }
   },
   "cCaB": {
@@ -871,23 +851,52 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl10YPPR7qDsVf10wZfYnIMK"
     }
   },
-  "lMml": {
-    "title": "Cosmic Princess Kaguya!",
-    "day": 4,
-    "time": "12:01 AM",
-    "cover": "chou-kaguya-hime-835c49f259",
-    "streams": {
-      "Netflix": "https://www.netflix.com/title/81756595"
-    }
-  },
   "oy3p": {
     "title": "Medalist",
     "day": 6,
-    "time": "8:30 AM",
+    "time": "9:00 AM",
     "cover": "medalist-2nd-season-ce42515a919d92779c8ab76111b8085d",
     "streams": {
       "Disney+": "https://www.disneyplus.com/series/medalist/4LgC0zEd5JEx",
       "Hulu": "https://www.hulu.com/series/bb33d0c2-b077-4bc0-a549-d2ca27d4afa8"
+    }
+  },
+  "xnHx": {
+    "title": "Himitsu Kessha Taka no Tsume XX",
+    "day": 1,
+    "time": "2:00 PM",
+    "cover": "himitsu-kessha-taka-no-tsume-xx-5fefcf0da4e0f1338933ec1190605b64",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLzWHHHOVw0LRpBdZjQlGre9gTsHXlaI3C"
+    },
+    "status": true
+  },
+  "vdlU": {
+    "title": "Black Jack Yanen",
+    "day": 3,
+    "time": "2:00 PM",
+    "cover": "black-jack-yanen-57a4349dff9a37f2b9a1ba0492dec00c",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLaWGw0t9iqLutqHmJ3ECpnRKSOsd8ozmu"
+    },
+    "status": true
+  },
+  "6eht": {
+    "title": "Duel Masters LOST: Boukyaku no Taiyou",
+    "day": 5,
+    "time": "3:00 AM",
+    "cover": "duel-masters-lost-boukyaku-no-taiyou-ecf33bbc4d",
+    "streams": {},
+    "status": true
+  },
+  "2a1N": {
+    "title": "Star Detective Precure!",
+    "day": 6,
+    "time": "5:30 PM",
+    "cover": "meitantei-precure-9123973b9e",
+    "streams": {
+      "Apple": "https://apple.co/49XmHz9",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00369409"
     }
   }
 }
