@@ -1,7 +1,7 @@
 {
   "hLFT": {
     "title": "Aishiteru Game wo Owarasetai",
-    "cover": "aishiteru-game-wo-owarasetai-79298ee323",
+    "cover": "aishiteru-game-wo-owarasetai-2b3bbb6d958515abaada7d96db77865f",
     "studio": "Felix Film",
     "source": "Web Manga",
     "genres": [
@@ -12,7 +12,7 @@
   },
   "3oOW": {
     "title": "Akane-banashi",
-    "cover": "akane-banashi-0381c3bb11",
+    "cover": "akane-banashi-16844a9fca0ee900ae11d71afb4247b5",
     "studio": "ZEXCS",
     "source": "Manga",
     "genres": [
@@ -21,7 +21,7 @@
   },
   "wUVn": {
     "title": "Awajima Hyakkei",
-    "cover": "awajima-hyakkei-5134faab8ede005a3402b9de5849dd97",
+    "cover": "awajima-hyakkei-fb94f3963246ab54954d9adaea77d66e",
     "studio": "MADHOUSE",
     "source": "Web Manga",
     "genres": [
@@ -36,7 +36,8 @@
     "studio": "Wit Studio",
     "source": "Original",
     "genres": [
-      "Comedy"
+      "Comedy",
+      "Fantasy"
     ]
   },
   "ep1e": {
@@ -50,7 +51,7 @@
     ]
   },
   "zojG": {
-    "title": "Diamond no Ace act II: Second Season",
+    "title": "Diamond no Ace Act II: Second Season",
     "cover": "diamond-no-ace-act-ii-zoku-hen-9f39cac4af",
     "studio": "OLM",
     "source": "Manga",
@@ -62,7 +63,7 @@
   },
   "l11k": {
     "title": "Dr. Stone: Science Future Part 3",
-    "cover": "dr-stone-science-future-part-3-c18211a88d",
+    "cover": "dr-stone-science-future-part-3-67fba577814a5ada075f84f3e4f28043",
     "studio": "TMS Entertainment",
     "source": "Manga",
     "genres": [
@@ -71,6 +72,29 @@
       "Comedy",
       "Sci-Fi",
       "Shounen"
+    ]
+  },
+  "bdB6": {
+    "title": "Ganbare! Nakamura-kun!!",
+    "cover": "ganbare-nakamura-kun-be98d5c86e",
+    "studio": "Drive",
+    "source": "Manga",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "School",
+      "Slice of Life"
+    ]
+  },
+  "GXRY": {
+    "title": "Ghost Concert: Missing Songs",
+    "cover": "ghost-concert-missing-songs-f4cb8e3ca7cfee39e191ef16f8b26814",
+    "studio": "ENGI",
+    "source": "Music",
+    "genres": [
+      "Action",
+      "Music",
+      "Supernatural"
     ]
   },
   "9HX4": {
@@ -87,17 +111,16 @@
   },
   "uOJc": {
     "title": "Hidarikiki no Eren",
-    "cover": "hidarikiki-no-eren-83792791b8",
+    "cover": "hidarikiki-no-eren-96a12764657e83fd7bc1c3f4896dcc0e",
     "studio": "Production I.G",
     "source": "Web Manga",
     "genres": [
-      "Drama",
-      "Slice of Life"
+      "Drama"
     ]
   },
   "8xvz": {
     "title": "Higeki no Genkyou to Naru Saikyou Gedou Last Boss Joou wa Tami no Tame ni Tsukushimasu. 2nd Season",
-    "cover": "higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukushimasu-season-2-773d1333df",
+    "cover": "higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukushimasu-season-2-f92435b162135e88a12634bb03400fe7",
     "studio": "OLM",
     "source": "Light Novel",
     "genres": [
@@ -110,7 +133,7 @@
   },
   "YrJF": {
     "title": "Himekishi wa Barbaroi no Yome",
-    "cover": "himekishi-wa-barbaroi-no-yome-acd128800d",
+    "cover": "himekishi-wa-barbaroi-no-yome-128fde6a80928c73b6c7512bccd32fd2",
     "studio": "Jumondou",
     "source": "Manga",
     "genres": [
@@ -132,9 +155,23 @@
       "Slice of Life"
     ]
   },
+  "HLlb": {
+    "title": "Hyakki Yakoushou",
+    "cover": "hyakki-yakoushou-2a318c331f137d67f3384949bd38692c",
+    "studio": "Imageworks Studio",
+    "source": "Manga",
+    "genres": [
+      "Historical",
+      "Horror",
+      "Mystery",
+      "Romance",
+      "Shoujo",
+      "Supernatural"
+    ]
+  },
   "5Z8W": {
     "title": "Ichijouma Mankitsugurashi!",
-    "cover": "ichijouma-mankitsugurashi-ba92af93c0",
+    "cover": "ichijouma-mankitsugurashi-c22b8ced69b6415277035f333408184c",
     "studio": "PRA",
     "source": "Manga",
     "genres": [
@@ -153,6 +190,18 @@
       "Harem",
       "Isekai",
       "Slice of Life"
+    ]
+  },
+  "lXr6": {
+    "title": "Jidou Hanbaiki ni Umarekawatta Ore wa Meikyuu wo Samayou 3rd Season",
+    "cover": "jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou-3rd-season-f1b5478bf87c913a4a319cc5cdde5d0f",
+    "studio": "AXsiZ",
+    "source": "Light Novel",
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Fantasy",
+      "Isekai"
     ]
   },
   "t5ev": {
@@ -180,7 +229,7 @@
   },
   "25bR": {
     "title": "Kami no Shizuku",
-    "cover": "kami-no-shizuku-06b2f9465d",
+    "cover": "kami-no-shizuku-ebb7a63252c186f98c27d2e6a096c737",
     "studio": "Satelight",
     "source": "Manga",
     "genres": [
@@ -192,7 +241,7 @@
   },
   "VG7B": {
     "title": "Kamiina Botan, Yoeru Sugata wa Yuri no Hana",
-    "cover": "kamiina-botan-yoeru-sugata-wa-yuri-no-hana-64c4e7621f",
+    "cover": "kamiina-botan-yoeru-sugata-wa-yuri-no-hana-062dd213eaadf40f05b2c8e3b708786d",
     "studio": "Soigne",
     "source": "Web Manga",
     "genres": [
@@ -240,7 +289,7 @@
   },
   "5x1W": {
     "title": "Kirio Fanclub",
-    "cover": "kirio-fanclub-be1ddda930",
+    "cover": "kirio-fanclub-9e098990bef6c88bf978cd55ae95656d",
     "studio": "Satelight",
     "source": "Web Manga",
     "genres": [
@@ -248,17 +297,6 @@
       "Romance",
       "School",
       "Slice of Life"
-    ]
-  },
-  "DSVT": {
-    "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
-    "cover": "koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita-2265b7b2e0",
-    "studio": "Gekkou",
-    "source": "Light Novel",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy"
     ]
   },
   "11mU": {
@@ -275,7 +313,7 @@
   },
   "Dpu4": {
     "title": "Kujima Utaeba Ie Hororo",
-    "cover": "kujima-utaeba-ie-hororo-e25cfcd80dcc5a98765f56a0b7d9ed7d",
+    "cover": "kujima-utaeba-ie-hororo-30ec505ca964d18323801d0e6477f9cb",
     "studio": "Studio Hibari",
     "source": "Manga",
     "genres": [
@@ -362,6 +400,19 @@
       "Fantasy"
     ]
   },
+  "uBmx": {
+    "title": "Mao",
+    "cover": "mao-44e966cf1bebf47f504bf9a4bb5ae6e5",
+    "studio": "Sunrise",
+    "source": "Manga",
+    "genres": [
+      "Historical",
+      "Mystery",
+      "Romance",
+      "Shounen",
+      "Supernatural"
+    ]
+  },
   "ZeO9": {
     "title": "Mata Korosarete Shimatta no desu ne, Tantei-sama",
     "cover": "mata-korosarete-shimatta-no-desu-ne-tantei-sama-22604499e60ccd26c91b09e05806d74c",
@@ -396,6 +447,15 @@
       "Slice of Life"
     ]
   },
+  "a4si": {
+    "title": "Nezumi-kun no Chokki (TV)",
+    "cover": "nezumi-kun-no-chokki-tv-fc816f967c583dbcee61585103544bdf",
+    "studio": "Creadom8",
+    "source": "Picture book",
+    "genres": [
+      "Fantasy"
+    ]
+  },
   "PQ2B": {
     "title": "Nigashita Sakana wa Ookikatta ga Tsuriageta Sakana ga Ookisugita Ken",
     "cover": "nigashita-sakana-wa-ookikatta-ga-tsuriageta-sakana-ga-ookisugita-ken-e9a9f97614179f78feeca6dab07b5ff4",
@@ -409,7 +469,7 @@
   },
   "HiiN": {
     "title": "Nippon Sangoku",
-    "cover": "nippon-sangoku-5707f51a1fbafb2b23519d436a717503",
+    "cover": "nippon-sangoku-555c2aec5c873775b079438e516b44bd",
     "studio": "Studio Kafka",
     "source": "Web Manga",
     "genres": [
@@ -419,9 +479,18 @@
       "Sci-Fi"
     ]
   },
+  "aDz3": {
+    "title": "Onegai AiPri",
+    "cover": "onegai-aipri-88afc31cbe1bc566665280b343e8cd04",
+    "studio": "Dongwoo A&E",
+    "source": "Other",
+    "genres": [
+      "Music"
+    ]
+  },
   "a2zz": {
     "title": "Otaku ni Yasashii Gal wa Inai!?",
-    "cover": "otaku-ni-yasashii-gal-wa-inai-614ee94a22",
+    "cover": "otaku-ni-yasashii-gal-wa-inai-0044e17a044b4096940344b888dc701e",
     "studio": "TMS Entertainment",
     "source": "Manga",
     "genres": [
@@ -443,7 +512,7 @@
   },
   "vJJP": {
     "title": "Ponkotsu Fuuki Iin to Skirt-take ga Futekisetsu na JK no Hanashi",
-    "cover": "ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-6c17766ec08c3606d04a614d6f1820d8",
+    "cover": "ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-e8fb8acff87d8300775177d56225c70f",
     "studio": "Zero-G",
     "source": "Manga",
     "genres": [
@@ -455,7 +524,7 @@
   },
   "a4dX": {
     "title": "Re:Zero kara Hajimeru Isekai Seikatsu 4",
-    "cover": "re-zero-kara-hajimeru-isekai-seikatsu-4-a85cc3bb6c",
+    "cover": "re-zero-kara-hajimeru-isekai-seikatsu-4-d5233583bd0dc12a3089d74e815f43bf",
     "studio": "White Fox",
     "source": "Light Novel",
     "genres": [
@@ -474,6 +543,18 @@
     "genres": [
       "Action",
       "Mystery",
+      "Supernatural"
+    ]
+  },
+  "We41": {
+    "title": "Replica datte, Koi wo Suru.",
+    "cover": "replica-datte-koi-wo-suru-6356643a26a0673e474f308abc364ea2",
+    "studio": "Voil",
+    "source": "Light Novel",
+    "genres": [
+      "Drama",
+      "Romance",
+      "School",
       "Supernatural"
     ]
   },
@@ -536,7 +617,7 @@
   },
   "zNmQ": {
     "title": "Tensei shitara Slime Datta Ken 4",
-    "cover": "tensei-shitara-slime-datta-ken-4th-season-2c5172c409",
+    "cover": "tensei-shitara-slime-datta-ken-4th-season-1bce192c2db136585e91652599a16fb3",
     "studio": "N/A",
     "source": "Light Novel",
     "genres": [
@@ -551,7 +632,7 @@
   },
   "E7zY": {
     "title": "Tongari Boushi no Atelier",
-    "cover": "tongari-boushi-no-atelier-490cd388e5",
+    "cover": "tongari-boushi-no-atelier-240c5d52ad63bde464f88af667a787bc",
     "studio": "BUG FILMS",
     "source": "Manga",
     "genres": [
@@ -564,7 +645,7 @@
   },
   "i7Wp": {
     "title": "Tsue to Tsurugi no Wistoria 2nd Season",
-    "cover": "tsue-to-tsurugi-no-wistoria-2nd-season-f04f047882",
+    "cover": "tsue-to-tsurugi-no-wistoria-2nd-season-c6955c4a711490575be6a3b4c85e0012",
     "studio": "Actas",
     "source": "Manga",
     "genres": [
@@ -602,8 +683,8 @@
     ]
   },
   "q4dV": {
-    "title": "Yowayowa Sensei",
-    "cover": "yowayowa-sensei-9761029db9",
+    "title": "Yowa Yowa Sensei",
+    "cover": "yowayowa-sensei-59d32023fcc256fab5456c30ecc76cca",
     "studio": "Brain's Base",
     "source": "Manga",
     "genres": [
@@ -615,7 +696,7 @@
   },
   "J7Hu": {
     "title": "Yozakura-san Chi no Daisakusen 2nd Season",
-    "cover": "yozakura-san-chi-no-daisakusen-2nd-season-53df18b2eb",
+    "cover": "yozakura-san-chi-no-daisakusen-2nd-season-bb3fde034c576353cdc2240a1c00a3bc",
     "studio": "SILVER LINK.",
     "source": "Manga",
     "genres": [
