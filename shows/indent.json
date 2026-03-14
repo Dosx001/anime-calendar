@@ -17,6 +17,7 @@
     "time": "9:00 AM",
     "cover": "one-piece-f2f2a983a8",
     "streams": {
+      "Amazon": "https://amzn.to/3PbTzfs",
       "Apple": "https://apple.co/3Qfhg3W",
       "BiliBili TV": "https://www.bilibili.tv/media/37976",
       "Crunchyroll": "https://www.crunchyroll.com/one-piece",
@@ -144,6 +145,7 @@
     "time": "8:45 AM",
     "cover": "fumetsu-no-anata-e-3-cb2f2400ca",
     "streams": {
+      "Amazon": "https://amzn.to/4uqnzVe",
       "Apple": "https://apple.co/46QhiqQ",
       "BiliBili TV": "https://www.bilibili.tv/en/media/2247882",
       "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XMWV/to-your-eternity",
@@ -450,6 +452,7 @@
     "time": "9:00 AM",
     "cover": "tamon-kun-ima-docchi-01baba4366",
     "streams": {
+      "Amazon": "https://amzn.to/4sBmmZd",
       "Apple": "https://apple.co/4aHWiGh",
       "BiliBili TV": "https://www.bilibili.tv/en/media/2288932",
       "Crunchyroll": "https://crunchyroll.com/series/GT00365598/tamons-b-side",
@@ -542,7 +545,7 @@
   "YAo2": {
     "title": "Sentenced to Be a Hero",
     "day": 4,
-    "time": "7:00 AM",
+    "time": "6:30 AM",
     "cover": "yuusha-kei-ni-shosu-choubatsu-yuusha-9004-tai-keimu-kiroku-66ebf53b37",
     "streams": {
       "Amazon": "https://amzn.to/4s0aK26",
@@ -828,6 +831,7 @@
     "time": "7:00 AM",
     "cover": "hanazakari-no-kimitachi-e-0aa447fe8f",
     "streams": {
+      "Amazon": "https://amzn.to/40phXwF",
       "Apple": "https://apple.co/4qdaegv",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00365568/hana-kimi"
     }
@@ -890,6 +894,7 @@
     "time": "10:00 AM",
     "cover": "medalist-2nd-season-ce42515a919d92779c8ab76111b8085d",
     "streams": {
+      "Apple": "https://apple.co/47w0wyb",
       "Disney+": "https://www.disneyplus.com/series/medalist/4LgC0zEd5JEx",
       "Hulu": "https://www.hulu.com/series/bb33d0c2-b077-4bc0-a549-d2ca27d4afa8"
     }
@@ -925,14 +930,13 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00369409"
     }
   },
-  "nutM": {
-    "title": "Marika-chan no Koukando wa Bukkowareteiru",
-    "day": 5,
-    "time": "1:01 AM",
-    "cover": "marika-chan-no-koukando-wa-bukkowareteiru-0e6585ffc9e1e45f1ce3f07ff53ad200",
+  "EBlC": {
+    "title": "(New) Rurouni Kenshin",
+    "day": 6,
+    "time": "9:01 PM",
+    "cover": "niwatori-fighter-52bbb0418e26420a1ca19ee9e1e74729",
     "streams": {
-      "OceanVeil": "https://oceanveil.net/anime_titles"
-    },
-    "status": true
+      "Hulu": "https://www.hulu.com/series/"
+    }
   }
 }
