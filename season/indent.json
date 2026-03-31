@@ -21,12 +21,13 @@
   },
   "wUVn": {
     "title": "Awajima Hyakkei",
-    "cover": "awajima-hyakkei-fb94f3963246ab54954d9adaea77d66e",
+    "cover": "awajima-hyakkei-f3cb73e1df97c3d0fb2fc3dfa75f2054",
     "studio": "MADHOUSE",
     "source": "Web Manga",
     "genres": [
       "Drama",
       "Music",
+      "Romance",
       "School"
     ]
   },
@@ -42,7 +43,7 @@
   },
   "8l1z": {
     "title": "Class de 2-banme ni Kawaii Onnanoko to Tomodachi ni Natta",
-    "cover": "class-de-2-banme-ni-kawaii-onnanoko-to-tomodachi-ni-natta-8dbb7024d010c2dd8f2bfe45144ffeec",
+    "cover": "class-de-2-banme-ni-kawaii-onnanoko-to-tomodachi-ni-natta-55a3516a2ab9a15ce04946bee1aa68a1",
     "studio": "CONNECT",
     "source": "Light Novel",
     "genres": [
@@ -101,10 +102,11 @@
     "title": "Ghost Concert: Missing Songs",
     "cover": "ghost-concert-missing-songs-829e01f713dfd494c1afa895c8cf9ec0",
     "studio": "ENGI",
-    "source": "Music",
+    "source": "Other",
     "genres": [
       "Action",
       "Music",
+      "Sci-Fi",
       "Supernatural"
     ]
   },
@@ -131,7 +133,7 @@
   },
   "8xvz": {
     "title": "Higeki no Genkyou to Naru Saikyou Gedou Last Boss Joou wa Tami no Tame ni Tsukushimasu. 2nd Season",
-    "cover": "higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukushimasu-season-2-f92435b162135e88a12634bb03400fe7",
+    "cover": "higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukushimasu-season-2-5896627b17e843bbc47af8d35c6c526c",
     "studio": "OLM",
     "source": "Light Novel",
     "genres": [
@@ -155,7 +157,7 @@
   },
   "Uk7R": {
     "title": "Hokuto no Ken: Fist of the North Star",
-    "cover": "hokuto-no-ken-fist-of-the-north-star-f93f01ef84",
+    "cover": "hokuto-no-ken-fist-of-the-north-star-390d328d1746f59bba17162c1d179d81",
     "studio": "TMS Entertainment",
     "source": "Manga",
     "genres": [
@@ -207,7 +209,7 @@
   },
   "yaXr": {
     "title": "Isekai Nonbiri Nouka 2",
-    "cover": "isekai-nonbiri-nouka-2-fd60261d023ea7db0eb69ec5b63da42e",
+    "cover": "isekai-nonbiri-nouka-2-5944576c31e6b6265824fbba88094629",
     "studio": "Zero-G",
     "source": "Light Novel",
     "genres": [
@@ -243,7 +245,7 @@
   },
   "g5rr": {
     "title": "Kami no Niwatsuki Kusunoki-tei",
-    "cover": "kami-no-niwatsuki-kusunoki-tei-37fbe5ce60",
+    "cover": "kami-no-niwatsuki-kusunoki-tei-2962df1d1306b78e4ca3947c8521dd31",
     "studio": "Juvenage",
     "source": "Light Novel",
     "genres": [
@@ -266,7 +268,7 @@
   },
   "VG7B": {
     "title": "Kamiina Botan, Yoeru Sugata wa Yuri no Hana",
-    "cover": "kamiina-botan-yoeru-sugata-wa-yuri-no-hana-062dd213eaadf40f05b2c8e3b708786d",
+    "cover": "kamiina-botan-yoeru-sugata-wa-yuri-no-hana-9cdf6f5bd5ab543ae2ab66efdcb057bd",
     "studio": "Soigne",
     "source": "Web Manga",
     "genres": [
@@ -277,7 +279,7 @@
   },
   "SPvu": {
     "title": "Kanan-sama wa Akumade Choroi",
-    "cover": "kanan-sama-wa-akumade-choroi-08718f940aa1b23818441e666a3837fd",
+    "cover": "kanan-sama-wa-akumade-choroi-e9fccf95ef972651c3917a49d3eefcd3",
     "studio": "Studio KAI",
     "source": "Manga",
     "genres": [
@@ -324,6 +326,15 @@
       "Slice of Life"
     ]
   },
+  "lqMh": {
+    "title": "Komekami! Girls",
+    "cover": "komekami-girls-3471c04b062ae17abfa444d9545e6f57",
+    "studio": "Daily Plan.net",
+    "source": "Other",
+    "genres": [
+      "Comedy"
+    ]
+  },
   "11mU": {
     "title": "Koori no Jouheki",
     "cover": "koori-no-jouheki-3edc9fc353",
@@ -359,7 +370,7 @@
     ]
   },
   "pOF1": {
-    "title": "Liar Game",
+    "title": "LIAR GAME",
     "cover": "liar-game-3f4f5cc7766e387b191f5b7fcf2dfa54",
     "studio": "MADHOUSE",
     "source": "Manga",
@@ -367,6 +378,19 @@
       "Drama",
       "Psychological",
       "Seinen"
+    ]
+  },
+  "uBmx": {
+    "title": "MAO",
+    "cover": "mao-44e966cf1bebf47f504bf9a4bb5ae6e5",
+    "studio": "Sunrise",
+    "source": "Manga",
+    "genres": [
+      "Historical",
+      "Mystery",
+      "Romance",
+      "Shounen",
+      "Supernatural"
     ]
   },
   "y1mr": {
@@ -417,7 +441,7 @@
   },
   "KQub": {
     "title": "Mamonogurai no Boukensha: Ore dake Mamono wo Kuratte Tsuyoku Naru",
-    "cover": "mamonogurai-no-boukensha-ore-dake-mamono-wo-kuratte-tsuyoku-naru-ece3b64b6ef3b77624e87199eb1df40f",
+    "cover": "mamonogurai-no-boukensha-ore-dake-mamono-wo-kuratte-tsuyoku-naru-146f9acf9513a7df858ab280a49b882a",
     "studio": "Imageworks Studio",
     "source": "Web Manga",
     "genres": [
@@ -425,22 +449,9 @@
       "Fantasy"
     ]
   },
-  "uBmx": {
-    "title": "Mao",
-    "cover": "mao-44e966cf1bebf47f504bf9a4bb5ae6e5",
-    "studio": "Sunrise",
-    "source": "Manga",
-    "genres": [
-      "Historical",
-      "Mystery",
-      "Romance",
-      "Shounen",
-      "Supernatural"
-    ]
-  },
   "ZeO9": {
     "title": "Mata Korosarete Shimatta no desu ne, Tantei-sama",
-    "cover": "mata-korosarete-shimatta-no-desu-ne-tantei-sama-22604499e60ccd26c91b09e05806d74c",
+    "cover": "mata-korosarete-shimatta-no-desu-ne-tantei-sama-188ab5cbe265b119262f80cb2c2a2623",
     "studio": "LIDENFILMS",
     "source": "Light Novel",
     "genres": [
@@ -494,7 +505,7 @@
   },
   "HiiN": {
     "title": "Nippon Sangoku",
-    "cover": "nippon-sangoku-555c2aec5c873775b079438e516b44bd",
+    "cover": "nippon-sangoku-22045614a00d956c1accce747be5ef2d",
     "studio": "Studio Kafka",
     "source": "Web Manga",
     "genres": [
@@ -518,7 +529,7 @@
   },
   "aDz3": {
     "title": "Onegai AiPri",
-    "cover": "onegai-aipri-88afc31cbe1bc566665280b343e8cd04",
+    "cover": "onegai-aipri-7b7baeed12f360503e819e45c4c0acf6",
     "studio": "Dongwoo A&E",
     "source": "Other",
     "genres": [
@@ -538,7 +549,7 @@
   },
   "gTdV": {
     "title": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken 2nd Season",
-    "cover": "otonari-no-tenshi-sama-ni-itsunomanika-dame-ningen-ni-sareteita-ken-2nd-season-43de6d3a2d",
+    "cover": "otonari-no-tenshi-sama-ni-itsunomanika-dame-ningen-ni-sareteita-ken-2nd-season-ffc52fd867ebc7935f03ce7d2788f4a5",
     "studio": "project No.9",
     "source": "Light Novel",
     "genres": [
@@ -597,7 +608,7 @@
   },
   "k4lV": {
     "title": "Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru? 2nd Season",
-    "cover": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-2nd-season-a542f34f31242d79dda4fa1b61dd28da",
+    "cover": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-2nd-season-3f9ccd499c7ce154a09cd234fb435666",
     "studio": "Studio A-CAT",
     "source": "Web Novel",
     "genres": [
@@ -609,7 +620,7 @@
   },
   "kg2u": {
     "title": "Saikyou no Shokugyou wa Yuusha demo Kenja demo Naku Kanteishi (Kari) Rashii desu yo?",
-    "cover": "saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo-b37a9f4d2e2ad19683a7f25f81444b93",
+    "cover": "saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo-dc932689c5cb662a269d26eee42f68b9",
     "studio": "Studio Flad",
     "source": "Light Novel",
     "genres": [
@@ -621,7 +632,7 @@
   },
   "H8Ff": {
     "title": "Shunkashuutou Daikousha: Haru no Mai",
-    "cover": "shunkashuutou-daikousha-haru-no-mai-54b558eaab",
+    "cover": "shunkashuutou-daikousha-haru-no-mai-43521e55d90e5ee85773692bf25e98b0",
     "studio": "Wit Studio",
     "source": "Light Novel",
     "genres": [
@@ -642,9 +653,20 @@
       "Sci-Fi"
     ]
   },
+  "XZgD": {
+    "title": "Super no Ura de Yani Suu Futari",
+    "cover": "super-no-ura-de-yani-suu-futari-99e5d4c09ccde0c3cf63da53831fd34a",
+    "studio": "Asahi Production",
+    "source": "Manga",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Slice of Life"
+    ]
+  },
   "IQdc": {
     "title": "Tadaima, Ojamasaremasu!",
-    "cover": "tadaima-ojamasaremasu-51dbfb4a84",
+    "cover": "tadaima-ojamasaremasu-3337aacece2e72516c4db0dc3c81b81a",
     "studio": "Tatsunoko Production",
     "source": "Web Manga",
     "genres": [
@@ -669,7 +691,7 @@
   },
   "E7zY": {
     "title": "Tongari Boushi no Atelier",
-    "cover": "tongari-boushi-no-atelier-240c5d52ad63bde464f88af667a787bc",
+    "cover": "tongari-boushi-no-atelier-cd90bdf783fe243c9475f6efbc9c5b55",
     "studio": "BUG FILMS",
     "source": "Manga",
     "genres": [
@@ -721,7 +743,7 @@
   },
   "q4dV": {
     "title": "Yowa Yowa Sensei",
-    "cover": "yowayowa-sensei-59d32023fcc256fab5456c30ecc76cca",
+    "cover": "yowayowa-sensei-e518c3fa99906e48a38fbc2b033533f5",
     "studio": "Brain's Base",
     "source": "Manga",
     "genres": [
@@ -733,7 +755,7 @@
   },
   "J7Hu": {
     "title": "Yozakura-san Chi no Daisakusen 2nd Season",
-    "cover": "yozakura-san-chi-no-daisakusen-2nd-season-bb3fde034c576353cdc2240a1c00a3bc",
+    "cover": "yozakura-san-chi-no-daisakusen-2nd-season-e9cd7c40d079b4ac9a9a503d80d0940b",
     "studio": "SILVER LINK.",
     "source": "Manga",
     "genres": [
