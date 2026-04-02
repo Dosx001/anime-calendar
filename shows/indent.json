@@ -134,7 +134,7 @@
   "fnEH": {
     "title": "Chitose Is in the Ramune Bottle",
     "day": 2,
-    "time": "2:30 AM",
+    "time": "3:30 AM",
     "cover": "chitose-kun-wa-ramune-bin-no-naka-95713a2f64",
     "streams": {
       "Amazon": "https://amzn.to/4bp6tzA",
@@ -331,54 +331,56 @@
     }
   },
   "Sa4c": {
-    "title": "Maid-san wa Taberu dake",
+    "title": "The Food Diary of Miss Maid",
     "day": 7,
-    "time": "8:00 AM",
+    "time": "9:00 AM",
     "cover": "maid-san-wa-taberu-dake-7ad347cd2062f583d3ccadc25efab69e",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/3OcsIjh",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00375170"
+    }
   },
   "k4lV": {
     "title": "The Beginning After the End",
     "day": 3,
-    "time": "7:30 AM",
+    "time": "9:15 AM",
     "cover": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-2nd-season-3f9ccd499c7ce154a09cd234fb435666",
     "streams": {
+      "Apple": "https://apple.co/4vc0aav",
+      "BiliBili TV": "https://www.bilibili.tv/en/media/2341767",
       "Crunchyroll": "https://www.crunchyroll.com/series/G24H1NWKE/the-beginning-after-the-end"
     }
-  },
-  "ep1e": {
-    "title": "Daikenja Riddle no Jikan Gyakkou",
-    "day": 3,
-    "time": "5:55 AM",
-    "cover": "daikenja-riddle-no-jikan-gyakkou-70c69ed9213e75ac582245d9cc4a336e",
-    "streams": {},
-    "status": true
   },
   "lXr6": {
     "title": "Reborn as a Vending Machine, I Now Wander the Dungeon",
     "day": 3,
-    "time": "6:00 AM",
+    "time": "7:00 AM",
     "cover": "jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou-3rd-season-02c383d59350960ecaa4c84108c24349",
     "streams": {
+      "Apple": "https://apple.co/4sc44gT",
       "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX8504/reborn-as-a-vending-machine-i-now-wander-the-dungeon"
     }
   },
   "kg2u": {
-    "title": "Saikyou no Shokugyou wa Yuusha demo Kenja demo Naku Kanteishi (Kari) Rashii desu yo?",
-    "day": 3,
-    "time": "8:00 AM",
+    "title": "The strongest job is apparently not a hero or a sage, but an appraiser!",
+    "day": 6,
+    "time": "9:00 AM",
     "cover": "saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo-dc932689c5cb662a269d26eee42f68b9",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4dEhcYz",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371875"
+    }
   },
   "PQ2B": {
-    "title": "Nigashita Sakana wa Ookikatta ga Tsuriageta Sakana ga Ookisugita Ken",
+    "title": "Always a Catch!",
     "day": 3,
-    "time": "8:00 AM",
+    "time": "9:00 AM",
     "cover": "nigashita-sakana-wa-ookikatta-ga-tsuriageta-sakana-ga-ookisugita-ken-e9a9f97614179f78feeca6dab07b5ff4",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/48l3iqq",
+      "BiliBili TV": "https://www.bilibili.tv/en/media/2343020",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371642"
+    }
   },
   "hxlW": {
     "title": "Dorohedoro",
@@ -386,24 +388,32 @@
     "time": "7:01 AM",
     "cover": "dorohedoro-zoku-hen-6b60961c563aa8550a075a63453a727c",
     "streams": {
+      "Apple": "https://apple.co/47zBIpe",
+      "BiliBili TV": "https://www.bilibili.tv/media/2361672",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00371893/dorohedoro",
-      "Netflix": "https://www.netflix.com/title/80991903"
+      "Netflix": "https://www.netflix.com/title/80991903",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JijIk0-cv_OB8lVOHKzve3r"
     }
   },
   "bdB6": {
-    "title": "Ganbare! Nakamura-kun!!",
+    "title": "Go For It, Nakamura-kun!!",
     "day": 3,
-    "time": "8:30 AM",
+    "time": "10:00 AM",
     "cover": "ganbare-nakamura-kun-be98d5c86e",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4sTh24k",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00337506/go-for-it-nakamura-kun"
+    }
   },
   "XqCJ": {
     "title": "Classroom of the Elite",
     "day": 3,
-    "time": "4:30 AM",
+    "time": "5:30 AM",
     "cover": "youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-4th-season-0f70af5aae",
     "streams": {
+      "Amazon": "https://amzn.to/4bTE4AE",
+      "Apple": "https://apple.co/3PKAJfN",
+      "BiliBili TV": "https://www.bilibili.tv/en/media/2342498",
       "Crunchyroll": "https://www.crunchyroll.com/series/GRVN8MNQY/classroom-of-the-elite"
     }
   },
