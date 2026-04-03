@@ -135,7 +135,7 @@
     "title": "Chitose Is in the Ramune Bottle",
     "day": 2,
     "time": "3:30 AM",
-    "cover": "chitose-kun-wa-ramune-bin-no-naka-95713a2f64",
+    "cover": "",
     "streams": {
       "Amazon": "https://amzn.to/4bp6tzA",
       "Apple": "https://apple.co/48SSjWk",
@@ -168,7 +168,7 @@
     "title": "Golden Kamuy",
     "day": 1,
     "time": "7:30 AM",
-    "cover": "golden-kamuy-saishuu-shou-c52277e515d9a98b4d0d20fce3b215f9",
+    "cover": "",
     "streams": {
       "Amazon": "https://amzn.to/4uyzY9v",
       "Apple": "https://apple.co/49vzOaE",
@@ -279,7 +279,7 @@
     "title": "Tis Time for \"Torture,\" Princess",
     "day": 1,
     "time": "9:00 AM",
-    "cover": "himesama-goumon-no-jikan-desu-2nd-season-e5ebdac6b9",
+    "cover": "",
     "streams": {
       "Amazon": "https://amzn.to/4uX2Icv",
       "Apple": "https://apple.co/3Z7hHS7",
@@ -332,7 +332,7 @@
   },
   "Sa4c": {
     "title": "The Food Diary of Miss Maid",
-    "day": 7,
+    "day": 2,
     "time": "9:00 AM",
     "cover": "maid-san-wa-taberu-dake-7ad347cd2062f583d3ccadc25efab69e",
     "streams": {
@@ -344,8 +344,9 @@
     "title": "The Beginning After the End",
     "day": 3,
     "time": "9:15 AM",
-    "cover": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-2nd-season-3f9ccd499c7ce154a09cd234fb435666",
+    "cover": "",
     "streams": {
+      "Amazon": "https://amzn.to/4drHSeO",
       "Apple": "https://apple.co/4vc0aav",
       "BiliBili TV": "https://www.bilibili.tv/en/media/2341767",
       "Crunchyroll": "https://www.crunchyroll.com/series/G24H1NWKE/the-beginning-after-the-end"
@@ -355,7 +356,7 @@
     "title": "Reborn as a Vending Machine, I Now Wander the Dungeon",
     "day": 3,
     "time": "7:00 AM",
-    "cover": "jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou-3rd-season-02c383d59350960ecaa4c84108c24349",
+    "cover": "",
     "streams": {
       "Apple": "https://apple.co/4sc44gT",
       "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX8504/reborn-as-a-vending-machine-i-now-wander-the-dungeon"
@@ -363,9 +364,9 @@
   },
   "kg2u": {
     "title": "The strongest job is apparently not a hero or a sage, but an appraiser!",
-    "day": 6,
+    "day": 2,
     "time": "9:00 AM",
-    "cover": "saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo-dc932689c5cb662a269d26eee42f68b9",
+    "cover": "",
     "streams": {
       "Apple": "https://apple.co/4dEhcYz",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00371875"
@@ -379,7 +380,8 @@
     "streams": {
       "Apple": "https://apple.co/48l3iqq",
       "BiliBili TV": "https://www.bilibili.tv/en/media/2343020",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371642"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371642",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3n62kkjOOBxuuhfXiDUu4g"
     }
   },
   "hxlW": {
@@ -418,36 +420,38 @@
     }
   },
   "l11k": {
-    "title": "Dr. Stone: Science Future Part 3",
+    "title": "Dr. Stone",
     "day": 4,
-    "time": "6:00 AM",
+    "time": "7:00 AM",
     "cover": "dr-stone-science-future-part-3-67fba577814a5ada075f84f3e4f28043",
-    "streams": {},
-    "status": true
-  },
-  "KQub": {
-    "title": "Mamonogurai no Boukensha: Ore dake Mamono wo Kuratte Tsuyoku Naru",
-    "day": 4,
-    "time": "9:00 AM",
-    "cover": "mamonogurai-no-boukensha-ore-dake-mamono-wo-kuratte-tsuyoku-naru-146f9acf9513a7df858ab280a49b882a",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/40WayF1",
+      "BiliBili TV": "https://www.bilibili.tv/media/2123789",
+      "Crunchyroll": "https://crunchyroll.com/series/GYEXQKJG6",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jj4AHW3_HqDp39-puRHVfNA"
+    }
   },
   "wAgX": {
-    "title": "Reincarnation no Kaben",
+    "title": "Petals of Reincarnation",
     "day": 4,
     "time": "9:30 AM",
     "cover": "reincarnation-no-kaben-730f2efedbcc7ea2cb4846b0513c757b",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/3OitDyI",
+      "BiliBili TV": "https://www.bilibili.tv/en/media/2343947",
+      "HiDive": "https://www.hidive.com/season/35228",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgAgNZonRZtMMkb823NExcD"
+    }
   },
   "ZeO9": {
-    "title": "Mata Korosarete Shimatta no desu ne, Tantei-sama",
+    "title": "Killed again, Mr. Detective.",
     "day": 4,
-    "time": "9:58 AM",
+    "time": "10:30 AM",
     "cover": "mata-korosarete-shimatta-no-desu-ne-tantei-sama-188ab5cbe265b119262f80cb2c2a2623",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4m8MRU5",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371787"
+    }
   },
   "11mU": {
     "title": "The Ramparts of Ice",
@@ -459,20 +463,24 @@
     }
   },
   "9HX4": {
-    "title": "Haibara-kun no Tsuyokute Seishun New Game",
+    "title": "Haibara's Teenage New Game+",
     "day": 4,
-    "time": "9:28 AM",
+    "time": "10:00 AM",
     "cover": "haibara-kun-no-tsuyokute-seishun-new-game-2553dde36cdcc5f56e738ed723f928f3",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4mdikVi",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371668"
+    }
   },
   "5x1W": {
-    "title": "Kirio Fanclub",
+    "title": "Kirio Fan Club",
     "day": 4,
     "time": "9:00 AM",
     "cover": "kirio-fanclub-9e098990bef6c88bf978cd55ae95656d",
-    "streams": {},
-    "status": true
+    "streams": {
+      "HiDive": "https://www.hidive.com/season/35227",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgMGXyhUEr1I_5ryXN436vi"
+    }
   },
   "lqMh": {
     "title": "Komekami! Girls",
@@ -510,7 +518,7 @@
   "ScCY": {
     "title": "Snowball Earth",
     "day": 5,
-    "time": "7:30 AM",
+    "time": "7:40 AM",
     "cover": "snowball-earth-8671a9e5a8546657341177aaab987ab5",
     "streams": {},
     "status": true
@@ -567,7 +575,7 @@
   "uBmx": {
     "title": "MAO",
     "day": 6,
-    "time": "7:45 AM",
+    "time": "2:15 PM",
     "cover": "mao-44e966cf1bebf47f504bf9a4bb5ae6e5",
     "streams": {},
     "status": true
