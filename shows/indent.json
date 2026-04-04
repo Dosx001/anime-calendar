@@ -135,7 +135,7 @@
     "title": "Chitose Is in the Ramune Bottle",
     "day": 2,
     "time": "3:30 AM",
-    "cover": "",
+    "cover": "chitose-kun-wa-ramune-bin-no-naka-95713a2f64",
     "streams": {
       "Amazon": "https://amzn.to/4bp6tzA",
       "Apple": "https://apple.co/48SSjWk",
@@ -168,7 +168,7 @@
     "title": "Golden Kamuy",
     "day": 1,
     "time": "7:30 AM",
-    "cover": "",
+    "cover": "golden-kamuy-saishuu-shou-c52277e515d9a98b4d0d20fce3b215f9",
     "streams": {
       "Amazon": "https://amzn.to/4uyzY9v",
       "Apple": "https://apple.co/49vzOaE",
@@ -279,7 +279,7 @@
     "title": "Tis Time for \"Torture,\" Princess",
     "day": 1,
     "time": "9:00 AM",
-    "cover": "",
+    "cover": "himesama-goumon-no-jikan-desu-2nd-season-e5ebdac6b9",
     "streams": {
       "Amazon": "https://amzn.to/4uX2Icv",
       "Apple": "https://apple.co/3Z7hHS7",
@@ -332,7 +332,7 @@
   },
   "Sa4c": {
     "title": "The Food Diary of Miss Maid",
-    "day": 2,
+    "day": 7,
     "time": "9:00 AM",
     "cover": "maid-san-wa-taberu-dake-7ad347cd2062f583d3ccadc25efab69e",
     "streams": {
@@ -344,7 +344,7 @@
     "title": "The Beginning After the End",
     "day": 3,
     "time": "9:15 AM",
-    "cover": "",
+    "cover": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-2nd-season-3f9ccd499c7ce154a09cd234fb435666",
     "streams": {
       "Amazon": "https://amzn.to/4drHSeO",
       "Apple": "https://apple.co/4vc0aav",
@@ -356,7 +356,7 @@
     "title": "Reborn as a Vending Machine, I Now Wander the Dungeon",
     "day": 3,
     "time": "7:00 AM",
-    "cover": "",
+    "cover": "jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou-3rd-season-02c383d59350960ecaa4c84108c24349",
     "streams": {
       "Apple": "https://apple.co/4sc44gT",
       "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX8504/reborn-as-a-vending-machine-i-now-wander-the-dungeon"
@@ -364,9 +364,9 @@
   },
   "kg2u": {
     "title": "The strongest job is apparently not a hero or a sage, but an appraiser!",
-    "day": 2,
+    "day": 6,
     "time": "9:00 AM",
-    "cover": "",
+    "cover": "saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo-dc932689c5cb662a269d26eee42f68b9",
     "streams": {
       "Apple": "https://apple.co/4dEhcYz",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00371875"
@@ -491,19 +491,26 @@
     "status": true
   },
   "gTdV": {
-    "title": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken 2nd Season",
+    "title": "The Angel Next Door Spoils Me Rotten",
     "day": 5,
-    "time": "6:30 AM",
+    "time": "7:30 AM",
     "cover": "otonari-no-tenshi-sama-ni-itsunomanika-dame-ningen-ni-sareteita-ken-2nd-season-ffc52fd867ebc7935f03ce7d2788f4a5",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Amazon": "https://amzn.to/3OkYTNw",
+      "Apple": "https://apple.co/3Oh5iJG",
+      "BiliBili TV": "https://www.bilibili.tv/en/media/2343630",
+      "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN91DJ/the-angel-next-door-spoils-me-rotten",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjhVqkAt1bFMDpgrRsby7Z_"
+    }
   },
   "zNmQ": {
     "title": "That Time I Got Reincarnated as a Slime",
     "day": 5,
-    "time": "7:00 AM",
+    "time": "8:00 AM",
     "cover": "tensei-shitara-slime-datta-ken-4th-season-1bce192c2db136585e91652599a16fb3",
     "streams": {
+      "Apple": "https://apple.co/4e2i49k",
+      "BiliBili TV": "https://www.bilibili.tv/en/media/2342192",
       "Crunchyroll": "https://www.crunchyroll.com/series/GYZJ43JMR/that-time-i-got-reincarnated-as-a-slime"
     }
   },
@@ -516,12 +523,17 @@
     "status": true
   },
   "ScCY": {
-    "title": "Snowball Earth",
+    "title": "SNOWBALL EARTH",
     "day": 5,
-    "time": "7:40 AM",
+    "time": "8:30 AM",
     "cover": "snowball-earth-8671a9e5a8546657341177aaab987ab5",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4soavgY",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371869/snowball-earth",
+      "Disney+": "https://www.disneyplus.com/en-gb/browse/entity-5ecc8b00-79fd-4c1a-81ed-f44260ef38d4",
+      "Hulu": "https://www.hulu.com/series/d17225cf-de1c-4257-81e0-061c355a3075",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3pfSGYuLYNhx-r4jK1qzTB"
+    }
   },
   "aqDI": {
     "title": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen 4",
@@ -601,7 +613,7 @@
   "Xa2E": {
     "title": "Yomi no Tsugai",
     "day": 6,
-    "time": "7:30 AM",
+    "time": "9:00 AM",
     "cover": "yomi-no-tsugai-69bea3ff592bb2090548eec577b81497",
     "streams": {},
     "status": true
@@ -639,5 +651,25 @@
     "cover": "pierrot-mahou-shoujo-series-shinsaku-anime-00ef59c8ed10d9f39431032a3b143f8b",
     "streams": {},
     "status": true
+  },
+  "NHFC": {
+    "title": "PetitCure: Precure Fairies 3rd Season",
+    "day": 4,
+    "time": "2:30 AM",
+    "cover": "petitcure-precure-fairies-season-3-90690a2edf53b4970f15eb7416fc0d4d",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLq34MZPUzQ9mGMf3-p798NI3FNNROkDMR"
+    },
+    "status": true
+  },
+  "t5ev": {
+    "title": "An Observation Log of My Fiancee Who Calls Herself a Villainess",
+    "day": 5,
+    "time": "6:01 AM",
+    "cover": "jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-5ad96f0b89",
+    "streams": {
+      "Apple": "https://apple.co/4e1qCgH",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371887/an-observation-log-of-my-fiance-who-calls-herself-a-villainess"
+    }
   }
 }
