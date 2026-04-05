@@ -332,7 +332,7 @@
   },
   "Sa4c": {
     "title": "The Food Diary of Miss Maid",
-    "day": 7,
+    "day": 2,
     "time": "9:00 AM",
     "cover": "maid-san-wa-taberu-dake-7ad347cd2062f583d3ccadc25efab69e",
     "streams": {
@@ -365,7 +365,7 @@
   "kg2u": {
     "title": "The strongest job is apparently not a hero or a sage, but an appraiser!",
     "day": 6,
-    "time": "9:00 AM",
+    "time": "6:31 AM",
     "cover": "saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo-dc932689c5cb662a269d26eee42f68b9",
     "streams": {
       "Apple": "https://apple.co/4dEhcYz",
@@ -536,61 +536,77 @@
     }
   },
   "aqDI": {
-    "title": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen 4",
+    "title": "Ascendance of a Bookworm",
     "day": 6,
-    "time": "1:30 AM",
+    "time": "2:30 AM",
     "cover": "honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-ryoushu-no-youjo-2f1219ba9382337509a363ea096a04f1",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4sMVZ3b",
+      "Crunchyroll": "https://www.crunchyroll.com/series/G6793XKZY/ascendance-of-a-bookworm"
+    }
   },
   "tEjf": {
     "title": "Welcome to Demon School! Iruma-kun",
     "day": 6,
-    "time": "2:15 AM",
+    "time": "3:25 AM",
     "cover": "mairimashita-iruma-kun-4-5f43f93e4a",
     "streams": {
+      "Apple": "https://apple.co/4meHpz1",
+      "BiliBili TV": "https://www.bilibili.tv/en/media/2342582",
       "Crunchyroll": "https://www.crunchyroll.com/welcome-to-demon-school-iruma-kun"
     }
   },
   "g5rr": {
-    "title": "Kami no Niwatsuki Kusunoki-tei",
+    "title": "Kusunoki's Garden of Gods",
     "day": 6,
-    "time": "9:30 AM",
+    "time": "9:31 AM",
     "cover": "kami-no-niwatsuki-kusunoki-tei-2962df1d1306b78e4ca3947c8521dd31",
-    "streams": {},
-    "status": true
+    "streams": {
+      "BiliBili TV": "https://www.bilibili.tv/media/2344089",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00374360",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjlyxvkFA0-OyN6zwDTNjoA"
+    }
   },
   "SPvu": {
-    "title": "Kanan-sama wa Akumade Choroi",
+    "title": "Mistress Kanan Is Devilishly Easy",
     "day": 6,
-    "time": "9:00 AM",
+    "time": "9:01 AM",
     "cover": "kanan-sama-wa-akumade-choroi-e9fccf95ef972651c3917a49d3eefcd3",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4vcV2CR",
+      "BiliBili TV": "https://www.bilibili.tv/en/media/2343522",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371860/mistress-kanan-is-devilishly-easy",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhVy3KHGqdAMw_lVe9Vq5UN"
+    }
   },
   "F4dy": {
     "title": "NEEDY GIRL OVERDOSE",
     "day": 6,
-    "time": "8:30 AM",
+    "time": "10:00 AM",
     "cover": "needy-girl-overdose-baed367137",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371863"
+    }
   },
   "3oOW": {
     "title": "Akane-banashi",
     "day": 6,
-    "time": "7:30 AM",
+    "time": "9:00 AM",
     "cover": "akane-banashi-16844a9fca0ee900ae11d71afb4247b5",
-    "streams": {},
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JiCtTdD2GRMvAmM6RXA2uhH"
+    },
     "status": true
   },
   "uBmx": {
     "title": "MAO",
     "day": 6,
-    "time": "2:15 PM",
+    "time": "8:45 AM",
     "cover": "mao-44e966cf1bebf47f504bf9a4bb5ae6e5",
-    "streams": {},
-    "status": true
+    "streams": {
+      "BiliBili TV": "https://www.bilibili.tv/media/2343716",
+      "Hulu": "https://www.hulu.com/series/7c9b966e-4234-4994-b1ef-37242b834d72"
+    }
   },
   "H8Ff": {
     "title": "Agents of the Four Seasons Dance of Spring",
@@ -611,12 +627,15 @@
     "status": true
   },
   "Xa2E": {
-    "title": "Yomi no Tsugai",
+    "title": "Daemons of the Shadow Realm",
     "day": 6,
     "time": "9:00 AM",
     "cover": "yomi-no-tsugai-69bea3ff592bb2090548eec577b81497",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4t3w3jK",
+      "BiliBili TV": "https://www.bilibili.tv/en/media/2342276",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371630/daemons-of-the-shadow-realm"
+    }
   },
   "HiiN": {
     "title": "Nippon Sangoku",
