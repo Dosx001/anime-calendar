@@ -131,19 +131,6 @@
       "Hulu": "https://www.hulu.com/series/4c47f9ab-f6b8-45ec-8fb9-fbd5ed1a5529"
     }
   },
-  "fnEH": {
-    "title": "Chitose Is in the Ramune Bottle",
-    "day": 2,
-    "time": "3:30 AM",
-    "cover": "chitose-kun-wa-ramune-bin-no-naka-95713a2f64",
-    "streams": {
-      "Amazon": "https://amzn.to/4bp6tzA",
-      "Apple": "https://apple.co/48SSjWk",
-      "BiliBili TV": "https://www.bilibili.tv/en/media/2247268",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00364783/chitose-is-in-the-ramune-bottle",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jgz0nvNyM-z3UVzYpGY70Et"
-    }
-  },
   "QXyb": {
     "title": "Koala Enikki",
     "day": 4,
@@ -164,39 +151,6 @@
     },
     "status": true
   },
-  "t4Ul": {
-    "title": "Golden Kamuy",
-    "day": 1,
-    "time": "7:30 AM",
-    "cover": "golden-kamuy-saishuu-shou-c52277e515d9a98b4d0d20fce3b215f9",
-    "streams": {
-      "Amazon": "https://amzn.to/4uyzY9v",
-      "Apple": "https://apple.co/49vzOaE",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GY8DWQN5Y"
-    }
-  },
-  "3te8": {
-    "title": "My Hero Academia: Vigilantes",
-    "day": 1,
-    "time": "7:00 AM",
-    "cover": "vigilante-boku-no-hero-academia-illegals-2nd-season-0425f475b8",
-    "streams": {
-      "Amazon": "https://amzn.to/4rHYvX8",
-      "Apple": "https://apple.co/3YY4cnJ",
-      "Crunchyroll": "https://www.crunchyroll.com/series/G79H23ZQ3/my-hero-academia-vigilantes",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Ji6xNpTPVde69l-VVcWyhVR"
-    }
-  },
-  "sIGp": {
-    "title": "The Darwin Incident",
-    "day": 2,
-    "time": "8:30 AM",
-    "cover": "darwin-jihen-832a83655a",
-    "streams": {
-      "Amazon": "https://amzn.to/4rCb7ip",
-      "Apple": "https://apple.co/4qdjktr"
-    }
-  },
   "PnEn": {
     "title": "Mofusand",
     "day": 2,
@@ -207,32 +161,6 @@
     },
     "status": true
   },
-  "AQkt": {
-    "title": "There Was a Cute Girl in the Hero's Party, So I Tried Confessing to Her",
-    "day": 2,
-    "time": "8:00 AM",
-    "cover": "yuusha-party-ni-kawaii-ko-ga-ita-node-kokuhaku-shitemita-6bd7de3b32",
-    "streams": {
-      "Amazon": "https://amzn.to/4rNKxTD",
-      "Apple": "https://apple.co/4qAYB2t",
-      "BiliBili TV": "https://www.bilibili.tv/en/media/2289667",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00355229/there-was-a-cute-girl-in-the-heros-party-so-i-tried-confessing-to-her",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgiegdmIMRF4OGiKggAFytJ"
-    }
-  },
-  "WyBg": {
-    "title": "Fire Force",
-    "day": 5,
-    "time": "10:30 AM",
-    "cover": "enen-no-shouboutai-san-no-shou-part-2-7550df2ac6",
-    "streams": {
-      "Amazon": "https://amzn.to/4s0rANP",
-      "Apple": "https://apple.co/4cDYHRi",
-      "Crunchyroll": "https://crunchyroll.com/series/GYQWNXPZY",
-      "Hulu": "https://hulu.com/series/5973d35",
-      "Netflix": "https://netflix.com/title/81143589"
-    }
-  },
   "4ygn": {
     "title": "Cardfight!! Vanguard: Divinez Genma Seisen-hen",
     "day": 5,
@@ -240,16 +168,6 @@
     "cover": "cardfight-vanguard-divinez-genma-seisen-hen-2a2f009b9a",
     "streams": {},
     "status": true
-  },
-  "uJkb": {
-    "title": "A Misanthrope Teaches a Class for Demi-Humans",
-    "day": 6,
-    "time": "8:30 AM",
-    "cover": "jingai-kyoushitsu-no-ningengirai-kyoushi-b529205827",
-    "streams": {
-      "Apple": "https://apple.co/3Z7REKA",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00365542"
-    }
   },
   "iF7D": {
     "title": "Scum of the Brave",
@@ -261,30 +179,6 @@
       "Apple": "https://apple.co/4qr7egk",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00365730",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2jocaAW0S6IpbSv01XLHkV"
-    }
-  },
-  "iwIu": {
-    "title": "Oedo Fire Slayer -The Legend of Phoenix-",
-    "day": 7,
-    "time": "8:30 AM",
-    "cover": "hikuidori-ushuu-boro-tobi-gumi-fcf527dc2f",
-    "streams": {
-      "Amazon": "https://amzn.to/4lDGlED",
-      "Apple": "https://apple.co/4qgrwsW",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00365724/oedo-fire-slayer--the-legend-of-phoenix-",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jgg8qGQKMckY8CM8ewbQAFo"
-    }
-  },
-  "dL92": {
-    "title": "Tis Time for \"Torture,\" Princess",
-    "day": 1,
-    "time": "9:00 AM",
-    "cover": "himesama-goumon-no-jikan-desu-2nd-season-e5ebdac6b9",
-    "streams": {
-      "Amazon": "https://amzn.to/4uX2Icv",
-      "Apple": "https://apple.co/3Z7hHS7",
-      "Crunchyroll": "https://www.crunchyroll.com/series/G1XHJV0KV/tis-time-for-torture-princess",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgSFeEiMRb0xXPlMqugXaWT"
     }
   },
   "xnHx": {
@@ -332,7 +226,7 @@
   },
   "Sa4c": {
     "title": "The Food Diary of Miss Maid",
-    "day": 2,
+    "day": 7,
     "time": "9:00 AM",
     "cover": "maid-san-wa-taberu-dake-7ad347cd2062f583d3ccadc25efab69e",
     "streams": {
@@ -364,7 +258,7 @@
   },
   "kg2u": {
     "title": "The strongest job is apparently not a hero or a sage, but an appraiser!",
-    "day": 6,
+    "day": 2,
     "time": "6:31 AM",
     "cover": "saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo-dc932689c5cb662a269d26eee42f68b9",
     "streams": {
@@ -562,6 +456,7 @@
     "time": "9:31 AM",
     "cover": "kami-no-niwatsuki-kusunoki-tei-2962df1d1306b78e4ca3947c8521dd31",
     "streams": {
+      "Apple": "https://apple.co/4vcuL7I",
       "BiliBili TV": "https://www.bilibili.tv/media/2344089",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00374360",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjlyxvkFA0-OyN6zwDTNjoA"
@@ -638,35 +533,39 @@
     }
   },
   "HiiN": {
-    "title": "Nippon Sangoku",
+    "title": "NIPPON SANGOKU: The Three Nations of the Crimson Sun",
     "day": 7,
     "time": "5:01 AM",
     "cover": "nippon-sangoku-22045614a00d956c1accce747be5ef2d",
     "streams": {
-      "Amazon": "https://amzn.to/4lZyHo9"
-    },
-    "status": true
+      "Amazon": "https://amzn.to/4lZyHo9",
+      "Apple": "https://apple.co/4tA1a6J"
+    }
   },
   "zojG": {
-    "title": "Diamond no Ace Act II: Second Season",
+    "title": "Ace of the Diamond Act II",
     "day": 7,
-    "time": "1:30 AM",
+    "time": "2:00 AM",
     "cover": "diamond-no-ace-act-ii-zoku-hen-9f39cac4af",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4c6NwAy",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GYX0MZ58R/ace-of-the-diamond"
+    }
   },
   "GXRY": {
-    "title": "Ghost Concert: Missing Songs",
+    "title": "GHOST CONCERT : missing Songs",
     "day": 7,
-    "time": "8:30 AM",
+    "time": "8:31 AM",
     "cover": "ghost-concert-missing-songs-829e01f713dfd494c1afa895c8cf9ec0",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00374796",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgpcAwuayL8qIjFf0EVbNw0"
+    }
   },
   "lOR1": {
     "title": "Mahou no Shimai Lulutto Lilly",
     "day": 7,
-    "time": "6:30 AM",
+    "time": "7:00 AM",
     "cover": "pierrot-mahou-shoujo-series-shinsaku-anime-00ef59c8ed10d9f39431032a3b143f8b",
     "streams": {},
     "status": true
@@ -690,5 +589,235 @@
       "Apple": "https://apple.co/4e1qCgH",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00371887/an-observation-log-of-my-fiance-who-calls-herself-a-villainess"
     }
+  },
+  "yaXr": {
+    "title": "Isekai Nonbiri Nouka 2",
+    "day": 1,
+    "time": "7:01 AM",
+    "cover": "isekai-nonbiri-nouka-2-5944576c31e6b6265824fbba88094629",
+    "streams": {},
+    "status": true
+  },
+  "pOF1": {
+    "title": "LIAR GAME",
+    "day": 1,
+    "time": "8:00 AM",
+    "cover": "liar-game-3f4f5cc7766e387b191f5b7fcf2dfa54",
+    "streams": {},
+    "status": true
+  },
+  "vJJP": {
+    "title": "Ponkotsu Fuuki Iin to Skirt-take ga Futekisetsu na JK no Hanashi",
+    "day": 1,
+    "time": "7:24 AM",
+    "cover": "ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-e8fb8acff87d8300775177d56225c70f",
+    "streams": {},
+    "status": true
+  },
+  "E7zY": {
+    "title": "Tongari Boushi no Atelier",
+    "day": 1,
+    "time": "7:01 AM",
+    "cover": "tongari-boushi-no-atelier-cd90bdf783fe243c9475f6efbc9c5b55",
+    "streams": {},
+    "status": true
+  },
+  "8xvz": {
+    "title": "Higeki no Genkyou to Naru Saikyou Gedou Last Boss Joou wa Tami no Tame ni Tsukushimasu. 2nd Season",
+    "day": 2,
+    "time": "6:30 AM",
+    "cover": "higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukushimasu-season-2-5896627b17e843bbc47af8d35c6c526c",
+    "streams": {},
+    "status": true
+  },
+  "8l1z": {
+    "title": "Class de 2-banme ni Kawaii Onnanoko to Tomodachi ni Natta",
+    "day": 2,
+    "time": "7:30 AM",
+    "cover": "class-de-2-banme-ni-kawaii-onnanoko-to-tomodachi-ni-natta-55a3516a2ab9a15ce04946bee1aa68a1",
+    "streams": {},
+    "status": true
+  },
+  "y1mr": {
+    "title": "MARRIAGETOXIN",
+    "day": 2,
+    "time": "7:00 AM",
+    "cover": "marriagetoxin-3c84199d8e",
+    "streams": {},
+    "status": true
+  },
+  "bLXf": {
+    "title": "Megami \"Isekai Tensei Nani ni Naritai desu ka\" Ore \"Yuusha no Rokkotsu de\"",
+    "day": 2,
+    "time": "9:59 AM",
+    "cover": "megami-isekai-tensei-nani-ni-naritai-desu-ka-ore-yuusha-no-rokkotsu-de-28d4da6c66cf6030a28bcbb1d6f0701a",
+    "streams": {},
+    "status": true
+  },
+  "uOJc": {
+    "title": "Hidarikiki no Eren",
+    "day": 2,
+    "time": "8:00 AM",
+    "cover": "hidarikiki-no-eren-96a12764657e83fd7bc1c3f4896dcc0e",
+    "streams": {},
+    "status": true
+  },
+  "We41": {
+    "title": "Replica datte, Koi wo Suru.",
+    "day": 2,
+    "time": "7:30 AM",
+    "cover": "replica-datte-koi-wo-suru-6356643a26a0673e474f308abc364ea2",
+    "streams": {},
+    "status": true
+  },
+  "HLlb": {
+    "title": "Hyakki Yakoushou",
+    "day": 2,
+    "time": "5:55 AM",
+    "cover": "hyakki-yakoushou-2a318c331f137d67f3384949bd38692c",
+    "streams": {},
+    "status": true
+  },
+  "IQdc": {
+    "title": "Tadaima, Ojamasaremasu!",
+    "day": 2,
+    "time": "9:29 AM",
+    "cover": "tadaima-ojamasaremasu-3337aacece2e72516c4db0dc3c81b81a",
+    "streams": {},
+    "status": true
+  },
+  "a4dX": {
+    "title": "Re:ZERO -Starting Life in Another World-",
+    "day": 3,
+    "time": "6:00 AM",
+    "cover": "re-zero-kara-hajimeru-isekai-seikatsu-4-d5233583bd0dc12a3089d74e815f43bf",
+    "streams": {
+      "Apple": "https://apple.co/3CMHQyd",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GRGG9798R/rezero--starting-life-in-another-world-"
+    }
+  },
+  "a2zz": {
+    "title": "Otaku ni Yasashii Gal wa Inai!?",
+    "day": 3,
+    "time": "7:45 AM",
+    "cover": "otaku-ni-yasashii-gal-wa-inai-0044e17a044b4096940344b888dc701e",
+    "streams": {},
+    "status": true
+  },
+  "HZTr": {
+    "title": "Rent-a-Girlfriend",
+    "day": 3,
+    "time": "6:00 AM",
+    "cover": "kanojo-okarishimasu-5-00d9eadd1f7b21989b3a13d7fabd8565",
+    "streams": {
+      "Apple": "https://apple.co/4hCfWVB",
+      "Crunchyroll": "https://www.crunchyroll.com/series/G6QWV3976/rent-a-girlfriend"
+    }
+  },
+  "YrJF": {
+    "title": "Himekishi wa Barbaroi no Yome",
+    "day": 4,
+    "time": "5:30 AM",
+    "cover": "himekishi-wa-barbaroi-no-yome-128fde6a80928c73b6c7512bccd32fd2",
+    "streams": {},
+    "status": true
+  },
+  "wUVn": {
+    "title": "Awajima Hyakkei",
+    "day": 4,
+    "time": "9:45 AM",
+    "cover": "awajima-hyakkei-f3cb73e1df97c3d0fb2fc3dfa75f2054",
+    "streams": {},
+    "status": true
+  },
+  "Dpu4": {
+    "title": "Kujima Utaeba Ie Hororo",
+    "day": 4,
+    "time": "6:30 AM",
+    "cover": "kujima-utaeba-ie-hororo-30ec505ca964d18323801d0e6477f9cb",
+    "streams": {},
+    "status": true
+  },
+  "VG7B": {
+    "title": "Kamiina Botan, Yoeru Sugata wa Yuri no Hana",
+    "day": 5,
+    "time": "8:00 AM",
+    "cover": "kamiina-botan-yoeru-sugata-wa-yuri-no-hana-9cdf6f5bd5ab543ae2ab66efdcb057bd",
+    "streams": {},
+    "status": true
+  },
+  "Uk7R": {
+    "title": "Hokuto no Ken: Fist of the North Star",
+    "day": 5,
+    "time": "9:01 AM",
+    "cover": "hokuto-no-ken-fist-of-the-north-star-390d328d1746f59bba17162c1d179d81",
+    "streams": {},
+    "status": true
+  },
+  "25bR": {
+    "title": "Kami no Shizuku",
+    "day": 5,
+    "time": "7:30 AM",
+    "cover": "kami-no-shizuku-ebb7a63252c186f98c27d2e6a096c737",
+    "streams": {},
+    "status": true
+  },
+  "3IQl": {
+    "title": "Kill Ao",
+    "day": 6,
+    "time": "7:00 AM",
+    "cover": "kill-ao-db5469b74b",
+    "streams": {},
+    "status": true
+  },
+  "5Z8W": {
+    "title": "Ichijouma Mankitsugurashi!",
+    "day": 6,
+    "time": "10:00 AM",
+    "cover": "ichijouma-mankitsugurashi-c22b8ced69b6415277035f333408184c",
+    "streams": {},
+    "status": true
+  },
+  "yRXP": {
+    "title": "Odekake Kozame 2nd Season",
+    "day": 6,
+    "time": "3:00 PM",
+    "cover": "odekake-kozame-2nd-season-0ee16b1b6b25b2cd77083a55f6efbd7d",
+    "streams": {},
+    "status": true
+  },
+  "q4dV": {
+    "title": "Yowa Yowa Sensei",
+    "day": 6,
+    "time": "6:00 AM",
+    "cover": "yowayowa-sensei-e518c3fa99906e48a38fbc2b033533f5",
+    "streams": {},
+    "status": true
+  },
+  "knhC": {
+    "title": "Kuroneko to Majo no Kyoushitsu",
+    "day": 7,
+    "time": "7:30 AM",
+    "cover": "kuroneko-to-majo-no-kyoushitsu-cc478b45e4",
+    "streams": {},
+    "status": true
+  },
+  "i7Wp": {
+    "title": "Wistoria: Wand and Sword",
+    "day": 7,
+    "time": "12:30 AM",
+    "cover": "tsue-to-tsurugi-no-wistoria-2nd-season-c6955c4a711490575be6a3b4c85e0012",
+    "streams": {
+      "Apple": "https://apple.co/4gKkAPc",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GW4HM7WK9/wistoria-wand-and-sword"
+    }
+  },
+  "J7Hu": {
+    "title": "Yozakura-san Chi no Daisakusen 2nd Season",
+    "day": 7,
+    "time": "1:00 AM",
+    "cover": "yozakura-san-chi-no-daisakusen-2nd-season-e9cd7c40d079b4ac9a9a503d80d0940b",
+    "streams": {},
+    "status": true
   }
 }
