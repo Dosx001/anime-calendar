@@ -181,26 +181,6 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2jocaAW0S6IpbSv01XLHkV"
     }
   },
-  "xnHx": {
-    "title": "Himitsu Kessha Taka no Tsume XX",
-    "day": 1,
-    "time": "3:00 PM",
-    "cover": "himitsu-kessha-taka-no-tsume-xx-5fefcf0da4e0f1338933ec1190605b64",
-    "streams": {
-      "YouTube": "https://www.youtube.com/playlist?list=PLzWHHHOVw0LRpBdZjQlGre9gTsHXlaI3C"
-    },
-    "status": true
-  },
-  "vdlU": {
-    "title": "Black Jack Yanen",
-    "day": 3,
-    "time": "3:00 PM",
-    "cover": "black-jack-yanen-57a4349dff9a37f2b9a1ba0492dec00c",
-    "streams": {
-      "YouTube": "https://www.youtube.com/playlist?list=PLaWGw0t9iqLutqHmJ3ECpnRKSOsd8ozmu"
-    },
-    "status": true
-  },
   "2a1N": {
     "title": "Star Detective Precure!",
     "day": 6,
@@ -219,15 +199,17 @@
     "cover": "niwatori-fighter-52bbb0418e26420a1ca19ee9e1e74729",
     "streams": {
       "Apple": "https://apple.co/4cdgJep",
+      "BiliBili TV": "https://www.bilibili.tv/en/media/2289611",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00365727/rooster-fighter",
       "Disney+": "https://www.disneyplus.com/en-ca/browse/entity-eb5b776f-8162-491a-9aca-c1e9b56729e5",
-      "Hulu": "https://www.hulu.com/series/75f4baad-151d-489d-8a9e-bec4ab49ed23"
+      "Hulu": "https://www.hulu.com/series/75f4baad-151d-489d-8a9e-bec4ab49ed23",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jij171Q_EAc8xRn0RLyYmbJ"
     }
   },
   "Sa4c": {
     "title": "The Food Diary of Miss Maid",
     "day": 7,
-    "time": "9:00 AM",
+    "time": "7:00 AM",
     "cover": "maid-san-wa-taberu-dake-7ad347cd2062f583d3ccadc25efab69e",
     "streams": {
       "Apple": "https://apple.co/3OcsIjh",
@@ -258,7 +240,7 @@
   },
   "kg2u": {
     "title": "The strongest job is apparently not a hero or a sage, but an appraiser!",
-    "day": 2,
+    "day": 6,
     "time": "6:31 AM",
     "cover": "saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo-dc932689c5cb662a269d26eee42f68b9",
     "streams": {
@@ -403,18 +385,11 @@
     "time": "8:00 AM",
     "cover": "tensei-shitara-slime-datta-ken-4th-season-1bce192c2db136585e91652599a16fb3",
     "streams": {
+      "Amazon": "https://amzn.to/4tmUiJI",
       "Apple": "https://apple.co/4e2i49k",
       "BiliBili TV": "https://www.bilibili.tv/en/media/2342192",
       "Crunchyroll": "https://www.crunchyroll.com/series/GYZJ43JMR/that-time-i-got-reincarnated-as-a-slime"
     }
-  },
-  "a4si": {
-    "title": "Nezumi-kun no Chokki (TV)",
-    "day": 5,
-    "time": "5:30 PM",
-    "cover": "nezumi-kun-no-chokki-tv-fc816f967c583dbcee61585103544bdf",
-    "streams": {},
-    "status": true
   },
   "ScCY": {
     "title": "SNOWBALL EARTH",
@@ -447,7 +422,8 @@
     "streams": {
       "Apple": "https://apple.co/4meHpz1",
       "BiliBili TV": "https://www.bilibili.tv/en/media/2342582",
-      "Crunchyroll": "https://www.crunchyroll.com/welcome-to-demon-school-iruma-kun"
+      "Crunchyroll": "https://www.crunchyroll.com/welcome-to-demon-school-iruma-kun",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1-aoCFQ-X1pmxfTVRvrRAt"
     }
   },
   "g5rr": {
@@ -480,6 +456,7 @@
     "time": "10:00 AM",
     "cover": "needy-girl-overdose-baed367137",
     "streams": {
+      "Apple": "https://apple.co/4twwYcx",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00371863"
     }
   },
@@ -497,10 +474,12 @@
     "title": "MAO",
     "day": 6,
     "time": "8:45 AM",
-    "cover": "mao-44e966cf1bebf47f504bf9a4bb5ae6e5",
+    "cover": "mao-d5bd0fd2648a9c87fecd9cd58d29434f",
     "streams": {
+      "Apple": "https://apple.co/47IDwwj",
       "BiliBili TV": "https://www.bilibili.tv/media/2343716",
-      "Hulu": "https://www.hulu.com/series/7c9b966e-4234-4994-b1ef-37242b834d72"
+      "Hulu": "https://www.hulu.com/series/7c9b966e-4234-4994-b1ef-37242b834d72",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jh6jFqpP-B97p7eUzipzZzv"
     }
   },
   "H8Ff": {
@@ -510,6 +489,7 @@
     "cover": "shunkashuutou-daikousha-haru-no-mai-43521e55d90e5ee85773692bf25e98b0",
     "streams": {
       "Apple": "https://apple.co/4sOnjOI",
+      "BiliBili TV": "https://www.bilibili.tv/en/media/2342908",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00371636/agents-of-the-four-seasons-dance-of-spring"
     }
   },
@@ -549,7 +529,8 @@
     "cover": "diamond-no-ace-act-ii-zoku-hen-9f39cac4af",
     "streams": {
       "Apple": "https://apple.co/4c6NwAy",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GYX0MZ58R/ace-of-the-diamond"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GYX0MZ58R/ace-of-the-diamond",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3eQLL5RrE-_B7D_vmJs1NH"
     }
   },
   "GXRY": {
@@ -558,6 +539,7 @@
     "time": "8:31 AM",
     "cover": "ghost-concert-missing-songs-829e01f713dfd494c1afa895c8cf9ec0",
     "streams": {
+      "Apple": "https://apple.co/41Trn40",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00374796",
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgpcAwuayL8qIjFf0EVbNw0"
     }
@@ -565,7 +547,7 @@
   "lOR1": {
     "title": "Mahou no Shimai Lulutto Lilly",
     "day": 7,
-    "time": "7:00 AM",
+    "time": "6:30 AM",
     "cover": "pierrot-mahou-shoujo-series-shinsaku-anime-00ef59c8ed10d9f39431032a3b143f8b",
     "streams": {},
     "status": true
@@ -591,44 +573,54 @@
     }
   },
   "yaXr": {
-    "title": "Isekai Nonbiri Nouka 2",
+    "title": "Farming Life In Another World",
     "day": 1,
     "time": "7:01 AM",
     "cover": "isekai-nonbiri-nouka-2-5944576c31e6b6265824fbba88094629",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Amazon": "https://amzn.to/4dqXNtT",
+      "Apple": "https://apple.co/4saGOzz",
+      "BiliBili TV": "https://www.bilibili.tv/en/media/2342017",
+      "HiDive": "https://www.hidive.com/season/35229"
+    }
   },
   "pOF1": {
     "title": "LIAR GAME",
     "day": 1,
-    "time": "8:00 AM",
+    "time": "9:00 AM",
     "cover": "liar-game-3f4f5cc7766e387b191f5b7fcf2dfa54",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371851/liar-game"
+    }
   },
   "vJJP": {
-    "title": "Ponkotsu Fuuki Iin to Skirt-take ga Futekisetsu na JK no Hanashi",
+    "title": "The Klutzy Class Monitor and the Girl with the Short Skirt",
     "day": 1,
-    "time": "7:24 AM",
+    "time": "8:00 AM",
     "cover": "ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-e8fb8acff87d8300775177d56225c70f",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4sYm8w6",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371923/the-klutzy-class-monitor-and-the-girl-with-the-short-skirt"
+    }
   },
   "E7zY": {
-    "title": "Tongari Boushi no Atelier",
+    "title": "Witch Hat Atelier",
     "day": 1,
     "time": "7:01 AM",
     "cover": "tongari-boushi-no-atelier-cd90bdf783fe243c9475f6efbc9c5b55",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4viYZ9i",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00258001/witch-hat-atelier"
+    }
   },
   "8xvz": {
-    "title": "Higeki no Genkyou to Naru Saikyou Gedou Last Boss Joou wa Tami no Tame ni Tsukushimasu. 2nd Season",
+    "title": "The Most Heretical Last Boss Queen: From Villainess to Savior",
     "day": 2,
     "time": "6:30 AM",
     "cover": "higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukushimasu-season-2-5896627b17e843bbc47af8d35c6c526c",
-    "streams": {},
-    "status": true
+    "streams": {
+      "HiDive": "https://www.hidive.com/season/35231"
+    }
   },
   "8l1z": {
     "title": "Class de 2-banme ni Kawaii Onnanoko to Tomodachi ni Natta",
@@ -670,14 +662,6 @@
     "streams": {},
     "status": true
   },
-  "HLlb": {
-    "title": "Hyakki Yakoushou",
-    "day": 2,
-    "time": "5:55 AM",
-    "cover": "hyakki-yakoushou-2a318c331f137d67f3384949bd38692c",
-    "streams": {},
-    "status": true
-  },
   "IQdc": {
     "title": "Tadaima, Ojamasaremasu!",
     "day": 2,
@@ -710,7 +694,6 @@
     "time": "6:00 AM",
     "cover": "kanojo-okarishimasu-5-00d9eadd1f7b21989b3a13d7fabd8565",
     "streams": {
-      "Apple": "https://apple.co/4hCfWVB",
       "Crunchyroll": "https://www.crunchyroll.com/series/G6QWV3976/rent-a-girlfriend"
     }
   },
@@ -751,22 +734,25 @@
     "day": 5,
     "time": "9:01 AM",
     "cover": "hokuto-no-ken-fist-of-the-north-star-390d328d1746f59bba17162c1d179d81",
-    "streams": {},
+    "streams": {
+      "Amazon": "https://amzn.to/3PSo6zt"
+    },
     "status": true
   },
   "25bR": {
-    "title": "Kami no Shizuku",
+    "title": "The Drops of God",
     "day": 5,
     "time": "7:30 AM",
     "cover": "kami-no-shizuku-ebb7a63252c186f98c27d2e6a096c737",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371872/the-drops-of-god"
+    }
   },
   "3IQl": {
     "title": "Kill Ao",
     "day": 6,
     "time": "7:00 AM",
-    "cover": "kill-ao-db5469b74b",
+    "cover": "kill-ao-0769bfb230569e4faeca6a02f84f3f8f",
     "streams": {},
     "status": true
   },
@@ -774,7 +760,7 @@
     "title": "Ichijouma Mankitsugurashi!",
     "day": 6,
     "time": "10:00 AM",
-    "cover": "ichijouma-mankitsugurashi-c22b8ced69b6415277035f333408184c",
+    "cover": "ichijouma-mankitsugurashi-e57f2cd720756a1fcb8678108621ccb0",
     "streams": {},
     "status": true
   },
@@ -787,12 +773,13 @@
     "status": true
   },
   "q4dV": {
-    "title": "Yowa Yowa Sensei",
+    "title": "Yowayowa Sensei",
     "day": 6,
     "time": "6:00 AM",
     "cover": "yowayowa-sensei-e518c3fa99906e48a38fbc2b033533f5",
-    "streams": {},
-    "status": true
+    "streams": {
+      "HiDive": "https://www.hidive.com/season/35232"
+    }
   },
   "knhC": {
     "title": "Kuroneko to Majo no Kyoushitsu",
@@ -805,11 +792,13 @@
   "i7Wp": {
     "title": "Wistoria: Wand and Sword",
     "day": 7,
-    "time": "12:30 AM",
+    "time": "1:30 AM",
     "cover": "tsue-to-tsurugi-no-wistoria-2nd-season-c6955c4a711490575be6a3b4c85e0012",
     "streams": {
-      "Apple": "https://apple.co/4gKkAPc",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GW4HM7WK9/wistoria-wand-and-sword"
+      "Amazon": "https://amzn.to/3PQZLdk",
+      "Apple": "https://apple.co/3O2SNBq",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GW4HM7WK9/wistoria-wand-and-sword",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl37QJE0NTvUiONsuDJH6IMD"
     }
   },
   "J7Hu": {
