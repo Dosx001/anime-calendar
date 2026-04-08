@@ -301,6 +301,7 @@
     "time": "7:00 AM",
     "cover": "dr-stone-science-future-part-3-67fba577814a5ada075f84f3e4f28043",
     "streams": {
+      "Amazon": "https://amzn.to/4dyDRoX",
       "Apple": "https://apple.co/40WayF1",
       "BiliBili TV": "https://www.bilibili.tv/media/2123789",
       "Crunchyroll": "https://crunchyroll.com/series/GYEXQKJG6",
@@ -600,6 +601,7 @@
     "cover": "ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-e8fb8acff87d8300775177d56225c70f",
     "streams": {
       "Apple": "https://apple.co/4sYm8w6",
+      "BiliBili TV": "https://www.bilibili.tv/en/media/2361551",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00371923/the-klutzy-class-monitor-and-the-girl-with-the-short-skirt"
     }
   },
@@ -619,61 +621,71 @@
     "time": "6:30 AM",
     "cover": "higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukushimasu-season-2-5896627b17e843bbc47af8d35c6c526c",
     "streams": {
+      "Apple": "https://apple.co/4caj8pb",
       "HiDive": "https://www.hidive.com/season/35231"
     }
   },
   "8l1z": {
-    "title": "Class de 2-banme ni Kawaii Onnanoko to Tomodachi ni Natta",
+    "title": "I Made Friends with the Second Prettiest Girl in My Class",
     "day": 2,
-    "time": "7:30 AM",
+    "time": "8:00 AM",
     "cover": "class-de-2-banme-ni-kawaii-onnanoko-to-tomodachi-ni-natta-55a3516a2ab9a15ce04946bee1aa68a1",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371673"
+    }
   },
   "y1mr": {
     "title": "MARRIAGETOXIN",
     "day": 2,
-    "time": "7:00 AM",
+    "time": "7:30 AM",
     "cover": "marriagetoxin-3c84199d8e",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4tCKOKC",
+      "BiliBili TV": "https://www.bilibili.tv/media/2342380",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371857/marriagetoxin"
+    }
   },
   "bLXf": {
-    "title": "Megami \"Isekai Tensei Nani ni Naritai desu ka\" Ore \"Yuusha no Rokkotsu de\"",
+    "title": "My Ribdiculous Reincarnation",
     "day": 2,
-    "time": "9:59 AM",
+    "time": "11:05 AM",
     "cover": "megami-isekai-tensei-nani-ni-naritai-desu-ka-ore-yuusha-no-rokkotsu-de-28d4da6c66cf6030a28bcbb1d6f0701a",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371665"
+    }
   },
   "uOJc": {
-    "title": "Hidarikiki no Eren",
+    "title": "Eren the Southpaw",
     "day": 2,
-    "time": "8:00 AM",
+    "time": "9:00 AM",
     "cover": "hidarikiki-no-eren-96a12764657e83fd7bc1c3f4896dcc0e",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371659"
+    }
   },
   "We41": {
-    "title": "Replica datte, Koi wo Suru.",
+    "title": "Even a Replica Can Fall in Love",
     "day": 2,
-    "time": "7:30 AM",
+    "time": "7:31 AM",
     "cover": "replica-datte-koi-wo-suru-6356643a26a0673e474f308abc364ea2",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4mzfFFD",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00374288/even-a-replica-can-fall-in-love"
+    }
   },
   "IQdc": {
-    "title": "Tadaima, Ojamasaremasu!",
+    "title": "Pardon the Intrusion, I'm Home!",
     "day": 2,
-    "time": "9:29 AM",
+    "time": "10:35 AM",
     "cover": "tadaima-ojamasaremasu-3337aacece2e72516c4db0dc3c81b81a",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371775"
+    }
   },
   "a4dX": {
     "title": "Re:ZERO -Starting Life in Another World-",
     "day": 3,
-    "time": "6:00 AM",
+    "time": "7:00 AM",
     "cover": "re-zero-kara-hajimeru-isekai-seikatsu-4-d5233583bd0dc12a3089d74e815f43bf",
     "streams": {
       "Apple": "https://apple.co/3CMHQyd",
