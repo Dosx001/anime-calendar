@@ -579,7 +579,7 @@
     "title": "Farming Life In Another World",
     "day": 1,
     "time": "7:01 AM",
-    "cover": "",
+    "cover": "isekai-nonbiri-nouka-2-5944576c31e6b6265824fbba88094629",
     "streams": {
       "Amazon": "https://amzn.to/41YU3bT",
       "Apple": "https://apple.co/4saGOzz",
@@ -761,19 +761,20 @@
     "time": "8:30 AM",
     "cover": "kamiina-botan-yoeru-sugata-wa-yuri-no-hana-9cdf6f5bd5ab543ae2ab66efdcb057bd",
     "streams": {
+      "Apple": "https://apple.co/4mqpIwD",
       "BiliBili TV": "https://www.bilibili.tv/media/2343133",
       "Crunchyroll": "https://www.crunchyroll.com/es/series/GT00371890"
     }
   },
   "Uk7R": {
-    "title": "Hokuto no Ken: Fist of the North Star",
+    "title": "Fist of the North Star: HOKUTO NO KEN",
     "day": 5,
     "time": "9:01 AM",
     "cover": "hokuto-no-ken-fist-of-the-north-star-390d328d1746f59bba17162c1d179d81",
     "streams": {
-      "Amazon": "https://amzn.to/4sk0ukw"
-    },
-    "status": true
+      "Amazon": "https://amzn.to/3NZGK82",
+      "Apple": "https://apple.co/41rjzXk"
+    }
   },
   "25bR": {
     "title": "The Drops of God",
@@ -781,23 +782,29 @@
     "time": "8:30 AM",
     "cover": "kami-no-shizuku-ebb7a63252c186f98c27d2e6a096c737",
     "streams": {
+      "Apple": "https://apple.co/41nv0zd",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00371872/the-drops-of-god"
     }
   },
   "3IQl": {
-    "title": "Kill Ao",
+    "title": "KILL BLUE",
     "day": 6,
-    "time": "7:00 AM",
+    "time": "7:30 AM",
     "cover": "kill-ao-0769bfb230569e4faeca6a02f84f3f8f",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4t6tn5e",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371896/kill-blue",
+      "Netflix": "https://www.netflix.com/title/82757009"
+    }
   },
   "5Z8W": {
     "title": "Ichijouma Mankitsugurashi!",
     "day": 6,
-    "time": "10:00 AM",
+    "time": "10:01 AM",
     "cover": "ichijouma-mankitsugurashi-e57f2cd720756a1fcb8678108621ccb0",
-    "streams": {},
+    "streams": {
+      "OceanVeil": "https://oceanveil.net/anime_titles/416"
+    },
     "status": true
   },
   "yRXP": {
