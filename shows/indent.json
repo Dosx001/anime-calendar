@@ -16,7 +16,7 @@
     "time": "9:00 AM",
     "cover": "one-piece-f2f2a983a8",
     "streams": {
-      "Amazon": "https://amzn.to/41rcDJE",
+      "Amazon": "https://amzn.to/4c1P5Bm",
       "Apple": "https://apple.co/3Qfhg3W",
       "BiliBili TV": "https://www.bilibili.tv/en/media/37976",
       "Crunchyroll": "https://www.crunchyroll.com/one-piece",
@@ -162,14 +162,6 @@
     },
     "status": true
   },
-  "4ygn": {
-    "title": "Cardfight!! Vanguard: Divinez Genma Seisen-hen",
-    "day": 5,
-    "time": "4:00 PM",
-    "cover": "cardfight-vanguard-divinez-genma-seisen-hen-2a2f009b9a",
-    "streams": {},
-    "status": true
-  },
   "iF7D": {
     "title": "Scum of the Brave",
     "day": 6,
@@ -235,6 +227,7 @@
     "time": "7:00 AM",
     "cover": "jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou-3rd-season-02c383d59350960ecaa4c84108c24349",
     "streams": {
+      "Amazon": "https://amzn.to/4ssBGHi",
       "Apple": "https://apple.co/4sc44gT",
       "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX8504/reborn-as-a-vending-machine-i-now-wander-the-dungeon"
     }
@@ -413,6 +406,7 @@
     "time": "2:30 AM",
     "cover": "honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-ryoushu-no-youjo-2f1219ba9382337509a363ea096a04f1",
     "streams": {
+      "Amazon": "https://amzn.to/420s63t",
       "Apple": "https://apple.co/4sMVZ3b",
       "Crunchyroll": "https://www.crunchyroll.com/series/G6793XKZY/ascendance-of-a-bookworm"
     }
@@ -772,7 +766,7 @@
     "time": "9:01 AM",
     "cover": "hokuto-no-ken-fist-of-the-north-star-390d328d1746f59bba17162c1d179d81",
     "streams": {
-      "Amazon": "https://amzn.to/3NZGK82",
+      "Amazon": "https://amzn.to/4c8AuUC",
       "Apple": "https://apple.co/41rjzXk"
     }
   },
@@ -792,20 +786,23 @@
     "time": "7:30 AM",
     "cover": "kill-ao-0769bfb230569e4faeca6a02f84f3f8f",
     "streams": {
+      "Amazon": "https://www.amazon.com/dp/B0GTNDD4J3",
       "Apple": "https://apple.co/4t6tn5e",
+      "BiliBili TV": "https://www.bilibili.tv/en/media/2343894",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00371896/kill-blue",
       "Netflix": "https://www.netflix.com/title/82757009"
     }
   },
   "5Z8W": {
-    "title": "Ichijouma Mankitsugurashi!",
+    "title": "Ichijyoma Mankitsu Gurashi!",
     "day": 6,
     "time": "10:01 AM",
     "cover": "ichijouma-mankitsugurashi-e57f2cd720756a1fcb8678108621ccb0",
     "streams": {
-      "OceanVeil": "https://oceanveil.net/anime_titles/416"
-    },
-    "status": true
+      "Amazon": "https://www.primevideo.com/detail/0HASPCBBG79HYXL4EL2COFANKS",
+      "OceanVeil": "https://oceanveil.net/anime_titles/416",
+      "YouTube": "https://www.youtube.com/playlist?list=PLhGamQZtJ7K8OWPQvBPauPeJeiG4tQpPl"
+    }
   },
   "yRXP": {
     "title": "Odekake Kozame 2nd Season",
@@ -821,16 +818,20 @@
     "time": "6:00 AM",
     "cover": "yowayowa-sensei-e518c3fa99906e48a38fbc2b033533f5",
     "streams": {
-      "HiDive": "https://www.hidive.com/season/35232"
+      "HiDive": "https://www.hidive.com/season/35232",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgXUB10c8pdjrn7SUPo4IdI"
     }
   },
   "knhC": {
-    "title": "Kuroneko to Majo no Kyoushitsu",
+    "title": "The Classroom of a Black Cat and a Witch",
     "day": 7,
-    "time": "7:30 AM",
+    "time": "8:00 AM",
     "cover": "kuroneko-to-majo-no-kyoushitsu-cc478b45e4",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4mmsVwS",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00374357",
+      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jh2Aq9dnBrcdmlUPfq5VQtL"
+    }
   },
   "i7Wp": {
     "title": "Wistoria: Wand and Sword",
@@ -845,11 +846,39 @@
     }
   },
   "J7Hu": {
-    "title": "Yozakura-san Chi no Daisakusen 2nd Season",
+    "title": "Mission: Yozakura Family",
     "day": 7,
-    "time": "1:00 AM",
+    "time": "1:30 AM",
     "cover": "yozakura-san-chi-no-daisakusen-2nd-season-e9cd7c40d079b4ac9a9a503d80d0940b",
+    "streams": {
+      "Apple": "https://apple.co/4mqVhWP",
+      "Hulu": "https://www.hulu.com/series/ac689bea-f955-4d95-8693-7b87b5a309cb"
+    }
+  },
+  "hLFT": {
+    "title": "I Want to End this Love Game",
+    "day": 2,
+    "time": "7:30 AM",
+    "cover": "aishiteru-game-wo-owarasetai-2b3bbb6d958515abaada7d96db77865f",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371779"
+    }
+  },
+  "1bXw": {
+    "title": "Candy Caries",
+    "day": 3,
+    "time": "8:55 AM",
+    "cover": "candy-caries-tv-18526def39",
     "streams": {},
     "status": true
+  },
+  "rNOL": {
+    "title": "Dandelion",
+    "day": 4,
+    "time": "12:01 AM",
+    "cover": "dandelion-f16e093d595955b9769961c5a37043ec",
+    "streams": {
+      "Netflix": "https://netflix.com/title/81579317"
+    }
   }
 }
