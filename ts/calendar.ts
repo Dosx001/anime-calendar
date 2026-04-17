@@ -642,7 +642,7 @@ class Calendar {
         this.right.style.visibility = 'hidden';
         document.getElementById('clear')!.style.visibility = 'hidden';
         document.getElementById('calendar')!.remove();
-        document.getElementById('month')!.innerHTML = 'Spring 2026';
+        document.getElementById('month')!.innerHTML = 'Summer 2026';
         SON.init();
       } else {
         this.right.style.visibility = 'visible';

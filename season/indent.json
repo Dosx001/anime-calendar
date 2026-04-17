@@ -1,629 +1,100 @@
 {
-  "hLFT": {
-    "title": "Aishiteru Game wo Owarasetai",
-    "cover": "aishiteru-game-wo-owarasetai-2b3bbb6d958515abaada7d96db77865f",
-    "studio": "Felix Film",
+  "PAmS": {
+    "title": "\"Kimi wo Aisuru Ki wa Nai\" to Itta Jiki Koushaku-sama ga Nazeka Dekiai shitekimasu",
+    "cover": "kimi-wo-aisuru-ki-wa-nai-to-itta-jiki-koushaku-sama-ga-nazeka-dekiai-shitekimasu-c6597422dec8e697bfbbfc79e905a9ce",
+    "studio": "Glass",
     "source": "Web Manga",
     "genres": [
-      "Comedy",
-      "Romance",
-      "School"
+      "Fantasy",
+      "Romance"
     ]
   },
-  "3oOW": {
-    "title": "Akane-banashi",
-    "cover": "akane-banashi-16844a9fca0ee900ae11d71afb4247b5",
-    "studio": "ZEXCS",
-    "source": "Manga",
-    "genres": [
-      "Drama"
-    ]
-  },
-  "wUVn": {
-    "title": "Awajima Hyakkei",
-    "cover": "awajima-hyakkei-f3cb73e1df97c3d0fb2fc3dfa75f2054",
-    "studio": "MADHOUSE",
-    "source": "Web Manga",
-    "genres": [
-      "Drama",
-      "Music",
-      "Romance",
-      "School"
-    ]
-  },
-  "1bXw": {
-    "title": "Candy Caries",
-    "cover": "candy-caries-tv-18526def39",
-    "studio": "Wit Studio",
-    "source": "Original",
+  "fTAB": {
+    "title": "Azur Lane: Bisoku Zenshin! Ni!!",
+    "cover": "azur-lane-bisoku-zenshin-2-df3c6106b07793c5ed1a62d17ea40c0d",
+    "studio": "CANDY BOX",
+    "source": "4-koma Manga",
     "genres": [
       "Comedy",
-      "Fantasy"
+      "Ecchi",
+      "Military",
+      "Sci-Fi",
+      "Slice of Life"
     ]
   },
-  "8l1z": {
-    "title": "Class de 2-banme ni Kawaii Onnanoko to Tomodachi ni Natta",
-    "cover": "class-de-2-banme-ni-kawaii-onnanoko-to-tomodachi-ni-natta-55a3516a2ab9a15ce04946bee1aa68a1",
-    "studio": "CONNECT",
-    "source": "Light Novel",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "School"
-    ]
-  },
-  "zojG": {
-    "title": "Diamond no Ace Act II: Second Season",
-    "cover": "diamond-no-ace-act-ii-zoku-hen-9f39cac4af",
-    "studio": "OLM",
-    "source": "Manga",
-    "genres": [
-      "School",
-      "Shounen",
-      "Sports"
-    ]
-  },
-  "l11k": {
-    "title": "Dr. Stone: Science Future Part 3",
-    "cover": "dr-stone-science-future-part-3-67fba577814a5ada075f84f3e4f28043",
-    "studio": "TMS Entertainment",
+  "XGiF": {
+    "title": "BLACK TORCH",
+    "cover": "black-torch-07ecbc9003",
+    "studio": "100studio",
     "source": "Manga",
     "genres": [
       "Action",
       "Adventure",
-      "Comedy",
+      "Fantasy",
       "Sci-Fi",
-      "Shounen"
-    ]
-  },
-  "bdB6": {
-    "title": "Ganbare! Nakamura-kun!!",
-    "cover": "ganbare-nakamura-kun-be98d5c86e",
-    "studio": "Drive",
-    "source": "Manga",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "School",
-      "Slice of Life"
-    ]
-  },
-  "GXRY": {
-    "title": "Ghost Concert: Missing Songs",
-    "cover": "ghost-concert-missing-songs-829e01f713dfd494c1afa895c8cf9ec0",
-    "studio": "ENGI",
-    "source": "Other",
-    "genres": [
-      "Action",
-      "Music",
-      "Sci-Fi",
+      "Shounen",
       "Supernatural"
     ]
   },
-  "9HX4": {
-    "title": "Haibara-kun no Tsuyokute Seishun New Game",
-    "cover": "haibara-kun-no-tsuyokute-seishun-new-game-2553dde36cdcc5f56e738ed723f928f3",
-    "studio": "Studio Comet",
-    "source": "Light Novel",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "School",
-      "Slice of Life"
-    ]
-  },
-  "uOJc": {
-    "title": "Hidarikiki no Eren",
-    "cover": "hidarikiki-no-eren-96a12764657e83fd7bc1c3f4896dcc0e",
-    "studio": "Production I.G",
-    "source": "Web Manga",
-    "genres": [
-      "Drama"
-    ]
-  },
-  "8xvz": {
-    "title": "Higeki no Genkyou to Naru Saikyou Gedou Last Boss Joou wa Tami no Tame ni Tsukushimasu. 2nd Season",
-    "cover": "higeki-no-genkyou-to-naru-saikyou-gedou-last-boss-joou-wa-tami-no-tame-ni-tsukushimasu-season-2-5896627b17e843bbc47af8d35c6c526c",
-    "studio": "OLM",
-    "source": "Light Novel",
-    "genres": [
-      "Comedy",
-      "Fantasy",
-      "Isekai",
-      "Josei",
-      "Romance"
-    ]
-  },
-  "YrJF": {
-    "title": "Himekishi wa Barbaroi no Yome",
-    "cover": "himekishi-wa-barbaroi-no-yome-128fde6a80928c73b6c7512bccd32fd2",
-    "studio": "Jumondou",
-    "source": "Manga",
-    "genres": [
-      "Comedy",
-      "Fantasy",
-      "Romance"
-    ]
-  },
-  "Uk7R": {
-    "title": "Hokuto no Ken: Fist of the North Star",
-    "cover": "hokuto-no-ken-fist-of-the-north-star-390d328d1746f59bba17162c1d179d81",
-    "studio": "TMS Entertainment",
+  "CTXR": {
+    "title": "BLEACH: Sennen Kessen-hen - Kashin-tan",
+    "cover": "bleach-sennen-kessen-hen-kashin-tan-8310b5349c",
+    "studio": "PIERROT FILMS",
     "source": "Manga",
     "genres": [
       "Action",
+      "Adventure",
       "Drama",
-      "Martial Arts",
-      "Sci-Fi",
       "Shounen",
+      "Supernatural",
       "Superpower"
     ]
   },
-  "aqDI": {
-    "title": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen 4",
-    "cover": "honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-ryoushu-no-youjo-2f1219ba9382337509a363ea096a04f1",
-    "studio": "Wit Studio",
-    "source": "Light Novel",
-    "genres": [
-      "Drama",
-      "Fantasy",
-      "Isekai",
-      "Magic",
-      "Slice of Life"
-    ]
-  },
-  "HLlb": {
-    "title": "Hyakki Yakoushou",
-    "cover": "hyakki-yakoushou-2a318c331f137d67f3384949bd38692c",
-    "studio": "Imageworks Studio",
-    "source": "Manga",
-    "genres": [
-      "Historical",
-      "Horror",
-      "Mystery",
-      "Romance",
-      "Shoujo",
-      "Supernatural"
-    ]
-  },
-  "5Z8W": {
-    "title": "Ichijouma Mankitsugurashi!",
-    "cover": "ichijouma-mankitsugurashi-c22b8ced69b6415277035f333408184c",
-    "studio": "PRA",
-    "source": "Manga",
-    "genres": [
-      "Comedy",
-      "Ecchi",
-      "Slice of Life"
-    ]
-  },
-  "yaXr": {
-    "title": "Isekai Nonbiri Nouka 2",
-    "cover": "isekai-nonbiri-nouka-2-5944576c31e6b6265824fbba88094629",
-    "studio": "Zero-G",
-    "source": "Light Novel",
-    "genres": [
-      "Fantasy",
-      "Harem",
-      "Isekai",
-      "Slice of Life"
-    ]
-  },
-  "lXr6": {
-    "title": "Jidou Hanbaiki ni Umarekawatta Ore wa Meikyuu wo Samayou 3rd Season",
-    "cover": "jidou-hanbaiki-ni-umarekawatta-ore-wa-meikyuu-wo-samayou-3rd-season-02c383d59350960ecaa4c84108c24349",
-    "studio": "AXsiZ",
-    "source": "Light Novel",
-    "genres": [
-      "Adventure",
-      "Comedy",
-      "Fantasy",
-      "Isekai"
-    ]
-  },
-  "t5ev": {
-    "title": "Jishou Akuyaku Reijou na Konyakusha no Kansatsu Kiroku.",
-    "cover": "jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-5ad96f0b89",
-    "studio": "Ashi Productions",
-    "source": "Light Novel",
-    "genres": [
-      "Comedy",
-      "Fantasy",
-      "Romance",
-      "Slice of Life"
-    ]
-  },
-  "g5rr": {
-    "title": "Kami no Niwatsuki Kusunoki-tei",
-    "cover": "kami-no-niwatsuki-kusunoki-tei-2962df1d1306b78e4ca3947c8521dd31",
-    "studio": "Juvenage",
-    "source": "Light Novel",
-    "genres": [
-      "Comedy",
-      "Fantasy",
-      "Slice of Life"
-    ]
-  },
-  "25bR": {
-    "title": "Kami no Shizuku",
-    "cover": "kami-no-shizuku-ebb7a63252c186f98c27d2e6a096c737",
-    "studio": "Satelight",
-    "source": "Manga",
-    "genres": [
-      "Drama",
-      "Mystery",
-      "Seinen",
-      "Slice of Life"
-    ]
-  },
-  "VG7B": {
-    "title": "Kamiina Botan, Yoeru Sugata wa Yuri no Hana",
-    "cover": "kamiina-botan-yoeru-sugata-wa-yuri-no-hana-9cdf6f5bd5ab543ae2ab66efdcb057bd",
-    "studio": "Soigne",
-    "source": "Web Manga",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "Slice of Life"
-    ]
-  },
-  "SPvu": {
-    "title": "Kanan-sama wa Akumade Choroi",
-    "cover": "kanan-sama-wa-akumade-choroi-e9fccf95ef972651c3917a49d3eefcd3",
-    "studio": "Studio KAI",
-    "source": "Manga",
-    "genres": [
-      "Comedy",
-      "Demons",
-      "Ecchi",
-      "Fantasy",
-      "Romance",
-      "School"
-    ]
-  },
-  "HZTr": {
-    "title": "Kanojo, Okarishimasu 5",
-    "cover": "kanojo-okarishimasu-5-00d9eadd1f7b21989b3a13d7fabd8565",
-    "studio": "TMS Entertainment",
-    "source": "Manga",
-    "genres": [
-      "Comedy",
-      "Drama",
-      "Romance"
-    ]
-  },
-  "3IQl": {
-    "title": "Kill Ao",
-    "cover": "kill-ao-db5469b74b",
-    "studio": "CUE",
-    "source": "Manga",
-    "genres": [
-      "Action",
-      "Comedy",
-      "School",
-      "Shounen"
-    ]
-  },
-  "5x1W": {
-    "title": "Kirio Fanclub",
-    "cover": "kirio-fanclub-9e098990bef6c88bf978cd55ae95656d",
-    "studio": "Satelight",
-    "source": "Web Manga",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "School",
-      "Slice of Life"
-    ]
-  },
-  "lqMh": {
-    "title": "Komekami! Girls",
-    "cover": "komekami-girls-3471c04b062ae17abfa444d9545e6f57",
-    "studio": "Daily Plan.net",
-    "source": "Other",
-    "genres": [
-      "Comedy"
-    ]
-  },
-  "11mU": {
-    "title": "Koori no Jouheki",
-    "cover": "koori-no-jouheki-3edc9fc353",
-    "studio": "Studio KAI",
-    "source": "Web Manga",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "School",
-      "Slice of Life"
-    ]
-  },
-  "Dpu4": {
-    "title": "Kujima Utaeba Ie Hororo",
-    "cover": "kujima-utaeba-ie-hororo-30ec505ca964d18323801d0e6477f9cb",
-    "studio": "Studio Hibari",
-    "source": "Manga",
-    "genres": [
-      "Comedy",
-      "Slice of Life",
-      "Supernatural"
-    ]
-  },
-  "knhC": {
-    "title": "Kuroneko to Majo no Kyoushitsu",
-    "cover": "kuroneko-to-majo-no-kyoushitsu-cc478b45e4",
-    "studio": "LIDENFILMS",
-    "source": "Web Manga",
-    "genres": [
-      "Comedy",
-      "Fantasy",
-      "School"
-    ]
-  },
-  "pOF1": {
-    "title": "LIAR GAME",
-    "cover": "liar-game-3f4f5cc7766e387b191f5b7fcf2dfa54",
-    "studio": "MADHOUSE",
-    "source": "Manga",
-    "genres": [
-      "Drama",
-      "Psychological",
-      "Seinen"
-    ]
-  },
-  "uBmx": {
-    "title": "MAO",
-    "cover": "mao-44e966cf1bebf47f504bf9a4bb5ae6e5",
-    "studio": "Sunrise",
-    "source": "Manga",
-    "genres": [
-      "Historical",
-      "Mystery",
-      "Romance",
-      "Shounen",
-      "Supernatural"
-    ]
-  },
-  "y1mr": {
-    "title": "MARRIAGETOXIN",
-    "cover": "marriagetoxin-3c84199d8e",
-    "studio": "BONES FILM",
-    "source": "Manga",
-    "genres": [
-      "Action",
-      "Comedy",
-      "Drama",
-      "Romance",
-      "Shounen"
-    ]
-  },
-  "lOR1": {
-    "title": "Mahou no Shimai Lulutto Lilly",
-    "cover": "pierrot-mahou-shoujo-series-shinsaku-anime-00ef59c8ed10d9f39431032a3b143f8b",
-    "studio": "Studio Pierrot",
-    "source": "Original",
-    "genres": [
-      "Magical Girl"
-    ]
-  },
-  "Sa4c": {
-    "title": "Maid-san wa Taberu dake",
-    "cover": "maid-san-wa-taberu-dake-7ad347cd2062f583d3ccadc25efab69e",
-    "studio": "EMT Squared",
-    "source": "Web Manga",
-    "genres": [
-      "Slice of Life"
-    ]
-  },
-  "tEjf": {
-    "title": "Mairimashita! Iruma-kun 4",
-    "cover": "mairimashita-iruma-kun-4-5f43f93e4a",
-    "studio": "Bandai Namco Pictures",
-    "source": "Manga",
-    "genres": [
-      "Comedy",
-      "Demons",
-      "Fantasy",
-      "Isekai",
-      "School",
-      "Shounen",
-      "Supernatural"
-    ]
-  },
-  "KQub": {
-    "title": "Mamonogurai no Boukensha: Ore dake Mamono wo Kuratte Tsuyoku Naru",
-    "cover": "mamonogurai-no-boukensha-ore-dake-mamono-wo-kuratte-tsuyoku-naru-146f9acf9513a7df858ab280a49b882a",
-    "studio": "Imageworks Studio",
-    "source": "Web Manga",
-    "genres": [
-      "Action",
-      "Fantasy"
-    ]
-  },
-  "ZeO9": {
-    "title": "Mata Korosarete Shimatta no desu ne, Tantei-sama",
-    "cover": "mata-korosarete-shimatta-no-desu-ne-tantei-sama-188ab5cbe265b119262f80cb2c2a2623",
-    "studio": "LIDENFILMS",
-    "source": "Light Novel",
-    "genres": [
-      "Mystery",
-      "Psychological",
-      "Romance",
-      "Supernatural"
-    ]
-  },
-  "bLXf": {
-    "title": "Megami \"Isekai Tensei Nani ni Naritai desu ka\" Ore \"Yuusha no Rokkotsu de\"",
-    "cover": "megami-isekai-tensei-nani-ni-naritai-desu-ka-ore-yuusha-no-rokkotsu-de-28d4da6c66cf6030a28bcbb1d6f0701a",
-    "studio": "Qzil.la",
-    "source": "Light Novel",
-    "genres": [
-      "Comedy",
-      "Fantasy",
-      "Isekai"
-    ]
-  },
-  "F4dy": {
-    "title": "NEEDY GIRL OVERDOSE",
-    "cover": "needy-girl-overdose-baed367137",
-    "studio": "Yostar Pictures",
-    "source": "Visual Novel",
-    "genres": [
-      "Drama",
-      "Psychological",
-      "Slice of Life"
-    ]
-  },
-  "a4si": {
-    "title": "Nezumi-kun no Chokki (TV)",
-    "cover": "nezumi-kun-no-chokki-tv-fc816f967c583dbcee61585103544bdf",
-    "studio": "Creadom8",
-    "source": "Picture book",
-    "genres": [
-      "Fantasy"
-    ]
-  },
-  "PQ2B": {
-    "title": "Nigashita Sakana wa Ookikatta ga Tsuriageta Sakana ga Ookisugita Ken",
-    "cover": "nigashita-sakana-wa-ookikatta-ga-tsuriageta-sakana-ga-ookisugita-ken-e9a9f97614179f78feeca6dab07b5ff4",
-    "studio": "TROYCA",
-    "source": "Light Novel",
-    "genres": [
-      "Comedy",
-      "Fantasy",
-      "Romance"
-    ]
-  },
-  "HiiN": {
-    "title": "Nippon Sangoku",
-    "cover": "nippon-sangoku-22045614a00d956c1accce747be5ef2d",
-    "studio": "Studio Kafka",
-    "source": "Web Manga",
-    "genres": [
-      "Action",
-      "Drama",
-      "Military",
-      "Sci-Fi"
-    ]
-  },
-  "EBlC": {
-    "title": "Niwatori Fighter",
-    "cover": "niwatori-fighter-52bbb0418e26420a1ca19ee9e1e74729",
-    "studio": "SANZIGEN",
-    "source": "Web Manga",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Comedy",
-      "Supernatural"
-    ]
-  },
-  "aDz3": {
-    "title": "Onegai AiPri",
-    "cover": "onegai-aipri-7b7baeed12f360503e819e45c4c0acf6",
-    "studio": "Dongwoo A&E",
+  "XLe2": {
+    "title": "BanG Dream! Yume\u221eMita",
+    "cover": "bang-dream-yume-mita-3f6ede42b5",
+    "studio": "NICHICALINE",
     "source": "Other",
     "genres": [
       "Music"
     ]
   },
-  "a2zz": {
-    "title": "Otaku ni Yasashii Gal wa Inai!?",
-    "cover": "otaku-ni-yasashii-gal-wa-inai-0044e17a044b4096940344b888dc701e",
-    "studio": "TMS Entertainment",
-    "source": "Manga",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "School"
-    ]
-  },
-  "gTdV": {
-    "title": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken 2nd Season",
-    "cover": "otonari-no-tenshi-sama-ni-itsunomanika-dame-ningen-ni-sareteita-ken-2nd-season-ffc52fd867ebc7935f03ce7d2788f4a5",
-    "studio": "project No.9",
-    "source": "Light Novel",
-    "genres": [
-      "Romance",
-      "School",
-      "Slice of Life"
-    ]
-  },
-  "vJJP": {
-    "title": "Ponkotsu Fuuki Iin to Skirt-take ga Futekisetsu na JK no Hanashi",
-    "cover": "ponkotsu-fuuki-iin-to-skirt-take-ga-futekisetsu-na-jk-no-hanashi-e8fb8acff87d8300775177d56225c70f",
-    "studio": "Zero-G",
-    "source": "Manga",
-    "genres": [
-      "Comedy",
-      "Romance",
-      "School",
-      "Slice of Life"
-    ]
-  },
-  "a4dX": {
-    "title": "Re:Zero kara Hajimeru Isekai Seikatsu 4",
-    "cover": "re-zero-kara-hajimeru-isekai-seikatsu-4-d5233583bd0dc12a3089d74e815f43bf",
-    "studio": "White Fox",
+  "ZFmv": {
+    "title": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu",
+    "cover": "buchigire-reijou-wa-houfuku-wo-chikaimashita-madousho-no-chikara-de-sokoku-wo-tatakitsubushimasu-ec429f5114",
+    "studio": "Studio Comet",
     "source": "Light Novel",
     "genres": [
       "Drama",
-      "Fantasy",
-      "Isekai",
-      "Psychological",
-      "Thriller"
+      "Fantasy"
     ]
   },
-  "wAgX": {
-    "title": "Reincarnation no Kaben",
-    "cover": "reincarnation-no-kaben-730f2efedbcc7ea2cb4846b0513c757b",
-    "studio": "BENTEN Film",
-    "source": "Manga",
+  "DkAP": {
+    "title": "Clevatess II: Majuu no Ou to Itsuwari no Yuusha Denshou",
+    "cover": "clevatess-ii-majuu-no-ou-to-itsuwari-no-yuusha-denshou-f0e933445ce026e9c6510fd5f49a8659",
+    "studio": "Lay-duce",
+    "source": "Web Manga",
     "genres": [
       "Action",
-      "Mystery",
-      "Supernatural"
-    ]
-  },
-  "We41": {
-    "title": "Replica datte, Koi wo Suru.",
-    "cover": "replica-datte-koi-wo-suru-6356643a26a0673e474f308abc364ea2",
-    "studio": "Voil",
-    "source": "Light Novel",
-    "genres": [
       "Drama",
-      "Romance",
-      "School",
-      "Supernatural"
+      "Fantasy"
     ]
   },
-  "k4lV": {
-    "title": "Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru? 2nd Season",
-    "cover": "saikyou-no-ousama-nidome-no-jinsei-wa-nani-wo-suru-2nd-season-3f9ccd499c7ce154a09cd234fb435666",
-    "studio": "Studio A-CAT",
-    "source": "Web Novel",
+  "jfTJ": {
+    "title": "Dogul Wang",
+    "cover": "dogul-wang-5028d5eca008dfa408cd648e0fbdfcda",
+    "studio": "STUDIO EEK",
+    "source": "Web Manga",
     "genres": [
       "Action",
       "Adventure",
-      "Fantasy",
-      "Isekai"
+      "Fantasy"
     ]
   },
-  "kg2u": {
-    "title": "Saikyou no Shokugyou wa Yuusha demo Kenja demo Naku Kanteishi (Kari) Rashii desu yo?",
-    "cover": "saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo-dc932689c5cb662a269d26eee42f68b9",
-    "studio": "Studio Flad",
-    "source": "Light Novel",
-    "genres": [
-      "Adventure",
-      "Comedy",
-      "Fantasy",
-      "Isekai"
-    ]
-  },
-  "H8Ff": {
-    "title": "Shunkashuutou Daikousha: Haru no Mai",
-    "cover": "shunkashuutou-daikousha-haru-no-mai-43521e55d90e5ee85773692bf25e98b0",
-    "studio": "Wit Studio",
+  "WjAz": {
+    "title": "Futsutsuka na Akujo dewa Gozaimasu ga: Suuguu Chouso Torikae Den",
+    "cover": "futsutsuka-na-akujo-dewa-gozaimasu-ga-suuguu-chouso-torikae-den-3a10ecc4f4",
+    "studio": "Doga Kobo",
     "source": "Light Novel",
     "genres": [
       "Drama",
@@ -631,16 +102,415 @@
       "Romance"
     ]
   },
-  "ScCY": {
-    "title": "Snowball Earth",
-    "cover": "snowball-earth-8671a9e5a8546657341177aaab987ab5",
-    "studio": "Studio KAI",
+  "LtzL": {
+    "title": "Gaikotsu Kishi-sama, Tadaima Isekai e Odekakechuu II",
+    "cover": "gaikotsu-kishi-sama-tadaima-isekai-e-odekakechuu-ii-259a615fb5",
+    "studio": "Aura Studio",
+    "source": "Light Novel",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Isekai"
+    ]
+  },
+  "Yg9N": {
+    "title": "Grand Blue 3rd Season",
+    "cover": "grand-blue-3rd-season-5e630aee24eafa77f464689e5aeb9e55",
+    "studio": "Saber Works",
+    "source": "Manga",
+    "genres": [
+      "Comedy",
+      "Seinen",
+      "Slice of Life"
+    ]
+  },
+  "zXPM": {
+    "title": "Grow Up Show: Himawari no Circus-dan",
+    "cover": "grow-up-show-himawari-no-circus-dan-3b1647c2fa22a7f1455ad420e98a6e2a",
+    "studio": "A-1 Pictures",
+    "source": "Original",
+    "genres": []
+  },
+  "aCnx": {
+    "title": "Hanaori-san wa Tensei Shite mo Kenka ga Shitai",
+    "cover": "hanaori-san-wa-tensei-shite-mo-kenka-ga-shitai-3112711915011dc17235c67eccdfea27",
+    "studio": "LIDENFILMS",
+    "source": "Manga",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Supernatural"
+    ]
+  },
+  "XPCg": {
+    "title": "Hell Mode: Yarikomizuki no Gamer wa Hai Settei no Isekai de Musou suru 2nd Season",
+    "cover": "hell-mode-yarikomizuki-no-gamer-wa-hai-settei-no-isekai-de-musou-suru-2nd-season-9397331a045eb81394432d619173cf1f",
+    "studio": "Yokohama Animation Lab",
+    "source": "Light Novel",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Isekai"
+    ]
+  },
+  "J6Py": {
+    "title": "Heroine? Seijo? Iie, All Works Maid desu (Hokori)!",
+    "cover": "heroine-seijo-iie-all-works-maid-desu-hokori-91f301959046a2455b46d4f25fbc9749",
+    "studio": "EMT Squared",
+    "source": "Light Novel",
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Isekai"
+    ]
+  },
+  "NvsY": {
+    "title": "Honoo no Toukyuujo: Dodge Danko",
+    "cover": "honoo-no-toukyuujo-dodge-danko-f59975923631317b71d14ff0b3f1bcf6",
+    "studio": "CUE",
+    "source": "Manga",
+    "genres": [
+      "Comedy",
+      "School",
+      "Sports"
+    ]
+  },
+  "K9E1": {
+    "title": "Iwamoto-senpai no Suisen",
+    "cover": "iwamoto-senpai-no-suisen-5ad89aca9d609ac385912ad1ab38d229",
+    "studio": "Studio DEEN",
+    "source": "Manga",
+    "genres": [
+      "Historical",
+      "Military",
+      "Seinen",
+      "Supernatural"
+    ]
+  },
+  "eXBc": {
+    "title": "Kabushiki Gaisha Magi Lumiere 2nd Season",
+    "cover": "kabushikigaisha-magi-lumi-re-2nd-season-4ac93d34c00a542eda34eb96a6fc2ca2",
+    "studio": "J.C. Staff",
+    "source": "Manga",
+    "genres": [
+      "Action",
+      "Fantasy",
+      "Magic",
+      "Magical Girl"
+    ]
+  },
+  "bfzU": {
+    "title": "Katainaka no Ossan, Kensei ni Naru 2nd Season",
+    "cover": "katainaka-no-ossan-kensei-ni-naru-2nd-season-05e785fdbd6e3cfb1532de2977777f68",
+    "studio": "Hayabusa Film",
+    "source": "Light Novel",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ]
+  },
+  "cljC": {
+    "title": "Kimi ga Shinu made Koi wo Shitai",
+    "cover": "kimi-ga-shinu-made-koi-wo-shitai-d6077222d9044f24dcb5000ee9e79500",
+    "studio": "ROLL2",
+    "source": "Manga",
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Romance",
+      "School"
+    ]
+  },
+  "9O2I": {
+    "title": "Kimi no Koto ga Daidaidaidaidaisuki na 100-nin no Kanojo 3rd Season",
+    "cover": "kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season-baeada2f68553f3399261f5792d34eeb",
+    "studio": "Bibury Animation Studio",
+    "source": "Manga",
+    "genres": [
+      "Comedy",
+      "Harem",
+      "Harem",
+      "Romance",
+      "School"
+    ]
+  },
+  "DSVT": {
+    "title": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita.",
+    "cover": "koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita-2265b7b2e0",
+    "studio": "Gekkou",
+    "source": "Light Novel",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ]
+  },
+  "tLA4": {
+    "title": "Kore Kaite Shine",
+    "cover": "kore-kaite-shine-76b77e68f8cb45f60efec7c53ef6f06c",
+    "studio": "Shin-Ei Animation",
+    "source": "Manga",
+    "genres": [
+      "Comedy",
+      "Slice of Life"
+    ]
+  },
+  "pPLz": {
+    "title": "Koukaku Kidoutai (TV)",
+    "cover": "koukaku-kidoutai-tv-73e9620eadbef21e0a243d677f116504",
+    "studio": "Science SARU",
+    "source": "Manga",
+    "genres": [
+      "Action",
+      "Mystery",
+      "Psychological",
+      "Sci-Fi",
+      "Seinen",
+      "Thriller"
+    ]
+  },
+  "RspX": {
+    "title": "Let's Go Kaikigumi",
+    "cover": "lets-go-kaikigumi-a61aeb1be3",
+    "studio": "C-Station",
+    "source": "Web Manga",
+    "genres": [
+      "Comedy",
+      "Horror",
+      "School",
+      "Supernatural"
+    ]
+  },
+  "DE3F": {
+    "title": "Lv999 no Murabito",
+    "cover": "lv999-no-murabito-488ee582908da2d4307199070544e164",
+    "studio": "Brain's Base",
+    "source": "Light Novel",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ]
+  },
+  "Azgw": {
+    "title": "Mahou Shoujo Lyrical Nanoha EXCEEDS: Gun Blaze Vengeance",
+    "cover": "mahou-shoujo-lyrical-nanoha-exceeds-gun-blaze-vengeance-11432d49be6a51994ee2ca0ce6b4a19a",
+    "studio": "Seven Arcs",
+    "source": "Original",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Drama",
+      "Fantasy",
+      "Magical Girl"
+    ]
+  },
+  "MfVY": {
+    "title": "Migawari Reijou wo Sukutta no wa Reikoku Mujihi na Koori no Ouji no Ai deshita",
+    "cover": "migawari-reijou-wo-sukutta-no-wa-reikoku-mujihi-na-koori-no-ouji-no-ai-deshita-357275445f69a19027fe0a48756b44c2",
+    "studio": "N/A",
+    "source": "Manga",
+    "genres": [
+      "Fantasy",
+      "Romance"
+    ]
+  },
+  "B7em": {
+    "title": "Mujikaku Seijo wa Kyou mo Muishiki ni Chikara wo Tare Nagasu",
+    "cover": "mujikaku-seijo-wa-kyou-mo-muishiki-ni-chikara-wo-tare-nagasu-701ded62deb967694fdb579f686e5c1a",
+    "studio": "Magic Bus",
+    "source": "Light Novel",
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Romance"
+    ]
+  },
+  "6Tzq": {
+    "title": "Mushoku Tensei III: Isekai Ittara Honki Dasu",
+    "cover": "mushoku-tensei-iii-isekai-ittara-honki-dasu-e13a5e18ef",
+    "studio": "Studio Bind",
+    "source": "Light Novel",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Fantasy",
+      "Isekai",
+      "Magic"
+    ]
+  },
+  "loet": {
+    "title": "Neko to Ryuu",
+    "cover": "neko-to-ryuu-3c3167684c512ca8065bc14cad0504d7",
+    "studio": "OLM",
+    "source": "Light Novel",
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ]
+  },
+  "qilI": {
+    "title": "Nige Jouzu no Wakagimi 2nd Season",
+    "cover": "nige-jouzu-no-wakagimi-2nd-season-6de3acf9d6d759acd18e35d0b71c9bba",
+    "studio": "CloverWorks",
     "source": "Manga",
     "genres": [
       "Action",
       "Adventure",
-      "Mecha",
-      "Sci-Fi"
+      "Comedy",
+      "Historical",
+      "Shounen"
+    ]
+  },
+  "QVha": {
+    "title": "Nijuuseiki Denki Mokuroku: Eureka Evrika",
+    "cover": "nijuuseiki-denki-mokuroku-be9c048abdba2bbc60b2f89238639698",
+    "studio": "Kyoto Animation",
+    "source": "Light Novel",
+    "genres": [
+      "Drama",
+      "Historical",
+      "Romance"
+    ]
+  },
+  "khq3": {
+    "title": "Oni no Hanayome",
+    "cover": "oni-no-hanayome-93e7bbc88a",
+    "studio": "Colored Pencil Animation Japan",
+    "source": "Light Novel",
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Romance"
+    ]
+  },
+  "iE9C": {
+    "title": "Otome Kaiju Caramelise",
+    "cover": "otome-kaijuu-caramelise-aa8367c346e9c72ab2f71a75ac49aed7",
+    "studio": "LIDENFILMS",
+    "source": "Manga",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "School",
+      "Supernatural"
+    ]
+  },
+  "nqwi": {
+    "title": "Rakudai Kenja no Gakuin Musou: Nidome no Tensei, S-Rank Cheat Majutsushi Boukenroku",
+    "cover": "rakudai-kenja-no-gakuin-musou-nidome-no-tensei-s-rank-cheat-majutsushi-boukenroku-b0157e05de016994ca08a7ca0696bed8",
+    "studio": "EMT Squared",
+    "source": "Web Manga",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy"
+    ]
+  },
+  "KB1p": {
+    "title": "Reiwa no Dara-san",
+    "cover": "reiwa-no-dara-san-ae77fc059c370ee0d7c8bf637695b84d",
+    "studio": "Asahi Production",
+    "source": "Web Manga",
+    "genres": [
+      "Comedy",
+      "Horror",
+      "Supernatural"
+    ]
+  },
+  "qKHd": {
+    "title": "Ryoumin 0-nin Start no Henkyou Ryoushu-sama",
+    "cover": "ryoumin-0-nin-start-no-henkyou-ryoushu-sama-001750c79bf60b392998b4dfff9b291b",
+    "studio": "animation studio42",
+    "source": "Light Novel",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Drama",
+      "Fantasy",
+      "Romance",
+      "Slice of Life"
+    ]
+  },
+  "4i1y": {
+    "title": "Saijo no Osewa: Takane no Hanadarake na Meimonkou de, Gakuin Ichi no Ojousama (Seikatsu Nouryoku Kaimu) wo Kagenagara Osewa suru Koto ni Narimashita",
+    "cover": "saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita-ae210bc7d5e93399df44cba42bb41a88",
+    "studio": "Brain's Base",
+    "source": "Light Novel",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "School"
+    ]
+  },
+  "kU8R": {
+    "title": "Saikyou Degarashi Ouji no Anyaku Teii Arasoi",
+    "cover": "saikyou-degarashi-ouji-no-anyaku-teii-arasoi-915cde4d08b153228b009add4a1144af",
+    "studio": "Maho Film",
+    "source": "Light Novel",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Drama",
+      "Fantasy"
+    ]
+  },
+  "mOYA": {
+    "title": "Sayonara Lara",
+    "cover": "sayonara-lara-eeec71fc52b1b207f92e92f0fc1fa8b4",
+    "studio": "Kinema Citrus",
+    "source": "Original",
+    "genres": [
+      "Fantasy",
+      "Romance",
+      "Supernatural"
+    ]
+  },
+  "q1tS": {
+    "title": "Seihantai na Kimi to Boku 2nd Season",
+    "cover": "seihantai-na-kimi-to-boku-2nd-season-92e7eb9697db5e841aa4ff57bc89b62f",
+    "studio": "Lapin Track",
+    "source": "Manga",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance",
+      "School",
+      "Slice of Life"
+    ]
+  },
+  "XP5K": {
+    "title": "Sekai Saikyou no Kouei: Meikyuukoku no Shinjin Tansakusha",
+    "cover": "sekai-saikyou-no-kouei-meikyuukoku-no-shinjin-tansakusha-522f100966fcfba3fe4857fc1609db67",
+    "studio": "Maho Film",
+    "source": "Light Novel",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Isekai"
+    ]
+  },
+  "kvOL": {
+    "title": "Sora wa Akai Kawa no Hotori",
+    "cover": "sora-wa-akai-kawa-no-hotori-c439f5eb882ef8756dff933cab563b03",
+    "studio": "Tatsunoko Production",
+    "source": "Manga",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Historical",
+      "Romance",
+      "Shoujo",
+      "Supernatural"
     ]
   },
   "XZgD": {
@@ -651,108 +521,156 @@
     "genres": [
       "Comedy",
       "Romance",
+      "Seinen",
       "Slice of Life"
     ]
   },
-  "IQdc": {
-    "title": "Tadaima, Ojamasaremasu!",
-    "cover": "tadaima-ojamasaremasu-3337aacece2e72516c4db0dc3c81b81a",
-    "studio": "Tatsunoko Production",
-    "source": "Web Manga",
+  "sWHa": {
+    "title": "Tai-Ari deshita.: Ojou-sama wa Kakutou Game Nante Shinai",
+    "cover": "tai-ari-deshita-ojou-sama-wa-kakutou-game-nante-shinai-e8c791981a3dd10a55b1bd8cf3cf447b",
+    "studio": "Diomed\u00e9a",
+    "source": "Manga",
     "genres": [
       "Comedy",
+      "Drama",
+      "Game",
+      "School"
+    ]
+  },
+  "S5Ra": {
+    "title": "Tefuda ga Oome no Victoria",
+    "cover": "tefuda-ga-oome-no-victoria-eb31907bdc9760f5cb7c5795694f8d8b",
+    "studio": "Studio DEEN",
+    "source": "Light Novel",
+    "genres": [
+      "Action",
+      "Drama",
+      "Fantasy",
       "Romance"
     ]
   },
-  "zNmQ": {
-    "title": "Tensei shitara Slime Datta Ken 4",
-    "cover": "tensei-shitara-slime-datta-ken-4th-season-1bce192c2db136585e91652599a16fb3",
-    "studio": "N/A",
+  "hGjd": {
+    "title": "Tenkou-saki no Seiso Karen na Bishoujo ga, Mukashi Danshi to Omotte Issho ni Asonda Osananajimi Datta Ken",
+    "cover": "tenkou-saki-no-seiso-karen-na-bishoujo-ga-mukashi-danshi-to-omotte-issho-ni-asonda-osananajimi-datta-ken-ca28b44b64654fd377fed97e76bf15e1",
+    "studio": "project No.9",
     "source": "Light Novel",
     "genres": [
-      "Action",
-      "Adventure",
       "Comedy",
-      "Fantasy",
-      "Isekai",
-      "Magic",
-      "Shounen"
+      "Romance",
+      "School"
     ]
   },
-  "E7zY": {
-    "title": "Tongari Boushi no Atelier",
-    "cover": "tongari-boushi-no-atelier-cd90bdf783fe243c9475f6efbc9c5b55",
-    "studio": "BUG FILMS",
+  "HEtL": {
+    "title": "Tenmaku no Jaadugar",
+    "cover": "tenmaku-no-jaadugar-77cb0d057c",
+    "studio": "Science SARU",
     "source": "Manga",
     "genres": [
-      "Adventure",
       "Drama",
-      "Fantasy",
-      "Magic",
-      "Seinen"
+      "Historical"
     ]
   },
-  "i7Wp": {
-    "title": "Tsue to Tsurugi no Wistoria 2nd Season",
-    "cover": "tsue-to-tsurugi-no-wistoria-2nd-season-c6955c4a711490575be6a3b4c85e0012",
-    "studio": "Actas",
+  "weUO": {
+    "title": "Thunder 3",
+    "cover": "thunder-3-fbbf3d581d81b8f6c5ddfbfa7b95c182",
+    "studio": "N/A",
     "source": "Manga",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Fantasy",
-      "Magic",
-      "School",
-      "Shounen"
-    ]
-  },
-  "Xa2E": {
-    "title": "Yomi no Tsugai",
-    "cover": "yomi-no-tsugai-69bea3ff592bb2090548eec577b81497",
-    "studio": "BONES FILM",
-    "source": "Manga",
-    "genres": [
-      "Action",
-      "Adventure",
-      "Comedy",
-      "Fantasy",
-      "Shounen"
-    ]
-  },
-  "XqCJ": {
-    "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 4",
-    "cover": "youkoso-jitsuryoku-shijou-shugi-no-kyoushitsu-e-4th-season-0f70af5aae",
-    "studio": "Lerche",
-    "source": "Light Novel",
     "genres": [
       "Drama",
       "Mystery",
-      "Psychological",
-      "School"
+      "Sci-Fi",
+      "Shounen",
+      "Supernatural"
     ]
   },
-  "q4dV": {
-    "title": "Yowa Yowa Sensei",
-    "cover": "yowayowa-sensei-e518c3fa99906e48a38fbc2b033533f5",
-    "studio": "Brain's Base",
+  "sIvk": {
+    "title": "Toumei na Yoru ni Kakeru Kimi to, Me ni Mienai Koi wo Shita.",
+    "cover": "toumei-na-yoru-ni-kakeru-kimi-to-me-ni-mienai-koi-wo-shita-7d9ae0850c",
+    "studio": "Makaria",
+    "source": "Light Novel",
+    "genres": [
+      "Drama",
+      "Romance"
+    ]
+  },
+  "O5lv": {
+    "title": "Tsuihou sareta Tensei Juukishi wa Game Chishiki de Musou suru",
+    "cover": "tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru-dd11ec1143ac41fd56a9a6ff34e8a5e3",
+    "studio": "GoHands",
+    "source": "Web Manga",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Isekai"
+    ]
+  },
+  "YKbB": {
+    "title": "Uchi no Otouto-domo ga Sumimasen",
+    "cover": "uchi-no-otouto-domo-ga-sumimasen-0bf27550ff518b9e931429434a44ae02",
+    "studio": "Lay-duce",
     "source": "Manga",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Shoujo",
+      "Slice of Life"
+    ]
+  },
+  "LrTu": {
+    "title": "Ushiro no Shoumen Kamui-san",
+    "cover": "ushiro-no-shoumen-kamui-san-70fb9873aa812a63dd5243eed11bf4f9",
+    "studio": "N/A",
+    "source": "Web Manga",
     "genres": [
       "Comedy",
       "Ecchi",
-      "Romance",
-      "School"
+      "Supernatural"
     ]
   },
-  "J7Hu": {
-    "title": "Yozakura-san Chi no Daisakusen 2nd Season",
-    "cover": "yozakura-san-chi-no-daisakusen-2nd-season-e9cd7c40d079b4ac9a9a503d80d0940b",
-    "studio": "SILVER LINK.",
+  "o6NM": {
+    "title": "World Is Dancing",
+    "cover": "world-is-dancing-b554fe80a4fab498c5c390c3657d958d",
+    "studio": "CygamesPictures",
     "source": "Manga",
     "genres": [
-      "Action",
+      "Drama",
+      "Historical"
+    ]
+  },
+  "qoZ9": {
+    "title": "Yani Neko",
+    "cover": "yani-neko-dae664936f6ca94239a82eae6b688a39",
+    "studio": "Bibury Animation Studio",
+    "source": "Manga",
+    "genres": [
       "Comedy",
-      "Romance",
-      "Shounen"
+      "Seinen",
+      "Slice of Life"
+    ]
+  },
+  "cqjz": {
+    "title": "Yoroi Shin Den Samurai Troopers Part 2",
+    "cover": "yoroi-shin-den-samurai-troopers-part-2-116f4607f81f60d7aa4b0c2c9e54140d",
+    "studio": "Sunrise",
+    "source": "Original",
+    "genres": [
+      "Action",
+      "Fantasy",
+      "Sci-Fi"
+    ]
+  },
+  "9vIs": {
+    "title": "Youjo Senki II",
+    "cover": "youjo-senki-ii-8ccef38c6f0bc031433bfbcd57947b28",
+    "studio": "NUT",
+    "source": "Light Novel",
+    "genres": [
+      "Action",
+      "Fantasy",
+      "Isekai",
+      "Magic",
+      "Military"
     ]
   }
 }
