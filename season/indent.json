@@ -69,9 +69,20 @@
       "Fantasy"
     ]
   },
+  "tf6A": {
+    "title": "Bungou Stray Dogs Wan! 2",
+    "cover": "bungou-stray-dogs-wan-2-be53023f4fb4d6e630091822f9c73774",
+    "studio": "Nomad",
+    "source": "Web Manga",
+    "genres": [
+      "Comedy",
+      "Slice of Life",
+      "Supernatural"
+    ]
+  },
   "DkAP": {
     "title": "Clevatess II: Majuu no Ou to Itsuwari no Yuusha Denshou",
-    "cover": "clevatess-ii-majuu-no-ou-to-itsuwari-no-yuusha-denshou-f0e933445ce026e9c6510fd5f49a8659",
+    "cover": "clevatess-ii-majuu-no-ou-to-itsuwari-no-yuusha-denshou-e26c04430e5e12b32642e5110d12dca0",
     "studio": "Lay-duce",
     "source": "Web Manga",
     "genres": [
@@ -104,7 +115,7 @@
   },
   "LtzL": {
     "title": "Gaikotsu Kishi-sama, Tadaima Isekai e Odekakechuu II",
-    "cover": "gaikotsu-kishi-sama-tadaima-isekai-e-odekakechuu-ii-259a615fb5",
+    "cover": "gaikotsu-kishi-sama-tadaima-isekai-e-odekakechuu-ii-db63f8763382e91b97ba4b71926727c2",
     "studio": "Aura Studio",
     "source": "Light Novel",
     "genres": [
@@ -175,6 +186,17 @@
       "Comedy",
       "School",
       "Sports"
+    ]
+  },
+  "aLOK": {
+    "title": "Ibitte Konai Gibo to Gishi",
+    "cover": "ibitte-konai-gibo-to-gishi-cea9ff8d68057b87f88031fced6e9624",
+    "studio": "NEWON",
+    "source": "Web Manga",
+    "genres": [
+      "Comedy",
+      "Historical",
+      "Slice of Life"
     ]
   },
   "K9E1": {
@@ -402,6 +424,22 @@
       "Supernatural"
     ]
   },
+  "PDL1": {
+    "title": "Otomege Sekai wa Mob ni Kibishii Sekai desu 2nd Season",
+    "cover": "otomege-sekai-wa-mob-ni-kibishii-sekai-desu-2nd-season-f08abed9f638ccc5957d38e0f8060fc2",
+    "studio": "ENGI",
+    "source": "Light Novel",
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Drama",
+      "Fantasy",
+      "Harem",
+      "Isekai",
+      "Mecha",
+      "Romance"
+    ]
+  },
   "nqwi": {
     "title": "Rakudai Kenja no Gakuin Musou: Nidome no Tensei, S-Rank Cheat Majutsushi Boukenroku",
     "cover": "rakudai-kenja-no-gakuin-musou-nidome-no-tensei-s-rank-cheat-majutsushi-boukenroku-b0157e05de016994ca08a7ca0696bed8",
@@ -440,7 +478,7 @@
   },
   "4i1y": {
     "title": "Saijo no Osewa: Takane no Hanadarake na Meimonkou de, Gakuin Ichi no Ojousama (Seikatsu Nouryoku Kaimu) wo Kagenagara Osewa suru Koto ni Narimashita",
-    "cover": "saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita-ae210bc7d5e93399df44cba42bb41a88",
+    "cover": "saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita-067c6664e313c812011247afd321d530",
     "studio": "Brain's Base",
     "source": "Light Novel",
     "genres": [
@@ -513,16 +551,15 @@
       "Supernatural"
     ]
   },
-  "XZgD": {
-    "title": "Super no Ura de Yani Suu Futari",
-    "cover": "super-no-ura-de-yani-suu-futari-99e5d4c09ccde0c3cf63da53831fd34a",
-    "studio": "Asahi Production",
-    "source": "Manga",
+  "eqgo": {
+    "title": "Suterare Seijo no Isekai Gohan Tabi: Kakure Skill de Camping Car wo Shoukan shimashita",
+    "cover": "suterare-seijo-no-isekai-gohan-tabi-kakure-skill-de-camping-car-wo-shoukan-shimashita-abaf8abcee62c4dac2468d2cf9a7ff1d",
+    "studio": "EMT Squared",
+    "source": "Light Novel",
     "genres": [
-      "Comedy",
-      "Romance",
-      "Seinen",
-      "Slice of Life"
+      "Adventure",
+      "Fantasy",
+      "Romance"
     ]
   },
   "sWHa": {
@@ -619,8 +656,8 @@
   },
   "LrTu": {
     "title": "Ushiro no Shoumen Kamui-san",
-    "cover": "ushiro-no-shoumen-kamui-san-70fb9873aa812a63dd5243eed11bf4f9",
-    "studio": "N/A",
+    "cover": "ushiro-no-shoumen-kamui-san-538c46a2c849f7b2533d771ba88f579f",
+    "studio": "ZG-R",
     "source": "Web Manga",
     "genres": [
       "Comedy",

@@ -123,7 +123,7 @@
     "title": "Digimon Beatbreak",
     "day": 6,
     "time": "8:00 PM",
-    "cover": "digimon-beatbreak-1c84cfe92a",
+    "cover": "digimon-beatbreak-85d653c72879f4fb07e380e5b8fe56c4",
     "streams": {
       "Amazon": "https://amzn.to/4dwjwRc",
       "Apple": "https://apple.co/46H4d4p",
@@ -349,8 +349,8 @@
   "lqMh": {
     "title": "Komekami! Girls",
     "day": 4,
-    "time": "9:00 AM",
-    "cover": "komekami-girls-3471c04b062ae17abfa444d9545e6f57",
+    "time": "9:50 AM",
+    "cover": "komekami-girls-f4a16dfd49f5bb10546a0abf87290e79",
     "streams": {},
     "status": true
   },
@@ -530,7 +530,9 @@
     "day": 7,
     "time": "6:30 AM",
     "cover": "pierrot-mahou-shoujo-series-shinsaku-anime-00ef59c8ed10d9f39431032a3b143f8b",
-    "streams": {},
+    "streams": {
+      "YouTube": "https://www.youtube.com/watch?v=lCfLdCGV2yA"
+    },
     "status": true
   },
   "NHFC": {
@@ -556,8 +558,8 @@
   "yaXr": {
     "title": "Farming Life In Another World",
     "day": 1,
-    "time": "7:01 AM",
-    "cover": "isekai-nonbiri-nouka-2-5944576c31e6b6265824fbba88094629",
+    "time": "7:00 AM",
+    "cover": "",
     "streams": {
       "Amazon": "https://amzn.to/41YU3bT",
       "Apple": "https://apple.co/4saGOzz",
@@ -591,7 +593,8 @@
     "cover": "tongari-boushi-no-atelier-cd90bdf783fe243c9475f6efbc9c5b55",
     "streams": {
       "Apple": "https://apple.co/4viYZ9i",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00258001/witch-hat-atelier"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00258001/witch-hat-atelier",
+      "Netflix": "https://www.netflix.com/title/82741721"
     }
   },
   "8xvz": {
@@ -602,7 +605,8 @@
     "streams": {
       "Amazon": "https://amzn.to/41UUpAl",
       "Apple": "https://apple.co/4caj8pb",
-      "HiDive": "https://www.hidive.com/season/35231"
+      "HiDive": "https://www.hidive.com/season/35231",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1gxoIoRFrIlzxe5FM1yZfe"
     }
   },
   "8l1z": {
@@ -732,11 +736,11 @@
   "VG7B": {
     "title": "Botan Kamiina Fully Blossoms When Drunk",
     "day": 5,
-    "time": "8:30 AM",
+    "time": "9:30 AM",
     "cover": "kamiina-botan-yoeru-sugata-wa-yuri-no-hana-9cdf6f5bd5ab543ae2ab66efdcb057bd",
     "streams": {
       "Apple": "https://apple.co/4mqpIwD",
-      "Crunchyroll": "https://www.crunchyroll.com/es/series/GT00371890"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371890"
     }
   },
   "Uk7R": {
@@ -786,7 +790,7 @@
     "title": "Odekake Kozame 2nd Season",
     "day": 6,
     "time": "3:00 PM",
-    "cover": "odekake-kozame-2nd-season-0ee16b1b6b25b2cd77083a55f6efbd7d",
+    "cover": "odekake-kozame-2nd-season-989132c0286e63fef1e3c2229c9909a7",
     "streams": {},
     "status": true
   },
@@ -820,6 +824,7 @@
       "Amazon": "https://amzn.to/3QtQFTU",
       "Apple": "https://apple.co/3O2SNBq",
       "Crunchyroll": "https://www.crunchyroll.com/series/GW4HM7WK9/wistoria-wand-and-sword",
+      "Netflix": "https://www.netflix.com/title/81900358",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl37QJE0NTvUiONsuDJH6IMD"
     }
   },
@@ -830,6 +835,7 @@
     "cover": "yozakura-san-chi-no-daisakusen-2nd-season-e9cd7c40d079b4ac9a9a503d80d0940b",
     "streams": {
       "Apple": "https://apple.co/4mqVhWP",
+      "Disney+": "https://www.disneyplus.com/browse/entity-ac689bea-f955-4d95-8693-7b87b5a309cb",
       "Hulu": "https://www.hulu.com/series/ac689bea-f955-4d95-8693-7b87b5a309cb"
     }
   },
@@ -841,23 +847,6 @@
     "streams": {
       "Apple": "https://apple.co/4sAJM0E",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00371779"
-    }
-  },
-  "1bXw": {
-    "title": "Candy Caries",
-    "day": 3,
-    "time": "8:55 AM",
-    "cover": "candy-caries-tv-18526def39",
-    "streams": {},
-    "status": true
-  },
-  "rNOL": {
-    "title": "Dandelion",
-    "day": 4,
-    "time": "12:01 AM",
-    "cover": "dandelion-f16e093d595955b9769961c5a37043ec",
-    "streams": {
-      "Netflix": "https://netflix.com/title/81579317"
     }
   }
 }
