@@ -102,22 +102,13 @@
   "DqGO": {
     "title": "BEYBLADE X",
     "day": 5,
-    "time": "2:25 AM",
+    "time": "3:00 AM",
     "cover": "beyblade-x-f02b468b74",
     "streams": {
       "Apple": "https://apple.co/4i07X3w",
       "Hulu": "https://hulu.com/series/0e46c665-5191-407f-8dc5-e22a0095578c",
       "Netflix": "https://netflix.com/title/81924739",
       "YouTube": "https://youtube.com/playlist?list=PLfX0BhjZoHNlzLJSi0-CPYQXfV_JPWPUh"
-    }
-  },
-  "2Rbu": {
-    "title": "Nui Story 2",
-    "day": 5,
-    "time": "8:00 PM",
-    "cover": "nui-story-2-c9ae50bcf2",
-    "streams": {
-      "Hulu": "https://www.hulu.jp/nui-story-2"
     }
   },
   "zTms": {
@@ -185,30 +176,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00369409"
     }
   },
-  "EBlC": {
-    "title": "(New) Rurouni Kenshin",
-    "day": 7,
-    "time": "8:00 AM",
-    "cover": "niwatori-fighter-52bbb0418e26420a1ca19ee9e1e74729",
-    "streams": {
-      "Apple": "https://apple.co/4cdgJep",
-      "BiliBili": "https://www.bilibili.tv/en/media/2289611",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00365727/rooster-fighter",
-      "Disney+": "https://www.disneyplus.com/en-ca/browse/entity-eb5b776f-8162-491a-9aca-c1e9b56729e5",
-      "Hulu": "https://www.hulu.com/series/75f4baad-151d-489d-8a9e-bec4ab49ed23",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jij171Q_EAc8xRn0RLyYmbJ"
-    }
-  },
-  "Sa4c": {
-    "title": "The Food Diary of Miss Maid",
-    "day": 7,
-    "time": "7:00 AM",
-    "cover": "maid-san-wa-taberu-dake-7ad347cd2062f583d3ccadc25efab69e",
-    "streams": {
-      "Apple": "https://apple.co/3OcsIjh",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00375170"
-    }
-  },
   "k4lV": {
     "title": "The Beginning After the End",
     "day": 3,
@@ -230,38 +197,6 @@
       "Amazon": "https://amzn.to/4ssBGHi",
       "Apple": "https://apple.co/4sc44gT",
       "Crunchyroll": "https://www.crunchyroll.com/series/GVDHX8504/reborn-as-a-vending-machine-i-now-wander-the-dungeon"
-    }
-  },
-  "kg2u": {
-    "title": "The strongest job is apparently not a hero or a sage, but an appraiser!",
-    "day": 6,
-    "time": "6:31 AM",
-    "cover": "saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo-dc932689c5cb662a269d26eee42f68b9",
-    "streams": {
-      "Apple": "https://apple.co/4dEhcYz",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371875"
-    }
-  },
-  "PQ2B": {
-    "title": "Always a Catch!",
-    "day": 3,
-    "time": "9:00 AM",
-    "cover": "nigashita-sakana-wa-ookikatta-ga-tsuriageta-sakana-ga-ookisugita-ken-e9a9f97614179f78feeca6dab07b5ff4",
-    "streams": {
-      "Apple": "https://apple.co/48l3iqq",
-      "BiliBili": "https://www.bilibili.tv/en/media/2343020",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371642",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3n62kkjOOBxuuhfXiDUu4g"
-    }
-  },
-  "bdB6": {
-    "title": "Go For It, Nakamura-kun!!",
-    "day": 3,
-    "time": "10:00 AM",
-    "cover": "ganbare-nakamura-kun-be98d5c86e",
-    "streams": {
-      "Apple": "https://apple.co/4sTh24k",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00337506/go-for-it-nakamura-kun"
     }
   },
   "XqCJ": {
@@ -302,16 +237,6 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgAgNZonRZtMMkb823NExcD"
     }
   },
-  "ZeO9": {
-    "title": "Killed again, Mr. Detective.",
-    "day": 4,
-    "time": "10:30 AM",
-    "cover": "mata-korosarete-shimatta-no-desu-ne-tantei-sama-188ab5cbe265b119262f80cb2c2a2623",
-    "streams": {
-      "Apple": "https://apple.co/4m8MRU5",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371787"
-    }
-  },
   "11mU": {
     "title": "The Ramparts of Ice",
     "day": 4,
@@ -319,48 +244,6 @@
     "cover": "koori-no-jouheki-3edc9fc353",
     "streams": {
       "Netflix": "https://www.netflix.com/title/82031882"
-    }
-  },
-  "9HX4": {
-    "title": "Haibara's Teenage New Game+",
-    "day": 4,
-    "time": "10:00 AM",
-    "cover": "haibara-kun-no-tsuyokute-seishun-new-game-2553dde36cdcc5f56e738ed723f928f3",
-    "streams": {
-      "Apple": "https://apple.co/4mdikVi",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371668"
-    }
-  },
-  "5x1W": {
-    "title": "Kirio Fan Club",
-    "day": 4,
-    "time": "9:00 AM",
-    "cover": "kirio-fanclub-9e098990bef6c88bf978cd55ae95656d",
-    "streams": {
-      "Apple": "https://apple.co/4vjH3uY",
-      "HiDive": "https://www.hidive.com/season/35227",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgMGXyhUEr1I_5ryXN436vi"
-    }
-  },
-  "lqMh": {
-    "title": "Komekami! Girls",
-    "day": 4,
-    "time": "9:50 AM",
-    "cover": "komekami-girls-f4a16dfd49f5bb10546a0abf87290e79",
-    "streams": {},
-    "status": true
-  },
-  "gTdV": {
-    "title": "The Angel Next Door Spoils Me Rotten",
-    "day": 5,
-    "time": "7:30 AM",
-    "cover": "otonari-no-tenshi-sama-ni-itsunomanika-dame-ningen-ni-sareteita-ken-2nd-season-ffc52fd867ebc7935f03ce7d2788f4a5",
-    "streams": {
-      "Amazon": "https://amzn.to/4t1EuMw",
-      "Apple": "https://apple.co/3Oh5iJG",
-      "BiliBili": "https://www.bilibili.tv/en/media/2343630",
-      "Crunchyroll": "https://www.crunchyroll.com/series/G9VHN91DJ/the-angel-next-door-spoils-me-rotten",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjhVqkAt1bFMDpgrRsby7Z_"
     }
   },
   "zNmQ": {
@@ -411,30 +294,6 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1-aoCFQ-X1pmxfTVRvrRAt"
     }
   },
-  "g5rr": {
-    "title": "Kusunoki's Garden of Gods",
-    "day": 6,
-    "time": "9:31 AM",
-    "cover": "kami-no-niwatsuki-kusunoki-tei-2962df1d1306b78e4ca3947c8521dd31",
-    "streams": {
-      "Apple": "https://apple.co/4vcuL7I",
-      "BiliBili": "https://www.bilibili.tv/media/2344089",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00374360",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JjlyxvkFA0-OyN6zwDTNjoA"
-    }
-  },
-  "SPvu": {
-    "title": "Mistress Kanan Is Devilishly Easy",
-    "day": 6,
-    "time": "9:01 AM",
-    "cover": "kanan-sama-wa-akumade-choroi-e9fccf95ef972651c3917a49d3eefcd3",
-    "streams": {
-      "Apple": "https://apple.co/4vcV2CR",
-      "BiliBili": "https://www.bilibili.tv/en/media/2343522",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371860/mistress-kanan-is-devilishly-easy",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JhVy3KHGqdAMw_lVe9Vq5UN"
-    }
-  },
   "F4dy": {
     "title": "NEEDY GIRL OVERDOSE",
     "day": 6,
@@ -443,16 +302,6 @@
     "streams": {
       "Apple": "https://apple.co/4twwYcx",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00371863"
-    }
-  },
-  "3oOW": {
-    "title": "Akane-Banashi",
-    "day": 6,
-    "time": "9:00 AM",
-    "cover": "akane-banashi-16844a9fca0ee900ae11d71afb4247b5",
-    "streams": {
-      "Netflix": "https://www.netflix.com/title/82701514",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JiCtTdD2GRMvAmM6RXA2uhH"
     }
   },
   "uBmx": {
@@ -497,16 +346,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00371630/daemons-of-the-shadow-realm"
     }
   },
-  "HiiN": {
-    "title": "NIPPON SANGOKU: The Three Nations of the Crimson Sun",
-    "day": 7,
-    "time": "5:01 AM",
-    "cover": "nippon-sangoku-22045614a00d956c1accce747be5ef2d",
-    "streams": {
-      "Amazon": "https://amzn.to/4cg1Jvq",
-      "Apple": "https://apple.co/4tA1a6J"
-    }
-  },
   "zojG": {
     "title": "Ace of the Diamond Act II",
     "day": 7,
@@ -518,24 +357,13 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3eQLL5RrE-_B7D_vmJs1NH"
     }
   },
-  "GXRY": {
-    "title": "GHOST CONCERT : missing Songs",
-    "day": 7,
-    "time": "8:31 AM",
-    "cover": "ghost-concert-missing-songs-829e01f713dfd494c1afa895c8cf9ec0",
-    "streams": {
-      "Apple": "https://apple.co/41Trn40",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00374796",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7JgpcAwuayL8qIjFf0EVbNw0"
-    }
-  },
   "lOR1": {
     "title": "Mahou no Shimai Lulutto Lilly",
     "day": 5,
     "time": "5:00 PM",
     "cover": "pierrot-mahou-shoujo-series-shinsaku-anime-00ef59c8ed10d9f39431032a3b143f8b",
     "streams": {
-      "YouTube": "https://www.youtube.com/watch?v=lCfLdCGV2yA"
+      "YouTube": "https://www.youtube.com/playlist?list=PLKPsuBIKuejMR6v7XCBOMy7Xesql1re66"
     },
     "status": true
   },
@@ -548,16 +376,6 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLq34MZPUzQ9mGMf3-p798NI3FNNROkDMR"
     },
     "status": true
-  },
-  "t5ev": {
-    "title": "An Observation Log of My Fiancee Who Calls Herself a Villainess",
-    "day": 5,
-    "time": "6:01 AM",
-    "cover": "jishou-akuyaku-reijou-na-konyakusha-no-kansatsu-kiroku-5ad96f0b89",
-    "streams": {
-      "Apple": "https://apple.co/4e1qCgH",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371887/an-observation-log-of-my-fiance-who-calls-herself-a-villainess"
-    }
   },
   "yaXr": {
     "title": "Farming Life In Another World",
@@ -644,7 +462,8 @@
     "cover": "megami-isekai-tensei-nani-ni-naritai-desu-ka-ore-yuusha-no-rokkotsu-de-28d4da6c66cf6030a28bcbb1d6f0701a",
     "streams": {
       "Apple": "https://apple.co/4dvqTs7",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371665"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371665",
+      "YouTube": "https://www.youtube.com/playlist?list=PLbuF5Onrcu9dUMAJzfuVj9GRGHY2vp2pz"
     }
   },
   "uOJc": {
@@ -769,7 +588,8 @@
     "cover": "kami-no-shizuku-ebb7a63252c186f98c27d2e6a096c737",
     "streams": {
       "Apple": "https://apple.co/41nv0zd",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371872/the-drops-of-god"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371872/the-drops-of-god",
+      "YouTube": "https://www.youtube.com/playlist?list=PLbuF5Onrcu9fuunA9-WbxAZpiwmHUS0w9"
     }
   },
   "3IQl": {
@@ -783,18 +603,6 @@
       "BiliBili": "https://www.bilibili.tv/en/media/2343894",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00371896/kill-blue",
       "Netflix": "https://www.netflix.com/title/82757009"
-    }
-  },
-  "5Z8W": {
-    "title": "Ichijyoma Mankitsu Gurashi!",
-    "day": 6,
-    "time": "10:01 AM",
-    "cover": "ichijouma-mankitsugurashi-e57f2cd720756a1fcb8678108621ccb0",
-    "streams": {
-      "Amazon": "https://www.primevideo.com/detail/0HASPCBBG79HYXL4EL2COFANKS",
-      "Apple": "https://apple.co/4fYs8RF",
-      "OceanVeil": "https://oceanveil.net/anime_titles/416",
-      "YouTube": "https://www.youtube.com/playlist?list=PLhGamQZtJ7K8OWPQvBPauPeJeiG4tQpPl"
     }
   },
   "yRXP": {
@@ -859,6 +667,45 @@
     "streams": {
       "Apple": "https://apple.co/4sAJM0E",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00371779"
+    }
+  },
+  "J6Py": {
+    "title": "Heroine? Saint? No, I'm an All-Works Maid!",
+    "day": 3,
+    "time": "7:30 AM",
+    "cover": "heroine-seijo-iie-all-works-maid-desu-hokori-cfbdf1949bf57038f4d72e30c9c336fa",
+    "streams": {
+      "Apple": "https://apple.co/4eLXrNx",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00378069/heroine-saint-no-im-an-all-works-maid-and-proud-of-it"
+    }
+  },
+  "nqwi": {
+    "title": "From Overshadowed to Overpowered: Second Reincarnation of a Talentless Sage",
+    "day": 4,
+    "time": "8:01 AM",
+    "cover": "rakudai-kenja-no-gakuin-musou-nidome-no-tensei-s-rank-cheat-majutsushi-boukenroku-cb85952edbbf14d3b8fdcb34f12fd281",
+    "streams": {
+      "Apple": "https://apple.co/3T0K3O6",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00378115/from-overshadowed-to-overpowered-second-reincarnation-of-a-talentless-sage"
+    }
+  },
+  "kagJ": {
+    "title": "Lord of Mysteries",
+    "day": 6,
+    "time": "7:01 PM",
+    "cover": "guimi-zhi-zhu-tebie-pian-liewu-601d7bf8ff7644162c6857e70b91d82e",
+    "streams": {
+      "Apple": "https://apple.co/4enxd4U",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W2EZ/lord-of-mysteries"
+    }
+  },
+  "loet": {
+    "title": "The Cat and the Dragon",
+    "day": 6,
+    "time": "6:30 AM",
+    "cover": "neko-to-ryuu-c63710d9490e484994175826ae724954",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00378117"
     }
   }
 }
