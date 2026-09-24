@@ -111,16 +111,6 @@
       "Hulu": "https://www.hulu.com/series/4c47f9ab-f6b8-45ec-8fb9-fbd5ed1a5529"
     }
   },
-  "QXyb": {
-    "title": "Koala Enikki",
-    "day": 4,
-    "time": "4:01 AM",
-    "cover": "koala-enikki-cdd7e50f2d",
-    "streams": {
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jg8-ovZUfZSZYidXFSwIpA9"
-    },
-    "status": true
-  },
   "a5T3": {
     "title": "Ugoku! Neko Mukashibanashi",
     "day": 3,
@@ -209,19 +199,6 @@
     "streams": {},
     "status": true
   },
-  "Xa2E": {
-    "title": "Daemons of the Shadow Realm",
-    "day": 6,
-    "time": "9:00 AM",
-    "cover": "yomi-no-tsugai-69bea3ff592bb2090548eec577b81497",
-    "streams": {
-      "Amazon": "https://amzn.to/45vu2mA",
-      "Apple": "https://apple.co/4t3w3jK",
-      "BiliBili": "https://www.bilibili.tv/en/media/2342276",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371630/daemons-of-the-shadow-realm",
-      "Netflix": "https://www.netflix.com/title/82719204"
-    }
-  },
   "NHFC": {
     "title": "PetitCure: Precure Fairies 3rd Season",
     "day": 4,
@@ -256,18 +233,6 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3RN7t6wesJqlUkSUN6FHKF"
     }
   },
-  "25bR": {
-    "title": "The Drops of God",
-    "day": 5,
-    "time": "8:30 AM",
-    "cover": "kami-no-shizuku-ebb7a63252c186f98c27d2e6a096c737",
-    "streams": {
-      "Amazon": "https://amzn.to/3UkINGi",
-      "Apple": "https://apple.co/41nv0zd",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371872/the-drops-of-god",
-      "YouTube": "https://www.youtube.com/playlist?list=PLbuF5Onrcu9fuunA9-WbxAZpiwmHUS0w9"
-    }
-  },
   "yRXP": {
     "title": "Odekake Kozame 2nd Season",
     "day": 6,
@@ -278,51 +243,6 @@
     },
     "status": true
   },
-  "knhC": {
-    "title": "The Classroom of a Black Cat and a Witch",
-    "day": 7,
-    "time": "8:00 AM",
-    "cover": "kuroneko-to-majo-no-kyoushitsu-cc478b45e4",
-    "streams": {
-      "Amazon": "https://amzn.to/4xMPRdt",
-      "Apple": "https://apple.co/4mmsVwS",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00374357",
-      "YouTube": "https://www.youtube.com/playlist?list=PLxSscENEp7Jh2Aq9dnBrcdmlUPfq5VQtL"
-    }
-  },
-  "J6Py": {
-    "title": "Heroine? Saint? No, I'm an All-Works Maid!",
-    "day": 3,
-    "time": "7:30 AM",
-    "cover": "heroine-seijo-iie-all-works-maid-desu-hokori-cfbdf1949bf57038f4d72e30c9c336fa",
-    "streams": {
-      "Amazon": "https://amzn.to/4xAo67y",
-      "Apple": "https://apple.co/4eLXrNx",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00378069/heroine-saint-no-im-an-all-works-maid-and-proud-of-it"
-    }
-  },
-  "nqwi": {
-    "title": "From Overshadowed to Overpowered: Second Reincarnation of a Talentless Sage",
-    "day": 4,
-    "time": "8:01 AM",
-    "cover": "rakudai-kenja-no-gakuin-musou-nidome-no-tensei-s-rank-cheat-majutsushi-boukenroku-cb85952edbbf14d3b8fdcb34f12fd281",
-    "streams": {
-      "Amazon": "https://amzn.to/4ql272g",
-      "Apple": "https://apple.co/3T0K3O6",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00378115/from-overshadowed-to-overpowered-second-reincarnation-of-a-talentless-sage"
-    }
-  },
-  "loet": {
-    "title": "The Cat and the Dragon",
-    "day": 6,
-    "time": "6:30 AM",
-    "cover": "neko-to-ryuu-c63710d9490e484994175826ae724954",
-    "streams": {
-      "Apple": "https://apple.co/4ga2GsF",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00378117",
-      "YouTube": "https://www.youtube.com/playlist?list=PLW7w7NrGJ9As"
-    }
-  },
   "o6NM": {
     "title": "The World Is Dancing",
     "day": 1,
@@ -332,62 +252,6 @@
       "Apple": "https://apple.co/449S9qa",
       "HiDive": "https://www.hidive.com/season/36240",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0a5R_sTDWnpN19_TCZuW-E"
-    }
-  },
-  "B7em": {
-    "title": "The Oblivious Saint Can't Contain Her Power",
-    "day": 2,
-    "time": "6:30 AM",
-    "cover": "mujikaku-seijo-wa-kyou-mo-muishiki-ni-chikara-wo-tare-nagasu-667a3196664a4d77aedfb7c9f5f5d801",
-    "streams": {
-      "Apple": "https://apple.co/4oYCXpl",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00378125/"
-    }
-  },
-  "DE3F": {
-    "title": "The Villager of Level 999",
-    "day": 3,
-    "time": "9:00 AM",
-    "cover": "lv999-no-murabito-488ee582908da2d4307199070544e164",
-    "streams": {
-      "Amazon": "https://amzn.to/4idgDa5",
-      "Apple": "https://apple.co/4xYCebZ",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371878/the-villager-of-level-999"
-    }
-  },
-  "s8un": {
-    "title": "Hana-Kimi",
-    "day": 3,
-    "time": "9:00 AM",
-    "cover": "hanazakari-no-kimitachi-e-2nd-season-9377744187cec39623833ea5747bbf93",
-    "streams": {
-      "Amazon": "https://amzn.to/4z8twsb",
-      "Apple": "https://apple.co/4v8GcvK",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00365568/hana-kimi"
-    }
-  },
-  "iE9C": {
-    "title": "KAIJU GIRL CARAMELISE",
-    "day": 4,
-    "time": "10:30 AM",
-    "cover": "otome-kaijuu-caramelise-320f2fe90aa24c372cb113ce588232b1",
-    "streams": {
-      "Amazon": "https://amzn.to/4qkYBF6",
-      "Apple": "https://apple.co/4vfuYG6",
-      "BiliBili": "https://www.bilibili.tv/en/media/2411889",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00378081/kaiju-girl-caramelise",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl38hoyHQ6-C5HAQ9lJ5jkdG"
-    }
-  },
-  "XLe2": {
-    "title": "BanG Dream! YUMEMITA",
-    "day": 4,
-    "time": "7:01 AM",
-    "cover": "bang-dream-yume-mita-0bd65529c56c2a4f7724be33c85d317d",
-    "streams": {
-      "Apple": "https://apple.co/4wjey0c",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00379424",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0ctL2jtLzMpMPtAYfkdRVO"
     }
   },
   "KB1p": {
@@ -423,17 +287,6 @@
       "OceanVeil": "https://oceanveil.net/anime_titles/461"
     }
   },
-  "DSVT": {
-    "title": "I Became a Legend after My 10 Year-Long Last Stand",
-    "day": 5,
-    "time": "7:00 AM",
-    "cover": "koko-wa-ore-ni-makasete-saki-ni-ike-to-itte-kara-10-nen-ga-tattara-densetsu-ni-natteita-2265b7b2e0",
-    "streams": {
-      "Amazon": "https://amzn.to/4xJfwnh",
-      "Apple": "https://apple.co/4vJHBdr",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371671"
-    }
-  },
   "XPCg": {
     "title": "HELL MODE: The Hardcore Gamer Dominates in Another World with Garbage Balancing",
     "day": 5,
@@ -456,17 +309,6 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl0BnHSDgsrzHcX29LmyNwQ1"
     }
   },
-  "qKHd": {
-    "title": "The Frontier Lord Begins with Zero Subjects",
-    "day": 5,
-    "time": "6:31 AM",
-    "cover": "ryoumin-0-nin-start-no-henkyou-ryoushu-sama-da2439840db3fe84fa0ed0a0e3064655",
-    "streams": {
-      "Apple": "https://apple.co/4wsr65C",
-      "BiliBili": "https://www.bilibili.tv/en/media/2413170",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00378124/the-frontier-lord-begins-with-zero-subjects"
-    }
-  },
   "YKbB": {
     "title": "Please Excuse My Younger Brothers",
     "day": 5,
@@ -475,47 +317,6 @@
     "streams": {
       "Apple": "https://apple.co/4gU1Ctc",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00371926"
-    }
-  },
-  "XGiF": {
-    "title": "BLACK TORCH",
-    "day": 6,
-    "time": "6:01 AM",
-    "cover": "black-torch-ce6a1e71bed8eb358fb6d19a8e2e23f3",
-    "streams": {
-      "Apple": "https://apple.co/3QCViMd",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00377907/black-torch",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3mx2NrmJSwHk-VtvhmGnZz"
-    }
-  },
-  "PAmS": {
-    "title": "The Duke's Son Claims He Won't Love Me, But Showers Me with Adoration",
-    "day": 6,
-    "time": "10:00 AM",
-    "cover": "kimi-wo-aisuru-ki-wa-nai-to-itta-jiki-koushaku-sama-ga-nazeka-dekiai-shitekimasu-b4dd3acbac13a444db3f73ef3880004d",
-    "streams": {
-      "Apple": "https://apple.co/4wqagUH",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00378118/the-dukes-son-claims-he-wont-love-me-but-showers-me-with-adoration"
-    }
-  },
-  "Azgw": {
-    "title": "Magical Girl Lyrical Nanoha EXCEEDS Gun Blaze Vengeance",
-    "day": 6,
-    "time": "10:00 AM",
-    "cover": "mahou-shoujo-lyrical-nanoha-exceeds-gun-blaze-vengeance-a454fb93ac7e192679b6be5441e53148",
-    "streams": {
-      "Apple": "https://apple.co/4vf1wQx",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00378090/magical-girl-lyrical-nanoha-exceeds-gun-blaze-vengeance"
-    }
-  },
-  "K9E1": {
-    "title": "Recommendations from Iwamoto-Senpai",
-    "day": 6,
-    "time": "7:00 AM",
-    "cover": "iwamoto-senpai-no-suisen-bc29f191d3fd7f9f0494f407d78c37d6",
-    "streams": {
-      "Apple": "https://apple.co/3SA22uS",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00378096/recommendations-from-iwamoto-senpai"
     }
   },
   "eXBc": {
@@ -538,39 +339,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00378063/grow-up-show"
     }
   },
-  "khq3": {
-    "title": "The Ogre's Bride",
-    "day": 6,
-    "time": "10:00 AM",
-    "cover": "oni-no-hanayome-66a115c5553e32d390af121ef1e853db",
-    "streams": {
-      "Apple": "https://apple.co/4wpehZC",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00378121"
-    }
-  },
-  "4i1y": {
-    "title": "Rich Girl Caretaker: I'm Secretly the Caregiver of the Most Popular Girl in This Rich Kid School",
-    "day": 6,
-    "time": "11:10 AM",
-    "cover": "saijo-no-osewa-takane-no-hanadarake-na-meimonkou-de-gakuin-ichi-no-ojousama-seikatsu-nouryoku-kaimu-wo-kagenagara-osewa-suru-koto-ni-narimashita-067c6664e313c812011247afd321d530",
-    "streams": {
-      "Amazon": "https://amzn.to/3UArEbI",
-      "Apple": "https://apple.co/4vGUx3H",
-      "BiliBili": "https://www.bilibili.tv/en/media/2414293",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00378102/rich-girl-caretaker-im-secretly-the-caregiver-of-the-most-popular-girl-in-this-rich-kid-school"
-    }
-  },
-  "HEtL": {
-    "title": "Jaadugar: A Witch in Mongolia",
-    "day": 6,
-    "time": "9:00 AM",
-    "cover": "tenmaku-no-jaadugar-13bd71449bec6ecc2863bbc8c2566183",
-    "streams": {
-      "Amazon": "https://amzn.to/4qsKWMk",
-      "Apple": "https://apple.co/4ayYgbb",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00378078/jaadugar-a-witch-in-mongolia"
-    }
-  },
   "6Tzq": {
     "title": "Mushoku Tensei: Jobless Reincarnation",
     "day": 7,
@@ -583,19 +351,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/G24H1N3MP/mushoku-tensei-jobless-reincarnation",
       "Netflix": "https://www.netflix.com/title/80987039",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl1LMA6zhohDzfoV-XXFxS9Z"
-    }
-  },
-  "9O2I": {
-    "title": "The 100 Girlfriends Who Really, Really, Really, Really, REALLY Love You",
-    "day": 7,
-    "time": "7:00 AM",
-    "cover": "kimi-no-koto-ga-daidaidaidaidaisuki-na-100-nin-no-kanojo-3rd-season-8bcd5c9908c3671f5470560620347505",
-    "streams": {
-      "Amazon": "https://amzn.to/4q8QVp9",
-      "Apple": "https://apple.co/4wq4hzi",
-      "BiliBili": "https://www.bilibili.tv/en/media/2091388",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GNVHKN933/the-100-girlfriends-who-really-really-really-really-really-love-you",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl2ilZQ5Xv1xozab_cm90ugI"
     }
   },
   "QVha": {
@@ -615,40 +370,6 @@
     "streams": {
       "Apple": "https://apple.co/4p7aON9",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00378084"
-    }
-  },
-  "XP5K": {
-    "title": "The World's Strongest Rearguard",
-    "day": 7,
-    "time": "6:01 AM",
-    "cover": "sekai-saikyou-no-kouei-meikyuukoku-no-shinjin-tansakusha-aa44af64896783b69e7354862d98c793",
-    "streams": {
-      "Amazon": "https://amzn.to/4zmNHTd",
-      "Apple": "https://apple.co/4eM6RK3",
-      "BiliBili": "https://www.bilibili.tv/en/media/2411817",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00378122/the-worlds-strongest-rearguard",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3IS1Ybw9xSItdpPhLKNhAM"
-    }
-  },
-  "mOYA": {
-    "title": "Goodbye, Lara",
-    "day": 7,
-    "time": "8:31 AM",
-    "cover": "sayonara-lara-eeec71fc52b1b207f92e92f0fc1fa8b4",
-    "streams": {
-      "Amazon": "https://amzn.to/4xAoPpi",
-      "Apple": "https://apple.co/4gWNHTa",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00378059/goodbye-lara"
-    }
-  },
-  "ERNf": {
-    "title": "Iron Wok Jan",
-    "day": 7,
-    "time": "2:00 AM",
-    "cover": "tetsunabe-no-jan-24744b84bf40cc28b8856d249e4f58df",
-    "streams": {
-      "Apple": "https://apple.co/4fkXCAE",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00378075"
     }
   },
   "q1tS": {
@@ -747,16 +468,6 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLKPqX4UJsUOI"
     }
   },
-  "pPLz": {
-    "title": "THE GHOST IN THE SHELL",
-    "day": 2,
-    "time": "7:30 AM",
-    "cover": "koukaku-kidoutai-tv-c30e25325b4695d293957ab04fd00e03",
-    "streams": {
-      "Amazon": "https://amzn.to/4g1Nqwm",
-      "Apple": "https://apple.co/4gokFf2"
-    }
-  },
   "cljC": {
     "title": "I Want to Love You Till Your Dying Day",
     "day": 2,
@@ -849,8 +560,8 @@
   },
   "aLOK": {
     "title": "My Stepmother and Stepsisters Aren't Wicked",
-    "day": 3,
-    "time": "7:35 AM",
+    "day": 5,
+    "time": "10:28 AM",
     "cover": "ibitte-konai-gibo-to-gishi-1fcc2f915ad47cc47d15df92da5bf2e6",
     "streams": {
       "Amazon": "https://www.amazon.com/dp/B0H7NQQJHH",
@@ -900,20 +611,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00378066/hanaori-san-still-wants-to-fight-in-the-next-life"
     }
   },
-  "WjAz": {
-    "title": "Though I Am an Inept Villainess",
-    "day": 7,
-    "time": "8:45 AM",
-    "cover": "futsutsuka-na-akujo-dewa-gozaimasu-ga-suuguu-chouso-torikae-den-245d523c6b62610ec891529c53c7a366",
-    "streams": {
-      "Apple": "https://apple.co/4vmnOQt",
-      "BiliBili": "https://www.bilibili.tv/en/media/2414053",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371881",
-      "Disney+": "https://www.disneyplus.com/browse/entity-79a3e335-2acc-408e-a942-1b0bac47d952",
-      "Hulu": "https://wwww.hulu.com/series/8a91ef01-78f6-4c33-9566-841da5a9b053",
-      "Netflix": "https://www.netflix.com/title/82931553"
-    }
-  },
   "XZgD": {
     "title": "Smoking Behind the Supermarket with You",
     "day": 4,
@@ -952,8 +649,8 @@
   },
   "CTXR": {
     "title": "BLEACH Thousand-Year Blood War",
-    "day": 6,
-    "time": "7:30 AM",
+    "day": 1,
+    "time": "8:30 AM",
     "cover": "bleach-sennen-kessen-hen-kashin-tan-f6f55ab4137d9ca1e73b7f8d74341751",
     "streams": {
       "Apple": "https://apple.co/4pD39X7",
@@ -971,6 +668,32 @@
       "Apple": "https://apple.co/42XVSqD",
       "Crunchyroll": "https://www.crunchyroll.com/series/GG5H5XQ7D",
       "YouTube": "https://www.youtube.com/playlist?list=PLKKJ9OBjOPq8"
+    }
+  },
+  "mxqM": {
+    "title": "STEEL BALL RUN JoJo\u2019s Bizarre Adventure",
+    "day": 5,
+    "time": "12:01 AM",
+    "cover": "jojo-no-kimyou-na-bouken-part-7-steel-ball-run-2nd-stage-a301f1d7e93857a1d3bdc8bed2dfa411",
+    "streams": {
+      "Netflix": "https://netflix.com/title/82116553"
+    }
+  },
+  "7t4l": {
+    "title": "Yasei no Last Boss ga Arawareta! 2nd Season",
+    "day": 6,
+    "time": "6:30 AM",
+    "cover": "yasei-no-last-boss-ga-arawareta-2nd-season-ba473accf328906d071388236ef304ae",
+    "streams": {},
+    "status": true
+  },
+  "JXAJ": {
+    "title": "Overgeared",
+    "day": 7,
+    "time": "7:30 AM",
+    "cover": "overgeared-394a449c266a171750ef52afe490e2b8",
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/GT00384004/overgeared"
     }
   }
 }

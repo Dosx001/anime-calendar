@@ -1,12 +1,13 @@
 {
   "ofqI": {
     "title": "#Zombie Sagashitemasu",
-    "cover": "zombie-sagashitemasu-9ba3deba5890f4c2b0aae76900d1941d",
+    "cover": "zombie-sagashitemasu-7f747430694869c00e95440ef2b9d7fc",
     "studio": "Studio Comet",
     "source": "Manga",
     "genres": [
       "Action",
       "Adventure",
+      "Comedy",
       "Horror",
       "Mystery",
       "Supernatural"
@@ -32,6 +33,16 @@
       "School",
       "Slice of Life",
       "Sports"
+    ]
+  },
+  "HS5Y": {
+    "title": "Aoki Denshou Welsh & Shedar",
+    "cover": "aoki-denshou-welsh-and-shedar-968ac324b9cdfa6493a549369610e06d",
+    "studio": "Studio Massket",
+    "source": "Original",
+    "genres": [
+      "Adventure",
+      "Fantasy"
     ]
   },
   "gMgT": {
@@ -117,7 +128,7 @@
   },
   "ZYDY": {
     "title": "Diamond no Ace Act II: Second Season Part 2",
-    "cover": "diamond-no-ace-act-ii-zoku-hen-part-2-7cde0b161f1981489175e7779ef72540",
+    "cover": "diamond-no-ace-act-ii-zoku-hen-part-2-985481cc406d66b2159491b5cc32f9d2",
     "studio": "OLM",
     "source": "Manga",
     "genres": [
@@ -128,7 +139,7 @@
   },
   "P155": {
     "title": "Doumo, Suki na Hito ni Horegusuri wo Irai sareta Majo desu.",
-    "cover": "doumo-suki-na-hito-ni-horegusuri-wo-irai-sareta-majo-desu-4cd33de7617b640a72021f58cd79d53c",
+    "cover": "doumo-suki-na-hito-ni-horegusuri-wo-irai-sareta-majo-desu-283771107354d9f66ad6074a6edb3642",
     "studio": "Diomed\u00e9a",
     "source": "Light Novel",
     "genres": [
@@ -206,20 +217,9 @@
       "School"
     ]
   },
-  "b7ev": {
-    "title": "Junket Bank",
-    "cover": "junket-bank-8e7f6cacb2c2084df053204048b59f4d",
-    "studio": "CUE",
-    "source": "Manga",
-    "genres": [
-      "Psychological",
-      "Seinen",
-      "Thriller"
-    ]
-  },
   "2DNw": {
     "title": "Juuou Mujin Dandivine",
-    "cover": "juuou-mujin-dandivine-f27f5602f25648fef402d69d13903424",
+    "cover": "juuou-mujin-dandivine-7dc1a2761ab4370e6c8acbe52e6ea77b",
     "studio": "Kayac Animation",
     "source": "Original",
     "genres": [
@@ -276,7 +276,7 @@
   },
   "uoGC": {
     "title": "Kikansha no Mahou wa Tokubetsu desu Season 2",
-    "cover": "kikansha-no-mahou-wa-tokubetsu-desu-season-2-9df72b6d2036ec1b530b772008c0fcee",
+    "cover": "kikansha-no-mahou-wa-tokubetsu-desu-season-2-93992cbbfc16340c4d660586ea08ea0b",
     "studio": "Arvo Animation",
     "source": "Web Manga",
     "genres": [
@@ -311,8 +311,8 @@
   },
   "srR3": {
     "title": "Kyoufu Collector",
-    "cover": "kyoufu-collector-4bfddd98d7",
-    "studio": "N/A",
+    "cover": "kyoufu-collector-2b3d6ee60f8c9d13846d410879264c44",
+    "studio": "Studio Palette",
     "source": "Novel",
     "genres": [
       "Horror",
@@ -358,7 +358,7 @@
   },
   "AeAn": {
     "title": "Mahou Shoujo Ikusei Keikaku: Restart",
-    "cover": "mahou-shoujo-ikusei-keikaku-restart-f579b1842a",
+    "cover": "mahou-shoujo-ikusei-keikaku-restart-c5f785b67f8a8dda1022c8d029ba296b",
     "studio": "SynergySP",
     "source": "Light Novel",
     "genres": [
@@ -405,7 +405,7 @@
   },
   "JXAJ": {
     "title": "OVERGEARED",
-    "cover": "overgeared-360c957c32489044a81d6c3bf122f585",
+    "cover": "overgeared-394a449c266a171750ef52afe490e2b8",
     "studio": "J.C. Staff",
     "source": "Web Manga",
     "genres": [
@@ -427,7 +427,7 @@
   },
   "lF9L": {
     "title": "PSY\u042fEN",
-    "cover": "psyren-eb0efcbcd9f49737d3440f0125008a43",
+    "cover": "psyren-721a53a23a34250f25c5bfc45334d784",
     "studio": "Satelight",
     "source": "Manga",
     "genres": [
@@ -440,7 +440,7 @@
   },
   "Ivsh": {
     "title": "Pan Dorobou",
-    "cover": "pan-dorobou-f87dbd4b20fbce2f13c93caec6a56d31",
+    "cover": "pan-dorobou-dfbb92ba85d3baa54bb80b010e7f4892",
     "studio": "Shin-Ei Animation",
     "source": "Picture book",
     "genres": [
@@ -464,7 +464,7 @@
   },
   "Vi8X": {
     "title": "Romelia Senki",
-    "cover": "romelia-senki-7f400f0243cbc7e78dcab1cb21cde9fa",
+    "cover": "romelia-senki-f402e7eb25e96732805ad04eca5c4eac",
     "studio": "Atra",
     "source": "Light Novel",
     "genres": [
@@ -476,7 +476,7 @@
   },
   "jgT7": {
     "title": "Sasaki to Pii-chan 2nd Season",
-    "cover": "sasaki-to-pii-chan-2nd-season-ecbf8d9384d5f48e34663d22443512d1",
+    "cover": "sasaki-to-pii-chan-2nd-season-b2bb61c54a9395bf8c5796555b60a2d1",
     "studio": "SILVER LINK.",
     "source": "Light Novel",
     "genres": [
@@ -535,7 +535,7 @@
   },
   "JNme": {
     "title": "Shiotaiou no Satou-san ga Ore ni dake Amai",
-    "cover": "shiotaiou-no-satou-san-ga-ore-ni-dake-amai-3830c3964b8458c76a9cadf68bf20937",
+    "cover": "shiotaiou-no-satou-san-ga-ore-ni-dake-amai-cdda6c993d42b70fc7c24d8a387249a0",
     "studio": "Tezuka Productions",
     "source": "Light Novel",
     "genres": [
@@ -545,7 +545,7 @@
   },
   "GwPN": {
     "title": "Shuiro no Kamen",
-    "cover": "shuiro-no-kamen-dbc6a8d801038ab7713393bf777d76c4",
+    "cover": "shuiro-no-kamen-aabee28c4a0faee33e6cdbdcbb0fbff2",
     "studio": "100studio",
     "source": "Manga",
     "genres": [
@@ -598,7 +598,7 @@
   },
   "86SH": {
     "title": "Tensei Goblin dakedo Shitsumon Aru?",
-    "cover": "tensei-goblin-dakedo-shitsumon-aru-01efbcad0848114fb0ed274bbb938120",
+    "cover": "tensei-goblin-dakedo-shitsumon-aru-e69e7e8a93ad3a18c8a397f8686a4dea",
     "studio": "Bakkka",
     "source": "Web Manga",
     "genres": [
@@ -644,7 +644,7 @@
   },
   "oKO6": {
     "title": "Tetsuryou! Meet with Tetsudou Musume",
-    "cover": "tetsuryou-meet-with-tetsudou-musume-6432905a5c2a76289f0c7c85339f11eb",
+    "cover": "tetsuryou-meet-with-tetsudou-musume-25a1abd7eb6fa43f2397310f360809b9",
     "studio": "East Fish Studio",
     "source": "Original",
     "genres": [
@@ -653,7 +653,7 @@
   },
   "v7Ln": {
     "title": "Toaru Anbu no Item",
-    "cover": "toaru-anbu-no-item-aa76b0bd960bca95f472b9d339e724fd",
+    "cover": "toaru-anbu-no-item-589d2d09cf651d6cd5beaf4f5f9a0485",
     "studio": "J.C. Staff",
     "source": "Light Novel",
     "genres": [
@@ -676,7 +676,7 @@
   },
   "PXD6": {
     "title": "Tougen Anki: Nikko Kegon no Taki-hen",
-    "cover": "tougen-anki-nikko-kegon-no-taki-hen-001010aad8",
+    "cover": "tougen-anki-nikko-kegon-no-taki-hen-db1af61cb75a8279665d633d28a068f5",
     "studio": "Studio Hibari",
     "source": "Manga",
     "genres": [
@@ -689,7 +689,7 @@
   },
   "PqSt": {
     "title": "Tsuihou sareta Cheat Fuyo Majutsushi wa Kimama na Second Life wo Ouka suru. Ore wa Buki dake ja Naku, Arayuru Mono ni \"Kyouka Point\" wo Fuyo Dekiru shi, Ore no Ishi de Itsudemo Kouka wo Kaijo Dekiru kedo, Nokotta Hitotachi Daijoubu?",
-    "cover": "tsuihou-sareta-cheat-fuyo-majutsushi-wa-kimama-na-second-life-wo-ouka-suru-ore-wa-buki-dake-ja-naku-arayuru-mono-ni-kyouka-point-wo-fuyo-dekiru-shi-ore-no-ishi-de-itsudemo-kouka-wo-kaijo-dekiru-kedo-nokotta-hitotachi-daijoubu-bf7b60bcb554aa9ff854fb779714dedc",
+    "cover": "tsuihou-sareta-cheat-fuyo-majutsushi-wa-kimama-na-second-life-wo-ouka-suru-ore-wa-buki-dake-ja-naku-arayuru-mono-ni-kyouka-point-wo-fuyo-dekiru-shi-ore-no-ishi-de-itsudemo-kouka-wo-kaijo-dekiru-kedo-nokotta-hitotachi-daijoubu-f65daa1af2823fd528aeaf024e688af6",
     "studio": "P.A. Works",
     "source": "Light Novel",
     "genres": [
@@ -701,13 +701,26 @@
   },
   "ZdQJ": {
     "title": "Vertex Force",
-    "cover": "vertex-force-77389e1d4f785f0dc509b75f50c1df35",
+    "cover": "vertex-force-8b82169cb5a87017d225e0a321ef4662",
     "studio": "Shogakukan Music & Digital Entertainment",
     "source": "Original",
     "genres": [
       "Action",
       "Mecha",
       "Sci-Fi"
+    ]
+  },
+  "7t4l": {
+    "title": "Yasei no Last Boss ga Arawareta! 2nd Season",
+    "cover": "yasei-no-last-boss-ga-arawareta-2nd-season-ba473accf328906d071388236ef304ae",
+    "studio": "WAO World",
+    "source": "Light Novel",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Fantasy",
+      "Isekai",
+      "Magic"
     ]
   },
   "IqH8": {
@@ -732,6 +745,16 @@
       "Comedy",
       "Romance",
       "Shounen"
+    ]
+  },
+  "erxh": {
+    "title": "Yuusanchi! from Yuu-hachi",
+    "cover": "yuusanchi-from-yuu-hachi-6afa96f74f79e2af8421505aa998ebe5",
+    "studio": "Fanworks",
+    "source": "Web Manga",
+    "genres": [
+      "Comedy",
+      "Slice of Life"
     ]
   }
 }
