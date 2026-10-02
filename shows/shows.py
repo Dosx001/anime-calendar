@@ -27,8 +27,13 @@ class Shows:
         if driver:
             self.driver = driver
         else:
+            pipe = popen(
+                "chromedriver --version"
+            )
+            version = int(pipe.read().split()[1].split(".")[0])
+            pipe.close()
             self.driver = undetected_chromedriver.Chrome(
-                driver_executable_path="/usr/bin/chromedriver", use_subprocess=False
+                version_main=version, use_subprocess=False
             )
         self.driver.maximize_window()
         with open("shows.json", encoding="utf-8") as file:
