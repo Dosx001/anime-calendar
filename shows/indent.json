@@ -304,20 +304,22 @@
     }
   },
   "CvsP": {
-    "title": "Tensei shitara Ken deshita 2",
+    "title": "Reincarnated as a Sword",
     "day": 3,
-    "time": "8:00 AM",
+    "time": "8:30 AM",
     "cover": "tensei-shitara-ken-deshita-2-511166102c8acc358c56754bd39fa34e",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4huYSRF",
+      "HiDive": "https://www.hidive.com/season/39506"
+    }
   },
   "s48F": {
-    "title": "Shin Tennis no Oujisama: U-17 World Cup Kesshou Member Ketteisen",
+    "title": "The Prince of Tennis II",
     "day": 3,
-    "time": "8:00 AM",
+    "time": "9:00 AM",
     "cover": "shin-tennis-no-oujisama-u-17-world-cup-kesshou-member-ketteisen-c420a9b1d49338bfca69252f7ef5f58d",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNMWWN/the-prince-of-tennis-ii-u-17-world-cup"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G65VP3106/the-prince-of-tennis-ii"
     },
     "status": true
   },
@@ -332,7 +334,7 @@
   "zFHg": {
     "title": "The Ramparts of Ice",
     "day": 4,
-    "time": "7:56 AM",
+    "time": "8:30 AM",
     "cover": "koori-no-jouheki-2nd-season-fca87df2a19636f4d3510747dba21fd3",
     "streams": {
       "Netflix": "https://www.netflix.com/title/82031882"
@@ -341,9 +343,10 @@
   "X3KN": {
     "title": "FX Fighter Kurumi-chan",
     "day": 4,
-    "time": "5:30 AM",
-    "cover": "fx-senshi-kurumi-chan-85d4b1dafa761d0dfd45ba9cfdbabb1f",
+    "time": "5:31 AM",
+    "cover": "fx-senshi-kurumi-chan-4252f926b1ce50a8b7d35adcd2fa7406",
     "streams": {
+      "Apple": "https://apple.co/46VWGxO",
       "Crunchyroll": "https://crunchyroll.com/series/GT00384001/fx-fighter-kurumi-chan"
     }
   },
@@ -359,7 +362,7 @@
   "JKxW": {
     "title": "Tokyo Revengers: Santen Sensou-hen",
     "day": 5,
-    "time": "9:53 AM",
+    "time": "3:00 AM",
     "cover": "tokyo-revengers-zoku-hen-971c11ce7a31934419a19783863eedd8",
     "streams": {},
     "status": true
@@ -430,7 +433,7 @@
     "title": "Kashita Maryoku wa \"Revo Barai\" de Kyousei Choushuu",
     "day": 6,
     "time": "9:30 AM",
-    "cover": "kashita-maryoku-wa-revo-barai-de-kyousei-choushuu-bb03d5c67be98de3dad20e15fa017488",
+    "cover": "kashita-maryoku-wa-revo-barai-de-kyousei-choushuu-f520274a9045bd89d1cbe13febef8644",
     "streams": {},
     "status": true
   },
