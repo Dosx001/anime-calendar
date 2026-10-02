@@ -201,7 +201,9 @@ class Shows:
 
     def amazon(self, url: str) -> str | None:
         self.driver.get(url)
-        return self.driver.find_element(By.TAG_NAME, "h1").text
+        return self.driver.find_element(
+            By.CSS_SELECTOR, "#tab-content-details span"
+        ).text
 
     def crunchyroll(self, url: str) -> str | None:
         if url == "https://www.crunchyroll.com/":

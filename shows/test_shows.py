@@ -1,3 +1,5 @@
+#!/bin/python
+
 import unittest
 
 from shows import Shows
@@ -11,6 +13,10 @@ class TestList(unittest.TestCase):
     @classmethod
     def tearDownClass(cls):
         cls.shw.driver.quit()
+
+    def test_amazon(self):
+        title = self.shw.amazon("https://www.amazon.com/gp/video/detail/B0GXSLF6RD")
+        self.assertEqual(title, "Babylon")
 
     def test_apple(self):
         title = self.shw.apple("https://apple.co/45GJVqx")
