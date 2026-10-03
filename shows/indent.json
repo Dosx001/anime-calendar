@@ -317,11 +317,10 @@
     "title": "The Prince of Tennis II",
     "day": 3,
     "time": "9:00 AM",
-    "cover": "shin-tennis-no-oujisama-u-17-world-cup-kesshou-member-ketteisen-c420a9b1d49338bfca69252f7ef5f58d",
+    "cover": "shin-tennis-no-oujisama-u-17-world-cup-kesshou-member-ketteisen-c6367a9e4daa70759358cad1b775235c",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G65VP3106/the-prince-of-tennis-ii"
-    },
-    "status": true
+    }
   },
   "oEiG": {
     "title": "Pie no Mi",
@@ -353,27 +352,32 @@
   "BXez": {
     "title": "The Apothecary Diaries",
     "day": 5,
-    "time": "7:00 AM",
+    "time": "8:00 AM",
     "cover": "kusuriya-no-hitorigoto-zoku-hen-caf2bb3a7f2134aeda0fedbfe3ac7cd4",
     "streams": {
+      "Apple": "https://apple.co/4hCH5bc",
       "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEVDJ7/the-apothecary-diaries"
     }
   },
   "JKxW": {
-    "title": "Tokyo Revengers: Santen Sensou-hen",
+    "title": "Tokyo Revengers",
     "day": 5,
-    "time": "3:00 AM",
-    "cover": "tokyo-revengers-zoku-hen-971c11ce7a31934419a19783863eedd8",
-    "streams": {},
-    "status": true
+    "time": "12:00 AM",
+    "cover": "tokyo-revengers-zoku-hen-e319b90f01a783f702c61db9c2179542",
+    "streams": {
+      "Apple": "https://apple.co/4zakgTx",
+      "Hulu": "https://www.hulu.com/series/tokyo-revengers-1a195a35-e19c-4e36-b609-3b1c451f6ce4"
+    }
   },
   "PXD6": {
-    "title": "Tougen Anki: Nikko Kegon no Taki-hen",
+    "title": "TOUGEN ANKI",
     "day": 5,
-    "time": "7:30 AM",
+    "time": "9:00 AM",
     "cover": "tougen-anki-nikko-kegon-no-taki-hen-db1af61cb75a8279665d633d28a068f5",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4djPuiI",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GP5HJ84D2/tougen-anki"
+    }
   },
   "HS5Y": {
     "title": "Aoki Denshou Welsh & Shedar",
@@ -396,12 +400,13 @@
     }
   },
   "apz4": {
-    "title": "Keroro Gunsou\u2606",
+    "title": "KERORO\u2606",
     "day": 5,
-    "time": "5:30 PM",
+    "time": "6:00 PM",
     "cover": "keroro-gunsou-2026-7594ec883b8dbaafd0c8120eca50e923",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00383995/keroro"
+    }
   },
   "Ivsh": {
     "title": "Pan Dorobou",
@@ -414,7 +419,7 @@
   "WrFb": {
     "title": "Black Clover",
     "day": 6,
-    "time": "7:00 AM",
+    "time": "8:00 AM",
     "cover": "black-clover-2nd-season-1a68ca60738d1143706fcb27a13fc2c9",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/black-clover"
@@ -423,40 +428,46 @@
   "28PK": {
     "title": "A Tale of the Secret Saint",
     "day": 6,
-    "time": "6:00 AM",
+    "time": "6:01 AM",
     "cover": "tensei-shita-daiseijo-wa-seijo-de-aru-koto-wo-hitakakusu-4d6347bc9eb2b8b9fba874cd638c6905",
     "streams": {
+      "BiliBili": "https://www.bilibili.tv/media/2431959",
       "Crunchyroll": "https://crunchyroll.com/series/GT00371633/a-tale-of-the-secret-saint"
     }
   },
   "SrvX": {
     "title": "Kashita Maryoku wa \"Revo Barai\" de Kyousei Choushuu",
     "day": 6,
-    "time": "9:30 AM",
+    "time": "11:00 AM",
     "cover": "kashita-maryoku-wa-revo-barai-de-kyousei-choushuu-f520274a9045bd89d1cbe13febef8644",
-    "streams": {},
+    "streams": {
+      "BiliBili": "https://www.bilibili.tv/media/2432615"
+    },
     "status": true
   },
   "mHCS": {
-    "title": "Magical\u2605Explorer: Eroge no Yuujin Chara ni Tensei Shitakedo, Game Chishiki Tsukatte Jiyuu ni Ikiru",
+    "title": "Magical Explorer",
     "day": 6,
-    "time": "8:00 AM",
+    "time": "9:30 AM",
     "cover": "magical-explorer-59ec851ce103bed1418b5c790cd48156",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00384003"
+    }
   },
   "MBB8": {
     "title": "Seitokai ni mo Ana wa Aru!",
     "day": 6,
-    "time": "8:30 AM",
+    "time": "10:00 AM",
     "cover": "seitokai-ni-mo-ana-wa-aru-af8fef5a0b35bba4e31d5dc0b0ae5ca3",
-    "streams": {},
+    "streams": {
+      "OceanVeil": "https://oceanveil.net/anime_titles/541"
+    },
     "status": true
   },
   "Vi8X": {
     "title": "Romelia War Chronicle",
     "day": 6,
-    "time": "5:00 AM",
+    "time": "6:00 AM",
     "cover": "romelia-senki-f402e7eb25e96732805ad04eca5c4eac",
     "streams": {
       "Crunchyroll": "https://crunchyroll.com/series/GT00384007/romelia-war-chronicle"
@@ -465,7 +476,7 @@
   "Bb44": {
     "title": "Ranma1/2",
     "day": 6,
-    "time": "9:25 AM",
+    "time": "10:00 AM",
     "cover": "ranma-2024-3rd-season-38d69bfe49d4dac414e104e9a774c4c4",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81171925"
@@ -474,7 +485,7 @@
   "ofqI": {
     "title": "#I'm Looking for a Zombie",
     "day": 6,
-    "time": "7:30 AM",
+    "time": "8:00 AM",
     "cover": "zombie-sagashitemasu-7f747430694869c00e95440ef2b9d7fc",
     "streams": {
       "Crunchyroll": "https://crunchyroll.com/series/GT00383996/im-looking-for-a-zombie"
@@ -499,12 +510,13 @@
     "status": true
   },
   "ZdQJ": {
-    "title": "Vertex Force",
+    "title": "VERTEX FORCE",
     "day": 6,
-    "time": "7:30 AM",
+    "time": "8:00 AM",
     "cover": "vertex-force-8b82169cb5a87017d225e0a321ef4662",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00365619"
+    }
   },
   "QFoD": {
     "title": "Sirotan",
@@ -535,12 +547,13 @@
     }
   },
   "BzcB": {
-    "title": "Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai",
+    "title": "Reborn as a Space Mercenary: I Woke Up Piloting the Strongest Starship!",
     "day": 7,
-    "time": "3:30 AM",
+    "time": "6:30 AM",
     "cover": "mezametara-saikyou-soubi-to-uchuusenmochi-datta-node-ikkodate-mezashite-youhei-toshite-jiyuu-ni-ikitai-edc1b50e1933cdcad6f719e5465fb479",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00384006"
+    }
   },
   "kfm9": {
     "title": "Blue Box",
@@ -596,7 +609,7 @@
   "7yiG": {
     "title": "Uncle's Obsession with Cute Things",
     "day": 7,
-    "time": "6:00 AM",
+    "time": "7:00 AM",
     "cover": "ojisan-wa-kawaii-mono-ga-osuki-a11333cb5321f0a6f1b0f2e95e1f6ae8",
     "streams": {
       "Crunchyroll": "https://crunchyroll.com/series/GT00385445/uncles-obsession-with-cute-things"
