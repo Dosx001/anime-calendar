@@ -310,7 +310,8 @@
     "cover": "tensei-shitara-ken-deshita-2-511166102c8acc358c56754bd39fa34e",
     "streams": {
       "Apple": "https://apple.co/4huYSRF",
-      "HiDive": "https://www.hidive.com/season/39506"
+      "HiDive": "https://www.hidive.com/season/39506",
+      "YouTube": "https://www.youtube.com/playlist?list=PLcSpWjb7H0lk"
     }
   },
   "s48F": {
@@ -366,6 +367,7 @@
     "cover": "tokyo-revengers-zoku-hen-e319b90f01a783f702c61db9c2179542",
     "streams": {
       "Apple": "https://apple.co/4zakgTx",
+      "Disney+": "https://www.disneyplus.com/browse/entity-d45b72d4-3c8d-4961-960a-c0c182890189",
       "Hulu": "https://www.hulu.com/series/tokyo-revengers-1a195a35-e19c-4e36-b609-3b1c451f6ce4"
     }
   },
@@ -376,7 +378,10 @@
     "cover": "tougen-anki-nikko-kegon-no-taki-hen-db1af61cb75a8279665d633d28a068f5",
     "streams": {
       "Apple": "https://apple.co/4djPuiI",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GP5HJ84D2/tougen-anki"
+      "BiliBili": "https://www.bilibili.tv/media/2431878",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GP5HJ84D2/tougen-anki",
+      "Netflix": "https://www.netflix.com/title/81969861",
+      "YouTube": "https://www.youtube.com/playlist?list=PLHSTLDU7mTCs"
     }
   },
   "HS5Y": {
@@ -422,6 +427,8 @@
     "time": "8:00 AM",
     "cover": "black-clover-2nd-season-1a68ca60738d1143706fcb27a13fc2c9",
     "streams": {
+      "Apple": "https://apple.co/4iYxttV",
+      "BiliBili": "https://www.bilibili.tv/media/2432940",
       "Crunchyroll": "https://www.crunchyroll.com/black-clover"
     }
   },
@@ -431,19 +438,23 @@
     "time": "6:01 AM",
     "cover": "tensei-shita-daiseijo-wa-seijo-de-aru-koto-wo-hitakakusu-4d6347bc9eb2b8b9fba874cd638c6905",
     "streams": {
+      "Apple": "https://apple.co/4iYRxfL",
       "BiliBili": "https://www.bilibili.tv/media/2431959",
-      "Crunchyroll": "https://crunchyroll.com/series/GT00371633/a-tale-of-the-secret-saint"
+      "Crunchyroll": "https://crunchyroll.com/series/GT00371633/a-tale-of-the-secret-saint",
+      "YouTube": "https://www.youtube.com/playlist?list=PLFsBVQsxttbw"
     }
   },
   "SrvX": {
-    "title": "Kashita Maryoku wa \"Revo Barai\" de Kyousei Choushuu",
+    "title": "Magic Repo Man: Dumped by My Party, I'll Cash In With a Cute Support Fairy to Become the Strongest!",
     "day": 6,
     "time": "11:00 AM",
     "cover": "kashita-maryoku-wa-revo-barai-de-kyousei-choushuu-f520274a9045bd89d1cbe13febef8644",
     "streams": {
-      "BiliBili": "https://www.bilibili.tv/media/2432615"
-    },
-    "status": true
+      "Apple": "https://apple.co/4jxiZ4o",
+      "BiliBili": "https://www.bilibili.tv/media/2432615",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00385867/",
+      "YouTube": "https://www.youtube.com/playlist?list=PLAzayY4fPdjw"
+    }
   },
   "mHCS": {
     "title": "Magical Explorer",
@@ -470,6 +481,7 @@
     "time": "6:00 AM",
     "cover": "romelia-senki-f402e7eb25e96732805ad04eca5c4eac",
     "streams": {
+      "Apple": "https://apple.co/3VircQ3",
       "Crunchyroll": "https://crunchyroll.com/series/GT00384007/romelia-war-chronicle"
     }
   },
@@ -488,26 +500,29 @@
     "time": "8:00 AM",
     "cover": "zombie-sagashitemasu-7f747430694869c00e95440ef2b9d7fc",
     "streams": {
+      "Apple": "https://apple.co/4hGa0vd",
       "Crunchyroll": "https://crunchyroll.com/series/GT00383996/im-looking-for-a-zombie"
     }
   },
   "n9z7": {
     "title": "Gensou Suikoden",
     "day": 6,
-    "time": "7:30 AM",
+    "time": "4:01 AM",
     "cover": "gensou-suikoden-a42018f73c24d0257b5e0b187c92a90e",
-    "streams": {},
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLVEC_1AvVqqE"
+    },
     "status": true
   },
   "dBvZ": {
-    "title": "Marronnier Oukoku no Shichinin no Kishi",
+    "title": "The Seven Knights of the Marronnier Kingdom",
     "day": 6,
     "time": "8:00 AM",
     "cover": "marronnier-oukoku-no-shichinin-no-kishi-4d929c9d83fa4672c2bbc82f25aa7e2b",
     "streams": {
-      "Amazon": "https://www.amazon.com/Seven-Knights-Marronnier-Kingdom/dp/B0HF9RBZL7"
-    },
-    "status": true
+      "Amazon": "https://www.amazon.com/Seven-Knights-Marronnier-Kingdom/dp/B0HF9RBZL7",
+      "Apple": "https://apple.co/4zf2E9b"
+    }
   },
   "ZdQJ": {
     "title": "VERTEX FORCE",
@@ -515,6 +530,7 @@
     "time": "8:00 AM",
     "cover": "vertex-force-8b82169cb5a87017d225e0a321ef4662",
     "streams": {
+      "Apple": "https://apple.co/4xTN01L",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00365619"
     }
   },
@@ -558,8 +574,8 @@
   "kfm9": {
     "title": "Blue Box",
     "day": 7,
-    "time": "12:30 AM",
-    "cover": "ao-no-hako-2nd-season-eb11b94cd5e4fa492c4fce994e4334b9",
+    "time": "1:00 AM",
+    "cover": "ao-no-hako-2nd-season-1e7a7c1af3c733a57018cd086bc117b8",
     "streams": {
       "Netflix": "https://www.netflix.com/title/81663323"
     }
@@ -576,8 +592,8 @@
   "KaTs": {
     "title": "Kanojo no Tomodachi",
     "day": 7,
-    "time": "9:05 AM",
-    "cover": "kanojo-no-tomodachi-a6cc56d6463e349139498c8ab30c9336",
+    "time": "9:06 AM",
+    "cover": "kanojo-no-tomodachi-97d807469a9cb09fc1eaebf7c6f35752",
     "streams": {},
     "status": true
   },
@@ -618,7 +634,7 @@
   "CDMT": {
     "title": "Hotel Inhumans 2nd Season",
     "day": 7,
-    "time": "7:45 AM",
+    "time": "8:45 AM",
     "cover": "hotel-inhumans-2nd-season-3142c3003f197023224648893373e0fb",
     "streams": {},
     "status": true
