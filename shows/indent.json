@@ -98,17 +98,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00369409"
     }
   },
-  "aqDI": {
-    "title": "Ascendance of a Bookworm",
-    "day": 6,
-    "time": "2:30 AM",
-    "cover": "honzuki-no-gekokujou-shisho-ni-naru-tame-ni-wa-shudan-wo-erandeiraremasen-ryoushu-no-youjo-2f1219ba9382337509a363ea096a04f1",
-    "streams": {
-      "Amazon": "https://amzn.to/4wlVr5o",
-      "Apple": "https://apple.co/4sMVZ3b",
-      "Crunchyroll": "https://www.crunchyroll.com/series/G6793XKZY/ascendance-of-a-bookworm"
-    }
-  },
   "aDz3": {
     "title": "Onegai AiPri",
     "day": 6,
@@ -126,30 +115,6 @@
       "YouTube": "https://www.youtube.com/playlist?list=PLq34MZPUzQ9mGMf3-p798NI3FNNROkDMR"
     },
     "status": true
-  },
-  "pOF1": {
-    "title": "LIAR GAME",
-    "day": 1,
-    "time": "9:00 AM",
-    "cover": "liar-game-3f4f5cc7766e387b191f5b7fcf2dfa54",
-    "streams": {
-      "Amazon": "https://amzn.to/4wWjj0q",
-      "Apple": "https://apple.co/4tBAKBq",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00371851/liar-game"
-    }
-  },
-  "a4dX": {
-    "title": "Re:ZERO -Starting Life in Another World-",
-    "day": 3,
-    "time": "7:00 AM",
-    "cover": "re-zero-kara-hajimeru-isekai-seikatsu-4-d5233583bd0dc12a3089d74e815f43bf",
-    "streams": {
-      "Amazon": "https://amzn.to/4hC6hR5",
-      "Apple": "https://apple.co/3CMHQyd",
-      "BiliBili": "https://www.bilibili.tv/en/media/2342439",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GRGG9798R/rezero--starting-life-in-another-world-",
-      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl3RN7t6wesJqlUkSUN6FHKF"
-    }
   },
   "yRXP": {
     "title": "Odekake Kozame 2nd Season",
@@ -184,28 +149,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00371926"
     }
   },
-  "q1tS": {
-    "title": "You and I Are Polar Opposites",
-    "day": 7,
-    "time": "1:30 AM",
-    "cover": "seihantai-na-kimi-to-boku-2nd-season-e132cb438e9a0b4139a277787bfc63fe",
-    "streams": {
-      "Amazon": "https://amzn.to/4bN8k0Y",
-      "Apple": "https://apple.co/4eUISXR",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00365624/you-and-i-are-polar-opposites",
-      "YouTube": "https://www.youtube.com/playlist?list=PLHr3g0ivIWN4"
-    }
-  },
-  "cljC": {
-    "title": "I Want to Love You Till Your Dying Day",
-    "day": 2,
-    "time": "5:31 AM",
-    "cover": "kimi-ga-shinu-made-koi-wo-shitai-3348e5c45a38dfd1f62934494022a647",
-    "streams": {
-      "Apple": "https://apple.co/4y7To6P",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00374354/i-want-to-love-you-till-your-dying-day"
-    }
-  },
   "kvOL": {
     "title": "Red River",
     "day": 2,
@@ -215,51 +158,6 @@
       "Amazon": "https://amzn.to/4gh74Vh",
       "Apple": "https://apple.co/3SFeQjF",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00378099/red-river"
-    }
-  },
-  "DkAP": {
-    "title": "Clevatess",
-    "day": 3,
-    "time": "5:01 AM",
-    "cover": "clevatess-ii-majuu-no-ou-to-itsuwari-no-yuusha-denshou-a7a80e94e630985a47a8663f283421c8",
-    "streams": {
-      "Amazon": "https://amzn.to/4fIUjUm",
-      "Apple": "https://apple.co/4wAUSVW",
-      "BiliBili": "https://www.bilibili.tv/en/media/2413934",
-      "Crunchyroll": "https://www.crunchyroll.com/series/G8DHV78ZM/clevatess",
-      "YouTube": "https://www.youtube.com/playlist?list=PLDvQscScOUXg"
-    }
-  },
-  "jfTJ": {
-    "title": "Tomb Raider King",
-    "day": 3,
-    "time": "10:20 AM",
-    "cover": "dogul-wang-6b40a22efdc6bfd98e9123611d5cd359",
-    "streams": {
-      "Apple": "https://apple.co/44XPwrH",
-      "BiliBili": "https://www.bilibili.tv/en/media/2412873",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00378123/tomb-raider-king",
-      "YouTube": "https://www.youtube.com/playlist?list=PLRwxYv2koIzY"
-    }
-  },
-  "weUO": {
-    "title": "Thunder 3",
-    "day": 3,
-    "time": "9:30 AM",
-    "cover": "thunder-3-0999e391ddb2f4751c4268623e307d2c",
-    "streams": {
-      "Netflix": "https://www.netflix.com/title/82736186"
-    }
-  },
-  "qilI": {
-    "title": "The Elusive Samurai",
-    "day": 5,
-    "time": "9:00 AM",
-    "cover": "nige-jouzu-no-wakagimi-2nd-season-b289bd1a9ed70f90e606aabc1507d3dc",
-    "streams": {
-      "Amazon": "https://amzn.to/4xGdXGx",
-      "Apple": "https://apple.co/3TMizMx",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GQWH0M19X/the-elusive-samurai"
     }
   },
   "CTXR": {
@@ -300,6 +198,7 @@
     "time": "7:31 AM",
     "cover": "overgeared-1bf1ac74329931e0469f4cddd6f77c59",
     "streams": {
+      "Apple": "https://apple.co/4j4pATS",
       "Crunchyroll": "https://crunchyroll.com/series/GT00384004/overgeared"
     }
   },
@@ -322,14 +221,6 @@
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/series/G65VP3106/the-prince-of-tennis-ii"
     }
-  },
-  "oEiG": {
-    "title": "Pie no Mi",
-    "day": 3,
-    "time": "5:00 PM",
-    "cover": "pie-no-mi-a3ec55e77783d4ebec64f294084bc4f7",
-    "streams": {},
-    "status": true
   },
   "zFHg": {
     "title": "The Ramparts of Ice",
@@ -357,7 +248,8 @@
     "cover": "kusuriya-no-hitorigoto-zoku-hen-caf2bb3a7f2134aeda0fedbfe3ac7cd4",
     "streams": {
       "Apple": "https://apple.co/4hCH5bc",
-      "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEVDJ7/the-apothecary-diaries"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G3KHEVDJ7/the-apothecary-diaries",
+      "Netflix": "https://www.netflix.com/title/81712068"
     }
   },
   "JKxW": {
@@ -392,18 +284,6 @@
     "streams": {},
     "status": true
   },
-  "DqGO": {
-    "title": "Beyblade X",
-    "day": 5,
-    "time": "3:00 AM",
-    "cover": "beyblade-x-f02b468b74",
-    "streams": {
-      "Apple": "https://apple.co/4i07X3w",
-      "Hulu": "https://hulu.com/series/0e46c665-5191-407f-8dc5-e22a0095578c",
-      "Netflix": "https://netflix.com/title/81924739",
-      "YouTube": "https://youtube.com/playlist?list=PLfX0BhjZoHNlzLJSi0-CPYQXfV_JPWPUh"
-    }
-  },
   "apz4": {
     "title": "KERORO\u2606",
     "day": 5,
@@ -425,7 +305,7 @@
     "title": "Black Clover",
     "day": 6,
     "time": "8:00 AM",
-    "cover": "black-clover-2nd-season-1a68ca60738d1143706fcb27a13fc2c9",
+    "cover": "black-clover-2nd-season-bbc756f4c0196335e4a7d4362e3971d4",
     "streams": {
       "Apple": "https://apple.co/4iYxttV",
       "BiliBili": "https://www.bilibili.tv/media/2432940",
@@ -504,16 +384,6 @@
       "Crunchyroll": "https://crunchyroll.com/series/GT00383996/im-looking-for-a-zombie"
     }
   },
-  "n9z7": {
-    "title": "Gensou Suikoden",
-    "day": 6,
-    "time": "4:01 AM",
-    "cover": "gensou-suikoden-a42018f73c24d0257b5e0b187c92a90e",
-    "streams": {
-      "YouTube": "https://www.youtube.com/playlist?list=PLVEC_1AvVqqE"
-    },
-    "status": true
-  },
   "dBvZ": {
     "title": "The Seven Knights of the Marronnier Kingdom",
     "day": 6,
@@ -565,9 +435,10 @@
   "BzcB": {
     "title": "Reborn as a Space Mercenary: I Woke Up Piloting the Strongest Starship!",
     "day": 7,
-    "time": "6:30 AM",
+    "time": "7:00 AM",
     "cover": "mezametara-saikyou-soubi-to-uchuusenmochi-datta-node-ikkodate-mezashite-youhei-toshite-jiyuu-ni-ikitai-edc1b50e1933cdcad6f719e5465fb479",
     "streams": {
+      "Apple": "https://apple.co/4dmnLOm",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00384006"
     }
   },
@@ -583,44 +454,41 @@
   "IqH8": {
     "title": "Even Though I'm a Super Timid Noble Girl, I Accepted the Bet From My Cunning Fianc\u00e9",
     "day": 7,
-    "time": "7:30 AM",
+    "time": "7:31 AM",
     "cover": "yowaki-max-reijou-nano-ni-ratsuwan-konyakusha-sama-no-kake-ni-notte-shimatta-cd400ecda02d67155d275635c7d53fde",
     "streams": {
+      "Apple": "https://apple.co/4hqlDaO",
       "Crunchyroll": "https://crunchyroll.com/series/GT00365562/even-though-im-a-super-timid-noble-girl-i-accepted-the-bet-from-my-cunning-fianc"
     }
-  },
-  "KaTs": {
-    "title": "Kanojo no Tomodachi",
-    "day": 7,
-    "time": "9:06 AM",
-    "cover": "kanojo-no-tomodachi-97d807469a9cb09fc1eaebf7c6f35752",
-    "streams": {},
-    "status": true
   },
   "Zmvx": {
     "title": "Aoashi",
     "day": 7,
-    "time": "1:00 AM",
+    "time": "2:00 AM",
     "cover": "ao-ashi-2nd-season-c7f95d28517ff7974a116fd93e9a8192",
     "streams": {
+      "Apple": "https://apple.co/4hudzG5",
       "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WX5J/aoashi"
     }
   },
   "htBn": {
-    "title": "Tank Chair",
+    "title": "TANK CHAIR",
     "day": 7,
-    "time": "7:00 AM",
-    "cover": "tank-chair-fd6b406cc6af39c3fe8cade3cc7b2ccd",
-    "streams": {},
-    "status": true
+    "time": "7:30 AM",
+    "cover": "tank-chair-f3732c385ab1633f02cf94027bdafd4d",
+    "streams": {
+      "Amazon": "https://www.amazon.com/gp/video/detail/B0HJ87ZPRP"
+    }
   },
   "WSNT": {
-    "title": "Kanata kara",
+    "title": "From Far Away",
     "day": 7,
-    "time": "8:00 AM",
+    "time": "9:00 AM",
     "cover": "kanata-kara-940e70fb52e3c34cba5861d86d291374",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4y5UhMf",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00384000/from-far-away"
+    }
   },
   "7yiG": {
     "title": "Uncle's Obsession with Cute Things",
@@ -628,16 +496,21 @@
     "time": "7:00 AM",
     "cover": "ojisan-wa-kawaii-mono-ga-osuki-a11333cb5321f0a6f1b0f2e95e1f6ae8",
     "streams": {
-      "Crunchyroll": "https://crunchyroll.com/series/GT00385445/uncles-obsession-with-cute-things"
+      "Apple": "https://apple.co/3VwnO3Y",
+      "Crunchyroll": "https://crunchyroll.com/series/GT00385445/uncles-obsession-with-cute-things",
+      "YouTube": "https://www.youtube.com/playlist?list=PLTx6Ft3jb3mg"
     }
   },
   "CDMT": {
-    "title": "Hotel Inhumans 2nd Season",
+    "title": "HOTEL INHUMANS",
     "day": 7,
-    "time": "8:45 AM",
-    "cover": "hotel-inhumans-2nd-season-3142c3003f197023224648893373e0fb",
-    "streams": {},
-    "status": true
+    "time": "8:15 AM",
+    "cover": "hotel-inhumans-2nd-season-c3ad10b020764040cd6bd523efb79028",
+    "streams": {
+      "Apple": "https://apple.co/4dVe6hV",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GXJHM3G08/hotel-inhumans",
+      "YouTube": "https://youtube.com/playlist?list=PLL3w2EaZKrjI"
+    }
   },
   "ZyRf": {
     "title": "Mahou no Shimai Lulutto Lilly Part 2",
@@ -662,6 +535,249 @@
     "cover": "umayuru-full-gate-d5b642a7029f1f539ac1e40249926fdd",
     "streams": {
       "YouTube": "https://www.youtube.com/playlist?list=PLNoVytAHV6zA"
+    },
+    "status": true
+  },
+  "P155": {
+    "title": "Hello, I am a Witch and my Crush Wants me to Make a Love Potion!",
+    "day": 1,
+    "time": "5:31 AM",
+    "cover": "doumo-suki-na-hito-ni-horegusuri-wo-irai-sareta-majo-desu-283771107354d9f66ad6074a6edb3642",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00378072"
+    }
+  },
+  "86SH": {
+    "title": "So What's Wrong with Getting Reborn as a Goblin?",
+    "day": 1,
+    "time": "6:01 AM",
+    "cover": "tensei-goblin-dakedo-shitsumon-aru-e69e7e8a93ad3a18c8a397f8686a4dea",
+    "streams": {
+      "BiliBili": "https://www.bilibili.tv/media/2433441",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00384010"
+    }
+  },
+  "lF9L": {
+    "title": "PSYREN",
+    "day": 1,
+    "time": "7:30 AM",
+    "cover": "psyren-721a53a23a34250f25c5bfc45334d784",
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/GT00371866/psyren"
+    }
+  },
+  "AeAn": {
+    "title": "Mahou Shoujo Ikusei Keikaku: Restart",
+    "day": 1,
+    "time": "10:00 AM",
+    "cover": "mahou-shoujo-ikusei-keikaku-restart-c5f785b67f8a8dda1022c8d029ba296b",
+    "streams": {},
+    "status": true
+  },
+  "PqSt": {
+    "title": "The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life",
+    "day": 2,
+    "time": "8:00 AM",
+    "cover": "tsuihou-sareta-cheat-fuyo-majutsushi-wa-kimama-na-second-life-wo-ouka-suru-ore-wa-buki-dake-ja-naku-arayuru-mono-ni-kyouka-point-wo-fuyo-dekiru-shi-ore-no-ishi-de-itsudemo-kouka-wo-kaijo-dekiru-kedo-nokotta-hitotachi-daijoubu-f65daa1af2823fd528aeaf024e688af6",
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/GT00384016/the-laid-off-cheat-granting-mage-enjoys-a-second-lease-on-life"
+    }
+  },
+  "gLRK": {
+    "title": "Nia Liston: The Merciless Maiden",
+    "day": 2,
+    "time": "5:55 AM",
+    "cover": "kyouran-reijou-nia-liston-byoujaku-reijou-ni-tensei-shita-kamigoroshi-no-bujin-no-karei-naru-musouroku-c6982704ba1240781249eb3ce9f7ae66",
+    "streams": {
+      "HiDive": "https://hidive.com/season/39540"
+    }
+  },
+  "JNme": {
+    "title": "Shiotaiou no Satou-san ga Ore ni dake Amai",
+    "day": 2,
+    "time": "4:30 AM",
+    "cover": "shiotaiou-no-satou-san-ga-ore-ni-dake-amai-cdda6c993d42b70fc7c24d8a387249a0",
+    "streams": {},
+    "status": true
+  },
+  "QAt4": {
+    "title": "Choujun! Choujou Senpai",
+    "day": 2,
+    "time": "7:00 AM",
+    "cover": "choujun-choujou-senpai-0cd7d44977da67abce9135386a320a22",
+    "streams": {},
+    "status": true
+  },
+  "gMgT": {
+    "title": "Battle Spirits [Re] Zekkai No Ku",
+    "day": 2,
+    "time": "10:00 AM",
+    "cover": "battle-spirits-re-zekkai-no-ku-7e2e02d47f18426f4709c83c252eb3e6",
+    "streams": {},
+    "status": true
+  },
+  "uoGC": {
+    "title": "A Returner's Magic Should Be Special",
+    "day": 3,
+    "time": "8:45 AM",
+    "cover": "kikansha-no-mahou-wa-tokubetsu-desu-season-2-93992cbbfc16340c4d660586ea08ea0b",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W207/a-returners-magic-should-be-special"
+    }
+  },
+  "vMKT": {
+    "title": "The Detective Is Already Dead",
+    "day": 3,
+    "time": "5:30 AM",
+    "cover": "tantei-wa-mou-shindeiru-season-2-53c4861f13a0abe92f372cbf61fc6528",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/the-detective-is-already-dead"
+    }
+  },
+  "jgT7": {
+    "title": "Sasaki and Peeps",
+    "day": 3,
+    "time": "6:00 AM",
+    "cover": "sasaki-to-pii-chan-2nd-season-b2bb61c54a9395bf8c5796555b60a2d1",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM935/sasaki-and-peeps"
+    }
+  },
+  "cXA2": {
+    "title": "Sekai Saikyou no Majo, Hajimemashita",
+    "day": 3,
+    "time": "6:00 AM",
+    "cover": "sekai-saikyou-no-majo-hajimemashita-a226a52f2233600d14e0343ad27b4472",
+    "streams": {},
+    "status": true
+  },
+  "mqUi": {
+    "title": "Magic Knight Rayearth (2026)",
+    "day": 3,
+    "time": "7:45 AM",
+    "cover": "magic-knight-rayearth-shin-anime-6fbe8cc3998fe4216deb816f18b74621",
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/GT00383994/magic-knight-rayearth-2026"
+    }
+  },
+  "2DNw": {
+    "title": "Juuou Mujin Dandivine",
+    "day": 3,
+    "time": "8:30 AM",
+    "cover": "juuou-mujin-dandivine-7dc1a2761ab4370e6c8acbe52e6ea77b",
+    "streams": {},
+    "status": true
+  },
+  "kq6t": {
+    "title": "The Iceblade Sorcerer Shall Rule the World",
+    "day": 4,
+    "time": "9:28 AM",
+    "cover": "hyouken-no-majutsushi-ga-sekai-wo-suberu-ii-62ce22d5a99f96ad5f2d4298be9d4de4",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GDKHZEP21/the-iceblade-sorcerer-shall-rule-the-world"
+    }
+  },
+  "v7Ln": {
+    "title": "Toaru Anbu no Item",
+    "day": 4,
+    "time": "8:30 AM",
+    "cover": "toaru-anbu-no-item-589d2d09cf651d6cd5beaf4f5f9a0485",
+    "streams": {},
+    "status": true
+  },
+  "oKO6": {
+    "title": "TETSURYO! Meet with Tetsudou Musume",
+    "day": 4,
+    "time": "9:00 AM",
+    "cover": "tetsuryou-meet-with-tetsudou-musume-25a1abd7eb6fa43f2397310f360809b9",
+    "streams": {
+      "HiDive": "https://www.hidive.com/season/39542"
+    }
+  },
+  "UqN8": {
+    "title": "Hotaru no Yomeiri",
+    "day": 5,
+    "time": "7:30 AM",
+    "cover": "hotaru-no-yomeiri-df6af1ae4747134151d8dd946c74d368",
+    "streams": {},
+    "status": true
+  },
+  "lBen": {
+    "title": "Duel Masters LOST: Danzai no Shounen",
+    "day": 5,
+    "time": "5:00 AM",
+    "cover": "duel-masters-lost-danzai-no-shounen-d43f3737d334bac84781bd645dce7516",
+    "streams": {},
+    "status": true
+  },
+  "GwPN": {
+    "title": "The Vermilion Mask",
+    "day": 6,
+    "time": "2:30 AM",
+    "cover": "shuiro-no-kamen-aabee28c4a0faee33e6cdbdcbb0fbff2",
+    "streams": {
+      "Crunchyroll": "https://crunchyroll.com/series/GT00384015/the-vermilion-mask"
+    }
+  },
+  "srR3": {
+    "title": "Kyoufu Collector",
+    "day": 6,
+    "time": "7:45 AM",
+    "cover": "kyoufu-collector-2b3d6ee60f8c9d13846d410879264c44",
+    "streams": {},
+    "status": true
+  },
+  "49ZQ": {
+    "title": "Shinja Zero no Megami-sama to Hajimeru Isekai Kouryaku",
+    "day": 7,
+    "time": "7:30 AM",
+    "cover": "shinja-zero-no-megami-sama-to-hajimeru-isekai-kouryaku-3867fbedb8f9c2de23ebc82b5d2fe7e7",
+    "streams": {},
+    "status": true
+  },
+  "ZmXY": {
+    "title": "Dragon Ball Super: Beerus",
+    "day": 7,
+    "time": "9:00 AM",
+    "cover": "dragon-ball-super-beerus-fe0ed879f5eb582a6614d2103d5e61d0",
+    "streams": {
+      "Netflix": "https://www.netflix.com/title/83189604"
+    }
+  },
+  "jvZq": {
+    "title": "Yozakura-san Chi no Daisakusen 2nd Season Part 2",
+    "day": 7,
+    "time": "1:00 AM",
+    "cover": "yozakura-san-chi-no-daisakusen-2nd-season-part-2-22984ad28baadc9db76d8d9431b608f9",
+    "streams": {},
+    "status": true
+  },
+  "opZ6": {
+    "title": "Hitozukiai ga Nigate na Miboujin no Yukionna-san to Noroi no Yubiwa",
+    "day": 7,
+    "time": "9:06 AM",
+    "cover": "hitozukiai-ga-nigate-na-miboujin-no-yukionna-san-to-noroi-no-yubiwa-0f212be0a77629006e5418afb775701d",
+    "streams": {
+      "OceanVeil": "https://oceanveil.net/anime_titles/524"
+    },
+    "status": true
+  },
+  "ZYDY": {
+    "title": "Ace of the Diamond",
+    "day": 7,
+    "time": "1:30 AM",
+    "cover": "diamond-no-ace-act-ii-zoku-hen-part-2-985481cc406d66b2159491b5cc32f9d2",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GYX0MZ58R/ace-of-the-diamond"
+    }
+  },
+  "qkMN": {
+    "title": "Mouse Cursor de Genjitsu wo Sousa Dekiru You ni Natta node, Onna no Ko wo Ippai Click Shimaasu",
+    "day": 7,
+    "time": "9:01 AM",
+    "cover": "mouse-cursor-de-genjitsu-wo-sousa-dekiru-you-ni-natta-node-onna-no-ko-wo-ippai-click-shimaasu-baa80cc009074e1271bea70d120da41f",
+    "streams": {
+      "OceanVeil": "https://oceanveil.net/anime_titles/522"
     },
     "status": true
   }
