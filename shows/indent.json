@@ -208,6 +208,7 @@
     "time": "8:30 AM",
     "cover": "tensei-shitara-ken-deshita-2-511166102c8acc358c56754bd39fa34e",
     "streams": {
+      "Amazon": "https://www.amazon.com/gp/video/detail/B0HLCHQS6T",
       "Apple": "https://apple.co/4huYSRF",
       "HiDive": "https://www.hidive.com/season/39506",
       "YouTube": "https://www.youtube.com/playlist?list=PLcSpWjb7H0lk"
@@ -238,7 +239,8 @@
     "cover": "fx-senshi-kurumi-chan-4252f926b1ce50a8b7d35adcd2fa7406",
     "streams": {
       "Apple": "https://apple.co/46VWGxO",
-      "Crunchyroll": "https://crunchyroll.com/series/GT00384001/fx-fighter-kurumi-chan"
+      "Crunchyroll": "https://crunchyroll.com/series/GT00384001/fx-fighter-kurumi-chan",
+      "YouTube": "https://www.youtube.com/playlist?list=PLTQxh5nM9A2w"
     }
   },
   "BXez": {
@@ -290,6 +292,7 @@
     "time": "6:00 PM",
     "cover": "keroro-gunsou-2026-7594ec883b8dbaafd0c8120eca50e923",
     "streams": {
+      "Apple": "https://apple.co/4j8mbDw",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00383995/keroro"
     }
   },
@@ -342,6 +345,7 @@
     "time": "9:30 AM",
     "cover": "magical-explorer-59ec851ce103bed1418b5c790cd48156",
     "streams": {
+      "Apple": "https://apple.co/4zcJYqr",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00384003"
     }
   },
@@ -378,7 +382,7 @@
     "title": "#I'm Looking for a Zombie",
     "day": 6,
     "time": "8:00 AM",
-    "cover": "zombie-sagashitemasu-7f747430694869c00e95440ef2b9d7fc",
+    "cover": "zombie-sagashitemasu-6954f50ac029cfe366caf31f9f476f99",
     "streams": {
       "Apple": "https://apple.co/4hGa0vd",
       "Crunchyroll": "https://crunchyroll.com/series/GT00383996/im-looking-for-a-zombie"
@@ -436,7 +440,7 @@
     "title": "Reborn as a Space Mercenary: I Woke Up Piloting the Strongest Starship!",
     "day": 7,
     "time": "7:00 AM",
-    "cover": "mezametara-saikyou-soubi-to-uchuusenmochi-datta-node-ikkodate-mezashite-youhei-toshite-jiyuu-ni-ikitai-edc1b50e1933cdcad6f719e5465fb479",
+    "cover": "mezametara-saikyou-soubi-to-uchuusenmochi-datta-node-ikkodate-mezashite-youhei-toshite-jiyuu-ni-ikitai-f999768f0f3547194db31e008d41070a",
     "streams": {
       "Apple": "https://apple.co/4dmnLOm",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00384006"
@@ -477,7 +481,8 @@
     "time": "7:30 AM",
     "cover": "tank-chair-f3732c385ab1633f02cf94027bdafd4d",
     "streams": {
-      "Amazon": "https://www.amazon.com/gp/video/detail/B0HJ87ZPRP"
+      "Amazon": "https://www.amazon.com/gp/video/detail/B0HJ87ZPRP",
+      "Apple": "https://apple.co/4j94cN9"
     }
   },
   "WSNT": {
@@ -542,8 +547,9 @@
     "title": "Hello, I am a Witch and my Crush Wants me to Make a Love Potion!",
     "day": 1,
     "time": "5:31 AM",
-    "cover": "doumo-suki-na-hito-ni-horegusuri-wo-irai-sareta-majo-desu-283771107354d9f66ad6074a6edb3642",
+    "cover": "doumo-suki-na-hito-ni-horegusuri-wo-irai-sareta-majo-desu-062634ef7feba2702ce325f4ffb80de9",
     "streams": {
+      "Apple": "https://apple.co/4hGRlzf",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00378072"
     }
   },
@@ -553,8 +559,11 @@
     "time": "6:01 AM",
     "cover": "tensei-goblin-dakedo-shitsumon-aru-e69e7e8a93ad3a18c8a397f8686a4dea",
     "streams": {
+      "Apple": "https://apple.co/4y0WfNK",
       "BiliBili": "https://www.bilibili.tv/media/2433441",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00384010"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00384010",
+      "Netflix": "https://apple.co/4y0WfNK",
+      "YouTube": "https://www.youtube.com/playlist?list=PLYld27spJ0aA"
     }
   },
   "lF9L": {
@@ -563,21 +572,25 @@
     "time": "7:30 AM",
     "cover": "psyren-721a53a23a34250f25c5bfc45334d784",
     "streams": {
+      "Apple": "https://apple.co/3Vw7Ab8",
       "Crunchyroll": "https://crunchyroll.com/series/GT00371866/psyren"
     }
   },
   "AeAn": {
     "title": "Mahou Shoujo Ikusei Keikaku: Restart",
     "day": 1,
-    "time": "10:00 AM",
-    "cover": "mahou-shoujo-ikusei-keikaku-restart-c5f785b67f8a8dda1022c8d029ba296b",
-    "streams": {},
+    "time": "10:30 AM",
+    "cover": "mahou-shoujo-ikusei-keikaku-restart-8fd4ef30820c1c8a4d8f327c9d6d1e7e",
+    "streams": {
+      "OceanVeil": "https://oceanveil.net/anime_titles/544",
+      "YouTube": "https://www.youtube.com/playlist?list=PLTPDFXU5mBC8"
+    },
     "status": true
   },
   "PqSt": {
     "title": "The Laid-Off Cheat-Granting Mage Enjoys a Second Lease on Life",
     "day": 2,
-    "time": "8:00 AM",
+    "time": "8:30 AM",
     "cover": "tsuihou-sareta-cheat-fuyo-majutsushi-wa-kimama-na-second-life-wo-ouka-suru-ore-wa-buki-dake-ja-naku-arayuru-mono-ni-kyouka-point-wo-fuyo-dekiru-shi-ore-no-ishi-de-itsudemo-kouka-wo-kaijo-dekiru-kedo-nokotta-hitotachi-daijoubu-f65daa1af2823fd528aeaf024e688af6",
     "streams": {
       "Crunchyroll": "https://crunchyroll.com/series/GT00384016/the-laid-off-cheat-granting-mage-enjoys-a-second-lease-on-life"
@@ -589,39 +602,48 @@
     "time": "5:55 AM",
     "cover": "kyouran-reijou-nia-liston-byoujaku-reijou-ni-tensei-shita-kamigoroshi-no-bujin-no-karei-naru-musouroku-c6982704ba1240781249eb3ce9f7ae66",
     "streams": {
+      "BiliBili": "https://www.bilibili.tv/media/2433665",
       "HiDive": "https://hidive.com/season/39540"
     }
   },
   "JNme": {
-    "title": "Shiotaiou no Satou-san ga Ore ni dake Amai",
+    "title": "The Cold Sato-san is Only Sweet to Me",
     "day": 2,
-    "time": "4:30 AM",
+    "time": "6:30 AM",
     "cover": "shiotaiou-no-satou-san-ga-ore-ni-dake-amai-cdda6c993d42b70fc7c24d8a387249a0",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/47AXxUT",
+      "BiliBili": "https://www.bilibili.tv/media/2433556",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00384014"
+    }
   },
   "QAt4": {
-    "title": "Choujun! Choujou Senpai",
+    "title": "Super Psychic Policeman Chojo",
     "day": 2,
-    "time": "7:00 AM",
+    "time": "7:45 AM",
     "cover": "choujun-choujou-senpai-0cd7d44977da67abce9135386a320a22",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/47B4Lbt",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00384013"
+    }
   },
   "gMgT": {
-    "title": "Battle Spirits [Re] Zekkai No Ku",
+    "title": "Battle Spirits ZEKKAI NO KU",
     "day": 2,
-    "time": "10:00 AM",
+    "time": "7:30 AM",
     "cover": "battle-spirits-re-zekkai-no-ku-7e2e02d47f18426f4709c83c252eb3e6",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4j6U2g7",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00385703/battle-spirits-re-zekkai-no-ku"
+    }
   },
   "uoGC": {
     "title": "A Returner's Magic Should Be Special",
     "day": 3,
-    "time": "8:45 AM",
+    "time": "10:15 AM",
     "cover": "kikansha-no-mahou-wa-tokubetsu-desu-season-2-93992cbbfc16340c4d660586ea08ea0b",
     "streams": {
+      "BiliBili": "https://www.bilibili.tv/media/2432495",
       "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W207/a-returners-magic-should-be-special"
     }
   },
@@ -629,7 +651,7 @@
     "title": "The Detective Is Already Dead",
     "day": 3,
     "time": "5:30 AM",
-    "cover": "tantei-wa-mou-shindeiru-season-2-53c4861f13a0abe92f372cbf61fc6528",
+    "cover": "tantei-wa-mou-shindeiru-season-2-cc1caffe160ca75678a062b6f902b6f6",
     "streams": {
       "Crunchyroll": "https://www.crunchyroll.com/the-detective-is-already-dead"
     }
@@ -637,9 +659,10 @@
   "jgT7": {
     "title": "Sasaki and Peeps",
     "day": 3,
-    "time": "6:00 AM",
+    "time": "6:01 AM",
     "cover": "sasaki-to-pii-chan-2nd-season-b2bb61c54a9395bf8c5796555b60a2d1",
     "streams": {
+      "BiliBili": "https://www.bilibili.tv/media/2412591",
       "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM935/sasaki-and-peeps"
     }
   },
@@ -647,7 +670,7 @@
     "title": "Sekai Saikyou no Majo, Hajimemashita",
     "day": 3,
     "time": "6:00 AM",
-    "cover": "sekai-saikyou-no-majo-hajimemashita-a226a52f2233600d14e0343ad27b4472",
+    "cover": "sekai-saikyou-no-majo-hajimemashita-2fca1a332f59402867842e0f2f939a1a",
     "streams": {},
     "status": true
   },
@@ -779,6 +802,165 @@
     "streams": {
       "OceanVeil": "https://oceanveil.net/anime_titles/522"
     },
+    "status": true
+  },
+  "n9z7": {
+    "title": "Gensou Suikoden",
+    "day": 2,
+    "time": "7:31 AM",
+    "cover": "gensou-suikoden-a42018f73c24d0257b5e0b187c92a90e",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLVEC_1AvVqqE"
+    },
+    "status": true
+  },
+  "t63O": {
+    "title": "Doko yori mo Tooi Basho ni Iru Kimi e",
+    "day": 4,
+    "time": "5:00 PM",
+    "cover": "doko-yori-mo-tooi-basho-ni-iru-kimi-e-b3d113c28fb96aaa46e198942729a172",
+    "streams": {},
+    "status": true
+  },
+  "1W95": {
+    "title": "Girls & Panzer: Saishuushou 5",
+    "day": 4,
+    "time": "5:00 PM",
+    "cover": "girls-und-panzer-saishuushou-5-9f377034d3b99a7833218ef8232b2a28",
+    "streams": {},
+    "status": true
+  },
+  "m1VI": {
+    "title": "Kizu darake Seijo yori Houfuku wo Komete 2nd Season",
+    "day": 4,
+    "time": "9:05 AM",
+    "cover": "kizu-darake-seijo-yori-houfuku-wo-komete-2-29fa01a6cf997fe85403566e7ca61e23",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLcnM8O8NMtiU"
+    },
+    "status": true
+  },
+  "SUpv": {
+    "title": "Chiikawa",
+    "day": 7,
+    "time": "3:40 PM",
+    "cover": "chiikawa-c656267c1a",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLAP-gqrRNhgU"
+    },
+    "status": true
+  },
+  "DqGO": {
+    "title": "Beyblade X",
+    "day": 5,
+    "time": "3:00 AM",
+    "cover": "beyblade-x-f02b468b74",
+    "streams": {
+      "Apple": "https://apple.co/4i07X3w",
+      "Hulu": "https://hulu.com/series/0e46c665-5191-407f-8dc5-e22a0095578c",
+      "Netflix": "https://netflix.com/title/81924739",
+      "YouTube": "https://youtube.com/playlist?list=PLfX0BhjZoHNlzLJSi0-CPYQXfV_JPWPUh"
+    }
+  },
+  "AtfN": {
+    "title": "Rilakkuma",
+    "day": 5,
+    "time": "6:00 PM",
+    "cover": "rilakkuma-ee9ff986777cda5e5bcff4320522e67f",
+    "streams": {
+      "Apple": "https://apple.co/4seR0Hk",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00374493/rilakkuma",
+      "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl39KDdjidupfewWK2xookSn"
+    }
+  },
+  "tmhA": {
+    "title": "Ghost Meets Gal!",
+    "day": 5,
+    "time": "4:01 PM",
+    "cover": "ghost-meets-gal-5b1106d4c9859751b3a937b830057941",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLZZYdEtpc2mU"
+    },
+    "status": true
+  },
+  "fIOQ": {
+    "title": "BONO BONO",
+    "day": 5,
+    "time": "1:22 PM",
+    "cover": "bonobono-2016-d159da94d9",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/bono-bono"
+    }
+  },
+  "Hziq": {
+    "title": "Pan no Akachan (TV)",
+    "day": 5,
+    "time": "4:30 PM",
+    "cover": "pan-no-akachan-tv-38ddc4a4c49e0aa9e421c0e4c1f369bd",
+    "streams": {},
+    "status": true
+  },
+  "nW7u": {
+    "title": "Shimajiro: A Wonderful Adventure",
+    "day": 5,
+    "time": "4:30 PM",
+    "cover": "shimajirou-no-wow-4b0c1cf53c",
+    "streams": {
+      "Netflix": "https://www.netflix.com/title/81235103"
+    }
+  },
+  "OAHV": {
+    "title": "Nezumi-kun no Chokki (TV) 2nd Season",
+    "day": 5,
+    "time": "5:30 PM",
+    "cover": "nezumi-kun-no-chokki-tv-2nd-season-330862af164ebd19117e86e8219eb7cc",
+    "streams": {},
+    "status": true
+  },
+  "5Ah6": {
+    "title": "Koupen-chan",
+    "day": 6,
+    "time": "4:00 PM",
+    "cover": "koupen-chan-9e4bc7e105",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLRj9zPfLhyY17a7iABkpz28-oamCLFUMQ"
+    },
+    "status": true
+  },
+  "7p9B": {
+    "title": "Shou 3 Ashibe QQ Goma-chan",
+    "day": 6,
+    "time": "3:00 PM",
+    "cover": "shou-3-ashibe-qq-goma-chan-8732cda459f49aa61c848a99e7f9b77a",
+    "streams": {},
+    "status": true
+  },
+  "fBn4": {
+    "title": "I'm Dating a Dark Summoner",
+    "day": 7,
+    "time": "9:21 AM",
+    "cover": "dark-summoner-to-dekiteiru-c53279826492fab429043f9385bfb47a",
+    "streams": {
+      "Apple": "https://apple.co/3Vt5oRN",
+      "HiDive": "https://www.hidive.com/season/39541"
+    }
+  },
+  "KaTs": {
+    "title": "Kanojo no Tomodachi",
+    "day": 7,
+    "time": "9:06 AM",
+    "cover": "kanojo-no-tomodachi-97d807469a9cb09fc1eaebf7c6f35752",
+    "streams": {
+      "OceanVeil": "https://oceanveil.net/anime_titles/538"
+    },
+    "status": true
+  },
+  "39fe": {
+    "title": "Yami Shibai 17",
+    "day": 7,
+    "time": "11:20 AM",
+    "cover": "yami-shibai-17-d192af157a4df4c533230fbd860b43c0",
+    "streams": {},
     "status": true
   }
 }

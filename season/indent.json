@@ -1,7 +1,7 @@
 {
   "ofqI": {
     "title": "#Zombie Sagashitemasu",
-    "cover": "zombie-sagashitemasu-7f747430694869c00e95440ef2b9d7fc",
+    "cover": "zombie-sagashitemasu-6954f50ac029cfe366caf31f9f476f99",
     "studio": "Studio Comet",
     "source": "Manga",
     "genres": [
@@ -25,7 +25,7 @@
   },
   "kfm9": {
     "title": "Ao no Hako 2nd Season",
-    "cover": "ao-no-hako-2nd-season-eb11b94cd5e4fa492c4fce994e4334b9",
+    "cover": "ao-no-hako-2nd-season-1e7a7c1af3c733a57018cd086bc117b8",
     "studio": "Electric Circus",
     "source": "Manga",
     "genres": [
@@ -58,7 +58,7 @@
   },
   "WrFb": {
     "title": "Black Clover 2nd Season",
-    "cover": "black-clover-2nd-season-1a68ca60738d1143706fcb27a13fc2c9",
+    "cover": "black-clover-2nd-season-bbc756f4c0196335e4a7d4362e3971d4",
     "studio": "Studio Pierrot",
     "source": "Manga",
     "genres": [
@@ -139,7 +139,7 @@
   },
   "P155": {
     "title": "Doumo, Suki na Hito ni Horegusuri wo Irai sareta Majo desu.",
-    "cover": "doumo-suki-na-hito-ni-horegusuri-wo-irai-sareta-majo-desu-283771107354d9f66ad6074a6edb3642",
+    "cover": "doumo-suki-na-hito-ni-horegusuri-wo-irai-sareta-majo-desu-062634ef7feba2702ce325f4ffb80de9",
     "studio": "Diomed\u00e9a",
     "source": "Light Novel",
     "genres": [
@@ -169,6 +169,8 @@
     "source": "Manga",
     "genres": [
       "Drama",
+      "Psychological",
+      "Seinen",
       "Slice of Life"
     ]
   },
@@ -196,7 +198,7 @@
   },
   "CDMT": {
     "title": "Hotel Inhumans 2nd Season",
-    "cover": "hotel-inhumans-2nd-season-3142c3003f197023224648893373e0fb",
+    "cover": "hotel-inhumans-2nd-season-c3ad10b020764040cd6bd523efb79028",
     "studio": "Aisle",
     "source": "Web Manga",
     "genres": [
@@ -238,17 +240,6 @@
       "Isekai",
       "Romance",
       "Shoujo"
-    ]
-  },
-  "KaTs": {
-    "title": "Kanojo no Tomodachi",
-    "cover": "kanojo-no-tomodachi-a6cc56d6463e349139498c8ab30c9336",
-    "studio": "Quad",
-    "source": "Web Manga",
-    "genres": [
-      "Drama",
-      "Ecchi",
-      "Romance"
     ]
   },
   "SrvX": {
@@ -358,7 +349,7 @@
   },
   "AeAn": {
     "title": "Mahou Shoujo Ikusei Keikaku: Restart",
-    "cover": "mahou-shoujo-ikusei-keikaku-restart-c5f785b67f8a8dda1022c8d029ba296b",
+    "cover": "mahou-shoujo-ikusei-keikaku-restart-8fd4ef30820c1c8a4d8f327c9d6d1e7e",
     "studio": "SynergySP",
     "source": "Light Novel",
     "genres": [
@@ -392,7 +383,7 @@
   },
   "BzcB": {
     "title": "Mezametara Saikyou Soubi to Uchuusenmochi Datta node, Ikkodate Mezashite Youhei toshite Jiyuu ni Ikitai",
-    "cover": "mezametara-saikyou-soubi-to-uchuusenmochi-datta-node-ikkodate-mezashite-youhei-toshite-jiyuu-ni-ikitai-edc1b50e1933cdcad6f719e5465fb479",
+    "cover": "mezametara-saikyou-soubi-to-uchuusenmochi-datta-node-ikkodate-mezashite-youhei-toshite-jiyuu-ni-ikitai-f999768f0f3547194db31e008d41070a",
     "studio": "Studio A-CAT",
     "source": "Light Novel",
     "genres": [
@@ -500,7 +491,7 @@
   },
   "cXA2": {
     "title": "Sekai Saikyou no Majo, Hajimemashita",
-    "cover": "sekai-saikyou-no-majo-hajimemashita-a226a52f2233600d14e0343ad27b4472",
+    "cover": "sekai-saikyou-no-majo-hajimemashita-2fca1a332f59402867842e0f2f939a1a",
     "studio": "Aisle",
     "source": "Light Novel",
     "genres": [
@@ -523,7 +514,7 @@
   },
   "49ZQ": {
     "title": "Shinja Zero no Megami-sama to Hajimeru Isekai Kouryaku",
-    "cover": "shinja-zero-no-megami-sama-to-hajimeru-isekai-kouryaku-85235e4b264d8818e64b72341b521766",
+    "cover": "shinja-zero-no-megami-sama-to-hajimeru-isekai-kouryaku-3867fbedb8f9c2de23ebc82b5d2fe7e7",
     "studio": "HORNETS",
     "source": "Light Novel",
     "genres": [
@@ -565,7 +556,7 @@
   },
   "htBn": {
     "title": "Tank Chair",
-    "cover": "tank-chair-fd6b406cc6af39c3fe8cade3cc7b2ccd",
+    "cover": "tank-chair-f3732c385ab1633f02cf94027bdafd4d",
     "studio": "POLYGON PICTURES",
     "source": "Web Manga",
     "genres": [
@@ -576,7 +567,7 @@
   },
   "vMKT": {
     "title": "Tantei wa Mou, Shindeiru. Season 2",
-    "cover": "tantei-wa-mou-shindeiru-season-2-53c4861f13a0abe92f372cbf61fc6528",
+    "cover": "tantei-wa-mou-shindeiru-season-2-cc1caffe160ca75678a062b6f902b6f6",
     "studio": "ENGI",
     "source": "Light Novel",
     "genres": [
@@ -745,16 +736,6 @@
       "Comedy",
       "Romance",
       "Shounen"
-    ]
-  },
-  "erxh": {
-    "title": "Yuusanchi! from Yuu-hachi",
-    "cover": "yuusanchi-from-yuu-hachi-6afa96f74f79e2af8421505aa998ebe5",
-    "studio": "Fanworks",
-    "source": "Web Manga",
-    "genres": [
-      "Comedy",
-      "Slice of Life"
     ]
   }
 }
