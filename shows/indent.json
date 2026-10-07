@@ -593,7 +593,10 @@
     "time": "8:30 AM",
     "cover": "tsuihou-sareta-cheat-fuyo-majutsushi-wa-kimama-na-second-life-wo-ouka-suru-ore-wa-buki-dake-ja-naku-arayuru-mono-ni-kyouka-point-wo-fuyo-dekiru-shi-ore-no-ishi-de-itsudemo-kouka-wo-kaijo-dekiru-kedo-nokotta-hitotachi-daijoubu-f65daa1af2823fd528aeaf024e688af6",
     "streams": {
-      "Crunchyroll": "https://crunchyroll.com/series/GT00384016/the-laid-off-cheat-granting-mage-enjoys-a-second-lease-on-life"
+      "Apple": "https://apple.co/4zgs4Dl",
+      "BiliBili": "https://www.bilibili.tv/en/media/2432178",
+      "Crunchyroll": "https://crunchyroll.com/series/GT00384016/the-laid-off-cheat-granting-mage-enjoys-a-second-lease-on-life",
+      "YouTube": "https://www.youtube.com/playlist?list=PLcCDyXGi-y_w"
     }
   },
   "gLRK": {
@@ -602,6 +605,7 @@
     "time": "5:55 AM",
     "cover": "kyouran-reijou-nia-liston-byoujaku-reijou-ni-tensei-shita-kamigoroshi-no-bujin-no-karei-naru-musouroku-c6982704ba1240781249eb3ce9f7ae66",
     "streams": {
+      "Apple": "https://apple.co/3Ue3WCn",
       "BiliBili": "https://www.bilibili.tv/media/2433665",
       "HiDive": "https://hidive.com/season/39540"
     }
@@ -624,7 +628,8 @@
     "cover": "choujun-choujou-senpai-0cd7d44977da67abce9135386a320a22",
     "streams": {
       "Apple": "https://apple.co/47B4Lbt",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00384013"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00384013",
+      "YouTube": "https://www.youtube.com/playlist?list=PLWdHQdMNZfrM"
     }
   },
   "gMgT": {
@@ -634,7 +639,8 @@
     "cover": "battle-spirits-re-zekkai-no-ku-7e2e02d47f18426f4709c83c252eb3e6",
     "streams": {
       "Apple": "https://apple.co/4j6U2g7",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00385703/battle-spirits-re-zekkai-no-ku"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00385703/battle-spirits-re-zekkai-no-ku",
+      "YouTube": "https://www.youtube.com/playlist?list=PLWdHQdMNZfrM"
     }
   },
   "uoGC": {
@@ -643,6 +649,7 @@
     "time": "10:15 AM",
     "cover": "kikansha-no-mahou-wa-tokubetsu-desu-season-2-93992cbbfc16340c4d660586ea08ea0b",
     "streams": {
+      "Apple": "https://apple.co/3TuIqJr",
       "BiliBili": "https://www.bilibili.tv/media/2432495",
       "Crunchyroll": "https://www.crunchyroll.com/series/GEXH3W207/a-returners-magic-should-be-special"
     }
@@ -650,10 +657,12 @@
   "vMKT": {
     "title": "The Detective Is Already Dead",
     "day": 3,
-    "time": "5:30 AM",
+    "time": "6:30 AM",
     "cover": "tantei-wa-mou-shindeiru-season-2-cc1caffe160ca75678a062b6f902b6f6",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/the-detective-is-already-dead"
+      "Apple": "https://apple.co/4y5lZZu",
+      "Crunchyroll": "https://www.crunchyroll.com/the-detective-is-already-dead",
+      "YouTube": "https://www.youtube.com/playlist?list=PLR-pghBkHxLo"
     }
   },
   "jgT7": {
@@ -663,33 +672,43 @@
     "cover": "sasaki-to-pii-chan-2nd-season-b2bb61c54a9395bf8c5796555b60a2d1",
     "streams": {
       "BiliBili": "https://www.bilibili.tv/media/2412591",
-      "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM935/sasaki-and-peeps"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM935/sasaki-and-peeps",
+      "YouTube": "https://www.youtube.com/playlist?list=PLUwUBJLa1IGY"
     }
   },
   "cXA2": {
-    "title": "Sekai Saikyou no Majo, Hajimemashita",
+    "title": "The World's Strongest Witch",
     "day": 3,
-    "time": "6:00 AM",
+    "time": "7:00 AM",
     "cover": "sekai-saikyou-no-majo-hajimemashita-2fca1a332f59402867842e0f2f939a1a",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4rYdUVa",
+      "BiliBili": "https://www.bilibili.tv/media/2432827",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00384009",
+      "YouTube": "https://www.youtube.com/playlist?list=PLLJ_VmZxSJuY"
+    }
   },
   "mqUi": {
     "title": "Magic Knight Rayearth (2026)",
     "day": 3,
-    "time": "7:45 AM",
+    "time": "8:15 AM",
     "cover": "magic-knight-rayearth-shin-anime-6fbe8cc3998fe4216deb816f18b74621",
     "streams": {
-      "Crunchyroll": "https://crunchyroll.com/series/GT00383994/magic-knight-rayearth-2026"
+      "Apple": "https://apple.co/4jKPQ5P",
+      "Crunchyroll": "https://crunchyroll.com/series/GT00383994/magic-knight-rayearth-2026",
+      "YouTube": "https://www.youtube.com/playlist?list=PLRkLnaEGDpFQ"
     }
   },
   "2DNw": {
-    "title": "Juuou Mujin Dandivine",
+    "title": "DANDIVINE",
     "day": 3,
-    "time": "8:30 AM",
+    "time": "10:00 AM",
     "cover": "juuou-mujin-dandivine-7dc1a2761ab4370e6c8acbe52e6ea77b",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4zkzNAn",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00385792/dandivine",
+      "YouTube": "https://www.youtube.com/playlist?list=PLIRs2h2eO4ys"
+    }
   },
   "kq6t": {
     "title": "The Iceblade Sorcerer Shall Rule the World",
@@ -842,7 +861,7 @@
   },
   "SUpv": {
     "title": "Chiikawa",
-    "day": 7,
+    "day": 4,
     "time": "3:40 PM",
     "cover": "chiikawa-c656267c1a",
     "streams": {
