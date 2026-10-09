@@ -106,16 +106,6 @@
     "streams": {},
     "status": true
   },
-  "NHFC": {
-    "title": "PetitCure: Precure Fairies 3rd Season",
-    "day": 4,
-    "time": "2:30 AM",
-    "cover": "petitcure-precure-fairies-season-3-90690a2edf53b4970f15eb7416fc0d4d",
-    "streams": {
-      "YouTube": "https://www.youtube.com/playlist?list=PLq34MZPUzQ9mGMf3-p798NI3FNNROkDMR"
-    },
-    "status": true
-  },
   "yRXP": {
     "title": "Odekake Kozame 2nd Season",
     "day": 6,
@@ -129,7 +119,7 @@
   "O5lv": {
     "title": "The Exiled Heavy Knight Knows How to Game the System",
     "day": 4,
-    "time": "9:30 AM",
+    "time": "9:00 AM",
     "cover": "tsuihou-sareta-tensei-juukishi-wa-game-chishiki-de-musou-suru-dd11ec1143ac41fd56a9a6ff34e8a5e3",
     "streams": {
       "Amazon": "https://amzn.to/3SE9KEq",
@@ -210,6 +200,7 @@
     "streams": {
       "Amazon": "https://www.amazon.com/gp/video/detail/B0HLCHQS6T",
       "Apple": "https://apple.co/4huYSRF",
+      "BiliBili": "https://www.bilibili.tv/en/media/2432099",
       "HiDive": "https://www.hidive.com/season/39506",
       "YouTube": "https://www.youtube.com/playlist?list=PLcSpWjb7H0lk"
     }
@@ -271,6 +262,7 @@
     "time": "9:00 AM",
     "cover": "tougen-anki-nikko-kegon-no-taki-hen-db1af61cb75a8279665d633d28a068f5",
     "streams": {
+      "Amazon": "https://www.amazon.com/dp/B0FCM3YGCQ",
       "Apple": "https://apple.co/4djPuiI",
       "BiliBili": "https://www.bilibili.tv/media/2431878",
       "Crunchyroll": "https://www.crunchyroll.com/series/GP5HJ84D2/tougen-anki",
@@ -300,7 +292,7 @@
     "title": "Pan Dorobou",
     "day": 5,
     "time": "2:40 AM",
-    "cover": "pan-dorobou-dfbb92ba85d3baa54bb80b010e7f4892",
+    "cover": "pan-dorobou-15629650987cef2bcfea400e7e209afa",
     "streams": {},
     "status": true
   },
@@ -472,7 +464,8 @@
     "cover": "ao-ashi-2nd-season-c7f95d28517ff7974a116fd93e9a8192",
     "streams": {
       "Apple": "https://apple.co/4hudzG5",
-      "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WX5J/aoashi"
+      "Crunchyroll": "https://www.crunchyroll.com/series/G4PH0WX5J/aoashi",
+      "YouTube": "https://www.youtube.com/playlist?list=PLYavYYpKm3cc"
     }
   },
   "htBn": {
@@ -562,7 +555,6 @@
       "Apple": "https://apple.co/4y0WfNK",
       "BiliBili": "https://www.bilibili.tv/media/2433441",
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00384010",
-      "Netflix": "https://apple.co/4y0WfNK",
       "YouTube": "https://www.youtube.com/playlist?list=PLYld27spJ0aA"
     }
   },
@@ -671,6 +663,7 @@
     "time": "6:01 AM",
     "cover": "sasaki-to-pii-chan-2nd-season-b2bb61c54a9395bf8c5796555b60a2d1",
     "streams": {
+      "Apple": "https://apple.co/4jvVWHp",
       "BiliBili": "https://www.bilibili.tv/media/2412591",
       "Crunchyroll": "https://www.crunchyroll.com/series/G5PHNM935/sasaki-and-peeps",
       "YouTube": "https://www.youtube.com/playlist?list=PLUwUBJLa1IGY"
@@ -713,19 +706,24 @@
   "kq6t": {
     "title": "The Iceblade Sorcerer Shall Rule the World",
     "day": 4,
-    "time": "9:28 AM",
+    "time": "10:00 AM",
     "cover": "hyouken-no-majutsushi-ga-sekai-wo-suberu-ii-62ce22d5a99f96ad5f2d4298be9d4de4",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GDKHZEP21/the-iceblade-sorcerer-shall-rule-the-world"
+      "Apple": "https://apple.co/4hLH05g",
+      "BiliBili": "https://www.bilibili.tv/en/media/2432333",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GDKHZEP21/the-iceblade-sorcerer-shall-rule-the-world",
+      "YouTube": "https://www.youtube.com/playlist?list=PLYO-HJWItnyo"
     }
   },
   "v7Ln": {
-    "title": "Toaru Anbu no Item",
-    "day": 4,
-    "time": "8:30 AM",
+    "title": "A Certain Dark Item",
+    "day": 5,
+    "time": "8:31 AM",
     "cover": "toaru-anbu-no-item-589d2d09cf651d6cd5beaf4f5f9a0485",
-    "streams": {},
-    "status": true
+    "streams": {
+      "BiliBili": "https://www.bilibili.tv/media/2433501",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00383991"
+    }
   },
   "oKO6": {
     "title": "TETSURYO! Meet with Tetsudou Musume",
@@ -733,22 +731,26 @@
     "time": "9:00 AM",
     "cover": "tetsuryou-meet-with-tetsudou-musume-25a1abd7eb6fa43f2397310f360809b9",
     "streams": {
-      "HiDive": "https://www.hidive.com/season/39542"
+      "Apple": "https://apple.co/4AW7WYD",
+      "HiDive": "https://www.hidive.com/season/39542",
+      "YouTube": "https://www.youtube.com/playlist?list=PLJaKlqcb9GkQ"
     }
   },
   "UqN8": {
-    "title": "Hotaru no Yomeiri",
+    "title": "Firefly Wedding",
     "day": 5,
-    "time": "7:30 AM",
-    "cover": "hotaru-no-yomeiri-df6af1ae4747134151d8dd946c74d368",
-    "streams": {},
-    "status": true
+    "time": "9:00 AM",
+    "cover": "hotaru-no-yomeiri-221774749703afb6582344b006e11820",
+    "streams": {
+      "BiliBili": "https://www.bilibili.tv/media/2432745",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00383999"
+    }
   },
   "lBen": {
     "title": "Duel Masters LOST: Danzai no Shounen",
     "day": 5,
     "time": "5:00 AM",
-    "cover": "duel-masters-lost-danzai-no-shounen-d43f3737d334bac84781bd645dce7516",
+    "cover": "duel-masters-lost-danzai-no-shounen-32b7367a859d23d99945fc00c77eaee4",
     "streams": {},
     "status": true
   },
@@ -861,7 +863,7 @@
   },
   "SUpv": {
     "title": "Chiikawa",
-    "day": 4,
+    "day": 7,
     "time": "3:40 PM",
     "cover": "chiikawa-c656267c1a",
     "streams": {
@@ -932,7 +934,7 @@
     "title": "Nezumi-kun no Chokki (TV) 2nd Season",
     "day": 5,
     "time": "5:30 PM",
-    "cover": "nezumi-kun-no-chokki-tv-2nd-season-330862af164ebd19117e86e8219eb7cc",
+    "cover": "nezumi-kun-no-chokki-tv-2nd-season-ba75bdcd492cdbe7693fe06ab912cf14",
     "streams": {},
     "status": true
   },
@@ -980,6 +982,16 @@
     "time": "11:20 AM",
     "cover": "yami-shibai-17-d192af157a4df4c533230fbd860b43c0",
     "streams": {},
+    "status": true
+  },
+  "MypA": {
+    "title": "PetitCure: Precure Fairies 4th Season",
+    "day": 4,
+    "time": "2:30 AM",
+    "cover": "petitcure-precure-fairies-4th-season-bc55de20ec8de7137cf709303fc29359",
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLq34MZPUzQ9mGMf3-p798NI3FNNROkDMR"
+    },
     "status": true
   }
 }
