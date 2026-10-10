@@ -347,6 +347,7 @@
     "time": "10:00 AM",
     "cover": "seitokai-ni-mo-ana-wa-aru-af8fef5a0b35bba4e31d5dc0b0ae5ca3",
     "streams": {
+      "BiliBili": "https://www.bilibili.tv/en/media/2433041",
       "OceanVeil": "https://oceanveil.net/anime_titles/541"
     },
     "status": true
@@ -393,7 +394,7 @@
   "ZdQJ": {
     "title": "VERTEX FORCE",
     "day": 6,
-    "time": "8:00 AM",
+    "time": "9:00 AM",
     "cover": "vertex-force-8b82169cb5a87017d225e0a321ef4662",
     "streams": {
       "Apple": "https://apple.co/4xTN01L",
@@ -515,7 +516,9 @@
     "day": 7,
     "time": "6:30 AM",
     "cover": "mahou-no-shimai-lulutto-lilly-part-2-77490fb4490be9d1b15d2dd531c92ddd",
-    "streams": {},
+    "streams": {
+      "YouTube": "https://www.youtube.com/playlist?list=PLKPsuBIKuejMR6v7XCBOMy7Xesql1re66"
+    },
     "status": true
   },
   "erxh": {
@@ -721,8 +724,10 @@
     "time": "8:31 AM",
     "cover": "toaru-anbu-no-item-589d2d09cf651d6cd5beaf4f5f9a0485",
     "streams": {
+      "Apple": "https://apple.co/4yDwbt9",
       "BiliBili": "https://www.bilibili.tv/media/2433501",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00383991"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00383991",
+      "YouTube": "https://www.youtube.com/playlist?list=PLfpRiJdpycMM"
     }
   },
   "oKO6": {
@@ -742,8 +747,10 @@
     "time": "9:00 AM",
     "cover": "hotaru-no-yomeiri-221774749703afb6582344b006e11820",
     "streams": {
+      "Apple": "https://apple.co/3WjyumM",
       "BiliBili": "https://www.bilibili.tv/media/2432745",
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00383999"
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00383999",
+      "YouTube": "https://www.youtube.com/playlist?list=PLFWKcE-zQuBY"
     }
   },
   "lBen": {
@@ -760,16 +767,19 @@
     "time": "2:30 AM",
     "cover": "shuiro-no-kamen-aabee28c4a0faee33e6cdbdcbb0fbff2",
     "streams": {
+      "Apple": "https://apple.co/3TsFvkw",
       "Crunchyroll": "https://crunchyroll.com/series/GT00384015/the-vermilion-mask"
     }
   },
   "srR3": {
-    "title": "Kyoufu Collector",
+    "title": "HORROR COLLECTOR",
     "day": 6,
-    "time": "7:45 AM",
+    "time": "10:15 AM",
     "cover": "kyoufu-collector-2b3d6ee60f8c9d13846d410879264c44",
-    "streams": {},
-    "status": true
+    "streams": {
+      "Apple": "https://apple.co/4dzHomd",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00383993/horror-collector"
+    }
   },
   "49ZQ": {
     "title": "Shinja Zero no Megami-sama to Hajimeru Isekai Kouryaku",
@@ -863,7 +873,7 @@
   },
   "SUpv": {
     "title": "Chiikawa",
-    "day": 7,
+    "day": 5,
     "time": "3:40 PM",
     "cover": "chiikawa-c656267c1a",
     "streams": {
