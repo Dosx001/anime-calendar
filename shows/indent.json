@@ -746,21 +746,9 @@
     },
     "status": true
   },
-  "DqGO": {
-    "title": "Beyblade X",
-    "day": 5,
-    "time": "3:00 AM",
-    "cover": "beyblade-x-f02b468b74",
-    "streams": {
-      "Apple": "https://apple.co/4i07X3w",
-      "Hulu": "https://hulu.com/series/0e46c665-5191-407f-8dc5-e22a0095578c",
-      "Netflix": "https://netflix.com/title/81924739",
-      "YouTube": "https://youtube.com/playlist?list=PLfX0BhjZoHNlzLJSi0-CPYQXfV_JPWPUh"
-    }
-  },
   "SUpv": {
     "title": "Chiikawa",
-    "day": 7,
+    "day": 4,
     "time": "3:40 PM",
     "cover": "chiikawa-c656267c1a",
     "streams": {
@@ -778,14 +766,6 @@
     },
     "status": true
   },
-  "t63O": {
-    "title": "Doko yori mo Tooi Basho ni Iru Kimi e",
-    "day": 4,
-    "time": "5:00 PM",
-    "cover": "doko-yori-mo-tooi-basho-ni-iru-kimi-e-b3d113c28fb96aaa46e198942729a172",
-    "streams": {},
-    "status": true
-  },
   "m1VI": {
     "title": "Kizu darake Seijo yori Houfuku wo Komete 2nd Season",
     "day": 4,
@@ -794,14 +774,6 @@
     "streams": {
       "YouTube": "https://www.youtube.com/playlist?list=PLcnM8O8NMtiU"
     },
-    "status": true
-  },
-  "1W95": {
-    "title": "Girls & Panzer: Saishuushou 5",
-    "day": 4,
-    "time": "5:00 PM",
-    "cover": "girls-und-panzer-saishuushou-5-9f377034d3b99a7833218ef8232b2a28",
-    "streams": {},
     "status": true
   },
   "MypA": {
@@ -843,14 +815,6 @@
       "Crunchyroll": "https://www.crunchyroll.com/series/GT00374493/rilakkuma",
       "YouTube": "https://www.youtube.com/playlist?list=PLwLSw1_eDZl39KDdjidupfewWK2xookSn"
     }
-  },
-  "lBen": {
-    "title": "Duel Masters LOST: Danzai no Shounen",
-    "day": 5,
-    "time": "5:00 AM",
-    "cover": "duel-masters-lost-danzai-no-shounen-32b7367a859d23d99945fc00c77eaee4",
-    "streams": {},
-    "status": true
   },
   "Ivsh": {
     "title": "Pan Dorobou",
@@ -995,19 +959,44 @@
     },
     "status": true
   },
-  "39fe": {
-    "title": "Yami Shibai 17",
-    "day": 7,
-    "time": "11:20 AM",
-    "cover": "yami-shibai-17-d192af157a4df4c533230fbd860b43c0",
-    "streams": {},
-    "status": true
-  },
   "erxh": {
     "title": "Yuusanchi! from Yuu-hachi",
     "day": 7,
     "time": "7:00 PM",
     "cover": "yuusanchi-from-yuu-hachi-6afa96f74f79e2af8421505aa998ebe5",
+    "streams": {},
+    "status": true
+  },
+  "VR6o": {
+    "title": "Chitose Is in the Ramune Bottle",
+    "day": 2,
+    "time": "7:00 AM",
+    "cover": "chitose-kun-wa-ramune-bin-no-naka-part-2-b45aa38396de0a46927039e4cdea24ed",
+    "streams": {
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00364783/chitose-is-in-the-ramune-bottle"
+    }
+  },
+  "RzH9": {
+    "title": "DARK MACHINE: The Animation",
+    "day": 2,
+    "time": "9:45 AM",
+    "cover": "dark-machine-the-animation-16a55ed9e5",
+    "streams": {},
+    "status": true
+  },
+  "5MZC": {
+    "title": "Seishun Buta Yarou wa Dear Friend no Yume wo Minai",
+    "day": 4,
+    "time": "5:00 PM",
+    "cover": "seishun-buta-yarou-wa-dear-friend-no-yume-wo-minai-6c388b3be755f9cdd23d35602197bb31",
+    "streams": {},
+    "status": true
+  },
+  "cUsk": {
+    "title": "BanG Dream! Ave Mujica: Prima Aurora",
+    "day": 4,
+    "time": "5:00 PM",
+    "cover": "bang-dream-ave-mujica-prima-aurora-1a03167123c7cded91f06bad6d7da9d7",
     "streams": {},
     "status": true
   }
