@@ -593,7 +593,7 @@
   "cXA2": {
     "title": "The World's Strongest Witch",
     "day": 3,
-    "time": "7:00 AM",
+    "time": "6:01 AM",
     "cover": "sekai-saikyou-no-majo-hajimemashita-2fca1a332f59402867842e0f2f939a1a",
     "streams": {
       "Apple": "https://apple.co/4rYdUVa",
@@ -606,7 +606,7 @@
     "title": "Magic Knight Rayearth (2026)",
     "day": 3,
     "time": "8:15 AM",
-    "cover": "magic-knight-rayearth-shin-anime-6fbe8cc3998fe4216deb816f18b74621",
+    "cover": "magic-knight-rayearth-shin-anime-f8973a4670f1bc8dc9cac8648e4f8788",
     "streams": {
       "Apple": "https://apple.co/4jKPQ5P",
       "Crunchyroll": "https://crunchyroll.com/series/GT00383994/magic-knight-rayearth-2026",
@@ -748,7 +748,7 @@
   },
   "SUpv": {
     "title": "Chiikawa",
-    "day": 4,
+    "day": 1,
     "time": "3:40 PM",
     "cover": "chiikawa-c656267c1a",
     "streams": {
@@ -970,34 +970,78 @@
   "VR6o": {
     "title": "Chitose Is in the Ramune Bottle",
     "day": 2,
-    "time": "7:00 AM",
+    "time": "9:30 AM",
     "cover": "chitose-kun-wa-ramune-bin-no-naka-part-2-b45aa38396de0a46927039e4cdea24ed",
     "streams": {
-      "Crunchyroll": "https://www.crunchyroll.com/series/GT00364783/chitose-is-in-the-ramune-bottle"
+      "Apple": "https://apple.co/48SSjWk",
+      "BiliBili": "https://www.bilibili.tv/media/2247268",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00364783/chitose-is-in-the-ramune-bottle",
+      "YouTube": "https://www.youtube.com/playlist?list=PLFs1uZVXjAys"
     }
   },
   "RzH9": {
-    "title": "DARK MACHINE: The Animation",
+    "title": "DARK MACHINE THE ANIMATION",
     "day": 2,
-    "time": "9:45 AM",
-    "cover": "dark-machine-the-animation-16a55ed9e5",
+    "time": "11:15 AM",
+    "cover": "dark-machine-the-animation-780e168f3c381e0e27911dcc278a3302",
+    "streams": {
+      "Apple": "https://apple.co/4ihdjdI",
+      "Crunchyroll": "https://www.crunchyroll.com/series/GT00383997",
+      "YouTube": "https://www.youtube.com/playlist?list=PLBnduRnF385A"
+    }
+  },
+  "i245": {
+    "title": "Cyberpunk: Edgerunners",
+    "day": 2,
+    "time": "12:01 AM",
+    "cover": "cyberpunk-edgerunners-ii-5d28e94bb4a8a075d979f48bcd0299ec",
+    "streams": {
+      "Netflix": "https://www.netflix.com/title/81744227"
+    }
+  },
+  "cCEJ": {
+    "title": "Made in Abyss: Mezameru Shinpi",
+    "day": 4,
+    "time": "5:00 PM",
+    "cover": "made-in-abyss-mezameru-shinpi-ff72d5e98f78b4c0790da8be43ecae53",
     "streams": {},
     "status": true
   },
-  "5MZC": {
-    "title": "Seishun Buta Yarou wa Dear Friend no Yume wo Minai",
+  "eeFG": {
+    "title": "Maebashi Witches: Majo Minarai no Emoemories",
     "day": 4,
     "time": "5:00 PM",
-    "cover": "seishun-buta-yarou-wa-dear-friend-no-yume-wo-minai-6c388b3be755f9cdd23d35602197bb31",
+    "cover": "maebashi-witches-movie-63f1692ca8cf566387e6d5529bcf1ef7",
     "streams": {},
     "status": true
   },
-  "cUsk": {
-    "title": "BanG Dream! Ave Mujica: Prima Aurora",
-    "day": 4,
-    "time": "5:00 PM",
-    "cover": "bang-dream-ave-mujica-prima-aurora-1a03167123c7cded91f06bad6d7da9d7",
+  "DqGO": {
+    "title": "Beyblade X",
+    "day": 5,
+    "time": "3:00 AM",
+    "cover": "beyblade-x-f02b468b74",
+    "streams": {
+      "Apple": "https://apple.co/4i07X3w",
+      "Hulu": "https://hulu.com/series/0e46c665-5191-407f-8dc5-e22a0095578c",
+      "Netflix": "https://netflix.com/title/81924739",
+      "YouTube": "https://youtube.com/playlist?list=PLfX0BhjZoHNlzLJSi0-CPYQXfV_JPWPUh"
+    }
+  },
+  "lBen": {
+    "title": "Duel Masters LOST: Danzai no Shounen",
+    "day": 5,
+    "time": "5:00 AM",
+    "cover": "duel-masters-lost-danzai-no-shounen-32b7367a859d23d99945fc00c77eaee4",
     "streams": {},
     "status": true
+  },
+  "mh83": {
+    "title": "My Happy Marriage",
+    "day": 7,
+    "time": "12:01 AM",
+    "cover": "watashi-no-shiawase-na-kekkon-shinsaku-anime-635157850b479a00229af617f1b990dd",
+    "streams": {
+      "Netflix": "https://www.netflix.com/title/81564905"
+    }
   }
 }
